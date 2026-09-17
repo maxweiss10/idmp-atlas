@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-07-30T19:14:08+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1722366848,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T18:38:34+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{223}\" paraid=\"1219052729\">Definition of Fever Without a Source: Temperature &gt;=38.0 C/100.4 F in an infant from one of the age groups below.&nbsp;</p>\n\n<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{229}\" paraid=\"549340614\">Age-appropriate culture evaluation per local algorithm should be completed before antibiotic administration.&nbsp;</p>\n\n<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{239}\" paraid=\"1895115047\">Modification of therapy is indicated if a focal source is identified or suspected:&nbsp;</p>\n\n<ul>\n\t<li paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{249}\" paraid=\"1097865830\">Refer to&nbsp;<a href=\"/content/severe-sepsis-previously-healthy-infant-or-child\">Severe Sepsis</a>&nbsp;section for infants who meet criteria for severe sepsis. &nbsp;</li>\n\t<li paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{249}\" paraid=\"1097865830\">Refer to&nbsp;<a href=\"/content/meningitis-0\">Meningitis</a>&nbsp;section if meningitis is suspected based on specific clinical signs (e.g. seizure, neurologic changes) or symptoms or CSF pleocytosis. </li>\n\t<li paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{9}\" paraid=\"1896937875\">Refer to&nbsp;<a href=\"/content/neonatal-herpes-simplex-virus-disease\">Herpes Simplex Virus</a>&nbsp;section if neonatal HSV is suspected. &nbsp;</li>\n\t<li paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{31}\" paraid=\"985306500\">Consult ID for suspected bone or joint infection. &nbsp;</li>\n\t<li paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{38}\" paraid=\"587641788\">Conventional antibiotics used for fever without a source do not provide sufficient activity for common skin flora - additional gram-positive coverage is needed if signs of skin/soft tissue infection are present.<em> &nbsp;</em></li>\n</ul>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Fever without a source</p>\n\n\t\t\t<p>0-28 days, community-onset, previously healthy (admitted from home), without symptoms or signs indicating high suspicion for meningitis (applies to most infants undergoing evaluation)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{90}\" paraid=\"1316580925\">Enteric gram- negative bacteria&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{100}\" paraid=\"216810220\">Group B streptococcus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{106}\" paraid=\"1590696709\"> &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{113}\" paraid=\"1890151680\">Ampicillin *&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{123}\" paraid=\"912768624\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{133}\" paraid=\"1831805761\">Gentamicin*&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{143}\" paraid=\"1935821212\">Acyclovir should not be routinely added based on fever alone - refer to&nbsp;<a href=\"/content/neonatal-herpes-simplex-virus-disease\">Herpes Simplex Virus</a>&nbsp;section for indications&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong>Eligible&nbsp;per local evaluation algorithm (BCH OAK refer to <a href=\"https://ucsf.box.com/s/f49uvrab4dsq3rvehfxg44mk536ts88m\">REVISE algorithm</a>&nbsp;- link requires password log in to Box) or other clinical pathway:</strong>&nbsp;&nbsp;</p>\n\n\t\t\t<p>For patients age 22-28 days treated via defined evaluation pathway enabling discharge without hospitalization per <a href=\"https://publications.aap.org/pediatrics/article/148/2/e2021052228/179783/Clinical-Practice-Guideline-Evaluation-and?autologincheck=redirected?nfToken=00000000-0000-0000-0000-000000000000\">AAP guidelines</a>, may follow pathway-recommended first choice therapy.</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{159}\" paraid=\"2018993792\">Refer to&nbsp;<a href=\"/neonatal-antimicrobial-dosing-benioff-childrens-hospitals\">Neonatal Dosing Guideline</a>&nbsp;for antibiotic doses and intervals&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{173}\" paraid=\"1516613127\">Therapy should not be broadened based on ongoing fever alone. Many infections in this age group are viral. Consider evaluation and testing for viral infection based on clinical presentation.&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{181}\" paraid=\"1623334219\">Fever without a source&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{181}\" paraid=\"1623334219\">29-60 days old, community-onset, previously healthy (presenting from home), without symptoms or signs indicating high suspicion for meningitis (applies&nbsp;to most infants undergoing evaluation)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{198}\" paraid=\"916522651\"><em>Streptococcus pneumoniae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{208}\" paraid=\"241805021\">Enteric gram-negative bacteria&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{214}\" paraid=\"104017332\">Group B streptococcus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{224}\" paraid=\"319906725\"> &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{231}\" paraid=\"489191475\"><strong>Eligible for observation without antibiotics per local evaluation algorithm (BCH OAK refer to <a href=\"https://ucsf.box.com/s/33hqcu628t3kujxf4y9o9h6pbnlhfekl\">REVISE algorithm</a>&nbsp;- link requires password log in to Box)</strong>:&nbsp;&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{237}\" paraid=\"882379879\">Antibiotic treatment is not indicated&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{247}\" paraid=\"625901369\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{2}\" paraid=\"447643486\"><strong>Empiric antibiotic recommended per local evaluation algorithm</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{16}\" paraid=\"1462513240\">Ceftriaxone 50 mg/kg/dose IV q24h&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{26}\" paraid=\"855946551\">Acyclovir should not be routinely added based on fever alone - refer to&nbsp;<a href=\"/content/neonatal-herpes-simplex-virus-disease\">Herpes Simplex Virus</a>&nbsp;section for indications&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{44}\" paraid=\"658831858\">Therapy should not be broadened based on ongoing fever alone. Many infections in this age group are viral. Consider evaluation and testing for viral infection based on clinical presentation&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{54}\" paraid=\"1248785478\">Refer to&nbsp;<a href=\"/content/urinary-tract-infections-community-onset\">Urinary Tract Infection</a>&nbsp;section if initial evaluation indicates UTI is likely (pyuria on urinalysis). Initial oral therapy may be appropriate based on evaluating provider discretion&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{223}\" paraid=\"1219052729\">Definition of Fever Without a Source: Temperature &gt;=38.0 C/100.4 F in an infant from one of the age groups below.&nbsp;</p>\r\n\r\n<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{229}\" paraid=\"549340614\">Age-appropriate culture evaluation per local algorithm should be completed before antibiotic administration.&nbsp;</p>\r\n\r\n<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{239}\" paraid=\"1895115047\">Modification of therapy is indicated if a focal source is identified or suspected:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{249}\" paraid=\"1097865830\">Refer to&nbsp;<a href=\"/node/13461\">Severe Sepsis</a>&nbsp;section for infants who meet criteria for severe sepsis. &nbsp;</li>\r\n\t<li paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{249}\" paraid=\"1097865830\">Refer to&nbsp;<a href=\"/node/13326\">Meningitis</a>&nbsp;section if meningitis is suspected based on specific clinical signs (e.g. seizure, neurologic changes) or symptoms or CSF pleocytosis. </li>\r\n\t<li paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{9}\" paraid=\"1896937875\">Refer to&nbsp;<a href=\"/node/13341\">Herpes Simplex Virus</a>&nbsp;section if neonatal HSV is suspected. &nbsp;</li>\r\n\t<li paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{31}\" paraid=\"985306500\">Consult ID for suspected bone or joint infection. &nbsp;</li>\r\n\t<li paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{38}\" paraid=\"587641788\">Conventional antibiotics used for fever without a source do not provide sufficient activity for common skin flora - additional gram-positive coverage is needed if signs of skin/soft tissue infection are present.<em> &nbsp;</em></li>\r\n</ul>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Fever without a source</p>\r\n\r\n\t\t\t<p>0-28 days, community-onset, previously healthy (admitted from home), without symptoms or signs indicating high suspicion for meningitis (applies to most infants undergoing evaluation)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{90}\" paraid=\"1316580925\">Enteric gram- negative bacteria&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{100}\" paraid=\"216810220\">Group B streptococcus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{106}\" paraid=\"1590696709\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{113}\" paraid=\"1890151680\">Ampicillin *&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{123}\" paraid=\"912768624\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{133}\" paraid=\"1831805761\">Gentamicin*&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{143}\" paraid=\"1935821212\">Acyclovir should not be routinely added based on fever alone - refer to&nbsp;<a href=\"/node/13341\">Herpes Simplex Virus</a>&nbsp;section for indications&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Eligible&nbsp;per local evaluation algorithm (BCH OAK refer to <a href=\"https://ucsf.box.com/s/f49uvrab4dsq3rvehfxg44mk536ts88m\">REVISE algorithm</a>&nbsp;- link requires password log in to Box) or other clinical pathway:</strong>&nbsp;&nbsp;</p>\r\n\r\n\t\t\t<p>For patients age 22-28 days treated via defined evaluation pathway enabling discharge without hospitalization per <a href=\"https://publications.aap.org/pediatrics/article/148/2/e2021052228/179783/Clinical-Practice-Guideline-Evaluation-and?autologincheck=redirected?nfToken=00000000-0000-0000-0000-000000000000\">AAP guidelines</a>, may follow pathway-recommended first choice therapy.</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{159}\" paraid=\"2018993792\">Refer to&nbsp;<a href=\"/node/7351\">Neonatal Dosing Guideline</a>&nbsp;for antibiotic doses and intervals&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{173}\" paraid=\"1516613127\">Therapy should not be broadened based on ongoing fever alone. Many infections in this age group are viral. Consider evaluation and testing for viral infection based on clinical presentation.&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{181}\" paraid=\"1623334219\">Fever without a source&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{181}\" paraid=\"1623334219\">29-60 days old, community-onset, previously healthy (presenting from home), without symptoms or signs indicating high suspicion for meningitis (applies&nbsp;to most infants undergoing evaluation)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{198}\" paraid=\"916522651\"><em>Streptococcus pneumoniae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{208}\" paraid=\"241805021\">Enteric gram-negative bacteria&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{214}\" paraid=\"104017332\">Group B streptococcus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{224}\" paraid=\"319906725\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{231}\" paraid=\"489191475\"><strong>Eligible for observation without antibiotics per local evaluation algorithm (BCH OAK refer to <a href=\"https://ucsf.box.com/s/33hqcu628t3kujxf4y9o9h6pbnlhfekl\">REVISE algorithm</a>&nbsp;- link requires password log in to Box)</strong>:&nbsp;&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{237}\" paraid=\"882379879\">Antibiotic treatment is not indicated&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c00beff5-3dcf-4749-a11c-04141db554f1}{247}\" paraid=\"625901369\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{2}\" paraid=\"447643486\"><strong>Empiric antibiotic recommended per local evaluation algorithm</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{16}\" paraid=\"1462513240\">Ceftriaxone 50 mg/kg/dose IV q24h&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{26}\" paraid=\"855946551\">Acyclovir should not be routinely added based on fever alone - refer to&nbsp;<a href=\"/node/13341\">Herpes Simplex Virus</a>&nbsp;section for indications&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{44}\" paraid=\"658831858\">Therapy should not be broadened based on ongoing fever alone. Many infections in this age group are viral. Consider evaluation and testing for viral infection based on clinical presentation&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{54}\" paraid=\"1248785478\">Refer to&nbsp;<a href=\"/node/13526\">Urinary Tract Infection</a>&nbsp;section if initial evaluation indicates UTI is likely (pyuria on urinalysis). Initial oral therapy may be appropriate based on evaluating provider discretion&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 161,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e9e098f9-0081-4408-b491-927824f0c523",
+   "url": "/guidelines-empiric-therapy-categories/sepsis-source-unknown-and-other-nonfocal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{70}\" paraid=\"513498709\">References: &nbsp;</h2>\n\n<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{76}\" paraid=\"1233036765\">Greenhow TG, Cantey JB. <a href=\"https://hosppeds.aappublications.org/content/early/2017/07/18/hpeds.2017-0101\">The disputed champion: ampicillin and gentamicin for febrile young infants</a>. Hosp Pediatr 2017;7:499-501.&nbsp;</p>\n\n<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{86}\" paraid=\"521038001\">Bruno E, et al. <a href=\"https://www.jem-journal.com/article/S0736-4679(17)30993-9/fulltext\">During the emergency department evaluation of a well-appearing neonate with fever, should empiric acyclovir be initiated?</a> Clinical Practice Guideline, American Academy of Emergency Medicine, 2017. &nbsp;</p>\n\n<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{96}\" paraid=\"208589781\">Leazer R, et al. <a href=\"https://hosppeds.aappublications.org/content/6/4/187.long\">A meta-analysis of the rates of&nbsp;<em>Listeria monocytogenes</em>&nbsp;and&nbsp;<em>Enterococcus</em>&nbsp;in febrile infants</a>. Hosp Pediatr 2016;6:187-195.&nbsp;</p>\n\n<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{110}\" paraid=\"13407503\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n\n<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{142}\" paraid=\"2057664990\">&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{70}\" paraid=\"513498709\">References: &nbsp;</h2>\r\n\r\n<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{76}\" paraid=\"1233036765\">Greenhow TG, Cantey JB. <a href=\"https://hosppeds.aappublications.org/content/early/2017/07/18/hpeds.2017-0101\">The disputed champion: ampicillin and gentamicin for febrile young infants</a>. Hosp Pediatr 2017;7:499-501.&nbsp;</p>\r\n\r\n<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{86}\" paraid=\"521038001\">Bruno E, et al. <a href=\"https://www.jem-journal.com/article/S0736-4679(17)30993-9/fulltext\">During the emergency department evaluation of a well-appearing neonate with fever, should empiric acyclovir be initiated?</a> Clinical Practice Guideline, American Academy of Emergency Medicine, 2017. &nbsp;</p>\r\n\r\n<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{96}\" paraid=\"208589781\">Leazer R, et al. <a href=\"https://hosppeds.aappublications.org/content/6/4/187.long\">A meta-analysis of the rates of&nbsp;<em>Listeria monocytogenes</em>&nbsp;and&nbsp;<em>Enterococcus</em>&nbsp;in febrile infants</a>. Hosp Pediatr 2016;6:187-195.&nbsp;</p>\r\n\r\n<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{110}\" paraid=\"13407503\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n\r\n<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{142}\" paraid=\"2057664990\">&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13376
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/fever-without-a-source-young-infant",
+   "langcode": "und",
+   "pid": 26031
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-07-30T19:14:08+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Fever Without a Source - Young Infant "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "0d05ddfa-4bf3-416f-805d-260ed511bde5"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15961
+  }
+ ]
+}

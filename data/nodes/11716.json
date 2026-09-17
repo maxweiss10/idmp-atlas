@@ -1,0 +1,144 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:53+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597345151,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T18:59:11+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl ≥50 mL/min</th>\n\t\t\t<th>30-49 mL/min</th>\n\t\t\t<th>10-29 mL/min</th>\n\t\t\t<th>&lt;10 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Respiratory Syncytial Virus (RSV)</p>\n\n\t\t\t<p><em>Use total body weight for dosing</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>40-49 kg = 400 mg PO&nbsp;q12h</p>\n\n\t\t\t<p>50-59 kg = 400 mg PO qAM PLUS 600 mg PO qPM</p>\n\n\t\t\t<p>60-69 kg = 600 mg PO q12h</p>\n\n\t\t\t<p>70-79 kg = 600 mg PO qAM PLUS 800 mg PO qPM</p>\n\n\t\t\t<p>80-89 kg = 800 mg PO q12h</p>\n\n\t\t\t<p>90 kg or greater = 600 mg PO q8h</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>40-59 kg = 200 mg PO q12h</p>\n\n\t\t\t<p>60 kg or greater = 200 mg PO q8h</p>\n\t\t\t</td>\n\t\t\t<td>200 mg PO daily</td>\n\t\t\t<td>200 mg PO daily (consider contacting ID/ASP pharmacist)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Hepatitis C</td>\n\t\t\t<td colspan=\"4\" rowspan=\"1\" style=\"text-align: center;\">Dosing is highly individualized. Refer to&nbsp;<a data-auth=\"NotApplicable\" data-linkindex=\"0\" href=\"http://www.hcvguidelines.org/\" id=\"LPlnk330015\" rel=\"noopener noreferrer\" target=\"_blank\">www.hcvguidelines.org</a>&nbsp;for detailed information on appropriate indications for ribavirin in the treatment of hepatitis C infection.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl ≥50 mL/min</th>\r\n\t\t\t<th>30-49 mL/min</th>\r\n\t\t\t<th>10-29 mL/min</th>\r\n\t\t\t<th>&lt;10 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Respiratory Syncytial Virus (RSV)</p>\r\n\r\n\t\t\t<p><em>Use total body weight for dosing</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>40-49 kg = 400 mg PO&nbsp;q12h</p>\r\n\r\n\t\t\t<p>50-59 kg = 400 mg PO qAM PLUS 600 mg PO qPM</p>\r\n\r\n\t\t\t<p>60-69 kg = 600 mg PO q12h</p>\r\n\r\n\t\t\t<p>70-79 kg = 600 mg PO qAM PLUS 800 mg PO qPM</p>\r\n\r\n\t\t\t<p>80-89 kg = 800 mg PO q12h</p>\r\n\r\n\t\t\t<p>90 kg or greater = 600 mg PO q8h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>40-59 kg = 200 mg PO q12h</p>\r\n\r\n\t\t\t<p>60 kg or greater = 200 mg PO q8h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>200 mg PO daily</td>\r\n\t\t\t<td>200 mg PO daily (consider contacting ID/ASP pharmacist)</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Hepatitis C</td>\r\n\t\t\t<td colspan=\"4\" rowspan=\"1\" style=\"text-align: center;\">Dosing is highly individualized. Refer to&nbsp;<a data-auth=\"NotApplicable\" data-linkindex=\"0\" href=\"http://www.hcvguidelines.org/\" id=\"LPlnk330015\" rel=\"noopener noreferrer\" target=\"_blank\">www.hcvguidelines.org</a>&nbsp;for detailed information on appropriate indications for ribavirin in the treatment of hepatitis C infection.</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Respiratory Syncytial Virus (RSV)</p>\n\n\t\t\t<p><em>Use total body weight for dosing</em></p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">200 mg PO daily (give daily - on days of hemodialysis, give dose afterwards)</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>40-59 kg = 200 mg PO q12h</p>\n\n\t\t\t<p>60 kg or greater = 200 mg PO q8h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Hepatitis C</td>\n\t\t\t<td colspan=\"2\" style=\"text-align: center;\">\n\t\t\t<p>Dosing is highly individualized. Refer to&nbsp;<a data-auth=\"NotApplicable\" data-linkindex=\"0\" href=\"http://www.hcvguidelines.org/\" id=\"LPlnk330015\" rel=\"noopener noreferrer\" target=\"_blank\">www.hcvguidelines.org</a>&nbsp;for detailed information on appropriate indications for ribavirin in the treatment of hepatitis C infection.</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Respiratory Syncytial Virus (RSV)</p>\r\n\r\n\t\t\t<p><em>Use total body weight for dosing</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">200 mg PO daily (give daily - on days of hemodialysis, give dose afterwards)</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>40-59 kg = 200 mg PO q12h</p>\r\n\r\n\t\t\t<p>60 kg or greater = 200 mg PO q8h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Hepatitis C</td>\r\n\t\t\t<td colspan=\"2\" style=\"text-align: center;\">\r\n\t\t\t<p>Dosing is highly individualized. Refer to&nbsp;<a data-auth=\"NotApplicable\" data-linkindex=\"0\" href=\"http://www.hcvguidelines.org/\" id=\"LPlnk330015\" rel=\"noopener noreferrer\" target=\"_blank\">www.hcvguidelines.org</a>&nbsp;for detailed information on appropriate indications for ribavirin in the treatment of hepatitis C infection.</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p><strong>For treatment of respiratory syncytial virus (RSV) in adult patients at UCSF, refer to the <a href=\"/content/rsv-treatment\">RSV Treatment Guideline</a>.</strong></p>\n",
+   "value": "<p><strong>For treatment of respiratory syncytial virus (RSV) in adult patients at UCSF, refer to the <a href=\"/content/rsv-treatment\">RSV Treatment Guideline</a>.</strong></p>\r\n"
+  }
+ ],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "12/13/23: Updated to include RSV dosing per adult RSV guideline (+ removed HCV dosing and called this out as a separate indication after discussion with David Quan) -EK"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11716
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ribavirin",
+   "langcode": "und",
+   "pid": 24431
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Ribavirin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d666539b-d80e-4193-b076-3c028105c708"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23921
+  }
+ ]
+}

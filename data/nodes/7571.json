@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-30T16:35:00+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1679088240,
+   "last_comment_uid": 0,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-13T22:32:17+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Antimicrobial susceptibility reports (antibiograms) for Zuckerberg San Francisco General</h2><h3>Current Antibiogram</h3><ul><li><a href=\"https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/2022%20ZFGH%20Antibiogram%20inDesign.pdf\">2022 Antibiogram</a></li></ul><h2>Antimicrobial susceptibility reports (antibiograms) for Laguna Honda Hospital</h2><h3>Current Antibiogram</h3><ul><li><a href=\"https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/lhh-antibiogram-2024.pdf\">2024 Antibiogram</a></li></ul>",
+   "value": "<h2>Antimicrobial susceptibility reports (antibiograms) for Zuckerberg San Francisco General</h2><h3>Current Antibiogram</h3><ul><li><a href=\"https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/2022%20ZFGH%20Antibiogram%20inDesign.pdf\">2022 Antibiogram</a></li></ul><h2>Antimicrobial susceptibility reports (antibiograms) for Laguna Honda Hospital</h2><h3>Current Antibiogram</h3><ul><li><a href=\"https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/lhh-antibiogram-2024.pdf\">2024 Antibiogram</a></li></ul>"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 7571
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/antimicrobial-susceptibility-at-zuckerberg-san-francisco-general-laguna-honda-hospital",
+   "langcode": "und",
+   "pid": 20646
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-03-19T23:09:04+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Antimicrobial Susceptibility at Zuckerberg San Francisco General & Laguna Honda Hospital"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d0b643e6-a0cf-4411-98e0-d1aeecae0a66"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24276
+  }
+ ]
+}

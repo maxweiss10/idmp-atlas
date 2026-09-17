@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "comment_node_ucsf_publication": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1782696201,
+   "last_comment_uid": 0,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-03-06T08:00:00+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_publication_authorlist": [
+  {
+   "format": null,
+   "processed": "<p>Young Holt B, Hemmerling A, Moore S, Yang K</p>\n",
+   "value": "Young Holt B, Hemmerling A, Moore S, Yang K"
+  }
+ ],
+ "field_publication_id": [
+  {
+   "value": "https://researcherprofiles.org/profile/375930179"
+  }
+ ],
+ "field_publication_name": [
+  {
+   "target_id": 2226,
+   "target_type": "taxonomy_term",
+   "target_uuid": "7464be24-fda8-46fc-ad27-88ec893cb19f",
+   "url": "/publications/sexually-transmitted-infections"
+  }
+ ],
+ "field_publication_pubmedid": [
+  {
+   "value": "36878691"
+  }
+ ],
+ "field_publication_title": [
+  {
+   "format": null,
+   "processed": "<p>Young Holt B, Hemmerling A, Moore S, Yang K. Expanding the pipeline for multipurpose prevention technologies: compounds with potential activity to prevent or treat HIV and other STIs. Sex Transm Infect. 2023 05; 99(3):203-207.</p>\n",
+   "value": "Young Holt B, Hemmerling A, Moore S, Yang K. Expanding the pipeline for multipurpose prevention technologies: compounds with potential activity to prevent or treat HIV and other STIs. Sex Transm Infect. 2023 05; 99(3):203-207."
+  }
+ ],
+ "field_publication_year": [
+  {
+   "value": "2023"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 18221
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/expanding-the-pipeline-for-multipurpose-prevention-technologies-compounds-with-potential-activity-to",
+   "langcode": "und",
+   "pid": 31221
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Expanding the pipeline for multipurpose prevention technologies: compounds with potential activity to prevent or treat HIV and other STIs."
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_publication",
+   "target_type": "node_type",
+   "target_uuid": "aab43f59-8b93-481f-9f49-a929dc92e1dd"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "66aeb79b-f90c-40eb-8c0e-e56804943d3f"
+  }
+ ],
+ "vid": [
+  {
+   "value": 26856
+  }
+ ]
+}

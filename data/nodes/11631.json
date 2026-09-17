@@ -1,0 +1,157 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597336039,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T16:27:19+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dosing</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>\n\t\t\t<p>1mg/kg IV q12h</p>\n\n\t\t\t<p><u>Concomitant strong CYP3A4 Inducers</u>: 1.5 mg/kg IV q12h</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>No dose adjustment for renal dysfunction</p>\n\n\t\t\t<p><u>Severe hepatic impairment</u>: 1 mg/kg IV q12h x2 doses, then 1 mg/kg IV q24h</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>ZSFG: Non-formulary</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dosing</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1mg/kg IV q12h</p>\r\n\r\n\t\t\t<p><u>Concomitant strong CYP3A4 Inducers</u>: 1.5 mg/kg IV q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>No dose adjustment for renal dysfunction</p>\r\n\r\n\t\t\t<p><u>Severe hepatic impairment</u>: 1 mg/kg IV q12h x2 doses, then 1 mg/kg IV q24h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>ZSFG: Non-formulary</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dosing</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>\n\t\t\t<p>1mg/kg IV q12h</p>\n\n\t\t\t<p><u>Concomitant strong CYP3A4 Inducers</u>: 1.5 mg/kg IV q12h</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>No dose adjustment for hemodialysis</p>\n\n\t\t\t<p><u>Severe hepatic impairment</u>: 1 mg/kg IV q12h x2 doses, then 1 mg/kg IV q24h</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dosing</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1mg/kg IV q12h</p>\r\n\r\n\t\t\t<p><u>Concomitant strong CYP3A4 Inducers</u>: 1.5 mg/kg IV q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>No dose adjustment for hemodialysis</p>\r\n\r\n\t\t\t<p><u>Severe hepatic impairment</u>: 1 mg/kg IV q12h x2 doses, then 1 mg/kg IV q24h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 2071,
+   "target_type": "taxonomy_term",
+   "target_uuid": "113b1eea-344e-4c0f-8763-19af94a6e543",
+   "url": "/dosing-weights/total-body-weight"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship&nbsp;</p>\n\n<p>ZSFG: Non-formulary</p>\n",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship&nbsp;</p>\r\n\r\n<p>ZSFG: Non-formulary</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "Added TBW on 05/08/24 (RJ)"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11631
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/eravacycline",
+   "langcode": "und",
+   "pid": 24351
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Eravacycline"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "0c13c18d-2c83-469b-8168-d84c31f837c8"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21866
+  }
+ ]
+}

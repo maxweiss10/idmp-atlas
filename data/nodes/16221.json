@@ -1,0 +1,126 @@
+{
+ "body": [],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-03-24T22:15:28+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1774389926,
+   "last_comment_uid": 491,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-03-24T21:50:15+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 2056,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d33513ec-e983-4f6e-800a-d127381ae83b",
+   "url": "/guideline-categories/therapeutic-drug-monitoring"
+  }
+ ],
+ "field_guideline_modified_date": [],
+ "field_guideline_site": [
+  {
+   "target_id": 461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8d5e5d55-c79c-480c-8d58-ff9c4b488fcf",
+   "url": "/site/ucsf-benioff-childrens-hospital-oakland"
+  },
+  {
+   "target_id": 456,
+   "target_type": "taxonomy_term",
+   "target_uuid": "bd66daca-f848-4cc8-be1f-0ecfd8e9aad4",
+   "url": "/site/ucsf-benioff-childrens-hospital-san-francisco"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1586,
+   "target_type": "media",
+   "target_uuid": "c168580b-f75f-4c4c-9d88-d89aeac9ba42",
+   "url": "/document/bayesian-tdm-job-aid-aminoglycosides-vancomycin-pediatric-pdf-0-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 16221
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/bayesian-tdm-job-aid-aminoglycosides-vancomycin-pediatric",
+   "langcode": "und",
+   "pid": 28936
+  }
+ ],
+ "promote": [
+  {
+   "value": true
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-03-24T22:05:26+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Bayesian TDM Job Aid: Aminoglycosides & Vancomycin (Pediatric)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "78560f28-20f1-4a90-8477-b05ce57ecfb0"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24781
+  }
+ ]
+}

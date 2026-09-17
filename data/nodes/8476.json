@@ -1,0 +1,139 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-01T22:24:18+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587573641,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T16:40:41+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dose</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><em>Clostridioides difficile </em>infection: initial episode, non-fulminant</td>\n\t\t\t<td>125 mg PO QID</td>\n\t\t\t<td rowspan=\"2\">No renal dose adjustment</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><em>Clostridioides difficile </em>infection: fulminant</td>\n\t\t\t<td>500 mg PO QID*</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dose</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><em>Clostridioides difficile </em>infection: initial episode, non-fulminant</td>\r\n\t\t\t<td>125 mg PO QID</td>\r\n\t\t\t<td rowspan=\"2\">No renal dose adjustment</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><em>Clostridioides difficile </em>infection: fulminant</td>\r\n\t\t\t<td>500 mg PO QID*</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td><em>Clostridioides difficile </em>infection: non-fulminant</td><td>125 mg PO QID</td><td rowspan=\"2\">No dose adjustment in hemodialysis</td></tr><tr><td><em>Clostridioides difficile </em>infection: fulminant</td><td>500 mg PO QID</td></tr></tbody></table>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td><em>Clostridioides difficile </em>infection: non-fulminant</td><td>125 mg PO QID</td><td rowspan=\"2\">No dose adjustment in hemodialysis</td></tr><tr><td><em>Clostridioides difficile </em>infection: fulminant</td><td>500 mg PO QID</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>*Consider additional rectal instillation</p><p>See IDMP guidelines for greater detail and vancomycin taper dosing: <a href=\"https://idmp.ucsf.edu/content/clostridioides-difficile-infection-0\">Adult C. difficile Infection Guideline</a></p>",
+   "value": "<p>*Consider additional rectal instillation</p><p>See IDMP guidelines for greater detail and vancomycin taper dosing: <a href=\"https://idmp.ucsf.edu/content/clostridioides-difficile-infection-0\">Adult C. difficile Infection Guideline</a></p>"
+  }
+ ],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>PO vancomycin is NOT sufficiently absorbed to treat systemic infections</p>",
+   "value": "<p>PO vancomycin is NOT sufficiently absorbed to treat systemic infections</p>"
+  }
+ ],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8476
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/vancomycin-po",
+   "langcode": "und",
+   "pid": 21361
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-01T22:24:18+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Vancomycin PO"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "2dc42790-9090-479e-a7d1-d9b22232d324"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24876
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<p><strong>Evaluation of a patient with possible tuberculosis in the outpatient setting</strong></p><ol><li data-list-item-id=\"e1d43165316c40dc0ed118b7f468808ca\">Provide the patient with a surgical (isolation) mask and instruct them to keep it on over their<br>nose and mouth at all times while in the facility.</li><li data-list-item-id=\"e5a1b0cb3fb369410e18bd83105c4c32e\">The patient should not stay in a shared waiting area and instead should be brought to a wellventilated<br>space, such as a room with an open window or HEPA filter.</li><li data-list-item-id=\"ec3ddecb34b2f11eeeb184a3fd11537e5\">If an exam room under negative pressure is not available in the clinic, then the patient should<br>be promptly assessed in a private room.<ol><li data-list-item-id=\"e8c721cf0159763cf38173e90d0bf77d5\">Ideally, total visit time should be under five hours.</li><li data-list-item-id=\"e52103d5694065e71745351e5e3bd2a81\">After the patient leaves, keep the room empty with the door closed for one hour to allow<br>full air exchange to occur.</li></ol></li><li data-list-item-id=\"e3981f977b37730d2dc369e614611eb59\">N95 respirators shall be worn by any staff interviewing, testing or transporting patients with<br>signs or symptoms of active TB.</li><li data-list-item-id=\"eb5b4740387611097b562f105169568d4\">Limit patient movement throughout the facility, e.g. draw labs in exam room, have prescriptions<br>called ahead for expedited patient pick up or delivered to the patient.</li><li data-list-item-id=\"e9a8c05ba3247791b962210c1647d057a\">If the patient cannot produce expectorated sputa samples (see video link below) then you can<br>place an order for sputum induction at Ft Miley. You will need to call Respiratory Therapy<br>(x24475) in addition to placing the induction order.</li><li data-list-item-id=\"e8ffd7490fe31d5ef0e7186a2e3bee10e\">Instruct the patient to wear an isolation mask while out in public.</li><li data-list-item-id=\"eb7e4474b02968092d805f7fe7dc80f40\"><p>Please ensure the patient’s contact information is updated in CPRS (ideally 2 means of<br>contact).</p><p><br><u>Resources:</u><br>SF TB Clinic: (628) 206-8524<br>Sputum collection video for patients: <a href=\"https://www.youtube.com/watch?v=Vs9DWzuvXUc\">https://www.youtube.com/watch?v=Vs9DWzuvXUc</a><br>SF TB clinic links: <a href=\"https://www.sf.gov/tuberculosis-resources-for-health-professionals\">https://www.sf.gov/tuberculosis-resources-for-health-professionals</a></p></li></ol>",
+   "summary": "",
+   "value": "<p><strong>Evaluation of a patient with possible tuberculosis in the outpatient setting</strong></p><ol><li data-list-item-id=\"e1d43165316c40dc0ed118b7f468808ca\">Provide the patient with a surgical (isolation) mask and instruct them to keep it on over their<br>nose and mouth at all times while in the facility.</li><li data-list-item-id=\"e5a1b0cb3fb369410e18bd83105c4c32e\">The patient should not stay in a shared waiting area and instead should be brought to a wellventilated<br>space, such as a room with an open window or HEPA filter.</li><li data-list-item-id=\"ec3ddecb34b2f11eeeb184a3fd11537e5\">If an exam room under negative pressure is not available in the clinic, then the patient should<br>be promptly assessed in a private room.<ol><li data-list-item-id=\"e8c721cf0159763cf38173e90d0bf77d5\">Ideally, total visit time should be under five hours.</li><li data-list-item-id=\"e52103d5694065e71745351e5e3bd2a81\">After the patient leaves, keep the room empty with the door closed for one hour to allow<br>full air exchange to occur.</li></ol></li><li data-list-item-id=\"e3981f977b37730d2dc369e614611eb59\">N95 respirators shall be worn by any staff interviewing, testing or transporting patients with<br>signs or symptoms of active TB.</li><li data-list-item-id=\"eb5b4740387611097b562f105169568d4\">Limit patient movement throughout the facility, e.g. draw labs in exam room, have prescriptions<br>called ahead for expedited patient pick up or delivered to the patient.</li><li data-list-item-id=\"e9a8c05ba3247791b962210c1647d057a\">If the patient cannot produce expectorated sputa samples (see video link below) then you can<br>place an order for sputum induction at Ft Miley. You will need to call Respiratory Therapy<br>(x24475) in addition to placing the induction order.</li><li data-list-item-id=\"e8ffd7490fe31d5ef0e7186a2e3bee10e\">Instruct the patient to wear an isolation mask while out in public.</li><li data-list-item-id=\"eb7e4474b02968092d805f7fe7dc80f40\"><p>Please ensure the patient’s contact information is updated in CPRS (ideally 2 means of<br>contact).</p><p><br><u>Resources:</u><br>SF TB Clinic: (628) 206-8524<br>Sputum collection video for patients: <a href=\"https://www.youtube.com/watch?v=Vs9DWzuvXUc\">https://www.youtube.com/watch?v=Vs9DWzuvXUc</a><br>SF TB clinic links: <a href=\"https://www.sf.gov/tuberculosis-resources-for-health-professionals\">https://www.sf.gov/tuberculosis-resources-for-health-professionals</a></p></li></ol>"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-26T15:19:05+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1779668292,
+   "last_comment_uid": 611,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-24T23:47:57+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2026-04-15"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 471,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee7b224f-cfca-453f-9d7e-9ba9f50edf24",
+   "url": "/site/va-medical-center-san-francisco"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 16286
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/vasf-outpatient-tuberculosis-evaluation",
+   "langcode": "und",
+   "pid": 29276
+  }
+ ],
+ "promote": [
+  {
+   "value": true
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-25T00:17:42+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "VASF Outpatient Tuberculosis Evaluation"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "51cb0cde-8c52-4c8c-830f-30d3e68d2069"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24911
+  }
+ ]
+}

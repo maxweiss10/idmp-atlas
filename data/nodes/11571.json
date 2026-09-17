@@ -1,0 +1,157 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597260598,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-12T19:29:58+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">Dose</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>2.4 mg/kg IV at 0 hours, 12 hours, and 24 hours, followed by 2.4 mg/kg IV q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">Dose</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>2.4 mg/kg IV at 0 hours, 12 hours, and 24 hours, followed by 2.4 mg/kg IV q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">HD or CRRT</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>2.4 mg/kg IV at 0 hours, 12 hours, and 24 hours, followed by 2.4 mg/kg IV q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">HD or CRRT</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>2.4 mg/kg IV at 0 hours, 12 hours, and 24 hours, followed by 2.4 mg/kg IV q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 2071,
+   "target_type": "taxonomy_term",
+   "target_uuid": "113b1eea-344e-4c0f-8763-19af94a6e543",
+   "url": "/dosing-weights/total-body-weight"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship</p>\n",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "RJ - added TBW on 05/08/24 "
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11571
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/artesunate",
+   "langcode": "und",
+   "pid": 24291
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Artesunate"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "e2350af7-0361-4338-8d95-28e978925e20"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21811
+  }
+ ]
+}

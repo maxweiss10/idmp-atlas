@@ -1,0 +1,127 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597341806,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T18:03:26+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt; 60 mL/min</th>\n\t\t\t<th>&lt; 60 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Cystitis Treatment</td>\n\t\t\t<td>100 mg PO q12h</td>\n\t\t\t<td rowspan=\"2\">Data limited for CrCl&lt;60 mL/min; consider alternatives</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Cystitis Prophylaxis</td>\n\t\t\t<td>100 mg PO q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt; 60 mL/min</th>\r\n\t\t\t<th>&lt; 60 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Cystitis Treatment</td>\r\n\t\t\t<td>100 mg PO q12h</td>\r\n\t\t\t<td rowspan=\"2\">Data limited for CrCl&lt;60 mL/min; consider alternatives</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Cystitis Prophylaxis</td>\r\n\t\t\t<td>100 mg PO q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">Intermittent Hemodialysis</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Cystitis Treatment</td>\n\t\t\t<td colspan=\"2\" rowspan=\"2\" style=\"text-align: center;\">\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p>Data limited for dosing in hemodialysis; consider alternatives</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Cystitis Prophylaxis</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">Intermittent Hemodialysis</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Cystitis Treatment</td>\r\n\t\t\t<td colspan=\"2\" rowspan=\"2\" style=\"text-align: center;\">\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p>Data limited for dosing in hemodialysis; consider alternatives</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Cystitis Prophylaxis</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11686
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/nitrofurantoin-macrobid",
+   "langcode": "und",
+   "pid": 24401
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Nitrofurantoin (Macrobid)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "acb06712-6d4b-4932-a537-7a51847189aa"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21921
+  }
+ ]
+}

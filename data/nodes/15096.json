@@ -1,0 +1,127 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1705011320,
+   "last_comment_uid": 506,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-01-11T22:15:20+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt;50 mL/min</th>\n\t\t\t<th>CrCl 30-50 mL/min</th>\n\t\t\t<th>CrCl 10-29 mL/min</th>\n\t\t\t<th>CrCl &lt;10 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Standard dosing, NTM infection</td>\n\t\t\t<td>2 g IV q6h</td>\n\t\t\t<td>2 g IV q8h</td>\n\t\t\t<td>2 g IV q12h</td>\n\t\t\t<td>1 g IV q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt;50 mL/min</th>\r\n\t\t\t<th>CrCl 30-50 mL/min</th>\r\n\t\t\t<th>CrCl 10-29 mL/min</th>\r\n\t\t\t<th>CrCl &lt;10 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Standard dosing, NTM infection</td>\r\n\t\t\t<td>2 g IV q6h</td>\r\n\t\t\t<td>2 g IV q8h</td>\r\n\t\t\t<td>2 g IV q12h</td>\r\n\t\t\t<td>1 g IV q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Standard dosing, NTM infection</td>\n\t\t\t<td style=\"text-align: center;\">1 g q24h (on days of HD, give after HD)</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q8h*</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*Limited data exist for CRRT dosing.&nbsp;Consider alternative antibiotic. May dose for&nbsp;CrCl 30 to 50 mL/minute if necessary.</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Standard dosing, NTM infection</td>\r\n\t\t\t<td style=\"text-align: center;\">1 g q24h (on days of HD, give after HD)</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q8h*</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*Limited data exist for CRRT dosing.&nbsp;Consider alternative antibiotic. May dose for&nbsp;CrCl 30 to 50 mL/minute if necessary.</p>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15096
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/cefoxitin",
+   "langcode": "und",
+   "pid": 27661
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Cefoxitin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "2249f70a-ad7b-4800-9e23-b4abc9ca8051"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22021
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T23:08:29+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597340463,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T17:41:03+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">CrCl &gt;10 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">&lt;10 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">480 mg IV/PO q24h</p>\n\n\t\t\t<p style=\"text-align: center;\">With concomitant cyclosoprine: 240 mg IV/PO q24h</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">No dosing recommendations available</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>ZSFG: Non-formulary</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">CrCl &gt;10 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">&lt;10 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align: center;\">480 mg IV/PO q24h</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">With concomitant cyclosoprine: 240 mg IV/PO q24h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">No dosing recommendations available</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>ZSFG: Non-formulary</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th style=\"text-align:center;\">Dosing</th><th style=\"text-align:center;\">Notes</th></tr></thead><tbody><tr><td>All Indications</td><td><p class=\"text-align-center\">480 mg IV/PO q24h</p><p class=\"text-align-center\">With concomitant cyclosoprine: 240 mg IV/PO q24h</p></td><td style=\"text-align:center;\">No dosing recommendations available for hemodialysis</td></tr></tbody></table><p>ZSFG: Non-formulary</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th style=\"text-align:center;\">Dosing</th><th style=\"text-align:center;\">Notes</th></tr></thead><tbody><tr><td>All Indications</td><td><p class=\"text-align-center\">480 mg IV/PO q24h</p><p class=\"text-align-center\">With concomitant cyclosoprine: 240 mg IV/PO q24h</p></td><td style=\"text-align:center;\">No dosing recommendations available for hemodialysis</td></tr></tbody></table><p>ZSFG: Non-formulary</p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" lang=\"EN-US\" paraeid=\"{9439d63e-64ee-4f03-86c0-f06ecaca210c}{57}\" paraid=\"0\" xml:lang=\"EN-US\">Restricted to&nbsp;ID or Antimicrobial Stewardship except:</p><p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" lang=\"EN-US\" paraeid=\"{9439d63e-64ee-4f03-86c0-f06ecaca210c}{57}\" paraid=\"0\" xml:lang=\"EN-US\">1)&nbsp; Adult&nbsp;HBC service - for&nbsp;prophylaxis only&nbsp;per service&nbsp;guidelines<br>2)&nbsp; Prophylaxis of CMV disease in high-risk kidney transplant recipients<br>3)&nbsp; Continuation of current outpatient therapy</p><p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" lang=\"EN-US\" paraeid=\"{9439d63e-64ee-4f03-86c0-f06ecaca210c}{57}\" paraid=\"0\" xml:lang=\"EN-US\">ZSFG: Non-formulary</p>",
+   "value": "<p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" lang=\"EN-US\" paraeid=\"{9439d63e-64ee-4f03-86c0-f06ecaca210c}{57}\" paraid=\"0\" xml:lang=\"EN-US\">Restricted to&nbsp;ID or Antimicrobial Stewardship except:</p><p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" lang=\"EN-US\" paraeid=\"{9439d63e-64ee-4f03-86c0-f06ecaca210c}{57}\" paraid=\"0\" xml:lang=\"EN-US\">1)&nbsp; Adult&nbsp;HBC service - for&nbsp;prophylaxis only&nbsp;per service&nbsp;guidelines<br>2)&nbsp; Prophylaxis of CMV disease in high-risk kidney transplant recipients<br>3)&nbsp; Continuation of current outpatient therapy</p><p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" lang=\"EN-US\" paraeid=\"{9439d63e-64ee-4f03-86c0-f06ecaca210c}{57}\" paraid=\"0\" xml:lang=\"EN-US\">ZSFG: Non-formulary</p>"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "10/25/23: Updated unrestricted indications to include high-risk kidney txp and continuation of outpt therapy (originally requested by David Quan) -EK\r\n7/31/24: Updated unrestricted indications per discussion at 7/2024 dosing meeting--added \"Prophylaxis of CMV disease in LUNG transplant recipients intolerant of valganciclovir​\"\r\n11/18/24: Removed the above update due to ongoing discussions between transplant ID and lung transplant\r\n9/2026: modified restriction text to HBC for consistency"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11666
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/letermovir",
+   "langcode": "und",
+   "pid": 24381
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T23:08:29+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Letermovir"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "b7ab6a9d-e04c-43f5-9fc9-0786c46144be"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35571
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-10-02T19:27:16+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1601666836,
+   "last_comment_uid": 0,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-13T22:32:18+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<div class=\"content\">\n<div class=\"field field-name-field-body field-type-text-long field-label-hidden\">\n<div class=\"field-items\">\n<div class=\"field-item even\">\n<ul>\n\t<li>The <strong>Infectious Diseases Management Program (IDMP) </strong>at UCSF is an <strong>interprofessional, multidisciplinary, multi-hospital</strong> program whose mission is to improve the care of patients with infectious diseases, prevent the spread of infection, and ensure the appropriate use of antimicrobials.&nbsp;</li>\n\t<li><strong>IDMP's mission</strong> includes <strong>Infectious Diseases,</strong> <strong>Antimicrobial Stewardship</strong>, <strong>Infection Control</strong>, and <strong>Clinical Microbiology</strong>.</li>\n\t<li><strong>IDMP coordinates</strong> with clinicians across <strong>UCSF teaching hospitals</strong>: UCSF Medical Center at Parnassus Heights, UCSF Medical Center at Mt Zion, UCSF Benioff Children's Hospital San Francisco, UCSF Children's Hospital Oakland, Zuckerburg San Francisco General Hospital and the Veterans Affairs Medical Center San Francisco to promote best practices across all the hospitals.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n",
+   "value": "<div class=\"content\">\r\n<div class=\"field field-name-field-body field-type-text-long field-label-hidden\">\r\n<div class=\"field-items\">\r\n<div class=\"field-item even\">\r\n<ul>\r\n\t<li>The <strong>Infectious Diseases Management Program (IDMP) </strong>at UCSF is an <strong>interprofessional, multidisciplinary, multi-hospital</strong> program whose mission is to improve the care of patients with infectious diseases, prevent the spread of infection, and ensure the appropriate use of antimicrobials.&nbsp;</li>\r\n\t<li><strong>IDMP's mission</strong> includes <strong>Infectious Diseases,</strong> <strong>Antimicrobial Stewardship</strong>, <strong>Infection Control</strong>, and <strong>Clinical Microbiology</strong>.</li>\r\n\t<li><strong>IDMP coordinates</strong> with clinicians across <strong>UCSF teaching hospitals</strong>: UCSF Medical Center at Parnassus Heights, UCSF Medical Center at Mt Zion, UCSF Benioff Children's Hospital San Francisco, UCSF Children's Hospital Oakland, Zuckerburg San Francisco General Hospital and the Veterans Affairs Medical Center San Francisco to promote best practices across all the hospitals.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [
+  {
+   "target_id": 6,
+   "target_type": "media",
+   "target_uuid": "3941206e-e93a-4a61-b350-13f26d4410d0",
+   "url": "/media/6"
+  }
+ ],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 7946
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/about",
+   "langcode": "und",
+   "pid": 21011
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-10-02T19:27:16+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "About"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5021d4b7-708f-45e4-bfdf-abb659942a66"
+  }
+ ],
+ "vid": [
+  {
+   "value": 7946
+  }
+ ]
+}

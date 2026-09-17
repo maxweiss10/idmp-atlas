@@ -1,0 +1,245 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1756039886,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-12T16:46:07+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": true
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 0
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "Chaz Langelier"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [
+  {
+   "value": "4154769364"
+  }
+ ],
+ "field_person_first_name": [
+  {
+   "value": "Chaz"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 611,
+   "target_type": "media",
+   "target_uuid": "5df8f156-cb20-464d-94bd-aaacf4105c6b",
+   "url": "/media/611"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Langelier"
+  }
+ ],
+ "field_person_middle_name": [
+  {
+   "value": "R"
+  }
+ ],
+ "field_person_preferred_name": [
+  {
+   "value": "Chaz"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1526,
+   "target_type": "taxonomy_term",
+   "target_uuid": "0e18702d-7dd5-4d27-9a7d-1d230ade71e1",
+   "url": "/departments-units-and-organizations/mmed-core-infd"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [
+  {
+   "target_id": 26811,
+   "target_type": "node",
+   "target_uuid": "14bbf6c9-9264-459d-811b-ed45ff59ca66",
+   "url": "/content/virus-reactivation-in-acute-and-long-covid-19"
+  }
+ ],
+ "field_person_research_biography": [
+  {
+   "format": "plain_text",
+   "processed": "<p>The translational research in my lab bridges basic and clinical investigation by engaging genomic technologies to understand relationships between microbes, host response and clinical outcomes. We study lower respiratory tract infections, ARDS, sepsis, nosocomial infections, and emerging pathogens including SARS-CoV-2. One focus area involves developing new diagnostic techniques that combine metagenomic sequencing and machine learning to simultaneously profile both host and microbiome from clinical samples. A second focus area involves studying the host response to infections and identifying disease sub-phenotypes that correlate with outcomes. Genomic epidemiology is a third focus area, and our group carries out real-time assessment of hospital outbreaks and surveillance for emerging respiratory pathogens.</p>\n",
+   "value": "The translational research in my lab bridges basic and clinical investigation by engaging genomic technologies to understand relationships between microbes, host response and clinical outcomes. We study lower respiratory tract infections, ARDS, sepsis, nosocomial infections, and emerging pathogens including SARS-CoV-2. One focus area involves developing new diagnostic techniques that combine metagenomic sequencing and machine learning to simultaneously profile both host and microbiome from clinical samples. A second focus area involves studying the host response to infections and identifying disease sub-phenotypes that correlate with outcomes. Genomic epidemiology is a third focus area, and our group carries out real-time assessment of hospital outbreaks and surveillance for emerging respiratory pathogens."
+  }
+ ],
+ "field_person_subtype": [
+  {
+   "target_id": 641,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8e527da1-8c6c-44a7-8bc9-d8a3451fb862",
+   "url": "/person-type/ucsf-medical-center"
+  }
+ ],
+ "field_person_title_override": [],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 346,
+   "target_type": "taxonomy_term",
+   "target_uuid": "eb5cc219-543f-4415-a229-94d58e47d3a1",
+   "url": "/person-type/affiliate"
+  },
+  {
+   "target_id": 176,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee47c868-e940-4230-af11-2a747ae34b77",
+   "url": "/person-type/faculty"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 1511,
+   "target_type": "taxonomy_term",
+   "target_uuid": "26ba1f5b-b349-4dd8-9d44-a1c2597e55f1",
+   "url": "/person-type/rfs"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  },
+  {
+   "target_id": 1516,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8733d20e-3e92-4016-8d44-79f6911974d2",
+   "url": "/person-type/student"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_person_working_title": [
+  {
+   "value": "Professor in Residence"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [],
+ "field_profiles_link": [
+  {
+   "options": {
+    "attributes": []
+   },
+   "title": null,
+   "uri": "https://profiles.ucsf.edu/charles.langelier"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 10646
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/chaz-langelier-md-phd",
+   "langcode": "und",
+   "pid": 23366
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-24T12:51:26+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Chaz Langelier, MD, PhD"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "95cbc44f-f699-4ee1-97f9-7cfdf160f0c7"
+  }
+ ],
+ "vid": [
+  {
+   "value": 11421
+  }
+ ]
+}

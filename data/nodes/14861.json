@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-11-12T11:03:55+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1696453790,
+   "last_comment_uid": 601,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-10-04T18:59:10+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Diagnosis</th><th><p class=\"text-align-center\">Common Pathogens</p></th><th>Drug(s) of First Choice</th><th>Alternative Drug(s)</th><th>Comments</th><th>Expected Duration</th></tr></thead><tbody><tr><td><p><strong>Community-acquired secondary peritonitis</strong></p><p><strong>Mild-moderate intra-abdominal abscess&nbsp;</strong>(community acquired)</p></td><td><p><em>E. coli</em></p><p><em>Klebsiella</em></p><p><em>B. fragilis</em></p><p><em>Streptococci spp</em></p></td><td><p><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone&nbsp;</strong></a><em>PLUS</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td><p><em>For </em><a href=\"/content/allergy-beta-lactam\"><em>severe beta-lactam allergy</em></a><em>:</em></p><p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a>&nbsp;<em>PLUS&nbsp;</em></p><p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td>&nbsp;</td><td><p>Stop antibiotics 4 days after source control achieved</p><p>If source control is not obtained, consultation with ID recommended</p></td></tr><tr><td><p><strong>Healthcare-associated secondary peritonitis</strong></p><p><strong>Mild-Moderate intra-abdominal abscess (including post-op pelvic abscesses)</strong></p></td><td><p><em>Community pathogens</em></p><p><em>PLUS</em></p><p><em>S. aureus</em></p><p><em>Enterococci</em></p><p><em>P. aeruginosa</em></p></td><td><p><a href=\"/content/piperacillin-tazobactam-zosyn\"><strong>Piperacillin/tazobactam</strong></a></p><p>OR</p><p><a href=\"/content/cefepime\"><strong>Cefepime</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td><p><em>For </em><a href=\"/content/allergy-beta-lactam\"><em>severe PCN allergy</em>:</a></p><p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td>Fungal coverage rarely needed empirically but consider in high-risk patients: critically ill with upper GI source, recurrent bowel perforation, heavy colonization, surgically-treated pancreatitis</td><td><p>Stop antibiotics 4 days after source control achieved</p><p>If source control is not obtained, consultation with ID recommended</p></td></tr><tr><td><strong>Severe peritonitis&nbsp;with major peritoneal soilage, large or multiple abscesses, or hemodynamically unstable</strong></td><td>Similar to healthcare associated peritonitis</td><td><p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p><p><em>PLUS one of</em></p><p><a href=\"/content/piperacillin-tazobactam-zosyn\"><strong>Piperacillin/</strong></a></p><p><a href=\"/content/piperacillin-tazobactam-zosyn\"><strong>tazobactam</strong></a></p><p><em>OR</em></p><p><a href=\"/content/meropenem\"><strong>Meropenem</strong></a>*</p></td><td><p><em>For </em><a href=\"/content/allergy-beta-lactam\"><em>severe PCN allergy</em></a>:</p><p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td><p>*For hemodynamically unstable health-care associated infection, consider meropenem</p><p>Fungal coverage rarely needed empirically but consider in high-risk patients: critically ill with upper GI source, recurrent bowel perforation, heavy colonization, surgically-treated pancreatitis</p></td><td>ID consultation is recommended</td></tr><tr><td><p><strong>Diverticulitis</strong></p><p>For severe infection, refer to severe secondary peritonitis, above</p></td><td><p><em>E. coli</em></p><p><em>Klebsiella</em></p><p><em>B. fragilis</em></p><p><em>Streptococci spp</em></p></td><td><p><strong>Management without antibiotics</strong> can be considered in patients with uncomplicated disease (no signs of severe infection, no evidence of fistula or abscess, not immunosuppressed)</p><p><strong>Inpatient:&nbsp;</strong><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong></a><strong>&nbsp;</strong><em>PLUS&nbsp;</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p><p><strong>Outpatient: </strong><a href=\"/content/amoxicillin-clavulanate\"><strong>Amoxicillin/clavulanic </strong></a><strong>acid 875/125 mg po TID&nbsp;</strong></p><p><em>OR&nbsp;</em></p><p><a href=\"/content/ciprofloxacin\"><strong>Ciprofloxacin</strong></a><strong>&nbsp;</strong><em>PLUS&nbsp;</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td><p><a href=\"/content/allergy-beta-lactam\"><em>For severe beta-lactam allergy:</em></a></p><p><strong>Inpatient: </strong><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p><p><strong>Outpatient</strong>:</p><p><a href=\"/content/ciprofloxacin\"><strong>Ciprofloxacin</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td>&nbsp;</td><td>10 days (can step down to oral therapy to complete course)</td></tr><tr><td><strong>SBP (Spontaneous Bacterial Peritonitis)</strong></td><td><p><em>E. coli</em></p><p><em>Klebsiella spp.</em></p><p><em>Streptococci. spp</em>.</p></td><td><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong></a></td><td><p><em>For </em><a href=\"/content/allergy-beta-lactam\"><em>severe PCN allergy</em>:</a></p><p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong>&nbsp;</a></p></td><td><p>In patients who received previous courses of antibiotics consider expanding coverage</p><p>If known MDR GNR and/or VRE colonization/infection within 90 days, expand coverage to include these pathogens</p></td><td>5 days</td></tr><tr><td><strong>Liver abscess</strong></td><td><p><em>E. Coli</em></p><p><em>Klebsiella</em></p><p><em>Strep milleri group (S. anginosus, constellatus, intermedius)</em></p></td><td><p><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td><p><em>For </em><a href=\"/content/allergy-beta-lactam\"><em>severe beta-lactam allergy</em></a><em>:</em></p><p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td><p>Consider&nbsp;<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><strong> </strong>if patient is hemodynamically unstable</p><p>Consider amoebic liver abscess if appropriate travel history</p></td><td>ID consult recommended</td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Diagnosis</th><th><p class=\"text-align-center\">Common Pathogens</p></th><th>Drug(s) of First Choice</th><th>Alternative Drug(s)</th><th>Comments</th><th>Expected Duration</th></tr></thead><tbody><tr><td><p><strong>Community-acquired secondary peritonitis</strong></p><p><strong>Mild-moderate intra-abdominal abscess&nbsp;</strong>(community acquired)</p></td><td><p><em>E. coli</em></p><p><em>Klebsiella</em></p><p><em>B. fragilis</em></p><p><em>Streptococci spp</em></p></td><td><p><a href=\"/node/8331\"><strong>Ceftriaxone&nbsp;</strong></a><em>PLUS</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p></td><td><p><em>For </em><a href=\"/node/9856\"><em>severe beta-lactam allergy</em></a><em>:</em></p><p><a href=\"/node/8471\"><strong>Vancomycin</strong></a>&nbsp;<em>PLUS&nbsp;</em></p><p><a href=\"/node/8271\"><strong>Aztreonam</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p></td><td>&nbsp;</td><td><p>Stop antibiotics 4 days after source control achieved</p><p>If source control is not obtained, consultation with ID recommended</p></td></tr><tr><td><p><strong>Healthcare-associated secondary peritonitis</strong></p><p><strong>Mild-Moderate intra-abdominal abscess (including post-op pelvic abscesses)</strong></p></td><td><p><em>Community pathogens</em></p><p><em>PLUS</em></p><p><em>S. aureus</em></p><p><em>Enterococci</em></p><p><em>P. aeruginosa</em></p></td><td><p><a href=\"/node/8436\"><strong>Piperacillin/tazobactam</strong></a></p><p>OR</p><p><a href=\"/node/8321\"><strong>Cefepime</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p></td><td><p><em>For </em><a href=\"/node/9856\"><em>severe PCN allergy</em>:</a></p><p><a href=\"/node/8471\"><strong>Vancomycin</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/node/8271\"><strong>Aztreonam</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p></td><td>Fungal coverage rarely needed empirically but consider in high-risk patients: critically ill with upper GI source, recurrent bowel perforation, heavy colonization, surgically-treated pancreatitis</td><td><p>Stop antibiotics 4 days after source control achieved</p><p>If source control is not obtained, consultation with ID recommended</p></td></tr><tr><td><strong>Severe peritonitis&nbsp;with major peritoneal soilage, large or multiple abscesses, or hemodynamically unstable</strong></td><td>Similar to healthcare associated peritonitis</td><td><p><a href=\"/node/8471\"><strong>Vancomycin</strong></a></p><p><em>PLUS one of</em></p><p><a href=\"/node/8436\"><strong>Piperacillin/</strong></a></p><p><a href=\"/node/8436\"><strong>tazobactam</strong></a></p><p><em>OR</em></p><p><a href=\"/node/8401\"><strong>Meropenem</strong></a>*</p></td><td><p><em>For </em><a href=\"/node/9856\"><em>severe PCN allergy</em></a>:</p><p><a href=\"/node/8471\"><strong>Vancomycin</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/node/8271\"><strong>Aztreonam</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p></td><td><p>*For hemodynamically unstable health-care associated infection, consider meropenem</p><p>Fungal coverage rarely needed empirically but consider in high-risk patients: critically ill with upper GI source, recurrent bowel perforation, heavy colonization, surgically-treated pancreatitis</p></td><td>ID consultation is recommended</td></tr><tr><td><p><strong>Diverticulitis</strong></p><p>For severe infection, refer to severe secondary peritonitis, above</p></td><td><p><em>E. coli</em></p><p><em>Klebsiella</em></p><p><em>B. fragilis</em></p><p><em>Streptococci spp</em></p></td><td><p><strong>Management without antibiotics</strong> can be considered in patients with uncomplicated disease (no signs of severe infection, no evidence of fistula or abscess, not immunosuppressed)</p><p><strong>Inpatient:&nbsp;</strong><a href=\"/node/8331\"><strong>Ceftriaxone</strong></a><strong>&nbsp;</strong><em>PLUS&nbsp;</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p><p><strong>Outpatient: </strong><a href=\"/node/8311\"><strong>Amoxicillin/clavulanic </strong></a><strong>acid 875/125 mg po TID&nbsp;</strong></p><p><em>OR&nbsp;</em></p><p><a href=\"/node/8336\"><strong>Ciprofloxacin</strong></a><strong>&nbsp;</strong><em>PLUS&nbsp;</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p></td><td><p><a href=\"/node/9856\"><em>For severe beta-lactam allergy:</em></a></p><p><strong>Inpatient: </strong><a href=\"/node/8471\"><strong>Vancomycin</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/node/8271\"><strong>Aztreonam</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p><p><strong>Outpatient</strong>:</p><p><a href=\"/node/8336\"><strong>Ciprofloxacin</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p></td><td>&nbsp;</td><td>10 days (can step down to oral therapy to complete course)</td></tr><tr><td><strong>SBP (Spontaneous Bacterial Peritonitis)</strong></td><td><p><em>E. coli</em></p><p><em>Klebsiella spp.</em></p><p><em>Streptococci. spp</em>.</p></td><td><a href=\"/node/8331\"><strong>Ceftriaxone</strong></a></td><td><p><em>For </em><a href=\"/node/9856\"><em>severe PCN allergy</em>:</a></p><p><a href=\"/node/8471\"><strong>Vancomycin</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/node/8271\"><strong>Aztreonam</strong>&nbsp;</a></p></td><td><p>In patients who received previous courses of antibiotics consider expanding coverage</p><p>If known MDR GNR and/or VRE colonization/infection within 90 days, expand coverage to include these pathogens</p></td><td>5 days</td></tr><tr><td><strong>Liver abscess</strong></td><td><p><em>E. Coli</em></p><p><em>Klebsiella</em></p><p><em>Strep milleri group (S. anginosus, constellatus, intermedius)</em></p></td><td><p><a href=\"/node/8331\"><strong>Ceftriaxone</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p></td><td><p><em>For </em><a href=\"/node/9856\"><em>severe beta-lactam allergy</em></a><em>:</em></p><p><a href=\"/node/8471\"><strong>Vancomycin</strong></a><strong>&nbsp;</strong><em>PLUS</em></p><p><a href=\"/node/8271\"><strong>Aztreonam</strong></a>&nbsp;<em>PLUS</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p></td><td><p>Consider&nbsp;<a href=\"/node/8471\"><strong>Vancomycin</strong></a><strong> </strong>if patient is hemodynamically unstable</p><p>Consider amoebic liver abscess if appropriate travel history</p></td><td>ID consult recommended</td></tr></tbody></table>"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1296,
+   "target_type": "taxonomy_term",
+   "target_uuid": "59973723-1e94-4b15-baf3-bec6f23310ae",
+   "url": "/guidelines-empiric-therapy-categories/abdominopelvic-infections"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "plain_text",
+   "processed": "<p>See Pelvic Inflammatory disease for that syndrome</p>\n",
+   "value": "See Pelvic Inflammatory disease for that syndrome"
+  }
+ ],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p><em>Clinical Infectious Diseases</em>, Volume 50, Issue 2, 15 January 2010, Pages 133–164,&nbsp;<a href=\"https://doi.org/10.1086/649554\" data-feathr-click-track=\"true\">https://doi.org/10.1086/649554</a></p>",
+   "value": "<p><em>Clinical Infectious Diseases</em>, Volume 50, Issue 2, 15 January 2010, Pages 133–164,&nbsp;<a href=\"https://doi.org/10.1086/649554\" data-feathr-click-track=\"true\">https://doi.org/10.1086/649554</a></p>"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14861
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/abdominal-infections",
+   "langcode": "und",
+   "pid": 27446
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-10-04T21:09:50+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Abdominal Infections"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "e5aa8cf1-7ca8-44f7-be5d-e159e77529bf"
+  }
+ ],
+ "vid": [
+  {
+   "value": 18601
+  }
+ ]
+}

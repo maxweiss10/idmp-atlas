@@ -1,0 +1,146 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597272207,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-12T22:43:27+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dosage</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Influenza treatment, uncomplicated, 40-79kg</td>\n\t\t\t<td>40 mg PO x1</td>\n\t\t\t<td rowspan=\"2\">No renal dose adjustment</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Influenza treatment, uncomplicated, &gt;80kg</td>\n\t\t\t<td>80 mg PO x1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dosage</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Influenza treatment, uncomplicated, 40-79kg</td>\r\n\t\t\t<td>40 mg PO x1</td>\r\n\t\t\t<td rowspan=\"2\">No renal dose adjustment</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Influenza treatment, uncomplicated, &gt;80kg</td>\r\n\t\t\t<td>80 mg PO x1</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dosage</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Influenza treatment, uncomplicated, 40-79kg</td>\n\t\t\t<td>40 mg PO x1</td>\n\t\t\t<td rowspan=\"2\">No dose adjustment in hemodialysis</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Influenza treatment, uncomplicated, &gt;80kg</td>\n\t\t\t<td>80 mg PO x1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dosage</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Influenza treatment, uncomplicated, 40-79kg</td>\r\n\t\t\t<td>40 mg PO x1</td>\r\n\t\t\t<td rowspan=\"2\">No dose adjustment in hemodialysis</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Influenza treatment, uncomplicated, &gt;80kg</td>\r\n\t\t\t<td>80 mg PO x1</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship</p>\n",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11586
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/baloxavir-marboxil",
+   "langcode": "und",
+   "pid": 24306
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Baloxavir marboxil"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5832bb51-27ab-4f55-a498-ea7d5d689037"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21821
+  }
+ ]
+}

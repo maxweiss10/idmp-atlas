@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:51+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1729881484,
+   "last_comment_uid": 191,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-09-26T17:49:23+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><em>C. difficile</em></td>\n\t\t\t<td><em>Clostridioides difficile</em></td>\n\t\t\t<td>\n\t\t\t<p>See site-specific guidelines:</p>\n\n\t\t\t<p><a href=\"/content/clostridioides-difficile-infection-0\">UCSF</a></p>\n\n\t\t\t<p><a href=\"/content/zsfg-adult-c-difficile-infection-guideline\">ZSFG</a></p>\n\n\t\t\t<p><a href=\"/content/san-francisco-va-medical-center-guidelines-treatment-diarrhea-associated-clostridioides\">VASF</a></p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Dysenteric diarrhea (other than C. difficile)</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>Shigella</em></p>\n\n\t\t\t<p><em>Salmonella</em></p>\n\n\t\t\t<p><em>Campylobacter</em></p>\n\n\t\t\t<p><em>Yersinia</em></p>\n\n\t\t\t<p><em>E. coli</em>&nbsp;0157:H7</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Most outpatients do not warrant empiric antibiotics.</p>\n\n\t\t\t<p>Empiric therapy is generally indicated if patient is toxic appearing, elderly or immunocompromised.&nbsp;</p>\n\n\t\t\t<p><strong>Avoid antibiotic treatment in cases of&nbsp;<em>E. coli</em>&nbsp;O157:H7 and all shiga-like toxin producing <em>E. coli </em>(STEC</strong>) as it may increase the risk of hemolytic-uremic syndrome</p>\n\n\t\t\t<p><strong><a href=\"/content/azithromycin\">Azithromycin</a>&nbsp;</strong>500mg PO daily x 3 days&nbsp;</p>\n\n\t\t\t<p><em>OR&nbsp;</em></p>\n\n\t\t\t<p><a href=\"/content/ciprofloxacin\"><strong>Ciprofloxacin</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p>Frequent, sometimes bloody, small-volume diarrhea associated with abdominal pain and cramping.</p>\n\n\t\t\t<p>Patient may be febrile and toxic</p>\n\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p>Fluoroquinolone resistance may be present, particularly with&nbsp;<em>Shigella</em>&nbsp;and&nbsp;<em>Campylobacter</em>.</p>\n\n\t\t\t<p>Antimicrobial treatment may worsen outcomes in patients with&nbsp;<em>E. coli</em>&nbsp;0157:H7 and shiga-like toxin producing&nbsp;<em>E. coli</em>&nbsp;(STEC)</p>\n\n\t\t\t<p>Antimotility drugs improve symptoms and can be used if patient is not toxic.&nbsp; Antimotility drugs should not be used in&nbsp;<em>C.difficile.</em></p>\n\n\t\t\t<p>Strict handwashing is mandatory in all food preparation.</p>\n\t\t\t</td>\n\t\t\t<td>3 days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Nondysenteric diarrhea (other than <em>C. difficile</em>)</td>\n\t\t\t<td>\n\t\t\t<p>Viruses</p>\n\n\t\t\t<p><em>Giardia</em></p>\n\n\t\t\t<p>Enterotoxigenic&nbsp;<em>E. coli</em></p>\n\n\t\t\t<p>Enterotoxin-producing bacteria</p>\n\t\t\t<em>Clostridium difficile</em></td>\n\t\t\t<td>\n\t\t\t<p>General Care: Observation</p>\n\n\t\t\t<p>Oral rehydration</p>\n\n\t\t\t<p>Antimotility agents (do not use in&nbsp;<em>C. difficile</em>&nbsp;infection)</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p>Large volume, nonbloody, watery diarrhea.</p>\n\n\t\t\t<p>Patient may have nausea, vomiting, and abdominal cramping but fever often absent</p>\n\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p>Generally, empiric therapy and stool cultures are&nbsp;<strong>not</strong>&nbsp;indicated. Most disease is self-limiting and can be treated with antimotility agents.</p>\n\n\t\t\t<p>If patient does not improve, cultures are negative, and symptoms persist, consider stool for parasite PCR</p>\n\n\t\t\t<p>Check&nbsp;<em>C. difficile</em>&nbsp;toxin, especially if recent history of antibiotic use or hospitalization.</p>\n\t\t\t</td>\n\t\t\t<td>No antibiotic therapy indicated except for&nbsp;<em>C. difficile</em></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Traveler's diarrhea</td>\n\t\t\t<td>\n\t\t\t<p>Toxigenic&nbsp;<em>E. coli</em></p>\n\n\t\t\t<p><em>Salmonella</em></p>\n\n\t\t\t<p><em>Shigella</em></p>\n\n\t\t\t<p><em>Campylobacter</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Mild, self-limited cases can be treated with fluid and electrolyte repletion +/- bismuth subsalicylate.</p>\n\n\t\t\t<p><strong><a href=\"/content/azithromycin\">Azithromycin</a>&nbsp;</strong>&nbsp;<em>OR</em></p>\n\n\t\t\t<p><a href=\"/content/ciprofloxacin\"><strong>Ciprofloxacin</strong></a>&nbsp;<em>OR</em></p>\n\t\t\t<strong>Rifaximin </strong>200 mg PO TID x 3 days</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>EITHER WITH or WITHOUT</em></p>\n\n\t\t\t<p><strong>Loperamide</strong>&nbsp;4 mg PO x1; then 2 mg after each loose stool,</p>\n\n\t\t\t<p>MAX 16 mg/day</p>\n\t\t\t</td>\n\t\t\t<td>0-3 days</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><em>C. difficile</em></td>\r\n\t\t\t<td><em>Clostridioides difficile</em></td>\r\n\t\t\t<td>\r\n\t\t\t<p>See site-specific guidelines:</p>\r\n\r\n\t\t\t<p><a href=\"/content/clostridioides-difficile-infection-0\">UCSF</a></p>\r\n\r\n\t\t\t<p><a href=\"/content/zsfg-adult-c-difficile-infection-guideline\">ZSFG</a></p>\r\n\r\n\t\t\t<p><a href=\"/content/san-francisco-va-medical-center-guidelines-treatment-diarrhea-associated-clostridioides\">VASF</a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Dysenteric diarrhea (other than C. difficile)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>Shigella</em></p>\r\n\r\n\t\t\t<p><em>Salmonella</em></p>\r\n\r\n\t\t\t<p><em>Campylobacter</em></p>\r\n\r\n\t\t\t<p><em>Yersinia</em></p>\r\n\r\n\t\t\t<p><em>E. coli</em>&nbsp;0157:H7</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Most outpatients do not warrant empiric antibiotics.</p>\r\n\r\n\t\t\t<p>Empiric therapy is generally indicated if patient is toxic appearing, elderly or immunocompromised.&nbsp;</p>\r\n\r\n\t\t\t<p><strong>Avoid antibiotic treatment in cases of&nbsp;<em>E. coli</em>&nbsp;O157:H7 and all shiga-like toxin producing <em>E. coli </em>(STEC</strong>) as it may increase the risk of hemolytic-uremic syndrome</p>\r\n\r\n\t\t\t<p><strong><a href=\"/content/azithromycin\">Azithromycin</a>&nbsp;</strong>500mg PO daily x 3 days&nbsp;</p>\r\n\r\n\t\t\t<p><em>OR&nbsp;</em></p>\r\n\r\n\t\t\t<p><a href=\"/content/ciprofloxacin\"><strong>Ciprofloxacin</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Frequent, sometimes bloody, small-volume diarrhea associated with abdominal pain and cramping.</p>\r\n\r\n\t\t\t<p>Patient may be febrile and toxic</p>\r\n\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p>Fluoroquinolone resistance may be present, particularly with&nbsp;<em>Shigella</em>&nbsp;and&nbsp;<em>Campylobacter</em>.</p>\r\n\r\n\t\t\t<p>Antimicrobial treatment may worsen outcomes in patients with&nbsp;<em>E. coli</em>&nbsp;0157:H7 and shiga-like toxin producing&nbsp;<em>E. coli</em>&nbsp;(STEC)</p>\r\n\r\n\t\t\t<p>Antimotility drugs improve symptoms and can be used if patient is not toxic.&nbsp; Antimotility drugs should not be used in&nbsp;<em>C.difficile.</em></p>\r\n\r\n\t\t\t<p>Strict handwashing is mandatory in all food preparation.</p>\r\n\t\t\t</td>\r\n\t\t\t<td>3 days</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Nondysenteric diarrhea (other than <em>C. difficile</em>)</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Viruses</p>\r\n\r\n\t\t\t<p><em>Giardia</em></p>\r\n\r\n\t\t\t<p>Enterotoxigenic&nbsp;<em>E. coli</em></p>\r\n\r\n\t\t\t<p>Enterotoxin-producing bacteria</p>\r\n\t\t\t<em>Clostridium difficile</em></td>\r\n\t\t\t<td>\r\n\t\t\t<p>General Care: Observation</p>\r\n\r\n\t\t\t<p>Oral rehydration</p>\r\n\r\n\t\t\t<p>Antimotility agents (do not use in&nbsp;<em>C. difficile</em>&nbsp;infection)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Large volume, nonbloody, watery diarrhea.</p>\r\n\r\n\t\t\t<p>Patient may have nausea, vomiting, and abdominal cramping but fever often absent</p>\r\n\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p>Generally, empiric therapy and stool cultures are&nbsp;<strong>not</strong>&nbsp;indicated. Most disease is self-limiting and can be treated with antimotility agents.</p>\r\n\r\n\t\t\t<p>If patient does not improve, cultures are negative, and symptoms persist, consider stool for parasite PCR</p>\r\n\r\n\t\t\t<p>Check&nbsp;<em>C. difficile</em>&nbsp;toxin, especially if recent history of antibiotic use or hospitalization.</p>\r\n\t\t\t</td>\r\n\t\t\t<td>No antibiotic therapy indicated except for&nbsp;<em>C. difficile</em></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Traveler's diarrhea</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Toxigenic&nbsp;<em>E. coli</em></p>\r\n\r\n\t\t\t<p><em>Salmonella</em></p>\r\n\r\n\t\t\t<p><em>Shigella</em></p>\r\n\r\n\t\t\t<p><em>Campylobacter</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Mild, self-limited cases can be treated with fluid and electrolyte repletion +/- bismuth subsalicylate.</p>\r\n\r\n\t\t\t<p><strong><a href=\"/content/azithromycin\">Azithromycin</a>&nbsp;</strong>&nbsp;<em>OR</em></p>\r\n\r\n\t\t\t<p><a href=\"/content/ciprofloxacin\"><strong>Ciprofloxacin</strong></a>&nbsp;<em>OR</em></p>\r\n\t\t\t<strong>Rifaximin </strong>200 mg PO TID x 3 days</td>\r\n\t\t\t<td>\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>EITHER WITH or WITHOUT</em></p>\r\n\r\n\t\t\t<p><strong>Loperamide</strong>&nbsp;4 mg PO x1; then 2 mg after each loose stool,</p>\r\n\r\n\t\t\t<p>MAX 16 mg/day</p>\r\n\t\t\t</td>\r\n\t\t\t<td>0-3 days</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1661,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b4e45d9b-2786-4723-a916-dbc8aa7b9580",
+   "url": "/guidelines-empiric-therapy-categories/gastrointestinal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p><em>Clinical Infectious Diseases</em>, Volume 65, Issue 12, 29 November 2017, Pages e45–e80,&nbsp;<a data-feathr-click-track=\"true\" href=\"https://doi.org/10.1093/cid/cix669\" rel=\"noopener\" target=\"_blank\">https://doi.org/10.1093/cid/cix669</a></p>\n",
+   "value": "<p><em>Clinical Infectious Diseases</em>, Volume 65, Issue 12, 29 November 2017, Pages e45–e80,&nbsp;<a data-feathr-click-track=\"true\" href=\"https://doi.org/10.1093/cid/cix669\" rel=\"noopener\" target=\"_blank\">https://doi.org/10.1093/cid/cix669</a></p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14796
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/diarrhea",
+   "langcode": "und",
+   "pid": 27381
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-10-25T18:38:04+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Diarrhea"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "30da1e01-65a5-4f05-b979-75ed289ea4c0"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23826
+  }
+ ]
+}

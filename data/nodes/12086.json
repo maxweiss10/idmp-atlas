@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-04T18:14:08+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1706642878,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-19T18:38:53+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Diagnosis</th><th>Common Pathogens</th><th>Drug(s) of First Choice</th><th>Alternative Drug(s)</th><th>Comments</th><th>Expected Duration</th></tr></thead><tbody><tr><td><strong>Healthcare-acquired sepsis with unknown source</strong></td><td><p>Enterobacteriaceae</p><p><em>S. aureus</em></p><p><em>Streptococci spp.</em></p><p><em>P. aeruginosa</em></p></td><td><p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p><p><em>PLUS one OF:</em></p><p><a href=\"/content/piperacillin-tazobactam-zosyn\"><strong>Piperacillin/</strong></a></p><p><a href=\"/content/piperacillin-tazobactam-zosyn\"><strong>tazobactam</strong></a></p><p><em>OR</em></p><p><a href=\"/content/cefepime\"><strong>Cefepime</strong></a></p><p><em>OR</em></p><p><a href=\"/content/meropenem\"><strong>Meropenem</strong></a><strong>*</strong></p><p><em>ALL WITH OR WITHOUT</em></p><p><a href=\"/content/tobramycin-retired\"><strong>Tobramycin</strong></a></p></td><td><p><em>For </em><a href=\"/content/allergy-beta-lactam\"><em>severe beta-lactam allergy</em></a>:</p><p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p><p><em>PLUS</em></p><p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p><p><em>PLUS</em></p><p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a></p><p><em>WITH OR WITHOUT</em></p><p><a href=\"/content/tobramycin-retired\"><strong>Tobramycin</strong></a></p></td><td><p>Weigh risks and benefits of adding aminoglycoside for critical illness, immunocompromise, or history of infection or colonization with drug-resistant Gram-negative rods</p><p>Refer to the <a href=\"/content/code-sepsis\">UCSF Code Sepsis Guidelines</a></p><p><em>*For patients with neutropenia, organ transplant, severe hepatic failure, or current/recent (&lt;7 days) piperacillin/tazobactam or cefepime</em></p></td><td><p>Stop antibiotics at 48 hours if work-up does not reveal a source of infection</p><p>Duration should otherwise be tailored to clinical or microbiological source</p><p><a href=\"/content/ltu-guidelines\">LTU Guidelines</a></p><p><a href=\"/content/febrile-neutropenia\">F+N Guidelines</a></p></td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Diagnosis</th><th>Common Pathogens</th><th>Drug(s) of First Choice</th><th>Alternative Drug(s)</th><th>Comments</th><th>Expected Duration</th></tr></thead><tbody><tr><td><strong>Healthcare-acquired sepsis with unknown source</strong></td><td><p>Enterobacteriaceae</p><p><em>S. aureus</em></p><p><em>Streptococci spp.</em></p><p><em>P. aeruginosa</em></p></td><td><p><a href=\"/node/8471\"><strong>Vancomycin</strong></a></p><p><em>PLUS one OF:</em></p><p><a href=\"/node/8436\"><strong>Piperacillin/</strong></a></p><p><a href=\"/node/8436\"><strong>tazobactam</strong></a></p><p><em>OR</em></p><p><a href=\"/node/8321\"><strong>Cefepime</strong></a></p><p><em>OR</em></p><p><a href=\"/node/8401\"><strong>Meropenem</strong></a><strong>*</strong></p><p><em>ALL WITH OR WITHOUT</em></p><p><a href=\"/node/8461\"><strong>Tobramycin</strong></a></p></td><td><p><em>For </em><a href=\"/node/9856\"><em>severe beta-lactam allergy</em></a>:</p><p><a href=\"/node/8471\"><strong>Vancomycin</strong></a></p><p><em>PLUS</em></p><p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p><p><em>PLUS</em></p><p><a href=\"/node/8271\"><strong>Aztreonam</strong></a></p><p><em>WITH OR WITHOUT</em></p><p><a href=\"/node/8461\"><strong>Tobramycin</strong></a></p></td><td><p>Weigh risks and benefits of adding aminoglycoside for critical illness, immunocompromise, or history of infection or colonization with drug-resistant Gram-negative rods</p><p>Refer to the <a href=\"/node/11751\">UCSF Code Sepsis Guidelines</a></p><p><em>*For patients with neutropenia, organ transplant, severe hepatic failure, or current/recent (&lt;7 days) piperacillin/tazobactam or cefepime</em></p></td><td><p>Stop antibiotics at 48 hours if work-up does not reveal a source of infection</p><p>Duration should otherwise be tailored to clinical or microbiological source</p><p><a href=\"/node/11871\">LTU Guidelines</a></p><p><a href=\"/node/11911\">F+N Guidelines</a></p></td></tr></tbody></table>"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 161,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e9e098f9-0081-4408-b491-927824f0c523",
+   "url": "/guidelines-empiric-therapy-categories/sepsis-source-unknown-and-other-nonfocal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12086
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/healthcare-acquired-sepsis-with-unknown-source",
+   "langcode": "und",
+   "pid": 24766
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-01-30T19:27:58+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Healthcare-acquired sepsis with unknown source"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "32ea11ea-1d92-40db-8d4e-5a399ae466cd"
+  }
+ ],
+ "vid": [
+  {
+   "value": 13996
+  }
+ ]
+}

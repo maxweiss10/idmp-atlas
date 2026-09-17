@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-23T23:01:18+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629759678,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:32:04+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Pertussis</td>\n\t\t\t<td><em>Bordetella pertussis&nbsp;</em></td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{209}\" paraid=\"689146083\"><strong>Age &lt; 6 months</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{219}\" paraid=\"302318772\">Azithromycin <br>\n\t\t\t10 mg/kg/dose enterally or IV daily x 5 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{229}\" paraid=\"856435308\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{235}\" paraid=\"1959022366\"><strong>Age &gt;= 6 months</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{245}\" paraid=\"342350820\">Azithromycin &nbsp;<br>\n\t\t\t10 mg/kg/dose (max 500 mg/dose) once enterally or IV on day 1 , then 5 mg/kg/dose (max 250 mg/dose) enterally or IV daily on days 2-5 &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Refer to CDC guidelines below&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{14}\" paraid=\"725628240\">Provided regimens can also be used for post-exposure prophylaxis&nbsp;</p>\n\n\t\t\t<p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{20}\" paraid=\"1498027700\">Refer to <a href=\"https://www.cdc.gov/pertussis/pep.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fpertussis%2Foutbreaks%2Fpep.html\">CDC guidelines on post-exposure prophylaxis&nbsp;</a></p>\n\n\t\t\t<p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{32}\" paraid=\"412696063\">Enteral therapy is preferred once it can be tolerated&nbsp;</p>\n\n\t\t\t<p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{38}\" paraid=\"1240213470\"> &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Pertussis</td>\r\n\t\t\t<td><em>Bordetella pertussis&nbsp;</em></td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{209}\" paraid=\"689146083\"><strong>Age &lt; 6 months</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{219}\" paraid=\"302318772\">Azithromycin <br />\r\n\t\t\t10 mg/kg/dose enterally or IV daily x 5 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{229}\" paraid=\"856435308\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{235}\" paraid=\"1959022366\"><strong>Age &gt;= 6 months</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{245}\" paraid=\"342350820\">Azithromycin &nbsp;<br />\r\n\t\t\t10 mg/kg/dose (max 500 mg/dose) once enterally or IV on day 1 , then 5 mg/kg/dose (max 250 mg/dose) enterally or IV daily on days 2-5 &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Refer to CDC guidelines below&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{14}\" paraid=\"725628240\">Provided regimens can also be used for post-exposure prophylaxis&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{20}\" paraid=\"1498027700\">Refer to <a href=\"https://www.cdc.gov/pertussis/pep.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fpertussis%2Foutbreaks%2Fpep.html\">CDC guidelines on post-exposure prophylaxis&nbsp;</a></p>\r\n\r\n\t\t\t<p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{32}\" paraid=\"412696063\">Enteral therapy is preferred once it can be tolerated&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{38}\" paraid=\"1240213470\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Reference:&nbsp;</h2>\n\n<p>Tiwari, T,&nbsp;et al.&nbsp;<a href=\"https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5414a1.htm\">Recommended antimicrobial agents for the treatment and postexposure prophylaxis of pertussis: 2005 Centers for Disease Control Guidelines</a>.&nbsp;Morbid Mortal Wkly Rep&nbsp;2005;55:1-16.&nbsp;</p>\n",
+   "value": "<h2>Reference:&nbsp;</h2>\r\n\r\n<p>Tiwari, T,&nbsp;et al.&nbsp;<a href=\"https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5414a1.htm\">Recommended antimicrobial agents for the treatment and postexposure prophylaxis of pertussis: 2005 Centers for Disease Control Guidelines</a>.&nbsp;Morbid Mortal Wkly Rep&nbsp;2005;55:1-16.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13436
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/pertussis",
+   "langcode": "und",
+   "pid": 26091
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-23T23:01:18+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Pertussis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "0b7287af-2f66-4caf-9e69-c7d91f00dd35"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16021
+  }
+ ]
+}

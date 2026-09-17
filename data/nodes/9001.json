@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-08-23T17:49:16+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1626367642,
+   "last_comment_uid": 201,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-07-20T16:53:06+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Meningitis</strong><br>\n\t\t\tCommunity-onset</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>S. pneumoniae<br>\n\t\t\tNeisseria meningitidis</em><br>\n\t\t\t<em>Listeria </em>(especially in immuno-compromised, elderly patients, &nbsp;or have alcohol use disorder)</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong></a>&nbsp;2g IV q12h<br>\n\t\t\t<em>PLUS</em><br>\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\n\t\t\t<p><em>WITH OR WITHOUT*</em><br>\n\t\t\t<a href=\"/content/ampicillin-0\"><strong>Ampicillin</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe PCN allergy</a></em>:<br>\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><br>\n\t\t\t<em>PLUS</em><br>\n\t\t\t<a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a></p>\n\n\t\t\t<p><em>WITH OR WITHOUT*:</em><br>\n\t\t\t<a href=\"/content/tmp-smx-trimethoprim-sulfamethoxazole\"><strong>Trimethoprim/ Sulfamethoxazole</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Therapy should be guided by Gram stain</p>\n\n\t\t\t<p>If bacterial meningitis suspected<em>, </em>dexamethasone 10 mg PO/IV q6h x 4 days given before or with initial dose of antibiotics</p>\n\n\t\t\t<p><strong>*</strong>Coverage for <em>Listeria</em> should be added for adult patients&nbsp;&gt;50 years of age or immunocompromised</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>ID consultation recommended</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Meningitis</strong><br>\n\t\t\tPost-neurosurgical or device associated</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>S. aureus</em><br>\n\t\t\tCoagulase negative<br>\n\t\t\tstaphylococci<br>\n\t\t\tGram negative rods</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/cefepime\"><strong>Cefepime</strong></a><br>\n\t\t\t<em>PLUS</em><br>\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe PCN allergy</a></em><a href=\"/content/allergy-beta-lactam\">:</a><br>\n\t\t\t<a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a><br>\n\t\t\t<em>PLUS</em><br>\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p>ID consultation recommended</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Meningitis</strong><br />\r\n\t\t\tCommunity-onset</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>S. pneumoniae<br />\r\n\t\t\tNeisseria meningitidis</em><br />\r\n\t\t\t<em>Listeria </em>(especially in immuno-compromised, elderly patients, &nbsp;or have alcohol use disorder)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8331\"><strong>Ceftriaxone</strong></a>&nbsp;2g IV q12h<br />\r\n\t\t\t<em>PLUS</em><br />\r\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\r\n\r\n\t\t\t<p><em>WITH OR WITHOUT*</em><br />\r\n\t\t\t<a href=\"/node/8246\"><strong>Ampicillin</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe PCN allergy</a></em>:<br />\r\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><br />\r\n\t\t\t<em>PLUS</em><br />\r\n\t\t\t<a href=\"/node/8271\"><strong>Aztreonam</strong></a></p>\r\n\r\n\t\t\t<p><em>WITH OR WITHOUT*:</em><br />\r\n\t\t\t<a href=\"/node/8466\"><strong>Trimethoprim/ Sulfamethoxazole</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Therapy should be guided by Gram stain</p>\r\n\r\n\t\t\t<p>If bacterial meningitis suspected<em>, </em>dexamethasone 10 mg PO/IV q6h x 4 days given before or with initial dose of antibiotics</p>\r\n\r\n\t\t\t<p><strong>*</strong>Coverage for <em>Listeria</em> should be added for adult patients&nbsp;&gt;50 years of age or immunocompromised</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>ID consultation recommended</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Meningitis</strong><br />\r\n\t\t\tPost-neurosurgical or device associated</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>S. aureus</em><br />\r\n\t\t\tCoagulase negative<br />\r\n\t\t\tstaphylococci<br />\r\n\t\t\tGram negative rods</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8321\"><strong>Cefepime</strong></a><br />\r\n\t\t\t<em>PLUS</em><br />\r\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe PCN allergy</a></em><a href=\"/node/9856\">:</a><br />\r\n\t\t\t<a href=\"/node/8271\"><strong>Aztreonam</strong></a><br />\r\n\t\t\t<em>PLUS</em><br />\r\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p>ID consultation recommended</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 131,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d7460e83-b3f1-47f2-a8bd-f3ffc14759da",
+   "url": "/guidelines-empiric-therapy-categories/central-nervous-system-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p>Tunkel AR, et al. Practice guidelines for the management of bacterial meningitis.&nbsp;<a href=\"http://cid.oxfordjournals.org/content/39/9/1267.long\">Clin Infect Dis. 2004 Nov 1;39(9):1267-84.</a></p>\n\n<p>2017 Infectious Diseases Society of America’s Clinical Practice Guidelines for Healthcare-Associated Ventriculitis and Meningitis. Clinical Infectious Diseases, Volume 64, Issue 6, 15 March 2017, Pages e34–e65, <a href=\"https://doi.org/10.1093/cid/ciw861\">https://doi.org/10.1093/cid/ciw861</a></p>\n",
+   "value": "<p>Tunkel AR, et al. Practice guidelines for the management of bacterial meningitis.&nbsp;<a href=\"http://cid.oxfordjournals.org/content/39/9/1267.long\">Clin Infect Dis. 2004 Nov 1;39(9):1267-84.</a></p>\r\n\r\n<p>2017 Infectious Diseases Society of America’s Clinical Practice Guidelines for Healthcare-Associated Ventriculitis and Meningitis. Clinical Infectious Diseases, Volume 64, Issue 6, 15 March 2017, Pages e34–e65, <a href=\"https://doi.org/10.1093/cid/ciw861\">https://doi.org/10.1093/cid/ciw861</a></p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 9001
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/meningitis",
+   "langcode": "und",
+   "pid": 21776
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-08-23T17:49:16+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Meningitis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "991e5d36-3a05-4bb9-8fc2-42c92cb8acec"
+  }
+ ],
+ "vid": [
+  {
+   "value": 18611
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T23:42:25+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587588517,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T20:48:37+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>",
+   "value": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>"
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p style=\"color:red;\"><strong>*Note: These dosing recommendations were updated in 2/2025 to better align with available evidence &amp; clinical practice</strong></p><table class=\"table\"><thead><tr><th>Indication</th><th>Dosing</th><th>Notes</th></tr></thead><tbody><tr><td>Prophylaxis for Heme/BMT patients, all routes</td><td>200 mg IV/PO Q12h*</td><td>No renal dose adjustment<sup>†</sup></td></tr><tr><td><p>Treatment indications, all routes</p><p>&nbsp;</p></td><td>6 mg/kg IV/PO Q12h x 2 doses, then 4 mg/kg IV/PO Q12hr^</td><td>No renal dose adjustment<sup>†</sup></td></tr></tbody></table><p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" lang=\"EN-US\" paraeid=\"{d0a4e7ff-300a-44c3-9998-2017879ed6bf}{63}\" paraid=\"0\" xml:lang=\"EN-US\">*In patients with obesity (BMI &gt;/= 30 kg/m2), consider a weight-based regimen (4mg/kg q12h based on adjusted body weight), Consult ID or ASP for assistance.<br>^Consider tablet size(s) when determining dose. Voriconazole comes in 50 mg and 200 mg PO tablets. Oral suspension is also available.<br><sup>†</sup>The manufacturer recommends avoiding <strong><u>IV</u> </strong>voriconazole in patients with renal impairment due to potential accumulation of the excipient sulfobutylether-beta-cyclodextrin, which may lead to kidney injury. <strong>However, limited data suggest that patients with baseline kidney impairment may safely receive short durations of IV voriconazole</strong> (Kim 2016; Lilly 2013; Neofytos 2012; Oude Lashof 2012).</p>",
+   "value": "<p style=\"color:red;\"><strong>*Note: These dosing recommendations were updated in 2/2025 to better align with available evidence &amp; clinical practice</strong></p><table class=\"table\"><thead><tr><th>Indication</th><th>Dosing</th><th>Notes</th></tr></thead><tbody><tr><td>Prophylaxis for Heme/BMT patients, all routes</td><td>200 mg IV/PO Q12h*</td><td>No renal dose adjustment<sup>†</sup></td></tr><tr><td><p>Treatment indications, all routes</p><p>&nbsp;</p></td><td>6 mg/kg IV/PO Q12h x 2 doses, then 4 mg/kg IV/PO Q12hr^</td><td>No renal dose adjustment<sup>†</sup></td></tr></tbody></table><p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" lang=\"EN-US\" paraeid=\"{d0a4e7ff-300a-44c3-9998-2017879ed6bf}{63}\" paraid=\"0\" xml:lang=\"EN-US\">*In patients with obesity (BMI &gt;/= 30 kg/m2), consider a weight-based regimen (4mg/kg q12h based on adjusted body weight), Consult ID or ASP for assistance.<br>^Consider tablet size(s) when determining dose. Voriconazole comes in 50 mg and 200 mg PO tablets. Oral suspension is also available.<br><sup>†</sup>The manufacturer recommends avoiding <strong><u>IV</u> </strong>voriconazole in patients with renal impairment due to potential accumulation of the excipient sulfobutylether-beta-cyclodextrin, which may lead to kidney injury. <strong>However, limited data suggest that patients with baseline kidney impairment may safely receive short durations of IV voriconazole</strong> (Kim 2016; Lilly 2013; Neofytos 2012; Oude Lashof 2012).</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dosing</th><th>Notes</th></tr></thead><tbody><tr><td>Prophylaxis for Heme/BMT patients, all routes</td><td>200 mg IV/PO Q12h*</td><td>No dose adjustment in hemodialysis</td></tr><tr><td>Treatment indications, all routes</td><td>6mg/kg IV/PO Q12h x 2 doses, then 4mg/kg IV/PO Q12hr^</td><td>No dose adjustment in hemodialysis</td></tr></tbody></table><p>*In patients with obesity (BMI &gt;/= 30 kg/m2), consider a weight-based regimen (4mg/kg q12h based on adjusted body weight), Consult ID or ASP for assistance.​^Consider tablet size(s) when determining dose. Voriconazole comes in 50 mg and 200 mg PO tablets. Oral suspension is also available.</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dosing</th><th>Notes</th></tr></thead><tbody><tr><td>Prophylaxis for Heme/BMT patients, all routes</td><td>200 mg IV/PO Q12h*</td><td>No dose adjustment in hemodialysis</td></tr><tr><td>Treatment indications, all routes</td><td>6mg/kg IV/PO Q12h x 2 doses, then 4mg/kg IV/PO Q12hr^</td><td>No dose adjustment in hemodialysis</td></tr></tbody></table><p>*In patients with obesity (BMI &gt;/= 30 kg/m2), consider a weight-based regimen (4mg/kg q12h based on adjusted body weight), Consult ID or ASP for assistance.​^Consider tablet size(s) when determining dose. Voriconazole comes in 50 mg and 200 mg PO tablets. Oral suspension is also available.</p>"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 66,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d2274533-3b4b-403d-b6bd-9026f83daea2",
+   "url": "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use"
+  }
+ ],
+ "field_drug_references": [
+  {
+   "format": "advanced",
+   "processed": "<ol><li data-list-item-id=\"e6bc90c36d77cb6f58bf00593a5b2267e\">Kim SH, Kwon JC, Park C, et al. Therapeutic drug monitoring and safety of intravenous voriconazole formulated with sulfobutylether β-cyclodextrin in haematological patients with renal impairment. <em>Mycoses</em>. 2016;59(10):644-651. doi:<a href=\"https://doi.org/10.1111/myc.12517\">10.1111/myc.12517</a></li><li data-list-item-id=\"e31337225d6ca73331eba6715802cb634\">Lilly CM, Welch VL, Mayer T, Ranauro P, Meisner J, Luke DR. Evaluation of intravenous voriconazole in patients with compromised renal function. <em>BMC Infect Dis</em>. 2013;13:14. doi:<a href=\"https://doi.org/10.1186/1471-2334-13-14\">10.1186/1471-2334-13-14</a></li><li data-list-item-id=\"e762976be29912c0563dda2d8221d5502\">Neofytos D, Lombardi LR, Shields RK, et al. Administration of Voriconazole in Patients With Renal Dysfunction. <em>Clinical Infectious Diseases</em>. 2012;54(7):913-921. doi:<a href=\"https://doi.org/10.1093/cid/cir969\">10.1093/cid/cir969</a></li><li data-list-item-id=\"e0cf1ef02fef9b906d423fa93c32a1317\">Oude Lashof AML, Sobel JD, Ruhnke M, et al. Safety and Tolerability of Voriconazole in Patients with Baseline Renal Insufficiency and Candidemia. <em>Antimicrob Agents Chemother</em>. 2012;56(6):3133-3137. doi:<a href=\"https://doi.org/10.1128/AAC.05841-11\">10.1128/AAC.05841-11</a></li></ol>",
+   "value": "<ol><li data-list-item-id=\"e6bc90c36d77cb6f58bf00593a5b2267e\">Kim SH, Kwon JC, Park C, et al. Therapeutic drug monitoring and safety of intravenous voriconazole formulated with sulfobutylether β-cyclodextrin in haematological patients with renal impairment. <em>Mycoses</em>. 2016;59(10):644-651. doi:<a href=\"https://doi.org/10.1111/myc.12517\">10.1111/myc.12517</a></li><li data-list-item-id=\"e31337225d6ca73331eba6715802cb634\">Lilly CM, Welch VL, Mayer T, Ranauro P, Meisner J, Luke DR. Evaluation of intravenous voriconazole in patients with compromised renal function. <em>BMC Infect Dis</em>. 2013;13:14. doi:<a href=\"https://doi.org/10.1186/1471-2334-13-14\">10.1186/1471-2334-13-14</a></li><li data-list-item-id=\"e762976be29912c0563dda2d8221d5502\">Neofytos D, Lombardi LR, Shields RK, et al. Administration of Voriconazole in Patients With Renal Dysfunction. <em>Clinical Infectious Diseases</em>. 2012;54(7):913-921. doi:<a href=\"https://doi.org/10.1093/cid/cir969\">10.1093/cid/cir969</a></li><li data-list-item-id=\"e0cf1ef02fef9b906d423fa93c32a1317\">Oude Lashof AML, Sobel JD, Ruhnke M, et al. Safety and Tolerability of Voriconazole in Patients with Baseline Renal Insufficiency and Candidemia. <em>Antimicrob Agents Chemother</em>. 2012;56(6):3133-3137. doi:<a href=\"https://doi.org/10.1128/AAC.05841-11\">10.1128/AAC.05841-11</a></li></ol>"
+  }
+ ],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  },
+  {
+   "target_id": 76,
+   "target_type": "taxonomy_term",
+   "target_uuid": "4511a589-5232-4ab1-95de-bae41deb9968",
+   "url": "/notations/iv-po"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<h2>General Considerations</h2><p>- For assistance with therapeutic drug monitoring (TDM), see <a href=\"/content/azole-therapeutic-drug-monitoring\">Azole TDM Reference&nbsp;Document</a>.<br>- Review medications for potential drug interactions.</p>",
+   "value": "<h2>General Considerations</h2><p>- For assistance with therapeutic drug monitoring (TDM), see <a href=\"/content/azole-therapeutic-drug-monitoring\">Azole TDM Reference&nbsp;Document</a>.<br>- Review medications for potential drug interactions.</p>"
+  }
+ ],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{12}\" paraid=\"0\" xml:lang=\"EN-US\">Restricted to ID or Antimicrobial Stewardship except:</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{12}\" paraid=\"0\" xml:lang=\"EN-US\">IV formulation: Inability to tolerate or absorb enteral medications AND one of the following:</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{12}\" paraid=\"0\" xml:lang=\"EN-US\">PO formulation: One of the following:</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{12}\" paraid=\"0\" xml:lang=\"EN-US\">1) Prophylaxis against fungal&nbsp;infections on the&nbsp;HBC/lung/heart transplant services​</p><p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:270,&quot;335559731&quot;:-270,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" data-indent=\"-270\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{18}\" paraid=\"0\" xml:lang=\"EN-US\">2) Suspected or documented&nbsp;serious fungal infection in HBC or lung&nbsp;transplant patients​</p><p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:270,&quot;335559731&quot;:-270,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" data-indent=\"-270\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{21}\" paraid=\"0\" xml:lang=\"EN-US\">3) Empiric therapy for prolonged&nbsp;febrile neutropenia in&nbsp;HBC patients</p>",
+   "value": "<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{12}\" paraid=\"0\" xml:lang=\"EN-US\">Restricted to ID or Antimicrobial Stewardship except:</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{12}\" paraid=\"0\" xml:lang=\"EN-US\">IV formulation: Inability to tolerate or absorb enteral medications AND one of the following:</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{12}\" paraid=\"0\" xml:lang=\"EN-US\">PO formulation: One of the following:</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{12}\" paraid=\"0\" xml:lang=\"EN-US\">1) Prophylaxis against fungal&nbsp;infections on the&nbsp;HBC/lung/heart transplant services​</p><p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:270,&quot;335559731&quot;:-270,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" data-indent=\"-270\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{18}\" paraid=\"0\" xml:lang=\"EN-US\">2) Suspected or documented&nbsp;serious fungal infection in HBC or lung&nbsp;transplant patients​</p><p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:270,&quot;335559731&quot;:-270,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\" data-indent=\"-270\" lang=\"EN-US\" paraeid=\"{82c02008-1b75-4f1a-a776-923206ac0fde}{21}\" paraid=\"0\" xml:lang=\"EN-US\">3) Empiric therapy for prolonged&nbsp;febrile neutropenia in&nbsp;HBC patients</p>"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "Emily Kaip requested this 05/2023\r\nAdded comment: The manufacturer recommends avoiding IV voriconazole in patients with renal impairment due to potential accumulation of the excipient sulfobutylether-beta-cyclodextrin, which may lead to kidney injury. However, limited data suggest that patients with baseline kidney impairment may safely receive short durations of IV voriconazole\r\nSources: Kim 2016; Lilly 2013; Neofytos 2012; Oude Lashof 2012\r\nRipal Jariwala completed this 07/2023\r\n7/31/24: Updated unrestricted criteria to include heart transplant ppx, changed \"fungal PNA\" to \"serious fungal infection\", per discussion at 7/2024 dosing meeting -EK\r\n2/19/25: Updated per discussion at dosing meeting 1/2025--changed \"all indications\" to be \"treatment\" and \"prophylaxis\" separately so that we could endorse wt-based dosing for treatment indications regardless of route. Cleaned up commentary re: TDM.\r\n2/21/25: Added link to azole TDM document, added \"general considerations\" section\r\n9/2026: streamlined/aligned restriction criteria verbiage with other azoles"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8481
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/voriconazole",
+   "langcode": "und",
+   "pid": 21366
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T23:42:25+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Voriconazole"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "37378787-edb0-4a35-ad81-dae9aedef4d8"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35591
+  }
+ ]
+}

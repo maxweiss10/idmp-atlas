@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-02-04T00:01:40+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1626367622,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-11-16T22:12:26+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<h1 style=\"text-align: center;\"><strong><a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Link to 2021 CDC STI Treatment Guidelines &amp; Additional Resources</a></strong></h1>\n\n<p style=\"text-align:center\">\n<div class=\"media-embed-resized media media--type-image media--view-mode-default\" height=\"912\" style=\"width:1310px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/CDC%20STI%202021%201_0.PNG.webp?itok=45W8qRUP\" width=\"480\" height=\"334\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n</p>\n\n<p style=\"text-align:center\">\n<div class=\"media-embed-resized media media--type-image media--view-mode-default\" height=\"794\" style=\"width:1319px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/CDC%20STI%202021%202.PNG.webp?itok=miYW-Xdq\" width=\"480\" height=\"289\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n</p>\n\n<p>&nbsp;</p>\n",
+   "value": "<h1 style=\"text-align: center;\"><strong><a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Link to 2021 CDC STI Treatment Guidelines &amp; Additional Resources</a></strong></h1>\n\n<p style=\"text-align:center\"><drupal-media data-entity-type=\"media\" data-entity-uuid=\"4a5a5827-1cd5-4926-b4a2-48c345c27ed4\" data-view-mode=\"default\" data-media-width=\"1310px\" alt height=\"912\"></drupal-media></p>\n\n<p style=\"text-align:center\"><drupal-media data-entity-type=\"media\" data-entity-uuid=\"62ab6351-7f35-4f4b-aefd-ecdee7ca64ff\" data-view-mode=\"default\" data-media-width=\"1319px\" alt height=\"794\"></drupal-media></p>\n\n<p>&nbsp;</p>\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1c0d6bd7-8b96-483f-a5a7-d0a3a8ba07cf",
+   "url": "/guidelines-empiric-therapy-categories/sexually-transmitted-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p>Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. 2021;70(4).</p>\n",
+   "value": "<p>Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. 2021;70(4).</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12751
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/sexually-transmitted-infections",
+   "langcode": "und",
+   "pid": 25421
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-02-04T00:01:40+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Sexually Transmitted Infections"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "023ffaa3-ab97-4ec9-858d-c30d3170a2e1"
+  }
+ ],
+ "vid": [
+  {
+   "value": 17296
+  }
+ ]
+}

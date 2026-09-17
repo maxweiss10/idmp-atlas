@@ -1,0 +1,133 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "",
+   "summary": "Reference for ethanol and antibiotic lock therapy, including approved lock solutions and clinical guidance.",
+   "value": ""
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-02T23:51:49+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1765401845,
+   "last_comment_uid": 491,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-10T21:22:54+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 431,
+   "target_type": "taxonomy_term",
+   "target_uuid": "f25f557e-a860-4aad-8722-978dcb5e1610",
+   "url": "/guideline-categories/policies-procedures-protocols"
+  }
+ ],
+ "field_guideline_modified_date": [],
+ "field_guideline_site": [
+  {
+   "target_id": 461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8d5e5d55-c79c-480c-8d58-ff9c4b488fcf",
+   "url": "/site/ucsf-benioff-childrens-hospital-oakland"
+  },
+  {
+   "target_id": 456,
+   "target_type": "taxonomy_term",
+   "target_uuid": "bd66daca-f848-4cc8-be1f-0ecfd8e9aad4",
+   "url": "/site/ucsf-benioff-childrens-hospital-san-francisco"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1671,
+   "target_type": "media",
+   "target_uuid": "8b04d3cc-6f4d-4cb7-a4ef-f88363b113a8",
+   "url": "/document/bch-antimicrobial-lock-therapy-policy-2026-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 16076
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/bch-antimicrobial-lock-therapy-alt-policy",
+   "langcode": "und",
+   "pid": 28671
+  }
+ ],
+ "promote": [
+  {
+   "value": true
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-10T21:23:09+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "BCH Antimicrobial Lock Therapy (ALT) Policy"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "1f895a90-9c0f-4409-b32e-1adb2c431c27"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24506
+  }
+ ]
+}

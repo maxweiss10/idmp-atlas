@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-07-15T17:04:53+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1626368693,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-19T03:36:39+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Fever in a person who injects drugs</strong></p>\n\n\t\t\t<p><strong>*</strong>for patients with severe sepsis, refer to guidelines for sepsis</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>S. aureus</em></p>\n\n\t\t\t<p><em>Streptococci spp.</em></p>\n\n\t\t\t<p><em>Enterococcus spp.</em></p>\n\n\t\t\t<p align=\"left\">Occasional gram negative rods</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p>Infectious Diseases Consultation recommended for all cases of suspected endocarditis</p>\n\t\t\t<a href=\"/content/ceftriaxone\">Ceftriaxone</a> (alternative: <a href=\"/content/ciprofloxacin\">ciprofloxacin</a>) could be added to patients with more severe disease</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Fever in a person who injects drugs</strong></p>\r\n\r\n\t\t\t<p><strong>*</strong>for patients with severe sepsis, refer to guidelines for sepsis</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>S. aureus</em></p>\r\n\r\n\t\t\t<p><em>Streptococci spp.</em></p>\r\n\r\n\t\t\t<p><em>Enterococcus spp.</em></p>\r\n\r\n\t\t\t<p align=\"left\">Occasional gram negative rods</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8471\"><strong>Vancomycin</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Infectious Diseases Consultation recommended for all cases of suspected endocarditis</p>\r\n\t\t\t<a href=\"/node/8331\">Ceftriaxone</a> (alternative: <a href=\"/node/8336\">ciprofloxacin</a>) could be added to patients with more severe disease</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 161,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e9e098f9-0081-4408-b491-927824f0c523",
+   "url": "/guidelines-empiric-therapy-categories/sepsis-source-unknown-and-other-nonfocal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12076
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/fever-in-a-person-who-injects-drugs",
+   "langcode": "und",
+   "pid": 24756
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-07-15T17:04:53+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Fever in a person who injects drugs"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "6d4d4702-2928-4df1-9e2b-7de909a0d034"
+  }
+ ],
+ "vid": [
+  {
+   "value": 13981
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:29:11+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633717751,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T17:55:26+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{143}\" paraid=\"600547435\">Syphilis (congenital)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{153}\" paraid=\"169263392\">Refer to&nbsp;<a href=\"https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/Congenital_Syphilis_Algorithm.pdf\">CDPH algorithm</a>&nbsp;for guidance on interpretation of infant risk and recommended evaluation&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><em>Treponema pallidum&nbsp;</em></td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{171}\" paraid=\"1113640689\"><strong>Full treatment course (as indicated&nbsp;<a href=\"https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/Congenital_Syphilis_Algorithm.pdf\">per algorithm</a>)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{187}\" paraid=\"167409598\"><strong>Preterm infant (&lt;=36 weeks GA</strong>):&nbsp;Refer to&nbsp;neonatal dosing guidelines&nbsp;for penicillin interval adjustments&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{199}\" paraid=\"1446765734\">-------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{209}\" paraid=\"576814818\"><strong>Age &lt;=7d</strong>:<br>\n\t\t\tPenicillin G 50,000 units/kg/dose IV q12h&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{221}\" paraid=\"536875365\">-------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{231}\" paraid=\"188192650\"><strong>Age 8 days to &lt;1 month</strong>:<br>\n\t\t\tPenicillin G 50,000  units/kg/dose IV q8h&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{243}\" paraid=\"1051807022\">-------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{253}\" paraid=\"1711242131\"><strong>Age &gt;=1 month</strong>:<br>\n\t\t\tPenicillin G 50,000 units/kg/dose IV q4-6 hours &nbsp;</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{10}\" paraid=\"1563893985\">-------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{20}\" paraid=\"110200194\"><strong>Single dose - only use in selected infants as indicated&nbsp;<a href=\"https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/Congenital_Syphilis_Algorithm.pdf\">per algorithm</a></strong>:&nbsp;Benzathine penicillin 50,000 units/kg&nbsp;IM x 1 dose&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{38}\" paraid=\"262916027\">Consider ID consult&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{48}\" paraid=\"462599182\"><strong>Duration (IV)</strong>:&nbsp;10 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{56}\" paraid=\"1712469435\">Penicillin treatment should be continued without interruption; if &gt; 1 day of treatment is missed, the entire course should be resumed and continued for the full duration from time of re-initiation &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{143}\" paraid=\"600547435\">Syphilis (congenital)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{153}\" paraid=\"169263392\">Refer to&nbsp;<a href=\"https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/Congenital_Syphilis_Algorithm.pdf\">CDPH algorithm</a>&nbsp;for guidance on interpretation of infant risk and recommended evaluation&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td><em>Treponema pallidum&nbsp;</em></td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{171}\" paraid=\"1113640689\"><strong>Full treatment course (as indicated&nbsp;<a href=\"https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/Congenital_Syphilis_Algorithm.pdf\">per algorithm</a>)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{187}\" paraid=\"167409598\"><strong>Preterm infant (&lt;=36 weeks GA</strong>):&nbsp;Refer to&nbsp;neonatal dosing guidelines&nbsp;for penicillin interval adjustments&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{199}\" paraid=\"1446765734\">-------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{209}\" paraid=\"576814818\"><strong>Age &lt;=7d</strong>:<br />\r\n\t\t\tPenicillin G 50,000 units/kg/dose IV q12h&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{221}\" paraid=\"536875365\">-------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{231}\" paraid=\"188192650\"><strong>Age 8 days to &lt;1 month</strong>:<br />\r\n\t\t\tPenicillin G 50,000  units/kg/dose IV q8h&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{243}\" paraid=\"1051807022\">-------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{253}\" paraid=\"1711242131\"><strong>Age &gt;=1 month</strong>:<br />\r\n\t\t\tPenicillin G 50,000 units/kg/dose IV q4-6 hours &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{10}\" paraid=\"1563893985\">-------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{20}\" paraid=\"110200194\"><strong>Single dose - only use in selected infants as indicated&nbsp;<a href=\"https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/Congenital_Syphilis_Algorithm.pdf\">per algorithm</a></strong>:&nbsp;Benzathine penicillin 50,000 units/kg&nbsp;IM x 1 dose&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{38}\" paraid=\"262916027\">Consider ID consult&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{48}\" paraid=\"462599182\"><strong>Duration (IV)</strong>:&nbsp;10 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{56}\" paraid=\"1712469435\">Penicillin treatment should be continued without interruption; if &gt; 1 day of treatment is missed, the entire course should be resumed and continued for the full duration from time of re-initiation &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1656,
+   "target_type": "taxonomy_term",
+   "target_uuid": "cb10dabe-b965-4057-b248-042e218f5f23",
+   "url": "/guidelines-empiric-therapy-categories/congenitalperinatal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{68}\" paraid=\"884624488\">References:&nbsp;&nbsp;</h2>\n\n<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{76}\" paraid=\"296867141\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n\n<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{108}\" paraid=\"309760248\"><a href=\"https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/CongenitalSyphilis.aspx\">California Department of Public Health: Congenital Syphilis&nbsp;Resources for Providers</a></p>\n",
+   "value": "<h2 paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{68}\" paraid=\"884624488\">References:&nbsp;&nbsp;</h2>\r\n\r\n<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{76}\" paraid=\"296867141\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n\r\n<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{108}\" paraid=\"309760248\"><a href=\"https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/CongenitalSyphilis.aspx\">California Department of Public Health: Congenital Syphilis&nbsp;Resources for Providers</a></p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13346
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/congenital-syphilis",
+   "langcode": "und",
+   "pid": 26006
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:29:11+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Congenital Syphilis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "4293f140-3828-40a1-9afd-b908a4505e6e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15931
+  }
+ ]
+}

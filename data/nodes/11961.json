@@ -1,0 +1,137 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<p>This guideline applies to use of antibiotics in the UCSF Benioff Children's Hospital San Francisco Intensive Care Nursery for empiric treatment of presumed perinatal (early-onset, &lt;=72 hours of age) or hospital-onset infections in infants at &gt; 72 hours of age who have been hospitalized since birth (late-onset).</p>\n\n<p><strong>RECOMMENDATIONS:</strong></p>\n\n<p>Refer to the following algorithms for antibiotic selection guidance in infants presenting with clinical signs concerning for sepsis:&nbsp;</p>\n\n<ul>\n\t<li>Empiric Antibiotic Therapy for Sepsis in the Intensive Care Nursery&nbsp;(documents linked above)</li>\n\t<li><a href=\"/content/necrotizing-enterocolitis-antibiotic-selection-duration-therapy\">Necrotizing Enterocolitis/Spontaneous Intestinal Perforation: Antibiotic Selection and Duration of Therapy</a></li>\n\t<li><a href=\"/neonatal-antimicrobial-dosing-benioff-childrens-hospitals\">Neonatal Antimicrobial Dosing Guidelines</a></li>\n\t<li><a data-mce-href=\"https://www.ucsfbenioffchildrens.org/pdf/sepsis_guidelines.pdf\" href=\"https://www.ucsfbenioffchildrens.org/pdf/sepsis_guidelines.pdf\">Click here</a> for guidelines on Early Onset Sepsis Screening and Management in Infants &gt;= 34 Weeks GA from the UCSF Northern California Neonatology Consortium</li>\n</ul>\n\n<p>For situations in which a neonatal clinician would previously have considered empiric use of vancomycin and gentamicin, we now recommend nafcillin and gentamicin except in those infants with history of prior MRSA colonization or infection, or for infants with sudden and inexplicable severe illness.&nbsp;</p>\n\n<p>Prior history of MRSA can be identified as follows:&nbsp;</p>\n\n<ol>\n\t<li>Review the infant's Microbiology history for prior isolation of MRSA or detection of MRSA via nasal swab screening (performed if transferred from another hospital). This information can be located in APeX Microbiology Summary report.</li>\n\t<li>If an infant has any MRSA isolate or positive MRSA nasal swab, documentation of the result is recommended in team sign-out communication.&nbsp;</li>\n\t<li>Decolonization may be considered and can temporarily eliminate MRSA colonization but recolonization is possible.&nbsp;</li>\n</ol>\n\n<p><strong>RATIONALE:</strong></p>\n\n<p>The goal of these guidelines is to reduce avoidable vancomycin exposure among hospitalized neonates. Previously, vancomycin has been included in empiric late onset sepsis (LOS) therapy to cover coagulase-negative staphylococci (CoNS), which are usually resistant to narrower spectrum antibiotics. Though CoNS is one of the most common causes of LOS, it is unlikely to lead to near term mortality compared to other LOS pathogens. Empiric treatment vs. delayed treatment of CoNS (initiation of vancomycin when the blood culture is reported positive) has not been associated with a detectable mortality benefit in a large neonatal cohort study.&nbsp;</p>\n\n<p>Given the adverse effects of vancomycin exposure, including selection for antibiotic resistance, modification of the neonatal microbiome, nephrotoxicity, and ototoxicity, <a data-mce-href=\"http://www.choosingwisely.org/clinician-lists/aapcoid-pids-vancomycin-or-carbapenems-for-neonatal-intensive-care-patients/\" href=\"http://www.choosingwisely.org/clinician-lists/aapcoid-pids-vancomycin-or-carbapenems-for-neonatal-intensive-care-patients/\">Choosing Wisely guidelines</a> have recommended avoidance of routine empiric vancomycin use in neonatal intensive care unit patients. Other institutions have implemented guidelines to reduce use of empiric vancomycin without identifiable detriment to LOS outcomes.&nbsp;</p>\n\n<p>Nafcillin is a narrow spectrum antibiotic with less impact on resistance and the neonatal microbiome, yet it covers major neonatal LOS pathogens including methicillin-susceptible&nbsp;<em>Staphylococcus aureus&nbsp;</em>(MSSA), group B streptococcus, and when combined with gentamicin has some activity against&nbsp;<em>Enterococcus faecalis</em>. The combination regimen of nafcillin + gentamicin provides coverage against &gt; 90% of sterile site microbiologic isolates in the UCSF ICN (over Feb 2015-Aug 2018) and a majority of urine culture isolates. Nafcillin does not cover methicillin-resistant&nbsp;<em>Staphylococcus aureus</em> (MRSA); empiric vancomycin is indicated for infants who have a history of MRSA colonization or prior MRSA infection.&nbsp;</p>\n\n<p><strong>DEVELOPMENT AND REVIEW:</strong></p>\n\n<p>Initiated 2019. Content developed by Pediatric Antimicrobial Stewardship Program in collaboration with Intensive Care Nursery. Approved by UCSF Committee on Pharmacy and Therapeutics 05/14/19. Please direct questions about guideline content to rachel.wattier@ucsf.edu.</p>\n\n<p><strong data-mce-style=\"font-size: 14px;\" style=\"font-size: 14px;\">REFERENCES:</strong></p>\n\n<p>1. Karlowicz M, Buescher E, Surka A. Fulminant late-onset sepsis in a neonatal intensive care unit, 1988-1997, and the impact of avoiding empiric vancomycin therapy. Pediatrics. 2000;106:1387-1390.&nbsp;</p>\n\n<p>2. Cantey JB, Anderson K, Kalagiri R, Mallett L. Morbidity and mortality of coagulase-negative staphylococcal sepsis in very-low-birthweight infants. World J Pediatr. 2018;14(3):269-273.&nbsp;</p>\n\n<p>3. Ericson JE, Thaden J, Cross HR, Reese H, Hornik CP, Smith PB. No survival benefit with empirical vancomycin therapy for coagulase-negative staphylococcal bloodstream infections in infants. Pediatr Infect Dis J. 2016;34(4):371-375.</p>\n\n<p>4. American Academy of Pediatrics - Committee on Infectious Diseases, Pediatric Infectious Diseases Society. Choosing Wisely Recommendations,. 2018.&nbsp;</p>\n\n<p>5. Lawrence SL, Roth V, Slinger R, Toye B, Gaboury I, Lemyre B. Cloxacillin versus vancomycin for presumed late-onset sepsis in the neonatal intensive care unit and the impact upon outcome of coagulase negative staphylococcal bacteremia: a retrospective cohort study. BMC Pediatr. 2005;8:1-8.</p>\n\n<p>6. Chiu C, Michelow IC, Ringer SA, Puopolo KM. Effectiveness of a guideline to reduce vancomycin use in the neonatal intensive care unit. Pediatr Infect Dis J. 2011;30(4):273-278.&nbsp;</p>\n\n<p>7. Holzmann-Pazgal G, Khan AM, Northrup TF, Domonoske C, Eichenwald EC. Decreasing vancomycin utilization in a neonatal intensive care unit. Am J Infect Control. 2015;43(11):1255-1257.&nbsp;</p>\n\n<p>8. Glew RH, Moellering RC, Wennersten C. Comparative synergistic activity of nafcillin, oxacillin, and methicillin in combination with gentamicin against enterococci. Antimicrob Agents Chemother. 1975;7(6):828-832.&nbsp;</p>\n\n<p>9. Watanakunakorn C, Glotzbecker C. Activity of nafcillin, oxacillin, and methicillin in combination with gentamicin and tobramycin against enterococci. Antimicrob Agents Chemother. 1977;11(1):88-91.</p>\n",
+   "summary": "This guideline applies to use of antibiotics in the UCSF Benioff Children's Hospital San Francisco Intensive Care Nursery for empiric treatment of presumed perinatal (early-onset, <=72 hours of age) or hospital-onset infections in infants at > 72 hours of age who have been hospitalized since birth (late-onset). ",
+   "value": "<p>This guideline applies to use of antibiotics in the UCSF Benioff Children's Hospital San Francisco Intensive Care Nursery for empiric treatment of presumed perinatal (early-onset, &lt;=72 hours of age) or hospital-onset infections in infants at &gt; 72 hours of age who have been hospitalized since birth (late-onset).</p>\r\n\r\n<p><strong>RECOMMENDATIONS:</strong></p>\r\n\r\n<p>Refer to the following algorithms for antibiotic selection guidance in infants presenting with clinical signs concerning for sepsis:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Empiric Antibiotic Therapy for Sepsis in the Intensive Care Nursery&nbsp;(documents linked above)</li>\r\n\t<li><a href=\"/content/necrotizing-enterocolitis-antibiotic-selection-duration-therapy\">Necrotizing Enterocolitis/Spontaneous Intestinal Perforation: Antibiotic Selection and Duration of Therapy</a></li>\r\n\t<li><a href=\"/neonatal-antimicrobial-dosing-benioff-childrens-hospitals\">Neonatal Antimicrobial Dosing Guidelines</a></li>\r\n\t<li><a data-mce-href=\"https://www.ucsfbenioffchildrens.org/pdf/sepsis_guidelines.pdf\" href=\"https://www.ucsfbenioffchildrens.org/pdf/sepsis_guidelines.pdf\">Click here</a> for guidelines on Early Onset Sepsis Screening and Management in Infants &gt;= 34 Weeks GA from the UCSF Northern California Neonatology Consortium</li>\r\n</ul>\r\n\r\n<p>For situations in which a neonatal clinician would previously have considered empiric use of vancomycin and gentamicin, we now recommend nafcillin and gentamicin except in those infants with history of prior MRSA colonization or infection, or for infants with sudden and inexplicable severe illness.&nbsp;</p>\r\n\r\n<p>Prior history of MRSA can be identified as follows:&nbsp;</p>\r\n\r\n<ol>\r\n\t<li>Review the infant's Microbiology history for prior isolation of MRSA or detection of MRSA via nasal swab screening (performed if transferred from another hospital). This information can be located in APeX Microbiology Summary report.</li>\r\n\t<li>If an infant has any MRSA isolate or positive MRSA nasal swab, documentation of the result is recommended in team sign-out communication.&nbsp;</li>\r\n\t<li>Decolonization may be considered and can temporarily eliminate MRSA colonization but recolonization is possible.&nbsp;</li>\r\n</ol>\r\n\r\n<p><strong>RATIONALE:</strong></p>\r\n\r\n<p>The goal of these guidelines is to reduce avoidable vancomycin exposure among hospitalized neonates. Previously, vancomycin has been included in empiric late onset sepsis (LOS) therapy to cover coagulase-negative staphylococci (CoNS), which are usually resistant to narrower spectrum antibiotics. Though CoNS is one of the most common causes of LOS, it is unlikely to lead to near term mortality compared to other LOS pathogens. Empiric treatment vs. delayed treatment of CoNS (initiation of vancomycin when the blood culture is reported positive) has not been associated with a detectable mortality benefit in a large neonatal cohort study.&nbsp;</p>\r\n\r\n<p>Given the adverse effects of vancomycin exposure, including selection for antibiotic resistance, modification of the neonatal microbiome, nephrotoxicity, and ototoxicity, <a data-mce-href=\"http://www.choosingwisely.org/clinician-lists/aapcoid-pids-vancomycin-or-carbapenems-for-neonatal-intensive-care-patients/\" href=\"http://www.choosingwisely.org/clinician-lists/aapcoid-pids-vancomycin-or-carbapenems-for-neonatal-intensive-care-patients/\">Choosing Wisely guidelines</a> have recommended avoidance of routine empiric vancomycin use in neonatal intensive care unit patients. Other institutions have implemented guidelines to reduce use of empiric vancomycin without identifiable detriment to LOS outcomes.&nbsp;</p>\r\n\r\n<p>Nafcillin is a narrow spectrum antibiotic with less impact on resistance and the neonatal microbiome, yet it covers major neonatal LOS pathogens including methicillin-susceptible&nbsp;<em>Staphylococcus aureus&nbsp;</em>(MSSA), group B streptococcus, and when combined with gentamicin has some activity against&nbsp;<em>Enterococcus faecalis</em>. The combination regimen of nafcillin + gentamicin provides coverage against &gt; 90% of sterile site microbiologic isolates in the UCSF ICN (over Feb 2015-Aug 2018) and a majority of urine culture isolates. Nafcillin does not cover methicillin-resistant&nbsp;<em>Staphylococcus aureus</em> (MRSA); empiric vancomycin is indicated for infants who have a history of MRSA colonization or prior MRSA infection.&nbsp;</p>\r\n\r\n<p><strong>DEVELOPMENT AND REVIEW:</strong></p>\r\n\r\n<p>Initiated 2019. Content developed by Pediatric Antimicrobial Stewardship Program in collaboration with Intensive Care Nursery. Approved by UCSF Committee on Pharmacy and Therapeutics 05/14/19. Please direct questions about guideline content to rachel.wattier@ucsf.edu.</p>\r\n\r\n<p><strong data-mce-style=\"font-size: 14px;\" style=\"font-size: 14px;\">REFERENCES:</strong></p>\r\n\r\n<p>1. Karlowicz M, Buescher E, Surka A. Fulminant late-onset sepsis in a neonatal intensive care unit, 1988-1997, and the impact of avoiding empiric vancomycin therapy. Pediatrics. 2000;106:1387-1390.&nbsp;</p>\r\n\r\n<p>2. Cantey JB, Anderson K, Kalagiri R, Mallett L. Morbidity and mortality of coagulase-negative staphylococcal sepsis in very-low-birthweight infants. World J Pediatr. 2018;14(3):269-273.&nbsp;</p>\r\n\r\n<p>3. Ericson JE, Thaden J, Cross HR, Reese H, Hornik CP, Smith PB. No survival benefit with empirical vancomycin therapy for coagulase-negative staphylococcal bloodstream infections in infants. Pediatr Infect Dis J. 2016;34(4):371-375.</p>\r\n\r\n<p>4. American Academy of Pediatrics - Committee on Infectious Diseases, Pediatric Infectious Diseases Society. Choosing Wisely Recommendations,. 2018.&nbsp;</p>\r\n\r\n<p>5. Lawrence SL, Roth V, Slinger R, Toye B, Gaboury I, Lemyre B. Cloxacillin versus vancomycin for presumed late-onset sepsis in the neonatal intensive care unit and the impact upon outcome of coagulase negative staphylococcal bacteremia: a retrospective cohort study. BMC Pediatr. 2005;8:1-8.</p>\r\n\r\n<p>6. Chiu C, Michelow IC, Ringer SA, Puopolo KM. Effectiveness of a guideline to reduce vancomycin use in the neonatal intensive care unit. Pediatr Infect Dis J. 2011;30(4):273-278.&nbsp;</p>\r\n\r\n<p>7. Holzmann-Pazgal G, Khan AM, Northrup TF, Domonoske C, Eichenwald EC. Decreasing vancomycin utilization in a neonatal intensive care unit. Am J Infect Control. 2015;43(11):1255-1257.&nbsp;</p>\r\n\r\n<p>8. Glew RH, Moellering RC, Wennersten C. Comparative synergistic activity of nafcillin, oxacillin, and methicillin in combination with gentamicin against enterococci. Antimicrob Agents Chemother. 1975;7(6):828-832.&nbsp;</p>\r\n\r\n<p>9. Watanakunakorn C, Glotzbecker C. Activity of nafcillin, oxacillin, and methicillin in combination with gentamicin and tobramycin against enterococci. Antimicrob Agents Chemother. 1977;11(1):88-91.</p>\r\n"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-17T20:07:28+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1631909248,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-17T20:16:57+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2019-05-14"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 456,
+   "target_type": "taxonomy_term",
+   "target_uuid": "bd66daca-f848-4cc8-be1f-0ecfd8e9aad4",
+   "url": "/site/ucsf-benioff-childrens-hospital-san-francisco"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 676,
+   "target_type": "media",
+   "target_uuid": "e400d293-becd-44df-abb3-b6f3df88ddb4",
+   "url": "/document/icn-sepsis-guidelines-final-pdf"
+  },
+  {
+   "target_id": 41,
+   "target_type": "media",
+   "target_uuid": "6f97902e-65b6-4816-88b0-2502d7fa3e11",
+   "url": "/media/41"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11961
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/guidelines-for-sepsis-in-the-icn",
+   "langcode": "und",
+   "pid": 24651
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-17T20:07:28+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Guidelines for Sepsis in the ICN"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d874c25c-a874-40b1-8345-23572b588d91"
+  }
+ ],
+ "vid": [
+  {
+   "value": 13866
+  }
+ ]
+}

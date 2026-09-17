@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:51+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1699556296,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-19T03:38:02+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><b>Community Acquired Sepsis with Unknown Source</b></td>\n\t\t\t<td>\n\t\t\t<p>Enterobacteriaceae</p>\n\n\t\t\t<p><em>S. aureus</em></p>\n\n\t\t\t<p><em>Streptococci spp.</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\n\t\t\t<p><em>PLUS </em>one of:</p>\n\n\t\t\t<p><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong></a></p>\n\n\t\t\t<p><em>OR</em></p>\n\n\t\t\t<p><a href=\"/content/piperacillin-tazobactam-zosyn\"><strong>Piperacillin/tazobactam</strong></a></p>\n\n\t\t\t<p><em>OR</em></p>\n\t\t\t<a href=\"/content/ertapenem\"><strong>Ertapenem</strong></a>&nbsp;(if known prior ESBL isolation)</td>\n\t\t\t<td>\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe beta-lactam allergy</a></em>:</p>\n\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p>\n\n\t\t\t<p><em>PLUS </em></p>\n\n\t\t\t<p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>Follow empiric therapy based&nbsp;upon source or&nbsp;<a href=\"/guidelines-for-empiric-therapy-adults\">clinical syndrome</a>, if known (e.g. pneumonia, UTI, etc.)</td>\n\t\t\t<td>\n\t\t\t<p>Stop antibiotics at 48 hours if work-up does not reveal a source of infection</p>\n\t\t\tDuration should otherwise be tailored to clinical or microbiological source</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><b>Community Acquired Sepsis with Unknown Source</b></td>\r\n\t\t\t<td>\r\n\t\t\t<p>Enterobacteriaceae</p>\r\n\r\n\t\t\t<p><em>S. aureus</em></p>\r\n\r\n\t\t\t<p><em>Streptococci spp.</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8471\"><strong>Vancomycin</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS </em>one of:</p>\r\n\r\n\t\t\t<p><a href=\"/node/8331\"><strong>Ceftriaxone</strong></a></p>\r\n\r\n\t\t\t<p><em>OR</em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8436\"><strong>Piperacillin/tazobactam</strong></a></p>\r\n\r\n\t\t\t<p><em>OR</em></p>\r\n\t\t\t<a href=\"/node/8356\"><strong>Ertapenem</strong></a>&nbsp;(if known prior ESBL isolation)</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe beta-lactam allergy</a></em>:</p>\r\n\r\n\t\t\t<p><a href=\"/node/8471\"><strong>Vancomycin</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS </em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8271\"><strong>Aztreonam</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>Follow empiric therapy based&nbsp;upon source or&nbsp;<a href=\"/guidelines-for-empiric-therapy-adults\">clinical syndrome</a>, if known (e.g. pneumonia, UTI, etc.)</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Stop antibiotics at 48 hours if work-up does not reveal a source of infection</p>\r\n\t\t\tDuration should otherwise be tailored to clinical or microbiological source</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 161,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e9e098f9-0081-4408-b491-927824f0c523",
+   "url": "/guidelines-empiric-therapy-categories/sepsis-source-unknown-and-other-nonfocal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12081
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/community-acquired-sepsis-with-unknown-source",
+   "langcode": "und",
+   "pid": 24761
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-11-09T18:58:16+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Community Acquired Sepsis with Unknown Source"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "45041ed3-e59a-4659-93b5-71ff4bc14285"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23806
+  }
+ ]
+}

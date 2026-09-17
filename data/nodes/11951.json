@@ -1,0 +1,137 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<p>Follow algorithm below for management of necrotizing enterocolitis in the Intensive Care Nursery:</p>\n\n<p>\n<div class=\"media media--type-image media--view-mode-default\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/Necrotizing%20Enterocolitis_ICN_FINAL.jpg.webp?itok=AQYjju5-\" width=\"480\" height=\"371\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n</p>\n\n<p>Refer to <a href=\"/neonatal-antimicrobial-dosing-benioff-childrens-hospitals\">Neonatal Dosing Guideline</a> for antibiotic doses.</p>\n\n<p>Follow algorithm below for management of necrotizing enterocolitis in the Pediatric Cardiothoracic Intensive Care Unit</p>\n\n<p>\n<div class=\"media-embed-resized media media--type-image media--view-mode-default\" height=\"1225\" style=\"width:1681px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/Necrotizing%20Enterocolitis%20PCICU_2019.png.webp?itok=4ImdwTZY\" width=\"480\" height=\"350\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n</p>\n",
+   "summary": "Guidance on antibiotic selection and treatment duration for necrotizing enterocolitis",
+   "value": "<p>Follow algorithm below for management of necrotizing enterocolitis in the Intensive Care Nursery:</p>\n\n<p><drupal-media data-entity-type=\"media\" data-entity-uuid=\"e54f7f35-6845-48fd-92e0-5f8480a1946a\" data-view-mode=\"default\" alt></drupal-media></p>\n\n<p>Refer to <a href=\"/node/7351\">Neonatal Dosing Guideline</a> for antibiotic doses.</p>\n\n<p>Follow algorithm below for management of necrotizing enterocolitis in the Pediatric Cardiothoracic Intensive Care Unit</p>\n\n<p><drupal-media data-entity-type=\"media\" data-entity-uuid=\"290ebd75-e78a-4ea4-94fd-5c797a940882\" data-view-mode=\"default\" data-media-width=\"1681px\" alt height=\"1225\"></drupal-media></p>\n"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-17T20:06:52+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1631909212,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-17T19:50:50+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2019-05-14"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 456,
+   "target_type": "taxonomy_term",
+   "target_uuid": "bd66daca-f848-4cc8-be1f-0ecfd8e9aad4",
+   "url": "/site/ucsf-benioff-childrens-hospital-san-francisco"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 656,
+   "target_type": "media",
+   "target_uuid": "3b0a5267-4a1f-4375-8ad9-07dcd21a4d49",
+   "url": "/document/necrotizing-enterocolitis-icn-final-pdf"
+  },
+  {
+   "target_id": 686,
+   "target_type": "media",
+   "target_uuid": "e500fdb2-9b40-41fd-b790-432267c3fa51",
+   "url": "/document/necrotizing-enterocolitis-pcicu-final-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11951
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/necrotizing-enterocolitis-antibiotic-selection-duration-therapy",
+   "langcode": "en",
+   "pid": 13291
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-17T20:06:52+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Necrotizing Enterocolitis/Spontaneous Intestinal Perforation: Antibiotic Selection & Duration of Therapy"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "4dce7cde-6384-4941-b196-f02e0a201147"
+  }
+ ],
+ "vid": [
+  {
+   "value": 13856
+  }
+ ]
+}

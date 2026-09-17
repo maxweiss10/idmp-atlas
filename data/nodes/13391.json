@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-23T21:33:18+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629754398,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T18:50:16+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{38}\" paraid=\"269197668\">Need for drainage/source control of head and neck infections should be evaluated carefully in consultation with Pediatric Otolaryngology, Head and Neck Surgery. If initial non-operative management is chosen, a narrow spectrum regimen (i.e. without vancomycin) is encouraged to facilitate transition to oral therapy.&nbsp;</p>\n\n<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{48}\" paraid=\"1639343111\">ID consultation is recommended for head and neck infections occurring in immunocompromised patients, and for those with atypical features, chronic course, or lack of response to first line therapy.&nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{82}\" paraid=\"800359953\">Lymphadenitis - acute, suppurative bacterial, usually unilateral&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{92}\" paraid=\"1823564653\">Usual presentation, without suspected dental source (e.g. periodontal disease, poor dental hygiene)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{99}\" paraid=\"1816151854\"><em>Staphylococcus aureus</em>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{109}\" paraid=\"1280716059\">Group A streptococcus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{115}\" paraid=\"554517592\"> &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{122}\" paraid=\"352562727\">Cephalexin 25 mg/kg/dose (max 500 mg/dose) enterally tid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{128}\" paraid=\"1228716774\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{142}\" paraid=\"1775286674\">Cefazolin 25 mg/kg/dose (max 1000 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{152}\" paraid=\"1476583725\">Choice of IV vs. enteral&nbsp;depending on illness severity; switch to enteral route upon clinical improvement&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{159}\" paraid=\"25523062\"><strong><a href=\"/content/assessment-of-antibiotic-allergies\">Penicillin or cephalosporin&nbsp;allergy with higher risk for allergic reaction</a>&nbsp;OR history of documented MRSA infection or carriage within the last 6 months&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{159}\" paraid=\"25523062\"><strong><em>Please confirm clindamycin susceptibility if prior cultures are available, tailor antibiotics to past susceptibility</em></strong>:</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{184}\" paraid=\"2102917987\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{194}\" paraid=\"956733437\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{204}\" paraid=\"1396281767\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{211}\" paraid=\"1653970348\">Consider OHNS consult to evaluate need for source control&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{221}\" paraid=\"951236615\">If lack of response to empiric therapy, consider need for drainage, or alternative etiology besides typical bacteria - consider ID consult (also see details above)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{231}\" paraid=\"1008195341\"><strong>Duration</strong>:&nbsp;10 days (or 5-7 days after abscess drainage if applicable)&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{241}\" paraid=\"1405569735\">Lymphadenitis - acute, suppurative bacterial, usually unilateral&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{251}\" paraid=\"1833175778\">With suspected dental source (e.g. concurrent periodontal disease)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Oral streptococci and anaerobes&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{10}\" paraid=\"1811038542\">Amoxicillin-clavulanate (Augmentin) 22.5 mg amoxicillin/kg/ dose (max 875 mg amoxicillin/dose) enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{20}\" paraid=\"884013115\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{30}\" paraid=\"953183750\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{40}\" paraid=\"135238528\">Choice of IV vs. enteral depending on illness severity, switch to enteral route upon clinical improvement</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{47}\" paraid=\"1486509360\"><strong><a href=\"/content/assessment-of-antibiotic-allergies\">Penicillin or cephalosporin allergy with higher risk for allergic reaction</a>&nbsp;OR history of documented MRSA infection or carriage within the last 6 months&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{47}\" paraid=\"1486509360\"><strong><em>Please confirm clindamycin susceptibility if prior cultures are available, tailor antibiotics to past susceptibility</em></strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{62}\" paraid=\"868416362\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{72}\" paraid=\"299436425\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{86}\" paraid=\"776446422\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{97}\" paraid=\"2092296882\">Consider OHNS consult to evaluate need for source control&nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{107}\" paraid=\"659698548\">If lack of response to empiric therapy, consider need for drainage, or alternative etiology&nbsp;besides typical bacteria - consider ID consult (also see details above)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{115}\" paraid=\"395097106\"><strong>Duration</strong>:&nbsp;10 days (or 5-7 days after abscess drainage if applicable)&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{38}\" paraid=\"269197668\">Need for drainage/source control of head and neck infections should be evaluated carefully in consultation with Pediatric Otolaryngology, Head and Neck Surgery. If initial non-operative management is chosen, a narrow spectrum regimen (i.e. without vancomycin) is encouraged to facilitate transition to oral therapy.&nbsp;</p>\r\n\r\n<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{48}\" paraid=\"1639343111\">ID consultation is recommended for head and neck infections occurring in immunocompromised patients, and for those with atypical features, chronic course, or lack of response to first line therapy.&nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{82}\" paraid=\"800359953\">Lymphadenitis - acute, suppurative bacterial, usually unilateral&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{92}\" paraid=\"1823564653\">Usual presentation, without suspected dental source (e.g. periodontal disease, poor dental hygiene)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{99}\" paraid=\"1816151854\"><em>Staphylococcus aureus</em>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{109}\" paraid=\"1280716059\">Group A streptococcus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{115}\" paraid=\"554517592\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{122}\" paraid=\"352562727\">Cephalexin 25 mg/kg/dose (max 500 mg/dose) enterally tid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{128}\" paraid=\"1228716774\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{142}\" paraid=\"1775286674\">Cefazolin 25 mg/kg/dose (max 1000 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{152}\" paraid=\"1476583725\">Choice of IV vs. enteral&nbsp;depending on illness severity; switch to enteral route upon clinical improvement&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{159}\" paraid=\"25523062\"><strong><a href=\"/node/13556\">Penicillin or cephalosporin&nbsp;allergy with higher risk for allergic reaction</a>&nbsp;OR history of documented MRSA infection or carriage within the last 6 months&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{159}\" paraid=\"25523062\"><strong><em>Please confirm clindamycin susceptibility if prior cultures are available, tailor antibiotics to past susceptibility</em></strong>:</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{184}\" paraid=\"2102917987\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{194}\" paraid=\"956733437\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{204}\" paraid=\"1396281767\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{211}\" paraid=\"1653970348\">Consider OHNS consult to evaluate need for source control&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{221}\" paraid=\"951236615\">If lack of response to empiric therapy, consider need for drainage, or alternative etiology besides typical bacteria - consider ID consult (also see details above)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{231}\" paraid=\"1008195341\"><strong>Duration</strong>:&nbsp;10 days (or 5-7 days after abscess drainage if applicable)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{241}\" paraid=\"1405569735\">Lymphadenitis - acute, suppurative bacterial, usually unilateral&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{251}\" paraid=\"1833175778\">With suspected dental source (e.g. concurrent periodontal disease)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Oral streptococci and anaerobes&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{10}\" paraid=\"1811038542\">Amoxicillin-clavulanate (Augmentin) 22.5 mg amoxicillin/kg/ dose (max 875 mg amoxicillin/dose) enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{20}\" paraid=\"884013115\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{30}\" paraid=\"953183750\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{40}\" paraid=\"135238528\">Choice of IV vs. enteral depending on illness severity, switch to enteral route upon clinical improvement</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{47}\" paraid=\"1486509360\"><strong><a href=\"/node/13556\">Penicillin or cephalosporin allergy with higher risk for allergic reaction</a>&nbsp;OR history of documented MRSA infection or carriage within the last 6 months&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{47}\" paraid=\"1486509360\"><strong><em>Please confirm clindamycin susceptibility if prior cultures are available, tailor antibiotics to past susceptibility</em></strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{62}\" paraid=\"868416362\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{72}\" paraid=\"299436425\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{86}\" paraid=\"776446422\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{97}\" paraid=\"2092296882\">Consider OHNS consult to evaluate need for source control&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{107}\" paraid=\"659698548\">If lack of response to empiric therapy, consider need for drainage, or alternative etiology&nbsp;besides typical bacteria - consider ID consult (also see details above)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{115}\" paraid=\"395097106\"><strong>Duration</strong>:&nbsp;10 days (or 5-7 days after abscess drainage if applicable)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Reference:&nbsp;</h2>\n\n<p>American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n",
+   "value": "<h2>Reference:&nbsp;</h2>\r\n\r\n<p>American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13391
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/lymphadenitis",
+   "langcode": "und",
+   "pid": 26046
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-23T21:33:18+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Lymphadenitis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "192818ac-1f6b-4bb6-a804-1527e920ea40"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15976
+  }
+ ]
+}

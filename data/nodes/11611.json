@@ -1,0 +1,163 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T21:55:26+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597286413,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T02:40:13+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<h1><strong>Adenovirus*&nbsp;</strong></h1><table><thead><tr><th>High Dose Strategy</th><th>Criteria to initiate: CrCl &gt;55 mL/min, SCr&lt;1.5 mg/dL, urine protein &lt;100mg/dL</th><th>Increase in SCr of 0.3-0.4 mg/dL</th><th style=\"text-align:center;\">Increase in SCr of &gt;0.5 mg/L or 3+ proteinuria</th></tr></thead><tbody><tr><td>&nbsp;Induction&nbsp;(initial dosing)</td><td>5 mg/kg IV once weekly <strong>WITH</strong> probenecid x 2 doses</td><td>3 mg/kg IV once weekly <strong>WITH </strong>probenecid x 2 doses</td><td>Discontinue</td></tr><tr><td>&nbsp;Maintenance</td><td>5 mg/kg IV once every 2 weeks <strong>WITH</strong> probenecid</td><td>3 mg/kg IV every 2 weeks <strong>WITH</strong> probenecid</td><td>Discontinue</td></tr></tbody></table><p>*There may be alternative dosing available, particularly in renal impairment.&nbsp;Discuss with ID pharmacist to evaluate if patient meets criteria.</p><p>At UCSF, there is an adult inpatient order set available for use – IP Adult Cidofovir (VISTIDE) Order set</p><h1>&nbsp;<strong>BK virus*</strong></h1><table><thead><tr><th>High Dose Strategy</th><th>Criteria to initiate: CrCl &gt;55 mL/min, SCr&lt;1.5 mg/dL, urine protein &lt;100mg/dL</th><th>Increase in SCr of 0.3-0.4 mg/dL</th><th style=\"text-align:center;\">Increase in SCr of &gt;0.5 mg/L or 3+ proteinuria</th></tr></thead><tbody><tr><td><u>Induction (initial dosing)</u>&nbsp;&nbsp;for BK viruria (hemorrhagic cystitis) in hematopoietic cell transplant recipients</td><td>5 mg/kg IV once weekly <strong>WITH</strong> probenecid x 2 doses</td><td>3 mg/kg IV once weekly <strong>WITH </strong>probenecid x 2 doses</td><td>Discontinue</td></tr><tr><td><u>Maintenance </u>for BK viruria (hemorrhagic cystitis) in hematopoietic cell transplant recipients</td><td>5 mg/kg IV once every 2 weeks <strong>WITH</strong> probenecid</td><td>3 mg/kg IV every 2 weeks <strong>WITH </strong>probenecid</td><td>Discontinue</td></tr></tbody></table><table><thead><tr><th>Low Dose Strategy</th><th>Criteria to initiate: CrCl &gt;55 mL/min, SCr&lt;1.5 mg/dL, urine protein &lt;100mg/dL</th><th>Increase in SCr of 0.3-0.4 mg/dL</th><th style=\"text-align:center;\">Increase in SCr of &gt;0.5 mg/L or 3+ proteinuria</th></tr></thead><tbody><tr><td>BK viremia (BK nephropathy)&nbsp;in kidney transplant</td><td>0.25 - 0.5 mg/kg IV once weekly <strong><u>WITHOUT</u> </strong>probenecid</td><td>0.25 - 0.5 mg/kg IV once weekly <strong><u>WITHOUT</u> </strong>probenecid</td><td>Discontinue</td></tr><tr><td><u>Induction (initial dosing)</u>&nbsp;for BK viruria (hemorrhagic cystitis) in hematopoietic cell transplant recipients</td><td>1 mg/kg/dose IV once weekly <strong><u>WITHOUT</u> </strong>probenecid</td><td colspan=\"2\">Insufficient data; discuss with ID/ASP pharmacy</td></tr><tr><td><u>Maintenance</u> for BK viruria (hemorrhagic cystitis) in hematopoietic cell transplant recipients</td><td colspan=\"3\">Insufficient data; discuss with ID/ASP pharmacy</td></tr></tbody></table><p>*There may be alternative dosing available, particularly in renal impairment.&nbsp;Discuss with ID pharmacist to evaluate if patient meets criteria.</p><p>At UCSF, there is an adult inpatient order set available for use – IP Adult Cidofovir (VISTIDE) Order set</p><h1><strong>Cytomegalovirus (CMV)</strong></h1><table><thead><tr><th>Indication</th><th>Criteria to initiate: CrCl &gt;55 mL/min, SCr&lt;1.5 mg/dL, urine protein &lt;100mg/dL</th><th>Increase in SCr of 0.3-0.4 mg/dL</th><th style=\"text-align:center;\">Increase in SCr of &gt;0.5 mg/L or 3+ proteinuria</th></tr></thead><tbody><tr><td>&nbsp;Induction (initial dosing)</td><td>5 mg/kg IV once weekly <strong>WITH</strong> probenecid x 2 doses</td><td>3 mg/kg IV once weekly <strong>WITH </strong>probenecid x 2 doses</td><td>Discontinue</td></tr><tr><td>&nbsp;Maintenance</td><td>5 mg/kg IV once every 2 weeks <strong>WITH</strong> probenecid</td><td>3 mg/kg IV every 2 weeks <strong>WITH</strong> probenecid</td><td>Discontinue</td></tr></tbody></table><p>At UCSF, there is an adult inpatient order set available for use – IP Adult Cidofovir (VISTIDE) Order set</p>",
+   "value": "<h1><strong>Adenovirus*&nbsp;</strong></h1><table><thead><tr><th>High Dose Strategy</th><th>Criteria to initiate: CrCl &gt;55 mL/min, SCr&lt;1.5 mg/dL, urine protein &lt;100mg/dL</th><th>Increase in SCr of 0.3-0.4 mg/dL</th><th style=\"text-align:center;\">Increase in SCr of &gt;0.5 mg/L or 3+ proteinuria</th></tr></thead><tbody><tr><td>&nbsp;Induction&nbsp;(initial dosing)</td><td>5 mg/kg IV once weekly <strong>WITH</strong> probenecid x 2 doses</td><td>3 mg/kg IV once weekly <strong>WITH </strong>probenecid x 2 doses</td><td>Discontinue</td></tr><tr><td>&nbsp;Maintenance</td><td>5 mg/kg IV once every 2 weeks <strong>WITH</strong> probenecid</td><td>3 mg/kg IV every 2 weeks <strong>WITH</strong> probenecid</td><td>Discontinue</td></tr></tbody></table><p>*There may be alternative dosing available, particularly in renal impairment.&nbsp;Discuss with ID pharmacist to evaluate if patient meets criteria.</p><p>At UCSF, there is an adult inpatient order set available for use – IP Adult Cidofovir (VISTIDE) Order set</p><h1>&nbsp;<strong>BK virus*</strong></h1><table><thead><tr><th>High Dose Strategy</th><th>Criteria to initiate: CrCl &gt;55 mL/min, SCr&lt;1.5 mg/dL, urine protein &lt;100mg/dL</th><th>Increase in SCr of 0.3-0.4 mg/dL</th><th style=\"text-align:center;\">Increase in SCr of &gt;0.5 mg/L or 3+ proteinuria</th></tr></thead><tbody><tr><td><u>Induction (initial dosing)</u>&nbsp;&nbsp;for BK viruria (hemorrhagic cystitis) in hematopoietic cell transplant recipients</td><td>5 mg/kg IV once weekly <strong>WITH</strong> probenecid x 2 doses</td><td>3 mg/kg IV once weekly <strong>WITH </strong>probenecid x 2 doses</td><td>Discontinue</td></tr><tr><td><u>Maintenance </u>for BK viruria (hemorrhagic cystitis) in hematopoietic cell transplant recipients</td><td>5 mg/kg IV once every 2 weeks <strong>WITH</strong> probenecid</td><td>3 mg/kg IV every 2 weeks <strong>WITH </strong>probenecid</td><td>Discontinue</td></tr></tbody></table><table><thead><tr><th>Low Dose Strategy</th><th>Criteria to initiate: CrCl &gt;55 mL/min, SCr&lt;1.5 mg/dL, urine protein &lt;100mg/dL</th><th>Increase in SCr of 0.3-0.4 mg/dL</th><th style=\"text-align:center;\">Increase in SCr of &gt;0.5 mg/L or 3+ proteinuria</th></tr></thead><tbody><tr><td>BK viremia (BK nephropathy)&nbsp;in kidney transplant</td><td>0.25 - 0.5 mg/kg IV once weekly <strong><u>WITHOUT</u> </strong>probenecid</td><td>0.25 - 0.5 mg/kg IV once weekly <strong><u>WITHOUT</u> </strong>probenecid</td><td>Discontinue</td></tr><tr><td><u>Induction (initial dosing)</u>&nbsp;for BK viruria (hemorrhagic cystitis) in hematopoietic cell transplant recipients</td><td>1 mg/kg/dose IV once weekly <strong><u>WITHOUT</u> </strong>probenecid</td><td colspan=\"2\">Insufficient data; discuss with ID/ASP pharmacy</td></tr><tr><td><u>Maintenance</u> for BK viruria (hemorrhagic cystitis) in hematopoietic cell transplant recipients</td><td colspan=\"3\">Insufficient data; discuss with ID/ASP pharmacy</td></tr></tbody></table><p>*There may be alternative dosing available, particularly in renal impairment.&nbsp;Discuss with ID pharmacist to evaluate if patient meets criteria.</p><p>At UCSF, there is an adult inpatient order set available for use – IP Adult Cidofovir (VISTIDE) Order set</p><h1><strong>Cytomegalovirus (CMV)</strong></h1><table><thead><tr><th>Indication</th><th>Criteria to initiate: CrCl &gt;55 mL/min, SCr&lt;1.5 mg/dL, urine protein &lt;100mg/dL</th><th>Increase in SCr of 0.3-0.4 mg/dL</th><th style=\"text-align:center;\">Increase in SCr of &gt;0.5 mg/L or 3+ proteinuria</th></tr></thead><tbody><tr><td>&nbsp;Induction (initial dosing)</td><td>5 mg/kg IV once weekly <strong>WITH</strong> probenecid x 2 doses</td><td>3 mg/kg IV once weekly <strong>WITH </strong>probenecid x 2 doses</td><td>Discontinue</td></tr><tr><td>&nbsp;Maintenance</td><td>5 mg/kg IV once every 2 weeks <strong>WITH</strong> probenecid</td><td>3 mg/kg IV every 2 weeks <strong>WITH</strong> probenecid</td><td>Discontinue</td></tr></tbody></table><p>At UCSF, there is an adult inpatient order set available for use – IP Adult Cidofovir (VISTIDE) Order set</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All Indications</td><td style=\"text-align:center;\" colspan=\"2\">Insufficient data; discuss with ID/ASP pharmacy</td></tr></tbody></table>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All Indications</td><td style=\"text-align:center;\" colspan=\"2\">Insufficient data; discuss with ID/ASP pharmacy</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 66,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d2274533-3b4b-403d-b6bd-9026f83daea2",
+   "url": "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p><u>IV Fluids</u>: Give 1L NS over 30 minutes&nbsp;prior to cidofovir administration.&nbsp; If able to tolerate, give an additional 1L NS at the start or immediately after cidofovir administration.</p><p><u>Probenecid</u>: 2g PO 3 hours prior to cidofovir, then 1g PO 2 and 8 hours after cidofovir (total 4g)</p>",
+   "value": "<p><u>IV Fluids</u>: Give 1L NS over 30 minutes&nbsp;prior to cidofovir administration.&nbsp; If able to tolerate, give an additional 1L NS at the start or immediately after cidofovir administration.</p><p><u>Probenecid</u>: 2g PO 3 hours prior to cidofovir, then 1g PO 2 and 8 hours after cidofovir (total 4g)</p>"
+  }
+ ],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restrict to ID or Antimicrobial Stewardship except:</p><p>1) For treatment&nbsp;or&nbsp;prophylaxis against&nbsp;viral&nbsp;infection in HBC&nbsp;patients</p>",
+   "value": "<p>Restrict to ID or Antimicrobial Stewardship except:</p><p>1) For treatment&nbsp;or&nbsp;prophylaxis against&nbsp;viral&nbsp;infection in HBC&nbsp;patients</p>"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "04/24/24 - R.Jariwala added -use TBW when under IBW\r\n03/08/24 - R.Jariwala added tables and commentary about alternative dosing as well as order set comment \r\n03/04/24 - R.Jariwala made edits to BK viruria section to indicate renal txp dosing and BMT dosing \r\n8/1/24 - EK made edits to \"*There may be alternative dosing available, particularly in renal impairment. Discuss with ID pharmacist to evaluate if patient meets criteria.\" statement to further clarify, per dosing meeting 7/2024\r\n2/2026 - Added low dose option for BK hemorrhagic cystitis in HBC -EK\r\n9/2026: standardized HBC verbiage in restriction criteria"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11611
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/cidofovir",
+   "langcode": "und",
+   "pid": 24331
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T21:55:26+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Cidofovir"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "34483dfb-4dfa-4e00-bb7a-a1c0efe286d7"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35556
+  }
+ ]
+}

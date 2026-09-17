@@ -1,0 +1,129 @@
+{
+ "body": [],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-09-09T23:34:40+00:00"
+  }
+ ],
+ "comment_node_other_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1599694480,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-26T19:59:37+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": false
+  }
+ ],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [],
+ "field_person_headshot_default": [
+  {
+   "target_id": 61,
+   "target_type": "media",
+   "target_uuid": "0b2d297a-1bdc-42f5-bac8-a5c34997fff9",
+   "url": "/media/61"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_pub_override_list": [],
+ "field_person_subtype": [
+  {
+   "target_id": 646,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a09f2128-31be-485c-b318-8172ef92996d",
+   "url": "/person-type/ucsf-benioff-childrens-hospital-san-francisco"
+  }
+ ],
+ "field_person_title_override": [
+  {
+   "value": "Antimicrobial Stewardship Pharmacist"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_picture": [],
+ "field_role": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12171
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/steve-grapentine",
+   "langcode": "und",
+   "pid": 24846
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-09-09T23:34:40+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Steve Grapentine"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "other_person",
+   "target_type": "node_type",
+   "target_uuid": "b9b538b1-c143-40c4-8e2f-aba53a4b44fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "9a6b66d8-e727-4614-9612-180e4611a277"
+  }
+ ],
+ "vid": [
+  {
+   "value": 14141
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597335833,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T16:23:53+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl <u>&gt;&nbsp;</u>30 mL/min</th>\n\t\t\t<th>&lt;30 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Single-dose regimen (skin/soft tissue infection)</td>\n\t\t\t<td>1500 mg IV x 1 dose</td>\n\t\t\t<td>1000 mg IV x 1 dose</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Two-dose regimen (skin/soft tissue infection)</td>\n\t\t\t<td>1000 mg IV x 1 dose on day 1, then 500 mg IV X 1 on day 8</td>\n\t\t\t<td>750 mg IV x&nbsp;1 dose on day 1,&nbsp;then 375 mg IV X 1 on day 8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Complicated&nbsp;Gram-positive&nbsp;infections&nbsp;(e.g.&nbsp;Native&nbsp;osteomyelitis)*</td>\n\t\t\t<td>1500 mg IV on&nbsp;days 1 &amp; 8</td>\n\t\t\t<td>1000 mg IV on&nbsp;days 1 &amp; 8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"3\">\n\t\t\t<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{b1483200-8c31-439e-b8ae-02f1445491fc}{249}\" paraid=\"0\" xml:lang=\"EN-US\">*ID consult&nbsp;highly&nbsp;recommended for&nbsp;patient-specific&nbsp;recommendations.​</p>\n\n\t\t\t<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{b1483200-8c31-439e-b8ae-02f1445491fc}{252}\" paraid=\"0\" xml:lang=\"EN-US\">*For dosing in other complicated indications,&nbsp;contact ID&nbsp;or&nbsp;ID&nbsp;pharmacy.</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl <u>&gt;&nbsp;</u>30 mL/min</th>\r\n\t\t\t<th>&lt;30 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Single-dose regimen (skin/soft tissue infection)</td>\r\n\t\t\t<td>1500 mg IV x 1 dose</td>\r\n\t\t\t<td>1000 mg IV x 1 dose</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Two-dose regimen (skin/soft tissue infection)</td>\r\n\t\t\t<td>1000 mg IV x 1 dose on day 1, then 500 mg IV X 1 on day 8</td>\r\n\t\t\t<td>750 mg IV x&nbsp;1 dose on day 1,&nbsp;then 375 mg IV X 1 on day 8</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Complicated&nbsp;Gram-positive&nbsp;infections&nbsp;(e.g.&nbsp;Native&nbsp;osteomyelitis)*</td>\r\n\t\t\t<td>1500 mg IV on&nbsp;days 1 &amp; 8</td>\r\n\t\t\t<td>1000 mg IV on&nbsp;days 1 &amp; 8</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"3\">\r\n\t\t\t<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{b1483200-8c31-439e-b8ae-02f1445491fc}{249}\" paraid=\"0\" xml:lang=\"EN-US\">*ID consult&nbsp;highly&nbsp;recommended for&nbsp;patient-specific&nbsp;recommendations.​</p>\r\n\r\n\t\t\t<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{b1483200-8c31-439e-b8ae-02f1445491fc}{252}\" paraid=\"0\" xml:lang=\"EN-US\">*For dosing in other complicated indications,&nbsp;contact ID&nbsp;or&nbsp;ID&nbsp;pharmacy.</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dose</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Complicated&nbsp;Gram-positive&nbsp;infections&nbsp;(e.g.&nbsp;Native&nbsp;osteomyelitis)*</td>\n\t\t\t<td>1500 mg IV&nbsp;on&nbsp;days 1 &amp;&nbsp;8</td>\n\t\t\t<td rowspan=\"2\">No dose adjustment necessary for hemodialysis</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\" rowspan=\"1\">\n\t\t\t<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{b1483200-8c31-439e-b8ae-02f1445491fc}{249}\" paraid=\"0\" xml:lang=\"EN-US\">*ID consult&nbsp;highly&nbsp;recommended for&nbsp;patient-specific&nbsp;recommendations.​</p>\n\n\t\t\t<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{b1483200-8c31-439e-b8ae-02f1445491fc}{252}\" paraid=\"0\" xml:lang=\"EN-US\">*For dosing in other complicated indications,&nbsp;contact ID&nbsp;or&nbsp;ID&nbsp;pharmacy.</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dose</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Complicated&nbsp;Gram-positive&nbsp;infections&nbsp;(e.g.&nbsp;Native&nbsp;osteomyelitis)*</td>\r\n\t\t\t<td>1500 mg IV&nbsp;on&nbsp;days 1 &amp;&nbsp;8</td>\r\n\t\t\t<td rowspan=\"2\">No dose adjustment necessary for hemodialysis</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"2\" rowspan=\"1\">\r\n\t\t\t<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{b1483200-8c31-439e-b8ae-02f1445491fc}{249}\" paraid=\"0\" xml:lang=\"EN-US\">*ID consult&nbsp;highly&nbsp;recommended for&nbsp;patient-specific&nbsp;recommendations.​</p>\r\n\r\n\t\t\t<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{b1483200-8c31-439e-b8ae-02f1445491fc}{252}\" paraid=\"0\" xml:lang=\"EN-US\">*For dosing in other complicated indications,&nbsp;contact ID&nbsp;or&nbsp;ID&nbsp;pharmacy.</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Other dosing strategies used for treatment of bone/joint infections or bacteremia.</p>\n",
+   "value": "<p>Other dosing strategies used for treatment of bone/joint infections or bacteremia.</p>\r\n"
+  }
+ ],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship</p>\n",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "Ripal Jariwala updated on 10/26/25 - new dalbavancin dosing per dosing quarterly meeting on 10/25/23"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11626
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/dalbavancin",
+   "langcode": "und",
+   "pid": 24346
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Dalbavancin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "18abea4d-d39a-40fa-8b50-c0a50b826d79"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21861
+  }
+ ]
+}

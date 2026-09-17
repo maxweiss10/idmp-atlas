@@ -1,0 +1,248 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1756039884,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-12T16:34:18+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": true
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 99
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "Jennifer Mulliken"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [],
+ "field_person_first_name": [
+  {
+   "value": "Jennifer"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 581,
+   "target_type": "media",
+   "target_uuid": "b630050e-708e-4619-9b99-c04a0458d100",
+   "url": "/media/581"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Mulliken"
+  }
+ ],
+ "field_person_middle_name": [
+  {
+   "value": "Schreck"
+  }
+ ],
+ "field_person_preferred_name": [
+  {
+   "value": "Jennifer"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1536,
+   "target_type": "taxonomy_term",
+   "target_uuid": "f17ac707-6e0a-4f62-8b93-e4eeb1a279fe",
+   "url": "/departments-units-and-organizations/mmed-vamc-infd"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [
+  {
+   "target_id": 18191,
+   "target_type": "node",
+   "target_uuid": "57db172f-64e8-4d2f-8075-f1805c7b4a59",
+   "url": "/content/infective-endocarditis"
+  }
+ ],
+ "field_person_research_biography": [
+  {
+   "format": "plain_text",
+   "processed": "<p>OVERVIEW<br />\nJennifer Mulliken is an infectious disease specialist who attends at San Francisco VA Medical Center (SFVAMC) where she sees patients on the infectious disease consult service and in the outpatient HIV/infectious disease clinic. She completed her medical education and internal medicine residency at NYU, where she also served as senior chief resident, before completing fellowship training in infectious diseases at UCSF. In addition to her clinical activities, Jennifer serves as Associate ID Chief for Clinical Operations at SFVAMC and Medical Director of the Antibiotic Stewardship and Home IV Therapy Programs at SFVAMC.</p>\n<p>EDUCATIONAL PURSUITS<br />\nJennifer is the Associate Program Director for Curriculum &amp; Recruitment for the UCSF ID Fellowship Program. She serves as a core preceptor for trainees on clinical rotations at SFVA both on inpatient ID consults and the outpatient ID/HIV clinic. Additionally, she gives lectures to students, residents, and fellows in the medicine residency and the ID fellowship lecture series.</p>\n",
+   "value": "OVERVIEW\nJennifer Mulliken is an infectious disease specialist who attends at San Francisco VA Medical Center (SFVAMC) where she sees patients on the infectious disease consult service and in the outpatient HIV/infectious disease clinic. She completed her medical education and internal medicine residency at NYU, where she also served as senior chief resident, before completing fellowship training in infectious diseases at UCSF. In addition to her clinical activities, Jennifer serves as Associate ID Chief for Clinical Operations at SFVAMC and Medical Director of the Antibiotic Stewardship and Home IV Therapy Programs at SFVAMC.\n\nEDUCATIONAL PURSUITS\nJennifer is the Associate Program Director for Curriculum & Recruitment for the UCSF ID Fellowship Program. She serves as a core preceptor for trainees on clinical rotations at SFVA both on inpatient ID consults and the outpatient ID/HIV clinic. Additionally, she gives lectures to students, residents, and fellows in the medicine residency and the ID fellowship lecture series."
+  }
+ ],
+ "field_person_subtype": [
+  {
+   "target_id": 716,
+   "target_type": "taxonomy_term",
+   "target_uuid": "35b504bb-b5f9-45f5-9122-be257c133c11",
+   "url": "/person-type/va-medical-center-san-francisco"
+  }
+ ],
+ "field_person_title_override": [
+  {
+   "value": "Medical Director, Antimicrobial Stewardship at VA Medical Center San Francisco"
+  },
+  {
+   "value": "Associate Professor of Clinical Medicine, UCSF"
+  }
+ ],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 346,
+   "target_type": "taxonomy_term",
+   "target_uuid": "eb5cc219-543f-4415-a229-94d58e47d3a1",
+   "url": "/person-type/affiliate"
+  },
+  {
+   "target_id": 176,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee47c868-e940-4230-af11-2a747ae34b77",
+   "url": "/person-type/faculty"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 1511,
+   "target_type": "taxonomy_term",
+   "target_uuid": "26ba1f5b-b349-4dd8-9d44-a1c2597e55f1",
+   "url": "/person-type/rfs"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_what_i_do_text": [
+  {
+   "format": "advanced",
+   "processed": "<p>Dr. Jennifer Mulliken is an infectious disease specialist who cares for inpatients and outpatients with a broad range of complex infections at SFVAMC. In addition to her role with the Antibiotic Stewardship Program, she also serves as Medical Director of the Home IV Antibiotic Program at SFVAMC.</p>\n",
+   "value": "<p>Dr. Jennifer Mulliken is an infectious disease specialist who cares for inpatients and outpatients with a broad range of complex infections at SFVAMC. In addition to her role with the Antibiotic Stewardship Program, she also serves as Medical Director of the Home IV Antibiotic Program at SFVAMC.</p>\r\n"
+  }
+ ],
+ "field_person_working_title": [
+  {
+   "value": "Assoc Professor Clinical Med"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [],
+ "field_profiles_link": [
+  {
+   "options": {
+    "attributes": []
+   },
+   "title": null,
+   "uri": "https://profiles.ucsf.edu/jennifer.mulliken"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 10056
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/jennifer-mulliken-md",
+   "langcode": "und",
+   "pid": 22786
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-24T12:51:24+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Jennifer Mulliken, MD"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "be113c81-2046-4e9f-a9cc-94756bb4dbf8"
+  }
+ ],
+ "vid": [
+  {
+   "value": 10831
+  }
+ ]
+}

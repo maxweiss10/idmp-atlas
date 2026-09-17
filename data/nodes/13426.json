@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:56:46+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633719406,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:25:06+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Aspiration pneumonia &nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{39}\" paraid=\"1879899224\">Similar to pathogens in community-acquired pneumonia and hospital-acquired pneumonia, depending on setting&nbsp;</p>\n\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{49}\" paraid=\"1793668671\">Anaerobic organisms may be involved though usually the oral anaerobic flora are frequently susceptible to usual therapy for pneumonia (e.g. ampicillin) &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{62}\" paraid=\"749302193\"><strong>If symptoms resolve within 24-48 hours of  initial aspiration event</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{62}\" paraid=\"749302193\">This presentation is consistent with aspiration pneumonitis. Antibiotic therapy is not recommended. Antibiotic therapy is also not recommended at this time based on an aspiration event alone (i.e. for prevention of pneumonia). &nbsp;</p>\n\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{76}\" paraid=\"1165760835\"><strong>For symptoms consistent with aspiration pneumonia developing or lasting &gt;48 hours after initial aspiration event, with community onset (not hospital)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{82}\" paraid=\"1155664720\">Ampicillin-sulbactam (Unasyn)<br>\n\t\t\t50 mg ampicillin/kg/dose IV q6h (max 2000 mg ampicillin/dose)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{96}\" paraid=\"417191565\"><strong>Enteral/transition therapy:&nbsp;</strong><br>\n\t\t\tAmoxicillin-clavulanate (Augmentin)<br>\n\t\t\t45 mg amoxicillin/kg/&nbsp;dose enterally bid (max 1000 mg amoxicillin/dose)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{109}\" paraid=\"293383156\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{115}\" paraid=\"1994220317\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 900mg/dose) IV&nbsp;q8h</p>\n\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{115}\" paraid=\"1994220317\">OR</p>\n\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{115}\" paraid=\"1994220317\">Clindamycin 10mg/kg/dose (max 600 mg/dose) enterally&nbsp;tid&nbsp;&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p dir=\"ltr\">Oral hygeine and regular dentistry care are important to reduce risk for aspiration pneumonia in neurologically impaired patients</p>\n\n\t\t\t<p dir=\"ltr\">Follow guidelines for <a href=\"/content/healthcare-acquired-or-ventilator-associated-pneumonia\">Healthcare-acquired&nbsp;Pneumonia</a> if infection developed in the hospital<br>\n\t\t\t<br>\n\t\t\tReview intravenous antibiotics by 48 hours and consider switching to enteral route if possible</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Aspiration pneumonia &nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{39}\" paraid=\"1879899224\">Similar to pathogens in community-acquired pneumonia and hospital-acquired pneumonia, depending on setting&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{49}\" paraid=\"1793668671\">Anaerobic organisms may be involved though usually the oral anaerobic flora are frequently susceptible to usual therapy for pneumonia (e.g. ampicillin) &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{62}\" paraid=\"749302193\"><strong>If symptoms resolve within 24-48 hours of  initial aspiration event</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{62}\" paraid=\"749302193\">This presentation is consistent with aspiration pneumonitis. Antibiotic therapy is not recommended. Antibiotic therapy is also not recommended at this time based on an aspiration event alone (i.e. for prevention of pneumonia). &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{76}\" paraid=\"1165760835\"><strong>For symptoms consistent with aspiration pneumonia developing or lasting &gt;48 hours after initial aspiration event, with community onset (not hospital)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{82}\" paraid=\"1155664720\">Ampicillin-sulbactam (Unasyn)<br />\r\n\t\t\t50 mg ampicillin/kg/dose IV q6h (max 2000 mg ampicillin/dose)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{96}\" paraid=\"417191565\"><strong>Enteral/transition therapy:&nbsp;</strong><br />\r\n\t\t\tAmoxicillin-clavulanate (Augmentin)<br />\r\n\t\t\t45 mg amoxicillin/kg/&nbsp;dose enterally bid (max 1000 mg amoxicillin/dose)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{109}\" paraid=\"293383156\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{115}\" paraid=\"1994220317\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 900mg/dose) IV&nbsp;q8h</p>\r\n\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{115}\" paraid=\"1994220317\">OR</p>\r\n\r\n\t\t\t<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{115}\" paraid=\"1994220317\">Clindamycin 10mg/kg/dose (max 600 mg/dose) enterally&nbsp;tid&nbsp;&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p dir=\"ltr\">Oral hygeine and regular dentistry care are important to reduce risk for aspiration pneumonia in neurologically impaired patients</p>\r\n\r\n\t\t\t<p dir=\"ltr\">Follow guidelines for <a href=\"/node/13431\">Healthcare-acquired&nbsp;Pneumonia</a> if infection developed in the hospital<br />\r\n\t\t\t<br />\r\n\t\t\tReview intravenous antibiotics by 48 hours and consider switching to enteral route if possible</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1301,
+   "target_type": "taxonomy_term",
+   "target_uuid": "408a7c63-51fe-4e8d-8387-8523f52d6796",
+   "url": "/guidelines-empiric-therapy-categories/pneumonia-community-acquired"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{182}\" paraid=\"1148722826\">References</h2>\n\n<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{190}\" paraid=\"1167924115\">Metlay JP, et al. <a href=\"https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/\">Diagnosis and treatment of adults with community-acquired pneumonia: an official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America</a>. American Journal of Respiratory and Critical Care Medicine, Volume 200, Issue 7, 1 October 2019, Pages e45-e67.</p>\n\n<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{200}\" paraid=\"1831426800\">Thomson J, Hall M, Ambroggio L, Berry JG, Stone B, Srivastava R, Shah SS. <a href=\"https://www.journalofhospitalmedicine.com/jhospmed/article/212337/hospital-medicine/antibiotics-aspiration-pneumonia-neurologically-impaired?channel=28090\">Antibiotics for Aspiration Pneumonia in Neurologically Impaired Children</a>. J Hosp Med. 2020 Jul 1;15(7):395-402.</p>\n",
+   "value": "<h2 paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{182}\" paraid=\"1148722826\">References</h2>\r\n\r\n<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{190}\" paraid=\"1167924115\">Metlay JP, et al. <a href=\"https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/\">Diagnosis and treatment of adults with community-acquired pneumonia: an official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America</a>. American Journal of Respiratory and Critical Care Medicine, Volume 200, Issue 7, 1 October 2019, Pages e45-e67.</p>\r\n\r\n<p paraeid=\"{66abd860-9c92-419d-a5a8-6f911d8f0415}{200}\" paraid=\"1831426800\">Thomson J, Hall M, Ambroggio L, Berry JG, Stone B, Srivastava R, Shah SS. <a href=\"https://www.journalofhospitalmedicine.com/jhospmed/article/212337/hospital-medicine/antibiotics-aspiration-pneumonia-neurologically-impaired?channel=28090\">Antibiotics for Aspiration Pneumonia in Neurologically Impaired Children</a>. J Hosp Med. 2020 Jul 1;15(7):395-402.</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13426
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/aspiration-pneumonia",
+   "langcode": "und",
+   "pid": 26081
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:56:46+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Aspiration Pneumonia"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "a3c249c4-d1b3-4d67-9ee1-9fd70f73dbd9"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16011
+  }
+ ]
+}

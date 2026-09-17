@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-30T21:02:57+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587146127,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-17T17:55:27+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Short Infusion Dosing <strong>(PREFERRED)</strong></h2><table class=\"table\"><thead><tr><th>Indication</th><th>CrCl &gt; 60 mL/min</th><th>30 - 60 mL/min</th><th>10 - 29 mL/min</th><th>&lt; 10 mL/min</th></tr></thead><tbody><tr><td>Non-severe infections including cystitis</td><td>2 g IV q12h</td><td>2 g IV q24h</td><td>1 g IV q24h</td><td>500 mg IV q24h</td></tr><tr><td>Severe infections including febrile neutropenia, meningitis, <em>Pseudomonas aeruginosa</em></td><td>2 g IV q8h</td><td>2 g IV q12h</td><td>2 g IV q24h</td><td>1 g IV q24h</td></tr></tbody></table><h2>Extended Infusion Dosing (if recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>)</h2><table class=\"table\"><thead><tr><th>Indication</th><th>CrCl &gt; 60 mL/min</th><th>30 - 60 mL/min</th><th>&nbsp;&lt; 30 mL/min</th></tr></thead><tbody><tr><td>Loading Dose*</td><td>2 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>2 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>Use short infusion</td></tr><tr><td>Maintenance: All Indications**</td><td>2 g IV q8h <strong>(over 4 hours)</strong></td><td>2 g IV q12h <strong>(over 4 hours)</strong></td><td>Use short infusion</td></tr></tbody></table><p paraeid=\"{80e60109-ae40-4b61-98cf-027be1df061d}{244}\" paraid=\"322713853\">*A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving cefepime via short infusion. Recommended to start maintenance dose 4 hours after loading dose&nbsp;<br>**Extended infusion data in meningitis are limited and may require further discussion with ID/ASP providers&nbsp;</p>",
+   "value": "<h2>Short Infusion Dosing <strong>(PREFERRED)</strong></h2><table class=\"table\"><thead><tr><th>Indication</th><th>CrCl &gt; 60 mL/min</th><th>30 - 60 mL/min</th><th>10 - 29 mL/min</th><th>&lt; 10 mL/min</th></tr></thead><tbody><tr><td>Non-severe infections including cystitis</td><td>2 g IV q12h</td><td>2 g IV q24h</td><td>1 g IV q24h</td><td>500 mg IV q24h</td></tr><tr><td>Severe infections including febrile neutropenia, meningitis, <em>Pseudomonas aeruginosa</em></td><td>2 g IV q8h</td><td>2 g IV q12h</td><td>2 g IV q24h</td><td>1 g IV q24h</td></tr></tbody></table><h2>Extended Infusion Dosing (if recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>)</h2><table class=\"table\"><thead><tr><th>Indication</th><th>CrCl &gt; 60 mL/min</th><th>30 - 60 mL/min</th><th>&nbsp;&lt; 30 mL/min</th></tr></thead><tbody><tr><td>Loading Dose*</td><td>2 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>2 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>Use short infusion</td></tr><tr><td>Maintenance: All Indications**</td><td>2 g IV q8h <strong>(over 4 hours)</strong></td><td>2 g IV q12h <strong>(over 4 hours)</strong></td><td>Use short infusion</td></tr></tbody></table><p paraeid=\"{80e60109-ae40-4b61-98cf-027be1df061d}{244}\" paraid=\"322713853\">*A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving cefepime via short infusion. Recommended to start maintenance dose 4 hours after loading dose&nbsp;<br>**Extended infusion data in meningitis are limited and may require further discussion with ID/ASP providers&nbsp;</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th>Intermittent Hemodialysis</th><th>Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All Indications</td><td><p>2 g IV x1 now and post-HD</p><p><u>Alternative dosing for patients not on stable hemodialysis schedule:</u>&nbsp;1 g x1 now, then qPM</p></td><td>1 g IV q8h*</td></tr></tbody></table><p paraeid=\"{80e60109-ae40-4b61-98cf-027be1df061d}{244}\" paraid=\"322713853\">*May infuse <strong>over 4 hours</strong> (extended infusion dosing)&nbsp;if&nbsp;recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>. A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving cefepime via short infusion. If a loading dose is given,&nbsp;start maintenance dose 4 hours after loading dose.</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th>Intermittent Hemodialysis</th><th>Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All Indications</td><td><p>2 g IV x1 now and post-HD</p><p><u>Alternative dosing for patients not on stable hemodialysis schedule:</u>&nbsp;1 g x1 now, then qPM</p></td><td>1 g IV q8h*</td></tr></tbody></table><p paraeid=\"{80e60109-ae40-4b61-98cf-027be1df061d}{244}\" paraid=\"322713853\">*May infuse <strong>over 4 hours</strong> (extended infusion dosing)&nbsp;if&nbsp;recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>. A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving cefepime via short infusion. If a loading dose is given,&nbsp;start maintenance dose 4 hours after loading dose.</p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "7/2026: Amended loading dose language \r\n8/2023: Added extended infusion dosing"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8321
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/cefepime",
+   "langcode": "und",
+   "pid": 21226
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-30T21:02:57+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Cefepime"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d7daed1e-9e86-457c-bfac-ceb3ebae4fc6"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35431
+  }
+ ]
+}

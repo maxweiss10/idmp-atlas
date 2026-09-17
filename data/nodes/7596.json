@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2022-06-23T20:19:11+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1656015551,
+   "last_comment_uid": 0,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-13T22:32:17+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<p>Results are reported according to the guidelines of the Clinical Laboratory Standards Institute (CLSI), which recommend using only the first isolate per patient per year for reporting susceptibility. Because patients infected with a resistant isolate may have that isolate recovered on multiple occasions, use of all isolated from a given patient may bias antibiogram results toward an increased level of resistance.</p>\n\n<p>Breakpoints for susceptibility are via CLSI guidelines.</p>\n\n<p>Use of this methodology&nbsp;may underestimate risk among patients who have previously been infected with an organism. Clinicians need to account for their individual patient circumstances when applying antibiogram data.</p>\n\n<p>Reporting data as \"Inpatient\" or \"Outpatient\" represents the setting from which the isolate was submitted to the microbiology laboratory, which may or may not be the setting where the infection was acquired.</p>\n",
+   "value": "<p>Results are reported according to the guidelines of the Clinical Laboratory Standards Institute (CLSI), which recommend using only the first isolate per patient per year for reporting susceptibility. Because patients infected with a resistant isolate may have that isolate recovered on multiple occasions, use of all isolated from a given patient may bias antibiogram results toward an increased level of resistance.</p>\r\n\r\n<p>Breakpoints for susceptibility are via CLSI guidelines.</p>\r\n\r\n<p>Use of this methodology&nbsp;may underestimate risk among patients who have previously been infected with an organism. Clinicians need to account for their individual patient circumstances when applying antibiogram data.</p>\r\n\r\n<p>Reporting data as \"Inpatient\" or \"Outpatient\" represents the setting from which the isolate was submitted to the microbiology laboratory, which may or may not be the setting where the infection was acquired.</p>\r\n"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 7596
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/antimicrobial-susceptibility-testing-methodology",
+   "langcode": "und",
+   "pid": 20671
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2022-06-23T20:19:11+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Antimicrobial Susceptibility Testing Methodology"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "dee48e03-5e04-4bb4-8ea5-15c8e80ff543"
+  }
+ ],
+ "vid": [
+  {
+   "value": 7596
+  }
+ ]
+}

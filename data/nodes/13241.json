@@ -1,0 +1,133 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<p>Comprehensive guide to antimicrobial use at San Francisco VA Medical Center.</p><p><a href=\"https://acrobat.adobe.com/id/urn:aaid:sc:US:6db40e24-06c1-4abc-aa60-3ec293b5d3dd\">CLICK HERE </a>to access</p>",
+   "summary": "SFVA comprehensive guide to antimicrobial treatment, dosing, and policies",
+   "value": "<p>Comprehensive guide to antimicrobial use at San Francisco VA Medical Center.</p><p><a href=\"https://acrobat.adobe.com/id/urn:aaid:sc:US:6db40e24-06c1-4abc-aa60-3ec293b5d3dd\">CLICK HERE </a>to access</p>"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-12T22:23:28+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1626991948,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-07-22T22:12:28+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2021-07-22"
+  },
+  {
+   "value": "2022-06-15"
+  },
+  {
+   "value": "2022-09-03"
+  },
+  {
+   "value": "2023-06-27"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 471,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee7b224f-cfca-453f-9d7e-9ba9f50edf24",
+   "url": "/site/va-medical-center-san-francisco"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13241
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/antimicrobial-guidebook-sfva",
+   "langcode": "und",
+   "pid": 25906
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-07-07T18:36:12+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Antimicrobial Guidebook SFVA"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "9f468122-3533-4ea7-ae01-99d7836c5a22"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16896
+  }
+ ]
+}

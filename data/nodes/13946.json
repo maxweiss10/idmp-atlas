@@ -1,0 +1,150 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-20T21:53:14+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1647298547,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2022-03-14T22:55:47+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Candidemia<br>Invasive candidiasis<br>Empiric treatment, febrile neutropenia<br>Empiric treatment, non-neutropenic ICU patients</td><td>100 mg IV q24h*</td><td rowspan=\"3\">Dosage adjustment not required in renal or hepatic dysfunction</td></tr><tr><td>Esophageal candidiasis<br>Infective endocarditis<br>Cardiac device-associated infections</td><td>150 mg IV q24h</td></tr><tr><td>Prophylaxis against Candida in patients with HSCT, neutropenia, hematologic malignancy, or solid organ transplant^</td><td>50-100 mg IV q24h</td></tr></tbody></table><p>*Higher doses may be utilized for select deep-seated infections, elevated MICs, and/or patients with obesity. Contact ID/ASP for assistance.<br>^If patient does not have a drug interaction with an azole, but needs micafungin as prophylaxis, these are the lab thresholds: AST or ALT &gt; 3x ULN + new symptoms OR AST or ALT &gt;5 x ULN OR T bilirubin ≥ 3 mg/dL</p><p>&nbsp;</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Candidemia<br>Invasive candidiasis<br>Empiric treatment, febrile neutropenia<br>Empiric treatment, non-neutropenic ICU patients</td><td>100 mg IV q24h*</td><td rowspan=\"3\">Dosage adjustment not required in renal or hepatic dysfunction</td></tr><tr><td>Esophageal candidiasis<br>Infective endocarditis<br>Cardiac device-associated infections</td><td>150 mg IV q24h</td></tr><tr><td>Prophylaxis against Candida in patients with HSCT, neutropenia, hematologic malignancy, or solid organ transplant^</td><td>50-100 mg IV q24h</td></tr></tbody></table><p>*Higher doses may be utilized for select deep-seated infections, elevated MICs, and/or patients with obesity. Contact ID/ASP for assistance.<br>^If patient does not have a drug interaction with an azole, but needs micafungin as prophylaxis, these are the lab thresholds: AST or ALT &gt; 3x ULN + new symptoms OR AST or ALT &gt;5 x ULN OR T bilirubin ≥ 3 mg/dL</p><p>&nbsp;</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Candidemia<br>Invasive candidiasis<br>Empiric treatment, febrile neutropenia<br>Empiric treatment, non-neutropenic ICU patients</td><td>100 mg IV q24h*</td><td rowspan=\"3\">Dosage adjustment not required in renal or hepatic dysfunction</td></tr><tr><td>Esophageal candidiasis<br>Infective endocarditis<br>Cardiac device-associated infections</td><td>150 mg IV q24h</td></tr><tr><td>Prophylaxis against Candida in patients with HSCT, neutropenia, hematologic malignancy, or solid organ transplant^</td><td>50-100 mg IV q24h</td></tr></tbody></table><p>*Higher doses may be utilized for select deep-seated infections, elevated MICs, and/or patients with obesity. Contact ID/ASP for assistance.<br>^If patient does not have a drug interaction with an azole, but needs micafungin as prophylaxis, these are the lab thresholds: AST or ALT &gt; 3x ULN + new symptoms OR AST or ALT &gt;5 x ULN OR T bilirubin ≥ 3 mg/dL</p><p>&nbsp;</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Candidemia<br>Invasive candidiasis<br>Empiric treatment, febrile neutropenia<br>Empiric treatment, non-neutropenic ICU patients</td><td>100 mg IV q24h*</td><td rowspan=\"3\">Dosage adjustment not required in renal or hepatic dysfunction</td></tr><tr><td>Esophageal candidiasis<br>Infective endocarditis<br>Cardiac device-associated infections</td><td>150 mg IV q24h</td></tr><tr><td>Prophylaxis against Candida in patients with HSCT, neutropenia, hematologic malignancy, or solid organ transplant^</td><td>50-100 mg IV q24h</td></tr></tbody></table><p>*Higher doses may be utilized for select deep-seated infections, elevated MICs, and/or patients with obesity. Contact ID/ASP for assistance.<br>^If patient does not have a drug interaction with an azole, but needs micafungin as prophylaxis, these are the lab thresholds: AST or ALT &gt; 3x ULN + new symptoms OR AST or ALT &gt;5 x ULN OR T bilirubin ≥ 3 mg/dL</p><p>&nbsp;</p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship except:</p><p>1) Documented sterile site&nbsp;(not urine or respiratory)&nbsp;infection &nbsp;with microbiologically confirmed <em>Candida </em>spp (ID/ASP approval required for durations exceeding 48h)</p><p>2) Documented sterile site infection (not urine or respiratory) infection with yeast, pending species identification&nbsp;(ID/ASP approval required for durations exceeding 48h)​</p><p>3) Prophylaxis against fungal infections in patients on the hematology/oncology/BMT service with intolerance of or contraindications to azoles</p><p>4) Empiric therapy for prolonged febrile neutropenia in hematology/oncology/BMT patient</p>",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship except:</p><p>1) Documented sterile site&nbsp;(not urine or respiratory)&nbsp;infection &nbsp;with microbiologically confirmed <em>Candida </em>spp (ID/ASP approval required for durations exceeding 48h)</p><p>2) Documented sterile site infection (not urine or respiratory) infection with yeast, pending species identification&nbsp;(ID/ASP approval required for durations exceeding 48h)​</p><p>3) Prophylaxis against fungal infections in patients on the hematology/oncology/BMT service with intolerance of or contraindications to azoles</p><p>4) Empiric therapy for prolonged febrile neutropenia in hematology/oncology/BMT patient</p>"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "7/31/24: Adjusted unrestricted indications--changed to \"Candida spp\" (previous called out C. glabrata & kruseii), added ID/ASP approval required beyond 48h per discussion at 7/2024 dosing meeting -EK\r\n5/2026: Added IE and cardiac device associated infections under 150 mg, added comment about higher dosing in obesity or deep-seated infections as per dosing meeting 5/2026. Changed daily to q24h for consistency. -EK"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13946
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/micafungin",
+   "langcode": "und",
+   "pid": 26596
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-20T21:53:14+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Micafungin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "fc3a7017-e87b-4d18-978e-d42b2c3e887f"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24896
+  }
+ ]
+}

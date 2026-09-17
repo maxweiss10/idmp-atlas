@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:30:45+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629826245,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T21:23:02+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{235}\" paraid=\"1853442153\">Bite wound&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{241}\" paraid=\"1037820825\"><strong>High risk bite wounds&nbsp;for which antibiotic prophylaxis recommended</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{253}\" paraid=\"196757688\">Moderate or severe bite wounds, especially&nbsp;if edema or crush injury&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{6}\" paraid=\"75792693\">Puncture wounds, especially&nbsp;if penetration of bone, tendon sheath, or joint&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{14}\" paraid=\"1784508638\">Deep or surgically closed facial bite wounds&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{22}\" paraid=\"499118517\">Hand or foot bite wounds&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{30}\" paraid=\"1739089484\">Genital area&nbsp;bite wounds&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{42}\" paraid=\"1114201761\">Wounds in immunocompromised and/or asplenic people&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{50}\" paraid=\"1600138071\">Cat bite wounds&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{59}\" paraid=\"124491054\"><em>Pasteurella multocida&nbsp;</em>(animal)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{71}\" paraid=\"1180535564\"><em>Eikenella corrodens</em>&nbsp;(human)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{83}\" paraid=\"552074757\"><em>Staphylococcus</em>&nbsp;spp&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{95}\" paraid=\"248318975\"><em>Streptococcus&nbsp;</em>spp&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{103}\" paraid=\"1800531355\">Oral anaerobes&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{114}\" paraid=\"1751306043\"><strong>Oral (prophylaxis or treatment)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{124}\" paraid=\"123574348\">Amoxicillin-clavulanate (Augmentin)<br>\n\t\t\t22.5 mg amoxicillin/kg/dose (max 875 mg amoxicillin/dose) enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{134}\" paraid=\"1382683669\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{140}\" paraid=\"1251036412\"><strong>IV (if needed for established infection)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{150}\" paraid=\"69772854\">Ampicillin-sulbactam (Unasyn)<br>\n\t\t\t50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{157}\" paraid=\"645732018\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{165}\" paraid=\"668763016\">Trimethoprim-sulfamethoxazole (Bactrim/Septra)<br>\n\t\t\t5 mg trimethoprim/kg/ dose  (max 160 mg trimethoprim/dose) enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{175}\" paraid=\"930574997\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{185}\" paraid=\"1998680887\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{191}\" paraid=\"1498281676\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{197}\" paraid=\"520210087\"><strong>IV (if needed for established infection)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{203}\" paraid=\"573490852\">Consult ID/ASP&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{212}\" paraid=\"489110637\"><strong>Duration</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{222}\" paraid=\"1726537494\">3-5 days for prophylaxis of high risk bite wounds (see 1st column)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{232}\" paraid=\"1882587832\">7-10 days for treatment of established infection, guided by severity and clinical course&nbsp;</p>\n\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{242}\" paraid=\"1993347963\">Also consider need for <a href=\"https://www.cdc.gov/tetanus/clinicians.html#wound-management\">Tetanus</a>&nbsp;and/or <a href=\"http://www.cdc.gov/mmwr/preview/mmwrhtml/rr5703a1.htm#tab3\">Rabies</a>&nbsp;prophylaxis&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{235}\" paraid=\"1853442153\">Bite wound&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{241}\" paraid=\"1037820825\"><strong>High risk bite wounds&nbsp;for which antibiotic prophylaxis recommended</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{253}\" paraid=\"196757688\">Moderate or severe bite wounds, especially&nbsp;if edema or crush injury&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{6}\" paraid=\"75792693\">Puncture wounds, especially&nbsp;if penetration of bone, tendon sheath, or joint&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{14}\" paraid=\"1784508638\">Deep or surgically closed facial bite wounds&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{22}\" paraid=\"499118517\">Hand or foot bite wounds&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{30}\" paraid=\"1739089484\">Genital area&nbsp;bite wounds&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{42}\" paraid=\"1114201761\">Wounds in immunocompromised and/or asplenic people&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{50}\" paraid=\"1600138071\">Cat bite wounds&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{59}\" paraid=\"124491054\"><em>Pasteurella multocida&nbsp;</em>(animal)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{71}\" paraid=\"1180535564\"><em>Eikenella corrodens</em>&nbsp;(human)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{83}\" paraid=\"552074757\"><em>Staphylococcus</em>&nbsp;spp&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{95}\" paraid=\"248318975\"><em>Streptococcus&nbsp;</em>spp&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{103}\" paraid=\"1800531355\">Oral anaerobes&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{114}\" paraid=\"1751306043\"><strong>Oral (prophylaxis or treatment)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{124}\" paraid=\"123574348\">Amoxicillin-clavulanate (Augmentin)<br />\r\n\t\t\t22.5 mg amoxicillin/kg/dose (max 875 mg amoxicillin/dose) enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{134}\" paraid=\"1382683669\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{140}\" paraid=\"1251036412\"><strong>IV (if needed for established infection)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{150}\" paraid=\"69772854\">Ampicillin-sulbactam (Unasyn)<br />\r\n\t\t\t50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{157}\" paraid=\"645732018\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{165}\" paraid=\"668763016\">Trimethoprim-sulfamethoxazole (Bactrim/Septra)<br />\r\n\t\t\t5 mg trimethoprim/kg/ dose  (max 160 mg trimethoprim/dose) enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{175}\" paraid=\"930574997\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{185}\" paraid=\"1998680887\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{191}\" paraid=\"1498281676\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{197}\" paraid=\"520210087\"><strong>IV (if needed for established infection)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{203}\" paraid=\"573490852\">Consult ID/ASP&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{212}\" paraid=\"489110637\"><strong>Duration</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{222}\" paraid=\"1726537494\">3-5 days for prophylaxis of high risk bite wounds (see 1st column)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{232}\" paraid=\"1882587832\">7-10 days for treatment of established infection, guided by severity and clinical course&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{605b82c0-1c1d-4147-a92a-2a14282ed80e}{242}\" paraid=\"1993347963\">Also consider need for <a href=\"https://www.cdc.gov/tetanus/clinicians.html#wound-management\">Tetanus</a>&nbsp;and/or <a href=\"http://www.cdc.gov/mmwr/preview/mmwrhtml/rr5703a1.htm#tab3\">Rabies</a>&nbsp;prophylaxis&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 166,
+   "target_type": "taxonomy_term",
+   "target_uuid": "aea1cebe-dad3-4dfe-a589-7e3eea5a9345",
+   "url": "/guidelines-empiric-therapy-categories/skin-and-soft-tissue-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{3}\" paraid=\"893537422\">References: &nbsp;</h2>\n\n<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{7}\" paraid=\"203852929\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n\n<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{35}\" paraid=\"2069108132\">Stevens DL, et al. <a href=\"http://cid.oxfordjournals.org/content/early/2014/06/14/cid.ciu296.full.pdf\">Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America</a>. Clin Infect Dis 2014;59:e10-e52.&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{3}\" paraid=\"893537422\">References: &nbsp;</h2>\r\n\r\n<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{7}\" paraid=\"203852929\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n\r\n<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{35}\" paraid=\"2069108132\">Stevens DL, et al. <a href=\"http://cid.oxfordjournals.org/content/early/2014/06/14/cid.ciu296.full.pdf\">Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America</a>. Clin Infect Dis 2014;59:e10-e52.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13486
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/bite-wound",
+   "langcode": "und",
+   "pid": 26141
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:30:45+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Bite Wound"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "1bce38ec-2d2e-46bb-9009-f68e07b954e6"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16071
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T16:48:56+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629823736,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:54:18+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{203}\" paraid=\"1930419268\">These guidelines are intended for patients who meet criteria for&nbsp;severe sepsis:</p>\n\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{203}\" paraid=\"1930419268\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Probable or documented infection AND&nbsp;</p>\n\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{220}\" paraid=\"325218356\" style=\"margin-left: 40px;\">Systemic inflammatory response criteria AND&nbsp;</p>\n\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{227}\" paraid=\"1115107504\" style=\"margin-left: 40px;\">Specific evidence of hypo-perfusion or organ dysfunction not explained by an alternative process:&nbsp;</p>\n\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{234}\" paraid=\"1905506767\" style=\"margin-left: 80px;\">Cardiovascular dysfunction, OR&nbsp;</p>\n\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{241}\" paraid=\"1263283530\" style=\"margin-left: 80px;\">Acute respiratory distress syndrome, OR&nbsp;</p>\n\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{248}\" paraid=\"1148340665\" style=\"margin-left: 80px;\">Dysfunction in two or more other organ systems</p>\n\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{248}\" paraid=\"1148340665\" style=\"margin-left: 40px;\">Refer to <a href=\"https://journals.lww.com/pccmjournal/Fulltext/2005/01000/International_pediatric_sepsis_consensus.2.aspx\">consensus definitions</a>&nbsp;for additional detail  &nbsp;</p>\n\n<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{7}\" paraid=\"302318626\">These guidelines are not intended for \"rule out\" scenarios in clinically stable patients; patients presenting with signs and/or symptoms of infection but not meeting criteria for severe sepsis should either be monitored without antibiotic therapy in appropriate circumstances or receive empiric antibiotics selected based on the suspected source and risk factors. &nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{45}\" paraid=\"1328012311\">Severe sepsis, 0-28 days old, community-onset, previously healthy (admitted from home)&nbsp; &nbsp;</p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{57}\" paraid=\"311585985\">See <a href=\"/content/guidelines-for-sepsis-in-the-icn\">BCH SF Guidelines for&nbsp;Sepsis in the ICN</a>&nbsp;for empiric therapy in neonates who develop severe sepsis while hospitalized &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{82}\" paraid=\"807490943\">Enteric&nbsp;gram-negative&nbsp;bacteria&nbsp;&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{102}\" paraid=\"39952195\">Group B streptococcus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{114}\" paraid=\"1715679117\">Less Common:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{126}\" paraid=\"2088767336\"><em>Staphylococcus aureus&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{136}\" paraid=\"738485073\"><em>Listeria monocytogenes&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{142}\" paraid=\"1063447232\">Herpes simplex virus&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{153}\" paraid=\"111804967\">Ceftazidime&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{163}\" paraid=\"1897545305\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{173}\" paraid=\"1258082136\">Ampicillin&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{183}\" paraid=\"1228156098\">REPLACE Ampicillin with Vancomycin if suspected skin, soft tissue, bone or joint source&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{193}\" paraid=\"43890258\">ADD Acyclovir pending&nbsp;<a href=\"/content/neonatal-herpes-simplex-virus-disease\">HSV evaluation</a>&nbsp;if not already completed&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>For continuation of therapy if indicated after initial stabilization in appropriate circumstances, Ceftriaxone may be used in place of Ceftazidime if neonate meets specific&nbsp;<a href=\"/content/safety-criteria-for-ceftriaxone-administration-to-neonates\">safe use criteria</a>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{223}\" paraid=\"1436681175\">ID consult recommended&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{233}\" paraid=\"1114261402\">Evaluation for meningitis via LP is recommended as soon as able&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{243}\" paraid=\"1605393100\">Refer to&nbsp;<a href=\"/neonatal-antimicrobial-dosing-benioff-childrens-hospitals\">Neonatal Dosing Guideline</a>&nbsp;for antibiotic doses and intervals</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{2}\" paraid=\"1709840932\">Refer to&nbsp;<a href=\"/content/fever-without-a-source-young-infant\">Fever Without a Source</a>&nbsp;section if patient does not meet criteria for severe sepsis&nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{18}\" paraid=\"1735526558\">Antibiotic therapy should be re-evaluated at &lt;= 48 hours and narrowed to target the identified source/pathogen. If a specific source or pathogen is not identified it is still recommended to narrow therapy in&nbsp;most circumstances. &nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{26}\" paraid=\"482442369\">If Vancomycin was initiated, it should be discontinued at this time unless a resistant gram-positive pathogen is identified OR there is a clinically documented source of infection with higher likelihood of resistant gram-positive etiology. </p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Severe sepsis, &gt; 28 days old, community-onset, no preexisting comorbidities or recent healthcare exposure&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{41}\" paraid=\"1474724782\"><em>Staphylococcus aureus&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{51}\" paraid=\"826998507\"><em>Streptococcus pneumoniae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{61}\" paraid=\"813215693\">Group A streptococcus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{71}\" paraid=\"670383516\"><em>Neisseria meningitidis&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{81}\" paraid=\"1197021011\">Enteric&nbsp;gram-negative&nbsp;bacteria&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{98}\" paraid=\"1071685318\">Ceftriaxone<br>\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q24h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{108}\" paraid=\"632506721\">(dosing for non-CNS infection; refer to&nbsp;<a href=\"/content/meningitis-0\">Meningitis</a>&nbsp;section if meningitis is suspected) &nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{122}\" paraid=\"1907843184\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{132}\" paraid=\"655177807\"><a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin</a> &nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{138}\" paraid=\"1094051711\">(follow link for dosing &amp; monitoring) &nbsp;&nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{150}\" paraid=\"121158002\">Consult a clinical pharmacist for patient-specific Vancomycin recommendations if there is evolving kidney injury&nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{160}\" paraid=\"1980615586\">ADD Metronidazole<br>\n\t\t\t10 mg/kg/dose (max 500 mg/dose) IV q8h for suspected intra-abdominal infection&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{167}\" paraid=\"172618503\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{173}\" paraid=\"1375533486\">Aztreonam<br>\n\t\t\t30 mg/kg/dose (max 2000 mg/dose) IV q8h in place of Ceftriaxone (use with Vancomycin)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{183}\" paraid=\"745742403\"> &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{202}\" paraid=\"928318766\">ID consult recommended&nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{212}\" paraid=\"1310123743\">Antibiotic therapy should be re-evaluated at &lt;= 48 hours and narrowed to target the identified source/pathogen&nbsp;</p>\n\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{222}\" paraid=\"755846566\">If Vancomycin was initiated, it should be discontinued at this time unless a resistant gram-positive pathogen is identified OR there is a clinically documented source of infection with higher likelihood of resistant gram-positive etiology.  &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{203}\" paraid=\"1930419268\">These guidelines are intended for patients who meet criteria for&nbsp;severe sepsis:</p>\r\n\r\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{203}\" paraid=\"1930419268\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Probable or documented infection AND&nbsp;</p>\r\n\r\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{220}\" paraid=\"325218356\" style=\"margin-left: 40px;\">Systemic inflammatory response criteria AND&nbsp;</p>\r\n\r\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{227}\" paraid=\"1115107504\" style=\"margin-left: 40px;\">Specific evidence of hypo-perfusion or organ dysfunction not explained by an alternative process:&nbsp;</p>\r\n\r\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{234}\" paraid=\"1905506767\" style=\"margin-left: 80px;\">Cardiovascular dysfunction, OR&nbsp;</p>\r\n\r\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{241}\" paraid=\"1263283530\" style=\"margin-left: 80px;\">Acute respiratory distress syndrome, OR&nbsp;</p>\r\n\r\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{248}\" paraid=\"1148340665\" style=\"margin-left: 80px;\">Dysfunction in two or more other organ systems</p>\r\n\r\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{248}\" paraid=\"1148340665\" style=\"margin-left: 40px;\">Refer to <a href=\"https://journals.lww.com/pccmjournal/Fulltext/2005/01000/International_pediatric_sepsis_consensus.2.aspx\">consensus definitions</a>&nbsp;for additional detail  &nbsp;</p>\r\n\r\n<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{7}\" paraid=\"302318626\">These guidelines are not intended for \"rule out\" scenarios in clinically stable patients; patients presenting with signs and/or symptoms of infection but not meeting criteria for severe sepsis should either be monitored without antibiotic therapy in appropriate circumstances or receive empiric antibiotics selected based on the suspected source and risk factors. &nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{45}\" paraid=\"1328012311\">Severe sepsis, 0-28 days old, community-onset, previously healthy (admitted from home)&nbsp; &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{57}\" paraid=\"311585985\">See <a href=\"/node/11961\">BCH SF Guidelines for&nbsp;Sepsis in the ICN</a>&nbsp;for empiric therapy in neonates who develop severe sepsis while hospitalized &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{82}\" paraid=\"807490943\">Enteric&nbsp;gram-negative&nbsp;bacteria&nbsp;&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{102}\" paraid=\"39952195\">Group B streptococcus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{114}\" paraid=\"1715679117\">Less Common:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{126}\" paraid=\"2088767336\"><em>Staphylococcus aureus&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{136}\" paraid=\"738485073\"><em>Listeria monocytogenes&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{142}\" paraid=\"1063447232\">Herpes simplex virus&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{153}\" paraid=\"111804967\">Ceftazidime&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{163}\" paraid=\"1897545305\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{173}\" paraid=\"1258082136\">Ampicillin&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{183}\" paraid=\"1228156098\">REPLACE Ampicillin with Vancomycin if suspected skin, soft tissue, bone or joint source&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{193}\" paraid=\"43890258\">ADD Acyclovir pending&nbsp;<a href=\"/node/13341\">HSV evaluation</a>&nbsp;if not already completed&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>For continuation of therapy if indicated after initial stabilization in appropriate circumstances, Ceftriaxone may be used in place of Ceftazidime if neonate meets specific&nbsp;<a href=\"/node/13566\">safe use criteria</a>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{223}\" paraid=\"1436681175\">ID consult recommended&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{233}\" paraid=\"1114261402\">Evaluation for meningitis via LP is recommended as soon as able&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f9e2786a-4dcf-48c8-9e48-4f0488a408f6}{243}\" paraid=\"1605393100\">Refer to&nbsp;<a href=\"/node/7351\">Neonatal Dosing Guideline</a>&nbsp;for antibiotic doses and intervals</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{2}\" paraid=\"1709840932\">Refer to&nbsp;<a href=\"/node/13376\">Fever Without a Source</a>&nbsp;section if patient does not meet criteria for severe sepsis&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{18}\" paraid=\"1735526558\">Antibiotic therapy should be re-evaluated at &lt;= 48 hours and narrowed to target the identified source/pathogen. If a specific source or pathogen is not identified it is still recommended to narrow therapy in&nbsp;most circumstances. &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{26}\" paraid=\"482442369\">If Vancomycin was initiated, it should be discontinued at this time unless a resistant gram-positive pathogen is identified OR there is a clinically documented source of infection with higher likelihood of resistant gram-positive etiology. </p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Severe sepsis, &gt; 28 days old, community-onset, no preexisting comorbidities or recent healthcare exposure&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{41}\" paraid=\"1474724782\"><em>Staphylococcus aureus&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{51}\" paraid=\"826998507\"><em>Streptococcus pneumoniae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{61}\" paraid=\"813215693\">Group A streptococcus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{71}\" paraid=\"670383516\"><em>Neisseria meningitidis&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{81}\" paraid=\"1197021011\">Enteric&nbsp;gram-negative&nbsp;bacteria&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{98}\" paraid=\"1071685318\">Ceftriaxone<br />\r\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q24h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{108}\" paraid=\"632506721\">(dosing for non-CNS infection; refer to&nbsp;<a href=\"/node/13326\">Meningitis</a>&nbsp;section if meningitis is suspected) &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{122}\" paraid=\"1907843184\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{132}\" paraid=\"655177807\"><a href=\"/node/13571\">Vancomycin</a> &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{138}\" paraid=\"1094051711\">(follow link for dosing &amp; monitoring) &nbsp;&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{150}\" paraid=\"121158002\">Consult a clinical pharmacist for patient-specific Vancomycin recommendations if there is evolving kidney injury&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{160}\" paraid=\"1980615586\">ADD Metronidazole<br />\r\n\t\t\t10 mg/kg/dose (max 500 mg/dose) IV q8h for suspected intra-abdominal infection&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{167}\" paraid=\"172618503\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{173}\" paraid=\"1375533486\">Aztreonam<br />\r\n\t\t\t30 mg/kg/dose (max 2000 mg/dose) IV q8h in place of Ceftriaxone (use with Vancomycin)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{183}\" paraid=\"745742403\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{202}\" paraid=\"928318766\">ID consult recommended&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{212}\" paraid=\"1310123743\">Antibiotic therapy should be re-evaluated at &lt;= 48 hours and narrowed to target the identified source/pathogen&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{222}\" paraid=\"755846566\">If Vancomycin was initiated, it should be discontinued at this time unless a resistant gram-positive pathogen is identified OR there is a clinically documented source of infection with higher likelihood of resistant gram-positive etiology.  &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 161,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e9e098f9-0081-4408-b491-927824f0c523",
+   "url": "/guidelines-empiric-therapy-categories/sepsis-source-unknown-and-other-nonfocal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{240}\" paraid=\"1672295860\">References:&nbsp;</h2>\n\n<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{246}\" paraid=\"116529013\">Weiss SL, et al. <a href=\"https://journals.lww.com/pccmjournal/Fulltext/2020/02000/Surviving_Sepsis_Campaign_International_Guidelines.20.aspx\">Surviving sepsis campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children</a>. Pediatr Crit Care Med 2020; 21:e52-e106.&nbsp;</p>\n\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{5}\" paraid=\"1202636671\">Goldstein, et al. <a href=\"https://journals.lww.com/pccmjournal/Fulltext/2005/01000/International_pediatric_sepsis_consensus.2.aspx\">International pediatric sepsis consensus conference: definitions for sepsis and organ dysfunction in pediatrics</a>. Pediatr Crit Care Med 2005;6:2-8.&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{240}\" paraid=\"1672295860\">References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{70824026-6fa7-4152-8e7f-0cd7aa5f2e05}{246}\" paraid=\"116529013\">Weiss SL, et al. <a href=\"https://journals.lww.com/pccmjournal/Fulltext/2020/02000/Surviving_Sepsis_Campaign_International_Guidelines.20.aspx\">Surviving sepsis campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children</a>. Pediatr Crit Care Med 2020; 21:e52-e106.&nbsp;</p>\r\n\r\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{5}\" paraid=\"1202636671\">Goldstein, et al. <a href=\"https://journals.lww.com/pccmjournal/Fulltext/2005/01000/International_pediatric_sepsis_consensus.2.aspx\">International pediatric sepsis consensus conference: definitions for sepsis and organ dysfunction in pediatrics</a>. Pediatr Crit Care Med 2005;6:2-8.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13461
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/severe-sepsis-previously-healthy-infant-or-child",
+   "langcode": "und",
+   "pid": 26116
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T16:48:56+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Severe Sepsis - Previously Healthy Infant or Child "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "bfe2d020-4a8a-463f-84dd-6153bb7532b8"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16046
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<p class=\"text-align-center\">&nbsp;</p><h2 class=\"text-align-center\"><a href=\"https://ucsf.app.box.com/s/psmrnxsy3swlvpej3znxb8v59puxxzxv\"><strong>Link to Code Sepsis Antimicrobial Recommendations</strong></a></h2><p>&nbsp;</p>",
+   "summary": "Initial antimicrobial therapy recommendations for Code Sepsis at UCSFMC",
+   "value": "<p class=\"text-align-center\">&nbsp;</p><h2 class=\"text-align-center\"><a href=\"https://ucsf.app.box.com/s/psmrnxsy3swlvpej3znxb8v59puxxzxv\"><strong>Link to Code Sepsis Antimicrobial Recommendations</strong></a></h2><p>&nbsp;</p>"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-15T19:05:10+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1727381635,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-14T18:44:35+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2019-07-01"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 451,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a61a46a6-7dde-4da7-8b4b-d3c5cb579606",
+   "url": "/site/ucsf-medical-center-mission-bay-adult"
+  },
+  {
+   "target_id": 2101,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b959ef0d-a183-4591-96ee-d7183836e39d",
+   "url": "/site/ucsf-medical-center-mount-zion"
+  },
+  {
+   "target_id": 446,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ea4e1156-f1d7-40b6-8744-b15ee0218ccf",
+   "url": "/site/ucsf-medical-center-parnassus-heights"
+  },
+  {
+   "target_id": 2111,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b0f2c62e-1e16-47cf-ac4a-6f1bb99f5012",
+   "url": "/site/ucsf-stanyan-hyde"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11751
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/code-sepsis",
+   "langcode": "und",
+   "pid": 24466
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-09-26T20:13:55+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Code Sepsis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "618a750f-ee6b-4b76-b945-b39d443f2120"
+  }
+ ],
+ "vid": [
+  {
+   "value": 13656
+  }
+ ]
+}

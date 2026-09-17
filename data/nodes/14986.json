@@ -1,0 +1,124 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<h4 style=\"text-align: center;\"><strong>Intra-abdominal Infections (IAI)</strong></h4>\n\n<ul>\n\t<li>Intra-abdominal infections are those contained within the peritoneal cavity or retroperitoneal space.</li>\n\t<li>May be generalized or localized, complicated or uncomplicated, and community or healthcare-associated</li>\n</ul>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:1000px;\" width=\"609\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:274px;height:16px;\">\n\t\t\t<p align=\"center\"><strong>Possible Intra-abdominal Infection Etiologies<sup>1</sup></strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:334px;height:16px;\">\n\t\t\t<p align=\"center\"><strong>Clinical Risk Factors Identifying Patients at High Risk<sup>2,3,6</sup></strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:274px;height:207px;\">\n\t\t\t<ul>\n\t\t\t\t<li>Peptic ulcer perforation</li>\n\t\t\t\t<li>Perforation of a gastrointestinal organ</li>\n\t\t\t\t<li>Appendicitis</li>\n\t\t\t\t<li>Endometritis secondary to intrauterine device</li>\n\t\t\t\t<li>Bile peritonitis</li>\n\t\t\t\t<li>Pancreatitis</li>\n\t\t\t\t<li>Operative contamination</li>\n\t\t\t\t<li>Diverticulitis</li>\n\t\t\t\t<li>Cholecystitis</li>\n\t\t\t\t<li>Intestinal neoplasms</li>\n\t\t\t\t<li>Secondary to peritoneal dialysis</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t\t<td style=\"width:334px;height:207px;\">\n\t\t\t<p>Patients with <u>&gt;</u> 1 of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>High severity of illness (<a href=\"http://www.merckmanuals.com/professional/critical_care_medicine/approach_to_the_critically_ill_patient/critical_care_scoring_systems.html\">APACHE II</a> score ≥ 15)</li>\n\t\t\t\t<li>Severe sepsis or septic shock</li>\n\t\t\t\t<li>Diffuse, generalized peritonitis</li>\n\t\t\t\t<li>Delayed initial source control &gt; 24 hours</li>\n\t\t\t\t<li>Inability to achieve adequate source control</li>\n\t\t\t</ul>\n\n\t\t\t<p>Patients with <u>&gt;</u> 2 of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Advanced age ( <u>&gt;</u> 70 years of age)</li>\n\t\t\t\t<li>Malignancy</li>\n\t\t\t\t<li>Significant cardiovascular compromise</li>\n\t\t\t\t<li>Significant liver disease or cirrhosis</li>\n\t\t\t\t<li>Significant renal disease</li>\n\t\t\t\t<li>Hypoalbuminemia</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>\n<div class=\"media-embed-resized media media--type-image media--view-mode-cke-media-resize-xl\" height=\"799\" style=\"width:948px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_xl/public/wysiwyg/SFVA%20IAI%20Guidelines%202025.png.webp?itok=s-TAl7Iy\" width=\"1200\" height=\"1011\" alt class=\"image-style-cke-media-resize-xl\">\n\n\n\n\n  </div>\n\n</p>\n\n<p><u><strong>R</strong></u><strong style=\"text-decoration-line: underline;\">eferences</strong></p>\n\n<ol>\n\t<li>Gross AE, DiPiro JT. Chapter 92. Intraabdominal Infections. Pharmacotherapy: A Pathophysiologic Approach, 9e. New York, NY: McGrRaw-Hill; 2014.</li>\n\t<li>Solomkin, Joseph S., et al. \"Diagnosis and management of complicated intra-abdominal infection in adults and children: guidelines by the Surgical Infection Society and the Infectious Diseases Society of America.\" Clinical infectious diseases 50.2 (2010): 133-164.</li>\n\t<li>Knaus WA Draper EA et al. APACHE II: A severity of disease classification system. Critical Care Medicine. 1985; 13</li>\n\t<li>Marshall JC, Innes M. Intensive care unit management of intraabdominal infection. Crit Care Med 2003;31:2228–2237</li>\n\t<li>Montravers P, Lepape A, Dubreuil L, et al. Clinical and microbiological profiles of community-acquired and nosocomial infections: Results of the French prospective, observational EBIIA study. J Antimicrob Chemother 2009;63:785–794</li>\n\t<li>Mazuski, John E., et al. \"The surgical infection society revised guidelines on the management of intra-abdominal infection.\" Surgical infections 18.1 (2017): 1-76.</li>\n</ol>\n",
+   "summary": "SFVA facility guidelines for management and treatment of intra-abdominal infections",
+   "value": "<h4 style=\"text-align: center;\"><strong>Intra-abdominal Infections (IAI)</strong></h4>\n\n<ul>\n\t<li>Intra-abdominal infections are those contained within the peritoneal cavity or retroperitoneal space.</li>\n\t<li>May be generalized or localized, complicated or uncomplicated, and community or healthcare-associated</li>\n</ul>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:1000px;\" width=\"609\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:274px;height:16px;\">\n\t\t\t<p align=\"center\"><strong>Possible Intra-abdominal Infection Etiologies<sup>1</sup></strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:334px;height:16px;\">\n\t\t\t<p align=\"center\"><strong>Clinical Risk Factors Identifying Patients at High Risk<sup>2,3,6</sup></strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:274px;height:207px;\">\n\t\t\t<ul>\n\t\t\t\t<li>Peptic ulcer perforation</li>\n\t\t\t\t<li>Perforation of a gastrointestinal organ</li>\n\t\t\t\t<li>Appendicitis</li>\n\t\t\t\t<li>Endometritis secondary to intrauterine device</li>\n\t\t\t\t<li>Bile peritonitis</li>\n\t\t\t\t<li>Pancreatitis</li>\n\t\t\t\t<li>Operative contamination</li>\n\t\t\t\t<li>Diverticulitis</li>\n\t\t\t\t<li>Cholecystitis</li>\n\t\t\t\t<li>Intestinal neoplasms</li>\n\t\t\t\t<li>Secondary to peritoneal dialysis</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t\t<td style=\"width:334px;height:207px;\">\n\t\t\t<p>Patients with <u>&gt;</u> 1 of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>High severity of illness (<a href=\"http://www.merckmanuals.com/professional/critical_care_medicine/approach_to_the_critically_ill_patient/critical_care_scoring_systems.html\">APACHE II</a> score ≥ 15)</li>\n\t\t\t\t<li>Severe sepsis or septic shock</li>\n\t\t\t\t<li>Diffuse, generalized peritonitis</li>\n\t\t\t\t<li>Delayed initial source control &gt; 24 hours</li>\n\t\t\t\t<li>Inability to achieve adequate source control</li>\n\t\t\t</ul>\n\n\t\t\t<p>Patients with <u>&gt;</u> 2 of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Advanced age ( <u>&gt;</u> 70 years of age)</li>\n\t\t\t\t<li>Malignancy</li>\n\t\t\t\t<li>Significant cardiovascular compromise</li>\n\t\t\t\t<li>Significant liver disease or cirrhosis</li>\n\t\t\t\t<li>Significant renal disease</li>\n\t\t\t\t<li>Hypoalbuminemia</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p><drupal-media data-entity-type=\"media\" data-entity-uuid=\"505e404e-5bcc-4123-b0c1-028b8b8e8e09\" data-view-mode=\"default\" data-media-width=\"948px\" alt height=\"799\"></drupal-media></p>\n\n<p><u><strong>R</strong></u><strong style=\"text-decoration-line: underline;\">eferences</strong></p>\n\n<ol>\n\t<li>Gross AE, DiPiro JT. Chapter 92. Intraabdominal Infections. Pharmacotherapy: A Pathophysiologic Approach, 9e. New York, NY: McGrRaw-Hill; 2014.</li>\n\t<li>Solomkin, Joseph S., et al. \"Diagnosis and management of complicated intra-abdominal infection in adults and children: guidelines by the Surgical Infection Society and the Infectious Diseases Society of America.\" Clinical infectious diseases 50.2 (2010): 133-164.</li>\n\t<li>Knaus WA Draper EA et al. APACHE II: A severity of disease classification system. Critical Care Medicine. 1985; 13</li>\n\t<li>Marshall JC, Innes M. Intensive care unit management of intraabdominal infection. Crit Care Med 2003;31:2228–2237</li>\n\t<li>Montravers P, Lepape A, Dubreuil L, et al. Clinical and microbiological profiles of community-acquired and nosocomial infections: Results of the French prospective, observational EBIIA study. J Antimicrob Chemother 2009;63:785–794</li>\n\t<li>Mazuski, John E., et al. \"The surgical infection society revised guidelines on the management of intra-abdominal infection.\" Surgical infections 18.1 (2017): 1-76.</li>\n</ol>\n"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-06-02T23:04:27+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1748905467,
+   "last_comment_uid": 611,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-12-01T22:51:20+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2023-12-01"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 471,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee7b224f-cfca-453f-9d7e-9ba9f50edf24",
+   "url": "/site/va-medical-center-san-francisco"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14986
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/vasf-intra-abdominal-infections-iai-treatment-guidelines",
+   "langcode": "und",
+   "pid": 27556
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-06-02T23:04:27+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "VASF Intra-abdominal Infections (IAI) Treatment Guidelines"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "18bd0be7-a6cd-4c7c-a38e-5c942a404c3e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 18976
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1655165097,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2022-06-14T00:04:57+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt;30 mL/min</th>\n\t\t\t<th>CrCl &lt;30 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>200 mg IV x1 then 100 mg IV q24h</td>\n\t\t\t<td>No adjustment required; vehicle may accumulate in renal dysfunction - consider risk/benefit</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt;30 mL/min</th>\r\n\t\t\t<th>CrCl &lt;30 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>200 mg IV x1 then 100 mg IV q24h</td>\r\n\t\t\t<td>No adjustment required; vehicle may accumulate in renal dysfunction - consider risk/benefit</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td style=\"text-align: center;\">200 mg IV x1 then 100 mg IV q24h</td>\n\t\t\t<td style=\"text-align: center;\">200 mg IV x1 then 100 mg IV q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td style=\"text-align: center;\">200 mg IV x1 then 100 mg IV q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">200 mg IV x1 then 100 mg IV q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14116
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/remdesivir-0",
+   "langcode": "und",
+   "pid": 26766
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Remdesivir"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "b145fbf2-0c61-42d6-8658-3cc9cf700e56"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22001
+  }
+ ]
+}

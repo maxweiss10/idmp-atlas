@@ -1,0 +1,130 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<p>\n<div class=\"media-embed-resized media media--type-image media--view-mode-default\" height=\"3377\" style=\"width:2625px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/%20ED%20Fever%202024.png.webp?itok=ggoyg3eb\" width=\"373\" height=\"480\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n</p>\n\n<p><a href=\"/pediatric-antimicrobial-dosing-benioff-childrens-hospitals\">Pediatric Antimicrobial Dosing Guidelines</a><br>\n<br>\n<a href=\"/content/benioff-childrens-hospitals-guidelines-for-fever-in-patients-receiving-cancer-therapy-and-or\">UCSF Benioff Children's Hospitals Guidelines for Fever in Patients Receiving Cancer Therapy and/or Hematopoetic Transplantation</a></p>\n",
+   "summary": "Guidance for ED management of pediatric oncology/BMT patients with fever",
+   "value": "<p><drupal-media data-entity-type=\"media\" data-entity-uuid=\"4b52f22d-f0c6-419e-b7f2-8a1ac8f52dd2\" data-view-mode=\"default\" data-media-width=\"2625px\" alt height=\"3377\"></drupal-media></p>\n\n<p><a href=\"/node/7626\">Pediatric Antimicrobial Dosing Guidelines</a><br>\n<br>\n<a href=\"/node/11941\">UCSF Benioff Children's Hospitals Guidelines for Fever in Patients Receiving Cancer Therapy and/or Hematopoetic Transplantation</a></p>\n"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-04-11T18:53:01+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1712861581,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-17T19:48:56+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2024-04-11"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8d5e5d55-c79c-480c-8d58-ff9c4b488fcf",
+   "url": "/site/ucsf-benioff-childrens-hospital-oakland"
+  },
+  {
+   "target_id": 456,
+   "target_type": "taxonomy_term",
+   "target_uuid": "bd66daca-f848-4cc8-be1f-0ecfd8e9aad4",
+   "url": "/site/ucsf-benioff-childrens-hospital-san-francisco"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11946
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/emergency-department-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or",
+   "langcode": "und",
+   "pid": 24641
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-04-11T18:53:01+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Emergency Department Algorithm: Fever in Pediatric Patients Receiving Cancer Therapy and/or Hematopoietic Transplant"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "8f9f9880-8a34-4665-af47-4aec173cb653"
+  }
+ ],
+ "vid": [
+  {
+   "value": 13851
+  }
+ ]
+}

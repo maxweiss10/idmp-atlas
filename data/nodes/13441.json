@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-17T22:45:11+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633719491,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:38:14+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Condition</th><th>Major Pathogens&nbsp;</th><th>First-choice Therapy</th><th>Alternative Therapy</th><th>Comments</th></tr></thead><tbody><tr><td>Acute otitis media&nbsp;</td><td><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{119}\" paraid=\"1166459829\"><em>Streptococcus pneumoniae&nbsp;</em></p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{129}\" paraid=\"1992967908\"><em>Haemophilus influenzae&nbsp;</em></p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{139}\" paraid=\"1334665114\"><em>Moraxella catarrhalis&nbsp;</em></p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{145}\" paraid=\"2107208973\">-----------------------&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{155}\" paraid=\"1547113352\"><strong>Severe symptoms</strong>:&nbsp;moderate or severe otalgia or otalgia &gt; 48 hours, or temperature 39C or higher&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{167}\" paraid=\"615560889\"><strong>Non-severe symptoms</strong>:&nbsp;mild otalgia &lt; 48 hours, temperature &lt;39C&nbsp;</p></td><td><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{176}\" paraid=\"710846785\">Recommend initial observation without antibiotic therapy for 48-72 hours in immunocompetent patients with the following criteria:&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{186}\" paraid=\"171730604\">6 months-2 years old: unilateral, no otorrhea, non-severe symptoms (see second column)&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{192}\" paraid=\"1245412287\">OR&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{206}\" paraid=\"1236927067\">&gt;=2 years old: no otorrhea, non-severe symptoms (see second column)&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{216}\" paraid=\"342417920\">Ensure that reassessment and initiation of antibiotic will be feasible if symptoms do not improve during observation&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{226}\" paraid=\"1708065789\">-------------------------&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{232}\" paraid=\"1373171451\"><strong>For patients not meeting above criteria</strong>:&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{238}\" paraid=\"173336194\">Amoxicillin &nbsp;<br>45 mg/kg/dose (max 1000 mg/dose)* enterally bid &nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{250}\" paraid=\"554440729\">&nbsp;</p></td><td><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{8}\" paraid=\"774097213\"><strong>If patient meets criteria for treatment (same as 3rd column), and has received Amoxicillin within preceding 30 days, has purulent conjunctivitis, history of recurrent AOM not responsive to Amoxicillin, or does not respond to initial therapy with Amoxicillin x 48-72 hours</strong>:&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{14}\" paraid=\"770433659\">Amoxicillin-clavulanate (Augmentin)<br>45 mg amoxicillin/kg/dose (max 1000 mg amoxicillin/dose)* enterally bid  &nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{32}\" paraid=\"915055540\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin allergy with lower risk for allergic reaction</strong></a>:&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{44}\" paraid=\"749814749\"><a href=\"/content/oral-cephalosporin-options-for-respiratory-tract-infections\">Oral cephalosporin</a>&nbsp;(follow link for options)&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{56}\" paraid=\"1075237337\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin allergy with higher risk for allergic reaction</strong></a>:&nbsp;&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{62}\" paraid=\"1182619216\">Consult AAP/AAFP guidelines (linked below) or ASP. Azithromycin is&nbsp;not recommended for this indication.&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{70}\" paraid=\"1365574859\">-------------------------&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{76}\" paraid=\"729132901\"><strong>Failed oral therapy</strong>:&nbsp;&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{82}\" paraid=\"1557566144\">Consult AAP/AAFP guidelines (linked below)&nbsp;</p></td><td><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{89}\" paraid=\"784908421\"><strong>Duration for beta lactam therapy</strong>:&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{95}\" paraid=\"1720610804\">&lt; 2 years old or any age with severe symptoms: 10 days&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{109}\" paraid=\"553906916\">2-5 years old: 7 days&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{119}\" paraid=\"1462682488\">&gt; 5 years old: 5 days&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{129}\" paraid=\"2138730891\">Pain control recommended for all patients&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{139}\" paraid=\"1225887593\">*See guidance on <a href=\"/content/maximum-dosing-for-amoxicillin-and-amoxicillin-clavulanate-0\">Amoxicillin and Amoxicillin-clavulanate maximum dosing and formulation</a></p></td></tr></tbody></table>",
+   "value": "<table class=\"table\"><thead><tr><th>Condition</th><th>Major Pathogens&nbsp;</th><th>First-choice Therapy</th><th>Alternative Therapy</th><th>Comments</th></tr></thead><tbody><tr><td>Acute otitis media&nbsp;</td><td><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{119}\" paraid=\"1166459829\"><em>Streptococcus pneumoniae&nbsp;</em></p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{129}\" paraid=\"1992967908\"><em>Haemophilus influenzae&nbsp;</em></p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{139}\" paraid=\"1334665114\"><em>Moraxella catarrhalis&nbsp;</em></p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{145}\" paraid=\"2107208973\">-----------------------&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{155}\" paraid=\"1547113352\"><strong>Severe symptoms</strong>:&nbsp;moderate or severe otalgia or otalgia &gt; 48 hours, or temperature 39C or higher&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{167}\" paraid=\"615560889\"><strong>Non-severe symptoms</strong>:&nbsp;mild otalgia &lt; 48 hours, temperature &lt;39C&nbsp;</p></td><td><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{176}\" paraid=\"710846785\">Recommend initial observation without antibiotic therapy for 48-72 hours in immunocompetent patients with the following criteria:&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{186}\" paraid=\"171730604\">6 months-2 years old: unilateral, no otorrhea, non-severe symptoms (see second column)&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{192}\" paraid=\"1245412287\">OR&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{206}\" paraid=\"1236927067\">&gt;=2 years old: no otorrhea, non-severe symptoms (see second column)&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{216}\" paraid=\"342417920\">Ensure that reassessment and initiation of antibiotic will be feasible if symptoms do not improve during observation&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{226}\" paraid=\"1708065789\">-------------------------&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{232}\" paraid=\"1373171451\"><strong>For patients not meeting above criteria</strong>:&nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{238}\" paraid=\"173336194\">Amoxicillin &nbsp;<br>45 mg/kg/dose (max 1000 mg/dose)* enterally bid &nbsp;</p><p paraeid=\"{9187da3c-1c38-44ad-8672-c5e4e506a685}{250}\" paraid=\"554440729\">&nbsp;</p></td><td><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{8}\" paraid=\"774097213\"><strong>If patient meets criteria for treatment (same as 3rd column), and has received Amoxicillin within preceding 30 days, has purulent conjunctivitis, history of recurrent AOM not responsive to Amoxicillin, or does not respond to initial therapy with Amoxicillin x 48-72 hours</strong>:&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{14}\" paraid=\"770433659\">Amoxicillin-clavulanate (Augmentin)<br>45 mg amoxicillin/kg/dose (max 1000 mg amoxicillin/dose)* enterally bid  &nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{32}\" paraid=\"915055540\"><a href=\"/node/13556\"><strong>Penicillin allergy with lower risk for allergic reaction</strong></a>:&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{44}\" paraid=\"749814749\"><a href=\"/node/13691\">Oral cephalosporin</a>&nbsp;(follow link for options)&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{56}\" paraid=\"1075237337\"><a href=\"/node/13556\"><strong>Penicillin allergy with higher risk for allergic reaction</strong></a>:&nbsp;&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{62}\" paraid=\"1182619216\">Consult AAP/AAFP guidelines (linked below) or ASP. Azithromycin is&nbsp;not recommended for this indication.&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{70}\" paraid=\"1365574859\">-------------------------&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{76}\" paraid=\"729132901\"><strong>Failed oral therapy</strong>:&nbsp;&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{82}\" paraid=\"1557566144\">Consult AAP/AAFP guidelines (linked below)&nbsp;</p></td><td><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{89}\" paraid=\"784908421\"><strong>Duration for beta lactam therapy</strong>:&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{95}\" paraid=\"1720610804\">&lt; 2 years old or any age with severe symptoms: 10 days&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{109}\" paraid=\"553906916\">2-5 years old: 7 days&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{119}\" paraid=\"1462682488\">&gt; 5 years old: 5 days&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{129}\" paraid=\"2138730891\">Pain control recommended for all patients&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{139}\" paraid=\"1225887593\">*See guidance on <a href=\"/node/13576\">Amoxicillin and Amoxicillin-clavulanate maximum dosing and formulation</a></p></td></tr></tbody></table>"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{157}\" paraid=\"155278704\">References</h2><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{163}\" paraid=\"732581838\">Lieberthal, AS, et al. <a href=\"https://pediatrics.aappublications.org/content/131/3/e964.long\">The diagnosis and management of acute otitis media</a>. Pediatrics 2013;131:e964-e999.&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{173}\" paraid=\"656438212\"><a style=\"border-width:0px;color:rgb(70, 120, 134);font-family:inherit;font-feature-settings:inherit;font-kerning:inherit;font-optical-sizing:inherit;font-size-adjust:inherit;font-size:inherit;font-style:inherit;font-variant-alternates:inherit;font-variant-caps:inherit;font-variant-east-asian:inherit;font-variant-emoji:inherit;font-variant-ligatures:inherit;font-variant-numeric:inherit;font-variant-position:inherit;font-variation-settings:inherit;font-weight:inherit;font-width:inherit;line-height:inherit;margin:0px;padding:0px;vertical-align:baseline;\" href=\"https://www.aafp.org/family-physician/patient-care/clinical-recommendations/all-clinical-recommendations/cw-otitis-media.html\" target=\"_blank\" rel=\"noopener noreferrer\" data-auth=\"NotApplicable\" data-linkindex=\"1\" title=\"https://www.choosingwisely.org/clinician-lists/american-academy-family-physicians-antibiotics-for-otitis-media-in-children/\"><span style=\"-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border-width:0px;color:rgb(70, 120, 134);font-family:Aptos, sans-serif;font-feature-settings:inherit;font-kerning:inherit;font-optical-sizing:inherit;font-size-adjust:inherit;font-size:16px;font-style:normal;font-variant-alternates:inherit;font-variant-caps:normal;font-variant-east-asian:inherit;font-variant-ligatures:normal;font-variant-numeric:inherit;font-variant-position:inherit;font-variation-settings:inherit;font-weight:400;font-width:inherit;letter-spacing:normal;line-height:inherit;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-decoration:none;text-indent:0px;text-transform:none;vertical-align:baseline;white-space:normal;widows:2;word-spacing:0px;\"><u data-olk-copy-source=\"MessageBody\">American Academy of Family Physicians Choosing Wisely Recommendation</u></span></a><a href=\"https://www.aafp.org/family-physician/patient-care/clinical-recommendations/all-clinical-recommendations/cw-otitis-media.html\"><span style=\"-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(36, 36, 36);display:inline !important;float:none;font-family:Aptos, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-decoration:none;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\"> </span></a>(updated 2018).</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{185}\" paraid=\"854474647\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>",
+   "value": "<h2 paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{157}\" paraid=\"155278704\">References</h2><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{163}\" paraid=\"732581838\">Lieberthal, AS, et al. <a href=\"https://pediatrics.aappublications.org/content/131/3/e964.long\">The diagnosis and management of acute otitis media</a>. Pediatrics 2013;131:e964-e999.&nbsp;</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{173}\" paraid=\"656438212\"><a style=\"border-width:0px;color:rgb(70, 120, 134);font-family:inherit;font-feature-settings:inherit;font-kerning:inherit;font-optical-sizing:inherit;font-size-adjust:inherit;font-size:inherit;font-style:inherit;font-variant-alternates:inherit;font-variant-caps:inherit;font-variant-east-asian:inherit;font-variant-emoji:inherit;font-variant-ligatures:inherit;font-variant-numeric:inherit;font-variant-position:inherit;font-variation-settings:inherit;font-weight:inherit;font-width:inherit;line-height:inherit;margin:0px;padding:0px;vertical-align:baseline;\" href=\"https://www.aafp.org/family-physician/patient-care/clinical-recommendations/all-clinical-recommendations/cw-otitis-media.html\" target=\"_blank\" rel=\"noopener noreferrer\" data-auth=\"NotApplicable\" data-linkindex=\"1\" title=\"https://www.choosingwisely.org/clinician-lists/american-academy-family-physicians-antibiotics-for-otitis-media-in-children/\"><span style=\"-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border-width:0px;color:rgb(70, 120, 134);font-family:Aptos, sans-serif;font-feature-settings:inherit;font-kerning:inherit;font-optical-sizing:inherit;font-size-adjust:inherit;font-size:16px;font-style:normal;font-variant-alternates:inherit;font-variant-caps:normal;font-variant-east-asian:inherit;font-variant-ligatures:normal;font-variant-numeric:inherit;font-variant-position:inherit;font-variation-settings:inherit;font-weight:400;font-width:inherit;letter-spacing:normal;line-height:inherit;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-decoration:none;text-indent:0px;text-transform:none;vertical-align:baseline;white-space:normal;widows:2;word-spacing:0px;\"><u data-olk-copy-source=\"MessageBody\">American Academy of Family Physicians Choosing Wisely Recommendation</u></span></a><a href=\"https://www.aafp.org/family-physician/patient-care/clinical-recommendations/all-clinical-recommendations/cw-otitis-media.html\"><span style=\"-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(36, 36, 36);display:inline !important;float:none;font-family:Aptos, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-decoration:none;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\"> </span></a>(updated 2018).</p><p paraeid=\"{3a1ce944-5aaa-46b0-9dfe-d852d6004c53}{185}\" paraid=\"854474647\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13441
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/acute-otitis-media",
+   "langcode": "und",
+   "pid": 26096
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:58:11+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Acute Otitis Media"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "4a4713a2-1691-495a-af72-e6dda168f2d6"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16026
+  }
+ ]
+}

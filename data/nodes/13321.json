@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-31T01:47:56+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633717683,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T17:22:40+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Condition</th><th>Major Pathogens</th><th>First-choice Therapy</th><th>Alternative Therapy</th><th>Comments</th></tr></thead><tbody><tr><!-- LEFT COLUMN --><td><p>Septic arthritis in child &gt; 3 months old<br>without medical comorbidities or other exception criteria defined below</p><!-- TRUE BROWSER POPUP LINK --><p><a href=\"https://idmp.ucsf.edu/kocher-criteria-hip\" rel=\"noopener\" title=\"Open Kocher Criteria in popup window\" onclick=\"\n               var url = this.href;\n               var w = Math.max(600, Math.floor(screen.width * 0.5));\n               var h = Math.max(450, Math.floor(screen.height * 0.5));\n               var left = Math.floor((screen.width - w) / 2);\n               var top = Math.floor((screen.height - h) / 2);\n               var features =\n                 'width=' + w +\n                 ',height=' + h +\n                 ',left=' + left +\n                 ',top=' + top +\n                 ',resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,status=no';\n               var popup = window.open(url, 'kocherPopup', features);\n               if (popup &amp;&amp; !popup.closed) {\n                 popup.focus();\n               } else {\n                 window.open(url, '_blank', 'noopener');\n                 var n = document.getElementById('popup-blocked-msg');\n                 if (n) n.style.display = 'block';\n               }\n               return false;\n             \">Kocher Criteria for Septic Hip&nbsp;</a></p><!-- SHOWN ONLY IF POPUP BLOCKED --><div style=\"background-color:#fff4e5;border-left:4px solid #f0a63b;display:none;font-size:0.9em;margin-top:6px;padding:6px;\" id=\"popup-blocked-msg\"><strong>Popup blocked.</strong> Please allow pop-ups for <em>idmp.ucsf.edu</em> to open this tool in a popup window. The content opened in a new tab instead.</div></td><td><p><em>Staphylococcus aureus</em></p><p>Group A streptococcus</p><p><em>Kingella kingae</em> in children &lt; 3 years</p><p>------------------------</p><p>Lyme arthritis is a distinct diagnosis separate from septic arthritis and should be considered in the differential diagnosis</p></td><td><p><strong>Clinically stable:</strong></p><p>Cefazolin 50 mg/kg/dose (max 2000 mg/dose) IV q8h</p><p>------------------------</p><p><strong>Severely ill</strong> (hemodynamic instability, multiple sites involved, or known positive blood culture for gram-positive organism):</p><p>Cefazolin 50 mg/kg/dose (max 2000 mg/dose) IV q8h</p><p>AND</p><p><a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin</a><br>(follow link for dosing &amp; monitoring)</p></td><td><p><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy</strong></a> with higher risk for allergic reaction OR clinically stable with prior MRSA</p><p><em><strong>Please confirm clindamycin susceptibility if prior cultures are available&nbsp;</strong></em></p><p>Clindamycin 13 mg/kg/dose (max 900 mg/dose) IV q8h</p></td><td><p>ID and Orthopedic Surgery consults recommended</p><p>Surgical evaluation is urgent for suspected septic arthritis, particularly hip, knee, or shoulder</p><p>Send ESR, CRP, and blood culture at initial evaluation</p></td></tr><tr><td><strong>Lyme arthritis</strong><br>ANC &lt; 10,000 cells/mm³ AND ESR &lt; 40 mm/hr</td><td><em>Borrelia burgdorferi</em></td><td>Age ≥ 8 yrs: Doxycycline<br>Age &lt; 8 yrs: Amoxicillin</td><td>&nbsp;</td><td>ID consult recommended<br>Duration: 28 days</td></tr><tr><td>Bone/joint infection with significant comorbidities, age 0–3 months, penetrating trauma, hardware</td><td>Variable</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody><!-- OTHER --><!-- LYME ARTHRITIS --></table>",
+   "value": "<table><thead><tr><th>Condition</th><th>Major Pathogens</th><th>First-choice Therapy</th><th>Alternative Therapy</th><th>Comments</th></tr></thead><tbody><tr><!-- LEFT COLUMN --><td><p>Septic arthritis in child &gt; 3 months old<br>without medical comorbidities or other exception criteria defined below</p><!-- TRUE BROWSER POPUP LINK --><p><a href=\"https://idmp.ucsf.edu/kocher-criteria-hip\" rel=\"noopener\" title=\"Open Kocher Criteria in popup window\" onclick=\"&#13;               var url = this.href;&#13;               var w = Math.max(600, Math.floor(screen.width * 0.5));&#13;               var h = Math.max(450, Math.floor(screen.height * 0.5));&#13;               var left = Math.floor((screen.width - w) / 2);&#13;               var top = Math.floor((screen.height - h) / 2);&#13;               var features =&#13;                 &apos;width=&apos; + w +&#13;                 &apos;,height=&apos; + h +&#13;                 &apos;,left=&apos; + left +&#13;                 &apos;,top=&apos; + top +&#13;                 &apos;,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,status=no&apos;;&#13;               var popup = window.open(url, &apos;kocherPopup&apos;, features);&#13;               if (popup &amp;&amp; !popup.closed) {&#13;                 popup.focus();&#13;               } else {&#13;                 window.open(url, &apos;_blank&apos;, &apos;noopener&apos;);&#13;                 var n = document.getElementById(&apos;popup-blocked-msg&apos;);&#13;                 if (n) n.style.display = &apos;block&apos;;&#13;               }&#13;               return false;&#13;             \">Kocher Criteria for Septic Hip&nbsp;</a></p><!-- SHOWN ONLY IF POPUP BLOCKED --><div style=\"background-color:#fff4e5;border-left:4px solid #f0a63b;display:none;font-size:0.9em;margin-top:6px;padding:6px;\" id=\"popup-blocked-msg\"><strong>Popup blocked.</strong> Please allow pop-ups for <em>idmp.ucsf.edu</em> to open this tool in a popup window. The content opened in a new tab instead.</div></td><td><p><em>Staphylococcus aureus</em></p><p>Group A streptococcus</p><p><em>Kingella kingae</em> in children &lt; 3 years</p><p>------------------------</p><p>Lyme arthritis is a distinct diagnosis separate from septic arthritis and should be considered in the differential diagnosis</p></td><td><p><strong>Clinically stable:</strong></p><p>Cefazolin 50 mg/kg/dose (max 2000 mg/dose) IV q8h</p><p>------------------------</p><p><strong>Severely ill</strong> (hemodynamic instability, multiple sites involved, or known positive blood culture for gram-positive organism):</p><p>Cefazolin 50 mg/kg/dose (max 2000 mg/dose) IV q8h</p><p>AND</p><p><a href=\"/node/13571\">Vancomycin</a><br>(follow link for dosing &amp; monitoring)</p></td><td><p><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy</strong></a> with higher risk for allergic reaction OR clinically stable with prior MRSA</p><p><em><strong>Please confirm clindamycin susceptibility if prior cultures are available&nbsp;</strong></em></p><p>Clindamycin 13 mg/kg/dose (max 900 mg/dose) IV q8h</p></td><td><p>ID and Orthopedic Surgery consults recommended</p><p>Surgical evaluation is urgent for suspected septic arthritis, particularly hip, knee, or shoulder</p><p>Send ESR, CRP, and blood culture at initial evaluation</p></td></tr><tr><td><strong>Lyme arthritis</strong><br>ANC &lt; 10,000 cells/mm³ AND ESR &lt; 40 mm/hr</td><td><em>Borrelia burgdorferi</em></td><td>Age ≥ 8 yrs: Doxycycline<br>Age &lt; 8 yrs: Amoxicillin</td><td>&nbsp;</td><td>ID consult recommended<br>Duration: 28 days</td></tr><tr><td>Bone/joint infection with significant comorbidities, age 0–3 months, penetrating trauma, hardware</td><td>Variable</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody><!-- OTHER --><!-- LYME ARTHRITIS --></table>"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 126,
+   "target_type": "taxonomy_term",
+   "target_uuid": "2dc18f2f-531d-44e4-b6b4-15004f29d271",
+   "url": "/guidelines-empiric-therapy-categories/bone-joint-infections-without-hardware"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2>References:&nbsp;</h2><p paraeid=\"{8f924f03-adf1-4c63-980b-2f99da7f3e0a}{28}\" paraid=\"2120568347\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p><p paraeid=\"{8f924f03-adf1-4c63-980b-2f99da7f3e0a}{64}\" paraid=\"799022083\">Deanehan JK, et al. <a href=\"https://pediatrics.aappublications.org/content/131/3/e695.short\">Distinguishing Lyme from septic knee monoarthritis in Lyme-disease endemic areas</a>. Pediatrics 2013;131:e695-e701. &nbsp;</p><p paraeid=\"{8f924f03-adf1-4c63-980b-2f99da7f3e0a}{76}\" paraid=\"1659818961\">Deanehan JK, et al. <a href=\"https://journals.lww.com/pec-online/Fulltext/2014/01000/Synovial_Fluid_Findings_in_Children_With_Knee.4.aspx\">Synovial fluid findings in children with knee monoarthritis in Lyme disease endemic areas</a>. Pediatr Emerg Care 2014;30:16-19.&nbsp;</p>",
+   "value": "<h2>References:&nbsp;</h2><p paraeid=\"{8f924f03-adf1-4c63-980b-2f99da7f3e0a}{28}\" paraid=\"2120568347\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p><p paraeid=\"{8f924f03-adf1-4c63-980b-2f99da7f3e0a}{64}\" paraid=\"799022083\">Deanehan JK, et al. <a href=\"https://pediatrics.aappublications.org/content/131/3/e695.short\">Distinguishing Lyme from septic knee monoarthritis in Lyme-disease endemic areas</a>. Pediatrics 2013;131:e695-e701. &nbsp;</p><p paraeid=\"{8f924f03-adf1-4c63-980b-2f99da7f3e0a}{76}\" paraid=\"1659818961\">Deanehan JK, et al. <a href=\"https://journals.lww.com/pec-online/Fulltext/2014/01000/Synovial_Fluid_Findings_in_Children_With_Knee.4.aspx\">Synovial fluid findings in children with knee monoarthritis in Lyme disease endemic areas</a>. Pediatr Emerg Care 2014;30:16-19.&nbsp;</p>"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13321
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/septic-arthritis",
+   "langcode": "und",
+   "pid": 25981
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:28:03+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Septic Arthritis "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "142cd267-5057-46e5-9251-96a9fa1bcfe0"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15906
+  }
+ ]
+}

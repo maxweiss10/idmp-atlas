@@ -1,0 +1,127 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:712px;\" width=\"712\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th style=\"height: 40px; background-color: rgb(0, 113, 173);\">\n\t\t\t<p>&nbsp;</p>\n\t\t\t</th>\n\t\t\t<th colspan=\"4\" style=\"height: 40px; background-color: rgb(0, 113, 173);\">\n\t\t\t<p align=\"center\">Body Weight**</p>\n\t\t\t</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th style=\"height: 8px; background-color: rgb(0, 113, 173);\">\n\t\t\t<p>CrCl (mL/min)</p>\n\t\t\t</th>\n\t\t\t<th style=\"height: 8px; background-color: rgb(0, 113, 173);\">\n\t\t\t<p align=\"center\">&lt; 60 kg</p>\n\t\t\t</th>\n\t\t\t<th style=\"height: 8px; background-color: rgb(0, 113, 173);\">\n\t\t\t<p align=\"center\">60-80 kg</p>\n\t\t\t</th>\n\t\t\t<th style=\"height: 8px; background-color: rgb(0, 113, 173);\">\n\t\t\t<p align=\"center\">81-100kg</p>\n\t\t\t</th>\n\t\t\t<th style=\"height: 8px; background-color: rgb(0, 113, 173);\">\n\t\t\t<p align=\"center\">&gt; 100kg</p>\n\t\t\t</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"height:36px;\">\n\t\t\t<p align=\"right\">&gt;90 mL/min (complicated* infection &amp; age &lt; 65)</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:36px;\">\n\t\t\t<p align=\"center\">750 mg IV q8h</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:36px;\">\n\t\t\t<p align=\"center\">1000 mg IV q8h</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:36px;\">\n\t\t\t<p align=\"center\">1250 mg IV q8h</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:36px;\">\n\t\t\t<p align=\"center\">1500 mg IV q8h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"height:54px;\">\n\t\t\t<p align=\"right\">&gt;90 mL/min (complicated* infection &amp; age&nbsp;<u>&gt;</u>&nbsp;65 or uncomplicated infection &amp; age &lt; 65)</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:54px;\">\n\t\t\t<p align=\"center\">1000 mg IV q12h</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:54px;\">\n\t\t\t<p align=\"center\">1250 mg IV q12h</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:54px;\">\n\t\t\t<p align=\"center\">1500 mg IV q12h</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:54px;\">\n\t\t\t<p align=\"center\">1750 mg IV q12h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\" style=\"height:30px;\">\n\t\t\t<p align=\"right\">50-90 mL/min</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"2\" style=\"height:30px;\">\n\t\t\t<p align=\"center\">750 mg IV q12h</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"2\" style=\"height:30px;\">\n\t\t\t<p align=\"center\">1000 mg IV q12h</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"2\" style=\"height:30px;\">\n\t\t\t<p align=\"center\">1250 mg IV q12h</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:30px;\">\n\t\t\t<p align=\"center\">1500 mg IV q12h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"height:9px;\">\n\t\t\t<p align=\"center\">Complicated* &amp; age &lt;65</p>\n\n\t\t\t<p align=\"center\">1000 mg IV q8h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"height:36px;\">\n\t\t\t<p align=\"right\">15-49 ml/min</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:36px;\">\n\t\t\t<p align=\"center\">750 mg IV q24h</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:36px;\">\n\t\t\t<p align=\"center\">1000 mg IV q24h</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:36px;\">\n\t\t\t<p align=\"center\">1250 mg IV q24h</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:36px;\">\n\t\t\t<p align=\"center\">1500 mg IV q24h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"height:17px;\">\n\t\t\t<p align=\"right\">&lt;15 ml/min not on dialysis</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"4\" style=\"height:17px;\">\n\t\t\t<p align=\"center\">10-15 mg/kg IV x1 then re-dose according to levels</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"height:17px;\">\n\t\t\t<p align=\"right\">CRRT</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"4\" style=\"height:17px;\">\n\t\t\t<p align=\"center\">20-25&nbsp;mg/kg IV x 1 then 10–15 mg/kg IV q24h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"height:17px;\">\n\t\t\t<p align=\"right\">Intermittent Hemodialysis</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"4\" style=\"height:17px;\">\n\t\t\t<p align=\"center\">20-25 mg/kg IV x 1 then 500 mg IV post-HD ONLY</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"height:17px;\">\n\t\t\t<p align=\"right\">Peritoneal Dialysis</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"4\" style=\"height:17px;\">\n\t\t\t<p align=\"center\">10-15 mg/kg IV x 1 then re-dose according to levels</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*Complicated infections:&nbsp;CNS infections, endocarditis, pneumonia, bacteremia, osteomyelitis and sepsis</p>\n\n<p>**Use Total Body Weight for patients &lt;120% of Ideal Body Weight. Use Adjusted Body Weight for patients &gt;120% of Ideal Body Weight.</p>\n\n<p><strong><u>Recommend loading dose (20-25 mg/kg IV x1) for serious infections including CNS infections, endocarditis, pneumonia, bacteremia, osteomyelitis and sepsis</u></strong></p>\n",
+   "summary": "Initial dosing nomogram for patients initiated on vancomycin per pharmacy.",
+   "value": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:712px;\" width=\"712\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th style=\"height: 40px; background-color: rgb(0, 113, 173);\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</th>\r\n\t\t\t<th colspan=\"4\" style=\"height: 40px; background-color: rgb(0, 113, 173);\">\r\n\t\t\t<p align=\"center\">Body Weight**</p>\r\n\t\t\t</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th style=\"height: 8px; background-color: rgb(0, 113, 173);\">\r\n\t\t\t<p>CrCl (mL/min)</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"height: 8px; background-color: rgb(0, 113, 173);\">\r\n\t\t\t<p align=\"center\">&lt; 60 kg</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"height: 8px; background-color: rgb(0, 113, 173);\">\r\n\t\t\t<p align=\"center\">60-80 kg</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"height: 8px; background-color: rgb(0, 113, 173);\">\r\n\t\t\t<p align=\"center\">81-100kg</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"height: 8px; background-color: rgb(0, 113, 173);\">\r\n\t\t\t<p align=\"center\">&gt; 100kg</p>\r\n\t\t\t</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:36px;\">\r\n\t\t\t<p align=\"right\">&gt;90 mL/min (complicated* infection &amp; age &lt; 65)</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:36px;\">\r\n\t\t\t<p align=\"center\">750 mg IV q8h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:36px;\">\r\n\t\t\t<p align=\"center\">1000 mg IV q8h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:36px;\">\r\n\t\t\t<p align=\"center\">1250 mg IV q8h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:36px;\">\r\n\t\t\t<p align=\"center\">1500 mg IV q8h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:54px;\">\r\n\t\t\t<p align=\"right\">&gt;90 mL/min (complicated* infection &amp; age&nbsp;<u>&gt;</u>&nbsp;65 or uncomplicated infection &amp; age &lt; 65)</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:54px;\">\r\n\t\t\t<p align=\"center\">1000 mg IV q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:54px;\">\r\n\t\t\t<p align=\"center\">1250 mg IV q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:54px;\">\r\n\t\t\t<p align=\"center\">1500 mg IV q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:54px;\">\r\n\t\t\t<p align=\"center\">1750 mg IV q12h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td rowspan=\"2\" style=\"height:30px;\">\r\n\t\t\t<p align=\"right\">50-90 mL/min</p>\r\n\t\t\t</td>\r\n\t\t\t<td rowspan=\"2\" style=\"height:30px;\">\r\n\t\t\t<p align=\"center\">750 mg IV q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td rowspan=\"2\" style=\"height:30px;\">\r\n\t\t\t<p align=\"center\">1000 mg IV q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td rowspan=\"2\" style=\"height:30px;\">\r\n\t\t\t<p align=\"center\">1250 mg IV q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:30px;\">\r\n\t\t\t<p align=\"center\">1500 mg IV q12h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:9px;\">\r\n\t\t\t<p align=\"center\">Complicated* &amp; age &lt;65</p>\r\n\r\n\t\t\t<p align=\"center\">1000 mg IV q8h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:36px;\">\r\n\t\t\t<p align=\"right\">15-49 ml/min</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:36px;\">\r\n\t\t\t<p align=\"center\">750 mg IV q24h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:36px;\">\r\n\t\t\t<p align=\"center\">1000 mg IV q24h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:36px;\">\r\n\t\t\t<p align=\"center\">1250 mg IV q24h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"height:36px;\">\r\n\t\t\t<p align=\"center\">1500 mg IV q24h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:17px;\">\r\n\t\t\t<p align=\"right\">&lt;15 ml/min not on dialysis</p>\r\n\t\t\t</td>\r\n\t\t\t<td colspan=\"4\" style=\"height:17px;\">\r\n\t\t\t<p align=\"center\">10-15 mg/kg IV x1 then re-dose according to levels</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:17px;\">\r\n\t\t\t<p align=\"right\">CRRT</p>\r\n\t\t\t</td>\r\n\t\t\t<td colspan=\"4\" style=\"height:17px;\">\r\n\t\t\t<p align=\"center\">20-25&nbsp;mg/kg IV x 1 then 10–15 mg/kg IV q24h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:17px;\">\r\n\t\t\t<p align=\"right\">Intermittent Hemodialysis</p>\r\n\t\t\t</td>\r\n\t\t\t<td colspan=\"4\" style=\"height:17px;\">\r\n\t\t\t<p align=\"center\">20-25 mg/kg IV x 1 then 500 mg IV post-HD ONLY</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:17px;\">\r\n\t\t\t<p align=\"right\">Peritoneal Dialysis</p>\r\n\t\t\t</td>\r\n\t\t\t<td colspan=\"4\" style=\"height:17px;\">\r\n\t\t\t<p align=\"center\">10-15 mg/kg IV x 1 then re-dose according to levels</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*Complicated infections:&nbsp;CNS infections, endocarditis, pneumonia, bacteremia, osteomyelitis and sepsis</p>\r\n\r\n<p>**Use Total Body Weight for patients &lt;120% of Ideal Body Weight. Use Adjusted Body Weight for patients &gt;120% of Ideal Body Weight.</p>\r\n\r\n<p><strong><u>Recommend loading dose (20-25 mg/kg IV x1) for serious infections including CNS infections, endocarditis, pneumonia, bacteremia, osteomyelitis and sepsis</u></strong></p>\r\n"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-30T15:31:23+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1703548254,
+   "last_comment_uid": 211,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-12-25T23:44:00+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 431,
+   "target_type": "taxonomy_term",
+   "target_uuid": "f25f557e-a860-4aad-8722-978dcb5e1610",
+   "url": "/guideline-categories/policies-procedures-protocols"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2025-05-30"
+  },
+  {
+   "value": "2023-12-25"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 466,
+   "target_type": "taxonomy_term",
+   "target_uuid": "76c3e2d7-207d-494f-b563-ff93679a08e1",
+   "url": "/site/zuckerberg-san-francisco-general"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15061
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/vancomycin-initial-dosing-nomogram",
+   "langcode": "und",
+   "pid": 27631
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-30T15:31:23+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Vancomycin Initial Dosing Nomogram"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "2f7b3b75-05c8-42b0-8187-1ca77854e07b"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22881
+  }
+ ]
+}

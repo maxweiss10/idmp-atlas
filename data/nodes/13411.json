@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T23:28:02+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629847682,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:03:58+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{33}\" paraid=\"1884939966\">Periorbital/preseptal cellulitis, suspected to be caused by skin flora (most common)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{46}\" paraid=\"1285012178\">Group A streptococcus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{56}\" paraid=\"2130187023\"><em>Staphylococcus aureus</em>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{62}\" paraid=\"234886892\"> &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{69}\" paraid=\"880542099\">Cephalexin<br>\n\t\t\t25 mg/kg/dose (max 500 mg/dose) enterally tid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{79}\" paraid=\"598873132\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{85}\" paraid=\"29143745\">Cefazolin<br>\n\t\t\t25 mg/kg/dose (max 1000 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{99}\" paraid=\"110747498\">Choice of IV vs. enteral depending on illness severity; switch to enteral upon clinical improvement&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{106}\" paraid=\"1478270752\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{116}\" paraid=\"63742406\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{126}\" paraid=\"1849660592\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{136}\" paraid=\"981222789\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{143}\" paraid=\"1283711430\">If patient is ill enough for inpatient care, consider evaluation for&nbsp;<a href=\"/content/orbital-cellulitis-abscess\">Orbital Cellulitis/Abscess</a>, consider Ophthalmology consult&nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{159}\" paraid=\"388376246\"><strong>Duration</strong>: 5-7 days or until resolution of inflammation&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{175}\" paraid=\"1308978503\">Periorbital/preseptal cellulitis, suspected to be caused by sinus flora (patient has associated symptoms of sinusitis) &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{188}\" paraid=\"80675801\">Include coverage for: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{198}\" paraid=\"165935074\">Streptococci&nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{204}\" paraid=\"162090996\">Anaerobes&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{215}\" paraid=\"1377275432\">Amoxicillin-clavulanate (Augmentin)<br>\n\t\t\t45 mg amoxicillin/kg/ dose (max 1000mg amoxicillin/dose)*  enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{227}\" paraid=\"136395554\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{237}\" paraid=\"119376295\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{247}\" paraid=\"770634278\">Choice of IV vs. enteral depending on illness severity; switch to enteral upon clinical improvement&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{254}\" paraid=\"1120689694\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{9}\" paraid=\"2012535489\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{15}\" paraid=\"125374504\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{25}\" paraid=\"1757919712\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{36}\" paraid=\"568477055\">If patient is ill enough for inpatient care, consider evaluation for <a href=\"/content/orbital-cellulitis-abscess\">Orbital Cellulitis/Abscess</a>, consider Ophthalmology consult&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{46}\" paraid=\"1306031815\">*See&nbsp;guidance on <a href=\"/content/maximum-dosing-for-amoxicillin-and-amoxicillin-clavulanate-0\">Amoxicillin-Clavulanate maximum dosing and formulations&nbsp;</a></p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{56}\" paraid=\"1165880035\"><strong>Duration</strong>:&nbsp;5-7 days or until resolution of inflammation. Duration may need to be extended to treat associated sinusitis.&nbsp;See <a href=\"/content/acute-bacterial-sinusitis-0\">Sinusitis</a> section. &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{33}\" paraid=\"1884939966\">Periorbital/preseptal cellulitis, suspected to be caused by skin flora (most common)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{46}\" paraid=\"1285012178\">Group A streptococcus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{56}\" paraid=\"2130187023\"><em>Staphylococcus aureus</em>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{62}\" paraid=\"234886892\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{69}\" paraid=\"880542099\">Cephalexin<br />\r\n\t\t\t25 mg/kg/dose (max 500 mg/dose) enterally tid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{79}\" paraid=\"598873132\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{85}\" paraid=\"29143745\">Cefazolin<br />\r\n\t\t\t25 mg/kg/dose (max 1000 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{99}\" paraid=\"110747498\">Choice of IV vs. enteral depending on illness severity; switch to enteral upon clinical improvement&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{106}\" paraid=\"1478270752\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{116}\" paraid=\"63742406\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{126}\" paraid=\"1849660592\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{136}\" paraid=\"981222789\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{143}\" paraid=\"1283711430\">If patient is ill enough for inpatient care, consider evaluation for&nbsp;<a href=\"/node/13406\">Orbital Cellulitis/Abscess</a>, consider Ophthalmology consult&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{159}\" paraid=\"388376246\"><strong>Duration</strong>: 5-7 days or until resolution of inflammation&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{175}\" paraid=\"1308978503\">Periorbital/preseptal cellulitis, suspected to be caused by sinus flora (patient has associated symptoms of sinusitis) &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{188}\" paraid=\"80675801\">Include coverage for: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{198}\" paraid=\"165935074\">Streptococci&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{204}\" paraid=\"162090996\">Anaerobes&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{215}\" paraid=\"1377275432\">Amoxicillin-clavulanate (Augmentin)<br />\r\n\t\t\t45 mg amoxicillin/kg/ dose (max 1000mg amoxicillin/dose)*  enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{227}\" paraid=\"136395554\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{237}\" paraid=\"119376295\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{247}\" paraid=\"770634278\">Choice of IV vs. enteral depending on illness severity; switch to enteral upon clinical improvement&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{d5e5b4f7-e2d4-449b-b630-b051abe90bc1}{254}\" paraid=\"1120689694\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{9}\" paraid=\"2012535489\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{15}\" paraid=\"125374504\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{25}\" paraid=\"1757919712\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{36}\" paraid=\"568477055\">If patient is ill enough for inpatient care, consider evaluation for <a href=\"/node/13406\">Orbital Cellulitis/Abscess</a>, consider Ophthalmology consult&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{46}\" paraid=\"1306031815\">*See&nbsp;guidance on <a href=\"/node/13576\">Amoxicillin-Clavulanate maximum dosing and formulations&nbsp;</a></p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{56}\" paraid=\"1165880035\"><strong>Duration</strong>:&nbsp;5-7 days or until resolution of inflammation. Duration may need to be extended to treat associated sinusitis.&nbsp;See <a href=\"/node/13451\">Sinusitis</a> section. &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Reference:&nbsp;</h2>\n\n<p>American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n",
+   "value": "<h2>Reference:&nbsp;</h2>\r\n\r\n<p>American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13411
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/periorbital-preseptal-cellulitis",
+   "langcode": "und",
+   "pid": 26066
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T23:28:02+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Periorbital/Preseptal Cellulitis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "a3ad731f-87d5-4d25-bc0a-b6346d6eb5c0"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15996
+  }
+ ]
+}

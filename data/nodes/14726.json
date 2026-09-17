@@ -1,0 +1,142 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\" style=\"width:638px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td style=\"width:175px;\"><strong>Guidelines/Protocol Title:</strong></td><td style=\"width:463px;\"><strong>Adult Extended Infusion Beta-Lactam Guideline</strong></td></tr><tr><td style=\"width:175px;\"><strong>Original Author(s):</strong></td><td style=\"width:463px;\">Ahmi Lim, PharmD</td></tr><tr><td style=\"width:175px;\"><strong>Collaborator(s):</strong></td><td style=\"width:463px;\"><p>Ripal Jariwala, PharmD, BCIDP, AAHVIP</p><p>Emily Kaip, PharmD, BCPS, BCIDP</p><p>Rima Bouajram, PharmD, BCCCP</p></td></tr><tr><td style=\"width:175px;\"><strong>Approving committee(s):</strong></td><td style=\"width:463px;\"><p><em>Antimicrobial Stewardship Subcommittee</em></p><p><em>IDMP</em></p><p><em>Rx-RN</em></p><p><em>UCSF P&amp;T</em></p></td></tr><tr><td style=\"width:175px;\"><strong>P&amp;T Approval Date:</strong></td><td style=\"width:463px;\">6/2023</td></tr><tr><td style=\"width:175px;\"><strong>Last Reviewed Date:</strong></td><td style=\"width:463px;\">5/2023<br>10/2025</td></tr></tbody></table><table class=\"table\" style=\"width:640px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td style=\"width:123px;\"><strong>Purpose/Scope:</strong></td><td style=\"width:517px;\">To optimize antibiotic pharmacokinetic/pharmacodynamic (PK/PD) principles when possible due to increasing antimicrobial resistance worldwide and limited novel antimicrobial agents available</td></tr><tr><td style=\"width:640px;\" colspan=\"2\"><strong>Executive Summary</strong></td></tr><tr><td style=\"width:640px;\" colspan=\"2\"><ol><li data-list-item-id=\"ee5c801ca36792fb510d25bbacdc13c26\">The dosing of antibiotics for included adult patient populations (≥ 18 years of age) should be based upon recommendations outlined on the <a href=\"/antimicrobial-dosing-guidelines\">Infectious Diseases Management Program (IDMP) website</a>.</li><li data-list-item-id=\"eb2443254b90218f0f512c251314996a4\">Patient populations that should be considered for extended infusion administration include the following: critically ill patients, patients with sepsis, structural lung disease, febrile neutropenia, multi-drug resistant pathogens in discussion with the infectious disease (ID)/antimicrobial stewardship (ASP) and/or clinical pharmacy team</li><li data-list-item-id=\"e2105bc31b625b973aad9934228222756\">Patients excluded from extended infusion include those with end-stage renal disease and/or on intermittent hemodialysis (HD) and those with orders in the peri-operative/operating room (OR) and ambulatory care areas.</li><li data-list-item-id=\"e4c003a82055681c3ac175bdf08990077\">Loading doses should be administered for new start extended-infusion beta-lactam therapy, especially in critically ill patients and those on extracorporeal membrane oxygenation (ECMO). If patient is being transitioned from short infusion to extended-infusion administration of the same beta-lactam, a loading dose is not required.</li><li data-list-item-id=\"ee400e08f8fbda4c1f13380acf79a3533\">Patients in which extended infusion is recommended with insufficient intravenous access to medications may receive intermittent infusions of beta-lactams to minimize antibiotic line time and drug incompatibility. These patients should be transitioned to prolonged infusion as soon as their line access limitations are resolved.</li></ol></td></tr></tbody></table><p><strong>Background:</strong></p><p>With the growing bacterial resistance public health crisis and limited pipeline for the development of new antimicrobial agents, clinicians are left to optimize pharmacokinetic and pharmacodynamic properties of the currently available antimicrobial agents to help mitigate antimicrobial resistance and improve clinical outcomes for patients with bacterial infections. Beta-lactams exhibit time-dependent bactericidal activity. This means extending duration of antibiotic exposure helps maintain serum minimum inhibitory concentrations (MIC) (figure 1).<sup>1&nbsp; </sup>In critically ill patients, higher concentration above MIC has also been associated with improved clinical outcomes.<sup>2</sup> Current literature has supported the use of extended infusion beta-lactams in various patient populations such as those that are critically ill, septic patients, and others.<sup>3-8</sup> Given the growing evidence to support the use of extended beta-lactam infusion, the intention of this guidance document is to help improve clinical and microbiological outcomes for patients with invasive bacterial infections and to reduce the development of resistance.</p><p><strong>Figure 1. PK/PD Graph</strong></p>\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-cke-media-resize-medium\" style=\"width:418px;\" height=\"298\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_medium/public/wysiwyg/PK%20PD%20Graph.JPG.webp?itok=VZiyL2Z3\" width=\"500\" height=\"356\" alt class=\"image-style-cke-media-resize-medium\">\n\n\n\n\n  </div>\n\n<p><strong>Table 1. Considerations for Inclusion and Exclusion Criteria for Extended Infusion in Adult Patients</strong></p><table class=\"table\" style=\"width:638px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td style=\"width:638px;\" colspan=\"2\"><p class=\"text-align-center\">Patient Population for Extended Infusion</p></td></tr><tr><td style=\"width:320px;\"><p class=\"text-align-center\">Inclusion</p></td><td style=\"width:318px;\"><p class=\"text-align-center\">Exclusion</p></td></tr><tr><td style=\"width:320px;\"><ol><li data-list-item-id=\"e4d0865238cfbb327d25cd6422515a1c6\">ICU patients that are critically ill with sepsis</li><li data-list-item-id=\"ee4d2efe507b8a50702b906fb54bde34b\">Respiratory related infection in patients with structural lung disease (i.e. cystic fibrosis, non-CF bronchiectasis, interstitial lung disease, idiopathic pulmonary fibrosis, COPD with steroid dependency)</li><li data-list-item-id=\"e0d240d573655d3f757fbf8c4c794e171\">Febrile neutropenia defined as single oral temp of ≥ 38.3 C° (101 F°) or temp ≥ 38 C° (100.4 F°) sustained over a 1-hour period ANC &lt; 500 cells/mm<sup>3 </sup>or an ANC that is expected to decrease &lt; 500 cells/mm<sup>3</sup> during the next 48 hours with a documented microbiological infection that may benefit from extended infusion</li><li data-list-item-id=\"e29568f811f1c52a6b4223af49470db75\">Patients deemed fit by the discretion of ID consult, ASP service, and clinical pharmacy team based on MIC of isolated organism and patient specific factors</li></ol><p>&nbsp;</p><p><strong>Note:</strong> Per provider’s discretion, empirically started extended infusion may be switched to intermittent based on clinical picture, favorable organism MIC, and patient specific factors.</p><p>&nbsp;</p></td><td style=\"width:318px;\"><ol><li data-list-item-id=\"e3f70b2e43ed5a39049d935383f9b0bf1\">One-time doses for patients in the ED and in the PACU</li><li data-list-item-id=\"e92758753ac4bea31ef7786aab2b81e78\">Orders in the peri-operative/OR and ambulatory care areas</li><li data-list-item-id=\"e8f2aefae8704b652c418d2a1fc7c1452\">Patients with end-stage renal disease and/or on hemodialysis (HD)</li><li data-list-item-id=\"ef49de6aacb7718bba99799efefce9cc5\">Patients with limited line access</li></ol><p style=\"margin-left:.5in;\">&nbsp;</p></td></tr><tr><td style=\"width:638px;\" colspan=\"2\"><strong>IV Drug Compatibility: </strong>To check for IV drug compatibility for lines, nursing staff can utilize our <a href=\"https://ucsf.app.box.com/s/coayu89q830bwda9znaqwb6yyan2qmk6\">UCSF Pharmacy Tip of the Day on utilizing Trissel’s IV Compatibility</a></td></tr><tr><td style=\"width:638px;\" colspan=\"2\"><strong>Disclaimer: </strong>Practice guidelines are intended to assist with clinical decision-making for common situations but cannot replace personalized evaluation and management decisions based on individual patient factors. Consult ID or ASP and clinical pharmacy if you have clinical questions regarding antibiotic dosing.&nbsp; Additionally, the information reflects the best available data at the time the guideline was prepared. The results of future studies may prompt revisions to these guidelines to reflect new data.</td></tr></tbody></table><p><strong>References</strong>:</p><ol><li data-list-item-id=\"e01ac644edd88bc8f83b650007ea0c9f2\">CLSI Eclipse Ultimate Access - powered by Edaptive Technologies. http://em100.edaptivedocs.net/dashboard.aspx. Published February 16, 2022. Accessed November 15, 2022</li><li data-list-item-id=\"ec62f1ae1146d299eda6c7bd3146fd771\">Gonçalves-Pereira J, Póvoa P. Antibiotics in critically ill patients: a systematic review of the pharmacokinetics of β-lactams. <em>Critical Care</em>. 2011;15(5):R206.</li><li data-list-item-id=\"e95bb5a168946262c9405c82ba6408152\">Roberts JA, Paul SK, Akova M, et al. Dali: defining antibiotic levels in intensive care unit patients: are current -lactam antibiotic doses sufficient for critically ill patients? <em>Clinical Infectious Diseases</em>. 2014;58(8):1072-1083.</li><li data-list-item-id=\"eb57d3beec8789f895c68a951b58b5fd9\">Bartoletti M, Giannella M, Lewis RE, et al. Extended infusion of β-lactams for bloodstream infection in patients with liver cirrhosis: an observational multicenter study. <em>Clinical Infectious Diseases</em>. 2019;69(10):1731-1739.</li><li data-list-item-id=\"e3984fb6edf455484079d930800916779\">Vardakas KZ, Voulgaris GL, Maliaros A, Samonis G, Falagas ME. Prolonged versus short-term intravenous infusion of antipseudomonal β-lactams for patients with sepsis: a systematic review and meta-analysis of randomized trials. <em>The Lancet Infectious Diseases</em>. 2018;18(1):108-120.</li><li data-list-item-id=\"e35a0325f1e47f6b25f5d138fb44544f4\">Wu C, Su Y, Wu K, Wu T, Yang C. Loading dose and efficacy of continuous or extended infusion of beta‐lactams compared with intermittent administration in patients with critical illnesses: A subgroup meta‐analysis and meta‐regression analysis<em>. J Clin Pharm Ther</em>. 2021;46(2):424-432.</li><li data-list-item-id=\"e8dc9a20c9f0c156c80b0221890835e4e\">Hong LT, Liou TG, Deka R, King JB, Stevens V, Young DC. Pharmacokinetics of continuous infusion beta-lactams in the treatment of acute pulmonary exacerbations in adult patients with cystic fibrosis<em>. Chest.</em> 2018;154(5):1108-1114.</li><li data-list-item-id=\"e243bad75aa99a7844e4ebb99256e2e08\">Kamp JC, Fuge J, Ringshausen FC, et al. Pharmacokinetics of meropenem in people with cystic fibrosis—a proof of concept clinical trial. <em>Antibiotics</em>. 2021;10(3):292.</li><li data-list-item-id=\"e085482a5f66de53f7e5a83826690d2e2\">Fehér C, Rovira M, Soriano A, et al. Effect of meropenem administration in extended infusion on the clinical outcome of febrile neutropenia: a retrospective observational study<em>. Journal of Antimicrobial Chemotherapy</em>. 2014;69(9):2556-2562.</li><li data-list-item-id=\"e4f028e69033c517c533f0c3b263456b5\">Tamma PD, Aitken SL, Bonomo RA, Mathers AJ, van Duin D, Clancy CJ. Infectious diseases society of america guidance on the treatment of extended-spectrum β-lactamase producing enterobacterales (Esbl-e), carbapenem-resistant enterobacterales (Cre), and pseudomonas aeruginosa with difficult-to-treat resistance (DTR- <em>P. aeruginosa</em> ). <em>Clinical Infectious Diseases</em>. 2021;72(7):e169-e183.</li></ol><p>&nbsp;</p>",
+   "summary": "Adult Extended Infusion Beta-Lactam Guideline for ceftazidime, cefepime, and meropenem",
+   "value": "<table class=\"table\" style=\"width:638px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td style=\"width:175px;\"><strong>Guidelines/Protocol Title:</strong></td><td style=\"width:463px;\"><strong>Adult Extended Infusion Beta-Lactam Guideline</strong></td></tr><tr><td style=\"width:175px;\"><strong>Original Author(s):</strong></td><td style=\"width:463px;\">Ahmi Lim, PharmD</td></tr><tr><td style=\"width:175px;\"><strong>Collaborator(s):</strong></td><td style=\"width:463px;\"><p>Ripal Jariwala, PharmD, BCIDP, AAHVIP</p><p>Emily Kaip, PharmD, BCPS, BCIDP</p><p>Rima Bouajram, PharmD, BCCCP</p></td></tr><tr><td style=\"width:175px;\"><strong>Approving committee(s):</strong></td><td style=\"width:463px;\"><p><em>Antimicrobial Stewardship Subcommittee</em></p><p><em>IDMP</em></p><p><em>Rx-RN</em></p><p><em>UCSF P&amp;T</em></p></td></tr><tr><td style=\"width:175px;\"><strong>P&amp;T Approval Date:</strong></td><td style=\"width:463px;\">6/2023</td></tr><tr><td style=\"width:175px;\"><strong>Last Reviewed Date:</strong></td><td style=\"width:463px;\">5/2023<br>10/2025</td></tr></tbody></table><table class=\"table\" style=\"width:640px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td style=\"width:123px;\"><strong>Purpose/Scope:</strong></td><td style=\"width:517px;\">To optimize antibiotic pharmacokinetic/pharmacodynamic (PK/PD) principles when possible due to increasing antimicrobial resistance worldwide and limited novel antimicrobial agents available</td></tr><tr><td style=\"width:640px;\" colspan=\"2\"><strong>Executive Summary</strong></td></tr><tr><td style=\"width:640px;\" colspan=\"2\"><ol><li data-list-item-id=\"ee5c801ca36792fb510d25bbacdc13c26\">The dosing of antibiotics for included adult patient populations (≥ 18 years of age) should be based upon recommendations outlined on the <a href=\"/antimicrobial-dosing-guidelines\">Infectious Diseases Management Program (IDMP) website</a>.</li><li data-list-item-id=\"eb2443254b90218f0f512c251314996a4\">Patient populations that should be considered for extended infusion administration include the following: critically ill patients, patients with sepsis, structural lung disease, febrile neutropenia, multi-drug resistant pathogens in discussion with the infectious disease (ID)/antimicrobial stewardship (ASP) and/or clinical pharmacy team</li><li data-list-item-id=\"e2105bc31b625b973aad9934228222756\">Patients excluded from extended infusion include those with end-stage renal disease and/or on intermittent hemodialysis (HD) and those with orders in the peri-operative/operating room (OR) and ambulatory care areas.</li><li data-list-item-id=\"e4c003a82055681c3ac175bdf08990077\">Loading doses should be administered for new start extended-infusion beta-lactam therapy, especially in critically ill patients and those on extracorporeal membrane oxygenation (ECMO). If patient is being transitioned from short infusion to extended-infusion administration of the same beta-lactam, a loading dose is not required.</li><li data-list-item-id=\"ee400e08f8fbda4c1f13380acf79a3533\">Patients in which extended infusion is recommended with insufficient intravenous access to medications may receive intermittent infusions of beta-lactams to minimize antibiotic line time and drug incompatibility. These patients should be transitioned to prolonged infusion as soon as their line access limitations are resolved.</li></ol></td></tr></tbody></table><p><strong>Background:</strong></p><p>With the growing bacterial resistance public health crisis and limited pipeline for the development of new antimicrobial agents, clinicians are left to optimize pharmacokinetic and pharmacodynamic properties of the currently available antimicrobial agents to help mitigate antimicrobial resistance and improve clinical outcomes for patients with bacterial infections. Beta-lactams exhibit time-dependent bactericidal activity. This means extending duration of antibiotic exposure helps maintain serum minimum inhibitory concentrations (MIC) (figure 1).<sup>1&nbsp; </sup>In critically ill patients, higher concentration above MIC has also been associated with improved clinical outcomes.<sup>2</sup> Current literature has supported the use of extended infusion beta-lactams in various patient populations such as those that are critically ill, septic patients, and others.<sup>3-8</sup> Given the growing evidence to support the use of extended beta-lactam infusion, the intention of this guidance document is to help improve clinical and microbiological outcomes for patients with invasive bacterial infections and to reduce the development of resistance.</p><p><strong>Figure 1. PK/PD Graph</strong></p><drupal-media class=\"image_resized\" style=\"width:418px;\" data-media-width=\"418px\" alt=\"\" data-entity-type=\"media\" data-entity-uuid=\"89c96929-9584-4183-a537-c7de6c6ed60f\" height=\"298\">&nbsp;</drupal-media><p><strong>Table 1. Considerations for Inclusion and Exclusion Criteria for Extended Infusion in Adult Patients</strong></p><table class=\"table\" style=\"width:638px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td style=\"width:638px;\" colspan=\"2\"><p class=\"text-align-center\">Patient Population for Extended Infusion</p></td></tr><tr><td style=\"width:320px;\"><p class=\"text-align-center\">Inclusion</p></td><td style=\"width:318px;\"><p class=\"text-align-center\">Exclusion</p></td></tr><tr><td style=\"width:320px;\"><ol><li data-list-item-id=\"e4d0865238cfbb327d25cd6422515a1c6\">ICU patients that are critically ill with sepsis</li><li data-list-item-id=\"ee4d2efe507b8a50702b906fb54bde34b\">Respiratory related infection in patients with structural lung disease (i.e. cystic fibrosis, non-CF bronchiectasis, interstitial lung disease, idiopathic pulmonary fibrosis, COPD with steroid dependency)</li><li data-list-item-id=\"e0d240d573655d3f757fbf8c4c794e171\">Febrile neutropenia defined as single oral temp of ≥ 38.3 C° (101 F°) or temp ≥ 38 C° (100.4 F°) sustained over a 1-hour period ANC &lt; 500 cells/mm<sup>3 </sup>or an ANC that is expected to decrease &lt; 500 cells/mm<sup>3</sup> during the next 48 hours with a documented microbiological infection that may benefit from extended infusion</li><li data-list-item-id=\"e29568f811f1c52a6b4223af49470db75\">Patients deemed fit by the discretion of ID consult, ASP service, and clinical pharmacy team based on MIC of isolated organism and patient specific factors</li></ol><p>&nbsp;</p><p><strong>Note:</strong> Per provider’s discretion, empirically started extended infusion may be switched to intermittent based on clinical picture, favorable organism MIC, and patient specific factors.</p><p>&nbsp;</p></td><td style=\"width:318px;\"><ol><li data-list-item-id=\"e3f70b2e43ed5a39049d935383f9b0bf1\">One-time doses for patients in the ED and in the PACU</li><li data-list-item-id=\"e92758753ac4bea31ef7786aab2b81e78\">Orders in the peri-operative/OR and ambulatory care areas</li><li data-list-item-id=\"e8f2aefae8704b652c418d2a1fc7c1452\">Patients with end-stage renal disease and/or on hemodialysis (HD)</li><li data-list-item-id=\"ef49de6aacb7718bba99799efefce9cc5\">Patients with limited line access</li></ol><p style=\"margin-left:.5in;\">&nbsp;</p></td></tr><tr><td style=\"width:638px;\" colspan=\"2\"><strong>IV Drug Compatibility: </strong>To check for IV drug compatibility for lines, nursing staff can utilize our <a href=\"https://ucsf.app.box.com/s/coayu89q830bwda9znaqwb6yyan2qmk6\">UCSF Pharmacy Tip of the Day on utilizing Trissel’s IV Compatibility</a></td></tr><tr><td style=\"width:638px;\" colspan=\"2\"><strong>Disclaimer: </strong>Practice guidelines are intended to assist with clinical decision-making for common situations but cannot replace personalized evaluation and management decisions based on individual patient factors. Consult ID or ASP and clinical pharmacy if you have clinical questions regarding antibiotic dosing.&nbsp; Additionally, the information reflects the best available data at the time the guideline was prepared. The results of future studies may prompt revisions to these guidelines to reflect new data.</td></tr></tbody></table><p><strong>References</strong>:</p><ol><li data-list-item-id=\"e01ac644edd88bc8f83b650007ea0c9f2\">CLSI Eclipse Ultimate Access - powered by Edaptive Technologies. http://em100.edaptivedocs.net/dashboard.aspx. Published February 16, 2022. Accessed November 15, 2022</li><li data-list-item-id=\"ec62f1ae1146d299eda6c7bd3146fd771\">Gonçalves-Pereira J, Póvoa P. Antibiotics in critically ill patients: a systematic review of the pharmacokinetics of β-lactams. <em>Critical Care</em>. 2011;15(5):R206.</li><li data-list-item-id=\"e95bb5a168946262c9405c82ba6408152\">Roberts JA, Paul SK, Akova M, et al. Dali: defining antibiotic levels in intensive care unit patients: are current -lactam antibiotic doses sufficient for critically ill patients? <em>Clinical Infectious Diseases</em>. 2014;58(8):1072-1083.</li><li data-list-item-id=\"eb57d3beec8789f895c68a951b58b5fd9\">Bartoletti M, Giannella M, Lewis RE, et al. Extended infusion of β-lactams for bloodstream infection in patients with liver cirrhosis: an observational multicenter study. <em>Clinical Infectious Diseases</em>. 2019;69(10):1731-1739.</li><li data-list-item-id=\"e3984fb6edf455484079d930800916779\">Vardakas KZ, Voulgaris GL, Maliaros A, Samonis G, Falagas ME. Prolonged versus short-term intravenous infusion of antipseudomonal β-lactams for patients with sepsis: a systematic review and meta-analysis of randomized trials. <em>The Lancet Infectious Diseases</em>. 2018;18(1):108-120.</li><li data-list-item-id=\"e35a0325f1e47f6b25f5d138fb44544f4\">Wu C, Su Y, Wu K, Wu T, Yang C. Loading dose and efficacy of continuous or extended infusion of beta‐lactams compared with intermittent administration in patients with critical illnesses: A subgroup meta‐analysis and meta‐regression analysis<em>. J Clin Pharm Ther</em>. 2021;46(2):424-432.</li><li data-list-item-id=\"e8dc9a20c9f0c156c80b0221890835e4e\">Hong LT, Liou TG, Deka R, King JB, Stevens V, Young DC. Pharmacokinetics of continuous infusion beta-lactams in the treatment of acute pulmonary exacerbations in adult patients with cystic fibrosis<em>. Chest.</em> 2018;154(5):1108-1114.</li><li data-list-item-id=\"e243bad75aa99a7844e4ebb99256e2e08\">Kamp JC, Fuge J, Ringshausen FC, et al. Pharmacokinetics of meropenem in people with cystic fibrosis—a proof of concept clinical trial. <em>Antibiotics</em>. 2021;10(3):292.</li><li data-list-item-id=\"e085482a5f66de53f7e5a83826690d2e2\">Fehér C, Rovira M, Soriano A, et al. Effect of meropenem administration in extended infusion on the clinical outcome of febrile neutropenia: a retrospective observational study<em>. Journal of Antimicrobial Chemotherapy</em>. 2014;69(9):2556-2562.</li><li data-list-item-id=\"e4f028e69033c517c533f0c3b263456b5\">Tamma PD, Aitken SL, Bonomo RA, Mathers AJ, van Duin D, Clancy CJ. Infectious diseases society of america guidance on the treatment of extended-spectrum β-lactamase producing enterobacterales (Esbl-e), carbapenem-resistant enterobacterales (Cre), and pseudomonas aeruginosa with difficult-to-treat resistance (DTR- <em>P. aeruginosa</em> ). <em>Clinical Infectious Diseases</em>. 2021;72(7):e169-e183.</li></ol><p>&nbsp;</p>"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-30T20:49:40+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1727381825,
+   "last_comment_uid": 506,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-08-24T16:22:41+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 431,
+   "target_type": "taxonomy_term",
+   "target_uuid": "f25f557e-a860-4aad-8722-978dcb5e1610",
+   "url": "/guideline-categories/policies-procedures-protocols"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2023-08-24"
+  },
+  {
+   "value": "2025-12-11"
+  },
+  {
+   "value": "2026-07-30"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 451,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a61a46a6-7dde-4da7-8b4b-d3c5cb579606",
+   "url": "/site/ucsf-medical-center-mission-bay-adult"
+  },
+  {
+   "target_id": 2101,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b959ef0d-a183-4591-96ee-d7183836e39d",
+   "url": "/site/ucsf-medical-center-mount-zion"
+  },
+  {
+   "target_id": 446,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ea4e1156-f1d7-40b6-8744-b15ee0218ccf",
+   "url": "/site/ucsf-medical-center-parnassus-heights"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14726
+  }
+ ],
+ "path": [
+  {
+   "alias": "/extendedinfusion",
+   "langcode": "en",
+   "pid": 16801
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-30T20:49:40+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Extended Infusion Beta-Lactams"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "1cfb2600-f833-407b-b03d-1494059a1d69"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35426
+  }
+ ]
+}

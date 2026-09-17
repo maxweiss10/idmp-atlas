@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-08-23T18:51:05+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1724439065,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-18T23:22:34+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Chronic sinusitis</td>\n\t\t\t<td>\n\t\t\t<p>Viruses</p>\n\n\t\t\t<p><em>Strep. pneumoniae</em></p>\n\n\t\t\t<p><em>H. influenzae</em></p>\n\n\t\t\t<p><em>M. catarrhalis</em></p>\n\n\t\t\t<p>Anaerobes</p>\n\n\t\t\t<p><em>Staph. aureus</em></p>\n\t\t\tEnterobacteriacae</td>\n\t\t\t<td>\n\t\t\t<p><strong><a href=\"/content/amoxicillin-clavulanate\">Amoxicillin/clavulanate</a></strong></p>\n\n\t\t\t<p>875mg/125mg PO BID</p>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe beta-lactam allergy</a></em>:</p>\n\n\t\t\t<p><a href=\"/content/ciprofloxacin\"><strong>Ciprofloxacin </strong></a></p>\n\n\t\t\t<p>OR</p>\n\n\t\t\t<p><a href=\"/content/levofloxacin\"><strong>Levofloxacin</strong></a></p>\n\n\t\t\t<p><em>Either above WITH OR WITHOUT*:</em></p>\n\t\t\t<a href=\"/clind\"><strong>Clindamycin </strong></a></td>\n\t\t\t<td>\n\t\t\t<p align=\"left\">Otolaryngology consult recommended to rule out anatomic abnormality.</p>\n\n\t\t\t<p align=\"left\">Symptomatic relief can include acetaminophen, ibuprofen, topical intranasal steroids, and/or nasal saline irrigation</p>\n\n\t\t\t<p>If acute exacerbation, treat as acute sinusitis.</p>\n\t\t\t*Consider clindamycin if anaerobes and/or <em>Staph aureus</em> are high on the differential</td>\n\t\t\t<td>\n\t\t\t<p>10-14 days</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Chronic sinusitis</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Viruses</p>\r\n\r\n\t\t\t<p><em>Strep. pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>H. influenzae</em></p>\r\n\r\n\t\t\t<p><em>M. catarrhalis</em></p>\r\n\r\n\t\t\t<p>Anaerobes</p>\r\n\r\n\t\t\t<p><em>Staph. aureus</em></p>\r\n\t\t\tEnterobacteriacae</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong><a href=\"/node/8311\">Amoxicillin/clavulanate</a></strong></p>\r\n\r\n\t\t\t<p>875mg/125mg PO BID</p>\r\n\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe beta-lactam allergy</a></em>:</p>\r\n\r\n\t\t\t<p><a href=\"/node/8336\"><strong>Ciprofloxacin </strong></a></p>\r\n\r\n\t\t\t<p>OR</p>\r\n\r\n\t\t\t<p><a href=\"/node/8391\"><strong>Levofloxacin</strong></a></p>\r\n\r\n\t\t\t<p><em>Either above WITH OR WITHOUT*:</em></p>\r\n\t\t\t<a href=\"/clind\"><strong>Clindamycin </strong></a></td>\r\n\t\t\t<td>\r\n\t\t\t<p align=\"left\">Otolaryngology consult recommended to rule out anatomic abnormality.</p>\r\n\r\n\t\t\t<p align=\"left\">Symptomatic relief can include acetaminophen, ibuprofen, topical intranasal steroids, and/or nasal saline irrigation</p>\r\n\r\n\t\t\t<p>If acute exacerbation, treat as acute sinusitis.</p>\r\n\t\t\t*Consider clindamycin if anaerobes and/or <em>Staph aureus</em> are high on the differential</td>\r\n\t\t\t<td>\r\n\t\t\t<p>10-14 days</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11981
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/chronic-bacterial-sinusitis",
+   "langcode": "und",
+   "pid": 24671
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-08-23T18:51:05+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Chronic Bacterial Sinusitis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "7e348b9f-1205-417f-96c6-b25e21f0746a"
+  }
+ ],
+ "vid": [
+  {
+   "value": 13886
+  }
+ ]
+}

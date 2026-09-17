@@ -1,0 +1,146 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597285994,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T02:33:14+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt;50 mL/min</th>\n\t\t\t<th>30-50 mL/min</th>\n\t\t\t<th>15-29 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Complicated urinary tract infection</td>\n\t\t\t<td>1.5 g IV q8h (infused over 3 hours)</td>\n\t\t\t<td>750 mg IV q8h&nbsp;(infused over 3 hours)</td>\n\t\t\t<td>375 mg IV q8h&nbsp;(infused over 3 hours)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Pneumonia, severe infections</td>\n\t\t\t<td>3 g IV q8h&nbsp;(infused over 3 hours)</td>\n\t\t\t<td>1.5 g IV q8h (infused over 3 hours)</td>\n\t\t\t<td>750 mg IV q8h&nbsp;(infused over 3 hours)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt;50 mL/min</th>\r\n\t\t\t<th>30-50 mL/min</th>\r\n\t\t\t<th>15-29 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Complicated urinary tract infection</td>\r\n\t\t\t<td>1.5 g IV q8h (infused over 3 hours)</td>\r\n\t\t\t<td>750 mg IV q8h&nbsp;(infused over 3 hours)</td>\r\n\t\t\t<td>375 mg IV q8h&nbsp;(infused over 3 hours)</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Pneumonia, severe infections</td>\r\n\t\t\t<td>3 g IV q8h&nbsp;(infused over 3 hours)</td>\r\n\t\t\t<td>1.5 g IV q8h (infused over 3 hours)</td>\r\n\t\t\t<td>750 mg IV q8h&nbsp;(infused over 3 hours)</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Complicated urinary tract infection</td>\n\t\t\t<td style=\"text-align: center;\">750 mg IV x1 (infused over 3 hours), then 150 mg IV q8h&nbsp;(infused over 3 hours)</td>\n\t\t\t<td style=\"text-align: center;\">No data</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Pneumonia, severe infections</td>\n\t\t\t<td style=\"text-align: center;\">2.25 g IV x1 (infused over 3 hours), then 450 mg IV q8h&nbsp;(infused over 3 hours)</td>\n\t\t\t<td style=\"text-align: center;\">No data</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Complicated urinary tract infection</td>\r\n\t\t\t<td style=\"text-align: center;\">750 mg IV x1 (infused over 3 hours), then 150 mg IV q8h&nbsp;(infused over 3 hours)</td>\r\n\t\t\t<td style=\"text-align: center;\">No data</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Pneumonia, severe infections</td>\r\n\t\t\t<td style=\"text-align: center;\">2.25 g IV x1 (infused over 3 hours), then 450 mg IV q8h&nbsp;(infused over 3 hours)</td>\r\n\t\t\t<td style=\"text-align: center;\">No data</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship</p>\n",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11601
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ceftolozane-tazobactam-zerbaxa",
+   "langcode": "und",
+   "pid": 24321
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Ceftolozane/tazobactam (Zerbaxa)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "3a2de0ea-2652-4c6f-a6b6-c3978a8323a3"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21836
+  }
+ ]
+}

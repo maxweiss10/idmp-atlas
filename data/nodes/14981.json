@@ -1,0 +1,124 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<h3 class=\"text-align-center\"><strong>Community Acquired Pneumonia (CAP)</strong></h3><p><strong><u>Diagnosis</u></strong></p><p>Requires the presence of clinical features (cough, fever, sputum production, pleuritic chest pain) AND chest infiltrate demonstrated on imaging</p><p><strong><u>Common Causative Organisms</u></strong></p><p><em>Streptococcus pneumoniae, Mycoplasma pneumoniae, Chlamydia pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, </em>Respiratory viruses</p><h4><strong>Outpatient Empiric CAP Treatment</strong></h4><table class=\"table\" style=\"width:1000px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"666\"><tbody><tr><td style=\"height:59px;width:300px;\"><p>Previously healthy</p><p><strong><u>AND</u></strong></p><p>no antibiotics in the past 3 months</p></td><td style=\"height:59px;width:366px;\"><p>Doxycycline 100 mg PO BID (<u>preferred</u>)</p><p><strong>OR</strong></p><p>Amoxicillin 1 gm PO TID (alternative)</p></td></tr><tr><td style=\"height:172px;width:300px;\"><p>Antibiotic use in prior 3 months</p><p><strong><u>OR</u></strong></p><p>Presence of co-morbidities</p><ul><li data-list-item-id=\"e83e3f3d644a9a953214eeed475cb3875\">Immunosuppression</li><li data-list-item-id=\"e92f2a74746939593e904539744f31581\">Chronic heart, lung, liver, or renal disease</li><li data-list-item-id=\"e91a4e074a7500bc184ddc4e66f431193\">Diabetes mellitus</li><li data-list-item-id=\"e8be2dd9e598247d1d4a07625b9e507bd\">Alcoholism</li><li data-list-item-id=\"e2a4b30afd4ddf0914f102256f2252c5a\">Malignancy</li><li data-list-item-id=\"e531bb34da16a096b6337055f87849eee\">Asplenia</li></ul></td><td style=\"height:172px;width:366px;\"><p><strong><u>Combination Therapy (preferred):</u></strong></p><p>Doxycycline 100 mg PO BID</p><p><strong>PLUS</strong></p><p>Amoxicillin 1 gm PO TID</p><p><strong>OR</strong></p><p>Cefpodoxime 200 mg PO BID</p><p>&nbsp;</p><p><strong><u>Monotherapy (alternative)</u></strong></p><p>Levofloxacin* 750 mg PO daily</p></td></tr></tbody></table><p>* Contact ASP PharmD (preferred) or ID fellow for approval unless patient has severe penicillin allergy</p><p><strong><u>Suggested Duration of Therapy</u></strong></p><ul><li data-list-item-id=\"ebc3af003c2de4624ed267546f02ed2ca\">Patients should be treated for a minimum of 5 days</li><li data-list-item-id=\"e32708de0139a7b97cc439a0283952d71\">Most patients are treated for 5-7 days</li></ul><p><strong><u>Clinical Pearls</u></strong></p><ul><li data-list-item-id=\"e5d495b29e1e64d006835493c759002cc\">Routine sputum cultures and urine antigen tests are not recommended</li><li data-list-item-id=\"ea9d3863f8d2b650613590c9786dd3bea\">Consider testing for influenza and COVID-19 if patient exhibits flu-like symptoms during periods of high flu and SARS-CoV-2 activity</li><li data-list-item-id=\"e2af1f80bf10c295806913bc966930279\">Signs and symptoms of CAP may be lacking or altered in elderly patients</li><li data-list-item-id=\"ec3a68aeee74e96a5208c871aea125b97\">Cough and chest X-ray abnormalities may take up to 6 weeks to improve and are NOT a valid reason to extend antibiotic courses</li></ul><h4><strong>Inpatient Empiric CAP Treatment</strong></h4>\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-cke-media-resize-xl\" style=\"width:1022px;\" height=\"719\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_xl/public/wysiwyg/SFVA%20Inpatient%20CAP%20Algorithm.PNG.webp?itok=0QVEjXru\" width=\"1200\" height=\"844\" alt class=\"image-style-cke-media-resize-xl\">\n\n\n\n\n  </div>\n\n<p><strong><u>Suggested Duration of Therapy</u></strong></p><ul><li data-list-item-id=\"ee48cd82145b5b18295810bf1e0c4cb21\">Patients should be treated for a minimum of 5 days unless the patient has confirmed MRSA or <em>Pseudomonas aeruginosa </em>infection in which case the minimum duration is 7 days</li><li data-list-item-id=\"ee945ea2392fad2f7b6a2cccee385eb7e\">Azithromycin 500 mg PO/IV q24h x 3 doses is sufficient for atypicals; if <em>legionella</em> is suspected treat for 7 days</li><li data-list-item-id=\"e06aca36fba52d8c6c9314a8c149cd21c\">Patient should be afebrile for 48-72h, and should have no more than 1 of the following before stopping antibiotics:</li></ul><p style=\"margin-left:40px;\">- Heart rate &gt; 100 beats/min</p><p style=\"margin-left:40px;\">- Respiratory rate &gt; 24 breaths/min</p><p style=\"margin-left:40px;\">- Systolic blood pressure &lt; 90 mmHg</p><p style=\"margin-left:40px;\">- Arterial O2 saturation &lt; 90%</p><p style=\"margin-left:40px;\">- Altered mental status</p><p><strong><u>Clinical Pearls</u></strong></p><ul><li data-list-item-id=\"e339ecddbd776b56bc0b03fb83978db66\">Sputum cultures should be obtained for hospitalized patients with severe CAP or when strong risk factors for MRSA or <em>Pseudomonas</em> are identified</li><li data-list-item-id=\"e5fc3e59a161a17025676d58e608b68c6\">MRSA nares should be obtained if empiric vancomycin therapy is initiated for pneumonia to assist with de-escalation (strong negative predictive value)</li><li data-list-item-id=\"e7beb5fbe4c3ed5250d467a50eee0bff7\">For <u>suspected influenza</u>, obtain nasopharyngeal swabs for influenza antigen testing and respiratory virus DFA; if patient is hospitalized, place on droplet precautions until tests are negative, and treat with oseltamivir 75 mg PO bid for 5 days (reduce dose in renal insufficiency). ICU patients, immunocompromised patients, and obese patients may require higher doses and/or prolonged therapy.</li></ul><p>&nbsp;</p><p><u>References:</u></p><p>Metlay, Joshua P., et al. \"Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America.\" American journal of respiratory and critical care medicine 200.7 (2019): e45-e67.</p>",
+   "summary": "SFVA facility guidelines for management and treatment of community acquired pneumonia",
+   "value": "<h3 class=\"text-align-center\"><strong>Community Acquired Pneumonia (CAP)</strong></h3><p><strong><u>Diagnosis</u></strong></p><p>Requires the presence of clinical features (cough, fever, sputum production, pleuritic chest pain) AND chest infiltrate demonstrated on imaging</p><p><strong><u>Common Causative Organisms</u></strong></p><p><em>Streptococcus pneumoniae, Mycoplasma pneumoniae, Chlamydia pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, </em>Respiratory viruses</p><h4><strong>Outpatient Empiric CAP Treatment</strong></h4><table class=\"table\" style=\"width:1000px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"666\"><tbody><tr><td style=\"height:59px;width:300px;\"><p>Previously healthy</p><p><strong><u>AND</u></strong></p><p>no antibiotics in the past 3 months</p></td><td style=\"height:59px;width:366px;\"><p>Doxycycline 100 mg PO BID (<u>preferred</u>)</p><p><strong>OR</strong></p><p>Amoxicillin 1 gm PO TID (alternative)</p></td></tr><tr><td style=\"height:172px;width:300px;\"><p>Antibiotic use in prior 3 months</p><p><strong><u>OR</u></strong></p><p>Presence of co-morbidities</p><ul><li data-list-item-id=\"e83e3f3d644a9a953214eeed475cb3875\">Immunosuppression</li><li data-list-item-id=\"e92f2a74746939593e904539744f31581\">Chronic heart, lung, liver, or renal disease</li><li data-list-item-id=\"e91a4e074a7500bc184ddc4e66f431193\">Diabetes mellitus</li><li data-list-item-id=\"e8be2dd9e598247d1d4a07625b9e507bd\">Alcoholism</li><li data-list-item-id=\"e2a4b30afd4ddf0914f102256f2252c5a\">Malignancy</li><li data-list-item-id=\"e531bb34da16a096b6337055f87849eee\">Asplenia</li></ul></td><td style=\"height:172px;width:366px;\"><p><strong><u>Combination Therapy (preferred):</u></strong></p><p>Doxycycline 100 mg PO BID</p><p><strong>PLUS</strong></p><p>Amoxicillin 1 gm PO TID</p><p><strong>OR</strong></p><p>Cefpodoxime 200 mg PO BID</p><p>&nbsp;</p><p><strong><u>Monotherapy (alternative)</u></strong></p><p>Levofloxacin* 750 mg PO daily</p></td></tr></tbody></table><p>* Contact ASP PharmD (preferred) or ID fellow for approval unless patient has severe penicillin allergy</p><p><strong><u>Suggested Duration of Therapy</u></strong></p><ul><li data-list-item-id=\"ebc3af003c2de4624ed267546f02ed2ca\">Patients should be treated for a minimum of 5 days</li><li data-list-item-id=\"e32708de0139a7b97cc439a0283952d71\">Most patients are treated for 5-7 days</li></ul><p><strong><u>Clinical Pearls</u></strong></p><ul><li data-list-item-id=\"e5d495b29e1e64d006835493c759002cc\">Routine sputum cultures and urine antigen tests are not recommended</li><li data-list-item-id=\"ea9d3863f8d2b650613590c9786dd3bea\">Consider testing for influenza and COVID-19 if patient exhibits flu-like symptoms during periods of high flu and SARS-CoV-2 activity</li><li data-list-item-id=\"e2af1f80bf10c295806913bc966930279\">Signs and symptoms of CAP may be lacking or altered in elderly patients</li><li data-list-item-id=\"ec3a68aeee74e96a5208c871aea125b97\">Cough and chest X-ray abnormalities may take up to 6 weeks to improve and are NOT a valid reason to extend antibiotic courses</li></ul><h4><strong>Inpatient Empiric CAP Treatment</strong></h4><drupal-media class=\"image_resized\" style=\"width:1022px;\" data-media-width=\"1022px\" alt=\"\" data-entity-type=\"media\" data-entity-uuid=\"85acac2e-34b7-4dd1-899c-edf25517c807\" height=\"719\">&nbsp;</drupal-media><p><strong><u>Suggested Duration of Therapy</u></strong></p><ul><li data-list-item-id=\"ee48cd82145b5b18295810bf1e0c4cb21\">Patients should be treated for a minimum of 5 days unless the patient has confirmed MRSA or <em>Pseudomonas aeruginosa </em>infection in which case the minimum duration is 7 days</li><li data-list-item-id=\"ee945ea2392fad2f7b6a2cccee385eb7e\">Azithromycin 500 mg PO/IV q24h x 3 doses is sufficient for atypicals; if <em>legionella</em> is suspected treat for 7 days</li><li data-list-item-id=\"e06aca36fba52d8c6c9314a8c149cd21c\">Patient should be afebrile for 48-72h, and should have no more than 1 of the following before stopping antibiotics:</li></ul><p style=\"margin-left:40px;\">- Heart rate &gt; 100 beats/min</p><p style=\"margin-left:40px;\">- Respiratory rate &gt; 24 breaths/min</p><p style=\"margin-left:40px;\">- Systolic blood pressure &lt; 90 mmHg</p><p style=\"margin-left:40px;\">- Arterial O2 saturation &lt; 90%</p><p style=\"margin-left:40px;\">- Altered mental status</p><p><strong><u>Clinical Pearls</u></strong></p><ul><li data-list-item-id=\"e339ecddbd776b56bc0b03fb83978db66\">Sputum cultures should be obtained for hospitalized patients with severe CAP or when strong risk factors for MRSA or <em>Pseudomonas</em> are identified</li><li data-list-item-id=\"e5fc3e59a161a17025676d58e608b68c6\">MRSA nares should be obtained if empiric vancomycin therapy is initiated for pneumonia to assist with de-escalation (strong negative predictive value)</li><li data-list-item-id=\"e7beb5fbe4c3ed5250d467a50eee0bff7\">For <u>suspected influenza</u>, obtain nasopharyngeal swabs for influenza antigen testing and respiratory virus DFA; if patient is hospitalized, place on droplet precautions until tests are negative, and treat with oseltamivir 75 mg PO bid for 5 days (reduce dose in renal insufficiency). ICU patients, immunocompromised patients, and obese patients may require higher doses and/or prolonged therapy.</li></ul><p>&nbsp;</p><p><u>References:</u></p><p>Metlay, Joshua P., et al. \"Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America.\" American journal of respiratory and critical care medicine 200.7 (2019): e45-e67.</p>"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-28T20:40:43+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1748905081,
+   "last_comment_uid": 611,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-11-29T23:52:35+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2023-11-29"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 471,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee7b224f-cfca-453f-9d7e-9ba9f50edf24",
+   "url": "/site/va-medical-center-san-francisco"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14981
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/community-acquired-pneumonia-cap-treatment-guidelines-sfva",
+   "langcode": "und",
+   "pid": 27551
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-06-02T22:58:01+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Community Acquired Pneumonia (CAP) Treatment Guidelines SFVA"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "c1a19c37-9957-4d3e-9653-5f3d90bc6e8a"
+  }
+ ],
+ "vid": [
+  {
+   "value": 18971
+  }
+ ]
+}

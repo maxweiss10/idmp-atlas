@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-10-15T05:37:07+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1729881242,
+   "last_comment_uid": 201,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-07-21T16:15:37+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Diagnosis</th><th>Common Pathogens</th><th>Drug(s) of First Choice</th><th>Alternative Drug(s)</th><th>Comments</th><th>Expected Duration</th></tr></thead><tbody><tr><td><strong>Bites</strong></td><td><p>Dog/cat:<br>Streptococci<br><em>Pasteurella</em> spp.<br>Staphylococci<br>Oral anaerobes</p><p>Human:<br>Viridans streptococci<br><em>Eikenella</em>&nbsp;spp.<br>Oral anaerobes</p></td><td><a href=\"/content/amoxicillin-clavulanate\"><strong>Amoxicillin/</strong></a><br><a href=\"/content/amoxicillin-clavulanate\"><strong>clavulanate</strong></a><br>875mg/125mg PO BID</td><td>For <a href=\"/content/allergy-beta-lactam\">severe beta-lactam allergy</a>:<br><a href=\"/content/clindamycin\"><strong>Clindamycin&nbsp;</strong></a><br>PLUS EITHER<br><a href=\"/content/ciprofloxacin\"><strong>(Ciprofloxacin</strong>&nbsp;</a><br>or<br><a href=\"/content/levofloxacin\"><strong>Levofloxacin</strong></a><strong>)</strong></td><td><p align=\"left\">Only 5% of dog bites become infected, whereas 30-50% of cat bites become infected.</p><p align=\"left\">Evaluate tetanus vaccine history and administer if indicated.</p><p align=\"left\">Consult with local health department&nbsp;about&nbsp;rabies vaccination if rabies status unknown.</p><p align=\"left\"><strong>Prophylaxis</strong> in high risk patients or in high risk bite:<br>High risk patient = post splenectomy, immunocompromised, advanced liver disease/EtOH use disorder<br>High risk bite = deep tissue involvement (bone, tendon, joint etc.), penetrating injury (including most cat bites), bites on the&nbsp;hand, foot, genital&nbsp;or face</p></td><td><p>Prophylaxis: 5 days</p><p>Treatment: 10 days</p></td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Diagnosis</th><th>Common Pathogens</th><th>Drug(s) of First Choice</th><th>Alternative Drug(s)</th><th>Comments</th><th>Expected Duration</th></tr></thead><tbody><tr><td><strong>Bites</strong></td><td><p>Dog/cat:<br>Streptococci<br><em>Pasteurella</em> spp.<br>Staphylococci<br>Oral anaerobes</p><p>Human:<br>Viridans streptococci<br><em>Eikenella</em>&nbsp;spp.<br>Oral anaerobes</p></td><td><a href=\"/node/8311\"><strong>Amoxicillin/</strong></a><br><a href=\"/node/8311\"><strong>clavulanate</strong></a><br>875mg/125mg PO BID</td><td>For <a href=\"/node/9856\">severe beta-lactam allergy</a>:<br><a href=\"/node/8341\"><strong>Clindamycin&nbsp;</strong></a><br>PLUS EITHER<br><a href=\"/node/8336\"><strong>(Ciprofloxacin</strong>&nbsp;</a><br>or<br><a href=\"/node/8391\"><strong>Levofloxacin</strong></a><strong>)</strong></td><td><p align=\"left\">Only 5% of dog bites become infected, whereas 30-50% of cat bites become infected.</p><p align=\"left\">Evaluate tetanus vaccine history and administer if indicated.</p><p align=\"left\">Consult with local health department&nbsp;about&nbsp;rabies vaccination if rabies status unknown.</p><p align=\"left\"><strong>Prophylaxis</strong> in high risk patients or in high risk bite:<br>High risk patient = post splenectomy, immunocompromised, advanced liver disease/EtOH use disorder<br>High risk bite = deep tissue involvement (bone, tendon, joint etc.), penetrating injury (including most cat bites), bites on the&nbsp;hand, foot, genital&nbsp;or face</p></td><td><p>Prophylaxis: 5 days</p><p>Treatment: 10 days</p></td></tr></tbody></table>"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 166,
+   "target_type": "taxonomy_term",
+   "target_uuid": "aea1cebe-dad3-4dfe-a589-7e3eea5a9345",
+   "url": "/guidelines-empiric-therapy-categories/skin-and-soft-tissue-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p><em>Clinical Infectious Diseases</em>, Volume 59, Issue 2, 15 July 2014, Pages e10–e52, <a href=\"https://doi.org/10.1093/cid/ciu296\" data-feathr-click-track=\"true\" rel=\"noopener\" target=\"_blank\">https://doi.org/10.1093/cid/ciu296</a></p>",
+   "value": "<p><em>Clinical Infectious Diseases</em>, Volume 59, Issue 2, 15 July 2014, Pages e10–e52, <a href=\"https://doi.org/10.1093/cid/ciu296\" data-feathr-click-track=\"true\" rel=\"noopener\" target=\"_blank\">https://doi.org/10.1093/cid/ciu296</a></p>"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 9021
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/bites-0",
+   "langcode": "und",
+   "pid": 21786
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-10-15T05:37:07+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Bites"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "7e578aa3-6a88-4de1-80d3-49ea53e0df98"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24436
+  }
+ ]
+}

@@ -1,0 +1,5408 @@
+{
+ "antibiograms": {
+  "groups": [
+   {
+    "heading": null,
+    "links": [
+     [
+      "/content/antimicrobial-susceptibility-at-ucsf-adult-hospitals",
+      "UCSF Medical Center Adults"
+     ],
+     [
+      "/content/antimicrobial-susceptibility-at-ucsf-benioff-childrens-hospital-san-francisco",
+      "UCSF Benioff Children's Hospital San Francisco"
+     ],
+     [
+      "/content/antibiogram-ucsf-benioff-childrens-hospital-oakland",
+      "UCSF Benioff Children's Hospital Oakland"
+     ],
+     [
+      "/content/antimicrobial-susceptibility-at-san-francisco-veterans-affairs-va-medical-center",
+      "Veterans Affairs San Francisco Medical Center"
+     ],
+     [
+      "/content/antimicrobial-susceptibility-at-zuckerberg-san-francisco-general-laguna-honda-hospital",
+      "Zuckerberg San Francisco General Hospital"
+     ]
+    ]
+   }
+  ],
+  "path": "/content/antibiograms",
+  "title": "Antibiograms"
+ },
+ "dosing_dialysis": {
+  "groups": [
+   {
+    "heading": null,
+    "links": [
+     [
+      "/dosingupdate",
+      "Click here to submit a request to modify content on this page"
+     ]
+    ]
+   },
+   {
+    "heading": "82 Drugs",
+    "links": []
+   },
+   {
+    "heading": "Acyclovir IV",
+    "links": [
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/acyclovir-iv",
+      "See the Acyclovir IV detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Acyclovir PO",
+    "links": [
+     [
+      "/content/acyclovir-po",
+      "See the Acyclovir PO detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "AmBisome (liposomal amphotericin B)",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/flucytosine",
+      "flucytosine"
+     ],
+     [
+      "/content/flucytosine",
+      "flucytosine"
+     ],
+     [
+      "/content/ambisome-liposomal-amphotericin-b",
+      "See the AmBisome (liposomal amphotericin B) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Amoxicillin",
+    "links": [
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "Gram-negative bacteremia"
+     ],
+     [
+      "/content/community-acquired-pneumonia-0",
+      "select"
+     ],
+     [
+      "/content/community-acquired-pneumonia-0",
+      "outpatients"
+     ],
+     [
+      "/content/amoxicillin",
+      "See the Amoxicillin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Amoxicillin/clavulanate",
+    "links": [
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "Gram-Negative Bloodstream Infection"
+     ],
+     [
+      "/content/amoxicillin-clavulanate",
+      "See the Amoxicillin/clavulanate detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ampicillin",
+    "links": [
+     [
+      "/content/ampicillin-0",
+      "See the Ampicillin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ampicillin/sulbactam (Unasyn)",
+    "links": [
+     [
+      "/content/ampicillin-sulbactam-unasyn",
+      "See the Ampicillin/sulbactam (Unasyn) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Artesunate",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/total-body-weight",
+      "Total Body Weight"
+     ],
+     [
+      "/content/artesunate",
+      "See the Artesunate detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Azithromycin",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/azithromycin",
+      "See the Azithromycin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Aztreonam",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/inpatient-beta-lactam-allergy-guideline",
+      "Inpatient Allergy Guidelines"
+     ],
+     [
+      "/content/aztreonam",
+      "See the Aztreonam detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Aztreonam/avibactam",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/content/aztreonam-avibactam",
+      "See the Aztreonam/avibactam detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Baloxavir marboxil",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/baloxavir-marboxil",
+      "See the Baloxavir marboxil detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefazolin",
+    "links": [
+     [
+      "/content/cefazolin",
+      "See the Cefazolin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefepime",
+    "links": [
+     [
+      "/extendedinfusion",
+      "select populations"
+     ],
+     [
+      "/content/cefepime",
+      "See the Cefepime detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefiderocol",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/cefiderocol",
+      "See the Cefiderocol detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefoxitin",
+    "links": [
+     [
+      "/content/cefoxitin",
+      "See the Cefoxitin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ceftaroline",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/ceftaroline",
+      "See the Ceftaroline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ceftazidime",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/extendedinfusion",
+      "select populations"
+     ],
+     [
+      "/content/ceftazidime",
+      "See the Ceftazidime detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ceftazidime/avibactam (Avycaz)",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/ceftazidime-avibactam-avycaz",
+      "See the Ceftazidime/avibactam (Avycaz) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ceftolozane/tazobactam (Zerbaxa)",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/ceftolozane-tazobactam-zerbaxa",
+      "See the Ceftolozane/tazobactam (Zerbaxa) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ceftriaxone",
+    "links": [
+     [
+      "/content/ceftriaxone",
+      "See the Ceftriaxone detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefuroxime axetil",
+    "links": [
+     [
+      "/content/cefuroxime-axetil",
+      "See the Cefuroxime axetil detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cephalexin",
+    "links": [
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "Gram-Negative Bloodstream Infection"
+     ],
+     [
+      "/content/cephalexin",
+      "See the Cephalexin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cidofovir",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/cidofovir",
+      "See the Cidofovir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ciprofloxacin",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/ciprofloxacin",
+      "See the Ciprofloxacin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Clindamycin",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/clindamycin",
+      "See the Clindamycin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Clofazimine",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/clofazimine",
+      "See the Clofazimine detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Colistin IV",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/ideal-body-weight",
+      "Ideal Body Weight"
+     ],
+     [
+      "/content/colistin-iv",
+      "See the Colistin IV detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Dalbavancin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/dalbavancin",
+      "See the Dalbavancin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Daptomycin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/daptomycin",
+      "See the Daptomycin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Doxycycline",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/doxycycline",
+      "See the Doxycycline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Eravacycline",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/total-body-weight",
+      "Total Body Weight"
+     ],
+     [
+      "/content/eravacycline",
+      "See the Eravacycline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ertapenem",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/ertapenem",
+      "See the Ertapenem detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ethambutol",
+    "links": [
+     [
+      "/dosing-weights/adjusted-body-weight-when-bmi-30",
+      "Adjusted body weight when BMI >30"
+     ],
+     [
+      "/dosing-weights/total-body-weight-when-bmi",
+      "Total body weight when BMI <=30"
+     ],
+     [
+      "/content/ethambutol",
+      "See the Ethambutol detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Fecal microbiota spores, live—brpk (Vowst)",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/fecal-microbiota-spores-live-brpk-vowst",
+      "See the Fecal microbiota spores, live—brpk (Vowst) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Fidaxomicin",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/fidaxomicin",
+      "See the Fidaxomicin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Fluconazole",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/fluconazole",
+      "See the Fluconazole detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Flucytosine",
+    "links": [
+     [
+      "/dosing-weights/total-body-weight-when-less-ideal-body-weight",
+      "Total body weight when less than ideal body weight"
+     ],
+     [
+      "/dosing-weights/adjusted-body-weight-when-patient-weight-120-ideal-body-weight",
+      "Adjusted body weight when patient weight >120% of ideal body weight"
+     ],
+     [
+      "/dosing-weights/ideal-body-weight",
+      "Ideal Body Weight"
+     ],
+     [
+      "/content/flucytosine",
+      "See the Flucytosine detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Foscarnet",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/foscarnet",
+      "See the Foscarnet detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ganciclovir",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/ganciclovir",
+      "See the Ganciclovir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Gentamicin",
+    "links": [
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/gentamicin",
+      "See the Gentamicin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Imipenem/cilastatin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/imipenem-cilastatin",
+      "See the Imipenem/cilastatin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Imipenem/cilastatin/relebactam",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/imipenem-cilastatin-relebactam",
+      "See the Imipenem/cilastatin/relebactam detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Isavuconazole",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ]
+    ]
+   },
+   {
+    "heading": "General Considerations",
+    "links": [
+     [
+      "/content/azole-therapeutic-drug-monitoring",
+      "Azole TDM Reference Document"
+     ],
+     [
+      "/content/isavuconazole",
+      "See the Isavuconazole detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Isoniazid",
+    "links": [
+     [
+      "/content/isoniazid",
+      "See the Isoniazid detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Letermovir",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/letermovir",
+      "See the Letermovir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Levofloxacin",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "Gram-Negative Bloodstream Infection"
+     ],
+     [
+      "/content/levofloxacin",
+      "See the Levofloxacin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Linezolid",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/linezolid",
+      "See the Linezolid detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Maribavir",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/maribavir",
+      "See the Maribavir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Meropenem",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/extendedinfusion",
+      "select populations"
+     ],
+     [
+      "/content/meropenem",
+      "See the Meropenem detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Meropenem/vaborbactam",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/meropenem-vaborbactam",
+      "See the Meropenem/vaborbactam detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Metronidazole",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/metronidazole",
+      "See the Metronidazole detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Micafungin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/micafungin",
+      "See the Micafungin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Miltefosine",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/total-body-weight",
+      "Total Body Weight"
+     ],
+     [
+      "/content/miltefosine",
+      "See the Miltefosine detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Minocycline",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/minocycline",
+      "See the Minocycline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Molnupiravir",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/molnupiravir",
+      "See the Molnupiravir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Moxifloxacin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/moxifloxacin",
+      "See the Moxifloxacin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Nafcillin",
+    "links": [
+     [
+      "/content/nafcillin",
+      "See the Nafcillin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Nirmatrelvir/ritonavir (Paxlovid)",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/nirmatrelvir-ritonavir-paxlovid",
+      "See the Nirmatrelvir/ritonavir (Paxlovid) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Nitrofurantoin (Macrobid)",
+    "links": [
+     [
+      "/content/nitrofurantoin-macrobid",
+      "See the Nitrofurantoin (Macrobid) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Oritavancin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/oritavancin",
+      "See the Oritavancin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Oseltamivir",
+    "links": [
+     [
+      "/content/oseltamivir",
+      "See the Oseltamivir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Penicillin G potassium (aqueous) IV",
+    "links": [
+     [
+      "/content/penicillin-g-potassium-aqueous-iv",
+      "See the Penicillin G potassium (aqueous) IV detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Pentamidine IV",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/pentamidine-iv",
+      "See the Pentamidine IV detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Piperacillin/tazobactam (Zosyn)",
+    "links": [
+     [
+      "/content/piperacillin-tazobactam-zosyn",
+      "See the Piperacillin/tazobactam (Zosyn) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Plazomicin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/plazomicin",
+      "See the Plazomicin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Polymyxin B",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/polymyxin-b",
+      "See the Polymyxin B detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Posaconazole",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ]
+    ]
+   },
+   {
+    "heading": "General Considerations",
+    "links": [
+     [
+      "/content/azole-therapeutic-drug-monitoring",
+      "Azole TDM Reference Document"
+     ],
+     [
+      "/content/azole-therapeutic-drug-monitoring",
+      "therapeutic drug monitoring"
+     ],
+     [
+      "/content/posaconazole",
+      "See the Posaconazole detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Pyrazinamide",
+    "links": [
+     [
+      "/dosing-weights/adjusted-body-weight-when-bmi-30",
+      "Adjusted body weight when BMI >30"
+     ],
+     [
+      "/dosing-weights/total-body-weight-when-bmi",
+      "Total body weight when BMI <=30"
+     ],
+     [
+      "/content/pyrazinamide",
+      "See the Pyrazinamide detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Remdesivir",
+    "links": [
+     [
+      "/content/remdesivir-0",
+      "See the Remdesivir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Rifabutin",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/rifabutin",
+      "See the Rifabutin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Rifampin",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/rifampin",
+      "See the Rifampin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Sulbactam/durlobactam",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/sulbactam-durlobactam",
+      "See the Sulbactam/durlobactam detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Tedizolid",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/tedizolid",
+      "See the Tedizolid detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Tigecycline",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/tigecycline",
+      "See the Tigecycline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "TMP/SMX (trimethoprim/sulfamethoxazole)",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "GNR Bloodstream Infection"
+     ],
+     [
+      "/content/pneumocystis-prophylaxis",
+      "Pneumocystis Prophylaxis Guidelines"
+     ],
+     [
+      "/content/tmp-smx-trimethoprim-sulfamethoxazole",
+      "See the TMP/SMX (trimethoprim/sulfamethoxazole) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Valacyclovir",
+    "links": [
+     [
+      "/content/valacyclovir",
+      "See the Valacyclovir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Valganciclovir (Valcyte)",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/valganciclovir-valcyte",
+      "See the Valganciclovir (Valcyte) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Vancomycin IV",
+    "links": [
+     [
+      "/content/vancomycin-initial-dosing-nomogram",
+      "ZSFG: Click here for initial dosing guidance."
+     ],
+     [
+      "/content/vancomycin-iv",
+      "See the Vancomycin IV detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Vancomycin PO",
+    "links": [
+     [
+      "/content/clostridioides-difficile-infection-0",
+      "Adult C. difficile Infection Guideline"
+     ],
+     [
+      "/content/vancomycin-po",
+      "See the Vancomycin PO detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Voriconazole",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ]
+    ]
+   },
+   {
+    "heading": "General Considerations",
+    "links": [
+     [
+      "/content/azole-therapeutic-drug-monitoring",
+      "Azole TDM Reference Document"
+     ],
+     [
+      "/content/voriconazole",
+      "See the Voriconazole detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Zanamivir",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/content/zanamivir",
+      "See the Zanamivir detail page."
+     ]
+    ]
+   }
+  ],
+  "path": "/antimicrobial-dosing-intermittent-continuous-hemodialysis",
+  "title": "Antimicrobial Dosing in Intermittent & Continuous Hemodialysis"
+ },
+ "dosing_nondialysis": {
+  "groups": [
+   {
+    "heading": null,
+    "links": [
+     [
+      "/dosingupdate",
+      "Click here to submit a request to modify content on this page"
+     ]
+    ]
+   },
+   {
+    "heading": "94 Drugs",
+    "links": []
+   },
+   {
+    "heading": "Acyclovir IV",
+    "links": [
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/acyclovir-iv",
+      "See the Acyclovir IV detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Acyclovir PO",
+    "links": [
+     [
+      "/content/acyclovir-po",
+      "See the Acyclovir PO detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "AmBisome (liposomal amphotericin B)",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/flucytosine",
+      "flucytosine"
+     ],
+     [
+      "/content/ambisome-liposomal-amphotericin-b",
+      "See the AmBisome (liposomal amphotericin B) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Amikacin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/amikacin",
+      "See the Amikacin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Amoxicillin",
+    "links": [
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "Gram-negative bacteremia"
+     ],
+     [
+      "/content/community-acquired-pneumonia-0",
+      "select"
+     ],
+     [
+      "/content/community-acquired-pneumonia-0",
+      "outpatients"
+     ],
+     [
+      "/content/amoxicillin",
+      "See the Amoxicillin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Amoxicillin/clavulanate",
+    "links": [
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "Gram-Negative Bloodstream Infection"
+     ],
+     [
+      "/content/amoxicillin-clavulanate",
+      "See the Amoxicillin/clavulanate detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ampicillin",
+    "links": [
+     [
+      "/content/ampicillin-0",
+      "See the Ampicillin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ampicillin/sulbactam (Unasyn)",
+    "links": []
+   },
+   {
+    "heading": "Extended Infusion Dosing (if recommended by ID or ID pharmacy)",
+    "links": [
+     [
+      "/content/ampicillin-sulbactam-unasyn",
+      "See the Ampicillin/sulbactam (Unasyn) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Artesunate",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/total-body-weight",
+      "Total Body Weight"
+     ],
+     [
+      "/content/artesunate",
+      "See the Artesunate detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Atovaquone",
+    "links": [
+     [
+      "/content/pneumocystis-prophylaxis",
+      "Pneumocystis Prophylaxis Guidelines"
+     ],
+     [
+      "/content/atovaquone",
+      "See the Atovaquone detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Azithromycin",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/azithromycin",
+      "See the Azithromycin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Aztreonam",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/ceftazidime-avibactam-avycaz",
+      "ceftazidime-avibactam"
+     ],
+     [
+      "/content/inpatient-beta-lactam-allergy-guideline",
+      "Inpatient Allergy Guidelines"
+     ],
+     [
+      "/content/aztreonam",
+      "See the Aztreonam detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Aztreonam/avibactam",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/content/aztreonam-avibactam",
+      "See the Aztreonam/avibactam detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Baloxavir marboxil",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/baloxavir-marboxil",
+      "See the Baloxavir marboxil detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefazolin",
+    "links": [
+     [
+      "/content/cefazolin",
+      "See the Cefazolin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefdinir",
+    "links": [
+     [
+      "/content/cefdinir",
+      "See the Cefdinir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefepime",
+    "links": []
+   },
+   {
+    "heading": "Short Infusion Dosing (PREFERRED)",
+    "links": []
+   },
+   {
+    "heading": "Extended Infusion Dosing (if recommended by ID, ID pharmacy, or clinical pharmacy for select populations )",
+    "links": [
+     [
+      "/content/cefepime",
+      "See the Cefepime detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefiderocol",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/cefiderocol",
+      "See the Cefiderocol detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefoxitin",
+    "links": [
+     [
+      "/content/cefoxitin",
+      "See the Cefoxitin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefpodoxime",
+    "links": [
+     [
+      "/content/cefpodoxime",
+      "See the Cefpodoxime detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ceftaroline",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/ceftaroline",
+      "See the Ceftaroline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ceftazidime",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ]
+    ]
+   },
+   {
+    "heading": "Short Infusion Dosing (PREFERRED)",
+    "links": []
+   },
+   {
+    "heading": "Extended Infusion Dosing (if recommended by ID, ID pharmacy, or clinical pharmacy for select populations )",
+    "links": [
+     [
+      "/content/ceftazidime",
+      "See the Ceftazidime detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ceftazidime/avibactam (Avycaz)",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/aztreonam",
+      "aztreonam"
+     ],
+     [
+      "/content/ceftazidime-avibactam-avycaz",
+      "See the Ceftazidime/avibactam (Avycaz) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ceftolozane/tazobactam (Zerbaxa)",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/ceftolozane-tazobactam-zerbaxa",
+      "See the Ceftolozane/tazobactam (Zerbaxa) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ceftriaxone",
+    "links": [
+     [
+      "/content/ceftriaxone",
+      "See the Ceftriaxone detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cefuroxime axetil",
+    "links": [
+     [
+      "/content/cefuroxime-axetil",
+      "See the Cefuroxime axetil detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cephalexin",
+    "links": [
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "Gram-Negative Bloodstream Infection"
+     ],
+     [
+      "/content/cephalexin",
+      "See the Cephalexin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Cidofovir",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/cidofovir",
+      "See the Cidofovir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ciprofloxacin",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "Gram-Negative Bloodstream Infection"
+     ],
+     [
+      "/content/ciprofloxacin",
+      "See the Ciprofloxacin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Clindamycin",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/clindamycin",
+      "See the Clindamycin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Clofazimine",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/clofazimine",
+      "See the Clofazimine detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Colistin IV",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/ideal-body-weight",
+      "Ideal Body Weight"
+     ],
+     [
+      "/content/colistin-iv",
+      "See the Colistin IV detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Dalbavancin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/dalbavancin",
+      "See the Dalbavancin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Dapsone",
+    "links": [
+     [
+      "/content/pneumocystis-prophylaxis",
+      "Pneumocystis Prophylaxis Guidelines"
+     ],
+     [
+      "/content/dapsone",
+      "See the Dapsone detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Daptomycin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/daptomycin",
+      "See the Daptomycin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Doxycycline",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/doxycycline",
+      "See the Doxycycline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Eravacycline",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/total-body-weight",
+      "Total Body Weight"
+     ],
+     [
+      "/content/eravacycline",
+      "See the Eravacycline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ertapenem",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/ertapenem",
+      "See the Ertapenem detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ethambutol",
+    "links": [
+     [
+      "/dosing-weights/adjusted-body-weight-when-bmi-30",
+      "Adjusted body weight when BMI >30"
+     ],
+     [
+      "/dosing-weights/total-body-weight-when-bmi",
+      "Total body weight when BMI <=30"
+     ],
+     [
+      "/content/ethambutol",
+      "See the Ethambutol detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Fecal microbiota spores, live—brpk (Vowst)",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/fecal-microbiota-spores-live-brpk-vowst",
+      "See the Fecal microbiota spores, live—brpk (Vowst) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Fidaxomicin",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/clostridioides-difficile-infection-0",
+      "local Adult CDI guidelines"
+     ],
+     [
+      "/content/zsfg-adult-c-difficile-infection-guideline",
+      "refer to local CDI guidelines"
+     ],
+     [
+      "/content/fidaxomicin",
+      "See the Fidaxomicin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Fluconazole",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/fluconazole",
+      "See the Fluconazole detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Flucytosine",
+    "links": [
+     [
+      "/dosing-weights/total-body-weight-when-less-ideal-body-weight",
+      "Total body weight when less than ideal body weight"
+     ],
+     [
+      "/dosing-weights/adjusted-body-weight-when-patient-weight-120-ideal-body-weight",
+      "Adjusted body weight when patient weight >120% of ideal body weight"
+     ],
+     [
+      "/dosing-weights/ideal-body-weight",
+      "Ideal Body Weight"
+     ],
+     [
+      "/content/flucytosine",
+      "See the Flucytosine detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Foscarnet",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/foscarnet",
+      "See the Foscarnet detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Fosfomycin PO",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/fosfomycin-po",
+      "See the Fosfomycin PO detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ganciclovir",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/ganciclovir",
+      "See the Ganciclovir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Gentamicin",
+    "links": [
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/gentamicin",
+      "See the Gentamicin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Imipenem/cilastatin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/imipenem-cilastatin",
+      "See the Imipenem/cilastatin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Imipenem/cilastatin/relebactam",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/imipenem-cilastatin-relebactam",
+      "See the Imipenem/cilastatin/relebactam detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Isavuconazole",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ]
+    ]
+   },
+   {
+    "heading": "General Considerations",
+    "links": [
+     [
+      "/content/azole-therapeutic-drug-monitoring",
+      "Azole TDM Reference Document"
+     ],
+     [
+      "/content/isavuconazole",
+      "See the Isavuconazole detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Isoniazid",
+    "links": [
+     [
+      "/content/isoniazid",
+      "See the Isoniazid detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Letermovir",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/letermovir",
+      "See the Letermovir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Levofloxacin",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "Gram-Negative Bloodstream Infection"
+     ],
+     [
+      "/content/levofloxacin",
+      "See the Levofloxacin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Linezolid",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/linezolid",
+      "See the Linezolid detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Maribavir",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/maribavir",
+      "See the Maribavir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Meropenem",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ]
+    ]
+   },
+   {
+    "heading": "Short Infusion Dosing (PREFERRED)",
+    "links": []
+   },
+   {
+    "heading": "Extended Infusion Dosing (if recommended by ID, ID pharmacy, or clinical pharmacy for select populations )",
+    "links": [
+     [
+      "/content/meropenem",
+      "See the Meropenem detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Meropenem/vaborbactam",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/meropenem-vaborbactam",
+      "See the Meropenem/vaborbactam detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Metronidazole",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/metronidazole",
+      "See the Metronidazole detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Micafungin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/micafungin",
+      "See the Micafungin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Miltefosine",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/total-body-weight",
+      "Total Body Weight"
+     ],
+     [
+      "/content/miltefosine",
+      "See the Miltefosine detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Minocycline",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/minocycline",
+      "See the Minocycline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Molnupiravir",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/molnupiravir",
+      "See the Molnupiravir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Moxifloxacin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/moxifloxacin",
+      "See the Moxifloxacin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Nafcillin",
+    "links": [
+     [
+      "/content/nafcillin",
+      "See the Nafcillin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Nirmatrelvir/ritonavir (Paxlovid)",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/nirmatrelvir-ritonavir-paxlovid",
+      "See the Nirmatrelvir/ritonavir (Paxlovid) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Nitrofurantoin (Macrobid)",
+    "links": [
+     [
+      "/content/nitrofurantoin-macrobid",
+      "See the Nitrofurantoin (Macrobid) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Omadacycline",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/omadacycline",
+      "See the Omadacycline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Oritavancin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/oritavancin",
+      "See the Oritavancin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Oseltamivir",
+    "links": [
+     [
+      "/content/oseltamivir",
+      "See the Oseltamivir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Penicillin G potassium (aqueous) IV",
+    "links": [
+     [
+      "/content/penicillin-g-potassium-aqueous-iv",
+      "See the Penicillin G potassium (aqueous) IV detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Penicillin VK (oral)",
+    "links": [
+     [
+      "/content/penicillin-vk-oral",
+      "See the Penicillin VK (oral) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Pentamidine (aerosolized)",
+    "links": [
+     [
+      "/content/pentamidine-aerosolized",
+      "See the Pentamidine (aerosolized) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Pentamidine IV",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/pentamidine-iv",
+      "See the Pentamidine IV detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Peramivir",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/peramivir",
+      "See the Peramivir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Piperacillin/tazobactam (Zosyn)",
+    "links": []
+   },
+   {
+    "heading": "Extended Infusion Dosing (PREFERRED for UCSF)",
+    "links": [
+     [
+      "/piptazoextendedinfusion",
+      "Adult Extended Infusion Piperacillin-Tazobactam protocol"
+     ]
+    ]
+   },
+   {
+    "heading": "Short Infusion Dosing (PREFERRED for ZSFG)",
+    "links": [
+     [
+      "/content/piperacillin-tazobactam-zosyn",
+      "See the Piperacillin/tazobactam (Zosyn) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Plazomicin",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/plazomicin",
+      "See the Plazomicin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Polymyxin B",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/polymyxin-b",
+      "See the Polymyxin B detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Posaconazole",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ]
+    ]
+   },
+   {
+    "heading": "General Considerations",
+    "links": [
+     [
+      "/content/azole-therapeutic-drug-monitoring",
+      "Azole TDM Reference Document"
+     ],
+     [
+      "/content/azole-therapeutic-drug-monitoring",
+      "therapeutic drug monitoring"
+     ],
+     [
+      "/content/posaconazole",
+      "See the Posaconazole detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Pyrazinamide",
+    "links": [
+     [
+      "/dosing-weights/adjusted-body-weight-when-bmi-30",
+      "Adjusted body weight when BMI >30"
+     ],
+     [
+      "/dosing-weights/total-body-weight-when-bmi",
+      "Total body weight when BMI <=30"
+     ],
+     [
+      "/content/pyrazinamide",
+      "See the Pyrazinamide detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Remdesivir",
+    "links": [
+     [
+      "/content/remdesivir-0",
+      "See the Remdesivir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Ribavirin",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/rsv-treatment",
+      "RSV Treatment Guideline"
+     ],
+     [
+      "/content/ribavirin",
+      "See the Ribavirin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Rifabutin",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/rifabutin",
+      "See the Rifabutin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Rifampin",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/rifampin",
+      "See the Rifampin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Sulbactam/durlobactam",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/sulbactam-durlobactam",
+      "See the Sulbactam/durlobactam detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Tedizolid",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/content/tedizolid",
+      "See the Tedizolid detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Tigecycline",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/tigecycline",
+      "See the Tigecycline detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "TMP/SMX (trimethoprim/sulfamethoxazole)",
+    "links": [
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "GNR Bloodstream Infection"
+     ],
+     [
+      "/content/pneumocystis-prophylaxis",
+      "Pneumocystis Prophylaxis Guidelines"
+     ],
+     [
+      "/content/tmp-smx-trimethoprim-sulfamethoxazole",
+      "See the TMP/SMX (trimethoprim/sulfamethoxazole) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Tobramycin",
+    "links": [
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ],
+     [
+      "/content/tobramycin",
+      "See the Tobramycin detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Valacyclovir",
+    "links": [
+     [
+      "/content/valacyclovir",
+      "See the Valacyclovir detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Valganciclovir (Valcyte)",
+    "links": [
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/content/valganciclovir-valcyte",
+      "See the Valganciclovir (Valcyte) detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Vancomycin IV",
+    "links": [
+     [
+      "/content/vancomycin-initial-dosing-nomogram",
+      "ZSFG: Click here for initial dosing guidance."
+     ],
+     [
+      "/content/vancomycin-iv",
+      "See the Vancomycin IV detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Vancomycin PO",
+    "links": [
+     [
+      "/content/clostridioides-difficile-infection-0",
+      "Adult C. difficile Infection Guideline"
+     ],
+     [
+      "/content/vancomycin-po",
+      "See the Vancomycin PO detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Voriconazole",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/notations/id-r-zsfg",
+      "ID-R: ZSFG"
+     ],
+     [
+      "/notations/iv-po",
+      "IV-PO"
+     ],
+     [
+      "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use",
+      "Use total body weight, except if total body weight is >120% of ideal body weight, then use adjusted body weight"
+     ]
+    ]
+   },
+   {
+    "heading": "General Considerations",
+    "links": [
+     [
+      "/content/azole-therapeutic-drug-monitoring",
+      "Azole TDM Reference Document"
+     ],
+     [
+      "/content/voriconazole",
+      "See the Voriconazole detail page."
+     ]
+    ]
+   },
+   {
+    "heading": "Zanamivir",
+    "links": [
+     [
+      "/notations/id-r-ucsf",
+      "ID-R: UCSF"
+     ],
+     [
+      "/content/zanamivir",
+      "See the Zanamivir detail page."
+     ]
+    ]
+   }
+  ],
+  "path": "/adult-antimicrobial-dosing-non-dialysis",
+  "title": "Adult Antimicrobial Dosing, Non-dialysis"
+ },
+ "empiric_adult": {
+  "groups": [
+   {
+    "heading": "Abdominopelvic Infections",
+    "links": [
+     [
+      "/content/abdominal-infections",
+      "Abdominal Infections"
+     ],
+     [
+      "/content/pelvic-inflammatory-disease-0",
+      "Pelvic Inflammatory Disease"
+     ]
+    ]
+   },
+   {
+    "heading": "Bone & Joint Infections without Hardware",
+    "links": [
+     [
+      "/content/any-bone-joint-infection-with-hardware-in-place",
+      "Any Bone/Joint Infection with Hardware in Place"
+     ],
+     [
+      "/content/non-vertebral-osteomyelitis",
+      "Non-Vertebral Osteomyelitis"
+     ],
+     [
+      "/content/septic-arthritis-no-hardware-in-place",
+      "Septic Arthritis (No Hardware in Place)"
+     ],
+     [
+      "/content/vertebral-osteomyelitis-no-hardware-in-place",
+      "Vertebral Osteomyelitis (No Hardware in Place)"
+     ]
+    ]
+   },
+   {
+    "heading": "Central Nervous System Infections",
+    "links": [
+     [
+      "/content/brain-abscess",
+      "Brain abscess"
+     ],
+     [
+      "/content/epidural-abscess",
+      "Epidural Abscess"
+     ],
+     [
+      "/content/meningitis",
+      "Meningitis"
+     ]
+    ]
+   },
+   {
+    "heading": "Gastrointestinal Infections",
+    "links": [
+     [
+      "/content/diarrhea",
+      "Diarrhea"
+     ]
+    ]
+   },
+   {
+    "heading": "Obstetric Infections",
+    "links": [
+     [
+      "/content/chorioamnionitis-and-endometritis",
+      "Chorioamnionitis and endometritis"
+     ]
+    ]
+   },
+   {
+    "heading": "Pneumonia",
+    "links": [
+     [
+      "/content/aspiration-pneumonia-0",
+      "Aspiration Pneumonia"
+     ],
+     [
+      "/content/community-acquired-pneumonia-0",
+      "Community-Acquired Pneumonia"
+     ],
+     [
+      "/content/pneumonia-hospital-acquired-or-ventilator-associated",
+      "Pneumonia, Hospital-acquired or Ventilator-associated"
+     ]
+    ]
+   },
+   {
+    "heading": "Respiratory, Head, and Neck Infections",
+    "links": [
+     [
+      "/content/acute-bacterial-exacerbation-of-chronic-bronchitis-copd",
+      "Acute Bacterial Exacerbation of Chronic Bronchitis (COPD)"
+     ],
+     [
+      "/content/acute-bacterial-sinusitis",
+      "Acute Bacterial Sinusitis"
+     ],
+     [
+      "/content/acute-bronchitis",
+      "Acute Bronchitis"
+     ],
+     [
+      "/content/chronic-bacterial-sinusitis",
+      "Chronic Bacterial Sinusitis"
+     ],
+     [
+      "/content/peritonsillar-abscess",
+      "Peritonsillar Abscess"
+     ],
+     [
+      "/content/pharyngitis",
+      "Pharyngitis"
+     ]
+    ]
+   },
+   {
+    "heading": "Sepsis, Source Unknown and other Nonfocal infections",
+    "links": [
+     [
+      "/content/community-acquired-sepsis-with-unknown-source",
+      "Community Acquired Sepsis with Unknown Source"
+     ],
+     [
+      "/content/fever-in-a-person-who-injects-drugs",
+      "Fever in a person who injects drugs"
+     ],
+     [
+      "/content/healthcare-acquired-sepsis-with-unknown-source",
+      "Healthcare-acquired sepsis with unknown source"
+     ],
+     [
+      "/content/high-risk-neutropenic-fever",
+      "High-risk neutropenic fever"
+     ],
+     [
+      "/content/outpatient-treatment-of-low-risk-neutropenic-fever",
+      "Outpatient treatment of low-risk neutropenic fever"
+     ],
+     [
+      "/content/suspected-infection-in-an-end-stage-liver-disease-patient-being-evaluated-for-transplantation-at",
+      "Suspected infection in an end-stage liver disease patient being evaluated for transplantation at UCSF Health"
+     ]
+    ]
+   },
+   {
+    "heading": "Sexually Transmitted Infections",
+    "links": [
+     [
+      "/content/sexually-transmitted-infections",
+      "Sexually Transmitted Infections"
+     ]
+    ]
+   },
+   {
+    "heading": "Skin and Soft-Tissue Infections",
+    "links": [
+     [
+      "/content/bites-0",
+      "Bites"
+     ],
+     [
+      "/content/cellulitis-abscess-cutaneous-ulcer-disease-necrotizing-fasciitis",
+      "Cellulitis, abscess, cutaneous ulcer disease, necrotizing fasciitis"
+     ]
+    ]
+   },
+   {
+    "heading": "Urinary Tract Infections",
+    "links": [
+     [
+      "/content/urinary-tract-infection-uti",
+      "Urinary Tract Infection (UTI)"
+     ]
+    ]
+   }
+  ],
+  "path": "/guidelines-for-empiric-therapy-adults",
+  "title": "Guidelines for Empiric Therapy: Adults"
+ },
+ "empiric_peds": {
+  "groups": [
+   {
+    "heading": "Abdominopelvic Infections",
+    "links": [
+     [
+      "/content/healthcare-associated-intra-abdominal-infections",
+      "Healthcare-associated Intra-abdominal Infections"
+     ]
+    ]
+   },
+   {
+    "heading": "Bone & Joint Infections without Hardware",
+    "links": [
+     [
+      "/content/osteomyelitis",
+      "Osteomyelitis"
+     ],
+     [
+      "/content/septic-arthritis",
+      "Septic Arthritis"
+     ]
+    ]
+   },
+   {
+    "heading": "Central Nervous System Infections",
+    "links": [
+     [
+      "/content/intracranial-abscess",
+      "Intracranial Abscess"
+     ],
+     [
+      "/content/meningitis-0",
+      "Meningitis"
+     ]
+    ]
+   },
+   {
+    "heading": "Congenital/Perinatal Infections",
+    "links": [
+     [
+      "/content/congenital-cytomegalovirus-disease",
+      "Congenital Cytomegalovirus Disease"
+     ],
+     [
+      "/content/congenital-syphilis",
+      "Congenital Syphilis"
+     ],
+     [
+      "/content/neonatal-herpes-simplex-virus-disease",
+      "Neonatal Herpes Simplex Virus Disease"
+     ],
+     [
+      "/content/ophthalmia-neonatorum",
+      "Ophthalmia Neonatorum"
+     ]
+    ]
+   },
+   {
+    "heading": "Gastrointestinal Infections",
+    "links": [
+     [
+      "/content/bacterial-gastroenteritis",
+      "Bacterial Gastroenteritis"
+     ],
+     [
+      "/content/clostridioides-difficile-infection",
+      "Clostridioides difficile Infection"
+     ],
+     [
+      "/content/helicobacter-pylori-infection",
+      "Helicobacter pylori Infection"
+     ]
+    ]
+   },
+   {
+    "heading": "Pneumonia, Community Acquired",
+    "links": [
+     [
+      "/content/aspiration-pneumonia",
+      "Aspiration Pneumonia"
+     ],
+     [
+      "/content/community-acquired-pneumonia",
+      "Community-acquired Pneumonia"
+     ]
+    ]
+   },
+   {
+    "heading": "Pneumonia, Hospital-acquired or Ventilator-associated",
+    "links": [
+     [
+      "/content/healthcare-acquired-or-ventilator-associated-pneumonia",
+      "Healthcare-acquired or Ventilator-associated Pneumonia"
+     ]
+    ]
+   },
+   {
+    "heading": "Respiratory, Head, and Neck Infections",
+    "links": [
+     [
+      "/content/acute-bacterial-sinusitis-0",
+      "Acute Bacterial Sinusitis"
+     ],
+     [
+      "/content/acute-otitis-media",
+      "Acute Otitis Media"
+     ],
+     [
+      "/content/conjunctivitis-infants-children-adolescents",
+      "Conjunctivitis (Infants, Children, Adolescents)"
+     ],
+     [
+      "/content/dental-infection",
+      "Dental Infection"
+     ],
+     [
+      "/content/lymphadenitis",
+      "Lymphadenitis"
+     ],
+     [
+      "/content/mastoiditis",
+      "Mastoiditis"
+     ],
+     [
+      "/content/orbital-cellulitis-abscess",
+      "Orbital Cellulitis/Abscess"
+     ],
+     [
+      "/content/periorbital-preseptal-cellulitis",
+      "Periorbital/Preseptal Cellulitis"
+     ],
+     [
+      "/content/peritonsillar-retropharyngeal-abscess",
+      "Peritonsillar/Retropharyngeal Abscess"
+     ],
+     [
+      "/content/pertussis",
+      "Pertussis"
+     ],
+     [
+      "/content/streptococcal-pharyngitis",
+      "Streptococcal Pharyngitis"
+     ],
+     [
+      "/content/tuberculosis",
+      "Tuberculosis"
+     ]
+    ]
+   },
+   {
+    "heading": "Sepsis, Source Unknown and other Nonfocal infections",
+    "links": [
+     [
+      "/content/fever-without-a-source-young-infant",
+      "Fever Without a Source - Young Infant"
+     ],
+     [
+      "/content/severe-sepsis-children-with-healthcare-exposure-or-comorbidities",
+      "Severe Sepsis - Children with Healthcare Exposure or Comorbidities"
+     ],
+     [
+      "/content/severe-sepsis-previously-healthy-infant-or-child",
+      "Severe Sepsis - Previously Healthy Infant or Child"
+     ]
+    ]
+   },
+   {
+    "heading": "Sexually Transmitted Infections",
+    "links": [
+     [
+      "/content/bacterial-vaginosis",
+      "Bacterial Vaginosis"
+     ],
+     [
+      "/content/chlamydia",
+      "Chlamydia"
+     ],
+     [
+      "/content/gonorrhea",
+      "Gonorrhea"
+     ],
+     [
+      "/content/pelvic-inflammatory-disease",
+      "Pelvic Inflammatory Disease"
+     ],
+     [
+      "/content/prophylaxis-after-sexual-assault",
+      "Prophylaxis After Sexual Assault"
+     ],
+     [
+      "/content/syphilis",
+      "Syphilis"
+     ],
+     [
+      "/content/trichomoniasis",
+      "Trichomoniasis"
+     ]
+    ]
+   },
+   {
+    "heading": "Skin and Soft-Tissue Infections",
+    "links": [
+     [
+      "/content/abscess",
+      "Abscess"
+     ],
+     [
+      "/content/bite-wound",
+      "Bite Wound"
+     ],
+     [
+      "/content/cellulitis-0",
+      "Cellulitis"
+     ],
+     [
+      "/content/necrotizing-fasciitis",
+      "Necrotizing Fasciitis"
+     ]
+    ]
+   },
+   {
+    "heading": "Special Section",
+    "links": [
+     [
+      "/content/antibiotic-stewardship-and-spectrum-guide",
+      "Antibiotic Stewardship and Spectrum Guide"
+     ],
+     [
+      "/content/assessment-of-antibiotic-allergies",
+      "Assessment of Antibiotic Allergies"
+     ],
+     [
+      "/content/safety-criteria-for-ceftriaxone-administration-to-neonates",
+      "Safety Criteria for Ceftriaxone Administration to Neonates"
+     ]
+    ]
+   },
+   {
+    "heading": "Urinary Tract Infections",
+    "links": [
+     [
+      "/content/urinary-tract-infections-community-onset",
+      "Urinary Tract Infections - Community Onset"
+     ],
+     [
+      "/content/urinary-tract-infections-hospital-onset",
+      "Urinary Tract Infections - Hospital Onset"
+     ]
+    ]
+   },
+   {
+    "heading": "Viral Infections",
+    "links": [
+     [
+      "/content/coronavirus-disease-2019-covid-19",
+      "Coronavirus Disease 2019 (COVID-19)"
+     ],
+     [
+      "/content/herpes-simplex-virus-disease-outside-neonatal-period",
+      "Herpes Simplex Virus Disease (Outside Neonatal Period)"
+     ],
+     [
+      "/content/influenza-0",
+      "Influenza"
+     ],
+     [
+      "/content/varicella-zoster-virus",
+      "Varicella Zoster Virus"
+     ]
+    ]
+   },
+   {
+    "heading": "Additional Pediatric Guidelines and Pathways",
+    "links": [
+     [
+      "/content/pediatric-appendicitis-clinical-algorithm",
+      "Appendicitis (BCH OAK and BCH SF shared algorithm)"
+     ],
+     [
+      "/content/benioff-childrens-hospitals-guidelines-for-fever-in-patients-receiving-cancer-therapy-and-or",
+      "Fever in Pediatric Patients Receiving Cancer Therapy and/or Hematopoietic Transplantation (BCH OAK and BCH SF shared guideline)"
+     ],
+     [
+      "/content/necrotizing-enterocolitis-antibiotic-selection-duration-therapy",
+      "Necrotizing Enterocolitis (BCH SF-specific guideline)"
+     ],
+     [
+      "/content/guidelines-for-sepsis-in-the-icn",
+      "Sepsis in Hospitalized Neonates (BCH SF-specific guideline)"
+     ],
+     [
+      "/content/empiric-antimicrobial-treatment-of-pediatric-patients-with-liver-failure-and-or-early-post-liver",
+      "Suspected Infection in Patients with Liver Failure and/or Early Post-Liver Transplantation (BCH OAK and BCH SF shared guideline)"
+     ]
+    ]
+   }
+  ],
+  "path": "/guidelines-for-empiric-therapy-pediatrics",
+  "title": "Guidelines for Empiric Therapy: Pediatrics"
+ },
+ "guidelines": {
+  "groups": [
+   {
+    "heading": "67 Guidelines",
+    "links": []
+   },
+   {
+    "heading": "Therapeutic Drug Monitoring",
+    "links": [
+     [
+      "/content/aminoglycoside-guidelines-pediatrics-ucsf",
+      "Aminoglycoside Guidelines Pediatrics UCSF"
+     ],
+     [
+      "/content/antifungal-dosing-guidance-and-tdm-pediatrics-ucsf",
+      "Antifungal Dosing Guidance and TDM Pediatrics UCSF"
+     ],
+     [
+      "/content/azole-therapeutic-drug-monitoring",
+      "Azole Therapeutic Drug Monitoring"
+     ],
+     [
+      "/content/bayesian-tdm-job-aid-aminoglycosides-vancomycin-pediatric",
+      "Bayesian TDM Job Aid: Aminoglycosides & Vancomycin (Pediatric)"
+     ]
+    ]
+   },
+   {
+    "heading": "Syndrome Specific Guidelines",
+    "links": [
+     [
+      "/content/adult-appendicitis-pathway",
+      "Adult Appendicitis Pathway"
+     ],
+     [
+      "/content/allergy-beta-lactam",
+      "Allergy (Beta-lactam)"
+     ],
+     [
+      "/content/antibiotic-lock-therapy",
+      "Antibiotic Lock Therapy"
+     ],
+     [
+      "/content/antimicrobial-guidebook-sfva",
+      "Antimicrobial Guidebook SFVA"
+     ],
+     [
+      "/content/antimicrobial-prophylaxis-guidelines-for-pediatric-cardiac-surgery-patients",
+      "Antimicrobial Prophylaxis Guidelines for Pediatric Cardiac Surgery Patients"
+     ],
+     [
+      "/content/benioff-childrens-hospitals-guidelines-for-fever-in-patients-receiving-cancer-therapy-and-or",
+      "Benioff Children's Hospitals Guidelines for Fever in Patients Receiving Cancer Therapy and/or Hematopoietic Transplantation"
+     ],
+     [
+      "/content/breast-tissue-expander-infection",
+      "Breast Tissue Expander Infection"
+     ],
+     [
+      "/content/clostridioides-difficile-infection-0",
+      "Clostridioides difficile Infection"
+     ],
+     [
+      "/content/clostridioides-difficile-infection-cdi-treatment-guidelines-sfva",
+      "Clostridioides Difficile Infection (CDI) Treatment Guidelines SFVA"
+     ],
+     [
+      "/content/code-sepsis",
+      "Code Sepsis"
+     ],
+     [
+      "/content/community-acquired-pneumonia-cap-treatment-guidelines-sfva",
+      "Community Acquired Pneumonia (CAP) Treatment Guidelines SFVA"
+     ],
+     [
+      "/content/covid-19-treatment-guidance",
+      "COVID-19 Treatment Guidance"
+     ],
+     [
+      "/content/emergency-department-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or",
+      "Emergency Department Algorithm: Fever in Pediatric Patients Receiving Cancer Therapy and/or Hematopoietic Transplant"
+     ],
+     [
+      "/content/empiric-antimicrobial-treatment-of-pediatric-patients-with-liver-failure-and-or-early-post-liver",
+      "Empiric Antimicrobial Treatment of Pediatric Patients with Liver Failure and/or Early Post-Liver Transplantation"
+     ],
+     [
+      "/content/febrile-neutropenia",
+      "Febrile Neutropenia"
+     ],
+     [
+      "/content/gram-negative-bloodstream-infection",
+      "Gram-negative Bloodstream Infection"
+     ],
+     [
+      "/content/guidelines-for-blood-culture-pcr-results-sfva",
+      "Guidelines for Blood Culture PCR Results SFVA"
+     ],
+     [
+      "/content/guidelines-for-sepsis-in-the-icn",
+      "Guidelines for Sepsis in the ICN"
+     ],
+     [
+      "/content/hbv-prophylaxis",
+      "HBV prophylaxis"
+     ],
+     [
+      "/content/hospital-acquired-pneumonia",
+      "Hospital-acquired Pneumonia"
+     ],
+     [
+      "/content/influenza",
+      "Influenza"
+     ],
+     [
+      "/content/iv-to-po-syndromic-step-down-guidance",
+      "IV to PO Syndromic Step-Down Guidance"
+     ],
+     [
+      "/content/ltu-guidelines",
+      "LTU Guidelines"
+     ],
+     [
+      "/content/mpox-treatment",
+      "Mpox Treatment"
+     ],
+     [
+      "/content/necrotizing-enterocolitis-antibiotic-selection-duration-therapy",
+      "Necrotizing Enterocolitis/Spontaneous Intestinal Perforation: Antibiotic Selection & Duration of Therapy"
+     ],
+     [
+      "/content/necrotizing-soft-tissue-infection-nsti",
+      "Necrotizing Soft Tissue Infection (NSTI)"
+     ],
+     [
+      "/content/pediatric-appendicitis-clinical-algorithm-0",
+      "Pediatric Appendicitis Clinical Algorithm"
+     ],
+     [
+      "/content/pneumocystis-prophylaxis",
+      "Pneumocystis Prophylaxis"
+     ],
+     [
+      "/content/rsv-treatment",
+      "RSV Treatment"
+     ],
+     [
+      "/content/skin-and-skin-structure-infection",
+      "Skin and Skin Structure Infection"
+     ],
+     [
+      "/content/surgical-prophylaxis",
+      "Surgical Prophylaxis"
+     ],
+     [
+      "/content/surgical-prophylaxis-pediatrics",
+      "Surgical Prophylaxis Pediatrics"
+     ],
+     [
+      "/VIRGuideline",
+      "Vancomycin Infusion Reaction"
+     ],
+     [
+      "/content/vasf-intra-abdominal-infections-iai-treatment-guidelines",
+      "VASF Intra-abdominal Infections (IAI) Treatment Guidelines"
+     ],
+     [
+      "/content/vasf-outpatient-tuberculosis-evaluation",
+      "VASF Outpatient Tuberculosis Evaluation"
+     ],
+     [
+      "/content/vasf-spontaneous-bacterial-peritonitis-sbp-treatment-guidelines",
+      "VASF Spontaneous Bacterial Peritonitis (SBP) Treatment Guidelines"
+     ],
+     [
+      "/content/vasf-urinary-tract-infections-uti-treatment-guidelines",
+      "VASF Urinary Tract Infections (UTI) Treatment Guidelines"
+     ],
+     [
+      "/content/zsfg-adult-c-difficile-infection-guideline",
+      "ZSFG Adult C. difficile Infection Guideline"
+     ],
+     [
+      "/content/zsfg-hap-vap-empiric-antibiotic-guidelines",
+      "ZSFG HAP/VAP Empiric Antibiotic Guidelines"
+     ],
+     [
+      "/content/zsfg-oncology-antimicrobial-prophylaxis-guideline",
+      "ZSFG Oncology Antimicrobial Prophylaxis Guideline"
+     ],
+     [
+      "/content/zsfg-open-fracture-antibiotic-prophylaxis-protocol",
+      "ZSFG Open Fracture Antibiotic Prophylaxis Protocol"
+     ],
+     [
+      "/content/zsfg-penetrating-brain-injury-antibiotic-prophylaxis",
+      "ZSFG Penetrating Brain Injury Antibiotic Prophylaxis"
+     ],
+     [
+      "/content/zsfg-post-emergent-splenectomy-vaccination-guideline",
+      "ZSFG Post-Emergent Splenectomy Vaccination Guideline"
+     ],
+     [
+      "/content/zsfg-pre-splenectomy-vaccination-guideline",
+      "ZSFG Pre-Splenectomy Vaccination Guideline"
+     ],
+     [
+      "/content/zsfg-surgical-prophylaxis-guidelines",
+      "ZSFG Surgical Prophylaxis Guidelines"
+     ]
+    ]
+   },
+   {
+    "heading": "Diagnostic Testing",
+    "links": [
+     [
+      "/content/biofire-blood-culture-identification-bcid-panel-bch-oakland",
+      "Biofire Blood Culture Identification (BCID) Panel - BCH Oakland"
+     ],
+     [
+      "/content/blood-culture-guidelines-ucsf-medical-center",
+      "Blood Culture Guidelines - UCSF Medical Center"
+     ],
+     [
+      "/content/or-microbiology-specimen-collection",
+      "OR Microbiology Specimen Collection"
+     ],
+     [
+      "/content/procalcitonin",
+      "Procalcitonin"
+     ],
+     [
+      "/content/rapid-dx",
+      "Rapid Gram-positive Blood Culture"
+     ],
+     [
+      "/content/testy",
+      "testy"
+     ],
+     [
+      "/content/vzv-cns-infection-testing",
+      "VZV CNS Infection Testing"
+     ]
+    ]
+   },
+   {
+    "heading": "Policies, Procedures, & Protocols",
+    "links": [
+     [
+      "/content/bch-antimicrobial-lock-therapy-alt-policy",
+      "BCH Antimicrobial Lock Therapy (ALT) Policy"
+     ],
+     [
+      "/extendedinfusion",
+      "Extended Infusion Beta-Lactams"
+     ],
+     [
+      "/faq",
+      "Frequently Asked Questions (FAQs) Regarding Microbiology Results & Infectious Disease-Related Questions (UCSF West Bay Sites)"
+     ],
+     [
+      "/content/inpatient-process-for-ordering-restricted-antimicrobials-for-adults-at-ucsf",
+      "Inpatient Process for Ordering Restricted Antimicrobials for Adults at UCSF"
+     ],
+     [
+      "/content/outpatient-parenteral-antimicrobial-therapy-opat-job-aid-pediatric-ucsf",
+      "Outpatient Parenteral Antimicrobial Therapy (OPAT) Job Aid – Pediatric, UCSF"
+     ],
+     [
+      "/piptazoextendedinfusion",
+      "Piperacillin-tazobactam Extended Infusion"
+     ],
+     [
+      "/content/vancomycin-initial-dosing-nomogram",
+      "Vancomycin Initial Dosing Nomogram"
+     ],
+     [
+      "/content/vasf-beta-lactam-test-dosing-protocol",
+      "VASF Beta-Lactam Test Dosing Protocol"
+     ],
+     [
+      "/content/vasf-restricted-antimicrobials",
+      "VASF Restricted Antimicrobials"
+     ],
+     [
+      "/content/zsfg-inpatient-beta-lactam-allergy-test-dose-guidance",
+      "ZSFG Inpatient Beta-Lactam Allergy Test Dose Guidance"
+     ],
+     [
+      "/content/zsfg-restricted-antimicrobials-workflow",
+      "ZSFG Restricted Antimicrobials & Workflow"
+     ]
+    ]
+   }
+  ],
+  "path": "/guidelines-view",
+  "title": "Guidelines - All Sites"
+ },
+ "home": {
+  "groups": [
+   {
+    "heading": "What's New",
+    "links": [
+     [
+      "/content/influenza",
+      "Influenza"
+     ],
+     [
+      "/content/clostridioides-difficile-infection-0",
+      "Clostridioides Difficile Infection"
+     ],
+     [
+      "/content/surgical-prophylaxis",
+      "Surgical Prophylaxis"
+     ],
+     [
+      "/content/pneumocystis-prophylaxis",
+      "Pneumocystis Prophylaxis"
+     ],
+     [
+      "/content/zsfg-restricted-antimicrobials-workflow",
+      "ZSFG Restricted Antimicrobials & Workflow"
+     ]
+    ]
+   }
+  ],
+  "path": "/content/home",
+  "title": "Home"
+ },
+ "nav": [
+  [
+   "/content/about",
+   "About"
+  ],
+  [
+   "/people",
+   "People"
+  ],
+  [
+   "/content/influenza",
+   "Influenza"
+  ],
+  [
+   "/content/covid-19-treatment-guidance",
+   "COVID-19"
+  ],
+  [
+   "/content/guidelines-for-empiric-antimicrobial-therapy",
+   "Empiric Therapy"
+  ],
+  [
+   "/guidelines-for-empiric-therapy-adults",
+   "Adult"
+  ],
+  [
+   "/guidelines-for-empiric-therapy-pediatrics",
+   "Pediatrics"
+  ],
+  [
+   "/content/antimicrobial-dosing-guidelines",
+   "Dosing"
+  ],
+  [
+   "/adult-antimicrobial-dosing-non-dialysis",
+   "Adult Antimicrobial Dosing, Non-dialysis"
+  ],
+  [
+   "/antimicrobial-dosing-intermittent-continuous-hemodialysis",
+   "Adult Antimicrobial Dosing in Dialysis/CRRT"
+  ],
+  [
+   "/dosingupdate",
+   "Adult Antimicrobial Dosing Update Request"
+  ],
+  [
+   "/pediatric-antimicrobial-dosing-benioff-childrens-hospitals",
+   "Pediatric Antimicrobial Dosing"
+  ],
+  [
+   "/neonatal-antimicrobial-dosing-benioff-childrens-hospitals",
+   "Neonatal Antimicrobial Dosing"
+  ],
+  [
+   "/guidelines-view",
+   "Guidelines"
+  ],
+  [
+   "/guidelines-ucsf-adults",
+   "UCSF Adult Guidelines"
+  ],
+  [
+   "/guidelines-ucsf-peds",
+   "UCSF Pediatrics Guidelines"
+  ],
+  [
+   "/guidelines-zsfgh",
+   "ZSFG Guidelines"
+  ],
+  [
+   "/guidelines-vasf",
+   "VASF Guidelines"
+  ],
+  [
+   "/content/antibiograms",
+   "Antibiograms"
+  ],
+  [
+   "/content/antimicrobial-susceptibility-at-ucsf-adult-hospitals",
+   "UCSF Adult Antibiogram"
+  ],
+  [
+   "/content/antimicrobial-susceptibility-at-ucsf-benioff-childrens-hospital-san-francisco",
+   "UCSF Benioff Children's Hospital San Francisco Antibiogram"
+  ],
+  [
+   "/content/antibiogram-ucsf-benioff-childrens-hospital-oakland",
+   "UCSF Benioff Children's Hospital Oakland Antibiogram"
+  ],
+  [
+   "/content/antimicrobial-susceptibility-at-zuckerberg-san-francisco-general-laguna-honda-hospital",
+   "ZSFG/LHH Antibiograms"
+  ],
+  [
+   "/content/antimicrobial-susceptibility-at-san-francisco-veterans-affairs-va-medical-center",
+   "VASF Antibiograms"
+  ],
+  [
+   "/content/metrics",
+   "Metrics"
+  ],
+  [
+   "/contact",
+   "Contact Us"
+  ]
+ ],
+ "node_paths": {
+  "10056": "/people/jennifer-mulliken-md",
+  "10061": "/people/alexandra-horeczko",
+  "10161": "/people/katherine-yang-pharmd-mph",
+  "10181": "/people/rachel-bystritsky-md",
+  "10411": "/people/lynn-ramirez-md-ms",
+  "10646": "/people/chaz-langelier-md-phd",
+  "11301": "/people/charles-chiu-md-phd",
+  "11561": "/people/lisa-winston-md",
+  "11571": "/content/artesunate",
+  "11581": "/content/valganciclovir-valcyte",
+  "11586": "/content/baloxavir-marboxil",
+  "11591": "/content/cefiderocol",
+  "11596": "/content/ceftaroline",
+  "11601": "/content/ceftolozane-tazobactam-zerbaxa",
+  "11606": "/content/ceftazidime-avibactam-avycaz",
+  "11611": "/content/cidofovir",
+  "11616": "/content/clofazimine",
+  "11621": "/content/colistin-iv",
+  "11626": "/content/dalbavancin",
+  "11631": "/content/eravacycline",
+  "11636": "/content/fidaxomicin",
+  "11641": "/content/flucytosine",
+  "11651": "/content/fosfomycin-po",
+  "11656": "/content/imipenem-cilastatin",
+  "11661": "/content/imipenem-cilastatin-relebactam",
+  "11666": "/content/letermovir",
+  "11671": "/content/meropenem-vaborbactam",
+  "11676": "/content/minocycline",
+  "11681": "/content/moxifloxacin",
+  "11686": "/content/nitrofurantoin-macrobid",
+  "11691": "/content/omadacycline",
+  "11696": "/content/oritavancin",
+  "11701": "/content/peramivir",
+  "11706": "/content/plazomicin",
+  "11711": "/content/polymyxin-b",
+  "11716": "/content/ribavirin",
+  "11721": "/content/tedizolid",
+  "11726": "/content/tigecycline",
+  "11731": "/content/procalcitonin",
+  "11736": "/content/vzv-cns-infection-testing",
+  "11741": "/content/or-microbiology-specimen-collection",
+  "11746": "/content/surgical-prophylaxis",
+  "11751": "/content/code-sepsis",
+  "11871": "/content/ltu-guidelines",
+  "11886": "/content/hbv-prophylaxis",
+  "11896": "/content/clostridioides-difficile-infection-0",
+  "11901": "/content/hospital-acquired-pneumonia",
+  "11906": "/content/skin-and-skin-structure-infection",
+  "11911": "/content/febrile-neutropenia",
+  "11916": "/content/rsv-treatment",
+  "11921": "/content/zsfg-restricted-antimicrobials-workflow",
+  "11931": "/content/vasf-restricted-antimicrobials",
+  "11936": "/content/inpatient-process-for-ordering-restricted-antimicrobials-for-adults-at-ucsf",
+  "11941": "/content/benioff-childrens-hospitals-guidelines-for-fever-in-patients-receiving-cancer-therapy-and-or",
+  "11946": "/content/emergency-department-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or",
+  "11951": "/content/necrotizing-enterocolitis-antibiotic-selection-duration-therapy",
+  "11961": "/content/guidelines-for-sepsis-in-the-icn",
+  "11966": "/content/pediatric-appendicitis-clinical-algorithm-0",
+  "11971": "/content/antimicrobial-prophylaxis-guidelines-for-pediatric-cardiac-surgery-patients",
+  "11976": "/content/pharyngitis",
+  "11981": "/content/chronic-bacterial-sinusitis",
+  "12051": "/content/brain-abscess",
+  "12071": "/content/pneumonia-hospital-acquired-or-ventilator-associated",
+  "12076": "/content/fever-in-a-person-who-injects-drugs",
+  "12081": "/content/community-acquired-sepsis-with-unknown-source",
+  "12086": "/content/healthcare-acquired-sepsis-with-unknown-source",
+  "12091": "/content/outpatient-treatment-of-low-risk-neutropenic-fever",
+  "12096": "/content/high-risk-neutropenic-fever",
+  "12101": "/content/suspected-infection-in-an-end-stage-liver-disease-patient-being-evaluated-for-transplantation-at",
+  "12136": "/content/cellulitis-abscess-cutaneous-ulcer-disease-necrotizing-fasciitis",
+  "12161": "/people/prachi-singh-do",
+  "12171": "/content/steve-grapentine",
+  "12221": "/content/antibiogram-ucsf-benioff-childrens-hospital-oakland",
+  "12231": "/content/ganciclovir",
+  "12496": "/people/vivek-jain-md-mas",
+  "12601": "/content/influenza",
+  "12741": "/people/jennifer-babik-md-phd",
+  "12751": "/content/sexually-transmitted-infections",
+  "12776": "/content/theora-canonica-pharmd",
+  "12816": "/content/rapid-dx",
+  "12821": "/content/antibiotic-lock-therapy",
+  "13201": "/content/antimicrobial-susceptibility-at-ucsf-adult-hospitals",
+  "13236": "/content/breast-tissue-expander-infection",
+  "13241": "/content/antimicrobial-guidebook-sfva",
+  "13316": "/content/osteomyelitis",
+  "13321": "/content/septic-arthritis",
+  "13326": "/content/meningitis-0",
+  "13331": "/content/intracranial-abscess",
+  "13336": "/content/congenital-cytomegalovirus-disease",
+  "13341": "/content/neonatal-herpes-simplex-virus-disease",
+  "13346": "/content/congenital-syphilis",
+  "13351": "/content/ophthalmia-neonatorum",
+  "13356": "/content/bacterial-gastroenteritis",
+  "13361": "/content/clostridioides-difficile-infection",
+  "13371": "/content/helicobacter-pylori-infection",
+  "13376": "/content/fever-without-a-source-young-infant",
+  "13381": "/content/dental-infection",
+  "13386": "/content/peritonsillar-retropharyngeal-abscess",
+  "13391": "/content/lymphadenitis",
+  "13396": "/content/mastoiditis",
+  "13401": "/content/conjunctivitis-infants-children-adolescents",
+  "13406": "/content/orbital-cellulitis-abscess",
+  "13411": "/content/periorbital-preseptal-cellulitis",
+  "13416": "/content/healthcare-associated-intra-abdominal-infections",
+  "13421": "/content/community-acquired-pneumonia",
+  "13426": "/content/aspiration-pneumonia",
+  "13431": "/content/healthcare-acquired-or-ventilator-associated-pneumonia",
+  "13436": "/content/pertussis",
+  "13441": "/content/acute-otitis-media",
+  "13446": "/content/streptococcal-pharyngitis",
+  "13451": "/content/acute-bacterial-sinusitis-0",
+  "13456": "/content/tuberculosis",
+  "13461": "/content/severe-sepsis-previously-healthy-infant-or-child",
+  "13466": "/content/severe-sepsis-children-with-healthcare-exposure-or-comorbidities",
+  "13471": "/content/abscess",
+  "13476": "/content/cellulitis-0",
+  "13481": "/content/necrotizing-fasciitis",
+  "13486": "/content/bite-wound",
+  "13491": "/content/bacterial-vaginosis",
+  "13496": "/content/chlamydia",
+  "13501": "/content/gonorrhea",
+  "13506": "/content/pelvic-inflammatory-disease",
+  "13511": "/content/syphilis",
+  "13516": "/content/trichomoniasis",
+  "13521": "/content/prophylaxis-after-sexual-assault",
+  "13526": "/content/urinary-tract-infections-community-onset",
+  "13531": "/content/urinary-tract-infections-hospital-onset",
+  "13536": "/content/coronavirus-disease-2019-covid-19",
+  "13541": "/content/influenza-0",
+  "13546": "/content/herpes-simplex-virus-disease-outside-neonatal-period",
+  "13551": "/content/varicella-zoster-virus",
+  "13556": "/content/assessment-of-antibiotic-allergies",
+  "13561": "/content/antibiotic-stewardship-and-spectrum-guide",
+  "13566": "/content/safety-criteria-for-ceftriaxone-administration-to-neonates",
+  "13571": "/content/pediatric-vancomycin-dosing-and-monitoring-recommendations",
+  "13576": "/content/maximum-dosing-for-amoxicillin-and-amoxicillin-clavulanate-0",
+  "13636": "/content/asp-adults-nhsn-au-dashboard",
+  "13646": "/content/metrics",
+  "13691": "/content/oral-cephalosporin-options-for-respiratory-tract-infections",
+  "13696": "/content/proton-pump-inhibitor-options-for-h-pylori-therapy",
+  "13706": "/content/gram-negative-bloodstream-infection",
+  "13761": "/content/clostridioides-difficile-infection-cdi-treatment-guidelines-sfva",
+  "13826": "/content/empiric-antimicrobial-treatment-of-pediatric-patients-with-liver-failure-and-or-early-post-liver",
+  "13946": "/content/micafungin",
+  "13961": "/content/zsfg-adult-c-difficile-infection-guideline",
+  "14096": "/content/cefuroxime-axetil",
+  "14101": "/content/cephalexin",
+  "14106": "/content/molnupiravir",
+  "14111": "/content/nirmatrelvir-ritonavir-paxlovid",
+  "14116": "/content/remdesivir-0",
+  "14176": "/content/zsfg-pre-splenectomy-vaccination-guideline",
+  "14181": "/content/zsfg-post-emergent-splenectomy-vaccination-guideline",
+  "14211": "/content/zsfg-open-fracture-antibiotic-prophylaxis-protocol",
+  "14216": "/content/maribavir",
+  "14221": "/people/emily-kaip-pharmd",
+  "14251": "/people/daniel-escobar-md-ms",
+  "14306": "/people/cynthia-huwe",
+  "14321": "/content/testy",
+  "14341": "/content/pelvic-inflammatory-disease-0",
+  "14526": "/content/zsfg-penetrating-brain-injury-antibiotic-prophylaxis",
+  "14591": "/content/mpox-treatment",
+  "14646": "/ucsf-adult-antibiogram-GN-2024",
+  "14651": "/ucsf-adult-antibiogram-GP-2024",
+  "14656": "/ucsf-adult-antibiogram-outpatient-2024",
+  "14711": "/dosingupdate",
+  "14721": "/content/chorioamnionitis-and-endometritis",
+  "14726": "/extendedinfusion",
+  "14741": "/content/miltefosine",
+  "14746": "/content/pentamidine-iv",
+  "14766": "/content/surgical-prophylaxis-pediatrics",
+  "14776": "/content/zsfg-inpatient-beta-lactam-allergy-test-dose-guidance",
+  "14791": "/content/urinary-tract-infection-uti",
+  "14796": "/content/diarrhea",
+  "14861": "/content/abdominal-infections",
+  "14941": "/content/zsfg-hap-vap-empiric-antibiotic-guidelines",
+  "14971": "/content/vasf-spontaneous-bacterial-peritonitis-sbp-treatment-guidelines",
+  "14976": "/content/vasf-urinary-tract-infections-uti-treatment-guidelines",
+  "14981": "/content/community-acquired-pneumonia-cap-treatment-guidelines-sfva",
+  "14986": "/content/vasf-intra-abdominal-infections-iai-treatment-guidelines",
+  "14996": "/content/vasf-beta-lactam-test-dosing-protocol",
+  "15056": "/content/community-acquired-pneumonia-0",
+  "15061": "/content/vancomycin-initial-dosing-nomogram",
+  "15086": "/VIRGuideline",
+  "15096": "/content/cefoxitin",
+  "15146": "/content/azole-therapeutic-drug-monitoring",
+  "15211": "/content/prolonged-fever-with-ongoing-neutropenia-algorithm-fever-in-pediatric-patients-receiving-cancer",
+  "15216": "/content/fecal-microbiota-spores-live-brpk-vowst",
+  "15226": "/content/rifabutin",
+  "15231": "/content/sulbactam-durlobactam",
+  "15236": "/content/biofire-blood-culture-identification-bcid-panel-bch-oakland",
+  "15241": "/content/ucsf-adult-outpatient-susceptibility-data-e-coli-urine-isolates",
+  "15251": "/faq",
+  "15266": "/people/william-simmons-md",
+  "15271": "/content/blood-culture-guidelines-ucsf-medical-center",
+  "15321": "/content/zsfg-oncology-antimicrobial-prophylaxis-guideline",
+  "15346": "/content/acyclovir-po",
+  "15351": "/content/valacyclovir",
+  "15356": "/content/covid-19-treatment-guidance",
+  "15371": "/content/guidelines-for-blood-culture-pcr-results-sfva",
+  "15381": "/content/clara-lee-pharmd-bcps",
+  "15401": "/piptazoextendedinfusion",
+  "15406": "/content/amikacin",
+  "15411": "/content/gentamicin",
+  "15416": "/content/tobramycin",
+  "15421": "/content/iv-to-po-syndromic-step-down-guidance",
+  "15506": "/content/dapsone",
+  "15511": "/content/pentamidine-aerosolized",
+  "15516": "/content/atovaquone",
+  "15601": "/content/penicillin-vk-oral",
+  "15606": "/content/cefdinir",
+  "15611": "/content/cefpodoxime",
+  "15651": "/content/amanda-roy",
+  "15696": "/content/adult-appendicitis-pathway",
+  "15736": "/content/foscarnet",
+  "15741": "/content/aspiration-pneumonia-0",
+  "15936": "/content/amoxicillin",
+  "16046": "/content/pneumocystis-prophylaxis",
+  "16066": "/content/aminoglycoside-guidelines-pediatrics-ucsf",
+  "16071": "/content/antifungal-dosing-guidance-and-tdm-pediatrics-ucsf",
+  "16076": "/content/bch-antimicrobial-lock-therapy-alt-policy",
+  "16081": "/content/outpatient-parenteral-antimicrobial-therapy-opat-job-aid-pediatric-ucsf",
+  "16091": "/content/vasf-stepwise-hospital-acquired-and-ventilator-associated-pneumonia-hap-vap-treatment-algorithm",
+  "16101": "/content/necrotizing-soft-tissue-infection-nsti",
+  "16111": "/kocher-criteria-hip",
+  "16116": "/content/zanamivir",
+  "16221": "/content/bayesian-tdm-job-aid-aminoglycosides-vancomycin-pediatric",
+  "16271": "/content/aztreonam-avibactam",
+  "16276": "/people/victoria-dudas-pharmd",
+  "16286": "/content/vasf-outpatient-tuberculosis-evaluation",
+  "16651": "/content/a-machine-learning-model-to-predict-optimal-antibiotic-use-in-hospital-medicine-patients",
+  "16756": "/content/inter-rater-reliability-assessment-of-antibiotic-prescription-quality-by-infectious-diseases",
+  "17191": "/content/early-discontinuation-of-empiric-antibiotics-in-pediatric-haploidentical-hematopoietic-cell",
+  "18191": "/content/infective-endocarditis",
+  "18221": "/content/expanding-the-pipeline-for-multipurpose-prevention-technologies-compounds-with-potential-activity-to",
+  "19261": "/content/the-impact-of-clinical-metagenomic-testing-on-patient-management-facts-versus-fantasy",
+  "20606": "/content/not-the-usual-suspect",
+  "21001": "/content/the-role-of-the-popliteal-angle-as-an-indicator-for-hamstring-lengthening-to-treat-a-flexed-knee",
+  "22661": "/content/retrospective-validation-study-of-a-large-language-model-approach-to-screening-for-intraabdominal",
+  "26796": "/content/development-and-initial-validation-of-a-practical-instrument-supporting-clinical-reasoning-and-self",
+  "26811": "/content/virus-reactivation-in-acute-and-long-covid-19",
+  "26831": "/content/pediatric-empiric-antibiotic-use-and-resistance-patterns-at-a-single-tertiary-care-hospital-in",
+  "26836": "/content/optimizing-a-hematology-oncology-curriculum-for-internal-medicine-residents-a-two-institution",
+  "6926": "/content/inpatient-non-neutropenic-fever-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and",
+  "6931": "/content/inpatient-re-assessment-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or",
+  "6936": "/content/initial-inpatient-management-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or",
+  "6941": "/content/alternative-antibiotics-for-patients-with-beta-lactam-allergy-for-ucsf-benioff-childrens-hospitals",
+  "7036": "/content/empiric-treatment-of-suspected-infection-in-a-previously-healthy-neonatal-pediatric-patient-with",
+  "7076": "/content/antibiograms",
+  "7351": "/neonatal-antimicrobial-dosing-benioff-childrens-hospitals",
+  "7556": "/content/antimicrobial-susceptibility-at-san-francisco-veterans-affairs-va-medical-center",
+  "7571": "/content/antimicrobial-susceptibility-at-zuckerberg-san-francisco-general-laguna-honda-hospital",
+  "7591": "/content/antimicrobial-susceptibility-at-ucsf-benioff-childrens-hospital-san-francisco",
+  "7596": "/content/antimicrobial-susceptibility-testing-methodology",
+  "7626": "/pediatric-antimicrobial-dosing-benioff-childrens-hospitals",
+  "7926": "/content/antimicrobial-dosing-guidelines",
+  "7941": "/content/guidelines-for-empiric-antimicrobial-therapy",
+  "7946": "/content/about",
+  "8231": "/content/home",
+  "8236": "/content/acyclovir-iv",
+  "8241": "/content/ambisome-liposomal-amphotericin-b",
+  "8246": "/content/ampicillin-0",
+  "8266": "/content/azithromycin",
+  "8271": "/content/aztreonam",
+  "8281": "/content/daptomycin",
+  "8286": "/content/cefazolin",
+  "8306": "/content/ampicillin-sulbactam-unasyn",
+  "8311": "/content/amoxicillin-clavulanate",
+  "8321": "/content/cefepime",
+  "8326": "/content/ceftazidime",
+  "8331": "/content/ceftriaxone",
+  "8336": "/content/ciprofloxacin",
+  "8341": "/content/clindamycin",
+  "8346": "/content/doxycycline",
+  "8351": "/content/ethambutol",
+  "8356": "/content/ertapenem",
+  "8366": "/content/fluconazole",
+  "8376": "/content/isoniazid",
+  "8386": "/content/isavuconazole",
+  "8391": "/content/levofloxacin",
+  "8396": "/content/linezolid",
+  "8401": "/content/meropenem",
+  "8406": "/content/metronidazole",
+  "8421": "/content/nafcillin",
+  "8426": "/content/oseltamivir",
+  "8431": "/content/penicillin-g-potassium-aqueous-iv",
+  "8436": "/content/piperacillin-tazobactam-zosyn",
+  "8446": "/content/posaconazole",
+  "8451": "/content/pyrazinamide",
+  "8456": "/content/rifampin",
+  "8466": "/content/tmp-smx-trimethoprim-sulfamethoxazole",
+  "8471": "/content/vancomycin-iv",
+  "8476": "/content/vancomycin-po",
+  "8481": "/content/voriconazole",
+  "8786": "/people/conan-macdougall-pharmd-mas",
+  "8986": "/people/sarah-doernberg-md-mas",
+  "9001": "/content/meningitis",
+  "9006": "/content/epidural-abscess",
+  "9021": "/content/bites-0",
+  "9026": "/content/septic-arthritis-no-hardware-in-place",
+  "9031": "/content/non-vertebral-osteomyelitis",
+  "9136": "/people/rachel-wattier-md-mhs",
+  "9141": "/content/peritonsillar-abscess",
+  "9146": "/content/acute-bacterial-sinusitis",
+  "9161": "/content/any-bone-joint-infection-with-hardware-in-place",
+  "9166": "/content/vertebral-osteomyelitis-no-hardware-in-place",
+  "9176": "/content/acute-bronchitis",
+  "9181": "/content/acute-bacterial-exacerbation-of-chronic-bronchitis-copd",
+  "9196": "/content/zsfg-surgical-prophylaxis-guidelines",
+  "9796": "/people/deborah-yokoe-md-mph",
+  "9856": "/content/allergy-beta-lactam"
+ },
+ "page_aliases": {
+  "/VIRGuideline": [
+   "/VIRGuideline"
+  ],
+  "/content/a-machine-learning-model-to-predict-optimal-antibiotic-use-in-hospital-medicine-patients": [
+   "/content/a-machine-learning-model-to-predict-optimal-antibiotic-use-in-hospital-medicine-patients"
+  ],
+  "/content/abdominal-infections": [
+   "/content/abdominal-infections"
+  ],
+  "/content/about": [
+   "/content/about"
+  ],
+  "/content/abscess": [
+   "/content/abscess"
+  ],
+  "/content/acute-bacterial-exacerbation-of-chronic-bronchitis-copd": [
+   "/content/acute-bacterial-exacerbation-of-chronic-bronchitis-copd"
+  ],
+  "/content/acute-bacterial-sinusitis": [
+   "/content/acute-bacterial-sinusitis"
+  ],
+  "/content/acute-bacterial-sinusitis-0": [
+   "/content/acute-bacterial-sinusitis-0"
+  ],
+  "/content/acute-bronchitis": [
+   "/content/acute-bronchitis"
+  ],
+  "/content/acute-otitis-media": [
+   "/content/acute-otitis-media"
+  ],
+  "/content/acyclovir-iv": [
+   "/content/acyclovir-iv"
+  ],
+  "/content/acyclovir-po": [
+   "/content/acyclovir-po"
+  ],
+  "/content/adult-appendicitis-pathway": [
+   "/content/adult-appendicitis-pathway"
+  ],
+  "/content/allergy-beta-lactam": [
+   "/content/inpatient-beta-lactam-allergy-guideline",
+   "/content/allergy-beta-lactam"
+  ],
+  "/content/alternative-antibiotics-for-patients-with-beta-lactam-allergy-for-ucsf-benioff-childrens-hospitals": [
+   "/content/alternative-antibiotics-for-patients-with-beta-lactam-allergy-for-ucsf-benioff-childrens-hospitals"
+  ],
+  "/content/amanda-roy": [
+   "/content/amanda-roy"
+  ],
+  "/content/ambisome-liposomal-amphotericin-b": [
+   "/content/ambisome-liposomal-amphotericin-b"
+  ],
+  "/content/amikacin": [
+   "/content/amikacin"
+  ],
+  "/content/aminoglycoside-guidelines-pediatrics-ucsf": [
+   "/content/aminoglycoside-guidelines-pediatrics-ucsf"
+  ],
+  "/content/amoxicillin": [
+   "/content/amoxicillin"
+  ],
+  "/content/amoxicillin-clavulanate": [
+   "/content/amoxicillin-clavulanate"
+  ],
+  "/content/ampicillin-0": [
+   "/content/ampicillin-0"
+  ],
+  "/content/ampicillin-sulbactam-unasyn": [
+   "/content/ampicillin-sulbactam-unasyn"
+  ],
+  "/content/antibiogram-ucsf-benioff-childrens-hospital-oakland": [
+   "/content/antibiogram-ucsf-benioff-childrens-hospital-oakland"
+  ],
+  "/content/antibiograms": [
+   "/content/antibiograms"
+  ],
+  "/content/antibiotic-lock-therapy": [
+   "/content/antibiotic-lock-therapy"
+  ],
+  "/content/antibiotic-stewardship-and-spectrum-guide": [
+   "/content/antibiotic-stewardship-and-spectrum-guide"
+  ],
+  "/content/antifungal-dosing-guidance-and-tdm-pediatrics-ucsf": [
+   "/content/antifungal-dosing-guidance-and-tdm-pediatrics-ucsf"
+  ],
+  "/content/antimicrobial-dosing-guidelines": [
+   "/content/antimicrobial-dosing-guidelines",
+   "/antimicrobial-dosing-guidelines"
+  ],
+  "/content/antimicrobial-guidebook-sfva": [
+   "/content/antimicrobial-guidebook-sfva",
+   "/content/vasf-antimicrobial-guidebook"
+  ],
+  "/content/antimicrobial-prophylaxis-guidelines-for-pediatric-cardiac-surgery-patients": [
+   "/content/antimicrobial-prophylaxis-guidelines-for-pediatric-cardiac-surgery-patients"
+  ],
+  "/content/antimicrobial-susceptibility-at-san-francisco-veterans-affairs-va-medical-center": [
+   "/content/antimicrobial-susceptibility-at-san-francisco-veterans-affairs-va-medical-center"
+  ],
+  "/content/antimicrobial-susceptibility-at-ucsf-adult-hospitals": [
+   "/content/antimicrobial-susceptibility-at-ucsf-adult-hospitals"
+  ],
+  "/content/antimicrobial-susceptibility-at-ucsf-benioff-childrens-hospital-san-francisco": [
+   "/content/antimicrobial-susceptibility-at-ucsf-benioff-childrens-hospital-san-francisco"
+  ],
+  "/content/antimicrobial-susceptibility-at-zuckerberg-san-francisco-general-laguna-honda-hospital": [
+   "/content/antimicrobial-susceptibility-at-zuckerberg-san-francisco-general-laguna-honda-hospital"
+  ],
+  "/content/antimicrobial-susceptibility-testing-methodology": [
+   "/antimicrobial-susceptibility-testing-methodology"
+  ],
+  "/content/any-bone-joint-infection-with-hardware-in-place": [
+   "/content/any-bone-joint-infection-with-hardware-in-place"
+  ],
+  "/content/artesunate": [
+   "/content/artesunate"
+  ],
+  "/content/asp-adults-nhsn-au-dashboard": [
+   "/content/asp-adults-nhsn-au-dashboard"
+  ],
+  "/content/aspiration-pneumonia": [
+   "/content/aspiration-pneumonia"
+  ],
+  "/content/aspiration-pneumonia-0": [
+   "/content/aspiration-pneumonia-0"
+  ],
+  "/content/assessment-of-antibiotic-allergies": [
+   "/content/assessment-of-antibiotic-allergies"
+  ],
+  "/content/atovaquone": [
+   "/content/atovaquone"
+  ],
+  "/content/azithromycin": [
+   "/content/azithromycin"
+  ],
+  "/content/azole-therapeutic-drug-monitoring": [
+   "/content/azole-therapeutic-drug-monitoring"
+  ],
+  "/content/aztreonam": [
+   "/content/aztreonam"
+  ],
+  "/content/aztreonam-avibactam": [
+   "/content/aztreonam-avibactam"
+  ],
+  "/content/bacterial-gastroenteritis": [
+   "/content/bacterial-gastroenteritis"
+  ],
+  "/content/bacterial-vaginosis": [
+   "/content/bacterial-vaginosis"
+  ],
+  "/content/baloxavir-marboxil": [
+   "/content/baloxavir-marboxil"
+  ],
+  "/content/bayesian-tdm-job-aid-aminoglycosides-vancomycin-pediatric": [
+   "/content/bayesian-tdm-job-aid-aminoglycosides-vancomycin-pediatric"
+  ],
+  "/content/bch-antimicrobial-lock-therapy-alt-policy": [
+   "/content/bch-antimicrobial-lock-therapy-alt-policy"
+  ],
+  "/content/benioff-childrens-hospitals-guidelines-for-fever-in-patients-receiving-cancer-therapy-and-or": [
+   "/content/benioff-childrens-hospitals-guidelines-for-fever-in-patients-receiving-cancer-therapy-and-or",
+   "/content/management-fever-pediatric-oncology-and-bmt-patients"
+  ],
+  "/content/biofire-blood-culture-identification-bcid-panel-bch-oakland": [
+   "/content/biofire-blood-culture-identification-bcid-panel-bch-oakland"
+  ],
+  "/content/bite-wound": [
+   "/content/bite-wound"
+  ],
+  "/content/bites-0": [
+   "/content/bites-0"
+  ],
+  "/content/blood-culture-guidelines-ucsf-medical-center": [
+   "/content/blood-culture-guidelines-ucsf-medical-center"
+  ],
+  "/content/brain-abscess": [
+   "/content/brain-abscess"
+  ],
+  "/content/breast-tissue-expander-infection": [
+   "/content/breast-tissue-expander-infection"
+  ],
+  "/content/cefazolin": [
+   "/content/cefazolin"
+  ],
+  "/content/cefdinir": [
+   "/content/cefdinir"
+  ],
+  "/content/cefepime": [
+   "/content/cefepime"
+  ],
+  "/content/cefiderocol": [
+   "/content/cefiderocol"
+  ],
+  "/content/cefoxitin": [
+   "/content/cefoxitin"
+  ],
+  "/content/cefpodoxime": [
+   "/content/cefpodoxime"
+  ],
+  "/content/ceftaroline": [
+   "/content/ceftaroline"
+  ],
+  "/content/ceftazidime": [
+   "/content/ceftazidime"
+  ],
+  "/content/ceftazidime-avibactam-avycaz": [
+   "/content/ceftazidime-avibactam-avycaz"
+  ],
+  "/content/ceftolozane-tazobactam-zerbaxa": [
+   "/content/ceftolozane-tazobactam-zerbaxa"
+  ],
+  "/content/ceftriaxone": [
+   "/content/ceftriaxone"
+  ],
+  "/content/cefuroxime-axetil": [
+   "/content/cefuroxime-axetil"
+  ],
+  "/content/cellulitis-0": [
+   "/content/cellulitis-0"
+  ],
+  "/content/cellulitis-abscess-cutaneous-ulcer-disease-necrotizing-fasciitis": [
+   "/content/cellulitis-abscess-cutaneous-ulcer-disease-necrotizing-fasciitis"
+  ],
+  "/content/cephalexin": [
+   "/content/cephalexin"
+  ],
+  "/content/chlamydia": [
+   "/content/chlamydia"
+  ],
+  "/content/chorioamnionitis-and-endometritis": [
+   "/content/chorioamnionitis-and-endometritis"
+  ],
+  "/content/chronic-bacterial-sinusitis": [
+   "/content/chronic-bacterial-sinusitis"
+  ],
+  "/content/cidofovir": [
+   "/content/cidofovir"
+  ],
+  "/content/ciprofloxacin": [
+   "/content/ciprofloxacin"
+  ],
+  "/content/clara-lee-pharmd-bcps": [
+   "/content/clara-lee-pharmd-bcps"
+  ],
+  "/content/clindamycin": [
+   "/content/clindamycin"
+  ],
+  "/content/clofazimine": [
+   "/content/clofazimine"
+  ],
+  "/content/clostridioides-difficile-infection": [
+   "/content/clostridioides-difficile-infection"
+  ],
+  "/content/clostridioides-difficile-infection-0": [
+   "/content/clostridioides-difficile-infection-0"
+  ],
+  "/content/clostridioides-difficile-infection-cdi-treatment-guidelines-sfva": [
+   "/content/clostridioides-difficile-infection-cdi-treatment-guidelines-sfva",
+   "/content/san-francisco-va-medical-center-guidelines-treatment-diarrhea-associated-clostridioides"
+  ],
+  "/content/code-sepsis": [
+   "/content/code-sepsis"
+  ],
+  "/content/colistin-iv": [
+   "/content/colistin-iv"
+  ],
+  "/content/community-acquired-pneumonia": [
+   "/content/community-acquired-pneumonia"
+  ],
+  "/content/community-acquired-pneumonia-0": [
+   "/content/community-acquired-pneumonia-0"
+  ],
+  "/content/community-acquired-pneumonia-cap-treatment-guidelines-sfva": [
+   "/content/community-acquired-pneumonia-cap-treatment-guidelines-sfva"
+  ],
+  "/content/community-acquired-sepsis-with-unknown-source": [
+   "/content/community-acquired-sepsis-with-unknown-source"
+  ],
+  "/content/congenital-cytomegalovirus-disease": [
+   "/content/congenital-cytomegalovirus-disease"
+  ],
+  "/content/congenital-syphilis": [
+   "/content/congenital-syphilis"
+  ],
+  "/content/conjunctivitis-infants-children-adolescents": [
+   "/content/conjunctivitis-infants-children-adolescents"
+  ],
+  "/content/coronavirus-disease-2019-covid-19": [
+   "/content/coronavirus-disease-2019-covid-19"
+  ],
+  "/content/covid-19-treatment-guidance": [
+   "/content/covid-19-treatment-guidance"
+  ],
+  "/content/dalbavancin": [
+   "/content/dalbavancin"
+  ],
+  "/content/dapsone": [
+   "/content/dapsone"
+  ],
+  "/content/daptomycin": [
+   "/content/daptomycin"
+  ],
+  "/content/dental-infection": [
+   "/content/dental-infection"
+  ],
+  "/content/development-and-initial-validation-of-a-practical-instrument-supporting-clinical-reasoning-and-self": [
+   "/content/development-and-initial-validation-of-a-practical-instrument-supporting-clinical-reasoning-and-self"
+  ],
+  "/content/diarrhea": [
+   "/content/diarrhea"
+  ],
+  "/content/doxycycline": [
+   "/content/doxycycline"
+  ],
+  "/content/early-discontinuation-of-empiric-antibiotics-in-pediatric-haploidentical-hematopoietic-cell": [
+   "/content/early-discontinuation-of-empiric-antibiotics-in-pediatric-haploidentical-hematopoietic-cell"
+  ],
+  "/content/emergency-department-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or": [
+   "/content/emergency-department-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or"
+  ],
+  "/content/empiric-antimicrobial-treatment-of-pediatric-patients-with-liver-failure-and-or-early-post-liver": [
+   "/content/empiric-antimicrobial-treatment-of-pediatric-patients-with-liver-failure-and-or-early-post-liver"
+  ],
+  "/content/empiric-treatment-of-suspected-infection-in-a-previously-healthy-neonatal-pediatric-patient-with": [
+   "/empiric-treatment-suspected-infection-previously-healthy-neonatalpediatric-patient-acute-liver"
+  ],
+  "/content/epidural-abscess": [
+   "/content/epidural-abscess"
+  ],
+  "/content/eravacycline": [
+   "/content/eravacycline"
+  ],
+  "/content/ertapenem": [
+   "/content/ertapenem"
+  ],
+  "/content/ethambutol": [
+   "/content/ethambutol"
+  ],
+  "/content/expanding-the-pipeline-for-multipurpose-prevention-technologies-compounds-with-potential-activity-to": [
+   "/content/expanding-the-pipeline-for-multipurpose-prevention-technologies-compounds-with-potential-activity-to"
+  ],
+  "/content/febrile-neutropenia": [
+   "/content/febrile-neutropenia",
+   "/content/guidelines-inpatient-management-febrile-neutropenia"
+  ],
+  "/content/fecal-microbiota-spores-live-brpk-vowst": [
+   "/content/fecal-microbiota-spores-live-brpk-vowst"
+  ],
+  "/content/fever-in-a-person-who-injects-drugs": [
+   "/content/fever-in-a-person-who-injects-drugs"
+  ],
+  "/content/fever-without-a-source-young-infant": [
+   "/content/fever-without-a-source-young-infant"
+  ],
+  "/content/fidaxomicin": [
+   "/content/fidaxomicin"
+  ],
+  "/content/fluconazole": [
+   "/content/fluconazole"
+  ],
+  "/content/flucytosine": [
+   "/content/flucytosine"
+  ],
+  "/content/foscarnet": [
+   "/content/foscarnet"
+  ],
+  "/content/fosfomycin-po": [
+   "/content/fosfomycin-po"
+  ],
+  "/content/ganciclovir": [
+   "/content/ganciclovir"
+  ],
+  "/content/gentamicin": [
+   "/content/gentamicin"
+  ],
+  "/content/gonorrhea": [
+   "/content/gonorrhea"
+  ],
+  "/content/gram-negative-bloodstream-infection": [
+   "/content/gram-negative-bloodstream-infection"
+  ],
+  "/content/guidelines-for-blood-culture-pcr-results-sfva": [
+   "/content/guidelines-for-blood-culture-pcr-results-sfva"
+  ],
+  "/content/guidelines-for-empiric-antimicrobial-therapy": [
+   "/content/guidelines-for-empiric-antimicrobial-therapy",
+   "/guidelines-empiric-antimicrobial-therapy"
+  ],
+  "/content/guidelines-for-sepsis-in-the-icn": [
+   "/content/guidelines-for-sepsis-in-the-icn"
+  ],
+  "/content/hbv-prophylaxis": [
+   "/content/hbv-prophylaxis"
+  ],
+  "/content/healthcare-acquired-or-ventilator-associated-pneumonia": [
+   "/content/healthcare-acquired-or-ventilator-associated-pneumonia"
+  ],
+  "/content/healthcare-acquired-sepsis-with-unknown-source": [
+   "/content/healthcare-acquired-sepsis-with-unknown-source"
+  ],
+  "/content/healthcare-associated-intra-abdominal-infections": [
+   "/content/healthcare-associated-intra-abdominal-infections"
+  ],
+  "/content/helicobacter-pylori-infection": [
+   "/content/helicobacter-pylori-infection"
+  ],
+  "/content/herpes-simplex-virus-disease-outside-neonatal-period": [
+   "/content/herpes-simplex-virus-disease-outside-neonatal-period"
+  ],
+  "/content/high-risk-neutropenic-fever": [
+   "/content/high-risk-neutropenic-fever"
+  ],
+  "/content/home": [
+   "/"
+  ],
+  "/content/hospital-acquired-pneumonia": [
+   "/content/hospital-acquired-pneumonia",
+   "/content/mangement-hospital-acquired-pneumonia-adults"
+  ],
+  "/content/imipenem-cilastatin": [
+   "/content/imipenem-cilastatin"
+  ],
+  "/content/imipenem-cilastatin-relebactam": [
+   "/content/imipenem-cilastatin-relebactam"
+  ],
+  "/content/infective-endocarditis": [
+   "/content/infective-endocarditis"
+  ],
+  "/content/influenza": [
+   "/content/influenza"
+  ],
+  "/content/influenza-0": [
+   "/content/influenza-0"
+  ],
+  "/content/initial-inpatient-management-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or": [
+   "/content/initial-inpatient-management-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or"
+  ],
+  "/content/inpatient-non-neutropenic-fever-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and": [
+   "/content/inpatient-non-neutropenic-fever-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and"
+  ],
+  "/content/inpatient-process-for-ordering-restricted-antimicrobials-for-adults-at-ucsf": [
+   "/content/inpatient-process-for-ordering-restricted-antimicrobials-for-adults-at-ucsf"
+  ],
+  "/content/inpatient-re-assessment-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or": [
+   "/content/inpatient-re-assessment-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or"
+  ],
+  "/content/inter-rater-reliability-assessment-of-antibiotic-prescription-quality-by-infectious-diseases": [
+   "/content/inter-rater-reliability-assessment-of-antibiotic-prescription-quality-by-infectious-diseases"
+  ],
+  "/content/intracranial-abscess": [
+   "/content/intracranial-abscess"
+  ],
+  "/content/isavuconazole": [
+   "/content/isavuconazole"
+  ],
+  "/content/isoniazid": [
+   "/content/isoniazid"
+  ],
+  "/content/iv-to-po-syndromic-step-down-guidance": [
+   "/content/iv-to-po-syndromic-step-down-guidance"
+  ],
+  "/content/letermovir": [
+   "/content/letermovir"
+  ],
+  "/content/levofloxacin": [
+   "/content/levofloxacin"
+  ],
+  "/content/linezolid": [
+   "/content/linezolid"
+  ],
+  "/content/ltu-guidelines": [
+   "/content/ltu-guidelines"
+  ],
+  "/content/lymphadenitis": [
+   "/content/lymphadenitis"
+  ],
+  "/content/maribavir": [
+   "/content/maribavir"
+  ],
+  "/content/mastoiditis": [
+   "/content/mastoiditis"
+  ],
+  "/content/maximum-dosing-for-amoxicillin-and-amoxicillin-clavulanate-0": [
+   "/content/maximum-dosing-for-amoxicillin-and-amoxicillin-clavulanate-0"
+  ],
+  "/content/meningitis": [
+   "/content/meningitis"
+  ],
+  "/content/meningitis-0": [
+   "/content/meningitis-0"
+  ],
+  "/content/meropenem": [
+   "/content/meropenem"
+  ],
+  "/content/meropenem-vaborbactam": [
+   "/content/meropenem-vaborbactam"
+  ],
+  "/content/metrics": [
+   "/content/metrics"
+  ],
+  "/content/metronidazole": [
+   "/content/metronidazole"
+  ],
+  "/content/micafungin": [
+   "/content/micafungin"
+  ],
+  "/content/miltefosine": [
+   "/content/miltefosine"
+  ],
+  "/content/minocycline": [
+   "/content/minocycline"
+  ],
+  "/content/molnupiravir": [
+   "/content/molnupiravir"
+  ],
+  "/content/moxifloxacin": [
+   "/content/moxifloxacin"
+  ],
+  "/content/mpox-treatment": [
+   "/content/mpox-treatment"
+  ],
+  "/content/nafcillin": [
+   "/content/nafcillin"
+  ],
+  "/content/necrotizing-enterocolitis-antibiotic-selection-duration-therapy": [
+   "/content/necrotizing-enterocolitis-antibiotic-selection-duration-therapy"
+  ],
+  "/content/necrotizing-fasciitis": [
+   "/content/necrotizing-fasciitis"
+  ],
+  "/content/necrotizing-soft-tissue-infection-nsti": [
+   "/content/necrotizing-soft-tissue-infection-nsti"
+  ],
+  "/content/neonatal-herpes-simplex-virus-disease": [
+   "/content/neonatal-herpes-simplex-virus-disease"
+  ],
+  "/content/nirmatrelvir-ritonavir-paxlovid": [
+   "/content/nirmatrelvir-ritonavir-paxlovid"
+  ],
+  "/content/nitrofurantoin-macrobid": [
+   "/content/nitrofurantoin-macrobid"
+  ],
+  "/content/non-vertebral-osteomyelitis": [
+   "/content/non-vertebral-osteomyelitis"
+  ],
+  "/content/not-the-usual-suspect": [
+   "/content/not-the-usual-suspect"
+  ],
+  "/content/omadacycline": [
+   "/content/omadacycline"
+  ],
+  "/content/ophthalmia-neonatorum": [
+   "/content/ophthalmia-neonatorum"
+  ],
+  "/content/optimizing-a-hematology-oncology-curriculum-for-internal-medicine-residents-a-two-institution": [
+   "/content/optimizing-a-hematology-oncology-curriculum-for-internal-medicine-residents-a-two-institution"
+  ],
+  "/content/or-microbiology-specimen-collection": [
+   "/content/or-microbiology-specimen-collection"
+  ],
+  "/content/oral-cephalosporin-options-for-respiratory-tract-infections": [
+   "/content/oral-cephalosporin-options-for-respiratory-tract-infections"
+  ],
+  "/content/orbital-cellulitis-abscess": [
+   "/content/orbital-cellulitis-abscess"
+  ],
+  "/content/oritavancin": [
+   "/content/oritavancin"
+  ],
+  "/content/oseltamivir": [
+   "/content/oseltamivir"
+  ],
+  "/content/osteomyelitis": [
+   "/content/osteomyelitis"
+  ],
+  "/content/outpatient-parenteral-antimicrobial-therapy-opat-job-aid-pediatric-ucsf": [
+   "/content/outpatient-parenteral-antimicrobial-therapy-opat-job-aid-pediatric-ucsf"
+  ],
+  "/content/outpatient-treatment-of-low-risk-neutropenic-fever": [
+   "/content/outpatient-treatment-of-low-risk-neutropenic-fever"
+  ],
+  "/content/pediatric-appendicitis-clinical-algorithm-0": [
+   "/content/pediatric-appendicitis-clinical-algorithm",
+   "/content/pediatric-appendicitis-clinical-algorithm-0"
+  ],
+  "/content/pediatric-empiric-antibiotic-use-and-resistance-patterns-at-a-single-tertiary-care-hospital-in": [
+   "/content/pediatric-empiric-antibiotic-use-and-resistance-patterns-at-a-single-tertiary-care-hospital-in"
+  ],
+  "/content/pediatric-vancomycin-dosing-and-monitoring-recommendations": [
+   "/content/pediatric-vancomycin-dosing-and-monitoring-recommendations"
+  ],
+  "/content/pelvic-inflammatory-disease": [
+   "/content/pelvic-inflammatory-disease"
+  ],
+  "/content/pelvic-inflammatory-disease-0": [
+   "/content/pelvic-inflammatory-disease-0"
+  ],
+  "/content/penicillin-g-potassium-aqueous-iv": [
+   "/content/penicillin-g-potassium-aqueous-iv"
+  ],
+  "/content/penicillin-vk-oral": [
+   "/content/penicillin-vk-oral"
+  ],
+  "/content/pentamidine-aerosolized": [
+   "/content/pentamidine-aerosolized"
+  ],
+  "/content/pentamidine-iv": [
+   "/content/pentamidine-iv"
+  ],
+  "/content/peramivir": [
+   "/content/peramivir"
+  ],
+  "/content/periorbital-preseptal-cellulitis": [
+   "/content/periorbital-preseptal-cellulitis"
+  ],
+  "/content/peritonsillar-abscess": [
+   "/content/peritonsillar-abscess"
+  ],
+  "/content/peritonsillar-retropharyngeal-abscess": [
+   "/content/peritonsillar-retropharyngeal-abscess"
+  ],
+  "/content/pertussis": [
+   "/content/pertussis"
+  ],
+  "/content/pharyngitis": [
+   "/content/pharyngitis"
+  ],
+  "/content/piperacillin-tazobactam-zosyn": [
+   "/content/piperacillin-tazobactam-zosyn"
+  ],
+  "/content/plazomicin": [
+   "/content/plazomicin"
+  ],
+  "/content/pneumocystis-prophylaxis": [
+   "/content/pneumocystis-prophylaxis"
+  ],
+  "/content/pneumonia-hospital-acquired-or-ventilator-associated": [
+   "/content/pneumonia-hospital-acquired-or-ventilator-associated"
+  ],
+  "/content/polymyxin-b": [
+   "/content/polymyxin-b"
+  ],
+  "/content/posaconazole": [
+   "/content/posaconazole"
+  ],
+  "/content/procalcitonin": [
+   "/content/procalcitonin"
+  ],
+  "/content/prolonged-fever-with-ongoing-neutropenia-algorithm-fever-in-pediatric-patients-receiving-cancer": [
+   "/content/prolonged-fever-with-ongoing-neutropenia-algorithm-fever-in-pediatric-patients-receiving-cancer"
+  ],
+  "/content/prophylaxis-after-sexual-assault": [
+   "/content/prophylaxis-after-sexual-assault"
+  ],
+  "/content/proton-pump-inhibitor-options-for-h-pylori-therapy": [
+   "/content/proton-pump-inhibitor-options-for-h-pylori-therapy"
+  ],
+  "/content/pyrazinamide": [
+   "/content/pyrazinamide"
+  ],
+  "/content/rapid-dx": [
+   "/content/rapid-dx"
+  ],
+  "/content/remdesivir-0": [
+   "/content/remdesivir-0"
+  ],
+  "/content/retrospective-validation-study-of-a-large-language-model-approach-to-screening-for-intraabdominal": [
+   "/content/retrospective-validation-study-of-a-large-language-model-approach-to-screening-for-intraabdominal"
+  ],
+  "/content/ribavirin": [
+   "/content/ribavirin"
+  ],
+  "/content/rifabutin": [
+   "/content/rifabutin"
+  ],
+  "/content/rifampin": [
+   "/content/rifampin"
+  ],
+  "/content/rsv-treatment": [
+   "/content/rsv-treatment"
+  ],
+  "/content/safety-criteria-for-ceftriaxone-administration-to-neonates": [
+   "/content/safety-criteria-for-ceftriaxone-administration-to-neonates"
+  ],
+  "/content/septic-arthritis": [
+   "/content/septic-arthritis"
+  ],
+  "/content/septic-arthritis-no-hardware-in-place": [
+   "/content/septic-arthritis-no-hardware-in-place"
+  ],
+  "/content/severe-sepsis-children-with-healthcare-exposure-or-comorbidities": [
+   "/content/severe-sepsis-children-with-healthcare-exposure-or-comorbidities"
+  ],
+  "/content/severe-sepsis-previously-healthy-infant-or-child": [
+   "/content/severe-sepsis-previously-healthy-infant-or-child"
+  ],
+  "/content/sexually-transmitted-infections": [
+   "/content/sexually-transmitted-infections"
+  ],
+  "/content/skin-and-skin-structure-infection": [
+   "/content/skin-and-skin-structure-infection"
+  ],
+  "/content/steve-grapentine": [
+   "/content/steve-grapentine"
+  ],
+  "/content/streptococcal-pharyngitis": [
+   "/content/streptococcal-pharyngitis"
+  ],
+  "/content/sulbactam-durlobactam": [
+   "/content/sulbactam-durlobactam"
+  ],
+  "/content/surgical-prophylaxis": [
+   "/content/surgical-prophylaxis"
+  ],
+  "/content/surgical-prophylaxis-pediatrics": [
+   "/content/surgical-prophylaxis-pediatrics"
+  ],
+  "/content/suspected-infection-in-an-end-stage-liver-disease-patient-being-evaluated-for-transplantation-at": [
+   "/content/suspected-infection-in-an-end-stage-liver-disease-patient-being-evaluated-for-transplantation-at"
+  ],
+  "/content/syphilis": [
+   "/content/syphilis"
+  ],
+  "/content/tedizolid": [
+   "/content/tedizolid"
+  ],
+  "/content/testy": [
+   "/content/testy"
+  ],
+  "/content/the-impact-of-clinical-metagenomic-testing-on-patient-management-facts-versus-fantasy": [
+   "/content/the-impact-of-clinical-metagenomic-testing-on-patient-management-facts-versus-fantasy"
+  ],
+  "/content/the-role-of-the-popliteal-angle-as-an-indicator-for-hamstring-lengthening-to-treat-a-flexed-knee": [
+   "/content/the-role-of-the-popliteal-angle-as-an-indicator-for-hamstring-lengthening-to-treat-a-flexed-knee"
+  ],
+  "/content/theora-canonica-pharmd": [
+   "/content/theora-canonica-pharmd"
+  ],
+  "/content/tigecycline": [
+   "/content/tigecycline"
+  ],
+  "/content/tmp-smx-trimethoprim-sulfamethoxazole": [
+   "/content/tmp-smx-trimethoprim-sulfamethoxazole"
+  ],
+  "/content/tobramycin": [
+   "/content/tobramycin"
+  ],
+  "/content/trichomoniasis": [
+   "/content/trichomoniasis"
+  ],
+  "/content/tuberculosis": [
+   "/content/tuberculosis"
+  ],
+  "/content/ucsf-adult-outpatient-susceptibility-data-e-coli-urine-isolates": [
+   "/content/ucsf-adult-outpatient-susceptibility-data-e-coli-urine-isolates"
+  ],
+  "/content/urinary-tract-infection-uti": [
+   "/content/urinary-tract-infection-uti"
+  ],
+  "/content/urinary-tract-infections-community-onset": [
+   "/content/urinary-tract-infections-community-onset"
+  ],
+  "/content/urinary-tract-infections-hospital-onset": [
+   "/content/urinary-tract-infections-hospital-onset"
+  ],
+  "/content/valacyclovir": [
+   "/content/valacyclovir"
+  ],
+  "/content/valganciclovir-valcyte": [
+   "/content/valganciclovir-valcyte"
+  ],
+  "/content/vancomycin-initial-dosing-nomogram": [
+   "/content/vancomycin-initial-dosing-nomogram"
+  ],
+  "/content/vancomycin-iv": [
+   "/content/vancomycin-iv"
+  ],
+  "/content/vancomycin-po": [
+   "/content/vancomycin-po"
+  ],
+  "/content/varicella-zoster-virus": [
+   "/content/varicella-zoster-virus"
+  ],
+  "/content/vasf-beta-lactam-test-dosing-protocol": [
+   "/content/vasf-beta-lactam-test-dosing-protocol"
+  ],
+  "/content/vasf-intra-abdominal-infections-iai-treatment-guidelines": [
+   "/content/vasf-intra-abdominal-infections-iai-treatment-guidelines"
+  ],
+  "/content/vasf-outpatient-tuberculosis-evaluation": [
+   "/content/vasf-outpatient-tuberculosis-evaluation"
+  ],
+  "/content/vasf-restricted-antimicrobials": [
+   "/content/vasf-restricted-antimicrobials"
+  ],
+  "/content/vasf-spontaneous-bacterial-peritonitis-sbp-treatment-guidelines": [
+   "/content/vasf-spontaneous-bacterial-peritonitis-sbp-treatment-guidelines"
+  ],
+  "/content/vasf-stepwise-hospital-acquired-and-ventilator-associated-pneumonia-hap-vap-treatment-algorithm": [
+   "/content/vasf-stepwise-hospital-acquired-and-ventilator-associated-pneumonia-hap-vap-treatment-algorithm"
+  ],
+  "/content/vasf-urinary-tract-infections-uti-treatment-guidelines": [
+   "/content/vasf-urinary-tract-infections-uti-treatment-guidelines"
+  ],
+  "/content/vertebral-osteomyelitis-no-hardware-in-place": [
+   "/content/vertebral-osteomyelitis-no-hardware-in-place"
+  ],
+  "/content/virus-reactivation-in-acute-and-long-covid-19": [
+   "/content/virus-reactivation-in-acute-and-long-covid-19"
+  ],
+  "/content/voriconazole": [
+   "/content/voriconazole"
+  ],
+  "/content/vzv-cns-infection-testing": [
+   "/content/vzv-cns-infection-testing"
+  ],
+  "/content/zanamivir": [
+   "/content/zanamivir"
+  ],
+  "/content/zsfg-adult-c-difficile-infection-guideline": [
+   "/content/zsfg-adult-c-difficile-infection-guideline"
+  ],
+  "/content/zsfg-hap-vap-empiric-antibiotic-guidelines": [
+   "/content/zsfg-hap-vap-empiric-antibiotic-guidelines"
+  ],
+  "/content/zsfg-inpatient-beta-lactam-allergy-test-dose-guidance": [
+   "/content/zsfg-inpatient-beta-lactam-allergy-test-dose-guidance"
+  ],
+  "/content/zsfg-oncology-antimicrobial-prophylaxis-guideline": [
+   "/content/zsfg-oncology-antimicrobial-prophylaxis-guideline"
+  ],
+  "/content/zsfg-open-fracture-antibiotic-prophylaxis-protocol": [
+   "/content/zsfg-open-fracture-antibiotic-prophylaxis-protocol"
+  ],
+  "/content/zsfg-penetrating-brain-injury-antibiotic-prophylaxis": [
+   "/content/zsfg-penetrating-brain-injury-antibiotic-prophylaxis"
+  ],
+  "/content/zsfg-post-emergent-splenectomy-vaccination-guideline": [
+   "/content/zsfg-post-emergent-splenectomy-vaccination-guideline"
+  ],
+  "/content/zsfg-pre-splenectomy-vaccination-guideline": [
+   "/content/zsfg-pre-splenectomy-vaccination-guideline"
+  ],
+  "/content/zsfg-restricted-antimicrobials-workflow": [
+   "/content/zsfg-restricted-antimicrobials-workflow"
+  ],
+  "/content/zsfg-surgical-prophylaxis-guidelines": [
+   "/content/zsfg-surgical-prophylaxis-guidelines"
+  ],
+  "/dosingupdate": [
+   "/dosingupdate"
+  ],
+  "/extendedinfusion": [
+   "/extendedinfusion"
+  ],
+  "/faq": [
+   "/faq"
+  ],
+  "/kocher-criteria-hip": [
+   "/kocher-criteria-hip"
+  ],
+  "/neonatal-antimicrobial-dosing-benioff-childrens-hospitals": [
+   "/neonatal-antimicrobial-dosing-benioff-childrens-hospitals",
+   "/neonatal-antimicrobial-dosing-benioff-childrens-hospital-san-francisco"
+  ],
+  "/pediatric-antimicrobial-dosing-benioff-childrens-hospitals": [
+   "/pediatric-antimicrobial-dosing-benioff-childrens-hospitals",
+   "/pediatric-antimicrobial-dosing-benioff-childrens-hospital-san-francisco",
+   "/pediatric-antimicrobial-dosing-benioff-childrens-hospital"
+  ],
+  "/people/alexandra-horeczko": [
+   "/people/alexandra-horeczko"
+  ],
+  "/people/charles-chiu-md-phd": [
+   "/people/charles-chiu-md-phd"
+  ],
+  "/people/chaz-langelier-md-phd": [
+   "/people/chaz-langelier-md-phd"
+  ],
+  "/people/conan-macdougall-pharmd-mas": [
+   "/people/conan-macdougall-pharmd-mas"
+  ],
+  "/people/cynthia-huwe": [
+   "/people/cynthia-huwe"
+  ],
+  "/people/daniel-escobar-md-ms": [
+   "/people/daniel-escobar-md-ms"
+  ],
+  "/people/deborah-yokoe-md-mph": [
+   "/people/deborah-yokoe-md-mph"
+  ],
+  "/people/emily-kaip-pharmd": [
+   "/people/emily-kaip-pharmd"
+  ],
+  "/people/jennifer-babik-md-phd": [
+   "/people/jennifer-babik-md-phd"
+  ],
+  "/people/jennifer-mulliken-md": [
+   "/people/jennifer-mulliken-md"
+  ],
+  "/people/katherine-yang-pharmd-mph": [
+   "/people/katherine-yang-pharmd-mph"
+  ],
+  "/people/lisa-winston-md": [
+   "/people/lisa-winston-md"
+  ],
+  "/people/lynn-ramirez-md-ms": [
+   "/people/lynn-ramirez-md-ms"
+  ],
+  "/people/prachi-singh-do": [
+   "/people/prachi-singh-do"
+  ],
+  "/people/rachel-bystritsky-md": [
+   "/people/rachel-bystritsky-md"
+  ],
+  "/people/rachel-wattier-md-mhs": [
+   "/people/rachel-wattier-md-mhs"
+  ],
+  "/people/sarah-doernberg-md-mas": [
+   "/people/sarah-doernberg-md-mas"
+  ],
+  "/people/victoria-dudas-pharmd": [
+   "/people/victoria-dudas-pharmd"
+  ],
+  "/people/vivek-jain-md-mas": [
+   "/people/vivek-jain-md-mas"
+  ],
+  "/people/william-simmons-md": [
+   "/people/william-simmons-md"
+  ],
+  "/piptazoextendedinfusion": [
+   "/piptazoextendedinfusion"
+  ],
+  "/ucsf-adult-antibiogram-GN-2024": [
+   "/ucsf-adult-antibiogram-GN-2022"
+  ],
+  "/ucsf-adult-antibiogram-GP-2024": [
+   "/ucsf-adult-antibiogram-GP-2022"
+  ],
+  "/ucsf-adult-antibiogram-outpatient-2024": [
+   "/ucsf-adult-antibiogram-outpatient-2022"
+  ]
+ },
+ "people": {
+  "groups": [
+   {
+    "heading": "UCSF Medical Center",
+    "links": [
+     [
+      "/people/william-simmons-md",
+      "William Simmons, MD"
+     ],
+     [
+      "/people/emily-kaip-pharmd",
+      "Emily Kaip, PharmD"
+     ],
+     [
+      "/content/amanda-roy",
+      "Amanda Roy, PharmD, BCIDP, AAHIVP"
+     ],
+     [
+      "/people/jennifer-babik-md-phd",
+      "Jennifer Babik, MD, PhD"
+     ],
+     [
+      "/people/rachel-bystritsky-md",
+      "Rachel Bystritsky, MD"
+     ],
+     [
+      "/people/charles-chiu-md-phd",
+      "Charles Chiu, MD, PhD"
+     ],
+     [
+      "/people/sarah-doernberg-md-mas",
+      "Sarah Doernberg, MD, MAS"
+     ],
+     [
+      "/people/victoria-dudas-pharmd",
+      "Victoria Dudas, PharmD"
+     ],
+     [
+      "/people/daniel-escobar-md-ms",
+      "Daniel Escobar, MD, MS"
+     ],
+     [
+      "/people/alexandra-horeczko",
+      "Alexandra Horeczko"
+     ],
+     [
+      "/people/chaz-langelier-md-phd",
+      "Chaz Langelier, MD, PhD"
+     ],
+     [
+      "/people/conan-macdougall-pharmd-mas",
+      "Conan MacDougall, PharmD, MAS"
+     ],
+     [
+      "/people/katherine-yang-pharmd-mph",
+      "Katherine Yang, PharmD, MPH"
+     ],
+     [
+      "/people/deborah-yokoe-md-mph",
+      "Deborah Yokoe, MD, MPH"
+     ]
+    ]
+   },
+   {
+    "heading": "UCSF Benioff Children's Hospital San Francisco",
+    "links": [
+     [
+      "/people/rachel-wattier-md-mhs",
+      "Rachel Wattier, MD, MHS"
+     ],
+     [
+      "/people/lynn-ramirez-md-ms",
+      "Lynn Ramirez, MD, MS"
+     ],
+     [
+      "/content/steve-grapentine",
+      "Steve Grapentine"
+     ]
+    ]
+   },
+   {
+    "heading": "VA Medical Center San Francisco",
+    "links": [
+     [
+      "/people/jennifer-mulliken-md",
+      "Jennifer Mulliken, MD"
+     ],
+     [
+      "/content/clara-lee-pharmd-bcps",
+      "Clara Lee, PharmD, BCPS"
+     ],
+     [
+      "/content/theora-canonica-pharmd",
+      "Theora Canonica, PharmD"
+     ]
+    ]
+   },
+   {
+    "heading": "Zuckerberg San Francisco General Hospital & Trauma Center",
+    "links": [
+     [
+      "/people/lisa-winston-md",
+      "Lisa Winston, MD"
+     ],
+     [
+      "/people/vivek-jain-md-mas",
+      "Vivek Jain, MD, MAS"
+     ]
+    ]
+   },
+   {
+    "heading": "UCSF Benioff Children's Hospital Oakland",
+    "links": [
+     [
+      "/people/cynthia-huwe",
+      "Cynthia Huwe"
+     ],
+     [
+      "/people/prachi-singh-do",
+      "Prachi Singh, DO"
+     ]
+    ]
+   }
+  ],
+  "path": "/people",
+  "people": [
+   {
+    "bio_html": "<p>Dr. William Simmons is an infectious disease specialist who cares for patients with complex conditions, including serious bacterial infections in the bloodstream and infections related to surgically implanted devices and hardware. He treats patients in both the clinic and the hospital.</p> <p>His research focuses on how to use antibiotics to both improve outcomes for patients and reduce the development of antibiotic-resistant bacteria. He is also the medical director of the adult antimicrobial stewardship program at UCSF.</p>",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/large/public/Simmons-William-3074%20Small.jpg.webp?itok=rbdUxC_O",
+    "name": "William Simmons, MD",
+    "path": "/people/william-simmons-md",
+    "role": "Medical Director, Adult Antimicrobial Stewardship at UCSF Medical Center, Chair, Antimicrobial Subcommittee, UCSF Medical Center, Assistant Clinical Professor"
+   },
+   {
+    "bio_html": "",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/EK%20Headshot.jpg?h=dec50c1c&itok=QHol1isJ",
+    "name": "Emily Kaip, PharmD",
+    "path": "/people/emily-kaip-pharmd",
+    "role": "Adult Infectious Diseases Pharmacotherapy Specialist, Adult Antimicrobial Stewardship Co-Lead"
+   },
+   {
+    "bio_html": "",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/Amanda%20Roy%20Photo.jpg?h=fbf7a813&itok=Qtc2zv1p",
+    "name": "Amanda Roy, PharmD, BCIDP, AAHIVP",
+    "path": "/content/amanda-roy",
+    "role": "Infectious Diseases and Antimicrobial Stewardship Clinical Pharmacist, Adult Antimicrobial Stewardship Co-Lead"
+   },
+   {
+    "bio_html": "<p>CLINICAL ACTIVITIES<br /> Jennifer Babik specializes in clinical infectious diseases with a particular focus on infections in immunocompromised hosts. She attends on the Immunocompromised Host and General Infectious Diseases Consult Services at UCSF Health. </p>",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/jennifer_babik__md__phd.jpg?h=846943b1&itok=dvmbbwI_",
+    "name": "Jennifer Babik, MD, PhD",
+    "path": "/people/jennifer-babik-md-phd",
+    "role": "Professor of Clinical Medicine"
+   },
+   {
+    "bio_html": "<p>Rachel Bystritsky is an infectious disease specialist who sees patients at the UCSF Medical Center. She received her MD from the Mount Sinai School of Medicine in 2012 and completed her residency in Internal Medicine at Columbia University Medical Center where she went on to be a chief resident. She completed Infectious Disease Fellowship at the University of California, San Francisco, where she has remained on faculty.",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/rachel_bystritsky__md.jpg?h=e643a597&itok=8hzwSXs3",
+    "name": "Rachel Bystritsky, MD",
+    "path": "/people/rachel-bystritsky-md",
+    "role": "HS Assoc. Clinical Professor"
+   },
+   {
+    "bio_html": "<p>Charles Chiu, M.D./Ph.D. is Professor of Laboratory Medicine and Medicine, Division of Infectious Diseases at University of California, San Francisco and Co-Director of the UCSF Clinical Microbiology Laboratory. Chiu currently leads a translational research laboratory focused on the development and clinical validation of metagenomic next-generation sequencing (mNGS) and host response profiling assays for diagnosis of infections, outbreak investigation, and pathogen discovery.",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/charles_chiu__md__phd.jpg?h=b4db1529&itok=1vlqW01s",
+    "name": "Charles Chiu, MD, PhD",
+    "path": "/people/charles-chiu-md-phd",
+    "role": "Professor"
+   },
+   {
+    "bio_html": "<p>Sarah Doernberg is a Professor in the Division of Infectious Diseases. She has an active outpatient Infectious Diseases Clinic and sees inpatients on the Transplant Infectious Diseases service. Her clinical research focuses on diagnosis and treatment of antibiotic resistant infections.</p>",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/sarah_doernberg__md__mas.jpg?h=8be49fd2&itok=Wix0_c1y",
+    "name": "Sarah Doernberg, MD, MAS",
+    "path": "/people/sarah-doernberg-md-mas",
+    "role": "Clinical Professor"
+   },
+   {
+    "bio_html": "",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/large/public/img/Victoria-Dudas-square.jpg.webp?itok=2s6rWWGD",
+    "name": "Victoria Dudas, PharmD",
+    "path": "/people/victoria-dudas-pharmd",
+    "role": "Infectious Diseases Pharmacist"
+   },
+   {
+    "bio_html": "<p>Dr. Daniel Jose Escobar is an infectious disease specialist who cares for patients with a broad range of complex bacterial, fungal and viral infections, including those involving bones, joints, surgical implants and surgical complications.",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/daniel_escobar__md__ms.jpg?h=57e1ff9a&itok=hvr85xjj",
+    "name": "Daniel Escobar, MD, MS",
+    "path": "/people/daniel-escobar-md-ms",
+    "role": "HS Asst Clinical Professor"
+   },
+   {
+    "bio_html": "",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/large/public/img/AHH%20Cropped.jpg.webp?itok=ujwsmwFw",
+    "name": "Alexandra Horeczko",
+    "path": "/people/alexandra-horeczko",
+    "role": "Infectious Diseases Pharmacist"
+   },
+   {
+    "bio_html": "<p>The translational research in my lab bridges basic and clinical investigation by engaging genomic technologies to understand relationships between microbes, host response and clinical outcomes. We study lower respiratory tract infections, ARDS, sepsis, nosocomial infections, and emerging pathogens including SARS-CoV-2. One focus area involves developing new diagnostic techniques that combine metagenomic sequencing and machine learning to simultaneously profile both host and microbiome from clinical samples.",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/chaz_langelier__md__phd.jpg?h=78a41446&itok=67frP3uR",
+    "name": "Chaz Langelier, MD, PhD",
+    "path": "/people/chaz-langelier-md-phd",
+    "role": "Professor in Residence"
+   },
+   {
+    "bio_html": "<p>Conan MacDougall, PharmD, MAS, BCPS, BCIDP, FIDSA is Professor of Clinical Pharmacy in the Department of Clinical Pharmacy at the University of California, San Francisco. Dr. MacDougall teaches pharmacy, medical, and nursing trainees at UCSF, for which he has twice received the Academic Senate Campus Award for Distinction in Teaching. A member of the School of Medicine’s Academy of Medical Educators, he has been recognized as an Emerging Teaching Scholar by the American Association of Colleges of Pharmacy and received the Albert B.",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/conan_macdougall__pharmd__mas.jpg?h=ca9449b2&itok=LxkN4tnJ",
+    "name": "Conan MacDougall, PharmD, MAS",
+    "path": "/people/conan-macdougall-pharmd-mas",
+    "role": "Associate Dean & Professor"
+   },
+   {
+    "bio_html": "<p>Kathy Yang, Pharm.D., MPH is a Health Sciences Clinical Professor in the Department of Clinical Pharmacy at the University of California (UCSF) School of Pharmacy and an Infectious Diseases Clinical Pharmacist in the UCSF Medical Center. Dr. Yang specializes in the treatment of multi-drug resistant infections, particularly gram negative bacteria such as Pseudomonas aeruginosa. Her area of research focuses on the pharmacodynamic optimization of antibiotics for the treatment of biofilm-mediated infections such as cystic fibrosis. </p>",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/katherine_yang__pharmd__mph.jpg?h=67c49e9b&itok=NNuWxVQn",
+    "name": "Katherine Yang, PharmD, MPH",
+    "path": "/people/katherine-yang-pharmd-mph",
+    "role": "Professor"
+   },
+   {
+    "bio_html": "<p>Deborah Yokoe, M.D., M.P.H. is a Professor of Clinical Medicine in the Division of Infectious Diseases, Department of Medicine. She is the Medical Director for Hospital Epidemiology and Infection Prevention for the adult services and an attending physician on the Transplant Infectious Diseases consultation service. </p>",
+    "group": "UCSF Medical Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/D%20Yokoe%20Photo.jpg?h=69189783&itok=cDI8q_PE",
+    "name": "Deborah Yokoe, MD, MPH",
+    "path": "/people/deborah-yokoe-md-mph",
+    "role": "Medical Director, Infection Control at UCSF Medical Center"
+   },
+   {
+    "bio_html": "<p>Rachel Wattier, M.D., M.H.S. is a physician in the Department of Pediatrics, Division of Infectious Diseases and Global Health. She started the Antimicrobial Stewardship Program at Benioff Chidren&#039;s Hospital San Francisco and has conducted collaborative research to improve judicious antimicrobial and diagnostic test use in children. Her current research as a scholar in the UCSF-KPNC Urologic Epidemiology K12 program focuses on improving evidence uptake and application in diagnosis of urinary tract infections.</p>",
+    "group": "UCSF Benioff Children's Hospital San Francisco",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/large/public/Wattier-Rachel-headshot-cropped.jpg.webp?itok=623tnUGy",
+    "name": "Rachel Wattier, MD, MHS",
+    "path": "/people/rachel-wattier-md-mhs",
+    "role": "Associate Medical Director, Antimicrobial Stewardship at UCSF Benioff Children's Hospital, San Francisco , Assistant Professor of Clinical Pediatrics"
+   },
+   {
+    "bio_html": "<p>Lynn Ramirez MD, MSc, who joined the Department of Pediatrics, Division of Infectious Diseases and Global Health in November 2014, serves as Medical Director of Hospital Epidemiology and Infection Prevention at the UCSF Benioff Children’s Hospital San Francisco. </p> <p>In this role, she collaborates with nurses, physicians, and ancillary services to prevent hospital acquired infections including those related to invasive medical devices and Clostridium difficile. </p>",
+    "group": "UCSF Benioff Children's Hospital San Francisco",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/lynn_ramirez__md__ms.jpg?h=f83b3af3&itok=G5SverOy",
+    "name": "Lynn Ramirez, MD, MS",
+    "path": "/people/lynn-ramirez-md-ms",
+    "role": "Medical Director, Hospital Epidemiology and Infection Control, UCSF Benioff Children's Hospital, HS Assoc Clinical Professor"
+   },
+   {
+    "bio_html": "",
+    "group": "UCSF Benioff Children's Hospital San Francisco",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/steve_0.jpg?h=55541bb6&itok=0n932SBY",
+    "name": "Steve Grapentine",
+    "path": "/content/steve-grapentine",
+    "role": "Antimicrobial Stewardship Pharmacist"
+   },
+   {
+    "bio_html": "<p>Dr. Jennifer Mulliken is an infectious disease specialist who cares for inpatients and outpatients with a broad range of complex infections at SFVAMC. In addition to her role with the Antibiotic Stewardship Program, she also serves as Medical Director of the Home IV Antibiotic Program at SFVAMC.</p>",
+    "group": "VA Medical Center San Francisco",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/jennifer_mulliken__md.jpg?h=846943b1&itok=o4SObpdm",
+    "name": "Jennifer Mulliken, MD",
+    "path": "/people/jennifer-mulliken-md",
+    "role": "Medical Director, Antimicrobial Stewardship at VA Medical Center San Francisco, Associate Professor of Clinical Medicine, UCSF"
+   },
+   {
+    "bio_html": "",
+    "group": "VA Medical Center San Francisco",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/thumbnail_43645%5EIL016KY%20D%5EClara%20Lee%5ED145901%5E10x13_X_CD%5E18593%5E24736%5E%5EReOrder_0.jpg?h=3a1989d3&itok=1Pc2qH_M",
+    "name": "Clara Lee, PharmD, BCPS",
+    "path": "/content/clara-lee-pharmd-bcps",
+    "role": "Antimicrobial Stewardship Program Manager"
+   },
+   {
+    "bio_html": "",
+    "group": "VA Medical Center San Francisco",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/TC%20Headshot_0.jpeg?h=0e7bb0e2&itok=MuS5Nf6a",
+    "name": "Theora Canonica, PharmD",
+    "path": "/content/theora-canonica-pharmd",
+    "role": "Antimicrobial Stewardship Program Manager"
+   },
+   {
+    "bio_html": "<p>Lisa Winston received her MD from Johns Hopkins University School of Medicine in 1994. She completed her residency in Internal Medicine at UCSF and was Chief Resident at San Francisco General Hospital. Dr. Winston then completed fellowships in Infectious Diseases and Clinical Pharmacology at UCSF. </p> <p>She is the Associate Chief Medical Officer for Medical Surgical Services and Hospital Epidemiologist at Zuckerberg San Francisco General Hospital and Trauma Center. Her research interests are infection control and prevention and antimicrobial resistant bacterial pathogens.</p>",
+    "group": "Zuckerberg San Francisco General Hospital & Trauma Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/lisa_winston__md.jpg?h=f64c9c91&itok=6UXpDbWS",
+    "name": "Lisa Winston, MD",
+    "path": "/people/lisa-winston-md",
+    "role": "Medical Director, Antimicrobial Stewardship at Zuckerberg San Francisco General Hospital & Trauma Center, Professor"
+   },
+   {
+    "bio_html": "<p>Vivek Jain, MD, MAS, FIDSA is a Professor of Medicine and Infectious Diseases in the Division of HIV, Infectious Diseases &amp; Global Medicine at San Francisco General Hospital (SFGH) at the University of California, San Francisco (UCSF). </p>",
+    "group": "Zuckerberg San Francisco General Hospital & Trauma Center",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/180x180/public/vivek_jain__md__mas.jpg?h=1bc69a04&itok=DA2L8gGj",
+    "name": "Vivek Jain, MD, MAS",
+    "path": "/people/vivek-jain-md-mas",
+    "role": "Professor of Clinical Medicine"
+   },
+   {
+    "bio_html": "",
+    "group": "UCSF Benioff Children's Hospital Oakland",
+    "image": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/styles/large/public/IMG_9682.jpg.webp?itok=121UAGFF",
+    "name": "Cynthia Huwe",
+    "path": "/people/cynthia-huwe",
+    "role": "Antimicrobial Stewardship Pharmacist, UCSF Benioff Children's Hospital Oakland"
+   }
+  ],
+  "title": "People"
+ },
+ "unavailable_links": [
+  [
+   "/ceftriaxone",
+   404
+  ],
+  [
+   "/clind",
+   404
+  ],
+  [
+   "/contact",
+   404
+  ],
+  [
+   "/content/community-acquired-secondary-peritonitis-mild-moderate-intra-abdominal-or-post-op-pelvic",
+   404
+  ],
+  [
+   "/content/empiric-antimicrobial-treatment-pediatric-patients-liver-failure-andor-early-post-liver-0",
+   404
+  ],
+  [
+   "/content/pseudomonas-aeruginosa",
+   403
+  ],
+  [
+   "/content/tobramycin-retired",
+   403
+  ],
+  [
+   "/node/11956",
+   404
+  ]
+ ]
+}

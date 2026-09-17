@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-11-13T16:28:24+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1699892904,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T22:31:03+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>Diagnosis is made based on:&nbsp;</p>\n\n<p paraeid=\"{9fc7f63f-3d2a-4740-8494-ca1fc5cc5cb1}{236}\" paraid=\"1940790814\" style=\"margin-left: 40px;\">Pyuria (&gt;5-10 WBC/HPF on microscopy) AND&nbsp;</p>\n\n<p paraeid=\"{9fc7f63f-3d2a-4740-8494-ca1fc5cc5cb1}{243}\" paraid=\"359190383\" style=\"margin-left: 40px;\">At least 50,000 colonies per mL of a single uropathogenic organism in an appropriately collected specimen:&nbsp;</p>\n\n<p paraeid=\"{9fc7f63f-3d2a-4740-8494-ca1fc5cc5cb1}{250}\" paraid=\"1070731120\" style=\"margin-left: 80px;\">Catheterized (even if bag collection for urinalysis is used for screening, catheterization should be used to collect urine for culture)&nbsp;</p>\n\n<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{2}\" paraid=\"2004786226\" style=\"margin-left: 80px;\">Clean catch &nbsp;</p>\n\n<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{9}\" paraid=\"1329271108\" style=\"margin-left: 40px;\">Compatible urinary tract symptoms&nbsp;</p>\n\n<p>Therapy should be modified according to culture and susceptibilities.  For patients with prior UTIs, consider susceptibilities of prior causative organisms when selecting empiric therapy. See Table 1 for inferred susceptibility for enteral antibiotics from IV antibiotic susceptibilities that are routinely reported in BCH Microbiology laboratories. Consider ID/ASP consult for patients with current or recent history of multidrug resistant organisms, such as Extended-Spectrum Beta-lactamase (ESBL) producers. &nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{60}\" paraid=\"1763509060\">Urinary tract infection, hospital-onset&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{70}\" paraid=\"420692304\">This category is intended for catheter-associated infection, or patients with significant prior antibiotic exposure - for patients at low-risk for antibiotic-resistant organisms, refer to&nbsp;<a href=\"/content/urinary-tract-infections-community-onset\">Community-Onset UTI</a>&nbsp;section&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{81}\" paraid=\"314403926\">Enteric and hospital-acquired gram-negative bacteria including&nbsp;<em>Pseudomonas aeruginosa</em>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{89}\" paraid=\"2107401058\">If the patient has an indwelling urinary catheter<br>\n\t\t\tor performs clean intermittent catheterization,&nbsp;<em>Enterococcus</em>&nbsp;species and&nbsp;<em>Candida</em>&nbsp;species are more likely to<br>\n\t\t\trepresent colonization. May consider catheter exchange, continue clean intermittent catheterization every 3 hours or as guided by Urology recommendations</p>\n\t\t\t</td>\n\t\t\t<td>Ceftazidime<br>\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{115}\" paraid=\"1152799394\"><strong><a href=\"/content/assessment-of-antibiotic-allergies\">Cephalosporin allergy with lower risk for allergic reaction</a>&nbsp;(full dose vs. test dose per&nbsp;<a href=\"/content/allergy-beta-lactam\">Inpatient Beta-Lactam Allergy Guideline</a>)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{133}\" paraid=\"562882309\">Piperacillin-tazobactam (Zosyn)<br>\n\t\t\t100 mg piperacillin/kg/dose (max 4000 mg  piperacillin/dose) IV q6h &nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{149}\" paraid=\"710031925\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{159}\" paraid=\"797949727\">Ciprofloxacin<br>\n\t\t\t10 mg/kg/dose (max 400 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{169}\" paraid=\"950265631\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{179}\" paraid=\"48654453\">Ciprofloxacin 15 mg/kg/dose (max 500 mg/dose) enterally bid&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{190}\" paraid=\"1785459634\"><strong>Duration</strong>:&nbsp;7 days for most patients, individualized per ID consult guidance for patients with significant complications&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{202}\" paraid=\"1248907430\">Consider Urology consult if patient has genitourinary abnormalities&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{208}\" paraid=\"201600811\">Modify therapy based on culture and susceptibility.&nbsp;Change&nbsp;to enteral therapy based on clinical improvement, organism isolated, ability to tolerate enteral therapy. See Table 1, 2 and 3&nbsp;below&nbsp;for guidance&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th colspan=\"5\" style=\"text-align: center;\">Table 1: IV to enteral inferred susceptibility&nbsp;</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"5\">Ampicillin → amoxicillin (cannot infer susceptibility to cephalosporins)&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"5\">Ampicillin-sulbactam (Unasyn) → amoxicillin/clavulanate (Augmentin)&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"5\">Cefazolin MIC &lt;=16 → cephalexin/cefuroxime/cefdinir (cephalexin preferred)&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"5\">Ceftazidime/Ceftriaxone → N/A (cannot infer susceptibility to 3rd generation oral cephalosporins)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"5\">Ciprofloxacin → ciprofloxacin&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"5\">Trimethoprim-sulfamethoxazole → trimethoprim-sulfamethoxazole (Bactrim or Septra)&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th colspan=\"5\" style=\"text-align: center;\">Table 2: Preferred enteral antibiotics for definitive therapy&nbsp;</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"5\"><strong>If the patient is able to take&nbsp;<u>enteral therapy</u>&nbsp;and the bacteria is susceptible, recommend narrowing antimicrobial coverage (the following antibiotics are in order of preferential use top to bottom):&nbsp;</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>1st Tier</strong></td>\n\t\t\t<td colspan=\"4\" rowspan=\"1\">\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{69}\" paraid=\"945644237\">Amoxicillin 25 mg/kg/dose (max 500 mg/dose) enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{75}\" paraid=\"1906582372\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{81}\" paraid=\"1089387040\">Cephalexin 25 mg/kg/dose (max 500 mg/dose) enterally tid &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>2nd Tier</strong></td>\n\t\t\t<td colspan=\"4\">\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{97}\" paraid=\"11729151\">Trimethoprim-sulfamethoxazole (Bactrim or Septra) 5 mg trimethoprim/kg/dose (max 160mg trimethoprim/dose) enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{103}\" paraid=\"1829171559\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{109}\" paraid=\"1046995212\">Nitrofurantoin monohydrate/macrocrystals (only use in cystitis without pyelonephritis) 100 mg/dose enterally bid&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>3rd Tier&nbsp;</strong></td>\n\t\t\t<td colspan=\"4\">\n\t\t\t<p>Amoxicillin/clavulanate (Augmentin) 25 mg amoxicillin /kg/dose (max 500 mg amoxicillin/dose) enterally bid&nbsp;</p>\n\n\t\t\t<p><em>Exception: ESBL-producing organism, contact ASP for guidance.</em></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>4th Tier&nbsp;</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>\n\t\t\t<td colspan=\"4\">Ciprofloxacin 15 mg/kg/dose (max 500 mg/dose) enterally bid&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th colspan=\"5\" style=\"text-align: center;\">Table 3: Preferred IV antibiotics for definitive therapy&nbsp;</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"5\"><strong>IF the patient still needs IV therapy and the bacteria is susceptible, recommend narrowing antimicrobial coverage (the following antibiotics are in order of preferential use top to bottom):&nbsp;</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>1st Tier</strong></td>\n\t\t\t<td colspan=\"4\" rowspan=\"1\">\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{189}\" paraid=\"1798074210\">Ampicillin 50 mg/kg/dose (max 2000 mg/dose) IV q6h&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{195}\" paraid=\"582613917\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{201}\" paraid=\"1408661247\">Cefazolin 25 mg/kg/dose (max 2000 mg/dose) IV q8h&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>2nd Tier</strong></td>\n\t\t\t<td colspan=\"4\">\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{217}\" paraid=\"1762461608\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{217}\" paraid=\"1762461608\"><em>Exception: ESBL-producing organism, contact ASP for guidance.</em></p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{223}\" paraid=\"1717872496\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{229}\" paraid=\"871077393\">Ceftriaxone 50 mg/kg/dose (max 1000 mg/dose) IV q24h&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{235}\" paraid=\"1300666950\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{241}\" paraid=\"1413734871\">Trimethoprim-sulfamethoxazole (Bactrim or Septra) 5 mg trimethoprim/kg/dose (max 160 mg trimethoprim/dose) IV q12h &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>3rd Tier&nbsp;</strong></td>\n\t\t\t<td colspan=\"4\">Ciprofloxacin 10 mg/kg/dose (max 400 mg/dose) IV q8h&nbsp;&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>4th Tier&nbsp;</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>\n\t\t\t<td colspan=\"4\">Gentamicin 5 mg/kg/dose IV q24h&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>Diagnosis is made based on:&nbsp;</p>\r\n\r\n<p paraeid=\"{9fc7f63f-3d2a-4740-8494-ca1fc5cc5cb1}{236}\" paraid=\"1940790814\" style=\"margin-left: 40px;\">Pyuria (&gt;5-10 WBC/HPF on microscopy) AND&nbsp;</p>\r\n\r\n<p paraeid=\"{9fc7f63f-3d2a-4740-8494-ca1fc5cc5cb1}{243}\" paraid=\"359190383\" style=\"margin-left: 40px;\">At least 50,000 colonies per mL of a single uropathogenic organism in an appropriately collected specimen:&nbsp;</p>\r\n\r\n<p paraeid=\"{9fc7f63f-3d2a-4740-8494-ca1fc5cc5cb1}{250}\" paraid=\"1070731120\" style=\"margin-left: 80px;\">Catheterized (even if bag collection for urinalysis is used for screening, catheterization should be used to collect urine for culture)&nbsp;</p>\r\n\r\n<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{2}\" paraid=\"2004786226\" style=\"margin-left: 80px;\">Clean catch &nbsp;</p>\r\n\r\n<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{9}\" paraid=\"1329271108\" style=\"margin-left: 40px;\">Compatible urinary tract symptoms&nbsp;</p>\r\n\r\n<p>Therapy should be modified according to culture and susceptibilities.  For patients with prior UTIs, consider susceptibilities of prior causative organisms when selecting empiric therapy. See Table 1 for inferred susceptibility for enteral antibiotics from IV antibiotic susceptibilities that are routinely reported in BCH Microbiology laboratories. Consider ID/ASP consult for patients with current or recent history of multidrug resistant organisms, such as Extended-Spectrum Beta-lactamase (ESBL) producers. &nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{60}\" paraid=\"1763509060\">Urinary tract infection, hospital-onset&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{70}\" paraid=\"420692304\">This category is intended for catheter-associated infection, or patients with significant prior antibiotic exposure - for patients at low-risk for antibiotic-resistant organisms, refer to&nbsp;<a href=\"/node/13526\">Community-Onset UTI</a>&nbsp;section&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{81}\" paraid=\"314403926\">Enteric and hospital-acquired gram-negative bacteria including&nbsp;<em>Pseudomonas aeruginosa</em>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{89}\" paraid=\"2107401058\">If the patient has an indwelling urinary catheter<br />\r\n\t\t\tor performs clean intermittent catheterization,&nbsp;<em>Enterococcus</em>&nbsp;species and&nbsp;<em>Candida</em>&nbsp;species are more likely to<br />\r\n\t\t\trepresent colonization. May consider catheter exchange, continue clean intermittent catheterization every 3 hours or as guided by Urology recommendations</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Ceftazidime<br />\r\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{115}\" paraid=\"1152799394\"><strong><a href=\"/node/13556\">Cephalosporin allergy with lower risk for allergic reaction</a>&nbsp;(full dose vs. test dose per&nbsp;<a href=\"/node/9856\">Inpatient Beta-Lactam Allergy Guideline</a>)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{133}\" paraid=\"562882309\">Piperacillin-tazobactam (Zosyn)<br />\r\n\t\t\t100 mg piperacillin/kg/dose (max 4000 mg  piperacillin/dose) IV q6h &nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{149}\" paraid=\"710031925\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{159}\" paraid=\"797949727\">Ciprofloxacin<br />\r\n\t\t\t10 mg/kg/dose (max 400 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{169}\" paraid=\"950265631\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{179}\" paraid=\"48654453\">Ciprofloxacin 15 mg/kg/dose (max 500 mg/dose) enterally bid&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{190}\" paraid=\"1785459634\"><strong>Duration</strong>:&nbsp;7 days for most patients, individualized per ID consult guidance for patients with significant complications&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{202}\" paraid=\"1248907430\">Consider Urology consult if patient has genitourinary abnormalities&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fbfc679a-78b1-4621-ab33-2058d8829e19}{208}\" paraid=\"201600811\">Modify therapy based on culture and susceptibility.&nbsp;Change&nbsp;to enteral therapy based on clinical improvement, organism isolated, ability to tolerate enteral therapy. See Table 1, 2 and 3&nbsp;below&nbsp;for guidance&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"5\" style=\"text-align: center;\">Table 1: IV to enteral inferred susceptibility&nbsp;</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"5\">Ampicillin → amoxicillin (cannot infer susceptibility to cephalosporins)&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"5\">Ampicillin-sulbactam (Unasyn) → amoxicillin/clavulanate (Augmentin)&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"5\">Cefazolin MIC &lt;=16 → cephalexin/cefuroxime/cefdinir (cephalexin preferred)&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"5\">Ceftazidime/Ceftriaxone → N/A (cannot infer susceptibility to 3rd generation oral cephalosporins)</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"5\">Ciprofloxacin → ciprofloxacin&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"5\">Trimethoprim-sulfamethoxazole → trimethoprim-sulfamethoxazole (Bactrim or Septra)&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"5\" style=\"text-align: center;\">Table 2: Preferred enteral antibiotics for definitive therapy&nbsp;</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"5\"><strong>If the patient is able to take&nbsp;<u>enteral therapy</u>&nbsp;and the bacteria is susceptible, recommend narrowing antimicrobial coverage (the following antibiotics are in order of preferential use top to bottom):&nbsp;</strong></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>1st Tier</strong></td>\r\n\t\t\t<td colspan=\"4\" rowspan=\"1\">\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{69}\" paraid=\"945644237\">Amoxicillin 25 mg/kg/dose (max 500 mg/dose) enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{75}\" paraid=\"1906582372\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{81}\" paraid=\"1089387040\">Cephalexin 25 mg/kg/dose (max 500 mg/dose) enterally tid &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>2nd Tier</strong></td>\r\n\t\t\t<td colspan=\"4\">\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{97}\" paraid=\"11729151\">Trimethoprim-sulfamethoxazole (Bactrim or Septra) 5 mg trimethoprim/kg/dose (max 160mg trimethoprim/dose) enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{103}\" paraid=\"1829171559\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{109}\" paraid=\"1046995212\">Nitrofurantoin monohydrate/macrocrystals (only use in cystitis without pyelonephritis) 100 mg/dose enterally bid&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>3rd Tier&nbsp;</strong></td>\r\n\t\t\t<td colspan=\"4\">\r\n\t\t\t<p>Amoxicillin/clavulanate (Augmentin) 25 mg amoxicillin /kg/dose (max 500 mg amoxicillin/dose) enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p><em>Exception: ESBL-producing organism, contact ASP for guidance.</em></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>4th Tier&nbsp;</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>\r\n\t\t\t<td colspan=\"4\">Ciprofloxacin 15 mg/kg/dose (max 500 mg/dose) enterally bid&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"5\" style=\"text-align: center;\">Table 3: Preferred IV antibiotics for definitive therapy&nbsp;</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"5\"><strong>IF the patient still needs IV therapy and the bacteria is susceptible, recommend narrowing antimicrobial coverage (the following antibiotics are in order of preferential use top to bottom):&nbsp;</strong></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>1st Tier</strong></td>\r\n\t\t\t<td colspan=\"4\" rowspan=\"1\">\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{189}\" paraid=\"1798074210\">Ampicillin 50 mg/kg/dose (max 2000 mg/dose) IV q6h&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{195}\" paraid=\"582613917\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{201}\" paraid=\"1408661247\">Cefazolin 25 mg/kg/dose (max 2000 mg/dose) IV q8h&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>2nd Tier</strong></td>\r\n\t\t\t<td colspan=\"4\">\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{217}\" paraid=\"1762461608\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{217}\" paraid=\"1762461608\"><em>Exception: ESBL-producing organism, contact ASP for guidance.</em></p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{223}\" paraid=\"1717872496\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{229}\" paraid=\"871077393\">Ceftriaxone 50 mg/kg/dose (max 1000 mg/dose) IV q24h&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{235}\" paraid=\"1300666950\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8f090a75-f56e-4a24-8410-4155625d069b}{241}\" paraid=\"1413734871\">Trimethoprim-sulfamethoxazole (Bactrim or Septra) 5 mg trimethoprim/kg/dose (max 160 mg trimethoprim/dose) IV q12h &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>3rd Tier&nbsp;</strong></td>\r\n\t\t\t<td colspan=\"4\">Ciprofloxacin 10 mg/kg/dose (max 400 mg/dose) IV q8h&nbsp;&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>4th Tier&nbsp;</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>\r\n\t\t\t<td colspan=\"4\">Gentamicin 5 mg/kg/dose IV q24h&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 171,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1fce938b-5838-4ca8-81ae-30625cc53247",
+   "url": "/guidelines-empiric-therapy-categories/urinary-tract-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{a34d641d-3774-48d5-9d27-0f4a792f2614}{30}\" paraid=\"747303168\">References:&nbsp;</h2>\n\n<p paraeid=\"{a34d641d-3774-48d5-9d27-0f4a792f2614}{36}\" paraid=\"1766606110\">CLSI supplement M100. Wayne, PA: Clinical and Laboratory Standards Institute; 2020.&nbsp;</p>\n\n<p paraeid=\"{a34d641d-3774-48d5-9d27-0f4a792f2614}{42}\" paraid=\"827252623\">Fox, M. T., Amoah, J., Hsu, A. J., Herzke, C. A., Gerber, J. S., &amp; Tamma, P. D. (2020). <a href=\"https://doi.org/10.1001/jamanetworkopen.2020.3951\">Comparative effectiveness of antibiotic treatment duration in children with pyelonephritis</a>. JAMA Network Open, 3(5), e203951.&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{a34d641d-3774-48d5-9d27-0f4a792f2614}{30}\" paraid=\"747303168\">References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{a34d641d-3774-48d5-9d27-0f4a792f2614}{36}\" paraid=\"1766606110\">CLSI supplement M100. Wayne, PA: Clinical and Laboratory Standards Institute; 2020.&nbsp;</p>\r\n\r\n<p paraeid=\"{a34d641d-3774-48d5-9d27-0f4a792f2614}{42}\" paraid=\"827252623\">Fox, M. T., Amoah, J., Hsu, A. J., Herzke, C. A., Gerber, J. S., &amp; Tamma, P. D. (2020). <a href=\"https://doi.org/10.1001/jamanetworkopen.2020.3951\">Comparative effectiveness of antibiotic treatment duration in children with pyelonephritis</a>. JAMA Network Open, 3(5), e203951.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13531
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/urinary-tract-infections-hospital-onset",
+   "langcode": "und",
+   "pid": 26186
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-11-13T16:28:24+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Urinary Tract Infections - Hospital Onset "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "a97af719-4bb8-4b52-a48d-5e38eed2a89b"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16116
+  }
+ ]
+}

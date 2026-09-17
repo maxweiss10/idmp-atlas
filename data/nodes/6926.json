@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-04-11T18:57:40+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1712861860,
+   "last_comment_uid": 0,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-13T22:32:17+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<p>\n<div class=\"media-embed-resized media media--type-image media--view-mode-default\" height=\"3302\" style=\"width:2513px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/Inpatient%20Non-Neutropenic%20Fever%202024.png.webp?itok=DJshD_Rf\" width=\"365\" height=\"480\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n</p>\n\n<p style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 300; font-size: 14px; font-family: Helvetica, Arial, 'Lucida Grande', sans-serif; background-color: #ffffff; color: #333333;\"><a href=\"/pediatric-antimicrobial-dosing-benioff-childrens-hospitals\">Pediatric Antimicrobial Dosing Guidelines</a></p>\n\n<p style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 300; font-size: 14px; font-family: Helvetica, Arial, 'Lucida Grande', sans-serif; background-color: #ffffff; color: #333333;\"><a href=\"/content/benioff-childrens-hospitals-guidelines-for-fever-in-patients-receiving-cancer-therapy-and-or\">UCSF Benioff Children's Hospitals Guidelines for Fever in Patients Receiving Cancer Therapy and/or Hematopoetic Transplantation</a></p>\n",
+   "value": "<p><drupal-media data-entity-type=\"media\" data-entity-uuid=\"9c783680-7e33-4df3-8bfa-f45dcb5b02ba\" data-view-mode=\"default\" data-media-width=\"2513px\" alt height=\"3302\"></drupal-media></p>\n\n<p style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 300; font-size: 14px; font-family: Helvetica, Arial, 'Lucida Grande', sans-serif; background-color: #ffffff; color: #333333;\"><a href=\"/node/7626\">Pediatric Antimicrobial Dosing Guidelines</a></p>\n\n<p style=\"font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 300; font-size: 14px; font-family: Helvetica, Arial, 'Lucida Grande', sans-serif; background-color: #ffffff; color: #333333;\"><a href=\"/node/11941\">UCSF Benioff Children's Hospitals Guidelines for Fever in Patients Receiving Cancer Therapy and/or Hematopoetic Transplantation</a></p>\n"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 6926
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/inpatient-non-neutropenic-fever-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and",
+   "langcode": "und",
+   "pid": 20011
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-04-11T18:57:40+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Inpatient Non-Neutropenic Fever Algorithm: Fever in Pediatric Patients Receiving Cancer Therapy and/or Hematopoietic Transplantation"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "e04fc215-ff6a-4e43-8dd9-e07d707efa12"
+  }
+ ],
+ "vid": [
+  {
+   "value": 6926
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-31T20:18:10+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1581542816,
+   "last_comment_uid": 176,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-02-12T21:26:56+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th style=\"text-align:center;\">CrCl &gt; 30 mL/min</th><th style=\"text-align:center;\">10 - 29 mL/min</th><th style=\"text-align:center;\">&lt; 10 mL/min</th></tr></thead><tbody><tr><td>Uncomplicated Gram-Positive Infection</td><td style=\"text-align:center;\">1 g IV q8h</td><td style=\"text-align:center;\">1 g IV q12h</td><td style=\"text-align:center;\">1 g IV q24h</td></tr><tr><td>Gram-Negative or Complicated Gram-Positive Infection</td><td style=\"text-align:center;\">2 g IV q8h*</td><td style=\"text-align:center;\">2 g IV q12h</td><td style=\"text-align:center;\">1 g IV q24h</td></tr></tbody></table><p><span data-teams=\"true\">*Higher doses may be indicated in select patients with deep-seated MSSA infections, particularly for initial therapy and/or those with clinical instability. Discuss with ID/ASP pharmacy.</span></p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th style=\"text-align:center;\">CrCl &gt; 30 mL/min</th><th style=\"text-align:center;\">10 - 29 mL/min</th><th style=\"text-align:center;\">&lt; 10 mL/min</th></tr></thead><tbody><tr><td>Uncomplicated Gram-Positive Infection</td><td style=\"text-align:center;\">1 g IV q8h</td><td style=\"text-align:center;\">1 g IV q12h</td><td style=\"text-align:center;\">1 g IV q24h</td></tr><tr><td>Gram-Negative or Complicated Gram-Positive Infection</td><td style=\"text-align:center;\">2 g IV q8h*</td><td style=\"text-align:center;\">2 g IV q12h</td><td style=\"text-align:center;\">1 g IV q24h</td></tr></tbody></table><p><span data-teams=\"true\">*Higher doses may be indicated in select patients with deep-seated MSSA infections, particularly for initial therapy and/or those with clinical instability. Discuss with ID/ASP pharmacy.</span></p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All Indications</td><td style=\"text-align:center;\"><p>2 g IV x1 now and post-HD</p><p><u>Alternative dosing for patients on stable hemodialysis&nbsp;schedule:</u> 2 g IV / 2 g IV / 3 g IV post-HD</p><p><em>3 g given prior to 72hr intradialytic period; for example, after Friday dialysis for pts on MWF schedule</em></p></td><td style=\"text-align:center;\">2 g IV q12h</td></tr></tbody></table>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All Indications</td><td style=\"text-align:center;\"><p>2 g IV x1 now and post-HD</p><p><u>Alternative dosing for patients on stable hemodialysis&nbsp;schedule:</u> 2 g IV / 2 g IV / 3 g IV post-HD</p><p><em>3 g given prior to 72hr intradialytic period; for example, after Friday dialysis for pts on MWF schedule</em></p></td><td style=\"text-align:center;\">2 g IV q12h</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "Added asterisk and comment re: potential need for higher dosing (e.g. 2g IV q6h) in certain situations - MSSA endocarditis and meningitis. Decided at IDMP Dosing meeting 7/2026."
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8286
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/cefazolin",
+   "langcode": "und",
+   "pid": 21211
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-31T20:18:10+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Cefazolin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "157c9dbc-2c53-4cab-b488-1f76b4bf45a7"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35446
+  }
+ ]
+}

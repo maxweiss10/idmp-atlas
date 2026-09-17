@@ -1,0 +1,138 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597341152,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T17:52:32+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dosing</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>200 mg IV/PO x1, then 100 mg IV/PO q12h</td>\n\t\t\t<td>No adjustment for renal dysfunction</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*There may be certain situations that may require higher dosing (200 mg IV/PO q12h).&nbsp; Speak to ASP/ID pharmacy if needed.</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dosing</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>200 mg IV/PO x1, then 100 mg IV/PO q12h</td>\r\n\t\t\t<td>No adjustment for renal dysfunction</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*There may be certain situations that may require higher dosing (200 mg IV/PO q12h).&nbsp; Speak to ASP/ID pharmacy if needed.</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">Dosing</th>\n\t\t\t<th style=\"text-align: center;\">Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td style=\"text-align: center;\">200 mg IV/PO x1, then 100 mg IV/PO q12h</td>\n\t\t\t<td style=\"text-align: center;\">No adjustment for hemodialysis</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*There may be certain situations that may require higher dosing (200 mg IV/PO q12h).&nbsp; Speak to ASP/ID pharmacy if needed.</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">Dosing</th>\r\n\t\t\t<th style=\"text-align: center;\">Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td style=\"text-align: center;\">200 mg IV/PO x1, then 100 mg IV/PO q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">No adjustment for hemodialysis</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*There may be certain situations that may require higher dosing (200 mg IV/PO q12h).&nbsp; Speak to ASP/ID pharmacy if needed.</p>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 76,
+   "target_type": "taxonomy_term",
+   "target_uuid": "4511a589-5232-4ab1-95de-bae41deb9968",
+   "url": "/notations/iv-po"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "09/2023:  Ripal Jariwala requested update; 09/2023 completed; IDSA GNR guidelines - https://www.idsociety.org/practice-guideline/amr-guidance/"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11676
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/minocycline",
+   "langcode": "und",
+   "pid": 24391
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Minocycline"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "19c64812-168c-4c46-a811-665884c764d2"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21911
+  }
+ ]
+}

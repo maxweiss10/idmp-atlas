@@ -1,0 +1,138 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:29:26+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1680719525,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-14T21:33:51+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [
+  {
+   "plugin_id": "block_content:f6961c65-cdae-43c5-a982-6a8bb43ddb60",
+   "settings": {
+    "id": "block_content:f6961c65-cdae-43c5-a982-6a8bb43ddb60",
+    "info": "",
+    "label": "Home - sidebar",
+    "label_display": false,
+    "provider": "block_content",
+    "status": true,
+    "view_mode": "full"
+   }
+  }
+ ],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<div class=\"wysiwyg_twocols layout--35-65\">\n<div class=\"wysiwyg_twocols--first bg--transparent\">\n<p><a href=\"https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/Honor_Roll.aspx\"><img alt=\"Antimicrobial Stewardship Honor Roll \" height=\"337\" src=\"https://www.cdph.ca.gov/Programs/CHCQ/HAI/PublishingImages/Lists/adimagelist/AllItems/HonorrollGOLD.png\" width=\"344\"> </a></p>\n</div>\n\n<div class=\"wysiwyg_twocols--second bg--transparent\">\n<ul>\n\t<li><strong>IDMP</strong> is an <strong>interprofessional</strong>, <strong>multidisciplinary</strong>, <strong>multi-hospital program</strong> whose <strong>mission </strong>is to <strong>improve the care</strong> of patients with infectious diseases, <strong>prevent the spread</strong> of infection, and <strong>ensure the appropriate use</strong> of antimicrobials.</li>\n\t<li><strong>IDMP's fields</strong> include <strong>Infectious Diseases,</strong> <strong>Antimicrobial Stewardship</strong>, <strong>Infection Control</strong>, and <strong>Clinical Microbiology</strong>.</li>\n\t<li><strong>IDMP coordinates</strong> with clinicians across <strong>UCSF teaching hospitals</strong>: UCSF Medical Center at Parnassus Heights, UCSF Medical Center at Mt Zion, UCSF Benioff Children's Hospital San Francisco, UCSF Children's Hospital Oakland, Zuckerburg San Francisco General Hospital and the Veterans Affairs Medical Center San Francisco to promote best practices across all the hospitals.</li>\n</ul>\n</div>\n</div>\n",
+   "value": "<div class=\"wysiwyg_twocols layout--35-65\">\r\n<div class=\"wysiwyg_twocols--first bg--transparent\">\r\n<p><a href=\"https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/Honor_Roll.aspx\"><img alt=\"Antimicrobial Stewardship Honor Roll \" height=\"337\" src=\"https://www.cdph.ca.gov/Programs/CHCQ/HAI/PublishingImages/Lists/adimagelist/AllItems/HonorrollGOLD.png\" width=\"344\"> </a></p>\r\n</div>\r\n\r\n<div class=\"wysiwyg_twocols--second bg--transparent\">\r\n<ul>\r\n\t<li><strong>IDMP</strong> is an <strong>interprofessional</strong>, <strong>multidisciplinary</strong>, <strong>multi-hospital program</strong> whose <strong>mission </strong>is to <strong>improve the care</strong> of patients with infectious diseases, <strong>prevent the spread</strong> of infection, and <strong>ensure the appropriate use</strong> of antimicrobials.</li>\r\n\t<li><strong>IDMP's fields</strong> include <strong>Infectious Diseases,</strong> <strong>Antimicrobial Stewardship</strong>, <strong>Infection Control</strong>, and <strong>Clinical Microbiology</strong>.</li>\r\n\t<li><strong>IDMP coordinates</strong> with clinicians across <strong>UCSF teaching hospitals</strong>: UCSF Medical Center at Parnassus Heights, UCSF Medical Center at Mt Zion, UCSF Benioff Children's Hospital San Francisco, UCSF Children's Hospital Oakland, Zuckerburg San Francisco General Hospital and the Veterans Affairs Medical Center San Francisco to promote best practices across all the hospitals.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_primary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [
+  {
+   "target_id": 16,
+   "target_revision_id": 16,
+   "target_type": "paragraph",
+   "target_uuid": "80befead-e678-434a-9c29-7e7430868b47"
+  }
+ ],
+ "field_paragraph_sliders": [
+  {
+   "target_id": 21,
+   "target_revision_id": 21,
+   "target_type": "paragraph",
+   "target_uuid": "34b273dc-fe9b-47e6-8568-35e3e4120d68"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8231
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/home",
+   "langcode": "und",
+   "pid": 21166
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-04-05T18:32:05+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Home"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "6787e4f7-7b53-4279-9e65-6ed22e1680d5"
+  }
+ ],
+ "vid": [
+  {
+   "value": 8231
+  }
+ ]
+}

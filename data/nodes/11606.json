@@ -1,0 +1,150 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:51+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597286171,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T02:36:11+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt; 50 mL/min</th>\n\t\t\t<th>31 - 50 mL/min</th>\n\t\t\t<th>16 - 30 mL/min</th>\n\t\t\t<th>6 - 15 mL/min</th>\n\t\t\t<th>&lt; 5 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>2.5 g IV q8h infused over 3 hours</td>\n\t\t\t<td>1.25 g IV q8h&nbsp;infused over 3 hours</td>\n\t\t\t<td>0.94 g IV q12h&nbsp;infused over 3 hours</td>\n\t\t\t<td>0.94 g IV q24h&nbsp;infused over 3 hours</td>\n\t\t\t<td>0.94 g IV q48h&nbsp;infused over 3 hours</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;Dosage recommendations are expressed as total grams of the ceftazidime/avibactam combination.</p>\n\n<p>If <a href=\"/content/aztreonam\">aztreonam&nbsp;</a>used in combination with ceftazidime-avibactam and dosing intervals&nbsp;are the same,&nbsp;simultaneous&nbsp;administration&nbsp;is&nbsp;preferred.&nbsp;&nbsp;</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt; 50 mL/min</th>\r\n\t\t\t<th>31 - 50 mL/min</th>\r\n\t\t\t<th>16 - 30 mL/min</th>\r\n\t\t\t<th>6 - 15 mL/min</th>\r\n\t\t\t<th>&lt; 5 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>2.5 g IV q8h infused over 3 hours</td>\r\n\t\t\t<td>1.25 g IV q8h&nbsp;infused over 3 hours</td>\r\n\t\t\t<td>0.94 g IV q12h&nbsp;infused over 3 hours</td>\r\n\t\t\t<td>0.94 g IV q24h&nbsp;infused over 3 hours</td>\r\n\t\t\t<td>0.94 g IV q48h&nbsp;infused over 3 hours</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;Dosage recommendations are expressed as total grams of the ceftazidime/avibactam combination.</p>\r\n\r\n<p>If <a href=\"/content/aztreonam\">aztreonam&nbsp;</a>used in combination with ceftazidime-avibactam and dosing intervals&nbsp;are the same,&nbsp;simultaneous&nbsp;administration&nbsp;is&nbsp;preferred.&nbsp;&nbsp;</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>0.94 g IV x1 now then qPM infused over 3 hours</p>\n\n\t\t\t<p><u>Alternative for minimal residual kidney function &amp; less severe infections</u>: 0.94 g IV q48h in evening infused over 3 hours</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">2.5 g IV q8h&nbsp;infused over 3 hours</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>0.94 g IV x1 now then qPM infused over 3 hours</p>\r\n\r\n\t\t\t<p><u>Alternative for minimal residual kidney function &amp; less severe infections</u>: 0.94 g IV q48h in evening infused over 3 hours</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">2.5 g IV q8h&nbsp;infused over 3 hours</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship</p>\n",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "6/2023: Updated HD dosing to align with Lexicomp​. Approved by core dosing group & presented at AMSC. Requested and updated by Emily Kaip.\r\n10/2024: Updated language to include infused over 3 hours in the dosing schematic. Approved at the adult quarterly dosing meeting - RJ"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11606
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ceftazidime-avibactam-avycaz",
+   "langcode": "und",
+   "pid": 24326
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Ceftazidime/avibactam (Avycaz)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "c6e9cd12-1cf5-46bc-aa77-8d4074717efa"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23886
+  }
+ ]
+}

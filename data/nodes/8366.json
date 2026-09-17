@@ -1,0 +1,138 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-13T01:54:46+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587415501,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-20T20:45:01+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table style=\"font-family: HelveticaNeueLTW04-55Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">CrCl &gt; 50 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">CrCl 10 - 50 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">CrCl &lt; 10 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Oropharyngeal Infection</td>\n\t\t\t<td style=\"text-align: center;\">100 mg IV/PO q24h</td>\n\t\t\t<td style=\"text-align: center;\">50% of target dose IV/PO q24h</td>\n\t\t\t<td style=\"text-align: center;\">25% of target dose IV/PO q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Esophageal Infection</td>\n\t\t\t<td style=\"text-align: center;\">200 mg IV/PO q24h</td>\n\t\t\t<td style=\"text-align: center;\">50% of target dose IV/PO q24h</td>\n\t\t\t<td style=\"text-align: center;\">25% of target dose IV/PO q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Systemic/Severe Infections*</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">≤ 80 kg: 400mg IV/PO q24h</p>\n\n\t\t\t<p style=\"text-align: center;\">81 – 100 kg: 600 mg IV/PO q24h</p>\n\n\t\t\t<p style=\"text-align: center;\">&gt; 100 kg: 800 mg IV/PO q24h</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">50% of target dose IV/PO q24h</td>\n\t\t\t<td style=\"text-align: center;\">25% of target dose IV/PO q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Prophylaxis for Heme-BMT patients</td>\n\t\t\t<td style=\"text-align: center;\">400 mg PO/IV q24h</td>\n\t\t\t<td style=\"text-align: center;\">50% of target dose IV/PO q24h</td>\n\t\t\t<td style=\"text-align: center;\">25% of target dose IV/PO q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*Higher doses may be necessary in some circumstances such as obese patients with&nbsp;severe infections</p>\n",
+   "value": "<table style=\"font-family: HelveticaNeueLTW04-55Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">CrCl &gt; 50 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">CrCl 10 - 50 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">CrCl &lt; 10 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Oropharyngeal Infection</td>\r\n\t\t\t<td style=\"text-align: center;\">100 mg IV/PO q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">50% of target dose IV/PO q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">25% of target dose IV/PO q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Esophageal Infection</td>\r\n\t\t\t<td style=\"text-align: center;\">200 mg IV/PO q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">50% of target dose IV/PO q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">25% of target dose IV/PO q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Systemic/Severe Infections*</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align: center;\">≤ 80 kg: 400mg IV/PO q24h</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">81 – 100 kg: 600 mg IV/PO q24h</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">&gt; 100 kg: 800 mg IV/PO q24h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">50% of target dose IV/PO q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">25% of target dose IV/PO q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Prophylaxis for Heme-BMT patients</td>\r\n\t\t\t<td style=\"text-align: center;\">400 mg PO/IV q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">50% of target dose IV/PO q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">25% of target dose IV/PO q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*Higher doses may be necessary in some circumstances such as obese patients with&nbsp;severe infections</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Indication</th><th style=\"text-align:center;\">Intermittent Hemodialysis</th><th style=\"text-align:center;\">Continuous Hemodialysis*</th></tr></thead><tbody><tr><td>Oropharyngeal Infection</td><td style=\"text-align:center;\">100 mg IV/PO x1 now, then post-HD</td><td style=\"text-align:center;\">200 mg IV/PO q24h</td></tr><tr><td>Esophageal Infection</td><td style=\"text-align:center;\">200 mg IV/PO x1 now, then post-HD</td><td style=\"text-align:center;\">400 mg IV/PO q24h</td></tr><tr><td>Severe Infections</td><td><p>400 mg IV/PO x1 now, then post-HD</p><p>&nbsp;</p></td><td>800-1200 mg IV/PO per day, divided q12-24h</td></tr><tr><td>Prophylaxis for Heme-BMT patients</td><td>400 mg IV/PO x1 then post-HD</td><td>800 mg IV/PO q 24h</td></tr></tbody></table><p>*Data suggests that fluconazole clearance in patients receiving CVVHD is higher than in patients with normal renal function, necessitating use of higher dosing. These recommendations have not been evaluated for other continuous renal replacement modalities (ex. CVVH) and may not apply.&nbsp;</p>",
+   "value": "<table><thead><tr><th>Indication</th><th style=\"text-align:center;\">Intermittent Hemodialysis</th><th style=\"text-align:center;\">Continuous Hemodialysis*</th></tr></thead><tbody><tr><td>Oropharyngeal Infection</td><td style=\"text-align:center;\">100 mg IV/PO x1 now, then post-HD</td><td style=\"text-align:center;\">200 mg IV/PO q24h</td></tr><tr><td>Esophageal Infection</td><td style=\"text-align:center;\">200 mg IV/PO x1 now, then post-HD</td><td style=\"text-align:center;\">400 mg IV/PO q24h</td></tr><tr><td>Severe Infections</td><td><p>400 mg IV/PO x1 now, then post-HD</p><p>&nbsp;</p></td><td>800-1200 mg IV/PO per day, divided q12-24h</td></tr><tr><td>Prophylaxis for Heme-BMT patients</td><td>400 mg IV/PO x1 then post-HD</td><td>800 mg IV/PO q 24h</td></tr></tbody></table><p>*Data suggests that fluconazole clearance in patients receiving CVVHD is higher than in patients with normal renal function, necessitating use of higher dosing. These recommendations have not been evaluated for other continuous renal replacement modalities (ex. CVVH) and may not apply.&nbsp;</p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 76,
+   "target_type": "taxonomy_term",
+   "target_uuid": "4511a589-5232-4ab1-95de-bae41deb9968",
+   "url": "/notations/iv-po"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "RJ revised on 11/25/24 - added Heme-BMT prophy indication \r\n1/6/26: Revised fluc 200 mg post-HD to 400 mg post-HD at request of Kim Makishima from HBC\r\n1/2/25: Revised fluc CRRT dosing to be double that of HD dosing at request of Kim Makishima from HBC\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8366
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/fluconazole",
+   "langcode": "und",
+   "pid": 21266
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-13T01:54:46+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Fluconazole"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5578be14-2376-41df-bd6d-6b0437f7596c"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24596
+  }
+ ]
+}

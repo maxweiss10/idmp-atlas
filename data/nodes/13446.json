@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-23T23:12:52+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629760372,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:42:08+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Streptococcal pharyngitis&nbsp;</td>\n\t\t\t<td>Group A streptococcus&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{10}\" paraid=\"200356314\">Amoxicillin &nbsp;<br>\n\t\t\t50 mg/kg/dose (max 1000 mg/dose) enterally daily &nbsp;</p>\n\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{26}\" paraid=\"1509876232\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{32}\" paraid=\"573715132\"><strong>Anticipated difficulty tolerating or adhering to enteral therapy</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{42}\" paraid=\"1163078232\">Weight&nbsp;&lt;&nbsp;27 kg: Benzathine Penicillin G 600,000 units IM x 1 dose&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{56}\" paraid=\"2093368458\">Weight&nbsp;&gt; 27 kg: Benzathine Penicillin G 1.2 million units IM x 1 dose&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{67}\" paraid=\"1564496576\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin allergy with lower risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{77}\" paraid=\"150083332\">Cephalexin &nbsp;<br>\n\t\t\t25 mg/kg/dose (max 500 mg/dose) enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{93}\" paraid=\"1512874355\">-------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{99}\" paraid=\"2100995436\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{109}\" paraid=\"2147230606\">Clindamycin &nbsp;<br>\n\t\t\t7 mg/kg/dose (max 300 mg/dose) enterally tid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{125}\" paraid=\"355836672\">Azithromycin is not recommended for this indication. &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td><strong>Duration for oral beta lactam therapy (not Benzathine Penicillin)</strong>:&nbsp;10 days&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Streptococcal pharyngitis&nbsp;</td>\r\n\t\t\t<td>Group A streptococcus&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{10}\" paraid=\"200356314\">Amoxicillin &nbsp;<br />\r\n\t\t\t50 mg/kg/dose (max 1000 mg/dose) enterally daily &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{26}\" paraid=\"1509876232\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{32}\" paraid=\"573715132\"><strong>Anticipated difficulty tolerating or adhering to enteral therapy</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{42}\" paraid=\"1163078232\">Weight&nbsp;&lt;&nbsp;27 kg: Benzathine Penicillin G 600,000 units IM x 1 dose&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{56}\" paraid=\"2093368458\">Weight&nbsp;&gt; 27 kg: Benzathine Penicillin G 1.2 million units IM x 1 dose&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{67}\" paraid=\"1564496576\"><a href=\"/node/13556\"><strong>Penicillin allergy with lower risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{77}\" paraid=\"150083332\">Cephalexin &nbsp;<br />\r\n\t\t\t25 mg/kg/dose (max 500 mg/dose) enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{93}\" paraid=\"1512874355\">-------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{99}\" paraid=\"2100995436\"><a href=\"/node/13556\"><strong>Penicillin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{109}\" paraid=\"2147230606\">Clindamycin &nbsp;<br />\r\n\t\t\t7 mg/kg/dose (max 300 mg/dose) enterally tid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{125}\" paraid=\"355836672\">Azithromycin is not recommended for this indication. &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td><strong>Duration for oral beta lactam therapy (not Benzathine Penicillin)</strong>:&nbsp;10 days&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{148}\" paraid=\"2141250578\">References:&nbsp;</h2>\n\n<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{154}\" paraid=\"1515885051\">Gerber, MA,&nbsp;et al.&nbsp;<a href=\"https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.109.191959?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub++0pubmed&amp;\">Prevention of rheumatic fever and diagnosis and treatment of acute streptococcal pharyngitis: a scientific statement from the American Heart Association Rheumatic Fever, Endocarditis, and Kawasaki Disease Committee of the Council on Cardiovascular Disease in the Young, the Interdisciplinary Council on Functional Genomics and Translational Biology, and the Interdisciplinary Council on Quality of Care and Outcomes Research: endorsed by the American Academy of Pediatrics</a>.&nbsp;Circulation&nbsp;2009;119:1541-1551.&nbsp;&nbsp;</p>\n\n<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{174}\" paraid=\"1604265311\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{148}\" paraid=\"2141250578\">References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{154}\" paraid=\"1515885051\">Gerber, MA,&nbsp;et al.&nbsp;<a href=\"https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.109.191959?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub++0pubmed&amp;\">Prevention of rheumatic fever and diagnosis and treatment of acute streptococcal pharyngitis: a scientific statement from the American Heart Association Rheumatic Fever, Endocarditis, and Kawasaki Disease Committee of the Council on Cardiovascular Disease in the Young, the Interdisciplinary Council on Functional Genomics and Translational Biology, and the Interdisciplinary Council on Quality of Care and Outcomes Research: endorsed by the American Academy of Pediatrics</a>.&nbsp;Circulation&nbsp;2009;119:1541-1551.&nbsp;&nbsp;</p>\r\n\r\n<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{174}\" paraid=\"1604265311\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13446
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/streptococcal-pharyngitis",
+   "langcode": "und",
+   "pid": 26101
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-23T23:12:52+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Streptococcal Pharyngitis "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "3aa5fb95-db7f-45f3-a38a-91486002fb27"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16031
+  }
+ ]
+}

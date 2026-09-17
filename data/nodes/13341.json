@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:29:48+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633717788,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T17:52:44+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{84}\" paraid=\"298190446\">Neonatal herpes simplex disease - disseminated, CNS/encephalitis, or mucocutaneous (skin/eye/mouth) (including young infants &lt; 3 months old)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{94}\" paraid=\"1810543674\">Consider diagnosis in infants with cutaneous vesicles, seizure, focal neurologic signs, CSF pleocytosis, unexplained thrombocytopenia or hepatitis&nbsp;</p>\n\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{104}\" paraid=\"1964447348\">See guidance on <a href=\"/content/herpes-simplex-virus-disease-outside-neonatal-period\">HSV disease in older pediatric patients</a>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Herpes simplex virus&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{120}\" paraid=\"1541211133\">Acyclovir 20 mg/kg/dose IV q8h&nbsp;</p>\n\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{130}\" paraid=\"256925096\">All infants with neonatal HSV disease should receive&nbsp;<em>suppressive&nbsp;therapy</em>&nbsp;following completion of above treatment course, for a minimum 6 months:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{148}\" paraid=\"1444807629\">Acyclovir 300 mg/m2/dose enterally tid &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{166}\" paraid=\"1124250381\">ID consult recommended&nbsp;</p>\n\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{176}\" paraid=\"1251608263\">All infants with suspected or proven neonatal HSV disease should have a full evaluation with LP, CSF HSV PCR, plasma HSV PCR, cultures or PCR of conjunctivae, mouth, nasopharynx, and rectum &nbsp;</p>\n\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{186}\" paraid=\"293594918\">Consider  ophthalmologic examination and neuroimaging for infants diagnosed with neonatal HSV disease &nbsp;</p>\n\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{196}\" paraid=\"822680788\">Ocular HSV requires addition of topical antivirals  (trifluridine or ganciclovir gel) and ophthalmology co-management&nbsp;</p>\n\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{206}\" paraid=\"888677445\"><strong>Duration</strong>: &nbsp;<br>\n\t\t\tSkin/eye/mouth disease:&nbsp;14 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{224}\" paraid=\"2076254190\">CNS disease:&nbsp;Minimum of 21 days (repeat LP near end of therapy, duration extended if HSV still detected in CSF)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{232}\" paraid=\"988994613\">Disseminated disease:&nbsp;21 days&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Asymptomatic infant born to mother with active HSV lesions&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>Refer to <a href=\"https://pediatrics.aappublications.org/content/131/2/e635.long\">published guidelines</a>, or consult ID&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{84}\" paraid=\"298190446\">Neonatal herpes simplex disease - disseminated, CNS/encephalitis, or mucocutaneous (skin/eye/mouth) (including young infants &lt; 3 months old)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{94}\" paraid=\"1810543674\">Consider diagnosis in infants with cutaneous vesicles, seizure, focal neurologic signs, CSF pleocytosis, unexplained thrombocytopenia or hepatitis&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{104}\" paraid=\"1964447348\">See guidance on <a href=\"/node/13546\">HSV disease in older pediatric patients</a>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Herpes simplex virus&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{120}\" paraid=\"1541211133\">Acyclovir 20 mg/kg/dose IV q8h&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{130}\" paraid=\"256925096\">All infants with neonatal HSV disease should receive&nbsp;<em>suppressive&nbsp;therapy</em>&nbsp;following completion of above treatment course, for a minimum 6 months:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{148}\" paraid=\"1444807629\">Acyclovir 300 mg/m2/dose enterally tid &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{166}\" paraid=\"1124250381\">ID consult recommended&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{176}\" paraid=\"1251608263\">All infants with suspected or proven neonatal HSV disease should have a full evaluation with LP, CSF HSV PCR, plasma HSV PCR, cultures or PCR of conjunctivae, mouth, nasopharynx, and rectum &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{186}\" paraid=\"293594918\">Consider  ophthalmologic examination and neuroimaging for infants diagnosed with neonatal HSV disease &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{196}\" paraid=\"822680788\">Ocular HSV requires addition of topical antivirals  (trifluridine or ganciclovir gel) and ophthalmology co-management&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{206}\" paraid=\"888677445\"><strong>Duration</strong>: &nbsp;<br />\r\n\t\t\tSkin/eye/mouth disease:&nbsp;14 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{224}\" paraid=\"2076254190\">CNS disease:&nbsp;Minimum of 21 days (repeat LP near end of therapy, duration extended if HSV still detected in CSF)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{232}\" paraid=\"988994613\">Disseminated disease:&nbsp;21 days&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Asymptomatic infant born to mother with active HSV lesions&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Refer to <a href=\"https://pediatrics.aappublications.org/content/131/2/e635.long\">published guidelines</a>, or consult ID&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1656,
+   "target_type": "taxonomy_term",
+   "target_uuid": "cb10dabe-b965-4057-b248-042e218f5f23",
+   "url": "/guidelines-empiric-therapy-categories/congenitalperinatal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{37}\" paraid=\"1701548403\">References:&nbsp;&nbsp;</h2>\n\n<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{45}\" paraid=\"1073763513\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n\n<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{73}\" paraid=\"715320238\">Kimberlin DW, Baley J, Committee on Infectious Diseases, et al. <a href=\"https://pediatrics.aappublications.org/content/131/2/e635.long\">Guidance on management of asymptomatic neonates born to women with active genital herpes lesions</a>. Pediatrics 2013;131:383–6.</p>\n",
+   "value": "<h2 paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{37}\" paraid=\"1701548403\">References:&nbsp;&nbsp;</h2>\r\n\r\n<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{45}\" paraid=\"1073763513\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n\r\n<p paraeid=\"{bfc721c4-6d4d-482f-8db9-37591496ae6c}{73}\" paraid=\"715320238\">Kimberlin DW, Baley J, Committee on Infectious Diseases, et al. <a href=\"https://pediatrics.aappublications.org/content/131/2/e635.long\">Guidance on management of asymptomatic neonates born to women with active genital herpes lesions</a>. Pediatrics 2013;131:383–6.</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13341
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/neonatal-herpes-simplex-virus-disease",
+   "langcode": "und",
+   "pid": 26001
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:29:48+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Neonatal Herpes Simplex Virus Disease"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "473e20f5-a71b-46ab-8dfc-cbe69224b3b6"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15926
+  }
+ ]
+}

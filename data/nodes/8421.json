@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587520163,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T01:49:23+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">Dosing</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Meningitis, osteomyelitis, bloodstream infection, or endovascular infection</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV Q4h</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">\n\t\t\t<p>No renal dose adjustment</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">Dosing</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Meningitis, osteomyelitis, bloodstream infection, or endovascular infection</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV Q4h</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">\r\n\t\t\t<p>No renal dose adjustment</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">Dosing</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Meningitis, osteomyelitis, bloodstream infection, or endovascular infection</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV Q4h</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">\n\t\t\t<p>No dose adjustment in hemodialysis</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">Dosing</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Meningitis, osteomyelitis, bloodstream infection, or endovascular infection</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV Q4h</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">\r\n\t\t\t<p>No dose adjustment in hemodialysis</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "Kathy Yang requested this 07/2023\r\nRemoved \"uncomplicated infection\" row\r\nEmily Kaip updated this 08/2023"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8421
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/nafcillin",
+   "langcode": "und",
+   "pid": 21306
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Nafcillin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "364a5372-31b1-4ab3-acb1-aa7a01f98658"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21756
+  }
+ ]
+}

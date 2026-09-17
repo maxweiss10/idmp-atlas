@@ -1,0 +1,232 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1756039884,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-21T13:28:03+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": true
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 0
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "Prachi Singh"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [],
+ "field_person_first_name": [
+  {
+   "value": "Prachi"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 566,
+   "target_type": "media",
+   "target_uuid": "8a42c05d-a3ef-412c-815c-bef0fa6871a7",
+   "url": "/media/566"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Singh"
+  }
+ ],
+ "field_person_middle_name": [],
+ "field_person_preferred_name": [
+  {
+   "value": "Prachi"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1531,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a7ab1721-30a9-4d30-a85c-ac76902e2c0d",
+   "url": "/departments-units-and-organizations/mpeds-infectious-disease"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [
+  {
+   "target_id": 26831,
+   "target_type": "node",
+   "target_uuid": "ee382b37-3683-4afc-b7b4-7c224dbe7160",
+   "url": "/content/pediatric-empiric-antibiotic-use-and-resistance-patterns-at-a-single-tertiary-care-hospital-in"
+  }
+ ],
+ "field_person_research_biography": [],
+ "field_person_subtype": [
+  {
+   "target_id": 1311,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8e66bd73-dcdf-4739-a615-94498952e1ef",
+   "url": "/person-type/ucsf-benioff-childrens-hospital-oakland"
+  }
+ ],
+ "field_person_title_override": [
+  {
+   "value": "DO, Medical Director "
+  },
+  {
+   "value": "Antimicrobial Stewardship Program, UCSF Benioff Children's Hospital Oakland"
+  }
+ ],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 346,
+   "target_type": "taxonomy_term",
+   "target_uuid": "eb5cc219-543f-4415-a229-94d58e47d3a1",
+   "url": "/person-type/affiliate"
+  },
+  {
+   "target_id": 176,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee47c868-e940-4230-af11-2a747ae34b77",
+   "url": "/person-type/faculty"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 1511,
+   "target_type": "taxonomy_term",
+   "target_uuid": "26ba1f5b-b349-4dd8-9d44-a1c2597e55f1",
+   "url": "/person-type/rfs"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_person_working_title": [
+  {
+   "value": "HS Assoc Clinical Professor"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [],
+ "field_profiles_link": [
+  {
+   "options": {
+    "attributes": []
+   },
+   "title": null,
+   "uri": "https://profiles.ucsf.edu/prachi.singh"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12161
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/prachi-singh-do",
+   "langcode": "und",
+   "pid": 24841
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-24T12:51:24+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Prachi Singh, DO"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "962076b0-af60-45f4-a0bf-4cd860ca963e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 14106
+  }
+ ]
+}

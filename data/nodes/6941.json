@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-04-11T19:47:54+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1712864874,
+   "last_comment_uid": 0,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-13T22:32:17+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<p>​</p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:630px;\" width=\"630\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\"><strong>Indication for Antibiotic</strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\"><strong>First Choice Therapy</strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\"><strong>Penicillin allergy with lower risk for allergic reaction </strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\"><strong>Penicillin allergy with higher risk for allergic reaction</strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\"><strong>Cephalosporin allergy </strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\">Febrile Neutropenia</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\">Cefepime</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\">Cefepime</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\">Aztreonam* + Vancomycin</p>\n\n\t\t\t<p align=\"center\"><br>\n\t\t\tADD Tobramycin if clinically unstable<br>\n\t\t\t<br>\n\t\t\t<br>\n\t\t\tTest dose Cefepime per Beta Lactam Allergy guideline recommended after initiation of antibiotics</p>\n\n\t\t\t<p align=\"center\">&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\">Aztreonam* +</p>\n\n\t\t\t<p align=\"center\">Vancomycin</p>\n\n\t\t\t<p align=\"center\"><br>\n\t\t\tADD Tobramycin if clinically unstable<br>\n\t\t\t<br>\n\t\t\tRefer to Beta Lactam Allergy guideline for options to give with/without test dose based on specific prior reaction</p>\n\n\t\t\t<p align=\"center\">&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\">Non-Neutropenic Fever</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\">Ceftriaxone</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\">Ceftriaxone</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\">Levofloxacin</p>\n\n\t\t\t<p align=\"center\"><em>For patient age &lt;5 years, prescribe second dose to give 12 hours later</em></p>\n\n\t\t\t<p align=\"center\"><br>\n\t\t\tOR<br>\n\t\t\t<br>\n\t\t\tCeftriaxone by test dose procedure</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:126px;\">\n\t\t\t<p align=\"center\">Levofloxacin</p>\n\n\t\t\t<p align=\"center\"><em>For patient age &lt;5 years, prescribe second dose to give 12 hours later</em></p>\n\n\t\t\t<p align=\"center\">&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*Aztreonam does not have any gram-positive activity, so concurrent Vancomycin is recommended for patients with High-Risk FN even if the patient is clinically stable. For Low-Risk FN may consider aztreonam alone.</p>\n\n<p><a href=\"/content/allergy-beta-lactam\">Beta-Lactam Allergy Guideline</a></p>\n\n<p><a href=\"/content/benioff-childrens-hospitals-guidelines-for-fever-in-patients-receiving-cancer-therapy-and-or\">UCSF Benioff Children’s Hospitals Guidelines for Fever in Patients Receiving Cancer Therapy and/or Hematopoietic Transplantation</a></p>\n",
+   "value": "<p>​</p>\r\n\r\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:630px;\" width=\"630\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\"><strong>Indication for Antibiotic</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\"><strong>First Choice Therapy</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\"><strong>Penicillin allergy with lower risk for allergic reaction </strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\"><strong>Penicillin allergy with higher risk for allergic reaction</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\"><strong>Cephalosporin allergy </strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\">Febrile Neutropenia</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\">Cefepime</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\">Cefepime</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\">Aztreonam* + Vancomycin</p>\r\n\r\n\t\t\t<p align=\"center\"><br />\r\n\t\t\tADD Tobramycin if clinically unstable<br />\r\n\t\t\t<br />\r\n\t\t\t<br />\r\n\t\t\tTest dose Cefepime per Beta Lactam Allergy guideline recommended after initiation of antibiotics</p>\r\n\r\n\t\t\t<p align=\"center\">&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\">Aztreonam* +</p>\r\n\r\n\t\t\t<p align=\"center\">Vancomycin</p>\r\n\r\n\t\t\t<p align=\"center\"><br />\r\n\t\t\tADD Tobramycin if clinically unstable<br />\r\n\t\t\t<br />\r\n\t\t\tRefer to Beta Lactam Allergy guideline for options to give with/without test dose based on specific prior reaction</p>\r\n\r\n\t\t\t<p align=\"center\">&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\">Non-Neutropenic Fever</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\">Ceftriaxone</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\">Ceftriaxone</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\">Levofloxacin</p>\r\n\r\n\t\t\t<p align=\"center\"><em>For patient age &lt;5 years, prescribe second dose to give 12 hours later</em></p>\r\n\r\n\t\t\t<p align=\"center\"><br />\r\n\t\t\tOR<br />\r\n\t\t\t<br />\r\n\t\t\tCeftriaxone by test dose procedure</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:126px;\">\r\n\t\t\t<p align=\"center\">Levofloxacin</p>\r\n\r\n\t\t\t<p align=\"center\"><em>For patient age &lt;5 years, prescribe second dose to give 12 hours later</em></p>\r\n\r\n\t\t\t<p align=\"center\">&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*Aztreonam does not have any gram-positive activity, so concurrent Vancomycin is recommended for patients with High-Risk FN even if the patient is clinically stable. For Low-Risk FN may consider aztreonam alone.</p>\r\n\r\n<p><a href=\"/node/9856\">Beta-Lactam Allergy Guideline</a></p>\r\n\r\n<p><a href=\"/node/11941\">UCSF Benioff Children’s Hospitals Guidelines for Fever in Patients Receiving Cancer Therapy and/or Hematopoietic Transplantation</a></p>\r\n"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 6941
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/alternative-antibiotics-for-patients-with-beta-lactam-allergy-for-ucsf-benioff-childrens-hospitals",
+   "langcode": "und",
+   "pid": 20026
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-04-11T19:47:54+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Alternative Antibiotics for Patients with Beta-Lactam Allergy (for UCSF Benioff Children’s Hospitals Guidelines for Fever in Pediatric Patients Receiving Cancer Therapy and/or Hematopoietic Transplantation)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "38e2a73b-6d9b-463c-b41b-494b7843a402"
+  }
+ ],
+ "vid": [
+  {
+   "value": 6941
+  }
+ ]
+}

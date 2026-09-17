@@ -1,0 +1,118 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T17:22:42+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1631640162,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T00:09:11+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{148}\" paraid=\"935025376\">This section is linked as a resource&nbsp;from the BCH Empiric Antimicrobial Therapy Guideline sections on&nbsp;<a href=\"/content/community-acquired-pneumonia\">Community-Acquired Pneumonia</a>,&nbsp;<a href=\"/content/acute-otitis-media\">Acute Otitis Media</a>, and&nbsp;<a href=\"/content/acute-bacterial-sinusitis-0\">Acute Bacterial Sinusitis</a>, and is meant to guide selection of alternative therapy for patients with documented penicillin allergy with lower risk for allergic reaction. Please refer to the linked sections for guidance&nbsp;on first choice&nbsp;therapy, and for patients with penicillin allergy with higher risk for allergic reaction. &nbsp;</p>\n\n<p paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{170}\" paraid=\"342136458\"><a href=\"/content/assessment-of-antibiotic-allergies\">Antibiotic allergy assessment</a>&nbsp;(to determine whether the patient can safely receive first line therapy) is recommended when clinically appropriate and feasible. &nbsp;</p>\n\n<p paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{182}\" paraid=\"458091198\"><strong>Not all of these listed options may be available on hospital formularies or in outpatient pharmacies, therefore we provide multiple options here with comparison between them. &nbsp;</strong></p>\n\n<p paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{194}\" paraid=\"580135495\"><strong>Cefprozil (2nd generation&nbsp;cephalosporin)&nbsp;</strong></p>\n\n<ul>\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{200}\" paraid=\"690396497\">Dosing (infants, children, adolescents): 15 mg/kg/dose (max 500 mg/dose) enterally bid&nbsp;</li>\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{207}\" paraid=\"1231943361\">Nice&nbsp;alternative to broader spectrum antibiotics (e.g.&nbsp;cefdinir) that provide unnecessary gram-negative coverage&nbsp;</li>\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{214}\" paraid=\"446704422\">Excellent spectrum of activity against the usual pathogens for infections such as community-acquired pneumonia, acute otitis media, and acute bacterial sinusitis&nbsp;</li>\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{221}\" paraid=\"228855015\">Available in both tablet and suspension form (tastes great!)&nbsp;</li>\n</ul>\n\n<p><strong>Cefuroxime (2nd generation&nbsp;cephalosporin)&nbsp;</strong></p>\n\n<ul>\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{238}\" paraid=\"542742612\">Dosing (infants, children, adolescents): 15 mg/kg/dose (max 500 mg/dose) enterally bid&nbsp;</li>\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{245}\" paraid=\"674596074\">Nice&nbsp;alternative to broader spectrum antibiotics (e.g.&nbsp;cefdinir) that provide unnecessary gram-negative coverage &nbsp;</li>\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{252}\" paraid=\"674814439\">Excellent spectrum of activity against the usual pathogens for infections such as community-acquired pneumonia, acute otitis media and acute bacterial sinusitis&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{4}\" paraid=\"671892747\">Available only in tablet form (250 mg &amp; 500 mg tablets)&nbsp;</li>\n</ul>\n\n<p><strong>Cefdinir (3rd generation&nbsp;cephalosporin)&nbsp;</strong></p>\n\n<ul>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{21}\" paraid=\"1116997287\">Dosing (infants, children, adolescents): 7 mg/kg/dose (max 300 mg/dose) enterally bid&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{28}\" paraid=\"1137713105\">Though once&nbsp;daily dosing is possible, this decreases antimicrobial exposure to the target organism(s) and further increases the risk for suboptimal treatment (see below)&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{35}\" paraid=\"576808199\">Often overly broad spectrum of activity for respiratory tract infections such as community-acquired pneumonia, acute otitis media, and acute bacterial sinusitis&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{42}\" paraid=\"225277873\">Higher rates of antibiotic associated diarrhea compared to 2nd generation&nbsp;cephalosporins&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{49}\" paraid=\"999650043\">Oral&nbsp;cefdinir and other oral 3rd generation&nbsp;cephalosporins are not considered equivalent to&nbsp;ceftriaxone&nbsp;IV/IM. They have poor oral bioavailability and high protein binding make it difficult to get appropriate concentrations at desired site of action - this could lead to treatment failure and/or more bacterial resistance&nbsp;relative to other options&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{56}\" paraid=\"1869138705\">For example, the&nbsp;estimated&nbsp;likelihood of optimal treatment exposure for acute otitis media is better with high dose amoxicillin than with&nbsp;cefdinir, despite&nbsp;cefdinir having a broader spectrum of activity. &nbsp;</li>\n</ul>\n\n<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{83}\" paraid=\"574831295\"><strong>Cefixime (3rd generation&nbsp;cephalosporin)&nbsp;</strong></p>\n\n<ul>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{89}\" paraid=\"137459379\">Dosing (infants, children, adolescents): 8 mg/kg/dose (max 400 mg/dose) enterally qday&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{96}\" paraid=\"1822647597\">Though once&nbsp;daily dosing is possible, this decreases antimicrobial exposure to the target organism(s) and further increases the risk for suboptimal treatment (see below)&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{103}\" paraid=\"1399675231\">Often overly broad spectrum of activity for respiratory tract infections such as community-acquired pneumonia, acute otitis media, and acute bacterial sinusitis&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{110}\" paraid=\"621440064\">Higher rates of antibiotic associated diarrhea compared to 2nd generation&nbsp;cephalosporins&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{117}\" paraid=\"468167633\">Oral&nbsp;cefixime and other oral 3rd generation&nbsp;cephalosporins are not considered equivalent to&nbsp;ceftriaxone&nbsp;IV/IM. They have poor oral bioavailability and high protein binding make it difficult to get appropriate concentrations at desired site of action - this could lead to treatment failure and/or more bacterial resistance&nbsp;relative to other options&nbsp;</li>\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{124}\" paraid=\"565657402\">For example, the&nbsp;estimated&nbsp;likelihood of optimal treatment exposure for acute otitis media is better with high dose amoxicillin than with&nbsp;cefixime, despite&nbsp;cefixime having a broader spectrum of activity. &nbsp;</li>\n</ul>\n",
+   "value": "<p paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{148}\" paraid=\"935025376\">This section is linked as a resource&nbsp;from the BCH Empiric Antimicrobial Therapy Guideline sections on&nbsp;<a href=\"/node/13421\">Community-Acquired Pneumonia</a>,&nbsp;<a href=\"/node/13441\">Acute Otitis Media</a>, and&nbsp;<a href=\"/node/13451\">Acute Bacterial Sinusitis</a>, and is meant to guide selection of alternative therapy for patients with documented penicillin allergy with lower risk for allergic reaction. Please refer to the linked sections for guidance&nbsp;on first choice&nbsp;therapy, and for patients with penicillin allergy with higher risk for allergic reaction. &nbsp;</p>\r\n\r\n<p paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{170}\" paraid=\"342136458\"><a href=\"/node/13556\">Antibiotic allergy assessment</a>&nbsp;(to determine whether the patient can safely receive first line therapy) is recommended when clinically appropriate and feasible. &nbsp;</p>\r\n\r\n<p paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{182}\" paraid=\"458091198\"><strong>Not all of these listed options may be available on hospital formularies or in outpatient pharmacies, therefore we provide multiple options here with comparison between them. &nbsp;</strong></p>\r\n\r\n<p paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{194}\" paraid=\"580135495\"><strong>Cefprozil (2nd generation&nbsp;cephalosporin)&nbsp;</strong></p>\r\n\r\n<ul>\r\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{200}\" paraid=\"690396497\">Dosing (infants, children, adolescents): 15 mg/kg/dose (max 500 mg/dose) enterally bid&nbsp;</li>\r\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{207}\" paraid=\"1231943361\">Nice&nbsp;alternative to broader spectrum antibiotics (e.g.&nbsp;cefdinir) that provide unnecessary gram-negative coverage&nbsp;</li>\r\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{214}\" paraid=\"446704422\">Excellent spectrum of activity against the usual pathogens for infections such as community-acquired pneumonia, acute otitis media, and acute bacterial sinusitis&nbsp;</li>\r\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{221}\" paraid=\"228855015\">Available in both tablet and suspension form (tastes great!)&nbsp;</li>\r\n</ul>\r\n\r\n<p><strong>Cefuroxime (2nd generation&nbsp;cephalosporin)&nbsp;</strong></p>\r\n\r\n<ul>\r\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{238}\" paraid=\"542742612\">Dosing (infants, children, adolescents): 15 mg/kg/dose (max 500 mg/dose) enterally bid&nbsp;</li>\r\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{245}\" paraid=\"674596074\">Nice&nbsp;alternative to broader spectrum antibiotics (e.g.&nbsp;cefdinir) that provide unnecessary gram-negative coverage &nbsp;</li>\r\n\t<li paraeid=\"{7e3fa61f-9b85-48f1-8c0d-8ca6f6db061a}{252}\" paraid=\"674814439\">Excellent spectrum of activity against the usual pathogens for infections such as community-acquired pneumonia, acute otitis media and acute bacterial sinusitis&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{4}\" paraid=\"671892747\">Available only in tablet form (250 mg &amp; 500 mg tablets)&nbsp;</li>\r\n</ul>\r\n\r\n<p><strong>Cefdinir (3rd generation&nbsp;cephalosporin)&nbsp;</strong></p>\r\n\r\n<ul>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{21}\" paraid=\"1116997287\">Dosing (infants, children, adolescents): 7 mg/kg/dose (max 300 mg/dose) enterally bid&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{28}\" paraid=\"1137713105\">Though once&nbsp;daily dosing is possible, this decreases antimicrobial exposure to the target organism(s) and further increases the risk for suboptimal treatment (see below)&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{35}\" paraid=\"576808199\">Often overly broad spectrum of activity for respiratory tract infections such as community-acquired pneumonia, acute otitis media, and acute bacterial sinusitis&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{42}\" paraid=\"225277873\">Higher rates of antibiotic associated diarrhea compared to 2nd generation&nbsp;cephalosporins&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{49}\" paraid=\"999650043\">Oral&nbsp;cefdinir and other oral 3rd generation&nbsp;cephalosporins are not considered equivalent to&nbsp;ceftriaxone&nbsp;IV/IM. They have poor oral bioavailability and high protein binding make it difficult to get appropriate concentrations at desired site of action - this could lead to treatment failure and/or more bacterial resistance&nbsp;relative to other options&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{56}\" paraid=\"1869138705\">For example, the&nbsp;estimated&nbsp;likelihood of optimal treatment exposure for acute otitis media is better with high dose amoxicillin than with&nbsp;cefdinir, despite&nbsp;cefdinir having a broader spectrum of activity. &nbsp;</li>\r\n</ul>\r\n\r\n<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{83}\" paraid=\"574831295\"><strong>Cefixime (3rd generation&nbsp;cephalosporin)&nbsp;</strong></p>\r\n\r\n<ul>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{89}\" paraid=\"137459379\">Dosing (infants, children, adolescents): 8 mg/kg/dose (max 400 mg/dose) enterally qday&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{96}\" paraid=\"1822647597\">Though once&nbsp;daily dosing is possible, this decreases antimicrobial exposure to the target organism(s) and further increases the risk for suboptimal treatment (see below)&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{103}\" paraid=\"1399675231\">Often overly broad spectrum of activity for respiratory tract infections such as community-acquired pneumonia, acute otitis media, and acute bacterial sinusitis&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{110}\" paraid=\"621440064\">Higher rates of antibiotic associated diarrhea compared to 2nd generation&nbsp;cephalosporins&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{117}\" paraid=\"468167633\">Oral&nbsp;cefixime and other oral 3rd generation&nbsp;cephalosporins are not considered equivalent to&nbsp;ceftriaxone&nbsp;IV/IM. They have poor oral bioavailability and high protein binding make it difficult to get appropriate concentrations at desired site of action - this could lead to treatment failure and/or more bacterial resistance&nbsp;relative to other options&nbsp;</li>\r\n\t<li paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{124}\" paraid=\"565657402\">For example, the&nbsp;estimated&nbsp;likelihood of optimal treatment exposure for acute otitis media is better with high dose amoxicillin than with&nbsp;cefixime, despite&nbsp;cefixime having a broader spectrum of activity. &nbsp;</li>\r\n</ul>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{147}\" paraid=\"80646709\">References</h2>\n\n<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{147}\" paraid=\"80646709\">Block SL et al. <a href=\"https://www.tandfonline.com/doi/abs/10.1185/030079906X132406\">Efficacy, tolerability, and parent reported outcomes for&nbsp;cefdinir vs. high-dose amoxicillin/clavulanate oral suspension for acute otitis media in young children</a>. Curr Med Res Opin. 2006 22(9):1839-47.&nbsp;</p>\n\n<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{157}\" paraid=\"537492607\">Harrison CJ et al. <a href=\"https://academic.oup.com/jac/article/63/3/511/693929\">Susceptibilities of Haemophilus influenzae, Streptococcus pneumoniae, including serotype 19A, and Moraxella catarrhalis paediatric isolates from 2005 to 2007 to commonly used antibiotics</a>. J Antimicrob Chemother. 2009; 63(3):511-9.&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{147}\" paraid=\"80646709\">References</h2>\r\n\r\n<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{147}\" paraid=\"80646709\">Block SL et al. <a href=\"https://www.tandfonline.com/doi/abs/10.1185/030079906X132406\">Efficacy, tolerability, and parent reported outcomes for&nbsp;cefdinir vs. high-dose amoxicillin/clavulanate oral suspension for acute otitis media in young children</a>. Curr Med Res Opin. 2006 22(9):1839-47.&nbsp;</p>\r\n\r\n<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{157}\" paraid=\"537492607\">Harrison CJ et al. <a href=\"https://academic.oup.com/jac/article/63/3/511/693929\">Susceptibilities of Haemophilus influenzae, Streptococcus pneumoniae, including serotype 19A, and Moraxella catarrhalis paediatric isolates from 2005 to 2007 to commonly used antibiotics</a>. J Antimicrob Chemother. 2009; 63(3):511-9.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13691
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/oral-cephalosporin-options-for-respiratory-tract-infections",
+   "langcode": "und",
+   "pid": 26346
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T17:22:42+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Oral Cephalosporin Options for Respiratory Tract Infections "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "366f4c71-6e25-445c-97c2-dd3a1d12f779"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16281
+  }
+ ]
+}

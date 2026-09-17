@@ -1,0 +1,158 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<hr><hr><p><em>Note: This is the Infectious Diseases Management Program COVID-19 site, which will house treatment related guidance going forward. For Hospital Epidemiology and Infection prevention's COVID-19 page, which houses guidelines around topics including disinfection, PPE, precautions, and other infection prevention related topics, please click </em><a href=\"https://infectioncontrol.ucsfmedicalcenter.org/coronavirus\"><em>here for Hospital Epidemiology and Infection Prevention's COVID-19 Page</em></a></p><ul><li><strong>For treatment of patients with COVID-19</strong> please refer to the <a href=\"https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/\">IDSA Guidelines</a>&nbsp;(NIH COVID-19 Guidelines are no longer being updated).<ul><li>Table 37 highlights recommended therapies for different levels of severity.</li><li>Figure 2 outlines recommended therapy for ambulatory patients with mild to moderate COVID-19, stratified by risk of progression to severe disease.</li></ul></li><li><strong>For guidance on pre-exposure prophylaxis (Pemivibart)</strong> for select populations refer to the attached document above</li><li>F<strong>or information on eligibility and ordering of outpatient remdesivir</strong> refer to the above attached file.</li></ul><p>------------------------------------------------------------------------------------------------------------------------------------------</p><p>&nbsp;<strong>Remdesivir Ordering Guidance for Outpatient Adults</strong></p><ol><li>Remdesivir is given at the MZ or MB Infusion Center, 7 days a week<ol><li>Not given at Parnassus Infusion Center</li></ol></li><li><strong>Eligibility criteria</strong>: Patients must meet <em>all</em> of the below criteria:<ol style=\"list-style-type:lower-alpha;\"><li>Symptomatic COVID-19 infection with symptom onset within 7 days</li><li>High risk for progression to severe disease based on CDC risk factors <a href=\"https://www.cdc.gov/covid/risk-factors/\">https://www.cdc.gov/covid/risk-factors/</a></li><li>Not eligible for nirmatrelvir-ritonavir (Paxlovid)</li><li>Mild-moderate disease<ol style=\"list-style-type:lower-roman;\"><li>A provider visit is NOT included in the infusion visit.&nbsp;<em> If you would like your patient formally evaluated with exam, labs, x-ray, instead order REF778 or refer your patient to the SACC</em></li></ol></li></ol></li><li><em>​​</em><strong>For ordering guidance see above attached document</strong></li></ol>",
+   "summary": "COVID-19 Treatment Guidance including treatment of hospitalized patients, pre-exposure prophylaxis, and guidance on outpatient remdesivir",
+   "value": "<hr><hr><p><em>Note: This is the Infectious Diseases Management Program COVID-19 site, which will house treatment related guidance going forward. For Hospital Epidemiology and Infection prevention's COVID-19 page, which houses guidelines around topics including disinfection, PPE, precautions, and other infection prevention related topics, please click </em><a href=\"https://infectioncontrol.ucsfmedicalcenter.org/coronavirus\"><em>here for Hospital Epidemiology and Infection Prevention's COVID-19 Page</em></a></p><ul><li><strong>For treatment of patients with COVID-19</strong> please refer to the <a href=\"https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/\">IDSA Guidelines</a>&nbsp;(NIH COVID-19 Guidelines are no longer being updated).<ul><li>Table 37 highlights recommended therapies for different levels of severity.</li><li>Figure 2 outlines recommended therapy for ambulatory patients with mild to moderate COVID-19, stratified by risk of progression to severe disease.</li></ul></li><li><strong>For guidance on pre-exposure prophylaxis (Pemivibart)</strong> for select populations refer to the attached document above</li><li>F<strong>or information on eligibility and ordering of outpatient remdesivir</strong> refer to the above attached file.</li></ul><p>------------------------------------------------------------------------------------------------------------------------------------------</p><p>&nbsp;<strong>Remdesivir Ordering Guidance for Outpatient Adults</strong></p><ol><li>Remdesivir is given at the MZ or MB Infusion Center, 7 days a week<ol><li>Not given at Parnassus Infusion Center</li></ol></li><li><strong>Eligibility criteria</strong>: Patients must meet <em>all</em> of the below criteria:<ol style=\"list-style-type:lower-alpha;\"><li>Symptomatic COVID-19 infection with symptom onset within 7 days</li><li>High risk for progression to severe disease based on CDC risk factors <a href=\"https://www.cdc.gov/covid/risk-factors/\">https://www.cdc.gov/covid/risk-factors/</a></li><li>Not eligible for nirmatrelvir-ritonavir (Paxlovid)</li><li>Mild-moderate disease<ol style=\"list-style-type:lower-roman;\"><li>A provider visit is NOT included in the infusion visit.&nbsp;<em> If you would like your patient formally evaluated with exam, labs, x-ray, instead order REF778 or refer your patient to the SACC</em></li></ol></li></ol></li><li><em>​​</em><strong>For ordering guidance see above attached document</strong></li></ol>"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-15T19:05:26+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1727381644,
+   "last_comment_uid": 601,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-08-05T18:43:41+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2024-08-05"
+  },
+  {
+   "value": "2025-12-11"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 451,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a61a46a6-7dde-4da7-8b4b-d3c5cb579606",
+   "url": "/site/ucsf-medical-center-mission-bay-adult"
+  },
+  {
+   "target_id": 2101,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b959ef0d-a183-4591-96ee-d7183836e39d",
+   "url": "/site/ucsf-medical-center-mount-zion"
+  },
+  {
+   "target_id": 446,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ea4e1156-f1d7-40b6-8744-b15ee0218ccf",
+   "url": "/site/ucsf-medical-center-parnassus-heights"
+  },
+  {
+   "target_id": 2111,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b0f2c62e-1e16-47cf-ac4a-6f1bb99f5012",
+   "url": "/site/ucsf-stanyan-hyde"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1156,
+   "target_type": "media",
+   "target_uuid": "31d2f5fc-f589-451b-8d3a-f1ecd688165b",
+   "url": "/document/pemivibart-ucsf-covid19-adult-monoclonal-antibody-use-process-for-prep-update-8-2024-v5-pdf"
+  },
+  {
+   "target_id": 1161,
+   "target_type": "media",
+   "target_uuid": "35eac946-ec68-4477-9201-10ea5b6e4a8b",
+   "url": "/document/remdesivir-for-adult-outpatients-guidance-11-6-23-updated-aug142024-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15356
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/covid-19-treatment-guidance",
+   "langcode": "und",
+   "pid": 27916
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-11T17:21:04+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "COVID-19 Treatment Guidance"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d1c1e7db-b799-41dc-82fb-43eb170c80a1"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24521
+  }
+ ]
+}

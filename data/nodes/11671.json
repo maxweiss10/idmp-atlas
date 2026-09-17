@@ -1,0 +1,150 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597341027,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T17:50:27+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>eGFR &gt;50mL/min/1.73m2</th>\n\t\t\t<th>30-50 mL/min/1.73m2</th>\n\t\t\t<th>15-30 mL/min/1.73m2</th>\n\t\t\t<th>&lt;15 mL/min/1.73m2</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>All Indications</p>\n\n\t\t\t<p>4 g = meropenem 2 g + vaborbactam 2 g</p>\n\t\t\t</td>\n\t\t\t<td>4 g IV q8h over 3 hours</td>\n\t\t\t<td>2 g IV q8h over 3 hours</td>\n\t\t\t<td>2 g IV q12h over 3 hours</td>\n\t\t\t<td>1 g IV q12h over 3 hours</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>eGFR &gt;50mL/min/1.73m2</th>\r\n\t\t\t<th>30-50 mL/min/1.73m2</th>\r\n\t\t\t<th>15-30 mL/min/1.73m2</th>\r\n\t\t\t<th>&lt;15 mL/min/1.73m2</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>All Indications</p>\r\n\r\n\t\t\t<p>4 g = meropenem 2 g + vaborbactam 2 g</p>\r\n\t\t\t</td>\r\n\t\t\t<td>4 g IV q8h over 3 hours</td>\r\n\t\t\t<td>2 g IV q8h over 3 hours</td>\r\n\t\t\t<td>2 g IV q12h over 3 hours</td>\r\n\t\t\t<td>1 g IV q12h over 3 hours</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>All Indications</p>\n\n\t\t\t<p>4 g = meropenem 2 g + vaborbactam 2 g</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1 g IV q12h (on HD days, administer one of the two doses after HD)</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q8h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>All Indications</p>\r\n\r\n\t\t\t<p>4 g = meropenem 2 g + vaborbactam 2 g</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">1 g IV q12h (on HD days, administer one of the two doses after HD)</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q8h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to&nbsp;ID or Antimicrobial Stewardship</p>\n",
+   "value": "<p>Restricted to&nbsp;ID or Antimicrobial Stewardship</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "7/31/24: Updated restriction (removed unrestricted indication) per discussion at dosing meeting 7/2024, added HD/CRRT dosing based on newer data to mirror Lexicomp -EK"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11671
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/meropenem-vaborbactam",
+   "langcode": "und",
+   "pid": 24386
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Meropenem/vaborbactam"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "20f98a90-3bb9-4de3-8913-90c3b1410b5c"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21906
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:57:28+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633719448,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:28:02+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Healthcare-acquired or ventilator-associated pneumonia&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{2}\" paraid=\"39839471\">Pseudomonas aeruginosa, other resistant gram- negative bacteria&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{12}\" paraid=\"1948941563\"><em>Staphylococcus aureus</em>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{19}\" paraid=\"487166467\">Cefepime &nbsp;<br>\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{35}\" paraid=\"496012586\"><strong>For patients with ventilator-associated pneumonia or patients with less severe disease if patient has a history of  documented MRSA infection or carriage within the last 6 months:</strong></p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{35}\" paraid=\"496012586\">ADD&nbsp;<a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin </a>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{45}\" paraid=\"1300513433\">(follow link for dosing &amp; monitoring)  &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{56}\" paraid=\"116397474\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{66}\" paraid=\"1380741040\">Consult ID/ASP&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{83}\" paraid=\"14464431\">Consider ID consultation especially for patients with prior antimicrobial exposure or antibiotic-resistant infection&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{93}\" paraid=\"1717042280\">Lower respiratory culture recommended if able to obtain, tailor therapy to identified organism&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{103}\" paraid=\"70164644\">Modify therapy by stopping vancomycin if MRSA is not isolated or if the patient has a negative screening MRSA nasal PCR (collected within preceding 1 week) &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{113}\" paraid=\"369019092\">Further modify therapy to target identified organism(s) from respiratory cultures. Avoid continuing anti-pseudomonal therapy if <em>Pseudomonas</em> not isolated &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{123}\" paraid=\"741638951\"><strong>Duration</strong>: 7&nbsp;days&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Healthcare-acquired or ventilator-associated pneumonia&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{2}\" paraid=\"39839471\">Pseudomonas aeruginosa, other resistant gram- negative bacteria&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{12}\" paraid=\"1948941563\"><em>Staphylococcus aureus</em>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{19}\" paraid=\"487166467\">Cefepime &nbsp;<br />\r\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{35}\" paraid=\"496012586\"><strong>For patients with ventilator-associated pneumonia or patients with less severe disease if patient has a history of  documented MRSA infection or carriage within the last 6 months:</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{35}\" paraid=\"496012586\">ADD&nbsp;<a href=\"/node/13571\">Vancomycin </a>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{45}\" paraid=\"1300513433\">(follow link for dosing &amp; monitoring)  &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{56}\" paraid=\"116397474\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{66}\" paraid=\"1380741040\">Consult ID/ASP&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{83}\" paraid=\"14464431\">Consider ID consultation especially for patients with prior antimicrobial exposure or antibiotic-resistant infection&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{93}\" paraid=\"1717042280\">Lower respiratory culture recommended if able to obtain, tailor therapy to identified organism&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{103}\" paraid=\"70164644\">Modify therapy by stopping vancomycin if MRSA is not isolated or if the patient has a negative screening MRSA nasal PCR (collected within preceding 1 week) &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{113}\" paraid=\"369019092\">Further modify therapy to target identified organism(s) from respiratory cultures. Avoid continuing anti-pseudomonal therapy if <em>Pseudomonas</em> not isolated &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f4794cc-657f-4d21-8c1d-8818203a0041}{123}\" paraid=\"741638951\"><strong>Duration</strong>: 7&nbsp;days&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1306,
+   "target_type": "taxonomy_term",
+   "target_uuid": "db9cee67-31d5-45af-8f75-28e821cf5b6a",
+   "url": "/guidelines-empiric-therapy-categories/pneumonia-hospital-acquired-or-ventilator-associated"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Reference</h2>\n\n<p>Kalil AC, et al. <a href=\"https://academic.oup.com/cid/article/63/5/e61/2237650\">Management of adults with hospital-acquired and ventilator-associated pneumonia: 2016 clinical practice guidelines by the Infectious Diseases Society of America and the American Thoracic Society.</a> Clin Infect Dis 2016; 63:e61–e111.&nbsp;</p>\n",
+   "value": "<h2>Reference</h2>\r\n\r\n<p>Kalil AC, et al. <a href=\"https://academic.oup.com/cid/article/63/5/e61/2237650\">Management of adults with hospital-acquired and ventilator-associated pneumonia: 2016 clinical practice guidelines by the Infectious Diseases Society of America and the American Thoracic Society.</a> Clin Infect Dis 2016; 63:e61–e111.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13431
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/healthcare-acquired-or-ventilator-associated-pneumonia",
+   "langcode": "und",
+   "pid": 26086
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:57:28+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Healthcare-acquired or Ventilator-associated Pneumonia"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "554b619d-00fc-4fef-802e-77fe81a0de5d"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16016
+  }
+ ]
+}

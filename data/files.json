@@ -1,0 +1,533 @@
+{
+ "/document/2026-bchsf-ip-gngp-v1-without-delta-change-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/2026-bchsf-ip-gngp-v1-without-delta-change-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Fri, 08 May 2026 15:09:37 GMT",
+  "size": "201282",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/2026-bchsf-op-gngp-v1-without-delta-change-pdf-0": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/2026-bchsf-op-gngp-v1-without-delta-change-pdf-0",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Fri, 08 May 2026 15:12:09 GMT",
+  "size": "173915",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/adult-appy-pathway-v1-24-25-compliant-pdf-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/adult-appy-pathway-v1-24-25-compliant-pdf-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Thu, 30 Apr 2026 16:31:31 GMT",
+  "size": "665740",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/aminoglycoside-guideline-peds-ucsf-v6-draft-2-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/aminoglycoside-guideline-peds-ucsf-v6-draft-2-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Tue, 15 Sep 2026 19:36:51 GMT",
+  "size": "263998",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/antibiotic-algorithm-for-neutropenic-patients-0-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/antibiotic-algorithm-for-neutropenic-patients-0-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:32:33 GMT",
+  "size": "107420",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/antifungaldosingguidanceandtherapeuticdrugmonitoringtdmpediatricucsf-1-pdf-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/antifungaldosingguidanceandtherapeuticdrugmonitoringtdmpediatricucsf-1-pdf-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:55:30 GMT",
+  "size": "872004",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/antimicrobial-therapy-guidelines-for-pediatric-cardiac-surgery-patients-2026-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/antimicrobial-therapy-guidelines-for-pediatric-cardiac-surgery-patients-2026-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 24 Aug 2026 15:53:18 GMT",
+  "size": "623240",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/bayesian-tdm-job-aid-aminoglycosides-vancomycin-pediatric-pdf-0-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/bayesian-tdm-job-aid-aminoglycosides-vancomycin-pediatric-pdf-0-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 18:26:56 GMT",
+  "size": "222073",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/bch-2024-fever-in-patients-receiving-cancer-therapy-or-hct-web-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/bch-2024-fever-in-patients-receiving-cancer-therapy-or-hct-web-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:51:32 GMT",
+  "size": "1600497",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/bch-antimicrobial-lock-therapy-policy-2026-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/bch-antimicrobial-lock-therapy-policy-2026-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Thu, 02 Jul 2026 23:47:26 GMT",
+  "size": "388569",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/bch-appendicitis-pathway-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/bch-appendicitis-pathway-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:52:30 GMT",
+  "size": "705710",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/bcid-2-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/bcid-2-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:17:19 GMT",
+  "size": "548614",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/blood-culture-guidelines-2-7-2025-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/blood-culture-guidelines-2-7-2025-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:33:17 GMT",
+  "size": "260235",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/cefazolin-in-penicillin-allergic-patients-2-11-25-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/cefazolin-in-penicillin-allergic-patients-2-11-25-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:34:18 GMT",
+  "size": "107402",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/compliant-idmp-flu-guidelines-2025-2026-season-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/compliant-idmp-flu-guidelines-2025-2026-season-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Tue, 14 Apr 2026 21:20:39 GMT",
+  "size": "324635",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/extended-infusion-zosyn-protocol-2024-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/extended-infusion-zosyn-protocol-2024-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:24:09 GMT",
+  "size": "448908",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/hbv-reactivation-guidelines-3-2025-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/hbv-reactivation-guidelines-3-2025-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:35:22 GMT",
+  "size": "111598",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/hospital-acquired-pneumonia-final-7-15-24-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/hospital-acquired-pneumonia-final-7-15-24-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 20:36:22 GMT",
+  "size": "377745",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/hyde-antibiogram": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/hyde-antibiogram",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 16:58:45 GMT",
+  "size": "185781",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/icn-sepsis-guidelines-final-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/icn-sepsis-guidelines-final-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:43:49 GMT",
+  "size": "355952",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/ip-adult-antibiotic-lock-therapy-alt-adult-guideline-updated-2024-pdf-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/ip-adult-antibiotic-lock-therapy-alt-adult-guideline-updated-2024-pdf-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 16:58:17 GMT",
+  "size": "335621",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/joint-id-plastic-surgery-tissue-expander-infections-0-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/joint-id-plastic-surgery-tissue-expander-infections-0-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 16:51:11 GMT",
+  "size": "112142",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/ltu-high-meld-icu-2023-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/ltu-high-meld-icu-2023-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:12:45 GMT",
+  "size": "209387",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/ltu-mdr-risk-floor-and-icu-without-septic-shock-2023-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/ltu-mdr-risk-floor-and-icu-without-septic-shock-2023-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:12:04 GMT",
+  "size": "233076",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/ltuguidelineswithouthighriskformdr-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/ltuguidelineswithouthighriskformdr-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:13:51 GMT",
+  "size": "79174",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/management-of-vancomycin-infusion-reaction-guideline-2024-final-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/management-of-vancomycin-infusion-reaction-guideline-2024-final-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:14:46 GMT",
+  "size": "274614",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/necrotizing-enterocolitis-icn-final-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/necrotizing-enterocolitis-icn-final-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:42:39 GMT",
+  "size": "173689",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/necrotizing-enterocolitis-pcicu-final-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/necrotizing-enterocolitis-pcicu-final-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:49:04 GMT",
+  "size": "139791",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/necrotizing-soft-tissue-infection-guidelines-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/necrotizing-soft-tissue-infection-guidelines-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Thu, 17 Sep 2026 02:50:54 GMT",
+  "size": null,
+  "status": 200,
+  "type": "text/html; charset=UTF-8"
+ },
+ "/document/opat-job-aid-pdf-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/opat-job-aid-pdf-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 18:28:47 GMT",
+  "size": "4387779",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/or-specimen-collection-guide-rev-2-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/or-specimen-collection-guide-rev-2-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:16:03 GMT",
+  "size": "265296",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/pedi-dosing-card-2025": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/pedi-dosing-card-2025",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Thu, 30 Apr 2026 16:44:17 GMT",
+  "size": "269932",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/pedi-esld-biliary-atresia": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/pedi-esld-biliary-atresia",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Thu, 30 Apr 2026 16:40:01 GMT",
+  "size": "790894",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/pedi-liver-failure-transplant": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/pedi-liver-failure-transplant",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Thu, 30 Apr 2026 16:40:25 GMT",
+  "size": "1522152",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/pediatric-liver-failure-transplant-empiric-antimicrobial-therapy-guidelines-v2022-web-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/pediatric-liver-failure-transplant-empiric-antimicrobial-therapy-guidelines-v2022-web-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:50:22 GMT",
+  "size": "995810",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/pemivibart-ucsf-covid19-adult-monoclonal-antibody-use-process-for-prep-update-8-2024-v5-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/pemivibart-ucsf-covid19-adult-monoclonal-antibody-use-process-for-prep-update-8-2024-v5-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:21:17 GMT",
+  "size": "1076119",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/remdesivir-for-adult-outpatients-guidance-11-6-23-updated-aug142024-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/remdesivir-for-adult-outpatients-guidance-11-6-23-updated-aug142024-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:22:31 GMT",
+  "size": "337739",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/ssti-guidance-1-2026-pdf-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/ssti-guidance-1-2026-pdf-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 16:56:38 GMT",
+  "size": "1494817",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/stanyan-antibiogram": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/stanyan-antibiogram",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 16:56:00 GMT",
+  "size": "144354",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/surgical-ppx-guideline-v1-9-pdf-0-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/surgical-ppx-guideline-v1-9-pdf-0-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 16:54:42 GMT",
+  "size": "608604",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/surgical-ppx-guidelines-2023-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/surgical-ppx-guidelines-2023-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:53:47 GMT",
+  "size": "644832",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/ucsf-bl-pathway-2024-06-23-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/ucsf-bl-pathway-2024-06-23-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:26:21 GMT",
+  "size": "1466532",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/vaccines-post-emergent-splenectomy-rev-6-2022-cleaned-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/vaccines-post-emergent-splenectomy-rev-6-2022-cleaned-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:03:34 GMT",
+  "size": "251510",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/vaccines-pre-splenectomy-rev-6-2022-cleaned-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/vaccines-pre-splenectomy-rev-6-2022-cleaned-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:02:52 GMT",
+  "size": "252475",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/zsfg-cdi-guideline-2025-v1-2-1-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/zsfg-cdi-guideline-2025-v1-2-1-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:36:17 GMT",
+  "size": "246118",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/zsfg-hap-vap-empiric-guideline-2023-final-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/zsfg-hap-vap-empiric-guideline-2023-final-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:06:19 GMT",
+  "size": "273332",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/zsfg-inpatient-beta-lactam-allergy-test-dose-guidance-0-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/zsfg-inpatient-beta-lactam-allergy-test-dose-guidance-0-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:39:12 GMT",
+  "size": "471855",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/zsfg-oncology-anti-infective-prophylaxis-guidelines-9-2026-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/zsfg-oncology-anti-infective-prophylaxis-guidelines-9-2026-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Tue, 15 Sep 2026 20:28:07 GMT",
+  "size": "174831",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/zsfg-open-fracture-antibiotic-protocol-update-9-13-24-cleaned-4-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/zsfg-open-fracture-antibiotic-protocol-update-9-13-24-cleaned-4-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:23:20 GMT",
+  "size": "203218",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/zsfg-penetrating-brain-injury-antibiotic-prophylaxis-guidance-2022-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/zsfg-penetrating-brain-injury-antibiotic-prophylaxis-guidance-2022-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:04:35 GMT",
+  "size": "170756",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/document/zsfg-surgical-ppx-abx-guidelines-rev-9-2023-pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/document/zsfg-surgical-ppx-abx-guidelines-rev-9-2023-pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:10:32 GMT",
+  "size": "354726",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/media/41": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/media/41",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 17 Aug 2020 20:15:26 GMT",
+  "size": "157013",
+  "status": 200,
+  "type": "image/png"
+ },
+ "/sites/g/files/tkssra17776/files/doc/2022%20ZFGH%20Antibiogram%20inDesign.pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/2022%20ZFGH%20Antibiogram%20inDesign.pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 17:00:00 GMT",
+  "size": "683832",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/sites/g/files/tkssra17776/files/doc/PediDosingCard%20CF%202025.pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/PediDosingCard%20CF%202025.pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 18:30:02 GMT",
+  "size": "350492",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/sites/g/files/tkssra17776/files/doc/Pediatric%20Acute%20Liver%20Failure%20Infection%20Empiric%20Treatment.pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/Pediatric%20Acute%20Liver%20Failure%20Infection%20Empiric%20Treatment.pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Mon, 13 Apr 2026 18:29:32 GMT",
+  "size": "142260",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/sites/g/files/tkssra17776/files/doc/SFVA%20ANTIBIOGRAMS%202024_FINAL.pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/SFVA%20ANTIBIOGRAMS%202024_FINAL.pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Wed, 15 Apr 2026 17:53:46 GMT",
+  "size": "428021",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/sites/g/files/tkssra17776/files/doc/lhh-antibiogram-2024.pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/lhh-antibiogram-2024.pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Thu, 30 Apr 2026 16:33:57 GMT",
+  "size": "227844",
+  "status": 200,
+  "type": "application/pdf"
+ },
+ "/sites/g/files/tkssra17776/files/wysiwyg/BCH%20Oak%20Antibiogram%202023_0.pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/wysiwyg/BCH%20Oak%20Antibiogram%202023_0.pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Thu, 17 Sep 2026 08:11:55 GMT",
+  "size": null,
+  "status": 404,
+  "type": "text/html; charset=UTF-8"
+ },
+ "/sites/g/files/tkssra17776/files/wysiwyg/Neonatal%20Dose%20Card%202025.pdf": {
+  "etag": null,
+  "final": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/wysiwyg/Neonatal%20Dose%20Card%202025.pdf",
+  "first_seen": "2026-09-17T07:57:34+00:00",
+  "last_modified": "Wed, 14 May 2025 15:38:30 GMT",
+  "size": "79144",
+  "status": 200,
+  "type": "application/pdf"
+ }
+}

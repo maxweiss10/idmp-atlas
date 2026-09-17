@@ -1,0 +1,131 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "",
+   "summary": "Guidance for indicated vaccines for patients after emergent splenectomy based on current CDC/ACIP recommendations.",
+   "value": ""
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2022-07-26T21:39:07+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1658871547,
+   "last_comment_uid": 211,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2022-07-26T21:34:04+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2022-07-26"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 466,
+   "target_type": "taxonomy_term",
+   "target_uuid": "76c3e2d7-207d-494f-b563-ff93679a08e1",
+   "url": "/site/zuckerberg-san-francisco-general"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 906,
+   "target_type": "media",
+   "target_uuid": "d2000fbd-e65a-4c97-abb0-05aee63d1a73",
+   "url": "/document/vaccines-post-emergent-splenectomy-rev-6-2022-cleaned-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14181
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/zsfg-post-emergent-splenectomy-vaccination-guideline",
+   "langcode": "und",
+   "pid": 26831
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2022-07-26T21:39:07+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "ZSFG Post-Emergent Splenectomy Vaccination Guideline"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "b677cc82-cc55-489c-a05f-0c9cd753e268"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16971
+  }
+ ]
+}

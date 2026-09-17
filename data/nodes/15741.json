@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-03-27T21:44:27+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1743111867,
+   "last_comment_uid": 601,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-03-27T21:27:40+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>Patients with respiratory decompensation shortly after aspiration of gastric/oropharyngeal contents are considered to have aspiration pneumonitis (inflammation of the lung without true infection). Most of these patients will improve with supportive care alone over 24-48 hours (<a href=\"https://pubmed.ncbi.nlm.nih.gov/22392230/\">https://pubmed.ncbi.nlm.nih.gov/22392230/</a>), though some can have a very severe course including ARDS.</p>\n\n<p>Patients with aspiration pneumonitis can have a leukocytosis, fevers, opacity on chest X-ray, and worsening respiratory status, and these are not useful for distinguishing aspiration pneumonitis from a true bacterial pneumonia. The onset of symptoms is often very abrupt and, in conjunction with a known or strongly suspected aspiration event, can be suggestive of a chemical pneumonitis due to aspiration, rather than bacterial pneumonia.&nbsp; Some scenarios where this can occur include a seizure event, code blue, intubation, etc.</p>\n\n<p>A subset of patients with a macro-aspiration will go on to develop bacterial pneumonia during their recovery from their chemical pneumonitis. If a true bacterial pneumonia develops, it is typically 48-72 hours after the aspiration event. Note, however, most patients will recover spontaneously from aspiration pneumonitis with supportive care.</p>\n\n<p>“Prophylactic” antibiotics after aspiration events do not seem to be effective in preventing the development of bacterial pneumonia. (<a href=\"https://pubmed.ncbi.nlm.nih.gov/29438467/\">https://pubmed.ncbi.nlm.nih.gov/29438467/</a>). In inpatient scenarios, the entire clinical picture should be considered in deciding whether to pursue treatment for aspiration pneumonia or with broader coverage hospital acquired/ventilator associated pneumonia. &nbsp;</p>\n\n<p>Exclusion: Hematologic malignancy or bone marrow transplantation, cystic fibrosis, patients cared for under the Advanced Lung Diseases service, and other severe immunosuppression or immunocompromise</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Acute Aspiration of Gastric Contents</p>\n\n\t\t\t<p><strong>\"Aspiration Pneumonitis\"</strong></p>\n\t\t\t</td>\n\t\t\t<td>Mixed enteric flora</td>\n\t\t\t<td>Antibiotics not indicated</td>\n\t\t\t<td>N/A</td>\n\t\t\t<td>\n\t\t\t<p>Patients who acutely aspirate gastric contents are considered to have aspiration pneumonitis. Many of these patients will have resolution of symptoms within 24-48 hours with only supportive care</p>\n\n\t\t\t<p>Prophylactic antimicrobial therapy for acute aspiration pnuemonitis does not improve patient outcomes and may increase antimicrobial resistance</p>\n\t\t\t</td>\n\t\t\t<td>Antibiotics not indicated</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Bacterial Pneumonia after Community Aspiration Event</strong></td>\n\t\t\t<td>Mixed enteric flora, oral flora, and CAP organisms</td>\n\t\t\t<td><strong><a href=\"/content/ceftriaxone\">Ceftriaxone</a></strong></td>\n\t\t\t<td><strong><a href=\"/content/levofloxacin\">Levofloxacin</a></strong></td>\n\t\t\t<td>Anaerobes are not a common cause of bacterial pneumonia after aspiration. If present, ceftriaxone provides adequate coverage of oral anaerobes</td>\n\t\t\t<td>5 days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Bacterial Pneumonia After In-Hospital Aspiration</strong></td>\n\t\t\t<td><a href=\"/content/pneumonia-hospital-acquired-or-ventilator-associated\">Refer to Hospital Acquired Pneumonia Guidelines</a></td>\n\t\t\t<td><a href=\"/content/pneumonia-hospital-acquired-or-ventilator-associated\">Refer to Hospital Acquired Pneumonia Guidelines</a></td>\n\t\t\t<td><a href=\"/content/pneumonia-hospital-acquired-or-ventilator-associated\">Refer to Hospital Acquired Pneumonia Guidelines</a></td>\n\t\t\t<td><a href=\"/content/pneumonia-hospital-acquired-or-ventilator-associated\">Refer to Hospital Acquired Pneumonia Guidelines</a></td>\n\t\t\t<td>N/A</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Lung Abscess or Empyema</strong></td>\n\t\t\t<td>Oral anaerobes, Strep sp., Staph aureus</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/ampicillin-sulbactam-unasyn\"><strong>Ampicillin-sulbactam</strong></a></p>\n\n\t\t\t<p>Consider MRSA coverage in patients with history of MRSA infection&nbsp;or colonization</p>\n\t\t\t</td>\n\t\t\t<td><strong><a href=\"/content/clindamycin\">Clindamycin</a></strong></td>\n\t\t\t<td>Often characterized by insidious onset of cough/fever, purulent sputum, and evidence of cavitation/effusion in patients at risk for chronic aspiration</td>\n\t\t\t<td>\n\t\t\t<p>ID consult recommended</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>Patients with respiratory decompensation shortly after aspiration of gastric/oropharyngeal contents are considered to have aspiration pneumonitis (inflammation of the lung without true infection). Most of these patients will improve with supportive care alone over 24-48 hours (<a href=\"https://pubmed.ncbi.nlm.nih.gov/22392230/\">https://pubmed.ncbi.nlm.nih.gov/22392230/</a>), though some can have a very severe course including ARDS.</p>\r\n\r\n<p>Patients with aspiration pneumonitis can have a leukocytosis, fevers, opacity on chest X-ray, and worsening respiratory status, and these are not useful for distinguishing aspiration pneumonitis from a true bacterial pneumonia. The onset of symptoms is often very abrupt and, in conjunction with a known or strongly suspected aspiration event, can be suggestive of a chemical pneumonitis due to aspiration, rather than bacterial pneumonia.&nbsp; Some scenarios where this can occur include a seizure event, code blue, intubation, etc.</p>\r\n\r\n<p>A subset of patients with a macro-aspiration will go on to develop bacterial pneumonia during their recovery from their chemical pneumonitis. If a true bacterial pneumonia develops, it is typically 48-72 hours after the aspiration event. Note, however, most patients will recover spontaneously from aspiration pneumonitis with supportive care.</p>\r\n\r\n<p>“Prophylactic” antibiotics after aspiration events do not seem to be effective in preventing the development of bacterial pneumonia. (<a href=\"https://pubmed.ncbi.nlm.nih.gov/29438467/\">https://pubmed.ncbi.nlm.nih.gov/29438467/</a>). In inpatient scenarios, the entire clinical picture should be considered in deciding whether to pursue treatment for aspiration pneumonia or with broader coverage hospital acquired/ventilator associated pneumonia. &nbsp;</p>\r\n\r\n<p>Exclusion: Hematologic malignancy or bone marrow transplantation, cystic fibrosis, patients cared for under the Advanced Lung Diseases service, and other severe immunosuppression or immunocompromise</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Acute Aspiration of Gastric Contents</p>\r\n\r\n\t\t\t<p><strong>\"Aspiration Pneumonitis\"</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>Mixed enteric flora</td>\r\n\t\t\t<td>Antibiotics not indicated</td>\r\n\t\t\t<td>N/A</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Patients who acutely aspirate gastric contents are considered to have aspiration pneumonitis. Many of these patients will have resolution of symptoms within 24-48 hours with only supportive care</p>\r\n\r\n\t\t\t<p>Prophylactic antimicrobial therapy for acute aspiration pnuemonitis does not improve patient outcomes and may increase antimicrobial resistance</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Antibiotics not indicated</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>Bacterial Pneumonia after Community Aspiration Event</strong></td>\r\n\t\t\t<td>Mixed enteric flora, oral flora, and CAP organisms</td>\r\n\t\t\t<td><strong><a href=\"/node/8331\">Ceftriaxone</a></strong></td>\r\n\t\t\t<td><strong><a href=\"/node/8391\">Levofloxacin</a></strong></td>\r\n\t\t\t<td>Anaerobes are not a common cause of bacterial pneumonia after aspiration. If present, ceftriaxone provides adequate coverage of oral anaerobes</td>\r\n\t\t\t<td>5 days</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>Bacterial Pneumonia After In-Hospital Aspiration</strong></td>\r\n\t\t\t<td><a href=\"/node/12071\">Refer to Hospital Acquired Pneumonia Guidelines</a></td>\r\n\t\t\t<td><a href=\"/node/12071\">Refer to Hospital Acquired Pneumonia Guidelines</a></td>\r\n\t\t\t<td><a href=\"/node/12071\">Refer to Hospital Acquired Pneumonia Guidelines</a></td>\r\n\t\t\t<td><a href=\"/node/12071\">Refer to Hospital Acquired Pneumonia Guidelines</a></td>\r\n\t\t\t<td>N/A</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>Lung Abscess or Empyema</strong></td>\r\n\t\t\t<td>Oral anaerobes, Strep sp., Staph aureus</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8306\"><strong>Ampicillin-sulbactam</strong></a></p>\r\n\r\n\t\t\t<p>Consider MRSA coverage in patients with history of MRSA infection&nbsp;or colonization</p>\r\n\t\t\t</td>\r\n\t\t\t<td><strong><a href=\"/node/8341\">Clindamycin</a></strong></td>\r\n\t\t\t<td>Often characterized by insidious onset of cough/fever, purulent sputum, and evidence of cavitation/effusion in patients at risk for chronic aspiration</td>\r\n\t\t\t<td>\r\n\t\t\t<p>ID consult recommended</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 2171,
+   "target_type": "taxonomy_term",
+   "target_uuid": "99bd8d57-4a11-47f0-85d9-8d474bc7999a",
+   "url": "/guidelines-empiric-therapy-categories/pneumonia"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p>Asai N, Suematsu H, Ohashi W, Shibata Y, Sakanashi D, Kato H, Shiota A, Watanabe H, Hagihara M, Koizumi Y, Yamagishi Y, Mikamo H. Ceftriaxone versus tazobactam/piperacillin and carbapenems in the treatment of aspiration pneumonia: A propensity score matching analysis. J Infect Chemother. 2021 Oct;27(10):1465-1470. doi: 10.1016/j.jiac.2021.06.011. Epub 2021 Jun 20. PMID: 34158237</p>\n\n<p>Bai, A. D., Srivastava, S., Digby, G. C., Girard, V., Razak, F., &amp; Verma, A. A. (2024). Anaerobic Antibiotic Coverage in Aspiration Pneumonia and the Associated Benefits and Harms: A Retrospective Cohort Study. Chest, 166(1), 39–48. https://doi.org/10.1016/j.chest.2024.02.025</p>\n\n<p>Dragan V, Wei Y, Elligsen M, Kiss A, Walker SAN, Leis JA. Prophylactic Antimicrobial Therapy for Acute Aspiration Pneumonitis. Clin Infect Dis. 2018 Aug 1;67(4):513-518. doi: 10.1093/cid/ciy120. PMID: 29438467.</p>\n\n<p>Jaoude P, Badlam J, Anandam A, El-Solh AA. A comparison between time to clinical stability in community-acquired aspiration pneumonia and community-acquired pneumonia. Intern Emerg Med. 2014 Mar;9(2):143-50. doi: 10.1007/s11739-012-0764-2. Epub 2012 Mar 6. PMID: 22392230.</p>\n\n<p>&nbsp;</p>\n",
+   "value": "<p>Asai N, Suematsu H, Ohashi W, Shibata Y, Sakanashi D, Kato H, Shiota A, Watanabe H, Hagihara M, Koizumi Y, Yamagishi Y, Mikamo H. Ceftriaxone versus tazobactam/piperacillin and carbapenems in the treatment of aspiration pneumonia: A propensity score matching analysis. J Infect Chemother. 2021 Oct;27(10):1465-1470. doi: 10.1016/j.jiac.2021.06.011. Epub 2021 Jun 20. PMID: 34158237</p>\r\n\r\n<p>Bai, A. D., Srivastava, S., Digby, G. C., Girard, V., Razak, F., &amp; Verma, A. A. (2024). Anaerobic Antibiotic Coverage in Aspiration Pneumonia and the Associated Benefits and Harms: A Retrospective Cohort Study. Chest, 166(1), 39–48. https://doi.org/10.1016/j.chest.2024.02.025</p>\r\n\r\n<p>Dragan V, Wei Y, Elligsen M, Kiss A, Walker SAN, Leis JA. Prophylactic Antimicrobial Therapy for Acute Aspiration Pneumonitis. Clin Infect Dis. 2018 Aug 1;67(4):513-518. doi: 10.1093/cid/ciy120. PMID: 29438467.</p>\r\n\r\n<p>Jaoude P, Badlam J, Anandam A, El-Solh AA. A comparison between time to clinical stability in community-acquired aspiration pneumonia and community-acquired pneumonia. Intern Emerg Med. 2014 Mar;9(2):143-50. doi: 10.1007/s11739-012-0764-2. Epub 2012 Mar 6. PMID: 22392230.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15741
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/aspiration-pneumonia-0",
+   "langcode": "und",
+   "pid": 28286
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-03-27T21:44:27+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Aspiration Pneumonia"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "77cfadb8-c1ca-431d-9c4b-01f148d87226"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22381
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-18T22:25:38+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587521913,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T02:18:33+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt; 50 mL/min</th>\n\t\t\t<th>CrCl 10 – 50 mL/min</th>\n\t\t\t<th>CrCl &lt; 10 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Group B Streptococcus (GBS) Prophylaxis (until delivery)</td>\n\t\t\t<td>\n\t\t\t<p>5 million units x 1 then&nbsp;</p>\n\n\t\t\t<p>followed by 3 million units IV q4h</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>5 million units x 1 then&nbsp;</p>\n\n\t\t\t<p>followed by 3 million units IV q4h</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>5 million units x 1 then&nbsp;</p>\n\n\t\t\t<p>followed by 3 million units IV q6h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Neurosyphilis, meningitis, necrotizing SSTI, toxic shock syndrome</td>\n\t\t\t<td>4 million units IV q4h</td>\n\t\t\t<td>3 million units IV q4h</td>\n\t\t\t<td>3 million units IV q6h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Endovascular, bacteremia</td>\n\t\t\t<td>3 million units IV q4h</td>\n\t\t\t<td>3 million units IV q6h</td>\n\t\t\t<td>2 million units IV q6h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt; 50 mL/min</th>\r\n\t\t\t<th>CrCl 10 – 50 mL/min</th>\r\n\t\t\t<th>CrCl &lt; 10 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Group B Streptococcus (GBS) Prophylaxis (until delivery)</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5 million units x 1 then&nbsp;</p>\r\n\r\n\t\t\t<p>followed by 3 million units IV q4h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5 million units x 1 then&nbsp;</p>\r\n\r\n\t\t\t<p>followed by 3 million units IV q4h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5 million units x 1 then&nbsp;</p>\r\n\r\n\t\t\t<p>followed by 3 million units IV q6h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Neurosyphilis, meningitis, necrotizing SSTI, toxic shock syndrome</td>\r\n\t\t\t<td>4 million units IV q4h</td>\r\n\t\t\t<td>3 million units IV q4h</td>\r\n\t\t\t<td>3 million units IV q6h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Endovascular, bacteremia</td>\r\n\t\t\t<td>3 million units IV q4h</td>\r\n\t\t\t<td>3 million units IV q6h</td>\r\n\t\t\t<td>2 million units IV q6h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>Group B Streptococcus (GBS) Prophylaxis (until delivery)</td><td style=\"text-align:center;\"><p>5 million units x 1 then&nbsp;</p><p>followed by 3 million units IV q6h</p></td><td style=\"text-align:center;\"><p>5 million units x 1 then&nbsp;</p><p>followed by 3 million units IV q4h</p></td></tr><tr><td>Neurosyphilis, meningitis,&nbsp;necrotizing SSTI, toxic shock syndrome</td><td style=\"text-align:center;\">4 million units IV x1, then 2 million units IV q4h*</td><td style=\"text-align:center;\">3 million units IV q4h</td></tr><tr><td>Endovascular, bacteremia</td><td style=\"text-align:center;\">3 million units IV x1, then 2 million units IV q6h</td><td style=\"text-align:center;\">3 million units IV q6h</td></tr></tbody></table><p>*Penicillin G Potassium may contain clinically significant amounts of potassium; consider penicillin G sodium instead, if available.</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>Group B Streptococcus (GBS) Prophylaxis (until delivery)</td><td style=\"text-align:center;\"><p>5 million units x 1 then&nbsp;</p><p>followed by 3 million units IV q6h</p></td><td style=\"text-align:center;\"><p>5 million units x 1 then&nbsp;</p><p>followed by 3 million units IV q4h</p></td></tr><tr><td>Neurosyphilis, meningitis,&nbsp;necrotizing SSTI, toxic shock syndrome</td><td style=\"text-align:center;\">4 million units IV x1, then 2 million units IV q4h*</td><td style=\"text-align:center;\">3 million units IV q4h</td></tr><tr><td>Endovascular, bacteremia</td><td style=\"text-align:center;\">3 million units IV x1, then 2 million units IV q6h</td><td style=\"text-align:center;\">3 million units IV q6h</td></tr></tbody></table><p>*Penicillin G Potassium may contain clinically significant amounts of potassium; consider penicillin G sodium instead, if available.</p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "1/11/24: Updated HD dosing per discussion at dosing update meeting 1/20204, added comment about PCN G sodium (this is not available at UCSF, but we opted to keep in in case this is being set up for outpatient). Removed \"less serious infections\" indication.\r\n10/2024:  Updated to include indications - necrotizing SSTI and toxic shock syndrome (RJ) - per Adult Quarterly Dosing meeting \r\n01/07/25: RJ added IV route to avoid confusion with PCN VK (oral) \r\n05/2025: RJ added GBS indication and dosing recs per Quarterly Dosing meeting 04/2025"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8431
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/penicillin-g-potassium-aqueous-iv",
+   "langcode": "und",
+   "pid": 21316
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-18T22:25:38+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Penicillin G potassium (aqueous) IV"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5e154d62-0876-4694-a71b-352763b4959d"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35486
+  }
+ ]
+}

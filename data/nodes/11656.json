@@ -1,0 +1,150 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-31T18:07:56+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597339549,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T17:25:49+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th style=\"text-align:center;\">CrCl &gt; 60 mL/min</th><th style=\"text-align:center;\">30-60 mL/min</th><th style=\"text-align:center;\">15-30 mL/min</th><th style=\"text-align:center;\">&lt; 15 mL/min</th></tr></thead><tbody><tr><td>Gram-negative or <em>Nocardia</em> infections*</td><td style=\"text-align:center;\">500 mg IV q6h</td><td style=\"text-align:center;\">250 mg IV q6h</td><td style=\"text-align:center;\">250 mg IV q8h</td><td style=\"text-align:center;\">Use alternative or consult ID pharmacy</td></tr><tr><td>Nontuberculous Mycobacteria**</td><td style=\"text-align:center;\"><p class=\"text-align-center\">1000 mg IV q12h</p></td><td style=\"text-align:center;\">500 mg IV q12h</td><td style=\"text-align:center;\">250 mg IV q12h</td><td style=\"text-align:center;\">Use alternative or consult ID pharmacy</td></tr><tr><td>Carbapenem-resistant<em> Acinetobacter baumannii</em> infections, with sulbactam-durlobactam</td><td>1000 mg IV q6h</td><td>500 mg IV q6h</td><td>250 mg IV q6h</td><td>Use alternative or consult ID pharmacy</td></tr></tbody></table><p>*If using imipenem-cilastatin for the treatment of confirmed Pseudomonas infection, higher doses and/or extended infusion may be needed. Contact Antimicrobial Stewardship or Infectious Diseases for assistance.<br>**Higher doses may be required for elevated imipenem MICs (8-16)</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th style=\"text-align:center;\">CrCl &gt; 60 mL/min</th><th style=\"text-align:center;\">30-60 mL/min</th><th style=\"text-align:center;\">15-30 mL/min</th><th style=\"text-align:center;\">&lt; 15 mL/min</th></tr></thead><tbody><tr><td>Gram-negative or <em>Nocardia</em> infections*</td><td style=\"text-align:center;\">500 mg IV q6h</td><td style=\"text-align:center;\">250 mg IV q6h</td><td style=\"text-align:center;\">250 mg IV q8h</td><td style=\"text-align:center;\">Use alternative or consult ID pharmacy</td></tr><tr><td>Nontuberculous Mycobacteria**</td><td style=\"text-align:center;\"><p class=\"text-align-center\">1000 mg IV q12h</p></td><td style=\"text-align:center;\">500 mg IV q12h</td><td style=\"text-align:center;\">250 mg IV q12h</td><td style=\"text-align:center;\">Use alternative or consult ID pharmacy</td></tr><tr><td>Carbapenem-resistant<em> Acinetobacter baumannii</em> infections, with sulbactam-durlobactam</td><td>1000 mg IV q6h</td><td>500 mg IV q6h</td><td>250 mg IV q6h</td><td>Use alternative or consult ID pharmacy</td></tr></tbody></table><p>*If using imipenem-cilastatin for the treatment of confirmed Pseudomonas infection, higher doses and/or extended infusion may be needed. Contact Antimicrobial Stewardship or Infectious Diseases for assistance.<br>**Higher doses may be required for elevated imipenem MICs (8-16)</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>Gram-negative or <em>Nocardia</em> infections*</td><td style=\"text-align:center;\">500 mg IV q12h</td><td style=\"text-align:center;\">1000 mg IV x1 dose, then 250 mg IV q6h</td></tr><tr><td>Nontuberculous mycobacterial infections**</td><td style=\"text-align:center;\">500 mg IV q12h</td><td style=\"text-align:center;\">1000 mg IV x 1, then 250 mg IV q12h</td></tr><tr><td>Carbapenem-resistant<em> Acinetobacter baumannii</em> infections, with sulbactam-durlobactam</td><td style=\"text-align:center;\">500 mg IV q12h</td><td style=\"text-align:center;\">1000 mg IV x 1, then 500 mg IV q6h</td></tr></tbody></table><p>*If using imipenem-cilastatin for the treatment of confirmed Pseudomonas infection, higher doses and/or extended infusion may be needed. Contact Antimicrobial Stewardship or Infectious Diseases for assistance.<br>**Higher doses may be required for elevated imipenem MICs (8-16)</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>Gram-negative or <em>Nocardia</em> infections*</td><td style=\"text-align:center;\">500 mg IV q12h</td><td style=\"text-align:center;\">1000 mg IV x1 dose, then 250 mg IV q6h</td></tr><tr><td>Nontuberculous mycobacterial infections**</td><td style=\"text-align:center;\">500 mg IV q12h</td><td style=\"text-align:center;\">1000 mg IV x 1, then 250 mg IV q12h</td></tr><tr><td>Carbapenem-resistant<em> Acinetobacter baumannii</em> infections, with sulbactam-durlobactam</td><td style=\"text-align:center;\">500 mg IV q12h</td><td style=\"text-align:center;\">1000 mg IV x 1, then 500 mg IV q6h</td></tr></tbody></table><p>*If using imipenem-cilastatin for the treatment of confirmed Pseudomonas infection, higher doses and/or extended infusion may be needed. Contact Antimicrobial Stewardship or Infectious Diseases for assistance.<br>**Higher doses may be required for elevated imipenem MICs (8-16)</p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship&nbsp;</p>",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship&nbsp;</p>"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "10/2023:  Ripal Jariwala requested update; 10/2023; IDSA GNR guidelines - https://www.idsociety.org/practice-guideline/amr-guidance/\r\n8/29/22: updated imipenem dosing based on 2022 Specialty dosing card\r\n12/2025: Added CRAB dosing (for use with Xacduro) per ATTACK trial - EK\r\n2/2026: Revised statement recommending higher doses or EI for gram-negative infections to strengthen recommendation.\r\n8/2026: spelling fix (\"or\" consult)"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11656
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/imipenem-cilastatin",
+   "langcode": "und",
+   "pid": 24371
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-31T18:07:56+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Imipenem/cilastatin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5fa7ff27-4522-4c63-9b40-8b10558e42ad"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35546
+  }
+ ]
+}

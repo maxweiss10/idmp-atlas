@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-19T01:21:28+00:00"
+  }
+ ],
+ "comment_node_ucsf_publication": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1787102488,
+   "last_comment_uid": 0,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-22T07:00:00+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_publication_authorlist": [
+  {
+   "format": null,
+   "processed": "<p>Nelson NR, Ricco M, Hubal R, Anksorus HN, Bradley CL, Walker S, MacDougall C, Brock T, Rhoney DH</p>\n",
+   "value": "Nelson NR, Ricco M, Hubal R, Anksorus HN, Bradley CL, Walker S, MacDougall C, Brock T, Rhoney DH"
+  }
+ ],
+ "field_publication_id": [
+  {
+   "value": "https://researcherprofiles.org/profile/794943733"
+  }
+ ],
+ "field_publication_name": [
+  {
+   "target_id": 2271,
+   "target_type": "taxonomy_term",
+   "target_uuid": "816c975c-5ac6-4f11-9df7-e57c3f9176f9",
+   "url": "/publications/medical-teacher"
+  }
+ ],
+ "field_publication_pubmedid": [
+  {
+   "value": "42483872"
+  }
+ ],
+ "field_publication_title": [
+  {
+   "format": null,
+   "processed": "<p>Nelson NR, Ricco M, Hubal R, Anksorus HN, Bradley CL, Walker S, MacDougall C, Brock T, Rhoney DH. Development and initial validation of a practical instrument supporting clinical reasoning and self-directed learning. Med Teach. 2026 Jul 22; 1-8.</p>\n",
+   "value": "Nelson NR, Ricco M, Hubal R, Anksorus HN, Bradley CL, Walker S, MacDougall C, Brock T, Rhoney DH. Development and initial validation of a practical instrument supporting clinical reasoning and self-directed learning. Med Teach. 2026 Jul 22; 1-8."
+  }
+ ],
+ "field_publication_year": [
+  {
+   "value": "2026"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 26796
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/development-and-initial-validation-of-a-practical-instrument-supporting-clinical-reasoning-and-self",
+   "langcode": "und",
+   "pid": 39816
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-19T01:21:28+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Development and initial validation of a practical instrument supporting clinical reasoning and self-directed learning."
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_publication",
+   "target_type": "node_type",
+   "target_uuid": "aab43f59-8b93-481f-9f49-a929dc92e1dd"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "a64ec3d0-dfeb-45f5-a383-177dec8ff2b3"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35491
+  }
+ ]
+}

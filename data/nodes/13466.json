@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:08:12+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629824892,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:59:32+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>These guidelines are intended for patients who meet criteria for severe sepsis:&nbsp;</p>\n\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{37}\" paraid=\"363590036\" style=\"margin-left: 40px;\">Probable or documented infection AND&nbsp;</p>\n\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{44}\" paraid=\"6253836\" style=\"margin-left: 40px;\">Systemic inflammatory response criteria AND&nbsp;</p>\n\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{51}\" paraid=\"1743197251\" style=\"margin-left: 40px;\">Specific evidence of hypo-perfusion or organ dysfunction not explained by an alternative process:&nbsp;</p>\n\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{58}\" paraid=\"654394190\" style=\"margin-left: 80px;\">Cardiovascular dysfunction, OR&nbsp;</p>\n\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{65}\" paraid=\"1988091379\" style=\"margin-left: 80px;\">Acute respiratory distress syndrome, OR&nbsp;</p>\n\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{72}\" paraid=\"577942165\" style=\"margin-left: 80px;\">Dysfunction in two or more other organ systems &nbsp;</p>\n\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{79}\" paraid=\"624543996\" style=\"margin-left: 40px;\">Refer to <a href=\"https://journals.lww.com/pccmjournal/Fulltext/2005/01000/International_pediatric_sepsis_consensus.2.aspx\">consensus definitions</a>&nbsp;for additional detail  &nbsp;</p>\n\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{90}\" paraid=\"397835382\">These guidelines are not intended for \"rule out\" scenarios in clinically stable patients; patients presenting with signs and/or symptoms of infection but not meeting criteria for severe sepsis should either be monitored without antibiotic therapy in appropriate circumstances or receive empiric antibiotics selected based on the suspected source and risk factors. &nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{124}\" paraid=\"1121677693\">Severe sepsis, &gt; 28 days old, with preexisting medical comorbidities or healthcare exposure:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{124}\" paraid=\"1121677693\">Central line&nbsp;</p>\n\n\t\t\t<p>Solid organ transplant (except liver, see specific guidelines below)&nbsp;</p>\n\n\t\t\t<p>Immunodeficiency&nbsp;</p>\n\n\t\t\t<p>Immunosuppressive medications&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{178}\" paraid=\"1217550330\"><strong>Follow separate guidelines below that have been developed for specific populations</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{188}\" paraid=\"1647642279\"><a href=\"/content/benioff-childrens-hospitals-guidelines-for-fever-in-patients-receiving-cancer-therapy-and-or\">Fever&nbsp;in Oncology/BMT patients</a> (BCH SF)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{200}\" paraid=\"1392220632\"><a href=\"/content/guidelines-for-sepsis-in-the-icn\">Sepsis guidelines&nbsp;for ICN patients</a> (BCH SF)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{214}\" paraid=\"1107821141\"><a href=\"/node/11956\">Guidelines for patients with acute liver failure, end stage liver disease, biliary atresia, or &lt; 2 months s/p liver transplantation</a>&nbsp;(BCH SF)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{223}\" paraid=\"1213094057\"><em>Staphylococcus aureus&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{233}\" paraid=\"1733926336\">Gram-negative bacteria including&nbsp;<em>Pseudomonas</em>,<em> Enterobacter</em>, other MDR organisms&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{247}\" paraid=\"475493759\"><em>Enterococcus</em>&nbsp;spp&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{255}\" paraid=\"1648578507\"><em>Candida</em>&nbsp;spp in certain risk groups&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{16}\" paraid=\"1720665747\">May also have community-acquired pathogens&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{22}\" paraid=\"563303511\"> &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{29}\" paraid=\"739722855\">Cefepime<br>\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{39}\" paraid=\"743802266\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{45}\" paraid=\"1743988584\"><a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin</a> &nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{55}\" paraid=\"1750151117\">(follow link for dosing &amp; monitoring) &nbsp;&nbsp;<br>\n\t\t\t&nbsp;<br>\n\t\t\tConsult a clinical pharmacist for patient-specific Vancomycin recommendations if there is evolving kidney injury&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{67}\" paraid=\"1573508234\">ADD&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{77}\" paraid=\"1107728867\">Metronidazole 10 mg/kg/dose (max 500 mg/dose) IV q8h for suspected intra-abdominal infection&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{83}\" paraid=\"306868802\">For patients on TPN, high-dose steroids, or already on broad&nbsp;spectrum antibiotics, consider echinocandin antifungal, specific agent per hospital formulary: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{99}\" paraid=\"1590954313\">BCH OAK:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{105}\" paraid=\"125111351\">Micafungin 3 mg/kg/dose (max 150 mg/dose) IV q24h&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{115}\" paraid=\"1194010803\">BCH SF:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{125}\" paraid=\"1932560206\">Caspofungin*<br>\n\t\t\t70 mg/m2 first dose (max 70 mg/dose), then 50 mg/m2/dose (max 50 mg/dose) IV q24h (Caspofungin dosing differs in children 1-3 months old - refer to&nbsp;<a href=\"/pediatric-antimicrobial-dosing-benioff-childrens-hospitals\">Pediatric Antimicrobial Dosing Guideline</a>)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{140}\" paraid=\"471908799\"><strong>If patient develops sepsis while on broad spectrum antibiotics</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{150}\" paraid=\"1599953350\">Replace Cefepime with Meropenem<br>\n\t\t\t20 mg/kg/dose (max 1000 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{156}\" paraid=\"457828514\">---------------------</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{168}\" paraid=\"204621907\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{174}\" paraid=\"876317\">Use Aztreonam 30 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{188}\" paraid=\"1958346777\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{198}\" paraid=\"1670279399\">Ciprofloxacin<br>\n\t\t\t15 mg/kg/dose (max 400 mg/dose IV q8h) IV q12h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{204}\" paraid=\"1787709414\">in place of Cefepime&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{210}\" paraid=\"1869166506\">(with Vancomycin)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{217}\" paraid=\"847868234\">ID consult recommended&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{227}\" paraid=\"1966111518\">Review patient’s past microbiology history and ensure coverage of any recent (within the past 3 months) multidrug resistant organisms &nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{237}\" paraid=\"472591600\">*ID/ASP approval required for Micafungin or Caspofungin&nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{247}\" paraid=\"103775336\">Antibiotic therapy should be re-evaluated at &lt;= 48 hours and narrowed to target the identified source/pathogen.  If a specific source or pathogen is not identified it is still recommended to de-escalate  therapy in most circumstances. &nbsp;</p>\n\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{253}\" paraid=\"1724147421\">If Vancomycin was initiated, it should be discontinued at this time unless a resistant gram-positive pathogen is identified OR there is a clinically documented source of infection with higher likelihood of resistant gram-positive etiology. &nbsp;</p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{8}\" paraid=\"432958465\">Expanded gram-negative therapy (e.g. second gram negative agent or carbapenem) should be narrowed in most cases if cultures do not reveal a resistant gram-negative organism&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{18}\" paraid=\"332475212\">If Micafungin or Caspofungin was initiated, it should be discontinued if yeast/<em>Candida</em> is not isolated from blood culture or other normally sterile site within 48-72 hours &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>These guidelines are intended for patients who meet criteria for severe sepsis:&nbsp;</p>\r\n\r\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{37}\" paraid=\"363590036\" style=\"margin-left: 40px;\">Probable or documented infection AND&nbsp;</p>\r\n\r\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{44}\" paraid=\"6253836\" style=\"margin-left: 40px;\">Systemic inflammatory response criteria AND&nbsp;</p>\r\n\r\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{51}\" paraid=\"1743197251\" style=\"margin-left: 40px;\">Specific evidence of hypo-perfusion or organ dysfunction not explained by an alternative process:&nbsp;</p>\r\n\r\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{58}\" paraid=\"654394190\" style=\"margin-left: 80px;\">Cardiovascular dysfunction, OR&nbsp;</p>\r\n\r\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{65}\" paraid=\"1988091379\" style=\"margin-left: 80px;\">Acute respiratory distress syndrome, OR&nbsp;</p>\r\n\r\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{72}\" paraid=\"577942165\" style=\"margin-left: 80px;\">Dysfunction in two or more other organ systems &nbsp;</p>\r\n\r\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{79}\" paraid=\"624543996\" style=\"margin-left: 40px;\">Refer to <a href=\"https://journals.lww.com/pccmjournal/Fulltext/2005/01000/International_pediatric_sepsis_consensus.2.aspx\">consensus definitions</a>&nbsp;for additional detail  &nbsp;</p>\r\n\r\n<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{90}\" paraid=\"397835382\">These guidelines are not intended for \"rule out\" scenarios in clinically stable patients; patients presenting with signs and/or symptoms of infection but not meeting criteria for severe sepsis should either be monitored without antibiotic therapy in appropriate circumstances or receive empiric antibiotics selected based on the suspected source and risk factors. &nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{124}\" paraid=\"1121677693\">Severe sepsis, &gt; 28 days old, with preexisting medical comorbidities or healthcare exposure:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{124}\" paraid=\"1121677693\">Central line&nbsp;</p>\r\n\r\n\t\t\t<p>Solid organ transplant (except liver, see specific guidelines below)&nbsp;</p>\r\n\r\n\t\t\t<p>Immunodeficiency&nbsp;</p>\r\n\r\n\t\t\t<p>Immunosuppressive medications&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{178}\" paraid=\"1217550330\"><strong>Follow separate guidelines below that have been developed for specific populations</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{188}\" paraid=\"1647642279\"><a href=\"/node/11941\">Fever&nbsp;in Oncology/BMT patients</a> (BCH SF)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{200}\" paraid=\"1392220632\"><a href=\"/node/11961\">Sepsis guidelines&nbsp;for ICN patients</a> (BCH SF)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{214}\" paraid=\"1107821141\"><a href=\"/node/11956\">Guidelines for patients with acute liver failure, end stage liver disease, biliary atresia, or &lt; 2 months s/p liver transplantation</a>&nbsp;(BCH SF)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{223}\" paraid=\"1213094057\"><em>Staphylococcus aureus&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{233}\" paraid=\"1733926336\">Gram-negative bacteria including&nbsp;<em>Pseudomonas</em>,<em> Enterobacter</em>, other MDR organisms&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{247}\" paraid=\"475493759\"><em>Enterococcus</em>&nbsp;spp&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e2fe1655-484d-43a2-b90d-970c87488baa}{255}\" paraid=\"1648578507\"><em>Candida</em>&nbsp;spp in certain risk groups&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{16}\" paraid=\"1720665747\">May also have community-acquired pathogens&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{22}\" paraid=\"563303511\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{29}\" paraid=\"739722855\">Cefepime<br />\r\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{39}\" paraid=\"743802266\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{45}\" paraid=\"1743988584\"><a href=\"/node/13571\">Vancomycin</a> &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{55}\" paraid=\"1750151117\">(follow link for dosing &amp; monitoring) &nbsp;&nbsp;<br />\r\n\t\t\t&nbsp;<br />\r\n\t\t\tConsult a clinical pharmacist for patient-specific Vancomycin recommendations if there is evolving kidney injury&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{67}\" paraid=\"1573508234\">ADD&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{77}\" paraid=\"1107728867\">Metronidazole 10 mg/kg/dose (max 500 mg/dose) IV q8h for suspected intra-abdominal infection&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{83}\" paraid=\"306868802\">For patients on TPN, high-dose steroids, or already on broad&nbsp;spectrum antibiotics, consider echinocandin antifungal, specific agent per hospital formulary: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{99}\" paraid=\"1590954313\">BCH OAK:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{105}\" paraid=\"125111351\">Micafungin 3 mg/kg/dose (max 150 mg/dose) IV q24h&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{115}\" paraid=\"1194010803\">BCH SF:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{125}\" paraid=\"1932560206\">Caspofungin*<br />\r\n\t\t\t70 mg/m2 first dose (max 70 mg/dose), then 50 mg/m2/dose (max 50 mg/dose) IV q24h (Caspofungin dosing differs in children 1-3 months old - refer to&nbsp;<a href=\"/node/7626\">Pediatric Antimicrobial Dosing Guideline</a>)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{140}\" paraid=\"471908799\"><strong>If patient develops sepsis while on broad spectrum antibiotics</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{150}\" paraid=\"1599953350\">Replace Cefepime with Meropenem<br />\r\n\t\t\t20 mg/kg/dose (max 1000 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{156}\" paraid=\"457828514\">---------------------</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{168}\" paraid=\"204621907\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{174}\" paraid=\"876317\">Use Aztreonam 30 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{188}\" paraid=\"1958346777\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{198}\" paraid=\"1670279399\">Ciprofloxacin<br />\r\n\t\t\t15 mg/kg/dose (max 400 mg/dose IV q8h) IV q12h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{204}\" paraid=\"1787709414\">in place of Cefepime&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{210}\" paraid=\"1869166506\">(with Vancomycin)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{217}\" paraid=\"847868234\">ID consult recommended&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{227}\" paraid=\"1966111518\">Review patient’s past microbiology history and ensure coverage of any recent (within the past 3 months) multidrug resistant organisms &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{237}\" paraid=\"472591600\">*ID/ASP approval required for Micafungin or Caspofungin&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{247}\" paraid=\"103775336\">Antibiotic therapy should be re-evaluated at &lt;= 48 hours and narrowed to target the identified source/pathogen.  If a specific source or pathogen is not identified it is still recommended to de-escalate  therapy in most circumstances. &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{b8a404dc-96ec-4810-8f54-15a09bd5b625}{253}\" paraid=\"1724147421\">If Vancomycin was initiated, it should be discontinued at this time unless a resistant gram-positive pathogen is identified OR there is a clinically documented source of infection with higher likelihood of resistant gram-positive etiology. &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{8}\" paraid=\"432958465\">Expanded gram-negative therapy (e.g. second gram negative agent or carbapenem) should be narrowed in most cases if cultures do not reveal a resistant gram-negative organism&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{18}\" paraid=\"332475212\">If Micafungin or Caspofungin was initiated, it should be discontinued if yeast/<em>Candida</em> is not isolated from blood culture or other normally sterile site within 48-72 hours &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 161,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e9e098f9-0081-4408-b491-927824f0c523",
+   "url": "/guidelines-empiric-therapy-categories/sepsis-source-unknown-and-other-nonfocal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{30}\" paraid=\"2025735871\">References:&nbsp;</h2>\n\n<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{40}\" paraid=\"649451975\">Weiss SL, et al. <a href=\"https://journals.lww.com/pccmjournal/Fulltext/2020/02000/Surviving_Sepsis_Campaign_International_Guidelines.20.aspx\">Surviving sepsis campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children</a>. Pediatr Crit Care Med 2020; 21:e52-e106. &nbsp;</p>\n\n<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{50}\" paraid=\"1454384442\">Goldstein, et al.<a href=\"https://journals.lww.com/pccmjournal/Fulltext/2005/01000/International_pediatric_sepsis_consensus.2.aspx\"> International pediatric sepsis consensus conference: definitions for sepsis and organ dysfunction in pediatrics</a>. Pediatr Crit Care Med 2005;6:2-8.&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{30}\" paraid=\"2025735871\">References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{40}\" paraid=\"649451975\">Weiss SL, et al. <a href=\"https://journals.lww.com/pccmjournal/Fulltext/2020/02000/Surviving_Sepsis_Campaign_International_Guidelines.20.aspx\">Surviving sepsis campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children</a>. Pediatr Crit Care Med 2020; 21:e52-e106. &nbsp;</p>\r\n\r\n<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{50}\" paraid=\"1454384442\">Goldstein, et al.<a href=\"https://journals.lww.com/pccmjournal/Fulltext/2005/01000/International_pediatric_sepsis_consensus.2.aspx\"> International pediatric sepsis consensus conference: definitions for sepsis and organ dysfunction in pediatrics</a>. Pediatr Crit Care Med 2005;6:2-8.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13466
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/severe-sepsis-children-with-healthcare-exposure-or-comorbidities",
+   "langcode": "und",
+   "pid": 26121
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:08:12+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Severe Sepsis - Children with Healthcare Exposure or Comorbidities "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "a8f2bab7-1658-4282-9d6d-18dc89bb71cc"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16051
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:55:25+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633719325,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T18:02:59+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{88}\" paraid=\"911770126\">Bacterial gastroenteritis, community-onset&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{94}\" paraid=\"2088899020\">Characterized by frequent, sometimes bloody, small-volume diarrhea associated with abdominal pain and cramping&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{101}\" paraid=\"1769344905\"><em>Escherichia coli&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{109}\" paraid=\"324914077\"><em>Salmonella&nbsp;</em>species<em>&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{119}\" paraid=\"1087775577\"><em>Shigella&nbsp;</em>species<em>&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{129}\" paraid=\"1931827932\"><em>Campylobacter jejuni&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{135}\" paraid=\"2065412049\"><em>Yersinia enterocolitica&nbsp;</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{142}\" paraid=\"904990627\"><strong>Supportive care is the primary therapy for most patients&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{150}\" paraid=\"11705558\">Antibiotics can predispose to complications such as hemolytic uremic syndrome with Shiga-toxin producing&nbsp;<em>E. coli&nbsp;</em>infection&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{162}\" paraid=\"1793252180\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{166}\" paraid=\"470094301\"><strong>Consider empiric therapy in toxic-appearing patients, young infants*, or immunocompromised hosts, or if recent international travel with diarrhea &amp; fever:       &nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{178}\" paraid=\"941761807\">Azithromycin<br>\n\t\t\t10  mg/kg/dose (max 500 mg/dose) enterally daily &nbsp;</p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{188}\" paraid=\"265212299\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{198}\" paraid=\"2011354136\">Ceftriaxone*<br>\n\t\t\t50 mg/kg/dose (max 1000 mg/dose) IV q24h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{208}\" paraid=\"671626916\">*For infants 1-3 months of age and if needed for infections with other sites involved e.g.&nbsp;<em>Salmonella&nbsp;</em>gastroenteritis with bloodstream&nbsp;infection. For infant &lt;1 month of age refer to <a href=\"/content/fever-without-a-source-young-infant\">Fever Without a Source - Young Infant</a>&nbsp;section for initial empiric therapy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{228}\" paraid=\"1285835653\">Avoid empiric treatment if persistent diarrhea has lasted 14 days or more &nbsp;</p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{234}\" paraid=\"1441924117\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{238}\" paraid=\"1083408513\"><strong>For traveler's diarrhea (enterotoxigenic&nbsp;<em>E. coli</em>)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{248}\" paraid=\"1974844867\">Azithromycin 10 mg/kg/dose (max 500 mg/dose) enterally daily x 3 days - provide un-reconstituted powder for suspension to infants and children traveling in high-risk areas&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{3}\" paraid=\"411049407\">Send stool culture (BCH OAK) or bacterial panel (BCH SF) for diagnosis&nbsp;</p>\n\n\t\t\t<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{13}\" paraid=\"281655820\">Consider testing for&nbsp;<em>Clostridioides difficile</em>&nbsp;if patient has recent hospital or antibiotic exposure&nbsp;</p>\n\n\t\t\t<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{27}\" paraid=\"2021004958\">Blood cultures should also be sent for patients who are hospitalized and/or toxic-appearing  with suspected bacterial gastroenteritis. If antibiotic therapy is given for&nbsp;<em>Salmonella</em>&nbsp;gastroenteritis, blood culture should be obtained prior to initiation of antibiotic.&nbsp;&nbsp;</p>\n\n\t\t\t<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{27}\" paraid=\"2021004958\">Directed therapy may be indicated early in the course for specific pathogens (such as&nbsp;<em>Campylobacter, Shigella, Yersinia</em>)&nbsp;but in most cases should be deferred until a positive stool culture result is obtained. For recommended therapies, refer to IDSA guidelines linked below or consult ID.&nbsp;</p>\n\n\t\t\t<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{51}\" paraid=\"1603106449\">Duration of therapy (if given) depends on the specific diagnosis&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{88}\" paraid=\"911770126\">Bacterial gastroenteritis, community-onset&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{94}\" paraid=\"2088899020\">Characterized by frequent, sometimes bloody, small-volume diarrhea associated with abdominal pain and cramping&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{101}\" paraid=\"1769344905\"><em>Escherichia coli&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{109}\" paraid=\"324914077\"><em>Salmonella&nbsp;</em>species<em>&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{119}\" paraid=\"1087775577\"><em>Shigella&nbsp;</em>species<em>&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{129}\" paraid=\"1931827932\"><em>Campylobacter jejuni&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{135}\" paraid=\"2065412049\"><em>Yersinia enterocolitica&nbsp;</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{142}\" paraid=\"904990627\"><strong>Supportive care is the primary therapy for most patients&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{150}\" paraid=\"11705558\">Antibiotics can predispose to complications such as hemolytic uremic syndrome with Shiga-toxin producing&nbsp;<em>E. coli&nbsp;</em>infection&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{162}\" paraid=\"1793252180\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{166}\" paraid=\"470094301\"><strong>Consider empiric therapy in toxic-appearing patients, young infants*, or immunocompromised hosts, or if recent international travel with diarrhea &amp; fever:       &nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{178}\" paraid=\"941761807\">Azithromycin<br />\r\n\t\t\t10  mg/kg/dose (max 500 mg/dose) enterally daily &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{188}\" paraid=\"265212299\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{198}\" paraid=\"2011354136\">Ceftriaxone*<br />\r\n\t\t\t50 mg/kg/dose (max 1000 mg/dose) IV q24h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{208}\" paraid=\"671626916\">*For infants 1-3 months of age and if needed for infections with other sites involved e.g.&nbsp;<em>Salmonella&nbsp;</em>gastroenteritis with bloodstream&nbsp;infection. For infant &lt;1 month of age refer to <a href=\"/node/13376\">Fever Without a Source - Young Infant</a>&nbsp;section for initial empiric therapy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{228}\" paraid=\"1285835653\">Avoid empiric treatment if persistent diarrhea has lasted 14 days or more &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{234}\" paraid=\"1441924117\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{238}\" paraid=\"1083408513\"><strong>For traveler's diarrhea (enterotoxigenic&nbsp;<em>E. coli</em>)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{248}\" paraid=\"1974844867\">Azithromycin 10 mg/kg/dose (max 500 mg/dose) enterally daily x 3 days - provide un-reconstituted powder for suspension to infants and children traveling in high-risk areas&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{3}\" paraid=\"411049407\">Send stool culture (BCH OAK) or bacterial panel (BCH SF) for diagnosis&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{13}\" paraid=\"281655820\">Consider testing for&nbsp;<em>Clostridioides difficile</em>&nbsp;if patient has recent hospital or antibiotic exposure&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{27}\" paraid=\"2021004958\">Blood cultures should also be sent for patients who are hospitalized and/or toxic-appearing  with suspected bacterial gastroenteritis. If antibiotic therapy is given for&nbsp;<em>Salmonella</em>&nbsp;gastroenteritis, blood culture should be obtained prior to initiation of antibiotic.&nbsp;&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{27}\" paraid=\"2021004958\">Directed therapy may be indicated early in the course for specific pathogens (such as&nbsp;<em>Campylobacter, Shigella, Yersinia</em>)&nbsp;but in most cases should be deferred until a positive stool culture result is obtained. For recommended therapies, refer to IDSA guidelines linked below or consult ID.&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{51}\" paraid=\"1603106449\">Duration of therapy (if given) depends on the specific diagnosis&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1661,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b4e45d9b-2786-4723-a916-dbc8aa7b9580",
+   "url": "/guidelines-empiric-therapy-categories/gastrointestinal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{61}\" paraid=\"504502534\">References</h2>\n\n<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{65}\" paraid=\"928430239\">Shane, AL, et al. <a href=\"https://academic.oup.com/cid/article/65/12/e45/4557073\">Infectious Diseases Society of America clinical practice guidelines for the diagnosis and management of infectious diarrhea</a>. Clinical Infectious Diseases, 2017: 65, e45-e80. &nbsp;</p>\n\n<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{71}\" paraid=\"41761592\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n\n<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{105}\" paraid=\"779063258\">CDC Yellow Book 2020.&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/yellowbook/2016/the-pre-travel-consultation/travelers-diarrhea\" rel=\"noreferrer noopener\" target=\"_blank\">Traveler's Diarrhea</a>.&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{61}\" paraid=\"504502534\">References</h2>\r\n\r\n<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{65}\" paraid=\"928430239\">Shane, AL, et al. <a href=\"https://academic.oup.com/cid/article/65/12/e45/4557073\">Infectious Diseases Society of America clinical practice guidelines for the diagnosis and management of infectious diarrhea</a>. Clinical Infectious Diseases, 2017: 65, e45-e80. &nbsp;</p>\r\n\r\n<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{71}\" paraid=\"41761592\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n\r\n<p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{105}\" paraid=\"779063258\">CDC Yellow Book 2020.&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/yellowbook/2016/the-pre-travel-consultation/travelers-diarrhea\" rel=\"noreferrer noopener\" target=\"_blank\">Traveler's Diarrhea</a>.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13356
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/bacterial-gastroenteritis",
+   "langcode": "und",
+   "pid": 26016
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:55:25+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Bacterial Gastroenteritis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d0e0645c-dafe-4421-9739-29c6f1f404c0"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15941
+  }
+ ]
+}

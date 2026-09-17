@@ -1,0 +1,229 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1756039886,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2022-10-27T22:50:04+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": true
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 0
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "Daniel Escobar"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [],
+ "field_person_first_name": [
+  {
+   "value": "Daniel"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 586,
+   "target_type": "media",
+   "target_uuid": "c595e090-8c3f-4238-8f1e-b7a2ddce48ea",
+   "url": "/media/586"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Escobar"
+  }
+ ],
+ "field_person_middle_name": [
+  {
+   "value": "Jose"
+  }
+ ],
+ "field_person_preferred_name": [
+  {
+   "value": "Daniel"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1526,
+   "target_type": "taxonomy_term",
+   "target_uuid": "0e18702d-7dd5-4d27-9a7d-1d230ade71e1",
+   "url": "/departments-units-and-organizations/mmed-core-infd"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [
+  {
+   "target_id": 16651,
+   "target_type": "node",
+   "target_uuid": "d8c0522b-8b2e-4c37-bf8c-4e9d6dbd5e06",
+   "url": "/content/a-machine-learning-model-to-predict-optimal-antibiotic-use-in-hospital-medicine-patients"
+  }
+ ],
+ "field_person_research_biography": [
+  {
+   "format": "plain_text",
+   "processed": "<p>Dr. Daniel Jose Escobar is an infectious disease specialist who cares for patients with a broad range of complex bacterial, fungal and viral infections, including those involving bones, joints, surgical implants and surgical complications. With a focus on developing strategies to improve patient care, he has a special interest in lowering the numbers of infections acquired in hospitals through epidemiology (which includes evaluating infection rates and preventive measures) and antibiotic stewardship (controlling antibiotic resistance by assessing and enhancing appropriate use of these medications).</p>\n<p>Escobar&#039;s research focuses on identifying the reasons that some patients get infections during hospitalization and implementing measures that would prevent such infections. He also studies drivers of antibiotic overuse, with the aim of reducing the development of antibiotic-resistant organisms.</p>\n<p>Escobar earned his medical degree at the Lewis Katz School of Medicine at Temple University. He completed a residency in internal medicine at the University of Maryland Medical Center and a fellowship in infectious diseases at the University of Pennsylvania Health System.</p>\n<p>Escobar speaks Spanish and identifies as Latinx.</p>\n",
+   "value": "Dr. Daniel Jose Escobar is an infectious disease specialist who cares for patients with a broad range of complex bacterial, fungal and viral infections, including those involving bones, joints, surgical implants and surgical complications. With a focus on developing strategies to improve patient care, he has a special interest in lowering the numbers of infections acquired in hospitals through epidemiology (which includes evaluating infection rates and preventive measures) and antibiotic stewardship (controlling antibiotic resistance by assessing and enhancing appropriate use of these medications).\n\nEscobar's research focuses on identifying the reasons that some patients get infections during hospitalization and implementing measures that would prevent such infections. He also studies drivers of antibiotic overuse, with the aim of reducing the development of antibiotic-resistant organisms.\n\nEscobar earned his medical degree at the Lewis Katz School of Medicine at Temple University. He completed a residency in internal medicine at the University of Maryland Medical Center and a fellowship in infectious diseases at the University of Pennsylvania Health System.\n\nEscobar speaks Spanish and identifies as Latinx."
+  }
+ ],
+ "field_person_subtype": [
+  {
+   "target_id": 641,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8e527da1-8c6c-44a7-8bc9-d8a3451fb862",
+   "url": "/person-type/ucsf-medical-center"
+  }
+ ],
+ "field_person_title_override": [],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 346,
+   "target_type": "taxonomy_term",
+   "target_uuid": "eb5cc219-543f-4415-a229-94d58e47d3a1",
+   "url": "/person-type/affiliate"
+  },
+  {
+   "target_id": 176,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee47c868-e940-4230-af11-2a747ae34b77",
+   "url": "/person-type/faculty"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_person_working_title": [
+  {
+   "value": "HS Asst Clinical Professor"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [],
+ "field_profiles_link": [
+  {
+   "options": {
+    "attributes": []
+   },
+   "title": null,
+   "uri": "https://profiles.ucsf.edu/daniel.escobar"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14251
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/daniel-escobar-md-ms",
+   "langcode": "und",
+   "pid": 26901
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-24T12:51:26+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Daniel Escobar, MD, MS"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "3ee6432e-f0bc-40e5-97ac-c2e550d59fc6"
+  }
+ ],
+ "vid": [
+  {
+   "value": 17111
+  }
+ ]
+}

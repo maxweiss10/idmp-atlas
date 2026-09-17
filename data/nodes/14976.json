@@ -1,0 +1,124 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<h3 class=\"text-align-center\"><strong>Urinary Tract Infections (UTIs)</strong></h3><p><strong><u>Diagnosis</u></strong></p>\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-cke-media-resize-xl\" style=\"width:1049px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_xl/public/img/VASF%202025%20UTI%20Pathway_0.png.webp?itok=hj07_2J8\" width=\"1200\" height=\"695\" alt=\"Diagram depicts classification and diagnosis of urinary tract infections\" class=\"image-style-cke-media-resize-xl\">\n\n\n\n\n  </div>\n\n<p><strong><u>Common Caustive Organisms</u></strong></p><p><em>E. coli, Proteus spp., Klebsiella spp.&nbsp;</em></p><ul><li>While not commin, patients are at increased risk of UTI with <em>Pseudomonas spp. </em>if at least 1 risk factor^ present:<ul><li>^<u>Pseudomonal risk factors</u> include: hospitalization within the last 30 days AND received IV antibiotics, history of prior pseudomonal infection, immunocompromised (uncontrolled HIV, transplant, etc.)</li></ul></li></ul><p><strong><u>UTI Classification</u></strong></p><table><tbody><tr><td><strong>Classification</strong></td><td><strong>Description</strong></td></tr><tr><td>Uncomplicated UTI</td><td>UTI confined to the bladder in afebrile women or men</td></tr><tr><td>Complicated UTI</td><td><p>UTI beyond the bladder in women or men</p><p>(including pyelonephritis, catheter-associated UTI, and bacteremic UTI)</p></td></tr><tr><td>Prostatitis, Epididymitis</td><td>UTI beyond the bladder unique to male anatomy</td></tr></tbody></table><h3><strong>Empiric Outpatient &nbsp;UTI Treatment&nbsp;</strong></h3><p><strong>***CPRS Ambulatory Care Order Menu Available***</strong></p><table style=\"width:1000px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"714\"><tbody><tr><td style=\"height:18px;text-align:center;width:126px;\"><p class=\"text-align-center\"><strong>Diagnosis</strong></p></td><td style=\"height:18px;text-align:center;width:360px;\"><p class=\"text-align-center\"><strong>Preferred Treatment</strong></p></td><td style=\"height:18px;text-align:center;width:228px;\"><p class=\"text-align-center\"><strong>Duration</strong></p></td></tr><tr><td style=\"height:16px;text-align:center;width:126px;\" rowspan=\"3\"><p class=\"text-align-center\">Uncomplicated UTI</p></td><td style=\"height:16px;width:360px;\">Cephalexin 500 mg PO q12h</td><td style=\"height:16px;text-align:center;width:228px;\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"height:19px;width:360px;\">Nitrofurantoin 100 mg PO q12h</td><td style=\"height:19px;text-align:center;width:228px;\"><p class=\"text-align-center\"><u>Male</u>: 7 days&nbsp;&nbsp;&nbsp;&nbsp; <u>Female</u>: 5 days</p></td></tr><tr><td style=\"height:19px;width:360px;\">Ciprofloxacin 500 mg PO q12h (<em>pseudomonas</em> risk^)</td><td style=\"height:19px;text-align:center;width:228px;\"><p class=\"text-align-center\">5 days</p></td></tr><tr><td style=\"height:19px;text-align:center;width:126px;\" rowspan=\"3\"><p class=\"text-align-center\">Complicated UTI</p></td><td style=\"height:19px;width:360px;\">Sulfamethoxazole-trimethoprim 1 DS PO q12h</td><td style=\"height:19px;text-align:center;width:228px;\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"height:19px;width:360px;\">Cefpodoxime 400 mg PO q12h</td><td style=\"height:19px;text-align:center;width:228px;\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"height:22px;width:360px;\">Ciprofloxacin 500 mg PO q12h (<em>pseudomonas</em> risk^)</td><td style=\"height:22px;text-align:center;width:228px;\"><p class=\"text-align-center\">5-7 days</p></td></tr><tr><td style=\"height:21px;text-align:center;width:126px;\" rowspan=\"2\"><p class=\"text-align-center\">Epididymitis</p></td><td style=\"height:21px;width:360px;\">Levofloxacin* 500 mg PO daily</td><td style=\"height:21px;text-align:center;width:228px;\" rowspan=\"2\"><p class=\"text-align-center\">10 days</p></td></tr><tr><td style=\"height:21px;width:360px;\"><p>If concerned about sexually transmitted chlamydia and gonorrhea <u>ADD</u>: Doxycycline 100 mg PO BID x7 days</p><p><u>AND</u> one-time dose of IM ceftriaxone:</p><p>Total body weight &lt; 150 kg: ceftriaxone 500 mg IM x1</p><p>Total body weight <u>&gt;</u> 150 kg: ceftriaxone 1000 mg IM x1</p></td></tr><tr><td style=\"height:14px;text-align:center;width:126px;\" rowspan=\"2\"><p class=\"text-align-center\">Acute bacterial prostatitis</p></td><td style=\"height:14px;width:360px;\">Sulfamethoxazole-trimethoprim 1 DS PO q12h</td><td style=\"height:14px;text-align:center;width:228px;\" rowspan=\"2\"><p class=\"text-align-center\">14 days</p></td></tr><tr><td style=\"height:14px;width:360px;\">Ciprofloxacin 500 mg PO q12h</td></tr><tr><td style=\"height:18px;text-align:center;width:126px;\"><p class=\"text-align-center\">Chronic prostatitis</p></td><td style=\"height:18px;width:588px;\" colspan=\"2\">Consider consulting urology service</td></tr></tbody></table><p>&nbsp;</p><h3><strong>Empiric Inpatient UTI Treatment</strong></h3><table style=\"width:1000px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"714\"><tbody><tr><td style=\"text-align:center;width:150px;\"><p class=\"text-align-center\"><strong>Diagnosis</strong></p></td><td style=\"text-align:center;width:336px;\"><p class=\"text-align-center\"><strong>Preferred Treatment</strong></p></td><td style=\"text-align:center;width:228px;\"><p class=\"text-align-center\"><strong>Duration</strong></p></td></tr><tr><td style=\"height:16px;text-align:center;width:150px;\" rowspan=\"3\"><p class=\"text-align-center\">Uncomplicated UTI</p></td><td style=\"height:16px;width:336px;\">Cephalexin 500 mg PO q12h</td><td style=\"height:16px;text-align:center;width:228px;\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"width:336px;\">Nitrofurantoin 100 mg PO q12h</td><td style=\"text-align:center;width:228px;\"><p class=\"text-align-center\"><u>Male</u>: 7 days&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>Female</u>: 5 days</p></td></tr><tr><td style=\"width:336px;\">Ciprofloxacin* 500 mg PO q12h (<em>pseudomonas</em> risk^)</td><td style=\"text-align:center;width:228px;\"><p class=\"text-align-center\">5 days</p></td></tr><tr><td style=\"text-align:center;width:150px;\" rowspan=\"2\"><p class=\"text-align-center\">Complicated UTI with sepsis</p></td><td style=\"width:336px;\">Ceftriaxone 2 gm IV q24h</td><td style=\"text-align:center;width:228px;\" rowspan=\"2\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"width:336px;\">Cefepime* 2 gm IV q8h (<em>pseudomonas</em> risk^)</td></tr><tr><td style=\"text-align:center;width:150px;\" rowspan=\"3\"><p class=\"text-align-center\">Complicated UTI without sepsis</p></td><td style=\"width:336px;\">Ceftriaxone 2 gm IV q24h</td><td style=\"text-align:center;width:228px;\" rowspan=\"2\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"width:336px;\">Cefepime* 2 gm IV q12h (<em>pseudomonas</em> risk^)</td></tr><tr><td>Ciprofloxacin* 500 mg PO q12h (<em>pseudomonas</em> risk^)</td><td style=\"text-align:center;\"><p class=\"text-align-center\">5-7 days</p></td></tr><tr><td style=\"text-align:center;width:150px;\" rowspan=\"2\"><p class=\"text-align-center\">Acute bacterial Prostatitis</p></td><td style=\"width:336px;\">Sulfamethoxazole-trimethoprim 1 DS PO q12h</td><td style=\"text-align:center;width:228px;\" rowspan=\"2\"><p class=\"text-align-center\">14 days</p></td></tr><tr><td style=\"width:336px;\">Ciprofloxacin* 500 mg PO q12h</td></tr></tbody></table><p>*Contact ASP Pharmacist (preferred) or ID fellow to approve use outside of ICU</p><p>^<u>Pseudomonal risk factors</u> include hospitalization within the last 30 days AND received IV antibiotics, history of prior pseudomonal infection, immunocompromised (uncontrolled HIV, transplant, etc.)</p><h3><strong>Oral Step-down options for complicated UTI (IV to PO)</strong></h3><table><tbody><tr><td>Drug</td><td>Dose</td></tr><tr><td>Cefpodoxime*</td><td>400 mg PO q12h</td></tr><tr><td>Sulfamethoxazole-trimethoprime*</td><td>1-2 DS tablet PO q12h^</td></tr><tr><td>Ciprofloxacin*</td><td>500 mg to 750 mg PO q12h</td></tr><tr><td>Amoxicillin</td><td>1 gm PO q8h</td></tr><tr><td>Cephalexin</td><td>1000 mg PO q8h</td></tr><tr><td>Amoxicillin-clavulanate</td><td>875-125 mg PO q8h</td></tr><tr><td>Levofloxacin</td><td>500 mg to 750 mg PO q24h</td></tr></tbody></table><p>&nbsp;</p><p><strong><u>Clinical Pearls</u></strong></p><ul><li><strong>Tailor therapy to culture results</strong> once microbiologic data is available</li><li><strong>Asymptomatic bacteriuria does not require antibiotic therapy for most patients</strong>. Antibiotics are only indicated for:<ul style=\"margin-left:40px;\"><li>Pregnancy: cystitis treatment</li><li>Urological procedure: 1 dose prior to procedure and 1 to 2 doses after</li></ul></li><li><strong>Pseudomonal uncomplicated UTI and complicated UTI without sepsis</strong> can be effectively treated with <strong>lower doses of cefepime</strong> due to high urinary concentrations (~85% excreted unchanged in urine)</li><li><strong>For treatment of complicated UTIs:</strong><ul><li>Catheter associated UTIs (CAUTI) require change in catheter</li><li>In patients with delayed clinical improvement:<ul><li>Assess for drug-bug mismatch</li><li>Evaluate for an ongoing nidus of infection requiring source control</li><li>Consider longer treatment duration (10-14 days)&nbsp;</li></ul></li></ul></li><li><strong>IV to PO stepdown </strong>is recommended for patients <strong>clinically improving, able to take oral medications</strong>, and when there is an <strong>effective oral agent</strong> that achieves therapeutic concentrations in the urine and is active against the causative pathogen</li></ul><p>&nbsp;</p><p><u>References:</u></p><p>1. Gupta, Kalpana, et al. \"International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: a 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.\" Clinical infectious diseases 52.5 (2011): e103-e120.</p><p>2. Hooton, Thomas M., et al. \"Diagnosis, prevention, and treatment of catheter-associated urinary tract infection in adults: 2009 International Clinical Practice Guidelines from the Infectious Diseases Society of America.\" Clinical infectious diseases 50.5 (2010): 625-663.</p>",
+   "summary": "SFVA facility treatment guidelines for management and treatment of UTIs",
+   "value": "<h3 class=\"text-align-center\"><strong>Urinary Tract Infections (UTIs)</strong></h3><p><strong><u>Diagnosis</u></strong></p><drupal-media class=\"image_resized\" style=\"width:1049px;\" data-media-width=\"1049px\" data-entity-type=\"media\" data-entity-uuid=\"1c686353-d9ba-4bc4-b2a8-ce770e2b04c1\">&nbsp;</drupal-media><p><strong><u>Common Caustive Organisms</u></strong></p><p><em>E. coli, Proteus spp., Klebsiella spp.&nbsp;</em></p><ul><li>While not commin, patients are at increased risk of UTI with <em>Pseudomonas spp. </em>if at least 1 risk factor^ present:<ul><li>^<u>Pseudomonal risk factors</u> include: hospitalization within the last 30 days AND received IV antibiotics, history of prior pseudomonal infection, immunocompromised (uncontrolled HIV, transplant, etc.)</li></ul></li></ul><p><strong><u>UTI Classification</u></strong></p><table><tbody><tr><td><strong>Classification</strong></td><td><strong>Description</strong></td></tr><tr><td>Uncomplicated UTI</td><td>UTI confined to the bladder in afebrile women or men</td></tr><tr><td>Complicated UTI</td><td><p>UTI beyond the bladder in women or men</p><p>(including pyelonephritis, catheter-associated UTI, and bacteremic UTI)</p></td></tr><tr><td>Prostatitis, Epididymitis</td><td>UTI beyond the bladder unique to male anatomy</td></tr></tbody></table><h3><strong>Empiric Outpatient &nbsp;UTI Treatment&nbsp;</strong></h3><p><strong>***CPRS Ambulatory Care Order Menu Available***</strong></p><table style=\"width:1000px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"714\"><tbody><tr><td style=\"height:18px;text-align:center;width:126px;\"><p class=\"text-align-center\"><strong>Diagnosis</strong></p></td><td style=\"height:18px;text-align:center;width:360px;\"><p class=\"text-align-center\"><strong>Preferred Treatment</strong></p></td><td style=\"height:18px;text-align:center;width:228px;\"><p class=\"text-align-center\"><strong>Duration</strong></p></td></tr><tr><td style=\"height:16px;text-align:center;width:126px;\" rowspan=\"3\"><p class=\"text-align-center\">Uncomplicated UTI</p></td><td style=\"height:16px;width:360px;\">Cephalexin 500 mg PO q12h</td><td style=\"height:16px;text-align:center;width:228px;\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"height:19px;width:360px;\">Nitrofurantoin 100 mg PO q12h</td><td style=\"height:19px;text-align:center;width:228px;\"><p class=\"text-align-center\"><u>Male</u>: 7 days&nbsp;&nbsp;&nbsp;&nbsp; <u>Female</u>: 5 days</p></td></tr><tr><td style=\"height:19px;width:360px;\">Ciprofloxacin 500 mg PO q12h (<em>pseudomonas</em> risk^)</td><td style=\"height:19px;text-align:center;width:228px;\"><p class=\"text-align-center\">5 days</p></td></tr><tr><td style=\"height:19px;text-align:center;width:126px;\" rowspan=\"3\"><p class=\"text-align-center\">Complicated UTI</p></td><td style=\"height:19px;width:360px;\">Sulfamethoxazole-trimethoprim 1 DS PO q12h</td><td style=\"height:19px;text-align:center;width:228px;\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"height:19px;width:360px;\">Cefpodoxime 400 mg PO q12h</td><td style=\"height:19px;text-align:center;width:228px;\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"height:22px;width:360px;\">Ciprofloxacin 500 mg PO q12h (<em>pseudomonas</em> risk^)</td><td style=\"height:22px;text-align:center;width:228px;\"><p class=\"text-align-center\">5-7 days</p></td></tr><tr><td style=\"height:21px;text-align:center;width:126px;\" rowspan=\"2\"><p class=\"text-align-center\">Epididymitis</p></td><td style=\"height:21px;width:360px;\">Levofloxacin* 500 mg PO daily</td><td style=\"height:21px;text-align:center;width:228px;\" rowspan=\"2\"><p class=\"text-align-center\">10 days</p></td></tr><tr><td style=\"height:21px;width:360px;\"><p>If concerned about sexually transmitted chlamydia and gonorrhea <u>ADD</u>: Doxycycline 100 mg PO BID x7 days</p><p><u>AND</u> one-time dose of IM ceftriaxone:</p><p>Total body weight &lt; 150 kg: ceftriaxone 500 mg IM x1</p><p>Total body weight <u>&gt;</u> 150 kg: ceftriaxone 1000 mg IM x1</p></td></tr><tr><td style=\"height:14px;text-align:center;width:126px;\" rowspan=\"2\"><p class=\"text-align-center\">Acute bacterial prostatitis</p></td><td style=\"height:14px;width:360px;\">Sulfamethoxazole-trimethoprim 1 DS PO q12h</td><td style=\"height:14px;text-align:center;width:228px;\" rowspan=\"2\"><p class=\"text-align-center\">14 days</p></td></tr><tr><td style=\"height:14px;width:360px;\">Ciprofloxacin 500 mg PO q12h</td></tr><tr><td style=\"height:18px;text-align:center;width:126px;\"><p class=\"text-align-center\">Chronic prostatitis</p></td><td style=\"height:18px;width:588px;\" colspan=\"2\">Consider consulting urology service</td></tr></tbody></table><p>&nbsp;</p><h3><strong>Empiric Inpatient UTI Treatment</strong></h3><table style=\"width:1000px;\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"714\"><tbody><tr><td style=\"text-align:center;width:150px;\"><p class=\"text-align-center\"><strong>Diagnosis</strong></p></td><td style=\"text-align:center;width:336px;\"><p class=\"text-align-center\"><strong>Preferred Treatment</strong></p></td><td style=\"text-align:center;width:228px;\"><p class=\"text-align-center\"><strong>Duration</strong></p></td></tr><tr><td style=\"height:16px;text-align:center;width:150px;\" rowspan=\"3\"><p class=\"text-align-center\">Uncomplicated UTI</p></td><td style=\"height:16px;width:336px;\">Cephalexin 500 mg PO q12h</td><td style=\"height:16px;text-align:center;width:228px;\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"width:336px;\">Nitrofurantoin 100 mg PO q12h</td><td style=\"text-align:center;width:228px;\"><p class=\"text-align-center\"><u>Male</u>: 7 days&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>Female</u>: 5 days</p></td></tr><tr><td style=\"width:336px;\">Ciprofloxacin* 500 mg PO q12h (<em>pseudomonas</em> risk^)</td><td style=\"text-align:center;width:228px;\"><p class=\"text-align-center\">5 days</p></td></tr><tr><td style=\"text-align:center;width:150px;\" rowspan=\"2\"><p class=\"text-align-center\">Complicated UTI with sepsis</p></td><td style=\"width:336px;\">Ceftriaxone 2 gm IV q24h</td><td style=\"text-align:center;width:228px;\" rowspan=\"2\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"width:336px;\">Cefepime* 2 gm IV q8h (<em>pseudomonas</em> risk^)</td></tr><tr><td style=\"text-align:center;width:150px;\" rowspan=\"3\"><p class=\"text-align-center\">Complicated UTI without sepsis</p></td><td style=\"width:336px;\">Ceftriaxone 2 gm IV q24h</td><td style=\"text-align:center;width:228px;\" rowspan=\"2\"><p class=\"text-align-center\">7 days</p></td></tr><tr><td style=\"width:336px;\">Cefepime* 2 gm IV q12h (<em>pseudomonas</em> risk^)</td></tr><tr><td>Ciprofloxacin* 500 mg PO q12h (<em>pseudomonas</em> risk^)</td><td style=\"text-align:center;\"><p class=\"text-align-center\">5-7 days</p></td></tr><tr><td style=\"text-align:center;width:150px;\" rowspan=\"2\"><p class=\"text-align-center\">Acute bacterial Prostatitis</p></td><td style=\"width:336px;\">Sulfamethoxazole-trimethoprim 1 DS PO q12h</td><td style=\"text-align:center;width:228px;\" rowspan=\"2\"><p class=\"text-align-center\">14 days</p></td></tr><tr><td style=\"width:336px;\">Ciprofloxacin* 500 mg PO q12h</td></tr></tbody></table><p>*Contact ASP Pharmacist (preferred) or ID fellow to approve use outside of ICU</p><p>^<u>Pseudomonal risk factors</u> include hospitalization within the last 30 days AND received IV antibiotics, history of prior pseudomonal infection, immunocompromised (uncontrolled HIV, transplant, etc.)</p><h3><strong>Oral Step-down options for complicated UTI (IV to PO)</strong></h3><table><tbody><tr><td>Drug</td><td>Dose</td></tr><tr><td>Cefpodoxime*</td><td>400 mg PO q12h</td></tr><tr><td>Sulfamethoxazole-trimethoprime*</td><td>1-2 DS tablet PO q12h^</td></tr><tr><td>Ciprofloxacin*</td><td>500 mg to 750 mg PO q12h</td></tr><tr><td>Amoxicillin</td><td>1 gm PO q8h</td></tr><tr><td>Cephalexin</td><td>1000 mg PO q8h</td></tr><tr><td>Amoxicillin-clavulanate</td><td>875-125 mg PO q8h</td></tr><tr><td>Levofloxacin</td><td>500 mg to 750 mg PO q24h</td></tr></tbody></table><p>&nbsp;</p><p><strong><u>Clinical Pearls</u></strong></p><ul><li><strong>Tailor therapy to culture results</strong> once microbiologic data is available</li><li><strong>Asymptomatic bacteriuria does not require antibiotic therapy for most patients</strong>. Antibiotics are only indicated for:<ul style=\"margin-left:40px;\"><li>Pregnancy: cystitis treatment</li><li>Urological procedure: 1 dose prior to procedure and 1 to 2 doses after</li></ul></li><li><strong>Pseudomonal uncomplicated UTI and complicated UTI without sepsis</strong> can be effectively treated with <strong>lower doses of cefepime</strong> due to high urinary concentrations (~85% excreted unchanged in urine)</li><li><strong>For treatment of complicated UTIs:</strong><ul><li>Catheter associated UTIs (CAUTI) require change in catheter</li><li>In patients with delayed clinical improvement:<ul><li>Assess for drug-bug mismatch</li><li>Evaluate for an ongoing nidus of infection requiring source control</li><li>Consider longer treatment duration (10-14 days)&nbsp;</li></ul></li></ul></li><li><strong>IV to PO stepdown </strong>is recommended for patients <strong>clinically improving, able to take oral medications</strong>, and when there is an <strong>effective oral agent</strong> that achieves therapeutic concentrations in the urine and is active against the causative pathogen</li></ul><p>&nbsp;</p><p><u>References:</u></p><p>1. Gupta, Kalpana, et al. \"International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: a 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.\" Clinical infectious diseases 52.5 (2011): e103-e120.</p><p>2. Hooton, Thomas M., et al. \"Diagnosis, prevention, and treatment of catheter-associated urinary tract infection in adults: 2009 International Clinical Practice Guidelines from the Infectious Diseases Society of America.\" Clinical infectious diseases 50.5 (2010): 625-663.</p>"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-02-05T00:37:11+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1748905900,
+   "last_comment_uid": 611,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-11-29T23:35:15+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2023-11-29"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 471,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee7b224f-cfca-453f-9d7e-9ba9f50edf24",
+   "url": "/site/va-medical-center-san-francisco"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14976
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/vasf-urinary-tract-infections-uti-treatment-guidelines",
+   "langcode": "und",
+   "pid": 27546
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-06-02T23:11:40+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "VASF Urinary Tract Infections (UTI) Treatment Guidelines"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "ce80f735-5e06-44d1-a892-2d2536bd192d"
+  }
+ ],
+ "vid": [
+  {
+   "value": 18966
+  }
+ ]
+}

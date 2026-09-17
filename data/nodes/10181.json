@@ -1,0 +1,229 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1756039886,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-12T16:39:48+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": true
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 0
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "Rachel Bystritsky"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [],
+ "field_person_first_name": [
+  {
+   "value": "Rachel"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 606,
+   "target_type": "media",
+   "target_uuid": "23a74ff0-313d-4106-8acc-dbfbc10d4eb9",
+   "url": "/media/606"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Bystritsky"
+  }
+ ],
+ "field_person_middle_name": [
+  {
+   "value": "Julia"
+  }
+ ],
+ "field_person_preferred_name": [
+  {
+   "value": "Rachel"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1526,
+   "target_type": "taxonomy_term",
+   "target_uuid": "0e18702d-7dd5-4d27-9a7d-1d230ade71e1",
+   "url": "/departments-units-and-organizations/mmed-core-infd"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [
+  {
+   "target_id": 16756,
+   "target_type": "node",
+   "target_uuid": "c35b4533-fde6-4262-bf4c-be705577445a",
+   "url": "/content/inter-rater-reliability-assessment-of-antibiotic-prescription-quality-by-infectious-diseases"
+  }
+ ],
+ "field_person_research_biography": [
+  {
+   "format": "plain_text",
+   "processed": "<p>Rachel Bystritsky is an infectious disease specialist who sees patients at the UCSF Medical Center.  She received her MD from the Mount Sinai School of Medicine in 2012 and completed her residency in Internal Medicine at Columbia University Medical Center where she went on to be a chief resident.  She completed Infectious Disease Fellowship at the University of California, San Francisco, where she has remained on faculty.  Her clinical activities include seeing outpatients at the UCSF Infectious Disease Clinics and attending on the inpatient infectious diseases consult services at Parnassus, Mission Bay and Mount Zion.  She serves as the Medical Director of the UCSF Outpatient Parenteral Antimicrobial Therapy Program.</p>\n",
+   "value": "Rachel Bystritsky is an infectious disease specialist who sees patients at the UCSF Medical Center.  She received her MD from the Mount Sinai School of Medicine in 2012 and completed her residency in Internal Medicine at Columbia University Medical Center where she went on to be a chief resident.  She completed Infectious Disease Fellowship at the University of California, San Francisco, where she has remained on faculty.  Her clinical activities include seeing outpatients at the UCSF Infectious Disease Clinics and attending on the inpatient infectious diseases consult services at Parnassus, Mission Bay and Mount Zion.  She serves as the Medical Director of the UCSF Outpatient Parenteral Antimicrobial Therapy Program."
+  }
+ ],
+ "field_person_subtype": [
+  {
+   "target_id": 641,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8e527da1-8c6c-44a7-8bc9-d8a3451fb862",
+   "url": "/person-type/ucsf-medical-center"
+  }
+ ],
+ "field_person_title_override": [],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 176,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee47c868-e940-4230-af11-2a747ae34b77",
+   "url": "/person-type/faculty"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 1511,
+   "target_type": "taxonomy_term",
+   "target_uuid": "26ba1f5b-b349-4dd8-9d44-a1c2597e55f1",
+   "url": "/person-type/rfs"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_person_working_title": [
+  {
+   "value": "HS Assoc. Clinical Professor"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [],
+ "field_profiles_link": [
+  {
+   "options": {
+    "attributes": []
+   },
+   "title": null,
+   "uri": "https://profiles.ucsf.edu/rachel.bystritsky"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 10181
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/rachel-bystritsky-md",
+   "langcode": "und",
+   "pid": 22911
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-24T12:51:26+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Rachel Bystritsky, MD"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "9174329c-e763-4ded-a2cc-f10ce206048e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 10956
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T18:34:37+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629830077,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T21:32:10+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines) or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations.  <em>&nbsp;</em></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{29}\" paraid=\"658224987\">Gonorrhea (uncomplicated infections of the cervix, urethra, rectum, or pharynx)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{39}\" paraid=\"1322780765\">See <a href=\"/content/pelvic-inflammatory-disease\">Pelvic Inflammatory Disease</a> section for patients with consistent clinical findings</p>\n\t\t\t</td>\n\t\t\t<td><em>Neisseria gonorrhoeae</em>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{57}\" paraid=\"1303297178\">Ceftriaxone&nbsp;</p>\n\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{63}\" paraid=\"1132875690\">Weight &gt;45 kg and &lt;150kg: 500 mg IM x 1 dose&nbsp;</p>\n\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{79}\" paraid=\"1420287932\">Weight &gt;=150kg:<br>\n\t\t\t1000 mg IM x 1 dose&nbsp;</p>\n\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{87}\" paraid=\"1195311755\"><strong>If chlamydia has not been excluded</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{101}\" paraid=\"53030770\">ADD Doxycycline<br>\n\t\t\t100 mg enterally bid x 7 days&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{108}\" paraid=\"1577963725\"><strong>If chlamydia hhas not been excluded, AND pregnancy has not been excluded, or anticipate significant challenges to adherence</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{118}\" paraid=\"745825811\">Replace Doxycycline with Azithromycin 1000 mg enterally x 1 dose&nbsp;</p>\n\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{124}\" paraid=\"142393688\">*Doxycycline is likely superior to azithromycin for treatment of chlamydia in all sites, and particularly for rectal and urethral chlamydia&nbsp;</p>\n\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{138}\" paraid=\"1445851375\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{144}\" paraid=\"998299332\">Consult ID/ASP&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{151}\" paraid=\"1488716839\">All sexual partners within preceding 60 days should be notified, tested, and treated; if not feasible then&nbsp;<a href=\"https://www.cdc.gov/std/ept/default.htm\">expedited partner therapy</a>&nbsp;is recommended&nbsp;</p>\n\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{165}\" paraid=\"824444513\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf#%5B%7B%22num%22%3A131%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C720%2C0%5D\">SFDPH City Clinic STI protocols</a>&nbsp;section on gonorrhea for recommended laboratory evaluation (including testing for other STIs), and further recommendations on partner treatment, counseling (including abstinence from sex for at least 7 days following patient treatment and until partner treatment), and follow up (including retesting at 7-14 days for patients with pharyngeal gonorrhea and in&nbsp;3 months for all patients)&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines) or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations.  <em>&nbsp;</em></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{29}\" paraid=\"658224987\">Gonorrhea (uncomplicated infections of the cervix, urethra, rectum, or pharynx)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{39}\" paraid=\"1322780765\">See <a href=\"/node/13506\">Pelvic Inflammatory Disease</a> section for patients with consistent clinical findings</p>\r\n\t\t\t</td>\r\n\t\t\t<td><em>Neisseria gonorrhoeae</em>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{57}\" paraid=\"1303297178\">Ceftriaxone&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{63}\" paraid=\"1132875690\">Weight &gt;45 kg and &lt;150kg: 500 mg IM x 1 dose&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{79}\" paraid=\"1420287932\">Weight &gt;=150kg:<br />\r\n\t\t\t1000 mg IM x 1 dose&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{87}\" paraid=\"1195311755\"><strong>If chlamydia has not been excluded</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{101}\" paraid=\"53030770\">ADD Doxycycline<br />\r\n\t\t\t100 mg enterally bid x 7 days&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{108}\" paraid=\"1577963725\"><strong>If chlamydia hhas not been excluded, AND pregnancy has not been excluded, or anticipate significant challenges to adherence</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{118}\" paraid=\"745825811\">Replace Doxycycline with Azithromycin 1000 mg enterally x 1 dose&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{124}\" paraid=\"142393688\">*Doxycycline is likely superior to azithromycin for treatment of chlamydia in all sites, and particularly for rectal and urethral chlamydia&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{138}\" paraid=\"1445851375\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{144}\" paraid=\"998299332\">Consult ID/ASP&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{151}\" paraid=\"1488716839\">All sexual partners within preceding 60 days should be notified, tested, and treated; if not feasible then&nbsp;<a href=\"https://www.cdc.gov/std/ept/default.htm\">expedited partner therapy</a>&nbsp;is recommended&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{165}\" paraid=\"824444513\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf#%5B%7B%22num%22%3A131%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C720%2C0%5D\">SFDPH City Clinic STI protocols</a>&nbsp;section on gonorrhea for recommended laboratory evaluation (including testing for other STIs), and further recommendations on partner treatment, counseling (including abstinence from sex for at least 7 days following patient treatment and until partner treatment), and follow up (including retesting at 7-14 days for patients with pharyngeal gonorrhea and in&nbsp;3 months for all patients)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1c0d6bd7-8b96-483f-a5a7-d0a3a8ba07cf",
+   "url": "/guidelines-empiric-therapy-categories/sexually-transmitted-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{197}\" paraid=\"986647514\">References:&nbsp;</h2>\n\n<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{197}\" paraid=\"986647514\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\n\n<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{227}\" paraid=\"698810231\"><a href=\"https://www.sfcityclinic.org/sites/default/files/2021-01/Gonorrhea%20Health%20Advisory_New%20Treatment%20Guidelines.pdf\">San Francisco Department of Public Health City Clinic New Guidelines for Treatment of Gonococcal Infection</a>, 12/2020&nbsp;</p>\n\n<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{233}\" paraid=\"111360748\">St. Cyr S, et al. <a href=\"https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a6.htm\">Update to CDC’s treatment guidelines for gonococcal infection, 2020</a>. MMWR Morb Mortal Wkly Rep 2020;69:1911–1916.</p>\n",
+   "value": "<h2 paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{197}\" paraid=\"986647514\">References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{197}\" paraid=\"986647514\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\r\n\r\n<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{227}\" paraid=\"698810231\"><a href=\"https://www.sfcityclinic.org/sites/default/files/2021-01/Gonorrhea%20Health%20Advisory_New%20Treatment%20Guidelines.pdf\">San Francisco Department of Public Health City Clinic New Guidelines for Treatment of Gonococcal Infection</a>, 12/2020&nbsp;</p>\r\n\r\n<p paraeid=\"{9438463b-c58c-4464-8079-1add6305424b}{233}\" paraid=\"111360748\">St. Cyr S, et al. <a href=\"https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a6.htm\">Update to CDC’s treatment guidelines for gonococcal infection, 2020</a>. MMWR Morb Mortal Wkly Rep 2020;69:1911–1916.</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13501
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/gonorrhea",
+   "langcode": "und",
+   "pid": 26156
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T18:34:37+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Gonorrhea "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "b51955f3-701a-4940-9975-c0275f1b4134"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16086
+  }
+ ]
+}

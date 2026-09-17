@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-08T18:25:33+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1732560973,
+   "last_comment_uid": 566,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-11-25T18:56:13+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Indication</th><th>Dose&nbsp;</th><th>Notes&nbsp;</th></tr></thead><tbody><tr><td><p><em>Pneumocystis</em> PROPHYLAXIS</p><p><a href=\"https://idmp.ucsf.edu/content/pneumocystis-prophylaxis\">Pneumocystis Prophylaxis Guidelines</a></p></td><td>1500 mg PO Q24H with food&nbsp;</td><td>For patients who are intolerant of&nbsp;TMP-SMX</td></tr><tr><td><em>Pneumocystis</em> TREATMENT (mild disease)</td><td>750 mg PO Q12H with food&nbsp;</td><td><p>For patients who are intolerant of TMP-SMX&nbsp;</p><p>Mild&nbsp;disease&nbsp;(A-a O<sub>2</sub>&nbsp;gradient &lt; 35 mmHg and PAO<sub>2</sub>&nbsp;&gt;70 mmHg)</p></td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Indication</th><th>Dose&nbsp;</th><th>Notes&nbsp;</th></tr></thead><tbody><tr><td><p><em>Pneumocystis</em> PROPHYLAXIS</p><p><a href=\"https://idmp.ucsf.edu/content/pneumocystis-prophylaxis\">Pneumocystis Prophylaxis Guidelines</a></p></td><td>1500 mg PO Q24H with food&nbsp;</td><td>For patients who are intolerant of&nbsp;TMP-SMX</td></tr><tr><td><em>Pneumocystis</em> TREATMENT (mild disease)</td><td>750 mg PO Q12H with food&nbsp;</td><td><p>For patients who are intolerant of TMP-SMX&nbsp;</p><p>Mild&nbsp;disease&nbsp;(A-a O<sub>2</sub>&nbsp;gradient &lt; 35 mmHg and PAO<sub>2</sub>&nbsp;&gt;70 mmHg)</p></td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Indication</th><th>Dose&nbsp;</th><th>Notes&nbsp;</th></tr></thead><tbody><tr><td><p><em>Pneumocystis</em> PROPHYLAXIS</p><p><a href=\"https://idmp.ucsf.edu/content/pneumocystis-prophylaxis\">Pneumocystis Prophylaxis Guidelines</a></p></td><td>1500 mg PO Q24H with food&nbsp;</td><td>For patients who are intolerant of&nbsp;TMP-SMX</td></tr><tr><td><em>Pneumocystis</em> TREATMENT (mild disease)&nbsp;</td><td>750 mg PO Q12H with food&nbsp;</td><td><p>For patients who are intolerant of&nbsp;TMP-SMX</p><p>Mild disease&nbsp;&nbsp;(A-a O<sub>2</sub>&nbsp;gradient &lt; 35 mmHg and PAO<sub>2</sub>&nbsp;&gt;70 mmHg)</p></td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Indication</th><th>Dose&nbsp;</th><th>Notes&nbsp;</th></tr></thead><tbody><tr><td><p><em>Pneumocystis</em> PROPHYLAXIS</p><p><a href=\"https://idmp.ucsf.edu/content/pneumocystis-prophylaxis\">Pneumocystis Prophylaxis Guidelines</a></p></td><td>1500 mg PO Q24H with food&nbsp;</td><td>For patients who are intolerant of&nbsp;TMP-SMX</td></tr><tr><td><em>Pneumocystis</em> TREATMENT (mild disease)&nbsp;</td><td>750 mg PO Q12H with food&nbsp;</td><td><p>For patients who are intolerant of&nbsp;TMP-SMX</p><p>Mild disease&nbsp;&nbsp;(A-a O<sub>2</sub>&nbsp;gradient &lt; 35 mmHg and PAO<sub>2</sub>&nbsp;&gt;70 mmHg)</p></td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "RJ created on 11/25/2024\r\nRJ modified on 02/13/2025 - modifying per Amanda Roy request to say intolerant of TMP/SMX and discussed with Will Simmons"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15516
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/atovaquone",
+   "langcode": "und",
+   "pid": 28071
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-08T18:25:33+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Atovaquone"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "a51a086d-091d-4f45-975f-8b5482657fbb"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24471
+  }
+ ]
+}

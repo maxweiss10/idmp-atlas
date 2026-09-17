@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:28:20+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633717700,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T17:37:49+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{161}\" paraid=\"398012934\">Intracranial abscess or empyema (epidural, subdural, brain) &gt; 3 months old, community-onset&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{171}\" paraid=\"464624287\">Includes intracranial extension of sinus, orbital or ear infections &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{178}\" paraid=\"126188528\">Streptococci (aerobic &amp; anaerobic)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{184}\" paraid=\"653289006\">Anaerobic oral and sinus flora&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{198}\" paraid=\"1691491784\">Other organisms depending on source&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{205}\" paraid=\"1808623388\">Ceftriaxone &nbsp;<br>\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q12h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{221}\" paraid=\"2080229617\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{231}\" paraid=\"835303023\">Metronidazole &nbsp;<br>\n\t\t\t10 mg/kg/dose (max 500 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{247}\" paraid=\"1994606989\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{2}\" paraid=\"590527440\"><a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin</a> &nbsp;<br>\n\t\t\t(follow link for dosing &amp; monitoring)  &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{15}\" paraid=\"471360380\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{27}\" paraid=\"147044822\"><a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin</a> &nbsp;<br>\n\t\t\t(follow link for dosing &amp; monitoring) &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{43}\" paraid=\"1812323624\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{53}\" paraid=\"1173675419\">Aztreonam &nbsp;<br>\n\t\t\t30 mg/kg/dose (max 2000 mg/dose) IV q6h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{69}\" paraid=\"819403777\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{75}\" paraid=\"1197084449\">Metronidazole &nbsp;<br>\n\t\t\t10 mg/kg/dose (max 500 mg/dose) IV q8h &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{92}\" paraid=\"212543986\">Neurosurgery and ID consults recommended&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{102}\" paraid=\"682076531\">Treatment is modified based on cultures, with vancomycin discontinued if MRSA is not identified&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{112}\" paraid=\"842515330\"><strong>Duration</strong>:&nbsp;Variable, guided by extent of drainage and response to therapy in follow-up assessments, usual range 4-8 weeks&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CNS infection in immunocompromised patient, or hospital-acquired, or following neurosurgical intervention, or following trauma&nbsp;</td>\n\t\t\t<td>Variable based on risk factors&nbsp;</td>\n\t\t\t<td>Consult ID for recommendations&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>Neurosurgery and ID consults recommended&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{161}\" paraid=\"398012934\">Intracranial abscess or empyema (epidural, subdural, brain) &gt; 3 months old, community-onset&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{171}\" paraid=\"464624287\">Includes intracranial extension of sinus, orbital or ear infections &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{178}\" paraid=\"126188528\">Streptococci (aerobic &amp; anaerobic)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{184}\" paraid=\"653289006\">Anaerobic oral and sinus flora&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{198}\" paraid=\"1691491784\">Other organisms depending on source&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{205}\" paraid=\"1808623388\">Ceftriaxone &nbsp;<br />\r\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q12h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{221}\" paraid=\"2080229617\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{231}\" paraid=\"835303023\">Metronidazole &nbsp;<br />\r\n\t\t\t10 mg/kg/dose (max 500 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{8d60a241-9388-4557-9b56-650912d7fb44}{247}\" paraid=\"1994606989\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{2}\" paraid=\"590527440\"><a href=\"/node/13571\">Vancomycin</a> &nbsp;<br />\r\n\t\t\t(follow link for dosing &amp; monitoring)  &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{15}\" paraid=\"471360380\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{27}\" paraid=\"147044822\"><a href=\"/node/13571\">Vancomycin</a> &nbsp;<br />\r\n\t\t\t(follow link for dosing &amp; monitoring) &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{43}\" paraid=\"1812323624\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{53}\" paraid=\"1173675419\">Aztreonam &nbsp;<br />\r\n\t\t\t30 mg/kg/dose (max 2000 mg/dose) IV q6h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{69}\" paraid=\"819403777\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{75}\" paraid=\"1197084449\">Metronidazole &nbsp;<br />\r\n\t\t\t10 mg/kg/dose (max 500 mg/dose) IV q8h &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{92}\" paraid=\"212543986\">Neurosurgery and ID consults recommended&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{102}\" paraid=\"682076531\">Treatment is modified based on cultures, with vancomycin discontinued if MRSA is not identified&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{112}\" paraid=\"842515330\"><strong>Duration</strong>:&nbsp;Variable, guided by extent of drainage and response to therapy in follow-up assessments, usual range 4-8 weeks&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>CNS infection in immunocompromised patient, or hospital-acquired, or following neurosurgical intervention, or following trauma&nbsp;</td>\r\n\t\t\t<td>Variable based on risk factors&nbsp;</td>\r\n\t\t\t<td>Consult ID for recommendations&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Neurosurgery and ID consults recommended&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 131,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d7460e83-b3f1-47f2-a8bd-f3ffc14759da",
+   "url": "/guidelines-empiric-therapy-categories/central-nervous-system-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13331
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/intracranial-abscess",
+   "langcode": "und",
+   "pid": 25991
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:28:20+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Intracranial Abscess "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "74ec6672-f147-4f2d-9a11-b97e5275b093"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15916
+  }
+ ]
+}

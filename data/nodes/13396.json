@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-23T21:39:05+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629754745,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T18:53:32+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{179}\" paraid=\"1853123457\">Need for drainage/source control of head and neck infections should be evaluated carefully in consultation with Pediatric Otolaryngology, Head and Neck Surgery. If initial non-operative management is chosen, a narrow spectrum regimen (i.e. without vancomycin) is encouraged to facilitate transition to oral therapy.&nbsp;</p>\n\n<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{187}\" paraid=\"1070288967\">ID consultation is recommended for head and neck infections occurring in immunocompromised patients, and for those with atypical features, chronic course, or lack of response to first line therapy. <em>&nbsp;</em></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{221}\" paraid=\"81562042\">Mastoiditis - acute, immunocompetent patient         &nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{233}\" paraid=\"1472731029\">(&lt;1 month duration)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{239}\" paraid=\"842896284\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{249}\" paraid=\"1784343569\">Subacute (duration &gt;= 1 month) but with the following distinctions from chronic mastoiditis:&nbsp;&nbsp;<br>\n\t\t\t&nbsp;<br>\n\t\t\tDevelops as a complication of acute otitis media&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{10}\" paraid=\"947480884\">Patient does not have history of a chronically non-intact tympanic membrane&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{20}\" paraid=\"1402377234\">Patient does not have history of chronic suppurative otitis media&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{37}\" paraid=\"206554041\"><em>Streptococcus pneumoniae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{47}\" paraid=\"76486035\">Group A streptococcus<em>&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{53}\" paraid=\"3894673\"><em>Staphylococcus aureus&nbsp;</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{64}\" paraid=\"1913482171\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{70}\" paraid=\"132828474\"><strong>If patient has history of documented MRSA infection or carriage within the last 6 months</strong>:</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{70}\" paraid=\"132828474\">ADD&nbsp;<a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin</a> &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{92}\" paraid=\"446273620\">(follow link for dosing &amp; monitoring) &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{99}\" paraid=\"292913030\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{109}\" paraid=\"125730026\">Consult ID/ASP&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{120}\" paraid=\"1553260003\">Urgent OHNS consult recommended to evaluate need for source control&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{130}\" paraid=\"1832146163\">Consider ID consult (see details above)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{140}\" paraid=\"1576285673\">For confirmed or suspected intracranial extension, refer to&nbsp;<a href=\"/content/intracranial-abscess\">Intracranial Abscess</a>&nbsp;section for empiric therapy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{154}\" paraid=\"833726133\">Therapy may be tailored based on cultures from I&amp;D&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{164}\" paraid=\"1770050493\">If Vancomycin was started and MRSA not recovered from drained abscess, discontinue Vancomycin&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{174}\" paraid=\"2026010251\"><strong>Duration</strong>:&nbsp;Uncomplicated acute mastoiditis is typically treated first with IV therapy then converted to enteral therapy within days based on clinical improvement, with a total duration of&nbsp;3-4 weeks (combined IV and enteral). &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{188}\" paraid=\"1701194090\">A longer duration and more IV therapy is indicated for intracranial or other complications. &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{196}\" paraid=\"1520791863\">Mastoiditis - chronic   &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{208}\" paraid=\"901765469\">(months-years duration, arising as a complication of chronic suppurative otitis media, with chronically non-intact tympanic membrane)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{221}\" paraid=\"690859286\">Variable depending on risk factors &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{227}\" paraid=\"1482027409\"> &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Individualized treatment guided in consultation with OHNS &nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{252}\" paraid=\"2147231047\">OHNS consult recommended (management is primarily surgical) &nbsp;</p>\n\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{7}\" paraid=\"849076102\">ID consult recommended if patient is presenting with new severe local symptoms and/or signs in the context of history of chronic mastoiditis, or if not responsive to usual management&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{179}\" paraid=\"1853123457\">Need for drainage/source control of head and neck infections should be evaluated carefully in consultation with Pediatric Otolaryngology, Head and Neck Surgery. If initial non-operative management is chosen, a narrow spectrum regimen (i.e. without vancomycin) is encouraged to facilitate transition to oral therapy.&nbsp;</p>\r\n\r\n<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{187}\" paraid=\"1070288967\">ID consultation is recommended for head and neck infections occurring in immunocompromised patients, and for those with atypical features, chronic course, or lack of response to first line therapy. <em>&nbsp;</em></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{221}\" paraid=\"81562042\">Mastoiditis - acute, immunocompetent patient         &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{233}\" paraid=\"1472731029\">(&lt;1 month duration)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{239}\" paraid=\"842896284\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{81aa8da0-d21a-4149-8f79-f23a0ca150c1}{249}\" paraid=\"1784343569\">Subacute (duration &gt;= 1 month) but with the following distinctions from chronic mastoiditis:&nbsp;&nbsp;<br />\r\n\t\t\t&nbsp;<br />\r\n\t\t\tDevelops as a complication of acute otitis media&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{10}\" paraid=\"947480884\">Patient does not have history of a chronically non-intact tympanic membrane&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{20}\" paraid=\"1402377234\">Patient does not have history of chronic suppurative otitis media&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{37}\" paraid=\"206554041\"><em>Streptococcus pneumoniae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{47}\" paraid=\"76486035\">Group A streptococcus<em>&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{53}\" paraid=\"3894673\"><em>Staphylococcus aureus&nbsp;</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{64}\" paraid=\"1913482171\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{70}\" paraid=\"132828474\"><strong>If patient has history of documented MRSA infection or carriage within the last 6 months</strong>:</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{70}\" paraid=\"132828474\">ADD&nbsp;<a href=\"/node/13571\">Vancomycin</a> &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{92}\" paraid=\"446273620\">(follow link for dosing &amp; monitoring) &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{99}\" paraid=\"292913030\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{109}\" paraid=\"125730026\">Consult ID/ASP&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{120}\" paraid=\"1553260003\">Urgent OHNS consult recommended to evaluate need for source control&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{130}\" paraid=\"1832146163\">Consider ID consult (see details above)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{140}\" paraid=\"1576285673\">For confirmed or suspected intracranial extension, refer to&nbsp;<a href=\"/node/13331\">Intracranial Abscess</a>&nbsp;section for empiric therapy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{154}\" paraid=\"833726133\">Therapy may be tailored based on cultures from I&amp;D&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{164}\" paraid=\"1770050493\">If Vancomycin was started and MRSA not recovered from drained abscess, discontinue Vancomycin&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{174}\" paraid=\"2026010251\"><strong>Duration</strong>:&nbsp;Uncomplicated acute mastoiditis is typically treated first with IV therapy then converted to enteral therapy within days based on clinical improvement, with a total duration of&nbsp;3-4 weeks (combined IV and enteral). &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{188}\" paraid=\"1701194090\">A longer duration and more IV therapy is indicated for intracranial or other complications. &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{196}\" paraid=\"1520791863\">Mastoiditis - chronic   &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{208}\" paraid=\"901765469\">(months-years duration, arising as a complication of chronic suppurative otitis media, with chronically non-intact tympanic membrane)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{221}\" paraid=\"690859286\">Variable depending on risk factors &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{227}\" paraid=\"1482027409\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Individualized treatment guided in consultation with OHNS &nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4f02ad89-8507-4ae1-997d-e12fcee63741}{252}\" paraid=\"2147231047\">OHNS consult recommended (management is primarily surgical) &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{7}\" paraid=\"849076102\">ID consult recommended if patient is presenting with new severe local symptoms and/or signs in the context of history of chronic mastoiditis, or if not responsive to usual management&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Reference:&nbsp;</h2>\n\n<p>American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021.</p>\n",
+   "value": "<h2>Reference:&nbsp;</h2>\r\n\r\n<p>American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021.</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13396
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/mastoiditis",
+   "langcode": "und",
+   "pid": 26051
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-23T21:39:05+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Mastoiditis    "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "1db2fb64-7374-4649-ab4d-48b016bbf5f8"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15981
+  }
+ ]
+}

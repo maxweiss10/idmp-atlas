@@ -1,0 +1,150 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-07T00:07:24+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597342682,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T18:18:02+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt;50 mL/min</th>\n\t\t\t<th>30-50 mL/min</th>\n\t\t\t<th>10-30 mL/min</th>\n\t\t\t<th>&lt;10 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>600 mg IV q24h</td>\n\t\t\t<td>200 mg IV q24h</td>\n\t\t\t<td>100 mg IV q24h</td>\n\t\t\t<td>100 mg IV x1, then 15 mg IV q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt;50 mL/min</th>\r\n\t\t\t<th>30-50 mL/min</th>\r\n\t\t\t<th>10-30 mL/min</th>\r\n\t\t\t<th>&lt;10 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>600 mg IV q24h</td>\r\n\t\t\t<td>200 mg IV q24h</td>\r\n\t\t\t<td>100 mg IV q24h</td>\r\n\t\t\t<td>100 mg IV x1, then 15 mg IV q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Indication</th><th style=\"vertical-align:middle;\"><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All Indications</td><td style=\"text-align:center;\">100 mg on Day 1, then 100 mg given 2 hrs after each HD session</td><td style=\"text-align:center;\">Consult ID pharmacy</td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Indication</th><th style=\"vertical-align:middle;\"><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All Indications</td><td style=\"text-align:center;\">100 mg on Day 1, then 100 mg given 2 hrs after each HD session</td><td style=\"text-align:center;\">Consult ID pharmacy</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship except:</p><ul><li>Critically ill patients with no enteral access expected within 8 hours</li></ul><p>&nbsp;</p><p>ZSFG: Non-formulary</p>",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship except:</p><ul><li>Critically ill patients with no enteral access expected within 8 hours</li></ul><p>&nbsp;</p><p>ZSFG: Non-formulary</p>"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "12/2/22: Modified Adult CrCl > 50 dosing to 600 mg IV q24h to align with Lexicomp dosing. Cannot find any mention of 600 mg q12h as a dose; suspect this was a typo."
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11701
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/peramivir",
+   "langcode": "und",
+   "pid": 24416
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-07T00:07:24+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Peramivir"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "86de338a-c88b-46a2-a887-c61b546eea3f"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24576
+  }
+ ]
+}

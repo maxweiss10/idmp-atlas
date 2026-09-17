@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T18:08:14+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629828494,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T21:29:26+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{221}\" paraid=\"977507211\">This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines)&nbsp;or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations. <em> &nbsp;</em></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{10}\" paraid=\"1272475825\">Chlamydia (uncomplicated anogenital tract infection)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{20}\" paraid=\"938822173\">See <a href=\"/content/pelvic-inflammatory-disease\">Pelvic Inflammatory Disease</a> section for patients with consistent clinical findings</p>\n\t\t\t</td>\n\t\t\t<td><em>Chlamydia trachomatis&nbsp;</em></td>\n\t\t\t<td>Doxycycline<br>\n\t\t\t100 mg enterally bid&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{57}\" paraid=\"1991399358\"><strong>If pregnancy has not been excluded, or anticipate significant challenges to adherence</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{67}\" paraid=\"1697644508\">Azithromycin<br>\n\t\t\t1000 mg enterally x 1 dose*&nbsp;</p>\n\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{77}\" paraid=\"1814609562\">*Doxycycline is likely superior to azithromycin for treatment of chlamydia in all sites, and particularly for rectal and urethral chlamydia&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{84}\" paraid=\"1915031962\">All sexual partners within preceding 60 days should be notified, tested, and treated; if not feasible then&nbsp;<a href=\"https://www.cdc.gov/std/ept/default.htm\">expedited partner therapy</a>&nbsp;is recommended&nbsp;</p>\n\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{94}\" paraid=\"320947276\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf#%5B%7B%22num%22%3A131%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C720%2C0%5D\">SFDPH City Clinic STI&nbsp;protocols</a>&nbsp;section on chlamydia for recommended laboratory evaluation (including testing for other STIs), and further recommendations on partner treatment, counseling (including abstinence from sex during patient and partner treatment), and follow up (including retesting in 3 months)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{112}\" paraid=\"601277376\"><strong>Duration</strong>:&nbsp;7 days for doxycycline,&nbsp;single dose for azithromycin&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{221}\" paraid=\"977507211\">This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines)&nbsp;or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations. <em> &nbsp;</em></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{10}\" paraid=\"1272475825\">Chlamydia (uncomplicated anogenital tract infection)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{20}\" paraid=\"938822173\">See <a href=\"/node/13506\">Pelvic Inflammatory Disease</a> section for patients with consistent clinical findings</p>\r\n\t\t\t</td>\r\n\t\t\t<td><em>Chlamydia trachomatis&nbsp;</em></td>\r\n\t\t\t<td>Doxycycline<br />\r\n\t\t\t100 mg enterally bid&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{57}\" paraid=\"1991399358\"><strong>If pregnancy has not been excluded, or anticipate significant challenges to adherence</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{67}\" paraid=\"1697644508\">Azithromycin<br />\r\n\t\t\t1000 mg enterally x 1 dose*&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{77}\" paraid=\"1814609562\">*Doxycycline is likely superior to azithromycin for treatment of chlamydia in all sites, and particularly for rectal and urethral chlamydia&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{84}\" paraid=\"1915031962\">All sexual partners within preceding 60 days should be notified, tested, and treated; if not feasible then&nbsp;<a href=\"https://www.cdc.gov/std/ept/default.htm\">expedited partner therapy</a>&nbsp;is recommended&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{94}\" paraid=\"320947276\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf#%5B%7B%22num%22%3A131%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C720%2C0%5D\">SFDPH City Clinic STI&nbsp;protocols</a>&nbsp;section on chlamydia for recommended laboratory evaluation (including testing for other STIs), and further recommendations on partner treatment, counseling (including abstinence from sex during patient and partner treatment), and follow up (including retesting in 3 months)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{112}\" paraid=\"601277376\"><strong>Duration</strong>:&nbsp;7 days for doxycycline,&nbsp;single dose for azithromycin&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1c0d6bd7-8b96-483f-a5a7-d0a3a8ba07cf",
+   "url": "/guidelines-empiric-therapy-categories/sexually-transmitted-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{136}\" paraid=\"594307562\">References:&nbsp;</h2>\n\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{136}\" paraid=\"594307562\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\n\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{146}\" paraid=\"287832569\">St. Cyr S, et al. <a href=\"https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a6.htm\">Update to CDC’s treatment guidelines for gonococcal infection, 2020</a>. MMWR Morb Mortal Wkly Rep 2020;69:1911–1916.</p>\n\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{156}\" paraid=\"697461550\"><a href=\"https://www.sfcityclinic.org/sites/default/files/2021-01/Gonorrhea%20Health%20Advisory_New%20Treatment%20Guidelines.pdf\">San Francisco Department of Public Health City Clinic New Guidelines for Treatment of Gonococcal Infection</a>, 12/2020&nbsp;</p>\n\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{166}\" paraid=\"1888740892\">Kong FYS, et al. <a href=\"https://academic.oup.com/cid/article/59/2/193/2895398\">Azithromycin versus doxycycline for the treatment of genital chlamydia infection: a meta-analysis of randomized controlled trials</a>. Clin Infect Dis 2014;59:193–205.</p>\n\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{172}\" paraid=\"1961864266\">Dombrowski JC et al, <a href=\"https://academic.oup.com/cid/advance-article-abstract/doi/10.1093/cid/ciab153/6144986?redirectedFrom=fulltext\">Doxycycline versus azithromycin for the treatment of rectal chlamydia in men who have sex with men: a&nbsp;randomized controlled trial</a>.&nbsp;Clin Infect Dis, 2021 (epub)</p>\n\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{186}\" paraid=\"1991004388\">Dukers-Muijrers N, et al. <a href=\"https://academic.oup.com/cid/article/69/11/1946/5303778\">Treatment effectiveness of azithromycin and doxycycline in uncomplicated rectal and vaginal <em>Chlamydia trachomatis</em>&nbsp;infections in women: a&nbsp;multicenter observational study (FemCure)</a>. Clin Infect Dis, 2019; 69: 1946-1954&nbsp;</p>\n\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{196}\" paraid=\"280406682\">Chandra NL, et al.  <a href=\"https://sti.bmj.com/content/94/5/320.long\">Detection of <em>Chlamydia trachomatis</em> in rectal specimens in women and its association with anal intercourse: a systematic review and meta-analysis</a>. Sex Transm Infect 2018; 94:320–6.</p>\n\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{206}\" paraid=\"458291928\">Jensen JS, et al. <a href=\"https://academic.oup.com/cid/article/47/12/1546/332311\">Azithromycin treatment failure in <em>Mycoplasma genitalium</em>-positive patients with nongonococcal urethritis is associated with induced macrolide resistance</a>. Clin Infect Dis. 2008;47:1546–53.&nbsp;</p>\n\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{212}\" paraid=\"213118020\">Bachmann LH, et al. <a href=\"https://journals.lww.com/stdjournal/Fulltext/1999/05000/Measured_Versus_Self_Reported_Compliance_With.6.aspx\">Measured versus self-reported compliance with doxycycline therapy for chlamydia-associated syndromes: high therapeutic success rates despite poor compliance</a>. Sex Transm Dis. 1999; 26:272-278.</p>\n",
+   "value": "<h2 paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{136}\" paraid=\"594307562\">References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{136}\" paraid=\"594307562\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\r\n\r\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{146}\" paraid=\"287832569\">St. Cyr S, et al. <a href=\"https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a6.htm\">Update to CDC’s treatment guidelines for gonococcal infection, 2020</a>. MMWR Morb Mortal Wkly Rep 2020;69:1911–1916.</p>\r\n\r\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{156}\" paraid=\"697461550\"><a href=\"https://www.sfcityclinic.org/sites/default/files/2021-01/Gonorrhea%20Health%20Advisory_New%20Treatment%20Guidelines.pdf\">San Francisco Department of Public Health City Clinic New Guidelines for Treatment of Gonococcal Infection</a>, 12/2020&nbsp;</p>\r\n\r\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{166}\" paraid=\"1888740892\">Kong FYS, et al. <a href=\"https://academic.oup.com/cid/article/59/2/193/2895398\">Azithromycin versus doxycycline for the treatment of genital chlamydia infection: a meta-analysis of randomized controlled trials</a>. Clin Infect Dis 2014;59:193–205.</p>\r\n\r\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{172}\" paraid=\"1961864266\">Dombrowski JC et al, <a href=\"https://academic.oup.com/cid/advance-article-abstract/doi/10.1093/cid/ciab153/6144986?redirectedFrom=fulltext\">Doxycycline versus azithromycin for the treatment of rectal chlamydia in men who have sex with men: a&nbsp;randomized controlled trial</a>.&nbsp;Clin Infect Dis, 2021 (epub)</p>\r\n\r\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{186}\" paraid=\"1991004388\">Dukers-Muijrers N, et al. <a href=\"https://academic.oup.com/cid/article/69/11/1946/5303778\">Treatment effectiveness of azithromycin and doxycycline in uncomplicated rectal and vaginal <em>Chlamydia trachomatis</em>&nbsp;infections in women: a&nbsp;multicenter observational study (FemCure)</a>. Clin Infect Dis, 2019; 69: 1946-1954&nbsp;</p>\r\n\r\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{196}\" paraid=\"280406682\">Chandra NL, et al.  <a href=\"https://sti.bmj.com/content/94/5/320.long\">Detection of <em>Chlamydia trachomatis</em> in rectal specimens in women and its association with anal intercourse: a systematic review and meta-analysis</a>. Sex Transm Infect 2018; 94:320–6.</p>\r\n\r\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{206}\" paraid=\"458291928\">Jensen JS, et al. <a href=\"https://academic.oup.com/cid/article/47/12/1546/332311\">Azithromycin treatment failure in <em>Mycoplasma genitalium</em>-positive patients with nongonococcal urethritis is associated with induced macrolide resistance</a>. Clin Infect Dis. 2008;47:1546–53.&nbsp;</p>\r\n\r\n<p paraeid=\"{40e9b205-74c6-4da4-973f-ad047135dd12}{212}\" paraid=\"213118020\">Bachmann LH, et al. <a href=\"https://journals.lww.com/stdjournal/Fulltext/1999/05000/Measured_Versus_Self_Reported_Compliance_With.6.aspx\">Measured versus self-reported compliance with doxycycline therapy for chlamydia-associated syndromes: high therapeutic success rates despite poor compliance</a>. Sex Transm Dis. 1999; 26:272-278.</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13496
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/chlamydia",
+   "langcode": "und",
+   "pid": 26151
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T18:08:14+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Chlamydia"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d5304a01-06af-487a-ad5d-67e788a476ee"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16081
+  }
+ ]
+}

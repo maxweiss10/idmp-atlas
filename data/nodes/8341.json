@@ -1,0 +1,141 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-31T20:21:59+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587165657,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-17T23:20:57+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Uncomplicated Infection</td><td><p>600 mg IV q8h</p><p>450 mg PO q8h</p></td><td>No renal dose adjustment</td></tr><tr><td>Bone/Joint Infection</td><td>600 mg PO q8h</td><td>No renal dose adjustment</td></tr><tr><td>Necrotizing Soft Tissue Infection &amp; Group A Streptococcus Infection, Pelvic Inflammatory Disease</td><td>900 mg IV Q8h</td><td>No renal dose adjustment</td></tr></tbody></table>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Uncomplicated Infection</td><td><p>600 mg IV q8h</p><p>450 mg PO q8h</p></td><td>No renal dose adjustment</td></tr><tr><td>Bone/Joint Infection</td><td>600 mg PO q8h</td><td>No renal dose adjustment</td></tr><tr><td>Necrotizing Soft Tissue Infection &amp; Group A Streptococcus Infection, Pelvic Inflammatory Disease</td><td>900 mg IV Q8h</td><td>No renal dose adjustment</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Uncomplicated Infection</td><td><p>600 mg IV q8h</p><p>450 mg PO q8h</p></td><td rowspan=\"3\"><p>&nbsp;</p><p>No dose adjustment in hemodialysis</p></td></tr><tr><td>Bone/Joint Infection</td><td>600 mg PO q8h</td></tr><tr><td>Necrotizing Soft Tissue Infection &amp; Group A Streptococcus Infection, Pelvic Inflammatory Disease</td><td>900 mg IV Q8h</td></tr></tbody></table>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Uncomplicated Infection</td><td><p>600 mg IV q8h</p><p>450 mg PO q8h</p></td><td rowspan=\"3\"><p>&nbsp;</p><p>No dose adjustment in hemodialysis</p></td></tr><tr><td>Bone/Joint Infection</td><td>600 mg PO q8h</td></tr><tr><td>Necrotizing Soft Tissue Infection &amp; Group A Streptococcus Infection, Pelvic Inflammatory Disease</td><td>900 mg IV Q8h</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 76,
+   "target_type": "taxonomy_term",
+   "target_uuid": "4511a589-5232-4ab1-95de-bae41deb9968",
+   "url": "/notations/iv-po"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "12/19/23: Added PID under 900 mg IV q8h (so that we can remove dose from PID empirical guideline) -EK"
+  },
+  {
+   "value": "7/2026: added row for bone/joint given user feedback and alignment with UCSF bone/joint SOP - AMR"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8341
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/clindamycin",
+   "langcode": "und",
+   "pid": 21246
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-31T20:21:59+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Clindamycin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "bae34c52-0307-47ed-9b3b-4371ee109b65"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35451
+  }
+ ]
+}

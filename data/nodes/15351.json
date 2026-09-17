@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1722020617,
+   "last_comment_uid": 581,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-07-26T19:03:37+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl&nbsp;≥ 50 mL/min</th>\n\t\t\t<th>30 - 49 mL/min</th>\n\t\t\t<th>10 - 29 mL/min</th>\n\t\t\t<th>&lt; 10 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Orolabial/genital HSV infection (initial episode)&nbsp;<u>OR</u>&nbsp;recurrent episode treatment in people with HIV</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">1000 mg PO q12h</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">1000 mg PO q12h</td>\n\t\t\t<td style=\"text-align: center;\">1000 mg PO q24h</td>\n\t\t\t<td style=\"text-align: center;\">500 mg PO q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Orolabial/genital HSV suppression&nbsp;<u>OR</u>&nbsp;recurrent episode treatment</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q12h</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q12h</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q24h</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Primary Varicella/Herpes Zoster Infection</td>\n\t\t\t<td style=\"text-align: center;\">1000 mg PO q8h</td>\n\t\t\t<td style=\"text-align: center;\">1000 mg PO q12h</td>\n\t\t\t<td style=\"text-align: center;\">1000 mg PO q24h</td>\n\t\t\t<td style=\"text-align: center;\">500 mg PO q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Immunocompromised Prophylaxis</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q12h</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q12h</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q24h</td>\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl&nbsp;≥ 50 mL/min</th>\r\n\t\t\t<th>30 - 49 mL/min</th>\r\n\t\t\t<th>10 - 29 mL/min</th>\r\n\t\t\t<th>&lt; 10 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Orolabial/genital HSV infection (initial episode)&nbsp;<u>OR</u>&nbsp;recurrent episode treatment in people with HIV</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">1000 mg PO q12h</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">1000 mg PO q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">1000 mg PO q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg PO q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Orolabial/genital HSV suppression&nbsp;<u>OR</u>&nbsp;recurrent episode treatment</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q12h</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q12h</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q24h</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Primary Varicella/Herpes Zoster Infection</td>\r\n\t\t\t<td style=\"text-align: center;\">1000 mg PO q8h</td>\r\n\t\t\t<td style=\"text-align: center;\">1000 mg PO q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">1000 mg PO q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg PO q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Immunocompromised Prophylaxis</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q12h</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q12h</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q24h</td>\r\n\t\t\t<td rowspan=\"1\" style=\"text-align: center;\">500 mg PO q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>HSV Infection</td>\n\t\t\t<td colspan=\"1\" rowspan=\"3\" style=\"text-align: center;\">\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p>500 mg PO qPM</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"1\" rowspan=\"3\" style=\"text-align: center;\">\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p>Insufficient data; contact ID pharmacy for more information</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>VZV Infection</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Immunocompromised Prophylaxis</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>HSV Infection</td>\r\n\t\t\t<td colspan=\"1\" rowspan=\"3\" style=\"text-align: center;\">\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p>500 mg PO qPM</p>\r\n\t\t\t</td>\r\n\t\t\t<td colspan=\"1\" rowspan=\"3\" style=\"text-align: center;\">\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p>Insufficient data; contact ID pharmacy for more information</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>VZV Infection</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Immunocompromised Prophylaxis</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "Valacyclovir dosing approved at IDMP dosing card meeting 7/24/24"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15351
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/valacyclovir",
+   "langcode": "und",
+   "pid": 27911
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Valacyclovir"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "8777ffed-f2ed-4e98-ac56-1836b926235e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22051
+  }
+ ]
+}

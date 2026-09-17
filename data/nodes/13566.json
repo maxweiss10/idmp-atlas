@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T17:39:51+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1631641191,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-06T19:32:51+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p paraeid=\"{db49e8be-1b6f-46ee-9225-b0ac09e7d16b}{204}\" paraid=\"2088316475\">Cefotaxime, historically the preferred 3rd generation cephalosporin for neonates, is no longer manufactured. &nbsp;</p>\n\n<ul role=\"list\">\n\t<li paraeid=\"{db49e8be-1b6f-46ee-9225-b0ac09e7d16b}{206}\" paraid=\"1341101575\">Ceftazidime is an alternative, however, it is broader in spectrum with antipseudomonal activity and increased use may impact gut microbiota and contribute to antibiotic resistance. &nbsp;</li>\n\t<li paraeid=\"{db49e8be-1b6f-46ee-9225-b0ac09e7d16b}{206}\" paraid=\"1341101575\">Ceftriaxone may be considered in neonates without contraindications:&nbsp;\n\t<ul>\n\t\t<li paraeid=\"{db49e8be-1b6f-46ee-9225-b0ac09e7d16b}{206}\" paraid=\"1341101575\">Avoid use in neonates receiving IV calcium-containing solutions due to reports of death and serious adverse events with calcium-ceftriaxone deposits in neonatal&nbsp;vasculature&nbsp;with concomitant use. This is a potential risk regardless of route of administration even if ceftriaxone is given intramuscularly. &nbsp;</li>\n\t\t<li paraeid=\"{db49e8be-1b6f-46ee-9225-b0ac09e7d16b}{206}\" paraid=\"1341101575\">Avoid use in neonates with hyperbilirubinemia due to potential for displacement of bilirubin from albumin with theoretical potential for kernicterus or bilirubin encephalopathy. &nbsp;&nbsp;</li>\n\t</ul>\n\t</li>\n</ul>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>Neonatal Candidates - to receive&nbsp;Ceftriaxone&nbsp;&nbsp;<br>\n\t\t\t(must meet ALL criteria)&nbsp;</strong></td>\n\t\t\t<td><strong>Contraindications to neonate receiving&nbsp;Ceftriaxone&nbsp;(if meets ANY criteria)*</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<ul>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{19}\" paraid=\"1497559171\">Postnatal age &gt;= 14 days AND&nbsp;</li>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{26}\" paraid=\"2014425145\">Corrected gestational age &gt;= 41 weeks AND&nbsp;</li>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{33}\" paraid=\"1503814747\">Total bilirubin &lt;= 5 mg/dL AND&nbsp;</li>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{40}\" paraid=\"1173411173\">Will not receive IV calcium-containing solutions within 48 hours of&nbsp;Ceftriaxone&nbsp;AND&nbsp;</li>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{47}\" paraid=\"1127698808\">Has not received IV calcium-containing solutions within 48 hours prior to&nbsp;Ceftriaxone&nbsp;&nbsp;</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<ul>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{55}\" paraid=\"1010643174\">Unconjugated hyperbilirubinemia OR&nbsp;</li>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{62}\" paraid=\"311020611\">Receipt of any IV calcium-containing solutions within 48 hours of&nbsp;Ceftriaxone&nbsp;OR&nbsp;</li>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{69}\" paraid=\"1265491612\">Critical illness (acidosis, hypotension, etc.) &nbsp;</li>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{76}\" paraid=\"1359081554\">Due to possibility of requiring IV calcium administration&nbsp;</li>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{83}\" paraid=\"1382897657\">Patients with acute hypocalcemia who may require IV calcium administration&nbsp;</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\">\n\t\t\t<p paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{92}\" paraid=\"1249644785\">Administration of a single dose of&nbsp;Ceftriaxone&nbsp;to neonates with&nbsp;<a href=\"/content/ophthalmia-neonatorum\">ophthalmia neonatorum</a>&nbsp;suspected or confirmed to be caused by&nbsp;Neisseria gonorrhoeae&nbsp;is an exception to most contraindications listed above, including hyperbilirubinemia, with the following precautions: &nbsp;</p>\n\n\t\t\t<ul>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{106}\" paraid=\"346214786\">Intravenous calcium-containing solutions should not be given within 48 hours before or after the&nbsp;Ceftriaxone&nbsp;dose. &nbsp;</li>\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{113}\" paraid=\"1162618762\">Evaluate and treat hyperbilirubinemia per usual clinical practice. Monitor for hyperbilirubinemia following&nbsp;ceftriaxone&nbsp;therapy. &nbsp;</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*Note these contraindications apply specifically to neonates but not to older infants (&gt;44 weeks corrected gestational age) or children&nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>Neonatal&nbsp;Ceftriaxone&nbsp;Dose&nbsp;</strong></td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{146}\" paraid=\"303658266\"><strong>Non-Meningitis (postnatal age &gt;=14 days</strong>):&nbsp;50 mg/kg IV q24h&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{154}\" paraid=\"1974346473\"><strong>Meningitis (postnatal age &gt;=14 days)</strong>:&nbsp;100 mg/kg IV loading dose on day 1, then 80 mg/kg IV q24h  starting day 2&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{162}\" paraid=\"880686307\"><strong>Ophthalmia Neonatorum</strong>:&nbsp;<a href=\"/content/ophthalmia-neonatorum\">Refer to guidelines</a>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{173}\" paraid=\"1582797744\">See further CAP management guidelines from the <a href=\"https://www.ucsfbenioffchildrens.org/about/ucsf-northern-california-neonatal-and-pediatric-hospital-medicine-consortiums\">UCSF Northern California Pediatric Hospital Medicine Consortium</a>, though reference below recommendations for updated antibiotic selection.&nbsp;</p>\n\n<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{187}\" paraid=\"923921267\">At BCH OAK follow site-specific <a href=\"https://ucsf.box.com/s/q7wqcmm2m3wwg1euzr5ypg5aq9i82m73\">CAP algorithm</a>&nbsp;(link requires password log in to Box); recommendations provided below are compatible with BCH OAK CAP algorithm, but the algorithm provides additional details in pathway form. &nbsp;&nbsp;</p>\n",
+   "value": "<p paraeid=\"{db49e8be-1b6f-46ee-9225-b0ac09e7d16b}{204}\" paraid=\"2088316475\">Cefotaxime, historically the preferred 3rd generation cephalosporin for neonates, is no longer manufactured. &nbsp;</p>\r\n\r\n<ul role=\"list\">\r\n\t<li paraeid=\"{db49e8be-1b6f-46ee-9225-b0ac09e7d16b}{206}\" paraid=\"1341101575\">Ceftazidime is an alternative, however, it is broader in spectrum with antipseudomonal activity and increased use may impact gut microbiota and contribute to antibiotic resistance. &nbsp;</li>\r\n\t<li paraeid=\"{db49e8be-1b6f-46ee-9225-b0ac09e7d16b}{206}\" paraid=\"1341101575\">Ceftriaxone may be considered in neonates without contraindications:&nbsp;\r\n\t<ul>\r\n\t\t<li paraeid=\"{db49e8be-1b6f-46ee-9225-b0ac09e7d16b}{206}\" paraid=\"1341101575\">Avoid use in neonates receiving IV calcium-containing solutions due to reports of death and serious adverse events with calcium-ceftriaxone deposits in neonatal&nbsp;vasculature&nbsp;with concomitant use. This is a potential risk regardless of route of administration even if ceftriaxone is given intramuscularly. &nbsp;</li>\r\n\t\t<li paraeid=\"{db49e8be-1b6f-46ee-9225-b0ac09e7d16b}{206}\" paraid=\"1341101575\">Avoid use in neonates with hyperbilirubinemia due to potential for displacement of bilirubin from albumin with theoretical potential for kernicterus or bilirubin encephalopathy. &nbsp;&nbsp;</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><strong>Neonatal Candidates - to receive&nbsp;Ceftriaxone&nbsp;&nbsp;<br />\r\n\t\t\t(must meet ALL criteria)&nbsp;</strong></td>\r\n\t\t\t<td><strong>Contraindications to neonate receiving&nbsp;Ceftriaxone&nbsp;(if meets ANY criteria)*</strong></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<ul>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{19}\" paraid=\"1497559171\">Postnatal age &gt;= 14 days AND&nbsp;</li>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{26}\" paraid=\"2014425145\">Corrected gestational age &gt;= 41 weeks AND&nbsp;</li>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{33}\" paraid=\"1503814747\">Total bilirubin &lt;= 5 mg/dL AND&nbsp;</li>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{40}\" paraid=\"1173411173\">Will not receive IV calcium-containing solutions within 48 hours of&nbsp;Ceftriaxone&nbsp;AND&nbsp;</li>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{47}\" paraid=\"1127698808\">Has not received IV calcium-containing solutions within 48 hours prior to&nbsp;Ceftriaxone&nbsp;&nbsp;</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<ul>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{55}\" paraid=\"1010643174\">Unconjugated hyperbilirubinemia OR&nbsp;</li>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{62}\" paraid=\"311020611\">Receipt of any IV calcium-containing solutions within 48 hours of&nbsp;Ceftriaxone&nbsp;OR&nbsp;</li>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{69}\" paraid=\"1265491612\">Critical illness (acidosis, hypotension, etc.) &nbsp;</li>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{76}\" paraid=\"1359081554\">Due to possibility of requiring IV calcium administration&nbsp;</li>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{83}\" paraid=\"1382897657\">Patients with acute hypocalcemia who may require IV calcium administration&nbsp;</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"2\">\r\n\t\t\t<p paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{92}\" paraid=\"1249644785\">Administration of a single dose of&nbsp;Ceftriaxone&nbsp;to neonates with&nbsp;<a href=\"/node/13351\">ophthalmia neonatorum</a>&nbsp;suspected or confirmed to be caused by&nbsp;Neisseria gonorrhoeae&nbsp;is an exception to most contraindications listed above, including hyperbilirubinemia, with the following precautions: &nbsp;</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{106}\" paraid=\"346214786\">Intravenous calcium-containing solutions should not be given within 48 hours before or after the&nbsp;Ceftriaxone&nbsp;dose. &nbsp;</li>\r\n\t\t\t\t<li paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{113}\" paraid=\"1162618762\">Evaluate and treat hyperbilirubinemia per usual clinical practice. Monitor for hyperbilirubinemia following&nbsp;ceftriaxone&nbsp;therapy. &nbsp;</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*Note these contraindications apply specifically to neonates but not to older infants (&gt;44 weeks corrected gestational age) or children&nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><strong>Neonatal&nbsp;Ceftriaxone&nbsp;Dose&nbsp;</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{146}\" paraid=\"303658266\"><strong>Non-Meningitis (postnatal age &gt;=14 days</strong>):&nbsp;50 mg/kg IV q24h&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{154}\" paraid=\"1974346473\"><strong>Meningitis (postnatal age &gt;=14 days)</strong>:&nbsp;100 mg/kg IV loading dose on day 1, then 80 mg/kg IV q24h  starting day 2&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7f04c3b1-8e20-4bb5-8e2b-5c310e25fa6e}{162}\" paraid=\"880686307\"><strong>Ophthalmia Neonatorum</strong>:&nbsp;<a href=\"/node/13351\">Refer to guidelines</a>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{173}\" paraid=\"1582797744\">See further CAP management guidelines from the <a href=\"https://www.ucsfbenioffchildrens.org/about/ucsf-northern-california-neonatal-and-pediatric-hospital-medicine-consortiums\">UCSF Northern California Pediatric Hospital Medicine Consortium</a>, though reference below recommendations for updated antibiotic selection.&nbsp;</p>\r\n\r\n<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{187}\" paraid=\"923921267\">At BCH OAK follow site-specific <a href=\"https://ucsf.box.com/s/q7wqcmm2m3wwg1euzr5ypg5aq9i82m73\">CAP algorithm</a>&nbsp;(link requires password log in to Box); recommendations provided below are compatible with BCH OAK CAP algorithm, but the algorithm provides additional details in pathway form. &nbsp;&nbsp;</p>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1671,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ac2f3431-b4e6-4cf9-8b63-00268b73f583",
+   "url": "/guidelines-empiric-therapy-categories/special-section"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{138a0de8-06e9-4b6d-9a0e-ff83b248d39b}{173}\" paraid=\"190264431\">References: &nbsp;</h2>\n\n<p paraeid=\"{138a0de8-06e9-4b6d-9a0e-ff83b248d39b}{179}\" paraid=\"730022315\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\n\n<p paraeid=\"{138a0de8-06e9-4b6d-9a0e-ff83b248d39b}{189}\" paraid=\"1029551706\">Hile GB, et al. <a href=\"https://meridian.allenpress.com/jppt/article-abstract/26/1/99/450660/Occurrence-of-Hyperbilirubinemia-in-Neonates-Given\">Occurrence of hyperbilirubinemia in neonates given a short-term course of ceftriaxone versus cefotaxime for sepsis</a>. J Pediatr Pharmacol Ther 2021;26:99-103.&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{138a0de8-06e9-4b6d-9a0e-ff83b248d39b}{173}\" paraid=\"190264431\">References: &nbsp;</h2>\r\n\r\n<p paraeid=\"{138a0de8-06e9-4b6d-9a0e-ff83b248d39b}{179}\" paraid=\"730022315\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\r\n\r\n<p paraeid=\"{138a0de8-06e9-4b6d-9a0e-ff83b248d39b}{189}\" paraid=\"1029551706\">Hile GB, et al. <a href=\"https://meridian.allenpress.com/jppt/article-abstract/26/1/99/450660/Occurrence-of-Hyperbilirubinemia-in-Neonates-Given\">Occurrence of hyperbilirubinemia in neonates given a short-term course of ceftriaxone versus cefotaxime for sepsis</a>. J Pediatr Pharmacol Ther 2021;26:99-103.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13566
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/safety-criteria-for-ceftriaxone-administration-to-neonates",
+   "langcode": "und",
+   "pid": 26221
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T17:39:51+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Safety Criteria for Ceftriaxone Administration to Neonates "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "2c0af517-a9ff-4359-ad02-9048630181c1"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16151
+  }
+ ]
+}

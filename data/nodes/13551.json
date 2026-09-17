@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T21:17:20+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629839840,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-03T19:14:39+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"5\"><strong>Immunocompetent Patient&nbsp;</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Varicella (primary infection)  in&nbsp;<strong>immuno-competent host &nbsp;</strong></td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{28}\" paraid=\"361182868\">Varicella zoster virus&nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{48}\" paraid=\"735221068\">Treatment is not routinely recommended in otherwise healthy children with varicella due to the self-resolving nature of infection and short window of viral replication (&lt;72 hours from onset of rash) &nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{58}\" paraid=\"312895808\">Consider treatment early in disease course in patients at increased risk for moderate to severe varicella based on one or more of the following criteria: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{64}\" paraid=\"354453927\">Age&gt; 12 years old not immunized against VZV&nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{74}\" paraid=\"1740224021\">Chronic cutaneous or pulmonary disorder&nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{80}\" paraid=\"1519067236\">Receiving long term salicylate therapy &nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{86}\" paraid=\"644247865\">Receiving short or intermittent courses of  systemic corticosteroids&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{93}\" paraid=\"1125280212\">See 2nd column for treatment indications&nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{99}\" paraid=\"879937242\"><strong>Outpatient/enteral therapy for patients at increased risk</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{113}\" paraid=\"1626246771\">Acyclovir<br>\n\t\t\t20 mg/kg/dose (max 800 mg/dose) enterally four times daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{123}\" paraid=\"987475709\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{133}\" paraid=\"416610369\">Valacyclovir using dose below if patient is able to take pills&nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{143}\" paraid=\"1027903234\"><strong>IV therapy for patients requiring hospitalization due to varicella</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{149}\" paraid=\"170860240\">Acyclovir<br>\n\t\t\t10 mg/kg/dose IV q8h&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{167}\" paraid=\"443740577\">ID consult recommended for patients hospitalized due to varicella or related complications &nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{177}\" paraid=\"1185704168\"><strong>Duration</strong>:&nbsp;5 days for outpatient therapy, individualized based on response for hospitalized patients but usually 7-10 days similar to below for&nbsp;immuno-compromised patients&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Herpes zoster (reactivation) in<strong>&nbsp;immuno-competent host&nbsp;</strong></td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{204}\" paraid=\"1081757163\">Varicella zoster virus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{210}\" paraid=\"789317277\">As with varicella there is a short window of viral replication (&lt;72 hours from onset of rash); treatment is recommended if it can be initiated within this window or &gt; 72 hours but patient presents with ongoing appearance of new lesions&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{217}\" paraid=\"2070319486\">Valacyclovir<br>\n\t\t\t20 mg/kg/dose (max&nbsp;1000 mg/dose) enterally tid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{229}\" paraid=\"686331014\">(preferred if patient able to take pills)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{239}\" paraid=\"2107020542\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{249}\" paraid=\"350149874\">Acyclovir<br>\n\t\t\t20 mg/kg/dose (max 800 mg/dose) enterally four times daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{4}\" paraid=\"1154412385\">(if patient unable to take pills or otherwise to access valacyclovir)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Duration</strong>:&nbsp;Antiviral therapy is typically&nbsp;given for 7-10 days or until lesions have crusted over &nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"5\"><strong>Immunocompromised Patient&nbsp;</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{46}\" paraid=\"1697066546\"><strong>Varicella zoster virus infection in immuno-compromised hosts&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{60}\" paraid=\"577986545\">Includes manifestations of varicella (primary infection) or herpes zoster (reactivation)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{67}\" paraid=\"1060396734\">Varicella zoster virus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{73}\" paraid=\"1461940152\"><strong> &nbsp;</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{80}\" paraid=\"92395453\"><strong>IV therapy</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{90}\" paraid=\"1631462587\">Acyclovir<br>\n\t\t\t10 mg/kg/dose IV q8h&nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{106}\" paraid=\"593773340\"><strong>Enteral therapy</strong>:*&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{116}\" paraid=\"1483686660\">Valacyclovir<br>\n\t\t\t20 mg/kg/dose (max 1000 mg/dose) enterally tid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{126}\" paraid=\"1063965436\">(preferred if patient able to take pills)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{136}\" paraid=\"2941420\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{146}\" paraid=\"1424210964\">Acyclovir<br>\n\t\t\t20 mg/kg/dose (max 800 mg/dose) enterally four times daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{156}\" paraid=\"1068703382\">(if patient unable to take pills or otherwise to access valacyclovir)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{186}\" paraid=\"1454370045\">Consider ID consultation&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{196}\" paraid=\"206402422\"><strong>Duration</strong>:&nbsp;Antiviral therapy is typically given for 7-10 days or until lesions have crusted over &nbsp;</p>\n\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{204}\" paraid=\"164751096\">*Therapy may be initiated enterally in  patients &gt;= 2 yo with localized herpes zoster, without herpes zoster ophthalmicus or oticus, and without severe symptoms. For patients not meeting these criteria, initiation with IV therapy is recommended, with transition to enteral when the patient shows clinical improvement (no new lesions are appearing)&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"5\"><strong>Immunocompetent Patient&nbsp;</strong></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Varicella (primary infection)  in&nbsp;<strong>immuno-competent host &nbsp;</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{28}\" paraid=\"361182868\">Varicella zoster virus&nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{48}\" paraid=\"735221068\">Treatment is not routinely recommended in otherwise healthy children with varicella due to the self-resolving nature of infection and short window of viral replication (&lt;72 hours from onset of rash) &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{58}\" paraid=\"312895808\">Consider treatment early in disease course in patients at increased risk for moderate to severe varicella based on one or more of the following criteria: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{64}\" paraid=\"354453927\">Age&gt; 12 years old not immunized against VZV&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{74}\" paraid=\"1740224021\">Chronic cutaneous or pulmonary disorder&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{80}\" paraid=\"1519067236\">Receiving long term salicylate therapy &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{86}\" paraid=\"644247865\">Receiving short or intermittent courses of  systemic corticosteroids&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{93}\" paraid=\"1125280212\">See 2nd column for treatment indications&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{99}\" paraid=\"879937242\"><strong>Outpatient/enteral therapy for patients at increased risk</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{113}\" paraid=\"1626246771\">Acyclovir<br />\r\n\t\t\t20 mg/kg/dose (max 800 mg/dose) enterally four times daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{123}\" paraid=\"987475709\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{133}\" paraid=\"416610369\">Valacyclovir using dose below if patient is able to take pills&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{143}\" paraid=\"1027903234\"><strong>IV therapy for patients requiring hospitalization due to varicella</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{149}\" paraid=\"170860240\">Acyclovir<br />\r\n\t\t\t10 mg/kg/dose IV q8h&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{167}\" paraid=\"443740577\">ID consult recommended for patients hospitalized due to varicella or related complications &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{177}\" paraid=\"1185704168\"><strong>Duration</strong>:&nbsp;5 days for outpatient therapy, individualized based on response for hospitalized patients but usually 7-10 days similar to below for&nbsp;immuno-compromised patients&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Herpes zoster (reactivation) in<strong>&nbsp;immuno-competent host&nbsp;</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{204}\" paraid=\"1081757163\">Varicella zoster virus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{210}\" paraid=\"789317277\">As with varicella there is a short window of viral replication (&lt;72 hours from onset of rash); treatment is recommended if it can be initiated within this window or &gt; 72 hours but patient presents with ongoing appearance of new lesions&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{217}\" paraid=\"2070319486\">Valacyclovir<br />\r\n\t\t\t20 mg/kg/dose (max&nbsp;1000 mg/dose) enterally tid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{229}\" paraid=\"686331014\">(preferred if patient able to take pills)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{239}\" paraid=\"2107020542\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{aaf084f9-d924-4104-bc04-42187e4ee096}{249}\" paraid=\"350149874\">Acyclovir<br />\r\n\t\t\t20 mg/kg/dose (max 800 mg/dose) enterally four times daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{4}\" paraid=\"1154412385\">(if patient unable to take pills or otherwise to access valacyclovir)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td><strong>Duration</strong>:&nbsp;Antiviral therapy is typically&nbsp;given for 7-10 days or until lesions have crusted over &nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"5\"><strong>Immunocompromised Patient&nbsp;</strong></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{46}\" paraid=\"1697066546\"><strong>Varicella zoster virus infection in immuno-compromised hosts&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{60}\" paraid=\"577986545\">Includes manifestations of varicella (primary infection) or herpes zoster (reactivation)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{67}\" paraid=\"1060396734\">Varicella zoster virus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{73}\" paraid=\"1461940152\"><strong> &nbsp;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{80}\" paraid=\"92395453\"><strong>IV therapy</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{90}\" paraid=\"1631462587\">Acyclovir<br />\r\n\t\t\t10 mg/kg/dose IV q8h&nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{106}\" paraid=\"593773340\"><strong>Enteral therapy</strong>:*&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{116}\" paraid=\"1483686660\">Valacyclovir<br />\r\n\t\t\t20 mg/kg/dose (max 1000 mg/dose) enterally tid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{126}\" paraid=\"1063965436\">(preferred if patient able to take pills)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{136}\" paraid=\"2941420\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{146}\" paraid=\"1424210964\">Acyclovir<br />\r\n\t\t\t20 mg/kg/dose (max 800 mg/dose) enterally four times daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{156}\" paraid=\"1068703382\">(if patient unable to take pills or otherwise to access valacyclovir)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{186}\" paraid=\"1454370045\">Consider ID consultation&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{196}\" paraid=\"206402422\"><strong>Duration</strong>:&nbsp;Antiviral therapy is typically given for 7-10 days or until lesions have crusted over &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{204}\" paraid=\"164751096\">*Therapy may be initiated enterally in  patients &gt;= 2 yo with localized herpes zoster, without herpes zoster ophthalmicus or oticus, and without severe symptoms. For patients not meeting these criteria, initiation with IV therapy is recommended, with transition to enteral when the patient shows clinical improvement (no new lesions are appearing)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1666,
+   "target_type": "taxonomy_term",
+   "target_uuid": "f04866cf-ce9d-4364-82d9-1ffac45a7b2b",
+   "url": "/guidelines-empiric-therapy-categories/viral-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{218}\" paraid=\"1891909543\">References: &nbsp;</h2>\n\n<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{224}\" paraid=\"1939488737\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n\n<p paraeid=\"{8c30032f-2696-46b6-afa8-54b29153e336}{1}\" paraid=\"1851277948\">Pergam SA, et al. <a href=\"https://onlinelibrary.wiley.com/doi/full/10.1111/ajt.12107\">Varicella zoster virus in solid organ transplantation: guidelines from the American Society of Transplantation Infectious Diseases Community of Practice</a>. Clin Transplant 2019;33:e13622. &nbsp;</p>\n\n<p paraeid=\"{8c30032f-2696-46b6-afa8-54b29153e336}{15}\" paraid=\"730958743\"><a href=\"https://clinicalinfo.hiv.gov/en/guidelines/pediatric-opportunistic-infection/whats-new\">Guidelines for the prevention and treatment of opportunistic infections in HIV-exposed and HIV-infected children.</a> Department of Health and Human Services.</p>\n",
+   "value": "<h2 paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{218}\" paraid=\"1891909543\">References: &nbsp;</h2>\r\n\r\n<p paraeid=\"{6a3b28f4-0333-43f3-840d-db65cbb4a6d7}{224}\" paraid=\"1939488737\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n\r\n<p paraeid=\"{8c30032f-2696-46b6-afa8-54b29153e336}{1}\" paraid=\"1851277948\">Pergam SA, et al. <a href=\"https://onlinelibrary.wiley.com/doi/full/10.1111/ajt.12107\">Varicella zoster virus in solid organ transplantation: guidelines from the American Society of Transplantation Infectious Diseases Community of Practice</a>. Clin Transplant 2019;33:e13622. &nbsp;</p>\r\n\r\n<p paraeid=\"{8c30032f-2696-46b6-afa8-54b29153e336}{15}\" paraid=\"730958743\"><a href=\"https://clinicalinfo.hiv.gov/en/guidelines/pediatric-opportunistic-infection/whats-new\">Guidelines for the prevention and treatment of opportunistic infections in HIV-exposed and HIV-infected children.</a> Department of Health and Human Services.</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13551
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/varicella-zoster-virus",
+   "langcode": "und",
+   "pid": 26206
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T21:17:20+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Varicella Zoster Virus"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "71aa1e3a-951b-4f18-a94e-d7d17ddc8305"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16136
+  }
+ ]
+}

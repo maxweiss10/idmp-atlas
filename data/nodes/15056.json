@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-03-27T21:41:41+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1743111701,
+   "last_comment_uid": 506,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-12-19T19:23:29+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Admitted to the Medical Ward</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Respiratory viruses</p>\n\n\t\t\t<p><em>S.&nbsp; pneumoniae</em></p>\n\n\t\t\t<p><em>Mycoplasma pneumoniae</em></p>\n\n\t\t\t<p><em>Chlamydia pneumoniae</em></p>\n\n\t\t\t<p><em>H. influenzae</em></p>\n\n\t\t\t<p><em>Legionella pneumophilia</em></p>\n\n\t\t\t<p><em>Klebsiella pneumoniae</em></p>\n\t\t\t(alcoholics)</td>\n\t\t\t<td>\n\t\t\t<p>No Recent antibiotic therapy:*</p>\n\n\t\t\t<p><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone </strong></a></p>\n\n\t\t\t<p><em>PLUS </em></p>\n\t\t\t<a href=\"/content/doxycycline\"><strong>Doxycycline</strong></a></td>\n\t\t\t<td>\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe beta-lactam allergy</a></em>:</p>\n\n\t\t\t<p><strong><a href=\"/content/levofloxacin\">Levofloxacin</a></strong></p>\n\n\t\t\t<p><em>OR</em></p>\n\n\t\t\t<p><a href=\"/content/moxifloxacin\"><strong>Moxifloxacin</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>*If patient has had recent antibiotic therapy, antibiotics from a different class should be selected (i.e. recent use of a fluoroquinolone should dictate selection of a non-fluoroquinolone regimen, and vice versa).</p>\n\n\t\t\t<p>Consider <strong>MRSA coverage&nbsp;(and collect a MRSA nares)</strong> if any of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>History of MRSA colonization or infection at any site within 1 year</li>\n\t\t\t\t<li>MRSA nasal PCR positive</li>\n\t\t\t\t<li>Other MRSA risk factors to consider: recent influenza, presence of cavitary disease, empyema</li>\n\t\t\t</ul>\n\n\t\t\t<p>Consider <strong><em>Pseudomonas </em>coverage</strong> if any of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>History of <em>Pseudomonas&nbsp;</em>colonization or infection at any site within 1 year</li>\n\t\t\t\t<li>Advanced structural lung disease</li>\n\t\t\t</ul>\n\n\t\t\t<p><em><strong>If no microbiologic confirmation of MRSA then discontinue MRSA agent. If coverage for Pseudomonas is started, obtain blood and sputum cultures and de-escalate if this organism is not isolated.</strong></em></p>\n\n\t\t\t<p>Consider respiratory virus testing and treatment (if indicated)</p>\n\t\t\t</td>\n\t\t\t<td>5 days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Admitted to the ICU for CAP</p>\n\n\t\t\t<p><em>If indication for ICU admission is not CAP, follow \"Admitted to the Medical Ward\" section above</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Respiratory viruses</p>\n\n\t\t\t<p><em>S. pneumoniae</em></p>\n\n\t\t\t<p><em>Mycoplasma pneumoniae</em></p>\n\n\t\t\t<p><em>Chlamydia pneumoniae</em></p>\n\n\t\t\t<p><em>H. influenzae</em></p>\n\n\t\t\t<p><em>Legionella pneumophilia</em></p>\n\n\t\t\t<p><em>Klebsiella pneumoniae</em></p>\n\n\t\t\t<p>(alcoholics)</p>\n\t\t\t<em>S. aureus</em></td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong></a></p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/content/azithromycin\"><strong>Azithromycin </strong></a>500mg IV daily</p>\n\n\t\t\t<p><em>WITH OR WITHOUT*:</em></p>\n\n\t\t\t<p><strong><a href=\"/content/linezolid\">Linezolid</a>&nbsp;</strong>(preferred if no contraindications)</p>\n\n\t\t\t<p>OR</p>\n\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe beta-lactam allergy:</a></em></p>\n\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\n\t\t\t<p><em>PLUS </em>one of EITHER:</p>\n\n\t\t\t<p><a href=\"/content/levofloxacin\"><strong>Levofloxacin</strong></a></p>\n\n\t\t\t<p><em>OR</em></p>\n\n\t\t\t<p><a href=\"/content/moxifloxacin\"><strong>Moxifloxacin</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>ID consultation is recommended if ICU admission or high level PCN-resistant pneumococci documented</p>\n\n\t\t\t<p>*Consider <strong>MRSA coverage (and collection of MRSA nares)</strong> if any of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\n\t\t\t\t<li>History of MRSA colonization or infection at any site within 1 year</li>\n\t\t\t\t<li>MRSA nasal PCR positive</li>\n\t\t\t\t<li>Other MRSA risk factors to consider: recent influenza, presence of cavitary disease, empyema</li>\n\t\t\t</ul>\n\n\t\t\t<p>Consider <strong><em>Pseudomonas </em>coverage</strong> if any of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\n\t\t\t\t<li>History of <em>Pseudomonas&nbsp;</em>colonization or infection at any site within 1 year</li>\n\t\t\t\t<li>Advanced structural lung disease</li>\n\t\t\t</ul>\n\n\t\t\t<p><em><strong>If no microbiologic confirmation of MRSA then discontinue MRSA agent. If coverage for Pseudomonas is started, obtain blood and sputum cultures and de-escalate if this organism is not isolated.</strong></em></p>\n\n\t\t\t<p>Consider respiratory virus testing and treatment (if indicated)</p>\n\t\t\t</td>\n\t\t\t<td>5-7 days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Outpatient, no comorbidities</td>\n\t\t\t<td>\n\t\t\t<p>Respiratory viruses</p>\n\n\t\t\t<p><em>S.&nbsp; pneumoniae</em></p>\n\n\t\t\t<p><em>Mycoplasma pneumoniae</em></p>\n\n\t\t\t<p><em>Chlamydia pneumoniae</em></p>\n\n\t\t\t<p><em>H. influenza</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/doxycycline\"><strong>Doxycycline</strong></a></p>\n\n\t\t\t<p><em>OR</em></p>\n\t\t\t<strong>Amoxicillin 1 g PO TID</strong></td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p>Consider respiratory virus testing and treatment (if indicated)</p>\n\n\t\t\t<p>Consider <strong>MRSA coverage</strong> if any of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\n\t\t\t\t<li>History of MRSA colonization or infection at any site within 1 year</li>\n\t\t\t</ul>\n\n\t\t\t<p>Consider <strong><em>Pseudomonas </em>coverage</strong> if any of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\n\t\t\t\t<li>History of <em>Pseudomonas&nbsp;</em>colonization or infection at any site within 1 year</li>\n\t\t\t\t<li>Advanced structural lung disease</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t\t<td>5 days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Outpatient, with comorbidities</p>\n\n\t\t\t<p>(e.g. chronic heart, lung, liver, kidney disease, diabetes, ethanol use disorder, malignancy, asplenia)</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Respiratory viruses</p>\n\n\t\t\t<p><em>S.&nbsp; pneumoniae</em></p>\n\n\t\t\t<p><em>Mycoplasma pneumoniae</em></p>\n\n\t\t\t<p><em>Chlamydia pneumoniae</em></p>\n\n\t\t\t<p><em>H. influenza</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong>Amoxicillin 1 g PO TID </strong></p>\n\n\t\t\t<p><em>PLUS </em><a href=\"/content/doxycycline\"><strong>Doxycycline </strong></a></p>\n\n\t\t\t<p><em>OR</em></p>\n\n\t\t\t<p><strong><a href=\"/content/levofloxacin\">Levofloxacin</a>&nbsp;</strong>as monotherapy</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p>Consider respiratory virus testing and treatment (if indicated)</p>\n\n\t\t\t<p>Consider <strong>MRSA coverage</strong> if any of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\n\t\t\t\t<li>History of MRSA colonization or infection at any site within 1 year</li>\n\t\t\t</ul>\n\n\t\t\t<p>Consider <strong><em>Pseudomonas </em>coverage</strong> if any of the following:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\n\t\t\t\t<li>History of <em>Pseudomonas&nbsp;</em>colonization or infection at any site within 1 year</li>\n\t\t\t\t<li>Advanced structural lung disease</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t\t<td>5 days</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Admitted to the Medical Ward</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Respiratory viruses</p>\r\n\r\n\t\t\t<p><em>S.&nbsp; pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>Mycoplasma pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>Chlamydia pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>H. influenzae</em></p>\r\n\r\n\t\t\t<p><em>Legionella pneumophilia</em></p>\r\n\r\n\t\t\t<p><em>Klebsiella pneumoniae</em></p>\r\n\t\t\t(alcoholics)</td>\r\n\t\t\t<td>\r\n\t\t\t<p>No Recent antibiotic therapy:*</p>\r\n\r\n\t\t\t<p><a href=\"/node/8331\"><strong>Ceftriaxone </strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS </em></p>\r\n\t\t\t<a href=\"/node/8346\"><strong>Doxycycline</strong></a></td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe beta-lactam allergy</a></em>:</p>\r\n\r\n\t\t\t<p><strong><a href=\"/node/8391\">Levofloxacin</a></strong></p>\r\n\r\n\t\t\t<p><em>OR</em></p>\r\n\r\n\t\t\t<p><a href=\"/node/11681\"><strong>Moxifloxacin</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>*If patient has had recent antibiotic therapy, antibiotics from a different class should be selected (i.e. recent use of a fluoroquinolone should dictate selection of a non-fluoroquinolone regimen, and vice versa).</p>\r\n\r\n\t\t\t<p>Consider <strong>MRSA coverage&nbsp;(and collect a MRSA nares)</strong> if any of the following:</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>History of MRSA colonization or infection at any site within 1 year</li>\r\n\t\t\t\t<li>MRSA nasal PCR positive</li>\r\n\t\t\t\t<li>Other MRSA risk factors to consider: recent influenza, presence of cavitary disease, empyema</li>\r\n\t\t\t</ul>\r\n\r\n\t\t\t<p>Consider <strong><em>Pseudomonas </em>coverage</strong> if any of the following:</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>History of <em>Pseudomonas&nbsp;</em>colonization or infection at any site within 1 year</li>\r\n\t\t\t\t<li>Advanced structural lung disease</li>\r\n\t\t\t</ul>\r\n\r\n\t\t\t<p><em><strong>If no microbiologic confirmation of MRSA then discontinue MRSA agent. If coverage for Pseudomonas is started, obtain blood and sputum cultures and de-escalate if this organism is not isolated.</strong></em></p>\r\n\r\n\t\t\t<p>Consider respiratory virus testing and treatment (if indicated)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>5 days</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Admitted to the ICU for CAP</p>\r\n\r\n\t\t\t<p><em>If indication for ICU admission is not CAP, follow \"Admitted to the Medical Ward\" section above</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Respiratory viruses</p>\r\n\r\n\t\t\t<p><em>S. pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>Mycoplasma pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>Chlamydia pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>H. influenzae</em></p>\r\n\r\n\t\t\t<p><em>Legionella pneumophilia</em></p>\r\n\r\n\t\t\t<p><em>Klebsiella pneumoniae</em></p>\r\n\r\n\t\t\t<p>(alcoholics)</p>\r\n\t\t\t<em>S. aureus</em></td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8331\"><strong>Ceftriaxone</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8266\"><strong>Azithromycin </strong></a>500mg IV daily</p>\r\n\r\n\t\t\t<p><em>WITH OR WITHOUT*:</em></p>\r\n\r\n\t\t\t<p><strong><a href=\"/node/8396\">Linezolid</a>&nbsp;</strong>(preferred if no contraindications)</p>\r\n\r\n\t\t\t<p>OR</p>\r\n\r\n\t\t\t<p><a href=\"/node/8471\"><strong>Vancomycin</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe beta-lactam allergy:</a></em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8471\"><strong>Vancomycin</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS </em>one of EITHER:</p>\r\n\r\n\t\t\t<p><a href=\"/node/8391\"><strong>Levofloxacin</strong></a></p>\r\n\r\n\t\t\t<p><em>OR</em></p>\r\n\r\n\t\t\t<p><a href=\"/node/11681\"><strong>Moxifloxacin</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>ID consultation is recommended if ICU admission or high level PCN-resistant pneumococci documented</p>\r\n\r\n\t\t\t<p>*Consider <strong>MRSA coverage (and collection of MRSA nares)</strong> if any of the following:</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\r\n\t\t\t\t<li>History of MRSA colonization or infection at any site within 1 year</li>\r\n\t\t\t\t<li>MRSA nasal PCR positive</li>\r\n\t\t\t\t<li>Other MRSA risk factors to consider: recent influenza, presence of cavitary disease, empyema</li>\r\n\t\t\t</ul>\r\n\r\n\t\t\t<p>Consider <strong><em>Pseudomonas </em>coverage</strong> if any of the following:</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\r\n\t\t\t\t<li>History of <em>Pseudomonas&nbsp;</em>colonization or infection at any site within 1 year</li>\r\n\t\t\t\t<li>Advanced structural lung disease</li>\r\n\t\t\t</ul>\r\n\r\n\t\t\t<p><em><strong>If no microbiologic confirmation of MRSA then discontinue MRSA agent. If coverage for Pseudomonas is started, obtain blood and sputum cultures and de-escalate if this organism is not isolated.</strong></em></p>\r\n\r\n\t\t\t<p>Consider respiratory virus testing and treatment (if indicated)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>5-7 days</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Outpatient, no comorbidities</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Respiratory viruses</p>\r\n\r\n\t\t\t<p><em>S.&nbsp; pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>Mycoplasma pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>Chlamydia pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>H. influenza</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8346\"><strong>Doxycycline</strong></a></p>\r\n\r\n\t\t\t<p><em>OR</em></p>\r\n\t\t\t<strong>Amoxicillin 1 g PO TID</strong></td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Consider respiratory virus testing and treatment (if indicated)</p>\r\n\r\n\t\t\t<p>Consider <strong>MRSA coverage</strong> if any of the following:</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\r\n\t\t\t\t<li>History of MRSA colonization or infection at any site within 1 year</li>\r\n\t\t\t</ul>\r\n\r\n\t\t\t<p>Consider <strong><em>Pseudomonas </em>coverage</strong> if any of the following:</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\r\n\t\t\t\t<li>History of <em>Pseudomonas&nbsp;</em>colonization or infection at any site within 1 year</li>\r\n\t\t\t\t<li>Advanced structural lung disease</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t\t<td>5 days</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Outpatient, with comorbidities</p>\r\n\r\n\t\t\t<p>(e.g. chronic heart, lung, liver, kidney disease, diabetes, ethanol use disorder, malignancy, asplenia)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Respiratory viruses</p>\r\n\r\n\t\t\t<p><em>S.&nbsp; pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>Mycoplasma pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>Chlamydia pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>H. influenza</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Amoxicillin 1 g PO TID </strong></p>\r\n\r\n\t\t\t<p><em>PLUS </em><a href=\"/node/8346\"><strong>Doxycycline </strong></a></p>\r\n\r\n\t\t\t<p><em>OR</em></p>\r\n\r\n\t\t\t<p><strong><a href=\"/node/8391\">Levofloxacin</a>&nbsp;</strong>as monotherapy</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Consider respiratory virus testing and treatment (if indicated)</p>\r\n\r\n\t\t\t<p>Consider <strong>MRSA coverage</strong> if any of the following:</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\r\n\t\t\t\t<li>History of MRSA colonization or infection at any site within 1 year</li>\r\n\t\t\t</ul>\r\n\r\n\t\t\t<p>Consider <strong><em>Pseudomonas </em>coverage</strong> if any of the following:</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Receipt of parenteral antibiotics within 90 days</li>\r\n\t\t\t\t<li>History of <em>Pseudomonas&nbsp;</em>colonization or infection at any site within 1 year</li>\r\n\t\t\t\t<li>Advanced structural lung disease</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t\t<td>5 days</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 2171,
+   "target_type": "taxonomy_term",
+   "target_uuid": "99bd8d57-4a11-47f0-85d9-8d474bc7999a",
+   "url": "/guidelines-empiric-therapy-categories/pneumonia"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p><em>American Journal of Respiratory and Critical Care Medicine</em>, Volume 200, Issue 7, 1 October 2019, Pages e45-e67, <a data-feathr-click-track=\"true\" href=\"https://www.atsjournals.org/doi/full/10.1164/rccm.201908-1581ST\" rel=\"noopener\" target=\"_blank\">https://www.atsjournals.org/doi/full/10.1164/rccm.201908-1581ST</a></p>\n\n<p>Linezolid in Methicillin-Resistant&nbsp;<em>Staphylococcus aureus</em>&nbsp;Nosocomial Pneumonia: A Randomized, Controlled Study,&nbsp;<em>Clinical Infectious Diseases</em>, Volume 54, Issue 5, 1 March 2012, Pages 621–629,&nbsp;<a data-google-interstitial=\"false\" href=\"https://doi.org/10.1093/cid/cir895\">https://doi.org/10.1093/cid/cir895</a></p>\n",
+   "value": "<p><em>American Journal of Respiratory and Critical Care Medicine</em>, Volume 200, Issue 7, 1 October 2019, Pages e45-e67, <a data-feathr-click-track=\"true\" href=\"https://www.atsjournals.org/doi/full/10.1164/rccm.201908-1581ST\" rel=\"noopener\" target=\"_blank\">https://www.atsjournals.org/doi/full/10.1164/rccm.201908-1581ST</a></p>\r\n\r\n<p>Linezolid in Methicillin-Resistant&nbsp;<em>Staphylococcus aureus</em>&nbsp;Nosocomial Pneumonia: A Randomized, Controlled Study,&nbsp;<em>Clinical Infectious Diseases</em>, Volume 54, Issue 5, 1 March 2012, Pages 621–629,&nbsp;<a data-google-interstitial=\"false\" href=\"https://doi.org/10.1093/cid/cir895\">https://doi.org/10.1093/cid/cir895</a></p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15056
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/community-acquired-pneumonia-0",
+   "langcode": "und",
+   "pid": 27626
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-03-27T21:41:41+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Community-Acquired Pneumonia"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "ff15cefb-f64d-4263-a3cb-ae46a6cd84bc"
+  }
+ ],
+ "vid": [
+  {
+   "value": 19076
+  }
+ ]
+}

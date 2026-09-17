@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-08T15:12:21+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1746474721,
+   "last_comment_uid": 0,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-13T22:32:17+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<p>These reports are aggregated from clinical isolates submitted to the UCSF Clinical Microbiology Laboratory from patients at the UCSF Benioff Children's Hospital San Francisco campus and are meant to guide clinicians in selecting empiric therapy.&nbsp;Patient characteristics must be incorporated in determining risks and therapy should be modified based on susceptibility testing results when available. Breakpoints for susceptibility are via CLSI guidelines. Annual updates will reflect data from the previous calendar year, except as noted for portions of this report that will be updated every 3 years. This page was last updated 05/05/2025.&nbsp;</p><p><a href=\"/content/antimicrobial-susceptibility-testing-methodology\" data-mce-href=\"/antimicrobial-susceptibility-testing-methodology\">Methodology Notes</a></p><h2>2023-2025&nbsp;Susceptibility Data</h2><h3>Inpatient and Emergency Department</h3><h4>Gram-Negative &amp; Gram-Positive Organisms</h4><ul><li>&nbsp;&nbsp;&nbsp;&nbsp; <a href=\"/document/2026-bchsf-ip-gngp-v1-without-delta-change-pdf\" data-entity-type=\"media\" data-entity-uuid=\"95af30d5-10b2-458d-be23-dfa670c17809\" data-entity-substitution=\"canonical\">Report by Organism and Drug</a></li></ul><h2>Outpatients</h2><h4>Gram-Negative &amp; Gram-Positive Organisms</h4><ul><li><em>&nbsp;&nbsp;&nbsp; </em><a href=\"/document/2026-bchsf-op-gngp-v1-without-delta-change-pdf-0\" data-entity-type=\"media\" data-entity-uuid=\"c7a2f53c-eb95-4c36-889f-640a55411462\" data-entity-substitution=\"canonical\">Report by organism and Drug</a></li></ul>",
+   "value": "<p>These reports are aggregated from clinical isolates submitted to the UCSF Clinical Microbiology Laboratory from patients at the UCSF Benioff Children's Hospital San Francisco campus and are meant to guide clinicians in selecting empiric therapy.&nbsp;Patient characteristics must be incorporated in determining risks and therapy should be modified based on susceptibility testing results when available. Breakpoints for susceptibility are via CLSI guidelines. Annual updates will reflect data from the previous calendar year, except as noted for portions of this report that will be updated every 3 years. This page was last updated 05/05/2025.&nbsp;</p><p><a href=\"/node/7596\" data-mce-href=\"/antimicrobial-susceptibility-testing-methodology\">Methodology Notes</a></p><h2>2023-2025&nbsp;Susceptibility Data</h2><h3>Inpatient and Emergency Department</h3><h4>Gram-Negative &amp; Gram-Positive Organisms</h4><ul><li>&nbsp;&nbsp;&nbsp;&nbsp; <a href=\"/media/1631\" data-entity-type=\"media\" data-entity-uuid=\"95af30d5-10b2-458d-be23-dfa670c17809\" data-entity-substitution=\"canonical\">Report by Organism and Drug</a></li></ul><h2>Outpatients</h2><h4>Gram-Negative &amp; Gram-Positive Organisms</h4><ul><li><em>&nbsp;&nbsp;&nbsp; </em><a href=\"/media/1641\" data-entity-type=\"media\" data-entity-uuid=\"c7a2f53c-eb95-4c36-889f-640a55411462\" data-entity-substitution=\"canonical\">Report by organism and Drug</a></li></ul>"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 7591
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/antimicrobial-susceptibility-at-ucsf-benioff-childrens-hospital-san-francisco",
+   "langcode": "und",
+   "pid": 20666
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-05T19:52:01+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Antimicrobial Susceptibility at UCSF Benioff Children's Hospital San Francisco"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "78f12963-5b01-44f5-bb57-dd5db547fd95"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24236
+  }
+ ]
+}

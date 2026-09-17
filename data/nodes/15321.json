@@ -1,0 +1,131 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "",
+   "summary": "Oncology antimicrobial prophylaxis guideline with detailed information on dosing and monitoring. Approved by P&T 4/2024. Updated 9/2026.",
+   "value": ""
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-15T20:28:54+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1720136908,
+   "last_comment_uid": 581,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-07-04T23:48:28+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2026-09-15"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 466,
+   "target_type": "taxonomy_term",
+   "target_uuid": "76c3e2d7-207d-494f-b563-ff93679a08e1",
+   "url": "/site/zuckerberg-san-francisco-general"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1696,
+   "target_type": "media",
+   "target_uuid": "ce954f16-a932-4d7f-9b80-bec1f6701de9",
+   "url": "/document/zsfg-oncology-anti-infective-prophylaxis-guidelines-9-2026-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15321
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/zsfg-oncology-antimicrobial-prophylaxis-guideline",
+   "langcode": "und",
+   "pid": 27881
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-07-04T23:48:28+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "ZSFG Oncology Antimicrobial Prophylaxis Guideline"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "114a3b1b-ff30-4466-94fa-b9fd0c75924e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 19716
+  }
+ ]
+}

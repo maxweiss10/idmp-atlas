@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-12-10T00:48:06+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1733791686,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-03T17:59:41+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"1\">\n\t\t\t<p paraeid=\"{728b928d-0551-4c4c-b5e3-e69c2a89fc35}{242}\" paraid=\"560265352\">Influenza&nbsp;</p>\n\n\t\t\t<p paraeid=\"{728b928d-0551-4c4c-b5e3-e69c2a89fc35}{248}\" paraid=\"966736325\">See detailed <a href=\"/content/influenza\">Influenza Guidelines</a> including treatment indications&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"1\">Influenza Virus</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{15}\" paraid=\"366922116\">Oseltamivir according to body weight:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{25}\" paraid=\"518360804\"><strong>Preterm infants</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{33}\" paraid=\"1739035820\">&lt;38 weeks corrected gestational age: 1 mg/kg/dose enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{39}\" paraid=\"1076130633\">38-40 weeks corrected gestational age: 1.5 mg/kg/dose enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{49}\" paraid=\"230605416\">&gt;40 weeks corrected gestational age: same as term infant dosing&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{63}\" paraid=\"1147193528\">Contact Pediatric ID/ASP for infants with corrected gestational age &lt; 28 weeks&nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{79}\" paraid=\"1415631052\"><strong>Term infants 0-8 months</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{85}\" paraid=\"557254295\">3 mg/kg/dose&nbsp;enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{101}\" paraid=\"1717469732\"><strong>Infants 9-11 months</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{107}\" paraid=\"1387494435\">3.5 mg/kg/dose&nbsp;enterally bid&nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{125}\" paraid=\"422364592\"><strong>Children &gt;=12 months</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{131}\" paraid=\"1705552104\">&lt;=15kg: 30 mg/dose enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{141}\" paraid=\"308592748\">&gt;15-23kg: 45 mg/dose&nbsp;enterally&nbsp;bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{155}\" paraid=\"1043773322\">&gt;23-40kg: 60 mg/dose enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{165}\" paraid=\"1412173270\">&gt;40kg: 75 mg/dose enterally bid&nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{181}\" paraid=\"1966977413\"><strong>Duration</strong>:&nbsp;5 days for most patients*&nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{199}\" paraid=\"1551259348\">*For patients with&nbsp;critical illness or significant immunocompromise, longer&nbsp;courses may be considered based on severity of illness. Please consult ID for assistance in these cases.&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td rowspan=\"1\">\n\t\t\t<div style=\"clear:both;\">\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{210}\" paraid=\"1122886362\"><span data-contrast=\"none\" xml:lang=\"EN-US\"><span data-ccp-parastyle=\"Normal (Web)\">Zanamivir can be used for children age &gt;= 7 years old for treatment or &gt;= 5 years old for prophylaxis - consider in patients unable to tolerate PO but able to use dry powder inhaler:</span></span>&nbsp;</p>\n\t\t\t</div>\n\n\t\t\t<div style=\"clear:both;\">\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{220}\" paraid=\"992254947\"><span data-contrast=\"none\" xml:lang=\"EN-US\"><span data-ccp-parastyle=\"Normal (Web)\">Zanamivir<br>\n\t\t\t10 mg/dose (2 inhalations) INH bid</span></span>&nbsp;</p>\n\t\t\t</div>\n\n\t\t\t<div style=\"clear:both;\">\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{230}\" paraid=\"108868448\"><span data-contrast=\"none\" xml:lang=\"EN-US\"><span data-ccp-parastyle=\"Normal (Web)\"><strong>Duration</strong>: </span></span>&nbsp;<span data-contrast=\"none\" xml:lang=\"EN-US\"><span data-ccp-parastyle=\"Normal (Web)\">Treatment, most patients: 5 days*</span></span>&nbsp;</p>\n\t\t\t</div>\n\n\t\t\t<div style=\"clear:both;\">\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{242}\" paraid=\"269039171\"><span data-contrast=\"none\" xml:lang=\"EN-US\"><span data-ccp-parastyle=\"Normal (Web)\">Prophylaxis: 7 days</span></span>&nbsp;</p>\n\t\t\t</div>\n\n\t\t\t<div style=\"clear:both;\">\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{248}\" paraid=\"1282633356\"><span data-contrast=\"auto\" xml:lang=\"EN-US\">Consult Pediatric ID for use of Peramivir in critically ill patients&nbsp;unable to receive or absorb enteral medications</span>&nbsp;</p>\n\t\t\t</div>\n\n\t\t\t<div style=\"clear:both;\">\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{5}\" paraid=\"1306745251\"> <span data-contrast=\"auto\" xml:lang=\"EN-US\">Consult Pediatric ID for use of Baloxivir in patients early in course but with especially high risk for influenza-related complications </span>&nbsp;</p>\n\t\t\t</div>\n\t\t\t</td>\n\t\t\t<td rowspan=\"1\">\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{22}\" paraid=\"142657563\"><strong>Oseltamivir Dosing for Prophylaxis</strong>&nbsp;(most effective if initiated within 48-72 hours of exposure: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{34}\" paraid=\"1334408773\"><strong>Age &lt; 3 months</strong>:&nbsp;not recommended&nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{48}\" paraid=\"2005044618\"><strong>Infants 3-8 months</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{58}\" paraid=\"1565978772\">3 mg/kg/dose enterally daily&nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{74}\" paraid=\"871134432\"><strong>Infants 9-11 months</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{80}\" paraid=\"290229611\">3.5 mg/kg/dose enterally daily&nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{92}\" paraid=\"1526215665\"><strong>Children &gt;= 12 months</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{102}\" paraid=\"1270643407\">&lt;=15kg: 30 mg/dose enterally daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{112}\" paraid=\"415247039\">&gt;15-23kg: 45 mg/dose enterally daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{122}\" paraid=\"523544876\">&gt;23-40kg: 60 mg/dose enterally daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{128}\" paraid=\"347765350\">&gt;40kg: 75 mg/dose enterally daily&nbsp;</p>\n\n\t\t\t<hr>\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{148}\" paraid=\"309375711\"><strong>Duration</strong>:&nbsp;7 days&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td rowspan=\"1\">\r\n\t\t\t<p paraeid=\"{728b928d-0551-4c4c-b5e3-e69c2a89fc35}{242}\" paraid=\"560265352\">Influenza&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{728b928d-0551-4c4c-b5e3-e69c2a89fc35}{248}\" paraid=\"966736325\">See detailed <a href=\"/node/12601\">Influenza Guidelines</a> including treatment indications&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td rowspan=\"1\">Influenza Virus</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{15}\" paraid=\"366922116\">Oseltamivir according to body weight:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{25}\" paraid=\"518360804\"><strong>Preterm infants</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{33}\" paraid=\"1739035820\">&lt;38 weeks corrected gestational age: 1 mg/kg/dose enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{39}\" paraid=\"1076130633\">38-40 weeks corrected gestational age: 1.5 mg/kg/dose enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{49}\" paraid=\"230605416\">&gt;40 weeks corrected gestational age: same as term infant dosing&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{63}\" paraid=\"1147193528\">Contact Pediatric ID/ASP for infants with corrected gestational age &lt; 28 weeks&nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{79}\" paraid=\"1415631052\"><strong>Term infants 0-8 months</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{85}\" paraid=\"557254295\">3 mg/kg/dose&nbsp;enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{101}\" paraid=\"1717469732\"><strong>Infants 9-11 months</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{107}\" paraid=\"1387494435\">3.5 mg/kg/dose&nbsp;enterally bid&nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{125}\" paraid=\"422364592\"><strong>Children &gt;=12 months</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{131}\" paraid=\"1705552104\">&lt;=15kg: 30 mg/dose enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{141}\" paraid=\"308592748\">&gt;15-23kg: 45 mg/dose&nbsp;enterally&nbsp;bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{155}\" paraid=\"1043773322\">&gt;23-40kg: 60 mg/dose enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{165}\" paraid=\"1412173270\">&gt;40kg: 75 mg/dose enterally bid&nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{181}\" paraid=\"1966977413\"><strong>Duration</strong>:&nbsp;5 days for most patients*&nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{199}\" paraid=\"1551259348\">*For patients with&nbsp;critical illness or significant immunocompromise, longer&nbsp;courses may be considered based on severity of illness. Please consult ID for assistance in these cases.&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td rowspan=\"1\">\r\n\t\t\t<div style=\"clear:both;\">\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{210}\" paraid=\"1122886362\"><span data-contrast=\"none\" xml:lang=\"EN-US\"><span data-ccp-parastyle=\"Normal (Web)\">Zanamivir can be used for children age &gt;= 7 years old for treatment or &gt;= 5 years old for prophylaxis - consider in patients unable to tolerate PO but able to use dry powder inhaler:</span></span>&nbsp;</p>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div style=\"clear:both;\">\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{220}\" paraid=\"992254947\"><span data-contrast=\"none\" xml:lang=\"EN-US\"><span data-ccp-parastyle=\"Normal (Web)\">Zanamivir<br />\r\n\t\t\t10 mg/dose (2 inhalations) INH bid</span></span>&nbsp;</p>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div style=\"clear:both;\">\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{230}\" paraid=\"108868448\"><span data-contrast=\"none\" xml:lang=\"EN-US\"><span data-ccp-parastyle=\"Normal (Web)\"><strong>Duration</strong>: </span></span>&nbsp;<span data-contrast=\"none\" xml:lang=\"EN-US\"><span data-ccp-parastyle=\"Normal (Web)\">Treatment, most patients: 5 days*</span></span>&nbsp;</p>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div style=\"clear:both;\">\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{242}\" paraid=\"269039171\"><span data-contrast=\"none\" xml:lang=\"EN-US\"><span data-ccp-parastyle=\"Normal (Web)\">Prophylaxis: 7 days</span></span>&nbsp;</p>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div style=\"clear:both;\">\r\n\t\t\t<p paraeid=\"{e731277a-088a-434e-b5d0-531f1e5ebdea}{248}\" paraid=\"1282633356\"><span data-contrast=\"auto\" xml:lang=\"EN-US\">Consult Pediatric ID for use of Peramivir in critically ill patients&nbsp;unable to receive or absorb enteral medications</span>&nbsp;</p>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div style=\"clear:both;\">\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{5}\" paraid=\"1306745251\"> <span data-contrast=\"auto\" xml:lang=\"EN-US\">Consult Pediatric ID for use of Baloxivir in patients early in course but with especially high risk for influenza-related complications </span>&nbsp;</p>\r\n\t\t\t</div>\r\n\t\t\t</td>\r\n\t\t\t<td rowspan=\"1\">\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{22}\" paraid=\"142657563\"><strong>Oseltamivir Dosing for Prophylaxis</strong>&nbsp;(most effective if initiated within 48-72 hours of exposure: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{34}\" paraid=\"1334408773\"><strong>Age &lt; 3 months</strong>:&nbsp;not recommended&nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{48}\" paraid=\"2005044618\"><strong>Infants 3-8 months</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{58}\" paraid=\"1565978772\">3 mg/kg/dose enterally daily&nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{74}\" paraid=\"871134432\"><strong>Infants 9-11 months</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{80}\" paraid=\"290229611\">3.5 mg/kg/dose enterally daily&nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{92}\" paraid=\"1526215665\"><strong>Children &gt;= 12 months</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{102}\" paraid=\"1270643407\">&lt;=15kg: 30 mg/dose enterally daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{112}\" paraid=\"415247039\">&gt;15-23kg: 45 mg/dose enterally daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{122}\" paraid=\"523544876\">&gt;23-40kg: 60 mg/dose enterally daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{128}\" paraid=\"347765350\">&gt;40kg: 75 mg/dose enterally daily&nbsp;</p>\r\n\r\n\t\t\t<hr />\r\n\t\t\t<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{148}\" paraid=\"309375711\"><strong>Duration</strong>:&nbsp;7 days&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1666,
+   "target_type": "taxonomy_term",
+   "target_uuid": "f04866cf-ce9d-4364-82d9-1ffac45a7b2b",
+   "url": "/guidelines-empiric-therapy-categories/viral-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{170}\" paraid=\"1816700082\">References:&nbsp;</h2>\n\n<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{176}\" paraid=\"971185824\">American Academy of Pediatrics, Committee on Infectious Diseases. <a href=\"https://pediatrics.aappublications.org/content/146/4/e2020024588\">Recommendations for prevention and control of influenza, 2020-2021</a>. Pediatrics 2020;146:e2020024588.&nbsp;</p>\n\n<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{186}\" paraid=\"697580884\"><a href=\"https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html\" rel=\"noreferrer noopener\" target=\"_blank\">CDC Influenza Antiviral Medications: Summary for Clinicians</a>&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{170}\" paraid=\"1816700082\">References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{176}\" paraid=\"971185824\">American Academy of Pediatrics, Committee on Infectious Diseases. <a href=\"https://pediatrics.aappublications.org/content/146/4/e2020024588\">Recommendations for prevention and control of influenza, 2020-2021</a>. Pediatrics 2020;146:e2020024588.&nbsp;</p>\r\n\r\n<p paraeid=\"{37e02cb7-a037-41fc-8349-440f8f216da7}{186}\" paraid=\"697580884\"><a href=\"https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html\" rel=\"noreferrer noopener\" target=\"_blank\">CDC Influenza Antiviral Medications: Summary for Clinicians</a>&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13541
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/influenza-0",
+   "langcode": "und",
+   "pid": 26196
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-12-10T00:48:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Influenza"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "a93d1c66-8a11-4c41-bf52-baff53d550fc"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16126
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:51+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1727195295,
+   "last_comment_uid": 506,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-02-03T22:28:19+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p><u><strong>Note</strong></u>: Post-operative pelvic abscess should be treated as a <strong>post-operative abdominal abscess</strong> (see <a href=\"/content/community-acquired-secondary-peritonitis-mild-moderate-intra-abdominal-or-post-op-pelvic\">IDMP empiric dosing recommendations</a>).&nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice<sup>a</sup></th>\n\t\t\t<th>Alternative Drug(s)<sup>a</sup></th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration<sup>b</sup></th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Pelvic Inflammatory Disease (mild-moderate, outpatient)</strong></td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{19}\" paraid=\"1160460032\">Anaerobes&nbsp;</p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{25}\" paraid=\"636080140\">Enteric GNRs&nbsp;</p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{31}\" paraid=\"366941711\"><em>G. vaginalis&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{37}\" paraid=\"710798254\"><em>H. influenzae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{43}\" paraid=\"902782740\"><em>Streptococcus agalactiae</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{249}\" paraid=\"1485648255\"><strong>Ceftriaxone 500 mg IM x1*&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{12}\" paraid=\"480353917\"><em>PLUS&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{18}\" paraid=\"1864083627\"><a href=\"/content/doxycycline\"><strong>Doxycycline&nbsp;</strong></a></p>\n\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{26}\" paraid=\"474897197\"><em>PLUS&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{32}\" paraid=\"1397401001\"><a href=\"/content/metronidazole\"><strong>Metronidazole&nbsp;</strong></a></p>\n\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{32}\" paraid=\"1397401001\"><em>*For &gt;150 kg with documented gonococcal infection, use ceftriaxone&nbsp;1 g.</em></p>\n\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{32}\" paraid=\"1397401001\"><em>*If Inpatient with IV access, may use 1 g IV regardless of body weight to avoid painful IM injection.</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{105}\" paraid=\"1024900329\"><em>For <a href=\"/content/allergy-beta-lactam\">severe penicillin allergy</a>:</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{115}\" paraid=\"767062362\"><a href=\"/content/clindamycin\"><strong>Clindamycin</strong></a></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{125}\" paraid=\"944613108\"><em>PLUS&nbsp;&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{131}\" paraid=\"1422877653\"><strong>Gentamicin IV 5 mg/kg once daily<sup>c </sup>&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{141}\" paraid=\"499353297\">&nbsp;</p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{145}\" paraid=\"1730558212\"><u><em>If improvement after 24-48h, step-down</em></u>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{151}\" paraid=\"926919976\"><em><a href=\"/content/doxycycline\"><strong>Doxycycline</strong></a></em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{151}\" paraid=\"926919976\"><em>PLUS</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{151}\" paraid=\"926919976\"><b><a href=\"/content/metronidazole\">Metronidazole</a></b></p>\n\t\t\t</td>\n\t\t\t<td>Step down to PO if improving after 24-28h on parenteral regimen</td>\n\t\t\t<td>14 days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{dd266e91-48c0-42fb-bdff-fdfb0bdf2844}{253}\" paraid=\"886001615\"><strong>Pelvic Inflammatory Disease (severe, hospitalized)&nbsp;</strong></p>\n\n\t\t\t<p lang=\"EN-US\" paraeid=\"{e29c9947-6a3e-4fbd-93b6-853023bceb8b}{197}\" paraid=\"590652917\" xml:lang=\"EN-US\"><strong>+/- Tubo-Ovarian Abscess (TOA)&nbsp;</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{19}\" paraid=\"1160460032\">Anaerobes&nbsp;</p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{25}\" paraid=\"636080140\">Enteric GNRs&nbsp;</p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{31}\" paraid=\"366941711\"><em>G. vaginalis&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{37}\" paraid=\"710798254\"><em>H. influenzae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{43}\" paraid=\"902782740\"><em>Streptococcus agalactiae</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{50}\" paraid=\"1189278310\"><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong></a></p>\n\n\t\t\t<p lang=\"EN-US\" paraeid=\"{85674af7-7557-4e2c-b150-33345c82efb7}{159}\" paraid=\"2032157007\" xml:lang=\"EN-US\"><em>PLUS&nbsp;&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{72}\" paraid=\"810064850\"><a href=\"/content/doxycycline\"><strong>Doxycycline</strong></a></p>\n\n\t\t\t<p lang=\"EN-US\" paraeid=\"{85674af7-7557-4e2c-b150-33345c82efb7}{172}\" paraid=\"11254011\" xml:lang=\"EN-US\"><em>PLUS&nbsp;</em></p>\n\n\t\t\t<p lang=\"EN-US\" paraeid=\"{85674af7-7557-4e2c-b150-33345c82efb7}{199}\" paraid=\"1949114626\" xml:lang=\"EN-US\"><a href=\"/content/metronidazole\"><strong>Metronidazole&nbsp;</strong></a></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{84}\" paraid=\"621810598\">&nbsp;</p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{88}\" paraid=\"1370771792\"><em><u>If improvement after 24-48h, step-down</u>:</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{94}\" paraid=\"1870612773\"><strong><a href=\"/content/doxycycline\"><em>Doxycycline</em></a></strong></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{94}\" paraid=\"1870612773\"><em>PLUS</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{94}\" paraid=\"1870612773\"><strong><a href=\"/content/metronidazole\"><em>Metronidazole</em></a></strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{105}\" paraid=\"1024900329\"><em>For <a href=\"/content/allergy-beta-lactam\">severe penicillin allergy</a>:</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{115}\" paraid=\"767062362\"><a href=\"/content/clindamycin\"><strong>Clindamycin</strong></a></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{125}\" paraid=\"944613108\"><em>PLUS&nbsp;&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{131}\" paraid=\"1422877653\"><strong>Gentamicin IV 5 mg/kg once daily<sup>c </sup></strong>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{141}\" paraid=\"499353297\">&nbsp;</p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{145}\" paraid=\"1730558212\"><em><u>If improvement after 24-48h, step-down</u>:&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{151}\" paraid=\"926919976\"><a href=\"/content/doxycycline\"><strong><em>Doxycycline</em></strong></a></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{159}\" paraid=\"19270196\"><em>PLUS</em></p>\n\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{159}\" paraid=\"19270196\"><em><strong><a href=\"/content/metronidazole\">Metronidazole</a></strong></em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Step down to PO if improving after 24-28h on parenteral regimen&nbsp;</p>\n\n\t\t\t<p>If TOA, surgical drainage may be necessary</p>\n\t\t\t</td>\n\t\t\t<td>14 days</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong><sup>a</sup></strong> Dosing assumes normal renal function, adjustments for renal impairment may apply.</p>\n\n<p paraeid=\"{5ed60dce-0783-46a9-b16f-0a37fd86dfd2}{35}\" paraid=\"227242903\"><strong><sup>b</sup></strong> Total duration should include effective IV days of therapy.</p>\n\n<p paraeid=\"{5ed60dce-0783-46a9-b16f-0a37fd86dfd2}{43}\" paraid=\"95395565\"><strong><sup>c</sup></strong> If normal renal function, start with gentamicin 5 mg/kg once daily and then adjust per <a href=\"/content/gentamicin\">Urban-Craig nomogram</a>&nbsp;(high dose, extended interval dosing). If renal impairment, dose gentamicin to target&nbsp;peak 6-8 and trough &lt;1 (traditional dosing).</p>\n\n<p paraeid=\"{5ed60dce-0783-46a9-b16f-0a37fd86dfd2}{71}\" paraid=\"1316008013\">*Note that drug shortages may dictate supplies and preferred regimens may adjust as needed.</p>\n",
+   "value": "<p><u><strong>Note</strong></u>: Post-operative pelvic abscess should be treated as a <strong>post-operative abdominal abscess</strong> (see <a href=\"/content/community-acquired-secondary-peritonitis-mild-moderate-intra-abdominal-or-post-op-pelvic\">IDMP empiric dosing recommendations</a>).&nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice<sup>a</sup></th>\r\n\t\t\t<th>Alternative Drug(s)<sup>a</sup></th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration<sup>b</sup></th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>Pelvic Inflammatory Disease (mild-moderate, outpatient)</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{19}\" paraid=\"1160460032\">Anaerobes&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{25}\" paraid=\"636080140\">Enteric GNRs&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{31}\" paraid=\"366941711\"><em>G. vaginalis&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{37}\" paraid=\"710798254\"><em>H. influenzae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{43}\" paraid=\"902782740\"><em>Streptococcus agalactiae</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{249}\" paraid=\"1485648255\"><strong>Ceftriaxone 500 mg IM x1*&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{12}\" paraid=\"480353917\"><em>PLUS&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{18}\" paraid=\"1864083627\"><a href=\"/content/doxycycline\"><strong>Doxycycline&nbsp;</strong></a></p>\r\n\r\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{26}\" paraid=\"474897197\"><em>PLUS&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{32}\" paraid=\"1397401001\"><a href=\"/content/metronidazole\"><strong>Metronidazole&nbsp;</strong></a></p>\r\n\r\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{32}\" paraid=\"1397401001\"><em>*For &gt;150 kg with documented gonococcal infection, use ceftriaxone&nbsp;1 g.</em></p>\r\n\r\n\t\t\t<p paraeid=\"{6a435853-47b0-43ea-a67a-d5ccd053b2ee}{32}\" paraid=\"1397401001\"><em>*If Inpatient with IV access, may use 1 g IV regardless of body weight to avoid painful IM injection.</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{105}\" paraid=\"1024900329\"><em>For <a href=\"/content/allergy-beta-lactam\">severe penicillin allergy</a>:</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{115}\" paraid=\"767062362\"><a href=\"/content/clindamycin\"><strong>Clindamycin</strong></a></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{125}\" paraid=\"944613108\"><em>PLUS&nbsp;&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{131}\" paraid=\"1422877653\"><strong>Gentamicin IV 5 mg/kg once daily<sup>c </sup>&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{141}\" paraid=\"499353297\">&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{145}\" paraid=\"1730558212\"><u><em>If improvement after 24-48h, step-down</em></u>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{151}\" paraid=\"926919976\"><em><a href=\"/content/doxycycline\"><strong>Doxycycline</strong></a></em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{151}\" paraid=\"926919976\"><em>PLUS</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{151}\" paraid=\"926919976\"><b><a href=\"/node/8406\">Metronidazole</a></b></p>\r\n\t\t\t</td>\r\n\t\t\t<td>Step down to PO if improving after 24-28h on parenteral regimen</td>\r\n\t\t\t<td>14 days</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{dd266e91-48c0-42fb-bdff-fdfb0bdf2844}{253}\" paraid=\"886001615\"><strong>Pelvic Inflammatory Disease (severe, hospitalized)&nbsp;</strong></p>\r\n\r\n\t\t\t<p lang=\"EN-US\" paraeid=\"{e29c9947-6a3e-4fbd-93b6-853023bceb8b}{197}\" paraid=\"590652917\" xml:lang=\"EN-US\"><strong>+/- Tubo-Ovarian Abscess (TOA)&nbsp;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{19}\" paraid=\"1160460032\">Anaerobes&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{25}\" paraid=\"636080140\">Enteric GNRs&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{31}\" paraid=\"366941711\"><em>G. vaginalis&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{37}\" paraid=\"710798254\"><em>H. influenzae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{43}\" paraid=\"902782740\"><em>Streptococcus agalactiae</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{50}\" paraid=\"1189278310\"><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong></a></p>\r\n\r\n\t\t\t<p lang=\"EN-US\" paraeid=\"{85674af7-7557-4e2c-b150-33345c82efb7}{159}\" paraid=\"2032157007\" xml:lang=\"EN-US\"><em>PLUS&nbsp;&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{72}\" paraid=\"810064850\"><a href=\"/content/doxycycline\"><strong>Doxycycline</strong></a></p>\r\n\r\n\t\t\t<p lang=\"EN-US\" paraeid=\"{85674af7-7557-4e2c-b150-33345c82efb7}{172}\" paraid=\"11254011\" xml:lang=\"EN-US\"><em>PLUS&nbsp;</em></p>\r\n\r\n\t\t\t<p lang=\"EN-US\" paraeid=\"{85674af7-7557-4e2c-b150-33345c82efb7}{199}\" paraid=\"1949114626\" xml:lang=\"EN-US\"><a href=\"/content/metronidazole\"><strong>Metronidazole&nbsp;</strong></a></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{84}\" paraid=\"621810598\">&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{88}\" paraid=\"1370771792\"><em><u>If improvement after 24-48h, step-down</u>:</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{94}\" paraid=\"1870612773\"><strong><a href=\"/content/doxycycline\"><em>Doxycycline</em></a></strong></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{94}\" paraid=\"1870612773\"><em>PLUS</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{94}\" paraid=\"1870612773\"><strong><a href=\"/content/metronidazole\"><em>Metronidazole</em></a></strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{105}\" paraid=\"1024900329\"><em>For <a href=\"/content/allergy-beta-lactam\">severe penicillin allergy</a>:</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{115}\" paraid=\"767062362\"><a href=\"/content/clindamycin\"><strong>Clindamycin</strong></a></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{125}\" paraid=\"944613108\"><em>PLUS&nbsp;&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{131}\" paraid=\"1422877653\"><strong>Gentamicin IV 5 mg/kg once daily<sup>c </sup></strong>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{141}\" paraid=\"499353297\">&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{145}\" paraid=\"1730558212\"><em><u>If improvement after 24-48h, step-down</u>:&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{151}\" paraid=\"926919976\"><a href=\"/content/doxycycline\"><strong><em>Doxycycline</em></strong></a></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{159}\" paraid=\"19270196\"><em>PLUS</em></p>\r\n\r\n\t\t\t<p paraeid=\"{383b2ee4-3cea-41f9-817c-aba45534592d}{159}\" paraid=\"19270196\"><em><strong><a href=\"/node/8406\">Metronidazole</a></strong></em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Step down to PO if improving after 24-28h on parenteral regimen&nbsp;</p>\r\n\r\n\t\t\t<p>If TOA, surgical drainage may be necessary</p>\r\n\t\t\t</td>\r\n\t\t\t<td>14 days</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><strong><sup>a</sup></strong> Dosing assumes normal renal function, adjustments for renal impairment may apply.</p>\r\n\r\n<p paraeid=\"{5ed60dce-0783-46a9-b16f-0a37fd86dfd2}{35}\" paraid=\"227242903\"><strong><sup>b</sup></strong> Total duration should include effective IV days of therapy.</p>\r\n\r\n<p paraeid=\"{5ed60dce-0783-46a9-b16f-0a37fd86dfd2}{43}\" paraid=\"95395565\"><strong><sup>c</sup></strong> If normal renal function, start with gentamicin 5 mg/kg once daily and then adjust per <a href=\"/content/gentamicin\">Urban-Craig nomogram</a>&nbsp;(high dose, extended interval dosing). If renal impairment, dose gentamicin to target&nbsp;peak 6-8 and trough &lt;1 (traditional dosing).</p>\r\n\r\n<p paraeid=\"{5ed60dce-0783-46a9-b16f-0a37fd86dfd2}{71}\" paraid=\"1316008013\">*Note that drug shortages may dictate supplies and preferred regimens may adjust as needed.</p>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1296,
+   "target_type": "taxonomy_term",
+   "target_uuid": "59973723-1e94-4b15-baf3-bec6f23310ae",
+   "url": "/guidelines-empiric-therapy-categories/abdominopelvic-infections"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "plain_text",
+   "processed": "<p>Empiric treatment recommendations for adult patients with Pelvic Inflammatory Disease (PID) with or without Tubo-Ovarian Abscess (TOA).</p>\n",
+   "value": "Empiric treatment recommendations for adult patients with Pelvic Inflammatory Disease (PID) with or without Tubo-Ovarian Abscess (TOA)."
+  }
+ ],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p>Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. 2021;70(4).</p>\n",
+   "value": "<p>Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. 2021;70(4).</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14341
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/pelvic-inflammatory-disease-0",
+   "langcode": "und",
+   "pid": 26971
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-09-24T16:28:15+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Pelvic Inflammatory Disease"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "679b9c12-5b2b-44e5-ab6c-6e73488d786d"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23811
+  }
+ ]
+}

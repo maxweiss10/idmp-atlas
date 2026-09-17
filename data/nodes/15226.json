@@ -1,0 +1,144 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-04T18:38:36+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1713991731,
+   "last_comment_uid": 566,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-04-24T20:48:51+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Indication</th><th>CrCl &gt; or = 30 mL/min</th><th>CrCl &lt; 30 mL/min</th></tr></thead><tbody><tr><td>Mycobacterial infections</td><td>300 mg PO q24h</td><td>150 mg PO q24h</td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Indication</th><th>CrCl &gt; or = 30 mL/min</th><th>CrCl &lt; 30 mL/min</th></tr></thead><tbody><tr><td>Mycobacterial infections</td><td>300 mg PO q24h</td><td>150 mg PO q24h</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Indication</th><th>Intermittent hemodialysis</th><th>Continuous hemodialysis</th></tr></thead><tbody><tr><td>Mycobacterial infections</td><td>No data</td><td>No data</td></tr></tbody></table><p>&nbsp;</p>",
+   "value": "<table><thead><tr><th>Indication</th><th>Intermittent hemodialysis</th><th>Continuous hemodialysis</th></tr></thead><tbody><tr><td>Mycobacterial infections</td><td>No data</td><td>No data</td></tr></tbody></table><p>&nbsp;</p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p><strong><u>Review medications for potential drug interactions.</u></strong></p>",
+   "value": "<p><strong><u>Review medications for potential drug interactions.</u></strong></p>"
+  }
+ ],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "Created on 04/24/24 by RJ (dosing quarterly meeting) and published on 05/08/24"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15226
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/rifabutin",
+   "langcode": "und",
+   "pid": 27791
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-04T18:38:36+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Rifabutin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "99f20a16-9396-4cfb-bdea-cc9ad5d7c822"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24456
+  }
+ ]
+}

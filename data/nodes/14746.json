@@ -1,0 +1,163 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-01T19:44:47+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1693525292,
+   "last_comment_uid": 566,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-08-31T23:41:32+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt; = 10 ml/min</th>\n\t\t\t<th>CrCl &lt; 10 ml/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><em>Pneumocystis</em> pneumonia TREATMENT</td>\n\t\t\t<td>4 mg/kg IV q24h</td>\n\t\t\t<td>4 mg/kg IV q36h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*The current prescribing information does not provide specific renal adjustments and may need to consider other dosing outside of these&nbsp;recommendations.&nbsp;</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt; = 10 ml/min</th>\r\n\t\t\t<th>CrCl &lt; 10 ml/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><em>Pneumocystis</em> pneumonia TREATMENT</td>\r\n\t\t\t<td>4 mg/kg IV q24h</td>\r\n\t\t\t<td>4 mg/kg IV q36h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*The current prescribing information does not provide specific renal adjustments and may need to consider other dosing outside of these&nbsp;recommendations.&nbsp;</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><em>Pneumocystis</em> pneumonia TREATMENT</td>\n\t\t\t<td>4 mg/kg IV q24h (no adjustment for hemodialysis)</td>\n\t\t\t<td>4 mg/kg IV q24h (no adjustment for hemodialysis)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><em>Pneumocystis</em> pneumonia TREATMENT</td>\r\n\t\t\t<td>4 mg/kg IV q24h (no adjustment for hemodialysis)</td>\r\n\t\t\t<td>4 mg/kg IV q24h (no adjustment for hemodialysis)</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 66,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d2274533-3b4b-403d-b6bd-9026f83daea2",
+   "url": "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>*The current prescribing information does not provide specific renal adjustments and may need to consider other dosing outside of these&nbsp;recommendations.&nbsp; &nbsp;</p>\n",
+   "value": "<p>*The current prescribing information does not provide specific renal adjustments and may need to consider other dosing outside of these&nbsp;recommendations.&nbsp; &nbsp;</p>\r\n"
+  }
+ ],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship&nbsp;</p>\n",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship&nbsp;</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "04/2025 - RJ updated weight from TBW < 120% IBW to TBW"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14746
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/pentamidine-iv",
+   "langcode": "und",
+   "pid": 27331
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-01T19:44:47+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Pentamidine IV "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "80670984-1be0-4518-b4e4-59ac143b7881"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22676
+  }
+ ]
+}

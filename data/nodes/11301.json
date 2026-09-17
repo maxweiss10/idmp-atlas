@@ -1,0 +1,261 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1756039884,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-12T16:46:34+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": true
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 0
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "Charles Chiu"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [
+  {
+   "value": "415-889-6441"
+  }
+ ],
+ "field_person_first_name": [
+  {
+   "value": "Charles"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 576,
+   "target_type": "media",
+   "target_uuid": "2b4bd1df-f668-4faa-8b43-ff34cee2ecb6",
+   "url": "/media/576"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Chiu"
+  }
+ ],
+ "field_person_middle_name": [
+  {
+   "value": "Y"
+  }
+ ],
+ "field_person_preferred_name": [
+  {
+   "value": "Charles"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1546,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c3bb6a06-e4ad-4209-9b86-8bb438168c80",
+   "url": "/departments-units-and-organizations/mlaboratory-medicine"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [
+  {
+   "target_id": 19261,
+   "target_type": "node",
+   "target_uuid": "094b364a-c452-415e-b6b2-9e7cabb5a54e",
+   "url": "/content/the-impact-of-clinical-metagenomic-testing-on-patient-management-facts-versus-fantasy"
+  }
+ ],
+ "field_person_research_biography": [
+  {
+   "format": "plain_text",
+   "processed": "<p>Charles Chiu, M.D./Ph.D. is Professor of Laboratory Medicine and Medicine, Division of Infectious Diseases at University of California, San Francisco and Co-Director of the UCSF Clinical Microbiology Laboratory. Chiu currently leads a translational research laboratory focused on the development and clinical validation of metagenomic next-generation sequencing (mNGS) and host response profiling assays for diagnosis of infections, outbreak investigation, and pathogen discovery. He is a principal developer of clinical mNGS assays for pathogen detection from cerebrospinal fluid, plasma, and respiratory fluids that have achieved breakthrough device designation from the FDA. Chiu also leverages machine learning based approaches to develop host response classification models based on RNA gene expression for differential diagnosis of acute infectious syndromes (meningitis / encephalitis and sepsis) and infection-associated chronic illnesses (Lyme disease, chronic fatigue syndrome, and long COVID). Chiu’s work is supported by funding from the National Institutes of Health (NIH), US Department of Defense (DoD), Abbott Laboratories, Chan-Zuckerberg Biohub, and the Bay Area Lyme Disease Foundation.  Dr. Chiu has authored more than 200 peer-reviewed publications, holds over 15 patents and patent applications, is a co-founder of Delve Bio, and serves on the scientific advisory board of Delve Bio, Biomeme, Mammoth Biosciences, Flightpath Biosciences, Biomesense, and Poppy Health.</p>\n",
+   "value": "Charles Chiu, M.D./Ph.D. is Professor of Laboratory Medicine and Medicine, Division of Infectious Diseases at University of California, San Francisco and Co-Director of the UCSF Clinical Microbiology Laboratory. Chiu currently leads a translational research laboratory focused on the development and clinical validation of metagenomic next-generation sequencing (mNGS) and host response profiling assays for diagnosis of infections, outbreak investigation, and pathogen discovery. He is a principal developer of clinical mNGS assays for pathogen detection from cerebrospinal fluid, plasma, and respiratory fluids that have achieved breakthrough device designation from the FDA. Chiu also leverages machine learning based approaches to develop host response classification models based on RNA gene expression for differential diagnosis of acute infectious syndromes (meningitis / encephalitis and sepsis) and infection-associated chronic illnesses (Lyme disease, chronic fatigue syndrome, and long COVID). Chiu’s work is supported by funding from the National Institutes of Health (NIH), US Department of Defense (DoD), Abbott Laboratories, Chan-Zuckerberg Biohub, and the Bay Area Lyme Disease Foundation.  Dr. Chiu has authored more than 200 peer-reviewed publications, holds over 15 patents and patent applications, is a co-founder of Delve Bio, and serves on the scientific advisory board of Delve Bio, Biomeme, Mammoth Biosciences, Flightpath Biosciences, Biomesense, and Poppy Health."
+  }
+ ],
+ "field_person_subtype": [
+  {
+   "target_id": 641,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8e527da1-8c6c-44a7-8bc9-d8a3451fb862",
+   "url": "/person-type/ucsf-medical-center"
+  }
+ ],
+ "field_person_title_override": [],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 346,
+   "target_type": "taxonomy_term",
+   "target_uuid": "eb5cc219-543f-4415-a229-94d58e47d3a1",
+   "url": "/person-type/affiliate"
+  },
+  {
+   "target_id": 176,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee47c868-e940-4230-af11-2a747ae34b77",
+   "url": "/person-type/faculty"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 1511,
+   "target_type": "taxonomy_term",
+   "target_uuid": "26ba1f5b-b349-4dd8-9d44-a1c2597e55f1",
+   "url": "/person-type/rfs"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_person_working_title": [
+  {
+   "value": "Professor"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [
+  {
+   "value": "Orbital Launch Winner, 3rd Annual Humans in Space Challenge, Boryung, Inc., 2025"
+  },
+  {
+   "value": "Luminary Award, Precision Medicine World Conference, 2025"
+  },
+  {
+   "value": "Ed Nowakowski Senior Memorial Clinical Virology Award, Pan-American Society for Clinical Virology, 2024"
+  },
+  {
+   "value": "Gardner Lectureship Award, European Society for Clinical Virology, 2023"
+  },
+  {
+   "value": "Biohub Investigator Award, Chan-Zuckerberg Biohub, 2022-2026"
+  },
+  {
+   "value": "Finalist, XPRIZE Rapid COVID Testing Competition, XPRIZE, 2022"
+  },
+  {
+   "value": "Distinguished Researcher Award in Lyme Disease, Harvard Medical School / Partners in Health Massachusetts General Hospital, 2014"
+  }
+ ],
+ "field_profiles_link": [
+  {
+   "options": {
+    "attributes": []
+   },
+   "title": null,
+   "uri": "https://profiles.ucsf.edu/charles.chiu"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11301
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/charles-chiu-md-phd",
+   "langcode": "und",
+   "pid": 24021
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-24T12:51:24+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Charles Chiu, MD, PhD"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "02662649-cf2a-47fb-afbb-2794dff5498b"
+  }
+ ],
+ "vid": [
+  {
+   "value": 12076
+  }
+ ]
+}

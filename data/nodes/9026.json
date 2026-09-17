@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-07-15T17:15:56+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1626369356,
+   "last_comment_uid": 201,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-07-21T16:22:14+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Septic Arthritis</strong> (no hardware in place)</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>S. aureus<br>\n\t\t\tStreptococcus spp.<br>\n\t\t\tN. gonorrhoeae<br>\n\t\t\tEnterobacteriaceae </em>(rarely)</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><br>\n\t\t\t<em>PLUS</em><br>\n\t\t\t<a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong> </a>2g IV daily if at risk for gonococcus or GNR (IDU, immunocompromised, elderly) or Gram stain shows gram-negative organisms</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe PCN allergy</a></em>:<br>\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><br>\n\t\t\t<em>PLUS:</em><br>\n\t\t\t<a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a><br>\n\t\t\tIf <em>N. gonorrhoeae</em> suspected, please consult ID or ID pharmacy for alternate treatment recommendations</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Gram stain recommended to guide therapy</p>\n\n\t\t\t<p>Narrow coverage to microbiologically confirmed pathogens.</p>\n\t\t\t</td>\n\t\t\t<td>ID consultation recommended</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Septic Arthritis</strong> (no hardware in place)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>S. aureus<br />\r\n\t\t\tStreptococcus spp.<br />\r\n\t\t\tN. gonorrhoeae<br />\r\n\t\t\tEnterobacteriaceae </em>(rarely)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><br />\r\n\t\t\t<em>PLUS</em><br />\r\n\t\t\t<a href=\"/node/8331\"><strong>Ceftriaxone</strong> </a>2g IV daily if at risk for gonococcus or GNR (IDU, immunocompromised, elderly) or Gram stain shows gram-negative organisms</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe PCN allergy</a></em>:<br />\r\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a><br />\r\n\t\t\t<em>PLUS:</em><br />\r\n\t\t\t<a href=\"/node/8271\"><strong>Aztreonam</strong></a><br />\r\n\t\t\tIf <em>N. gonorrhoeae</em> suspected, please consult ID or ID pharmacy for alternate treatment recommendations</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Gram stain recommended to guide therapy</p>\r\n\r\n\t\t\t<p>Narrow coverage to microbiologically confirmed pathogens.</p>\r\n\t\t\t</td>\r\n\t\t\t<td>ID consultation recommended</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 126,
+   "target_type": "taxonomy_term",
+   "target_uuid": "2dc18f2f-531d-44e4-b6b4-15004f29d271",
+   "url": "/guidelines-empiric-therapy-categories/bone-joint-infections-without-hardware"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 9026
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/septic-arthritis-no-hardware-in-place",
+   "langcode": "und",
+   "pid": 21791
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-07-15T17:15:56+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Septic Arthritis (No Hardware in Place)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "e9517d72-d281-448b-8cb8-121443bc12cd"
+  }
+ ],
+ "vid": [
+  {
+   "value": 9736
+  }
+ ]
+}

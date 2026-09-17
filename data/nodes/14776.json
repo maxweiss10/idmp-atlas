@@ -1,0 +1,134 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "",
+   "summary": "This guidance document includes supplemental information to educate providers on the rationale and role of beta-lactam test dosing to evaluate documented allergies among inpatients at ZSFG.",
+   "value": ""
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-02-20T16:34:41+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1698700151,
+   "last_comment_uid": 211,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-09-11T21:51:53+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 431,
+   "target_type": "taxonomy_term",
+   "target_uuid": "f25f557e-a860-4aad-8722-978dcb5e1610",
+   "url": "/guideline-categories/policies-procedures-protocols"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2023-10-30"
+  },
+  {
+   "value": "2025-07-28"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 466,
+   "target_type": "taxonomy_term",
+   "target_uuid": "76c3e2d7-207d-494f-b563-ff93679a08e1",
+   "url": "/site/zuckerberg-san-francisco-general"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1526,
+   "target_type": "media",
+   "target_uuid": "1e8edc2a-f469-4c85-bff9-baa711fa8dcb",
+   "url": "/document/zsfg-inpatient-beta-lactam-allergy-test-dose-guidance-0-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14776
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/zsfg-inpatient-beta-lactam-allergy-test-dose-guidance",
+   "langcode": "und",
+   "pid": 27361
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-07-28T20:31:41+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "ZSFG Inpatient Beta-Lactam Allergy Test Dose Guidance"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "9eecb34f-d825-4251-b1f8-718c7c01a642"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23011
+  }
+ ]
+}

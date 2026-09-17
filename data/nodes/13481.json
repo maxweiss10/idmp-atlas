@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:25:46+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629825946,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T21:19:40+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{246}\" paraid=\"1112812786\">Necrotizing fasciitis or other necrotizing soft tissue infection&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{1}\" paraid=\"1425758874\">Diagnosis is supported by signs of systemic toxicity with toxic-shock-like symptoms, severe pain or pain out of proportion to physical findings, altered mental status, rapidly advancing infection, crepitus, hemorrhage, sloughing.</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{1}\" paraid=\"1425758874\">Intraoperative findings include  presence of grayish fascia, lack of resistance of normally adherent muscular fascia to blunt dissection, lack of bleeding of the fascia during dissection and presence of foul-smelling \"dishwater\" pus</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{14}\" paraid=\"1017059914\">Group A streptococcus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{24}\" paraid=\"1921476655\">Can be polymicrobial including anaerobes, <em>Clostridium</em> spp, with skin flora&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{31}\" paraid=\"1337243898\"><a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin </a>&nbsp;<br>\n\t\t\t(follow link for dosing &amp; monitoring)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{49}\" paraid=\"463985874\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{55}\" paraid=\"298783270\">Piperacillin-tazobactam<br>\n\t\t\t100 mg piperacillin/kg/dose (max 4000 mg piperacillin/dose) IV q6h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{69}\" paraid=\"1224364856\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{79}\" paraid=\"617491289\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{86}\" paraid=\"341948594\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{96}\" paraid=\"1071881017\">Consult ID/ASP for guidance on alternative therapy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{102}\" paraid=\"432450210\"> &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{113}\" paraid=\"874424527\">Urgent Surgery consult recommended&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{123}\" paraid=\"1619778259\">ID consult recommended&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{129}\" paraid=\"1884731271\">Therapy should be modified as indicated based on isolated pathogen(s), including narrowing the initial regimen to target identified pathogen(s) and stopping clindamycin after initial clinical improvement. &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{139}\" paraid=\"597518536\"><strong>Duration</strong>:&nbsp;7-14 days, guided by response to therapy. Continue until further debridement is not necessary, patient has clinically improved, and is afebrile for 48-72 hours&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{246}\" paraid=\"1112812786\">Necrotizing fasciitis or other necrotizing soft tissue infection&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{1}\" paraid=\"1425758874\">Diagnosis is supported by signs of systemic toxicity with toxic-shock-like symptoms, severe pain or pain out of proportion to physical findings, altered mental status, rapidly advancing infection, crepitus, hemorrhage, sloughing.</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{1}\" paraid=\"1425758874\">Intraoperative findings include  presence of grayish fascia, lack of resistance of normally adherent muscular fascia to blunt dissection, lack of bleeding of the fascia during dissection and presence of foul-smelling \"dishwater\" pus</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{14}\" paraid=\"1017059914\">Group A streptococcus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{24}\" paraid=\"1921476655\">Can be polymicrobial including anaerobes, <em>Clostridium</em> spp, with skin flora&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{31}\" paraid=\"1337243898\"><a href=\"/node/13571\">Vancomycin </a>&nbsp;<br />\r\n\t\t\t(follow link for dosing &amp; monitoring)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{49}\" paraid=\"463985874\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{55}\" paraid=\"298783270\">Piperacillin-tazobactam<br />\r\n\t\t\t100 mg piperacillin/kg/dose (max 4000 mg piperacillin/dose) IV q6h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{69}\" paraid=\"1224364856\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{79}\" paraid=\"617491289\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{86}\" paraid=\"341948594\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{96}\" paraid=\"1071881017\">Consult ID/ASP for guidance on alternative therapy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{102}\" paraid=\"432450210\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{113}\" paraid=\"874424527\">Urgent Surgery consult recommended&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{123}\" paraid=\"1619778259\">ID consult recommended&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{129}\" paraid=\"1884731271\">Therapy should be modified as indicated based on isolated pathogen(s), including narrowing the initial regimen to target identified pathogen(s) and stopping clindamycin after initial clinical improvement. &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{139}\" paraid=\"597518536\"><strong>Duration</strong>:&nbsp;7-14 days, guided by response to therapy. Continue until further debridement is not necessary, patient has clinically improved, and is afebrile for 48-72 hours&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 166,
+   "target_type": "taxonomy_term",
+   "target_uuid": "aea1cebe-dad3-4dfe-a589-7e3eea5a9345",
+   "url": "/guidelines-empiric-therapy-categories/skin-and-soft-tissue-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{159}\" paraid=\"1422419469\">Reference:&nbsp;&nbsp;</h2>\n\n<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{165}\" paraid=\"32368944\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{159}\" paraid=\"1422419469\">Reference:&nbsp;&nbsp;</h2>\r\n\r\n<p paraeid=\"{c4533e2d-5402-46a4-90ae-ec3aaf7fe0ac}{165}\" paraid=\"32368944\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13481
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/necrotizing-fasciitis",
+   "langcode": "und",
+   "pid": 26136
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:25:46+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Necrotizing Fasciitis    "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5cf01e8d-f77d-41e0-98b9-73615686b486"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16066
+  }
+ ]
+}

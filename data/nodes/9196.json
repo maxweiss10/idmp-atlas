@@ -1,0 +1,131 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "",
+   "summary": "ZSFG guidelines for surgical preoperative antibiotic prophylaxis. Contains recommended regimens by type of surgery (with alternative for patients with beta-lactam allergy) and dosing guidance for adults and pediatrics.",
+   "value": ""
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-09T19:08:58+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1700676463,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-11T18:21:35+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2023-09-30"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 466,
+   "target_type": "taxonomy_term",
+   "target_uuid": "76c3e2d7-207d-494f-b563-ff93679a08e1",
+   "url": "/site/zuckerberg-san-francisco-general"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1046,
+   "target_type": "media",
+   "target_uuid": "f632e76f-d322-4bae-b22a-63cde1361708",
+   "url": "/document/zsfg-surgical-ppx-abx-guidelines-rev-9-2023-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 9196
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/zsfg-surgical-prophylaxis-guidelines",
+   "langcode": "und",
+   "pid": 21946
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-11-22T18:07:43+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "ZSFG Surgical Prophylaxis Guidelines"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "f2220fed-c300-4283-ae20-17f45d17ae3f"
+  }
+ ],
+ "vid": [
+  {
+   "value": 9951
+  }
+ ]
+}

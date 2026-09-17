@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "comment_node_ucsf_publication": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1782696201,
+   "last_comment_uid": 0,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-21T07:00:00+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_publication_authorlist": [
+  {
+   "format": null,
+   "processed": "<p>Brown JR, Chiu CY, López-Labrador FX, de Vries JJC</p>\n",
+   "value": "Brown JR, Chiu CY, López-Labrador FX, de Vries JJC"
+  }
+ ],
+ "field_publication_id": [
+  {
+   "value": "https://researcherprofiles.org/profile/774763155"
+  }
+ ],
+ "field_publication_name": [
+  {
+   "target_id": 1096,
+   "target_type": "taxonomy_term",
+   "target_uuid": "dbe3cabc-cda8-4490-9d33-ef021b804457",
+   "url": "/publications/lancet-infectious-diseases"
+  }
+ ],
+ "field_publication_pubmedid": [
+  {
+   "value": "42030968"
+  }
+ ],
+ "field_publication_title": [
+  {
+   "format": null,
+   "processed": "<p>Brown JR, Chiu CY, López-Labrador FX, de Vries JJC. The impact of clinical metagenomic testing on patient management: facts versus fantasy. Lancet Infect Dis. 2026 Apr 21.</p>\n",
+   "value": "Brown JR, Chiu CY, López-Labrador FX, de Vries JJC. The impact of clinical metagenomic testing on patient management: facts versus fantasy. Lancet Infect Dis. 2026 Apr 21."
+  }
+ ],
+ "field_publication_year": [
+  {
+   "value": "2026"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 19261
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/the-impact-of-clinical-metagenomic-testing-on-patient-management-facts-versus-fantasy",
+   "langcode": "und",
+   "pid": 32261
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "The impact of clinical metagenomic testing on patient management: facts versus fantasy."
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_publication",
+   "target_type": "node_type",
+   "target_uuid": "aab43f59-8b93-481f-9f49-a929dc92e1dd"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "094b364a-c452-415e-b6b2-9e7cabb5a54e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 27896
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:30:37+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633717837,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T17:58:59+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{176}\" paraid=\"35171729\">Ophthalmia neonatorum (eye infection at &lt;30 days of age)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{182}\" paraid=\"130501792\">Gonococcal ophthalmia usually manifests 2-5 days after birth with acute, severe conjunctivitis&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{196}\" paraid=\"436343419\"><em>C. trachomatis</em>&nbsp;ophthalmia usually manifests 5-12 days after birth with less severe conjunctivitis&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{208}\" paraid=\"1977584764\">Either can present with discharge +/- conjunctival injection. If clinical concern in infant &lt;30 days, at BCH the following tests should be obtained by swabbing everted eyelid:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{214}\" paraid=\"471690990\">1. Chlamydia/Gonorrhea RNA NAAT (independently validated&nbsp;both BCH OAK and SF&nbsp;labs but not FDA-approved)</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{214}\" paraid=\"471690990\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{230}\" paraid=\"164095364\">2. “Eye culture” (respiratory bacterial culture with Gram stain,  with comment to “look for&nbsp;<em>N. gonorrhoeae</em>”) &nbsp;</p>\n\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{244}\" paraid=\"1735683970\">Presumptive treatment (without a confirmed&nbsp;diagnosis) for <em>N. gonorrhoeae</em> is indicated for intracellular gram-negative diplococci on Gram stain, or high index of clinical suspicion pending cultures&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{1}\" paraid=\"1165218485\">See guidance on <a href=\"/content/neonatal-herpes-simplex-virus-disease\">HSV evaluation &amp; management in neonates </a>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{12}\" paraid=\"124208945\"><em>Chlamydia trachomatis&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{22}\" paraid=\"1986769399\"><em>Neisseria gonorrhoeae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{32}\" paraid=\"1962739584\">Consider HSV, other bacterial pathogens (per culture results), or noninfectious causes&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{39}\" paraid=\"706065468\"><strong>Proven or presumptive <em>N. gonorrhoeae</em>:&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{53}\" paraid=\"171625710\">Ceftriaxone 50 mg/kg/dose (max 125 mg/dose) IM/IV x 1 dose&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{63}\" paraid=\"1292078367\">Refer to guidance addressing <a href=\"/content/safety-criteria-for-ceftriaxone-administration-to-neonates\">use of Ceftriaxone in neonates</a>. Intravenous calcium-containing solutions should not be administered within 48 hours before or after Ceftriaxone administration&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{75}\" paraid=\"1362765148\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{81}\" paraid=\"1052255768\"><strong>Proven&nbsp;C <em>trachomatis</em></strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{95}\" paraid=\"1841651316\">Azithromycin &nbsp;<br>\n\t\t\t20 mg/kg/dose enterally daily x 3 days*&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{113}\" paraid=\"877256322\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{119}\" paraid=\"283765590\"><strong>Other</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{129}\" paraid=\"251282523\">Management based on clinical characteristics, culture results as indicated&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Consult ID/ASP for alternative therapies if single dose of Ceftriaxone is contraindicated (for example due to administration of calcium-containing solutions)&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{155}\" paraid=\"1131952822\">Topical therapy is not indicated for<em>&nbsp;C. trachomatis</em>&nbsp;or<em>&nbsp;N. gonorrhoeae&nbsp;treatment</em> - both require systemic therapy &nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{173}\" paraid=\"1826911414\">Infants with&nbsp;<em>N. gonorrhoeae</em>&nbsp;ophthalmia neonatorum require Ophthalmology consultation, admission for eye irrigation, and should be evaluated clinically for signs of disseminated infection (e.g., sepsis, arthritis, and/or meningitis)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{187}\" paraid=\"651439242\">*Enteral Azithromycin recommended over Erythromycin given equivalent spectrum of activity with more convenient dosing and better side effect profile (decreased potential risk of QT prolongation and pyloric stenosis; fewer medication interactions)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{197}\" paraid=\"1667068306\"><em>C. trachomatis&nbsp;</em>ophthalmia neonatorum is generally self-limited, treatment is indicated to reduce risk of&nbsp;subsequent pneumonia or invasive disease&nbsp;</p>\n\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{211}\" paraid=\"1876893987\">Refer birth parent for evaluation as clinically indicated&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{176}\" paraid=\"35171729\">Ophthalmia neonatorum (eye infection at &lt;30 days of age)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{182}\" paraid=\"130501792\">Gonococcal ophthalmia usually manifests 2-5 days after birth with acute, severe conjunctivitis&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{196}\" paraid=\"436343419\"><em>C. trachomatis</em>&nbsp;ophthalmia usually manifests 5-12 days after birth with less severe conjunctivitis&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{208}\" paraid=\"1977584764\">Either can present with discharge +/- conjunctival injection. If clinical concern in infant &lt;30 days, at BCH the following tests should be obtained by swabbing everted eyelid:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{214}\" paraid=\"471690990\">1. Chlamydia/Gonorrhea RNA NAAT (independently validated&nbsp;both BCH OAK and SF&nbsp;labs but not FDA-approved)</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{214}\" paraid=\"471690990\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{230}\" paraid=\"164095364\">2. “Eye culture” (respiratory bacterial culture with Gram stain,  with comment to “look for&nbsp;<em>N. gonorrhoeae</em>”) &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{37fdce0c-325e-4770-8916-a4d10084744d}{244}\" paraid=\"1735683970\">Presumptive treatment (without a confirmed&nbsp;diagnosis) for <em>N. gonorrhoeae</em> is indicated for intracellular gram-negative diplococci on Gram stain, or high index of clinical suspicion pending cultures&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{1}\" paraid=\"1165218485\">See guidance on <a href=\"/node/13341\">HSV evaluation &amp; management in neonates </a>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{12}\" paraid=\"124208945\"><em>Chlamydia trachomatis&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{22}\" paraid=\"1986769399\"><em>Neisseria gonorrhoeae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{32}\" paraid=\"1962739584\">Consider HSV, other bacterial pathogens (per culture results), or noninfectious causes&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{39}\" paraid=\"706065468\"><strong>Proven or presumptive <em>N. gonorrhoeae</em>:&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{53}\" paraid=\"171625710\">Ceftriaxone 50 mg/kg/dose (max 125 mg/dose) IM/IV x 1 dose&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{63}\" paraid=\"1292078367\">Refer to guidance addressing <a href=\"/node/13566\">use of Ceftriaxone in neonates</a>. Intravenous calcium-containing solutions should not be administered within 48 hours before or after Ceftriaxone administration&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{75}\" paraid=\"1362765148\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{81}\" paraid=\"1052255768\"><strong>Proven&nbsp;C <em>trachomatis</em></strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{95}\" paraid=\"1841651316\">Azithromycin &nbsp;<br />\r\n\t\t\t20 mg/kg/dose enterally daily x 3 days*&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{113}\" paraid=\"877256322\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{119}\" paraid=\"283765590\"><strong>Other</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{129}\" paraid=\"251282523\">Management based on clinical characteristics, culture results as indicated&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Consult ID/ASP for alternative therapies if single dose of Ceftriaxone is contraindicated (for example due to administration of calcium-containing solutions)&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{155}\" paraid=\"1131952822\">Topical therapy is not indicated for<em>&nbsp;C. trachomatis</em>&nbsp;or<em>&nbsp;N. gonorrhoeae&nbsp;treatment</em> - both require systemic therapy &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{173}\" paraid=\"1826911414\">Infants with&nbsp;<em>N. gonorrhoeae</em>&nbsp;ophthalmia neonatorum require Ophthalmology consultation, admission for eye irrigation, and should be evaluated clinically for signs of disseminated infection (e.g., sepsis, arthritis, and/or meningitis)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{187}\" paraid=\"651439242\">*Enteral Azithromycin recommended over Erythromycin given equivalent spectrum of activity with more convenient dosing and better side effect profile (decreased potential risk of QT prolongation and pyloric stenosis; fewer medication interactions)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{197}\" paraid=\"1667068306\"><em>C. trachomatis&nbsp;</em>ophthalmia neonatorum is generally self-limited, treatment is indicated to reduce risk of&nbsp;subsequent pneumonia or invasive disease&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{211}\" paraid=\"1876893987\">Refer birth parent for evaluation as clinically indicated&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1656,
+   "target_type": "taxonomy_term",
+   "target_uuid": "cb10dabe-b965-4057-b248-042e218f5f23",
+   "url": "/guidelines-empiric-therapy-categories/congenitalperinatal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{223}\" paraid=\"1805655580\">References</h2>\n\n<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{229}\" paraid=\"2024800549\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\n\n<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{249}\" paraid=\"780033069\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n\n<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{22}\" paraid=\"1269358689\">Hammerschlag MR,  Gelling M,  Roblin PM,  Kutlin A,  Jule JE. <a href=\"https://journals.lww.com/pidj/Fulltext/1998/11000/TREATMENT_OF_NEONATAL_CHLAMYDIAL_CONJUNCTIVITIS.20.aspx\">Treatment of neonatal chlamydial conjunctivitis with azithromycin</a>.&nbsp;Pediatr Infect Dis J, 1998;&nbsp;17:1049-50.&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{223}\" paraid=\"1805655580\">References</h2>\r\n\r\n<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{229}\" paraid=\"2024800549\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\r\n\r\n<p paraeid=\"{f84bc95c-c0d7-4d62-ac67-a86b075c9c62}{249}\" paraid=\"780033069\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n\r\n<p paraeid=\"{7d82efd5-2453-470b-b838-c33312f84051}{22}\" paraid=\"1269358689\">Hammerschlag MR,  Gelling M,  Roblin PM,  Kutlin A,  Jule JE. <a href=\"https://journals.lww.com/pidj/Fulltext/1998/11000/TREATMENT_OF_NEONATAL_CHLAMYDIAL_CONJUNCTIVITIS.20.aspx\">Treatment of neonatal chlamydial conjunctivitis with azithromycin</a>.&nbsp;Pediatr Infect Dis J, 1998;&nbsp;17:1049-50.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13351
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ophthalmia-neonatorum",
+   "langcode": "und",
+   "pid": 26011
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:30:37+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Ophthalmia Neonatorum "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "c6b6833c-67a7-4f02-8cce-2c6555688d8d"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15936
+  }
+ ]
+}

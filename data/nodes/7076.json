@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-03-17T21:39:51+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1679089191,
+   "last_comment_uid": 0,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-13T22:32:17+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<p>Reports on aggregate antimicrobial susceptibility across UCSF hospitals.</p>\n\n<ul>\n\t<li><a class=\"btn--small btn--more--reverse\" href=\"/content/antimicrobial-susceptibility-at-ucsf-adult-hospitals\">UCSF Medical Center Adults</a></li>\n\t<li><a class=\"btn--small btn--more--reverse\" href=\"/content/antimicrobial-susceptibility-at-ucsf-benioff-childrens-hospital-san-francisco\">UCSF Benioff Children's Hospital San Francisco</a></li>\n\t<li><a class=\"btn--small btn--more--reverse\" href=\"/content/antibiogram-ucsf-benioff-childrens-hospital-oakland\">UCSF Benioff Children's Hospital Oakland</a></li>\n\t<li><a class=\"btn--small btn--more--reverse\" href=\"/content/antimicrobial-susceptibility-at-san-francisco-veterans-affairs-va-medical-center\">Veterans Affairs San Francisco Medical Center </a></li>\n\t<li><a class=\"btn--small btn--more--reverse\" href=\"/content/antimicrobial-susceptibility-at-zuckerberg-san-francisco-general-laguna-honda-hospital\">Zuckerberg San Francisco General Hospital</a></li>\n</ul>\n",
+   "value": "<p>Reports on aggregate antimicrobial susceptibility across UCSF hospitals.</p>\r\n\r\n<ul>\r\n\t<li><a class=\"btn--small btn--more--reverse\" href=\"/node/13201\">UCSF Medical Center Adults</a></li>\r\n\t<li><a class=\"btn--small btn--more--reverse\" href=\"/node/7591\">UCSF Benioff Children's Hospital San Francisco</a></li>\r\n\t<li><a class=\"btn--small btn--more--reverse\" href=\"/node/12221\">UCSF Benioff Children's Hospital Oakland</a></li>\r\n\t<li><a class=\"btn--small btn--more--reverse\" href=\"/node/7556\">Veterans Affairs San Francisco Medical Center </a></li>\r\n\t<li><a class=\"btn--small btn--more--reverse\" href=\"/node/7571\">Zuckerberg San Francisco General Hospital</a></li>\r\n</ul>\r\n"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 7076
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/antibiograms",
+   "langcode": "und",
+   "pid": 20156
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-03-17T21:39:51+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Antibiograms"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "ae4c4b88-215f-4298-825f-5fd326cb4b83"
+  }
+ ],
+ "vid": [
+  {
+   "value": 7076
+  }
+ ]
+}

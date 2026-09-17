@@ -1,0 +1,138 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-10-13T05:29:15+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1727916242,
+   "last_comment_uid": 566,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-10-03T00:44:02+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>For UCSF pharmacists, access the pharmacy guidance manual click <a href=\"https://ucsfonline.sharepoint.com/sites/Parn-MBAdults-PedsASP/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120003C11880FF7C58A4AA76CA31C8318ECD7&amp;id=%2Fsites%2FParn%2DMBAdults%2DPedsASP%2FShared%20Documents%2FVancomycin%2FVancomycin%20Optimization%202023%20%28Adult%29%2FInterim%20Guidance%20%28Adult%29%20Materials%2FUCSF%20Adult%20Pharmacokinetic%20Materials%20for%20Pharmacists\">here</a></p><p><strong>Do not use high-dose extended interval dosing strategy (using Hartford nomogram) in the following populations:</strong><!--StartFragment --></p><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td style=\"width:312px;\"><p>- Cr Cl ≤ 20 ml/min</p><p>- Aminoglycoside t ½ &gt; 4.5 hours</p><p>- Patients with burns &gt; 20% total burn surface area (TBSA)</p></td><td style=\"width:312px;\"><p>- Ascites</p><p>- Cystic Fibrosis (CF) patients</p><p>- Pregnancy (outside of surgical prophylaxis)</p><p>- Spinal cord injury</p></td></tr></tbody></table><p><strong>High-dose extended dosing strategy (Hartford nomogram):</strong></p><table><thead><tr><th>Indication</th><th>CrCl&nbsp;&gt; = 60 mL/min</th><th>40-59 mL/min</th><th>21-39 mL/min</th><th>CrCl &lt; = 20 mL/min</th><th>Comments</th></tr></thead><tbody><tr><td>Cystitis&nbsp;</td><td>5 mg/kg x 1&nbsp;</td><td>5 mg/kg x 1</td><td>5 mg/kg x 1</td><td>Use conventional/traditional dosing</td><td>No nomogram or levels needed</td></tr><tr><td>Other infecions (exclude CF)</td><td>7 mg/kg IV q24h</td><td>7 mg/kg IV q 36h</td><td>7 mg/kg IV q 48h</td><td>Use conventional/traditional dosing</td><td><p>Obtain 6-14 hour random gentamicin&nbsp;level after first dose to inform future dosing interval</p><p>Consider consulting pharmacy to assist with suggested dosing and monitoring</p><p>Use Harford dosing nomogram</p><p>Do not use this dosing in CF patients</p></td></tr></tbody></table><p><strong>Hartford dosing nomogram (gentamicin/tobramycin 7 mg/kg)</strong></p>\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-cke-media-resize-large\" style=\"width:738px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_large/public/img/d1.jpg.webp?itok=j2l091le\" width=\"800\" height=\"558\" alt=\"d1\" class=\"image-style-cke-media-resize-large\">\n\n\n\n\n  </div>\n\n<p><strong>Urban Craig (5 mg/kg) dosing nomogram:</strong></p><p>&nbsp;</p>\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-cke-media-resize-large\" style=\"width:657px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_large/public/img/d2.png.webp?itok=TNU_x6F5\" width=\"800\" height=\"495\" alt=\"d2\" class=\"image-style-cke-media-resize-large\">\n\n\n\n\n  </div>\n\n<p><strong>Conventional/traditional dosing:</strong></p><p>Please consult pharmacy to help with dosing and monitoring plan.&nbsp; Below are suggested peak and trough goals based upon infection:</p><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"0\"><tbody><tr><td colspan=\"3\"><strong>Conventional/traditional dosing</strong></td></tr><tr><td colspan=\"3\"><strong>Gentamicin/Tobramycin</strong>&nbsp;</td></tr><tr><td><strong>Infection</strong>&nbsp;</td><td><p><strong>Extrapolated&nbsp;</strong>&nbsp;</p><p><strong>Peak Goal&nbsp;</strong>&nbsp;</p></td><td><p><strong>Extrapolated&nbsp;</strong>&nbsp;</p><p><strong>Trough Goal&nbsp;</strong>&nbsp;</p></td></tr><tr><td><strong>Abdominal Infections (including peritonitis)&nbsp;</strong>&nbsp;</td><td>6-8&nbsp;</td><td>&lt; 1 (0.5)&nbsp;</td></tr><tr><td><strong>Bacteremia</strong>&nbsp;</td><td>6-8&nbsp;</td><td>&lt; 1 (0.5)&nbsp;</td></tr><tr><td><strong>Empiric therapy for Cystic Fibrosis</strong>&nbsp;(if cannot do high-dose extended interval dosing)</td><td colspan=\"2\">Extended interval preferred but if impaired renal function consider 8-12 for peak and &lt; 1 (0.5) for trough&nbsp;&nbsp;</td></tr><tr><td><p><strong>Endocarditis</strong>&nbsp;</p><p><strong>Gram positive </strong><em><strong>(‘synergy in divided doses’) *</strong></em>&nbsp;</p><p><strong>Gram negative</strong>&nbsp;</p></td><td><p>&nbsp;</p><p>3-4&nbsp;</p><p>8-10&nbsp;</p></td><td><p>&nbsp;</p><p>&lt; 1 (0.5)&nbsp;</p><p>&lt; 1 (0.5)&nbsp;</p></td></tr><tr><td><strong>Neutropenic Fever</strong>&nbsp;</td><td>6-10&nbsp;</td><td>&lt; 1 (0.5)&nbsp;</td></tr><tr><td><strong>Pneumonia</strong>&nbsp;</td><td>8-10&nbsp;</td><td>&lt; 1 (0.5)&nbsp;</td></tr><tr><td><p><strong>Skin and soft tissue</strong>&nbsp;</p><p><strong>infections</strong>&nbsp;</p></td><td>6-8&nbsp;</td><td>&lt; 1 (0.5)&nbsp;</td></tr><tr><td><strong>Urinary tract infections (including pyelonephritis)</strong>&nbsp;</td><td>4-6&nbsp;</td><td><p>&lt; 1 (0.5)&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></td></tr></tbody></table><p><strong>Cystic fibrosis (CF) patients:</strong></p><p>Prior to choosing a dosing regimen the clinical pharmacist should review the patient’s&nbsp;previous aminoglycoside&nbsp;&nbsp;regimen(s) to determine if information from previous courses of therapy can aid&nbsp;n selecting dosing for a new course of treatment.&nbsp; Please contact pharmacy for assistance.&nbsp; If no history of previous doses and levels, then follow the below:</p><table><thead><tr><th>Indication</th><th>CrCl&nbsp;&gt; = 60 mL/min</th><th>40-59 mL/min</th><th>21-39 mL/min</th><th>CrCl &lt; = 20 mL/min</th><th>Comments</th></tr></thead><tbody><tr><td>CF exacerbation</td><td>10 mg/kg IV q 24h</td><td>10 mg/kg IV q 36h</td><td>10 mg/kg IV q 48h</td><td>Use conventional/traditional dosing</td><td><p>Do not use Hartford nomogram</p><p>With first dose, obtain two serum concentrations 2 hours and 6 hours (10 hours in impaired renal function, elderly), counting from the start of the infusion. This typically allows for 2 half-lives to pass between levels. Periodically, it may help to have a third level (trough) if needed for additional calculations.&nbsp; Consult pharmacy to assist.</p></td></tr></tbody></table><table><thead><tr><th>Aminoglycoside for CF</th><th>Target peak</th><th>Target trough</th></tr></thead><tbody><tr><td>Tobramycin</td><td>20-35 mcg/mL*&nbsp;</td><td>&lt; 1 mcg/mL&nbsp;&nbsp;</td></tr></tbody></table><p>*There may be instances (e.g., elevated MIC) where the targeted peak may need to go up to 40- 60 mcg/mL - contact adult ID pharmacist.&nbsp;&nbsp;&nbsp;</p>",
+   "value": "<p>For UCSF pharmacists, access the pharmacy guidance manual click <a href=\"https://ucsfonline.sharepoint.com/sites/Parn-MBAdults-PedsASP/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120003C11880FF7C58A4AA76CA31C8318ECD7&amp;id=%2Fsites%2FParn%2DMBAdults%2DPedsASP%2FShared%20Documents%2FVancomycin%2FVancomycin%20Optimization%202023%20%28Adult%29%2FInterim%20Guidance%20%28Adult%29%20Materials%2FUCSF%20Adult%20Pharmacokinetic%20Materials%20for%20Pharmacists\">here</a></p><p><strong>Do not use high-dose extended interval dosing strategy (using Hartford nomogram) in the following populations:</strong><!--StartFragment --></p><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td style=\"width:312px;\"><p>- Cr Cl ≤ 20 ml/min</p><p>- Aminoglycoside t ½ &gt; 4.5 hours</p><p>- Patients with burns &gt; 20% total burn surface area (TBSA)</p></td><td style=\"width:312px;\"><p>- Ascites</p><p>- Cystic Fibrosis (CF) patients</p><p>- Pregnancy (outside of surgical prophylaxis)</p><p>- Spinal cord injury</p></td></tr></tbody></table><p><strong>High-dose extended dosing strategy (Hartford nomogram):</strong></p><table><thead><tr><th>Indication</th><th>CrCl&nbsp;&gt; = 60 mL/min</th><th>40-59 mL/min</th><th>21-39 mL/min</th><th>CrCl &lt; = 20 mL/min</th><th>Comments</th></tr></thead><tbody><tr><td>Cystitis&nbsp;</td><td>5 mg/kg x 1&nbsp;</td><td>5 mg/kg x 1</td><td>5 mg/kg x 1</td><td>Use conventional/traditional dosing</td><td>No nomogram or levels needed</td></tr><tr><td>Other infecions (exclude CF)</td><td>7 mg/kg IV q24h</td><td>7 mg/kg IV q 36h</td><td>7 mg/kg IV q 48h</td><td>Use conventional/traditional dosing</td><td><p>Obtain 6-14 hour random gentamicin&nbsp;level after first dose to inform future dosing interval</p><p>Consider consulting pharmacy to assist with suggested dosing and monitoring</p><p>Use Harford dosing nomogram</p><p>Do not use this dosing in CF patients</p></td></tr></tbody></table><p><strong>Hartford dosing nomogram (gentamicin/tobramycin 7 mg/kg)</strong></p><drupal-media class=\"image_resized\" style=\"width:738px;\" data-entity-type=\"media\" data-entity-uuid=\"c50822e9-bfd6-4065-9463-99886094dfc9\" data-media-width=\"738px\">&nbsp;</drupal-media><p><strong>Urban Craig (5 mg/kg) dosing nomogram:</strong></p><p>&nbsp;</p><drupal-media class=\"image_resized\" style=\"width:657px;\" data-entity-type=\"media\" data-entity-uuid=\"78426c9c-15c4-4f60-b206-c3726e20bbd8\" data-media-width=\"657px\">&nbsp;</drupal-media><p><strong>Conventional/traditional dosing:</strong></p><p>Please consult pharmacy to help with dosing and monitoring plan.&nbsp; Below are suggested peak and trough goals based upon infection:</p><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"0\"><tbody><tr><td colspan=\"3\"><strong>Conventional/traditional dosing</strong></td></tr><tr><td colspan=\"3\"><strong>Gentamicin/Tobramycin</strong>&nbsp;</td></tr><tr><td><strong>Infection</strong>&nbsp;</td><td><p><strong>Extrapolated&nbsp;</strong>&nbsp;</p><p><strong>Peak Goal&nbsp;</strong>&nbsp;</p></td><td><p><strong>Extrapolated&nbsp;</strong>&nbsp;</p><p><strong>Trough Goal&nbsp;</strong>&nbsp;</p></td></tr><tr><td><strong>Abdominal Infections (including peritonitis)&nbsp;</strong>&nbsp;</td><td>6-8&nbsp;</td><td>&lt; 1 (0.5)&nbsp;</td></tr><tr><td><strong>Bacteremia</strong>&nbsp;</td><td>6-8&nbsp;</td><td>&lt; 1 (0.5)&nbsp;</td></tr><tr><td><strong>Empiric therapy for Cystic Fibrosis</strong>&nbsp;(if cannot do high-dose extended interval dosing)</td><td colspan=\"2\">Extended interval preferred but if impaired renal function consider 8-12 for peak and &lt; 1 (0.5) for trough&nbsp;&nbsp;</td></tr><tr><td><p><strong>Endocarditis</strong>&nbsp;</p><p><strong>Gram positive </strong><em><strong>(‘synergy in divided doses’) *</strong></em>&nbsp;</p><p><strong>Gram negative</strong>&nbsp;</p></td><td><p>&nbsp;</p><p>3-4&nbsp;</p><p>8-10&nbsp;</p></td><td><p>&nbsp;</p><p>&lt; 1 (0.5)&nbsp;</p><p>&lt; 1 (0.5)&nbsp;</p></td></tr><tr><td><strong>Neutropenic Fever</strong>&nbsp;</td><td>6-10&nbsp;</td><td>&lt; 1 (0.5)&nbsp;</td></tr><tr><td><strong>Pneumonia</strong>&nbsp;</td><td>8-10&nbsp;</td><td>&lt; 1 (0.5)&nbsp;</td></tr><tr><td><p><strong>Skin and soft tissue</strong>&nbsp;</p><p><strong>infections</strong>&nbsp;</p></td><td>6-8&nbsp;</td><td>&lt; 1 (0.5)&nbsp;</td></tr><tr><td><strong>Urinary tract infections (including pyelonephritis)</strong>&nbsp;</td><td>4-6&nbsp;</td><td><p>&lt; 1 (0.5)&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></td></tr></tbody></table><p><strong>Cystic fibrosis (CF) patients:</strong></p><p>Prior to choosing a dosing regimen the clinical pharmacist should review the patient’s&nbsp;previous aminoglycoside&nbsp;&nbsp;regimen(s) to determine if information from previous courses of therapy can aid&nbsp;n selecting dosing for a new course of treatment.&nbsp; Please contact pharmacy for assistance.&nbsp; If no history of previous doses and levels, then follow the below:</p><table><thead><tr><th>Indication</th><th>CrCl&nbsp;&gt; = 60 mL/min</th><th>40-59 mL/min</th><th>21-39 mL/min</th><th>CrCl &lt; = 20 mL/min</th><th>Comments</th></tr></thead><tbody><tr><td>CF exacerbation</td><td>10 mg/kg IV q 24h</td><td>10 mg/kg IV q 36h</td><td>10 mg/kg IV q 48h</td><td>Use conventional/traditional dosing</td><td><p>Do not use Hartford nomogram</p><p>With first dose, obtain two serum concentrations 2 hours and 6 hours (10 hours in impaired renal function, elderly), counting from the start of the infusion. This typically allows for 2 half-lives to pass between levels. Periodically, it may help to have a third level (trough) if needed for additional calculations.&nbsp; Consult pharmacy to assist.</p></td></tr></tbody></table><table><thead><tr><th>Aminoglycoside for CF</th><th>Target peak</th><th>Target trough</th></tr></thead><tbody><tr><td>Tobramycin</td><td>20-35 mcg/mL*&nbsp;</td><td>&lt; 1 mcg/mL&nbsp;&nbsp;</td></tr></tbody></table><p>*There may be instances (e.g., elevated MIC) where the targeted peak may need to go up to 40- 60 mcg/mL - contact adult ID pharmacist.&nbsp;&nbsp;&nbsp;</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Indication</th><th style=\"vertical-align:middle;\"><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All indications</td><td style=\"text-align:center;\"><p>Use conventional/traditional dosing&nbsp;</p><p>Consult pharmacy to assist&nbsp;</p></td><td style=\"text-align:center;\">Consult pharmacy to assist with dosing strategy</td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Indication</th><th style=\"vertical-align:middle;\"><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All indications</td><td style=\"text-align:center;\"><p>Use conventional/traditional dosing&nbsp;</p><p>Consult pharmacy to assist&nbsp;</p></td><td style=\"text-align:center;\">Consult pharmacy to assist with dosing strategy</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 66,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d2274533-3b4b-403d-b6bd-9026f83daea2",
+   "url": "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "RJ created on 10/02/24 "
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15416
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/tobramycin",
+   "langcode": "und",
+   "pid": 27971
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-10-13T05:29:15+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Tobramycin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "2f1e0bb6-df9b-46cd-a185-d10204906442"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24406
+  }
+ ]
+}

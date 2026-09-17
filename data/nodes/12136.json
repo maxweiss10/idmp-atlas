@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-15T17:11:18+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1727213392,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-19T23:16:53+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Diagnosis</th><th>Common Pathogens</th><th>Drug(s) of First Choice</th><th>Alternative Drug(s)</th><th>Comments</th><th>Expected Duration</th></tr></thead><tbody><tr><td><strong>Non-purulent SSTI (hospitalized)</strong> (Cellulitis/erysipelas)</td><td><em>Group A Strep</em></td><td><a href=\"/content/cefazolin\" data-entity-type=\"node\" data-entity-uuid=\"157c9dbc-2c53-4cab-b488-1f76b4bf45a7\" data-entity-substitution=\"canonical\"><strong>Cefazolin</strong></a></td><td><p><strong>Cephalosporin allergy or SJS/TEN or DRESS to Penicillins </strong><a href=\"/content/allergy-beta-lactam\" data-entity-type=\"node\" data-entity-uuid=\"480ffae0-8ba7-495d-8630-1717ce2b9b39\" data-entity-substitution=\"canonical\"><strong>(see allergy guidelines)</strong></a><strong>:</strong></p><p><a href=\"/content/vancomycin-iv\" data-entity-type=\"node\" data-entity-uuid=\"b5c8a813-7a0f-452a-8468-84ca1362fac8\" data-entity-substitution=\"canonical\"><strong>Vancomycin</strong></a></p><p>Most patients with penicillin allergies can safely receive Cefazolin</p></td><td><p><a href=\"/content/cephalexin\" data-entity-type=\"node\" data-entity-uuid=\"a69b1509-340b-457a-a831-d037d80a73e8\" data-entity-substitution=\"canonical\"><strong>Cephalexin</strong></a><strong> </strong>recommended for oral step down</p><p>Consider changing to <a href=\"/content/vancomycin-iv\" data-entity-type=\"node\" data-entity-uuid=\"b5c8a813-7a0f-452a-8468-84ca1362fac8\" data-entity-substitution=\"canonical\"><strong>Vancomycin</strong></a> if not responding, as well as imaging for abscess, and considering alternative diagnoses</p></td><td>5 days</td></tr><tr><td><p><strong>Non-purulent SSTI (outpatient)</strong></p><p>(Cellulitis/erysipelas)</p></td><td><em>Group A Strep</em></td><td><a href=\"/content/cephalexin\" data-entity-type=\"node\" data-entity-uuid=\"a69b1509-340b-457a-a831-d037d80a73e8\" data-entity-substitution=\"canonical\"><strong>Cephalexin</strong></a></td><td><p>Beta-lactam allergy:</p><p><a href=\"/content/tmp-smx-trimethoprim-sulfamethoxazole\" data-entity-type=\"node\" data-entity-uuid=\"5ebd2f94-ee27-449d-96de-3dffdc0354c3\" data-entity-substitution=\"canonical\"><strong>Trimethoprim/Sulfamethoxazole</strong></a></p></td><td>&nbsp;</td><td>5 days</td></tr><tr><td><strong>Purulent SSTI (hospitalized)</strong> (Abscess/Pustule)</td><td><p><em>Staph aureus</em></p><p><em>Group A Strep</em></p></td><td><a href=\"/content/vancomycin-iv\" data-entity-type=\"node\" data-entity-uuid=\"b5c8a813-7a0f-452a-8468-84ca1362fac8\" data-entity-substitution=\"canonical\"><strong>Vancomycin</strong></a></td><td>Vancomycin intolerance/allergy (rare): <a href=\"/content/linezolid\" data-entity-type=\"node\" data-entity-uuid=\"130b01ba-df17-41cb-8b28-adc9bb85a0c1\" data-entity-substitution=\"canonical\"><strong>Linezolid</strong></a></td><td><p>Drainage of abscess recommended if feasible</p><p>Oral step down based on culture data, if no culture data available: <a href=\"/content/tmp-smx-trimethoprim-sulfamethoxazole\" data-entity-type=\"node\" data-entity-uuid=\"5ebd2f94-ee27-449d-96de-3dffdc0354c3\" data-entity-substitution=\"canonical\"><strong>Trimethoprim/Sulfamethoxazole</strong></a> or <a href=\"/content/clindamycin\" data-entity-type=\"node\" data-entity-uuid=\"bae34c52-0307-47ed-9b3b-4371ee109b65\" data-entity-substitution=\"canonical\"><strong>Clindamycin&nbsp;</strong></a></p></td><td>5 Days</td></tr><tr><td><strong>Purulent SSTI (outpatient)</strong> (Abscess/Pustule)</td><td><p><em>Staph aureus</em></p><p><em>Group A Strep</em></p></td><td><a href=\"/content/tmp-smx-trimethoprim-sulfamethoxazole\" data-entity-type=\"node\" data-entity-uuid=\"5ebd2f94-ee27-449d-96de-3dffdc0354c3\" data-entity-substitution=\"canonical\"><strong>Trimethoprim/Sulfamethoxazole</strong></a></td><td><p><strong>Sulfa allergy:</strong></p><p><a href=\"/content/linezolid\" data-entity-type=\"node\" data-entity-uuid=\"130b01ba-df17-41cb-8b28-adc9bb85a0c1\" data-entity-substitution=\"canonical\"><strong>Linezolid</strong></a></p></td><td>Drainage of abscess recommended if feasible. Target culture data if available</td><td>5 days</td></tr><tr><td><p><a href=\"/content/necrotizing-soft-tissue-infection-nsti\" data-entity-type=\"node\" data-entity-uuid=\"c7885fae-cc4f-47d5-8c1a-0be3dd87edce\" data-entity-substitution=\"canonical\"><strong>Necrotizing Soft Tissue Infection (NSTI)</strong></a></p><p>See linked guidelines</p></td><td><p><em>Group A Strep</em></p><p>Mixed infection</p><p><em>Staph aureus</em></p><p><em>Clostridium sp.</em></p></td><td><p><a href=\"/content/linezolid\" data-entity-type=\"node\" data-entity-uuid=\"130b01ba-df17-41cb-8b28-adc9bb85a0c1\" data-entity-substitution=\"canonical\"><strong>Linezolid</strong></a></p><p>PLUS</p><p><a href=\"/content/piperacillin-tazobactam-zosyn\" data-entity-type=\"node\" data-entity-uuid=\"97d4caf7-352e-4277-a5e1-03e9709d35b0\" data-entity-substitution=\"canonical\"><strong>Piperacillin-Tazobactam</strong></a></p></td><td><p><strong>Penicillin allergy:</strong> <a href=\"/content/linezolid\" data-entity-type=\"node\" data-entity-uuid=\"130b01ba-df17-41cb-8b28-adc9bb85a0c1\" data-entity-substitution=\"canonical\"><strong>Linezolid</strong></a></p><p>PLUS <a href=\"/content/ceftriaxone\" data-entity-type=\"node\" data-entity-uuid=\"dce99779-a8c1-41a2-a10d-ed7cff21055e\" data-entity-substitution=\"canonical\"><strong>Ceftriaxone</strong></a></p><p>PLUS <a href=\"/content/metronidazole\" data-entity-type=\"node\" data-entity-uuid=\"5c19f39c-142d-4f57-8e5a-9ca60098c45d\" data-entity-substitution=\"canonical\"><strong>Metronidazole</strong></a></p><p><strong>Cephalosporin allergy or SJS/TEN or DRESS to Penicillins:</strong></p><p><a href=\"/content/linezolid\" data-entity-type=\"node\" data-entity-uuid=\"130b01ba-df17-41cb-8b28-adc9bb85a0c1\" data-entity-substitution=\"canonical\"><strong>Linezolid</strong></a></p><p>PLUS <a href=\"/content/aztreonam\" data-entity-type=\"node\" data-entity-uuid=\"069c4bc7-4d27-41e4-a81d-fb9c27462622\" data-entity-substitution=\"canonical\"><strong>Aztreonam</strong></a></p><p>PLUS <a href=\"/content/metronidazole\" data-entity-type=\"node\" data-entity-uuid=\"5c19f39c-142d-4f57-8e5a-9ca60098c45d\" data-entity-substitution=\"canonical\"><strong>Metronidazole</strong></a></p></td><td><p>Surgical management is critical to control of infection. Consult appropriate surgical service and infectious diseases</p><p>Linezolid used for anti-toxin effect in light of rising <em>Group A Strep</em> resistance to Clindamycin</p><p>See full <a href=\"/content/necrotizing-soft-tissue-infection-nsti\" data-entity-type=\"node\" data-entity-uuid=\"c7885fae-cc4f-47d5-8c1a-0be3dd87edce\" data-entity-substitution=\"canonical\"><strong>Necrotizing Soft Tissue Infection Guidelines</strong></a> for further details, including de-escalation of anti-toxin agent and antimicrobial step down based on culture data</p></td><td>5 days after final debridement; minimum 7 days total (see guidelines)</td></tr><tr><td><strong>Lower Extremity Ulcerative SSTI</strong></td><td colspan=\"5\">See full <a href=\"/content/skin-and-skin-structure-infection\" data-entity-type=\"node\" data-entity-uuid=\"2c54c728-ebdf-48b9-96e1-1c55892a25b0\" data-entity-substitution=\"canonical\">SSTI Guidelines</a></td></tr></tbody></table><p>&nbsp;</p><p>&nbsp;</p>",
+   "value": "<table><thead><tr><th>Diagnosis</th><th>Common Pathogens</th><th>Drug(s) of First Choice</th><th>Alternative Drug(s)</th><th>Comments</th><th>Expected Duration</th></tr></thead><tbody><tr><td><strong>Non-purulent SSTI (hospitalized)</strong> (Cellulitis/erysipelas)</td><td><em>Group A Strep</em></td><td><a href=\"/content/cefazolin\" data-entity-type=\"node\" data-entity-uuid=\"157c9dbc-2c53-4cab-b488-1f76b4bf45a7\" data-entity-substitution=\"canonical\"><strong>Cefazolin</strong></a></td><td><p><strong>Cephalosporin allergy or SJS/TEN or DRESS to Penicillins </strong><a href=\"/content/allergy-beta-lactam\" data-entity-type=\"node\" data-entity-uuid=\"480ffae0-8ba7-495d-8630-1717ce2b9b39\" data-entity-substitution=\"canonical\"><strong>(see allergy guidelines)</strong></a><strong>:</strong></p><p><a href=\"/content/vancomycin-iv\" data-entity-type=\"node\" data-entity-uuid=\"b5c8a813-7a0f-452a-8468-84ca1362fac8\" data-entity-substitution=\"canonical\"><strong>Vancomycin</strong></a></p><p>Most patients with penicillin allergies can safely receive Cefazolin</p></td><td><p><a href=\"/content/cephalexin\" data-entity-type=\"node\" data-entity-uuid=\"a69b1509-340b-457a-a831-d037d80a73e8\" data-entity-substitution=\"canonical\"><strong>Cephalexin</strong></a><strong> </strong>recommended for oral step down</p><p>Consider changing to <a href=\"/content/vancomycin-iv\" data-entity-type=\"node\" data-entity-uuid=\"b5c8a813-7a0f-452a-8468-84ca1362fac8\" data-entity-substitution=\"canonical\"><strong>Vancomycin</strong></a> if not responding, as well as imaging for abscess, and considering alternative diagnoses</p></td><td>5 days</td></tr><tr><td><p><strong>Non-purulent SSTI (outpatient)</strong></p><p>(Cellulitis/erysipelas)</p></td><td><em>Group A Strep</em></td><td><a href=\"/content/cephalexin\" data-entity-type=\"node\" data-entity-uuid=\"a69b1509-340b-457a-a831-d037d80a73e8\" data-entity-substitution=\"canonical\"><strong>Cephalexin</strong></a></td><td><p>Beta-lactam allergy:</p><p><a href=\"/content/tmp-smx-trimethoprim-sulfamethoxazole\" data-entity-type=\"node\" data-entity-uuid=\"5ebd2f94-ee27-449d-96de-3dffdc0354c3\" data-entity-substitution=\"canonical\"><strong>Trimethoprim/Sulfamethoxazole</strong></a></p></td><td>&nbsp;</td><td>5 days</td></tr><tr><td><strong>Purulent SSTI (hospitalized)</strong> (Abscess/Pustule)</td><td><p><em>Staph aureus</em></p><p><em>Group A Strep</em></p></td><td><a href=\"/content/vancomycin-iv\" data-entity-type=\"node\" data-entity-uuid=\"b5c8a813-7a0f-452a-8468-84ca1362fac8\" data-entity-substitution=\"canonical\"><strong>Vancomycin</strong></a></td><td>Vancomycin intolerance/allergy (rare): <a href=\"/content/linezolid\" data-entity-type=\"node\" data-entity-uuid=\"130b01ba-df17-41cb-8b28-adc9bb85a0c1\" data-entity-substitution=\"canonical\"><strong>Linezolid</strong></a></td><td><p>Drainage of abscess recommended if feasible</p><p>Oral step down based on culture data, if no culture data available: <a href=\"/content/tmp-smx-trimethoprim-sulfamethoxazole\" data-entity-type=\"node\" data-entity-uuid=\"5ebd2f94-ee27-449d-96de-3dffdc0354c3\" data-entity-substitution=\"canonical\"><strong>Trimethoprim/Sulfamethoxazole</strong></a> or <a href=\"/content/clindamycin\" data-entity-type=\"node\" data-entity-uuid=\"bae34c52-0307-47ed-9b3b-4371ee109b65\" data-entity-substitution=\"canonical\"><strong>Clindamycin&nbsp;</strong></a></p></td><td>5 Days</td></tr><tr><td><strong>Purulent SSTI (outpatient)</strong> (Abscess/Pustule)</td><td><p><em>Staph aureus</em></p><p><em>Group A Strep</em></p></td><td><a href=\"/content/tmp-smx-trimethoprim-sulfamethoxazole\" data-entity-type=\"node\" data-entity-uuid=\"5ebd2f94-ee27-449d-96de-3dffdc0354c3\" data-entity-substitution=\"canonical\"><strong>Trimethoprim/Sulfamethoxazole</strong></a></td><td><p><strong>Sulfa allergy:</strong></p><p><a href=\"/content/linezolid\" data-entity-type=\"node\" data-entity-uuid=\"130b01ba-df17-41cb-8b28-adc9bb85a0c1\" data-entity-substitution=\"canonical\"><strong>Linezolid</strong></a></p></td><td>Drainage of abscess recommended if feasible. Target culture data if available</td><td>5 days</td></tr><tr><td><p><a href=\"/content/necrotizing-soft-tissue-infection-nsti\" data-entity-type=\"node\" data-entity-uuid=\"c7885fae-cc4f-47d5-8c1a-0be3dd87edce\" data-entity-substitution=\"canonical\"><strong>Necrotizing Soft Tissue Infection (NSTI)</strong></a></p><p>See linked guidelines</p></td><td><p><em>Group A Strep</em></p><p>Mixed infection</p><p><em>Staph aureus</em></p><p><em>Clostridium sp.</em></p></td><td><p><a href=\"/content/linezolid\" data-entity-type=\"node\" data-entity-uuid=\"130b01ba-df17-41cb-8b28-adc9bb85a0c1\" data-entity-substitution=\"canonical\"><strong>Linezolid</strong></a></p><p>PLUS</p><p><a href=\"/content/piperacillin-tazobactam-zosyn\" data-entity-type=\"node\" data-entity-uuid=\"97d4caf7-352e-4277-a5e1-03e9709d35b0\" data-entity-substitution=\"canonical\"><strong>Piperacillin-Tazobactam</strong></a></p></td><td><p><strong>Penicillin allergy:</strong> <a href=\"/content/linezolid\" data-entity-type=\"node\" data-entity-uuid=\"130b01ba-df17-41cb-8b28-adc9bb85a0c1\" data-entity-substitution=\"canonical\"><strong>Linezolid</strong></a></p><p>PLUS <a href=\"/content/ceftriaxone\" data-entity-type=\"node\" data-entity-uuid=\"dce99779-a8c1-41a2-a10d-ed7cff21055e\" data-entity-substitution=\"canonical\"><strong>Ceftriaxone</strong></a></p><p>PLUS <a href=\"/content/metronidazole\" data-entity-type=\"node\" data-entity-uuid=\"5c19f39c-142d-4f57-8e5a-9ca60098c45d\" data-entity-substitution=\"canonical\"><strong>Metronidazole</strong></a></p><p><strong>Cephalosporin allergy or SJS/TEN or DRESS to Penicillins:</strong></p><p><a href=\"/content/linezolid\" data-entity-type=\"node\" data-entity-uuid=\"130b01ba-df17-41cb-8b28-adc9bb85a0c1\" data-entity-substitution=\"canonical\"><strong>Linezolid</strong></a></p><p>PLUS <a href=\"/content/aztreonam\" data-entity-type=\"node\" data-entity-uuid=\"069c4bc7-4d27-41e4-a81d-fb9c27462622\" data-entity-substitution=\"canonical\"><strong>Aztreonam</strong></a></p><p>PLUS <a href=\"/content/metronidazole\" data-entity-type=\"node\" data-entity-uuid=\"5c19f39c-142d-4f57-8e5a-9ca60098c45d\" data-entity-substitution=\"canonical\"><strong>Metronidazole</strong></a></p></td><td><p>Surgical management is critical to control of infection. Consult appropriate surgical service and infectious diseases</p><p>Linezolid used for anti-toxin effect in light of rising <em>Group A Strep</em> resistance to Clindamycin</p><p>See full <a href=\"/content/necrotizing-soft-tissue-infection-nsti\" data-entity-type=\"node\" data-entity-uuid=\"c7885fae-cc4f-47d5-8c1a-0be3dd87edce\" data-entity-substitution=\"canonical\"><strong>Necrotizing Soft Tissue Infection Guidelines</strong></a> for further details, including de-escalation of anti-toxin agent and antimicrobial step down based on culture data</p></td><td>5 days after final debridement; minimum 7 days total (see guidelines)</td></tr><tr><td><strong>Lower Extremity Ulcerative SSTI</strong></td><td colspan=\"5\">See full <a href=\"/content/skin-and-skin-structure-infection\" data-entity-type=\"node\" data-entity-uuid=\"2c54c728-ebdf-48b9-96e1-1c55892a25b0\" data-entity-substitution=\"canonical\">SSTI Guidelines</a></td></tr></tbody></table><p>&nbsp;</p><p>&nbsp;</p>"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 166,
+   "target_type": "taxonomy_term",
+   "target_uuid": "aea1cebe-dad3-4dfe-a589-7e3eea5a9345",
+   "url": "/guidelines-empiric-therapy-categories/skin-and-soft-tissue-infections"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>These empiric therapy recommendations are an excerpt from the full guidelines on <a href=\"/content/skin-and-skin-structure-infection\" data-entity-type=\"node\" data-entity-uuid=\"2c54c728-ebdf-48b9-96e1-1c55892a25b0\" data-entity-substitution=\"canonical\"><strong>Skin and Skin Structure Infection (SSTI)</strong></a> and <a href=\"/content/necrotizing-soft-tissue-infection-nsti\" data-entity-type=\"node\" data-entity-uuid=\"c7885fae-cc4f-47d5-8c1a-0be3dd87edce\" data-entity-substitution=\"canonical\"><strong>Necrotizing Soft Tissue Infection (NSTI)</strong></a>. Please refer to those guidelines for full details</p><p>Management of Recurrent SSTI is also discussed separately in those guidelines</p>",
+   "value": "<p>These empiric therapy recommendations are an excerpt from the full guidelines on <a href=\"/content/skin-and-skin-structure-infection\" data-entity-type=\"node\" data-entity-uuid=\"2c54c728-ebdf-48b9-96e1-1c55892a25b0\" data-entity-substitution=\"canonical\"><strong>Skin and Skin Structure Infection (SSTI)</strong></a> and <a href=\"/content/necrotizing-soft-tissue-infection-nsti\" data-entity-type=\"node\" data-entity-uuid=\"c7885fae-cc4f-47d5-8c1a-0be3dd87edce\" data-entity-substitution=\"canonical\"><strong>Necrotizing Soft Tissue Infection (NSTI)</strong></a>. Please refer to those guidelines for full details</p><p>Management of Recurrent SSTI is also discussed separately in those guidelines</p>"
+  }
+ ],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p><em>See respective guidelines (linked above)</em></p>",
+   "value": "<p><em>See respective guidelines (linked above)</em></p>"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12136
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/cellulitis-abscess-cutaneous-ulcer-disease-necrotizing-fasciitis",
+   "langcode": "und",
+   "pid": 24816
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-15T17:11:18+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Cellulitis, abscess, cutaneous ulcer disease, necrotizing fasciitis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "fd8e252e-4d24-4286-8156-898fe4be46f2"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24606
+  }
+ ]
+}

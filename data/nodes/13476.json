@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:21:47+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629825707,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T21:15:32+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Cellulitis without associated abscess of skin/soft tissue&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{238}\" paraid=\"1509285901\">Group A streptococcus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{248}\" paraid=\"1852658044\"><em>Staphylococcus aureus </em>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{255}\" paraid=\"1927018223\"><strong>Outpatient</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{10}\" paraid=\"1416829877\">Cephalexin<br>\n\t\t\t25 mg/kg/dose (max 500 mg/dose) enterally tid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{20}\" paraid=\"1480861181\">---------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{26}\" paraid=\"1232227706\"><strong>Inpatient/need for IV therapy</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{36}\" paraid=\"326514572\">Cefazolin<br>\n\t\t\t25 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{61}\" paraid=\"861266424\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{71}\" paraid=\"2044734068\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{77}\" paraid=\"667528016\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{87}\" paraid=\"1483911650\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{98}\" paraid=\"409558806\"><strong>Duration</strong>:&nbsp;5 days for non-severe infection&nbsp;</p>\n\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{110}\" paraid=\"701604556\">ID consult recommended for severe infection, indicated by hemodynamic instability, end-organ dysfunction, or extensive local progression &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Cellulitis without associated abscess of skin/soft tissue&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{238}\" paraid=\"1509285901\">Group A streptococcus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{248}\" paraid=\"1852658044\"><em>Staphylococcus aureus </em>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{255}\" paraid=\"1927018223\"><strong>Outpatient</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{10}\" paraid=\"1416829877\">Cephalexin<br />\r\n\t\t\t25 mg/kg/dose (max 500 mg/dose) enterally tid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{20}\" paraid=\"1480861181\">---------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{26}\" paraid=\"1232227706\"><strong>Inpatient/need for IV therapy</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{36}\" paraid=\"326514572\">Cefazolin<br />\r\n\t\t\t25 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{61}\" paraid=\"861266424\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{71}\" paraid=\"2044734068\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{77}\" paraid=\"667528016\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{87}\" paraid=\"1483911650\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{98}\" paraid=\"409558806\"><strong>Duration</strong>:&nbsp;5 days for non-severe infection&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{110}\" paraid=\"701604556\">ID consult recommended for severe infection, indicated by hemodynamic instability, end-organ dysfunction, or extensive local progression &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 166,
+   "target_type": "taxonomy_term",
+   "target_uuid": "aea1cebe-dad3-4dfe-a589-7e3eea5a9345",
+   "url": "/guidelines-empiric-therapy-categories/skin-and-soft-tissue-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{134}\" paraid=\"1126035845\">References: &nbsp;</h2>\n\n<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{140}\" paraid=\"1858561424\">Stevens DL,&nbsp;et al.&nbsp;<a href=\"http://cid.oxfordjournals.org/content/early/2014/06/14/cid.ciu296.full.pdf\">Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America</a>.&nbsp;Clin Infect Dis&nbsp;2014;59:e10-e52.&nbsp;</p>\n\n<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{158}\" paraid=\"1694791821\">Liu C, et al.&nbsp;<a href=\"https://academic.oup.com/cid/article/52/3/e18/306145\">Clinical practice guidelines by the Infectious Diseases Society of America for the treatment of methicillin-resistant&nbsp;<em>Staphylococcus aureus</em>&nbsp;infections in adults and children</a>.&nbsp;Clin Infect Dis&nbsp;2011;52:e18-e55. </p>\n\n<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{176}\" paraid=\"674740792\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{134}\" paraid=\"1126035845\">References: &nbsp;</h2>\r\n\r\n<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{140}\" paraid=\"1858561424\">Stevens DL,&nbsp;et al.&nbsp;<a href=\"http://cid.oxfordjournals.org/content/early/2014/06/14/cid.ciu296.full.pdf\">Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America</a>.&nbsp;Clin Infect Dis&nbsp;2014;59:e10-e52.&nbsp;</p>\r\n\r\n<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{158}\" paraid=\"1694791821\">Liu C, et al.&nbsp;<a href=\"https://academic.oup.com/cid/article/52/3/e18/306145\">Clinical practice guidelines by the Infectious Diseases Society of America for the treatment of methicillin-resistant&nbsp;<em>Staphylococcus aureus</em>&nbsp;infections in adults and children</a>.&nbsp;Clin Infect Dis&nbsp;2011;52:e18-e55. </p>\r\n\r\n<p paraeid=\"{54fe1406-7909-42b3-a029-9ee17411352c}{176}\" paraid=\"674740792\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13476
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/cellulitis-0",
+   "langcode": "und",
+   "pid": 26131
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:21:47+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Cellulitis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "8c5b0fa6-5176-45f1-9ff2-ad8991abac27"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16061
+  }
+ ]
+}

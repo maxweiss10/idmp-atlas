@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:28:51+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633717731,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T17:45:49+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{198}\" paraid=\"1667117217\">Symptomatic congenital CMV disease &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{208}\" paraid=\"1396983673\">Diagnosed based on detection of CMV in the urine or saliva within the first 3 weeks of life&nbsp;<br>\n\t\t\t&nbsp;<br>\n\t\t\tWITH &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{220}\" paraid=\"1328251776\">Symptoms: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{230}\" paraid=\"991850925\"><strong>Moderately to severely symptomatic</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{240}\" paraid=\"1837781474\">Multiple manifestations attributable to CMV infection: thrombocytopenia, petechiae, hepatomegaly, splenomegaly, intrauterine growth restriction, hepatitis&nbsp;<br>\n\t\t\t&nbsp;<br>\n\t\t\tOR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{252}\" paraid=\"2064263335\">CNS involvement such as microcephaly, radiographic abnormalities consistent with CMV-related CNS disease (ventriculomegaly, calcifications, periventricular echogenicity, cortical or cerebellar malformations), abnormal CSF indices for age, chorioretinitis, or&nbsp;detection of CMV DNA in CSF &nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{9}\" paraid=\"262344683\">See 2nd column for continued categories&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{16}\" paraid=\"2108053101\">Cytomegalovirus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{26}\" paraid=\"1835630118\">----------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{32}\" paraid=\"51999927\">Symptom classification continued from 1st column: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{42}\" paraid=\"835972385\"><strong>Mildly symptomatic</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{54}\" paraid=\"2076290198\">1-2 isolated manifestations that are mild and transient, occurring in isolation (e.g. single measurement of low platelet count)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{60}\" paraid=\"1342630446\"><strong>Asymptomatic congenital CMV infection with isolated sensorineural hearing loss (SNHL)</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{74}\" paraid=\"1559808823\">Sensorineural hearing loss, with no other apparent abnormalities&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{84}\" paraid=\"893348459\"><strong>Asymptomatic congenital CMV infection</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{90}\" paraid=\"1558341077\">No apparent abnormalities to suggest congenital CMV disease, and normal hearing&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{101}\" paraid=\"265957923\"><strong>Asymptomatic with normal hearing</strong>:&nbsp;&nbsp;<br>\n\t\t\tTreatment not recommended &nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{117}\" paraid=\"77251865\"><strong>Mildly symptomatic, or asymptomatic with isolated SNHL, or diagnosed after first month of life</strong>:&nbsp;<br>\n\t\t\tCurrent guidelines do not recommend  treatment routinely. Consult ID for individualized assessment. &nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{129}\" paraid=\"1015323662\"><strong>Moderate to severely  symptomatic, within first month of life, gestational age &gt;= 32 weeks</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{135}\" paraid=\"1180928958\">Valganciclovir &nbsp;<br>\n\t\t\t16 mg/kg/dose enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{151}\" paraid=\"1464814181\">Adjust dose monthly to account for weight gain&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{161}\" paraid=\"1785046081\"><strong>Moderate to severely  symptomatic, within first month of life, gestational age &lt;32 weeks</strong>:&nbsp;<br>\n\t\t\tConsult ID for individualized management &amp; medication dosing&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{170}\" paraid=\"1482376717\"><strong>Unable to take enteral medication:</strong>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{176}\" paraid=\"1083917543\">Ganciclovir &nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{182}\" paraid=\"531572260\">6 mg/kg/dose IV q12h &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{193}\" paraid=\"717823077\">ID consult recommended. Multiple follow-up evaluations are recommended, recommendations here focused on treatment with antivirals only&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{199}\" paraid=\"5449520\"><strong>Monitoring During Therapy</strong>: &nbsp;<br>\n\t\t\tAbsolute neutrophil count weekly x 6 weeks, at 8 weeks, then monthly for duration of therapy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{221}\" paraid=\"1546760441\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{231}\" paraid=\"1385836313\">AST, ALT monthly&nbsp;</p>\n\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{241}\" paraid=\"653890784\"><strong>Duration</strong>:&nbsp;6 months&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{198}\" paraid=\"1667117217\">Symptomatic congenital CMV disease &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{208}\" paraid=\"1396983673\">Diagnosed based on detection of CMV in the urine or saliva within the first 3 weeks of life&nbsp;<br />\r\n\t\t\t&nbsp;<br />\r\n\t\t\tWITH &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{220}\" paraid=\"1328251776\">Symptoms: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{230}\" paraid=\"991850925\"><strong>Moderately to severely symptomatic</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{240}\" paraid=\"1837781474\">Multiple manifestations attributable to CMV infection: thrombocytopenia, petechiae, hepatomegaly, splenomegaly, intrauterine growth restriction, hepatitis&nbsp;<br />\r\n\t\t\t&nbsp;<br />\r\n\t\t\tOR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5e31105d-b964-4333-a9c4-8aa81b1003ec}{252}\" paraid=\"2064263335\">CNS involvement such as microcephaly, radiographic abnormalities consistent with CMV-related CNS disease (ventriculomegaly, calcifications, periventricular echogenicity, cortical or cerebellar malformations), abnormal CSF indices for age, chorioretinitis, or&nbsp;detection of CMV DNA in CSF &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{9}\" paraid=\"262344683\">See 2nd column for continued categories&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{16}\" paraid=\"2108053101\">Cytomegalovirus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{26}\" paraid=\"1835630118\">----------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{32}\" paraid=\"51999927\">Symptom classification continued from 1st column: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{42}\" paraid=\"835972385\"><strong>Mildly symptomatic</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{54}\" paraid=\"2076290198\">1-2 isolated manifestations that are mild and transient, occurring in isolation (e.g. single measurement of low platelet count)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{60}\" paraid=\"1342630446\"><strong>Asymptomatic congenital CMV infection with isolated sensorineural hearing loss (SNHL)</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{74}\" paraid=\"1559808823\">Sensorineural hearing loss, with no other apparent abnormalities&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{84}\" paraid=\"893348459\"><strong>Asymptomatic congenital CMV infection</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{90}\" paraid=\"1558341077\">No apparent abnormalities to suggest congenital CMV disease, and normal hearing&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{101}\" paraid=\"265957923\"><strong>Asymptomatic with normal hearing</strong>:&nbsp;&nbsp;<br />\r\n\t\t\tTreatment not recommended &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{117}\" paraid=\"77251865\"><strong>Mildly symptomatic, or asymptomatic with isolated SNHL, or diagnosed after first month of life</strong>:&nbsp;<br />\r\n\t\t\tCurrent guidelines do not recommend  treatment routinely. Consult ID for individualized assessment. &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{129}\" paraid=\"1015323662\"><strong>Moderate to severely  symptomatic, within first month of life, gestational age &gt;= 32 weeks</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{135}\" paraid=\"1180928958\">Valganciclovir &nbsp;<br />\r\n\t\t\t16 mg/kg/dose enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{151}\" paraid=\"1464814181\">Adjust dose monthly to account for weight gain&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{161}\" paraid=\"1785046081\"><strong>Moderate to severely  symptomatic, within first month of life, gestational age &lt;32 weeks</strong>:&nbsp;<br />\r\n\t\t\tConsult ID for individualized management &amp; medication dosing&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{170}\" paraid=\"1482376717\"><strong>Unable to take enteral medication:</strong>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{176}\" paraid=\"1083917543\">Ganciclovir &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{182}\" paraid=\"531572260\">6 mg/kg/dose IV q12h &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{193}\" paraid=\"717823077\">ID consult recommended. Multiple follow-up evaluations are recommended, recommendations here focused on treatment with antivirals only&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{199}\" paraid=\"5449520\"><strong>Monitoring During Therapy</strong>: &nbsp;<br />\r\n\t\t\tAbsolute neutrophil count weekly x 6 weeks, at 8 weeks, then monthly for duration of therapy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{221}\" paraid=\"1546760441\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{231}\" paraid=\"1385836313\">AST, ALT monthly&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{241}\" paraid=\"653890784\"><strong>Duration</strong>:&nbsp;6 months&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1656,
+   "target_type": "taxonomy_term",
+   "target_uuid": "cb10dabe-b965-4057-b248-042e218f5f23",
+   "url": "/guidelines-empiric-therapy-categories/congenitalperinatal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2>References:&nbsp;</h2>\n\n<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{255}\" paraid=\"1976219233\">Rawlinson WD, et al. <a href=\"https://www.sciencedirect.com/science/article/pii/S1473309917301433?via%3Dihub\">Congenital cytomegalovirus infection in pregnancy and the neonate: consensus recommendations for prevention, diagnosis, and therapy</a>. Lancet Infectious Diseases 2017;17:e177-88.</p>\n\n<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{12}\" paraid=\"1803566708\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n",
+   "value": "<h2>References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{10221990-81e4-4534-a18b-d1787f385239}{255}\" paraid=\"1976219233\">Rawlinson WD, et al. <a href=\"https://www.sciencedirect.com/science/article/pii/S1473309917301433?via%3Dihub\">Congenital cytomegalovirus infection in pregnancy and the neonate: consensus recommendations for prevention, diagnosis, and therapy</a>. Lancet Infectious Diseases 2017;17:e177-88.</p>\r\n\r\n<p paraeid=\"{eee21493-f9f1-4629-9b9f-70727b647a65}{12}\" paraid=\"1803566708\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13336
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/congenital-cytomegalovirus-disease",
+   "langcode": "und",
+   "pid": 25996
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:28:51+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Congenital Cytomegalovirus Disease"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "c8c896bf-8ec8-42a8-89aa-0d117bf88a84"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15921
+  }
+ ]
+}

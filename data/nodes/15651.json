@@ -1,0 +1,136 @@
+{
+ "body": [],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-08T20:30:16+00:00"
+  }
+ ],
+ "comment_node_other_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1748616638,
+   "last_comment_uid": 566,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:57:20+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": false
+  }
+ ],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 0
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 511,
+   "target_type": "media",
+   "target_uuid": "f1ca079d-9256-4169-a3d0-2e969bdb5b0c",
+   "url": "/media/511"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_pub_override_list": [],
+ "field_person_subtype": [
+  {
+   "target_id": 641,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8e527da1-8c6c-44a7-8bc9-d8a3451fb862",
+   "url": "/person-type/ucsf-medical-center"
+  }
+ ],
+ "field_person_title_override": [
+  {
+   "value": "Infectious Diseases and Antimicrobial Stewardship Clinical Pharmacist"
+  },
+  {
+   "value": "Adult Antimicrobial Stewardship Co-Lead"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_picture": [],
+ "field_role": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15651
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/amanda-roy",
+   "langcode": "und",
+   "pid": 28201
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-30T14:50:38+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Amanda Roy, PharmD, BCIDP, AAHIVP"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "other_person",
+   "target_type": "node_type",
+   "target_uuid": "b9b538b1-c143-40c4-8e2f-aba53a4b44fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "238087c3-39e2-4616-afa7-99fac99e3950"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22156
+  }
+ ]
+}

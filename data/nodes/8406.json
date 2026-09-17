@@ -1,0 +1,138 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587519907,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T01:45:07+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th style=\"text-align: center;\">Indication</th>\n\t\t\t<th style=\"text-align: center;\">CrCl &gt;10 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">CrCl &lt; 10 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Standard Dose&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q8h</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Bacterial vaginosis&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Intra-abdominal infections&nbsp;(excluding&nbsp;<em>C. difficile)</em></p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Vaginal Trichomoniasis&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th style=\"text-align: center;\">Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">CrCl &gt;10 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">CrCl &lt; 10 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Standard Dose&nbsp;</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q8h</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Bacterial vaginosis&nbsp;</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Intra-abdominal infections&nbsp;(excluding&nbsp;<em>C. difficile)</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Vaginal Trichomoniasis&nbsp;</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Standard Dose</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q8h</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q8h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Bacterial vaginosis</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Intra-abdominal infections (excluding&nbsp;<em>C. difficile)</em></td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Vaginal Trichomoniasis</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Standard Dose</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q8h</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q8h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Bacterial vaginosis</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Intra-abdominal infections (excluding&nbsp;<em>C. difficile)</em></td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Vaginal Trichomoniasis</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg IV/PO Q12h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 76,
+   "target_type": "taxonomy_term",
+   "target_uuid": "4511a589-5232-4ab1-95de-bae41deb9968",
+   "url": "/notations/iv-po"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "05/2023: Ahmi Lim/Ripal Jariwala/Emily Kaip; Updated on 05/2023 IDMP webpage; Discussion with IDMP about using q 12H flagyl in certain situations"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8406
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/metronidazole",
+   "langcode": "und",
+   "pid": 21301
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Metronidazole"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5c19f39c-142d-4f57-8e5a-9ca60098c45d"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21751
+  }
+ ]
+}

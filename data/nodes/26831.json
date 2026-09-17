@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-19T01:21:28+00:00"
+  }
+ ],
+ "comment_node_ucsf_publication": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1787102488,
+   "last_comment_uid": 0,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-08T07:00:00+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_publication_authorlist": [
+  {
+   "format": null,
+   "processed": "<p>Hooft AM, Hwang KSS, Mussa R, Singh P, Sawe HR, Mfinanga JA, Addo N, Kortz T, Manyahi J</p>\n",
+   "value": "Hooft AM, Hwang KSS, Mussa R, Singh P, Sawe HR, Mfinanga JA, Addo N, Kortz T, Manyahi J"
+  }
+ ],
+ "field_publication_id": [
+  {
+   "value": "https://researcherprofiles.org/profile/794943626"
+  }
+ ],
+ "field_publication_name": [
+  {
+   "target_id": 1871,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ef86f04c-2abd-49ff-8b0b-a85ed1c50683",
+   "url": "/publications/bmc-pediatrics"
+  }
+ ],
+ "field_publication_pubmedid": [
+  {
+   "value": "42420950"
+  }
+ ],
+ "field_publication_title": [
+  {
+   "format": null,
+   "processed": "<p>Hooft AM, Hwang KSS, Mussa R, Singh P, Sawe HR, Mfinanga JA, Addo N, Kortz T, Manyahi J. Pediatric empiric antibiotic use and resistance patterns at a single tertiary care hospital in Tanzania. BMC Pediatr. 2026 Jul 08.</p>\n",
+   "value": "Hooft AM, Hwang KSS, Mussa R, Singh P, Sawe HR, Mfinanga JA, Addo N, Kortz T, Manyahi J. Pediatric empiric antibiotic use and resistance patterns at a single tertiary care hospital in Tanzania. BMC Pediatr. 2026 Jul 08."
+  }
+ ],
+ "field_publication_year": [
+  {
+   "value": "2026"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 26831
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/pediatric-empiric-antibiotic-use-and-resistance-patterns-at-a-single-tertiary-care-hospital-in",
+   "langcode": "und",
+   "pid": 39856
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-19T01:21:28+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Pediatric empiric antibiotic use and resistance patterns at a single tertiary care hospital in Tanzania."
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_publication",
+   "target_type": "node_type",
+   "target_uuid": "aab43f59-8b93-481f-9f49-a929dc92e1dd"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "ee382b37-3683-4afc-b7b4-7c224dbe7160"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35526
+  }
+ ]
+}

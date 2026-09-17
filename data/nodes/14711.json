@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-04T17:05:19+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1695340358,
+   "last_comment_uid": 506,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-08-20T18:22:19+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<p class=\"text-align-center\">&nbsp;</p><p class=\"text-align-center\"><a class=\"btn--large\" href=\"https://forms.office.com/r/fmertVXNjP\"><strong>Submit suggestions for updates/additions/deletions for adult antimicrobial doses or restrictions on the IDMP website here</strong></a></p><p class=\"text-align-center\">&nbsp;Suggestions will be reviewed by a working group on a quarterly basis (Jan/Apr/Jul/Oct) &amp; updates will be made on IDMP if approved.&nbsp;<strong>For urgent requests, email </strong><a href=\"mailto:adult.asp@ucsf.edu\"><strong>adult.asp@ucsf.edu</strong></a></p><p class=\"text-align-center\"><em>For adult patients only. Please submit one form per drug. UCSF login required.</em></p>",
+   "value": "<p class=\"text-align-center\">&nbsp;</p><p class=\"text-align-center\"><a class=\"btn--large\" href=\"https://forms.office.com/r/fmertVXNjP\"><strong>Submit suggestions for updates/additions/deletions for adult antimicrobial doses or restrictions on the IDMP website here</strong></a></p><p class=\"text-align-center\">&nbsp;Suggestions will be reviewed by a working group on a quarterly basis (Jan/Apr/Jul/Oct) &amp; updates will be made on IDMP if approved.&nbsp;<strong>For urgent requests, email </strong><a href=\"mailto:adult.asp@ucsf.edu\"><strong>adult.asp@ucsf.edu</strong></a></p><p class=\"text-align-center\"><em>For adult patients only. Please submit one form per drug. UCSF login required.</em></p>"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14711
+  }
+ ],
+ "path": [
+  {
+   "alias": "/dosingupdate",
+   "langcode": "en",
+   "pid": 16786
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-09-21T23:52:38+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "UCSF IDMP Adult Antimicrobial Dosing & Restriction Update Request Form"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "c5c5196a-cc6c-41d8-9300-73d92de8eb1c"
+  }
+ ],
+ "vid": [
+  {
+   "value": 17986
+  }
+ ]
+}

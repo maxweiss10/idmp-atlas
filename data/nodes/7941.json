@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:54+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1675465021,
+   "last_comment_uid": 0,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-13T22:32:18+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Guidelines for Empiric Antimicrobial Therapy</h2>\n\n<h3>Recommendations for Empiric Antimicrobial Therapy in Adults at UCSFMC/SFGH/VASF</h3>\n\n<p>These guidelines are consensus recommendations from the Infectious Diseases groups at UCSF Medical Center, San Francisco General Hospital, and the Veterans Affairs Medical Center San Francisco.</p>\n\n<p><a class=\"btn--small btn--blue\" href=\"/guidelines-for-empiric-therapy-adults\">Adult Empiric Therapy&nbsp;</a></p>\n\n<h3>Recommendations for Empiric Antimicrobial Therapy in Children at UCSF Benioff's Children's Hospitals</h3>\n\n<p>These guidelines are consensus recommendations from the Infectious Diseases groups at UCSF Benioff Childrens' Hospitals San Francisco and Oakland</p>\n\n<p><a class=\"btn--small btn--blue\" href=\"/guidelines-for-empiric-therapy-pediatrics\">Pediatric Empiric Therapy&nbsp;</a></p>\n",
+   "value": "<h2>Guidelines for Empiric Antimicrobial Therapy</h2>\r\n\r\n<h3>Recommendations for Empiric Antimicrobial Therapy in Adults at UCSFMC/SFGH/VASF</h3>\r\n\r\n<p>These guidelines are consensus recommendations from the Infectious Diseases groups at UCSF Medical Center, San Francisco General Hospital, and the Veterans Affairs Medical Center San Francisco.</p>\r\n\r\n<p><a class=\"btn--small btn--blue\" href=\"/guidelines-for-empiric-therapy-adults\">Adult Empiric Therapy&nbsp;</a></p>\r\n\r\n<h3>Recommendations for Empiric Antimicrobial Therapy in Children at UCSF Benioff's Children's Hospitals</h3>\r\n\r\n<p>These guidelines are consensus recommendations from the Infectious Diseases groups at UCSF Benioff Childrens' Hospitals San Francisco and Oakland</p>\r\n\r\n<p><a class=\"btn--small btn--blue\" href=\"/guidelines-for-empiric-therapy-pediatrics\">Pediatric Empiric Therapy&nbsp;</a></p>\r\n"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 7941
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/guidelines-for-empiric-antimicrobial-therapy",
+   "langcode": "und",
+   "pid": 21006
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-02-03T22:57:01+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Guidelines for Empiric Antimicrobial Therapy"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "202915c4-190f-43c7-b06c-e4b93ec522bb"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24096
+  }
+ ]
+}

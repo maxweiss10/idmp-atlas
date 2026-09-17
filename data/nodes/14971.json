@@ -1,0 +1,124 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<h3 style=\"text-align: center;\"><strong>Spontaneous Bacterial Peritonitis (SBP)</strong></h3>\n\n<p>Approximately 1/3 of cirrhotic patients have bacterial infections. Spontaneous bacterial peritonitis (SBP) is a common infection in this setting which occurs in the absence of an obvious source of infection. Presence of fever or hypothermia, chills, and localizing symptoms should raise suspicion for bacterial infection. Signs/symptoms specific to SBP are abdominal pain, tenderness on palpation +/- rebound tenderness, and ileus. However, typical symptoms may be absent in cirrhotic patients. Common pathogens include gut bacteria (<em>E. coli</em>, <em>Klebsiella spp.</em>) and <em>Streptococci spp</em>.</p>\n\n<p><u><strong>Diagnosis</strong></u></p>\n\n<ul>\n\t<li>Diagnostic abdominal paracentesis for cell count and bacterial culture, even in absence of signs/symptoms of infection.\n\t<ul>\n\t\t<li>Culture ascitic fluid <u>before</u> initiating antibiotics.</li>\n\t</ul>\n\t</li>\n\t<li>Polymorphonuclear (PMN) leukocyte count &gt;250/mm<sup>3</sup> indicates SBP ⇒ Start empiric antibiotics.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<h4><strong>SBP Empiric Treatment</strong></h4>\n\n<p>Expected duration 5-7 days</p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"653\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:341px;height:1px;\">\n\t\t\t<p align=\"center\"><strong>SBP Infection</strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:312px;height:1px;\">\n\t\t\t<p align=\"center\"><strong>Empiric Therapy</strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:341px;height:13px;\">\n\t\t\t<p align=\"center\">Community Acquired<sup>+</sup></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:312px;height:13px;\">\n\t\t\t<p align=\"center\" style=\"margin-left:.25in;\">Ceftriaxone 1 gm IV q24h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:341px;height:6px;\">\n\t\t\t<p align=\"center\">Nosocomial<sup>++</sup></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:312px;height:6px;\">\n\t\t\t<p align=\"center\" style=\"margin-left:.25in;\">Piperacillin/tazobactam^* 4.5 gm IV q6h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:341px;height:1px;\">\n\t\t\t<p align=\"center\">Septic shock;</p>\n\n\t\t\t<p align=\"center\">History of ampicillin-resistant <em>enterococcus</em> infection;</p>\n\n\t\t\t<p align=\"center\">IV antibiotic use and hospitalization within prior 90 days; Positive MRSA nasal swab or prior MRSA infection</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:312px;height:1px;\">\n\t\t\t<p align=\"center\">Piperacillin/tazobactam^* 4.5 gm IV q6h</p>\n\n\t\t\t<p align=\"center\"><strong>PLUS</strong></p>\n\n\t\t\t<p align=\"center\" style=\"margin-left:.25in;\">Vancomycin IV &nbsp;(see Antimicrobial Guidebook for dosing)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:341px;height:1px;\">\n\t\t\t<p style=\"text-align: center;\">&nbsp;</p>\n\n\t\t\t<p style=\"text-align: center;\">History of Vancomycin-Resistant <em>Enterococcus</em> spp. (VRE)</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:312px;height:1px;\">\n\t\t\t<p align=\"center\">Piperacillin/tazobactam^* 4.5 gm IV q6h</p>\n\n\t\t\t<p align=\"center\"><strong>PLUS</strong></p>\n\n\t\t\t<p align=\"center\">Daptomycin* 10 mg/kg IV q24h</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><sup>+</sup> Present at or acquired within the first 48 hours of admission&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>\n\n<p><sup>++</sup> Acquisition of infection &gt;48 hours after admission</p>\n\n<p>^ If patient received &gt; 48 hours of piperacillin/tazobactam within the prior 60 days, consider empiric meropenem*</p>\n\n<p>* Contact ASP PharmD (preferred) or ID fellow for approval (EXCEPTION: pip/tazo may be used in ICU without ID prior approval)</p>\n\n<p>&nbsp;</p>\n\n<h4><strong>SBP Prophylaxis</strong></h4>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"653\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:281px;height:13px;\">\n\t\t\t<p align=\"center\"><strong>Prophylaxis Criteria</strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:294px;height:13px;\">\n\t\t\t<p align=\"center\"><strong>Antibiotic Therapy</strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:78px;height:13px;\">\n\t\t\t<p align=\"center\"><strong>Duration</strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:281px;height:47px;\">\n\t\t\t<p align=\"center\"><strong><u>Primary Prophylaxis</u></strong></p>\n\n\t\t\t<p align=\"center\">&nbsp;</p>\n\n\t\t\t<p>Advanced cirrhosis <u>without</u> prior episode of SBP <u>and</u> Acute upper gastrointestinal hemorrhage</p>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:294px;height:47px;\">\n\t\t\t<p><strong>Preferred</strong>: Ceftriaxone 1 gm IV q24h&nbsp;</p>\n\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Alterative initial agent/ PO step down</strong>:</p>\n\n\t\t\t<p>Ciprofloxacin* 500 mg PO q12h</p>\n\n\t\t\t<p>Sulfamethoxazole-trimethoprim 1 DS PO tab q12h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:78px;height:47px;\">\n\t\t\t<p>7 days</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:281px;height:78px;\">\n\t\t\t<p align=\"center\"><strong><u>Primary Prophylaxis</u></strong></p>\n\n\t\t\t<p>Low ascitic protein (&lt;1.5 g/dL)</p>\n\n\t\t\t<p style=\"margin-left: 40px;\"><u><strong>AND either</strong></u></p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Renal dysfunction (Cr ≥ 1.2 mg/dL, BUN ≥ 25 mg/dL, or Serum Na ≤ 130 mEq/L</li>\n\t\t\t</ul>\n\n\t\t\t<p style=\"margin-left: 40px;\"><u><strong>OR</strong></u></p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Liver failure (CTP ≥ 9, total bilirubin ≥ 3 mg/DL)</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t\t<td style=\"width:294px;height:78px;\">\n\t\t\t<p><strong>Preferred</strong>: Ciprofloxacin* 500 mg PO Q24H</p>\n\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Alternative:</strong></p>\n\n\t\t\t<p>Sulfamethoxazole-trimethoprim 1 DS PO tab daily</p>\n\n\t\t\t<p>Rifaximin<sup>#</sup> 400 mg PO TID (preferred) or 550 mg PO BID</p>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:78px;height:78px;\">\n\t\t\t<p>Long term</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:281px;height:60px;\">\n\t\t\t<p align=\"center\"><strong><u>Secondary Prophylaxis</u></strong></p>\n\n\t\t\t<p align=\"center\">&nbsp;</p>\n\n\t\t\t<p>Prior episode of SBP</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:294px;height:60px;\">\n\t\t\t<p><strong>Preferred</strong>: Ciprofloxacin* 500 mg PO Q24H</p>\n\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Alternatives:</strong></p>\n\n\t\t\t<p>Sulfamethoxazole-trimethoprim 1 DS PO tab daily</p>\n\n\t\t\t<p>Rifaximin<sup>#</sup> 400 mg PO TID (preferred) or 550 mg PO BID</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:78px;height:60px;\">\n\t\t\t<p>Long term</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><sup>#</sup> Place pharmacy NFDR consult &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Contact ASP PharmD (preferred) or ID fellow for inpatient use</p>\n\n<p>&nbsp;</p>\n\n<p><u>References</u><strong>: </strong></p>\n\n<p><strong>1.</strong> Biggins, Scott W., et al. \"Diagnosis, evaluation, and management of ascites, spontaneous bacterial peritonitis and hepatorenal syndrome: 2021 practice guidance by the American Association for the Study of Liver Diseases.\" Hepatology 74.2 (2021): 1014-1048.</p>\n\n<p><strong>2</strong>. Praharaj, Dibya L., et al. \"Rifaximin vs. norfloxacin for spontaneous bacterial peritonitis prophylaxis: a randomized controlled trial.\"&nbsp;<em>Journal of Clinical and Experimental Hepatology</em>&nbsp;12.2 (2022): 336-342</p>\n",
+   "summary": "SFVA facility guidelines for management and treatment of SBP",
+   "value": "<h3 style=\"text-align: center;\"><strong>Spontaneous Bacterial Peritonitis (SBP)</strong></h3>\r\n\r\n<p>Approximately 1/3 of cirrhotic patients have bacterial infections. Spontaneous bacterial peritonitis (SBP) is a common infection in this setting which occurs in the absence of an obvious source of infection. Presence of fever or hypothermia, chills, and localizing symptoms should raise suspicion for bacterial infection. Signs/symptoms specific to SBP are abdominal pain, tenderness on palpation +/- rebound tenderness, and ileus. However, typical symptoms may be absent in cirrhotic patients. Common pathogens include gut bacteria (<em>E. coli</em>, <em>Klebsiella spp.</em>) and <em>Streptococci spp</em>.</p>\r\n\r\n<p><u><strong>Diagnosis</strong></u></p>\r\n\r\n<ul>\r\n\t<li>Diagnostic abdominal paracentesis for cell count and bacterial culture, even in absence of signs/symptoms of infection.\r\n\t<ul>\r\n\t\t<li>Culture ascitic fluid <u>before</u> initiating antibiotics.</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>Polymorphonuclear (PMN) leukocyte count &gt;250/mm<sup>3</sup> indicates SBP ⇒ Start empiric antibiotics.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h4><strong>SBP Empiric Treatment</strong></h4>\r\n\r\n<p>Expected duration 5-7 days</p>\r\n\r\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"653\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:341px;height:1px;\">\r\n\t\t\t<p align=\"center\"><strong>SBP Infection</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:312px;height:1px;\">\r\n\t\t\t<p align=\"center\"><strong>Empiric Therapy</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:341px;height:13px;\">\r\n\t\t\t<p align=\"center\">Community Acquired<sup>+</sup></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:312px;height:13px;\">\r\n\t\t\t<p align=\"center\" style=\"margin-left:.25in;\">Ceftriaxone 1 gm IV q24h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:341px;height:6px;\">\r\n\t\t\t<p align=\"center\">Nosocomial<sup>++</sup></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:312px;height:6px;\">\r\n\t\t\t<p align=\"center\" style=\"margin-left:.25in;\">Piperacillin/tazobactam^* 4.5 gm IV q6h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:341px;height:1px;\">\r\n\t\t\t<p align=\"center\">Septic shock;</p>\r\n\r\n\t\t\t<p align=\"center\">History of ampicillin-resistant <em>enterococcus</em> infection;</p>\r\n\r\n\t\t\t<p align=\"center\">IV antibiotic use and hospitalization within prior 90 days; Positive MRSA nasal swab or prior MRSA infection</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:312px;height:1px;\">\r\n\t\t\t<p align=\"center\">Piperacillin/tazobactam^* 4.5 gm IV q6h</p>\r\n\r\n\t\t\t<p align=\"center\"><strong>PLUS</strong></p>\r\n\r\n\t\t\t<p align=\"center\" style=\"margin-left:.25in;\">Vancomycin IV &nbsp;(see Antimicrobial Guidebook for dosing)</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:341px;height:1px;\">\r\n\t\t\t<p style=\"text-align: center;\">&nbsp;</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">History of Vancomycin-Resistant <em>Enterococcus</em> spp. (VRE)</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:312px;height:1px;\">\r\n\t\t\t<p align=\"center\">Piperacillin/tazobactam^* 4.5 gm IV q6h</p>\r\n\r\n\t\t\t<p align=\"center\"><strong>PLUS</strong></p>\r\n\r\n\t\t\t<p align=\"center\">Daptomycin* 10 mg/kg IV q24h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><sup>+</sup> Present at or acquired within the first 48 hours of admission&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<p><sup>++</sup> Acquisition of infection &gt;48 hours after admission</p>\r\n\r\n<p>^ If patient received &gt; 48 hours of piperacillin/tazobactam within the prior 60 days, consider empiric meropenem*</p>\r\n\r\n<p>* Contact ASP PharmD (preferred) or ID fellow for approval (EXCEPTION: pip/tazo may be used in ICU without ID prior approval)</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h4><strong>SBP Prophylaxis</strong></h4>\r\n\r\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"653\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:281px;height:13px;\">\r\n\t\t\t<p align=\"center\"><strong>Prophylaxis Criteria</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:294px;height:13px;\">\r\n\t\t\t<p align=\"center\"><strong>Antibiotic Therapy</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:78px;height:13px;\">\r\n\t\t\t<p align=\"center\"><strong>Duration</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:281px;height:47px;\">\r\n\t\t\t<p align=\"center\"><strong><u>Primary Prophylaxis</u></strong></p>\r\n\r\n\t\t\t<p align=\"center\">&nbsp;</p>\r\n\r\n\t\t\t<p>Advanced cirrhosis <u>without</u> prior episode of SBP <u>and</u> Acute upper gastrointestinal hemorrhage</p>\r\n\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:294px;height:47px;\">\r\n\t\t\t<p><strong>Preferred</strong>: Ceftriaxone 1 gm IV q24h&nbsp;</p>\r\n\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p><strong>Alterative initial agent/ PO step down</strong>:</p>\r\n\r\n\t\t\t<p>Ciprofloxacin* 500 mg PO q12h</p>\r\n\r\n\t\t\t<p>Sulfamethoxazole-trimethoprim 1 DS PO tab q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:78px;height:47px;\">\r\n\t\t\t<p>7 days</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:281px;height:78px;\">\r\n\t\t\t<p align=\"center\"><strong><u>Primary Prophylaxis</u></strong></p>\r\n\r\n\t\t\t<p>Low ascitic protein (&lt;1.5 g/dL)</p>\r\n\r\n\t\t\t<p style=\"margin-left: 40px;\"><u><strong>AND either</strong></u></p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Renal dysfunction (Cr ≥ 1.2 mg/dL, BUN ≥ 25 mg/dL, or Serum Na ≤ 130 mEq/L</li>\r\n\t\t\t</ul>\r\n\r\n\t\t\t<p style=\"margin-left: 40px;\"><u><strong>OR</strong></u></p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Liver failure (CTP ≥ 9, total bilirubin ≥ 3 mg/DL)</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:294px;height:78px;\">\r\n\t\t\t<p><strong>Preferred</strong>: Ciprofloxacin* 500 mg PO Q24H</p>\r\n\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p><strong>Alternative:</strong></p>\r\n\r\n\t\t\t<p>Sulfamethoxazole-trimethoprim 1 DS PO tab daily</p>\r\n\r\n\t\t\t<p>Rifaximin<sup>#</sup> 400 mg PO TID (preferred) or 550 mg PO BID</p>\r\n\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:78px;height:78px;\">\r\n\t\t\t<p>Long term</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:281px;height:60px;\">\r\n\t\t\t<p align=\"center\"><strong><u>Secondary Prophylaxis</u></strong></p>\r\n\r\n\t\t\t<p align=\"center\">&nbsp;</p>\r\n\r\n\t\t\t<p>Prior episode of SBP</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:294px;height:60px;\">\r\n\t\t\t<p><strong>Preferred</strong>: Ciprofloxacin* 500 mg PO Q24H</p>\r\n\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p><strong>Alternatives:</strong></p>\r\n\r\n\t\t\t<p>Sulfamethoxazole-trimethoprim 1 DS PO tab daily</p>\r\n\r\n\t\t\t<p>Rifaximin<sup>#</sup> 400 mg PO TID (preferred) or 550 mg PO BID</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:78px;height:60px;\">\r\n\t\t\t<p>Long term</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><sup>#</sup> Place pharmacy NFDR consult &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Contact ASP PharmD (preferred) or ID fellow for inpatient use</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><u>References</u><strong>: </strong></p>\r\n\r\n<p><strong>1.</strong> Biggins, Scott W., et al. \"Diagnosis, evaluation, and management of ascites, spontaneous bacterial peritonitis and hepatorenal syndrome: 2021 practice guidance by the American Association for the Study of Liver Diseases.\" Hepatology 74.2 (2021): 1014-1048.</p>\r\n\r\n<p><strong>2</strong>. Praharaj, Dibya L., et al. \"Rifaximin vs. norfloxacin for spontaneous bacterial peritonitis prophylaxis: a randomized controlled trial.\"&nbsp;<em>Journal of Clinical and Experimental Hepatology</em>&nbsp;12.2 (2022): 336-342</p>\r\n"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-06-02T23:08:49+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1748905729,
+   "last_comment_uid": 611,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-11-29T23:08:36+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2023-11-29"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 471,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee7b224f-cfca-453f-9d7e-9ba9f50edf24",
+   "url": "/site/va-medical-center-san-francisco"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14971
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/vasf-spontaneous-bacterial-peritonitis-sbp-treatment-guidelines",
+   "langcode": "und",
+   "pid": 27541
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-06-02T23:08:49+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "VASF Spontaneous Bacterial Peritonitis (SBP) Treatment Guidelines"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "61de08e5-263e-496b-8aec-ac19a11c4f66"
+  }
+ ],
+ "vid": [
+  {
+   "value": 18961
+  }
+ ]
+}

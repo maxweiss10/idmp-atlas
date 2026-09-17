@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-18T01:12:33+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1718745533,
+   "last_comment_uid": 191,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-08-22T18:15:20+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table table-style-align-center\"><thead><tr><th>Diagnosis</th><th>Common Pathogens</th><th>Drug(s) of First Choice</th><th>Alternative Drug(s)</th><th>Comments</th><th>Expected Duration</th></tr></thead><tbody><tr><td><strong>Chorioamnionitis</strong></td><td><em>Bacteroides</em><br><em>Prevotella bivia</em><br>Group B &amp; A streptococci<br>Enterobacterales<br><em>M. hominis</em></td><td><a href=\"/content/ceftriaxone\" data-entity-type=\"node\" data-entity-uuid=\"dce99779-a8c1-41a2-a10d-ed7cff21055e\" data-entity-substitution=\"canonical\"><strong>Ceftriaxone</strong></a><br><em>PLUS</em><br><a href=\"/content/metronidazole\" data-entity-type=\"node\" data-entity-uuid=\"5c19f39c-142d-4f57-8e5a-9ca60098c45d\" data-entity-substitution=\"canonical\"><strong>Metronidazole</strong></a></td><td><p><em>For </em><a href=\"/content/allergy-beta-lactam\"><em>severe cephalosporin allergy</em></a><em>:</em><br><a href=\"https://idmp.ucsf.edu/content/ertapenem\"><strong>Ertapenem</strong></a></p><p><em>For&nbsp;</em><a href=\"/content/allergy-beta-lactam\"><em>severe beta-lactam allergy</em></a><em>:</em><br><a href=\"https://idmp.ucsf.edu/content/vancomycin-iv\"><strong>Vancomycin</strong></a><br><em>PLUS</em><br><a href=\"https://idmp.ucsf.edu/content/gentamicin\"><strong>Gentamicin</strong></a><br><em>PLUS</em><br><a href=\"https://idmp.ucsf.edu/content/metronidazole\"><strong>Metronidazole&nbsp;</strong></a></p></td><td>Antibiotic coverage is consistent regardless of delivery method (vaginal vs. Cesarean).</td><td><p>After delivery, STOP antibiotics (if vaginal delivery) or continue antibiotics for one dose (if Cesarean) unless the patient is diagnosed with endometritis. If so, refer to Endometritis section.&nbsp;</p><p>Antibiotics should be continued at recommended dosing interval, even if periprocedural cephalosporins are administered (i.e. no need to postpone first ceftriaxone dose if cefazolin is given periprocedurally).</p><p>&nbsp;</p></td></tr><tr><td><strong>Endometritis</strong></td><td><em>Bacteroides</em><br><em>Prevotella bivia</em><br>Group B &amp; A streptococci<br>Enterobacterales<br><em>M. hominis</em></td><td><a href=\"/content/ceftriaxone\" data-entity-type=\"node\" data-entity-uuid=\"dce99779-a8c1-41a2-a10d-ed7cff21055e\" data-entity-substitution=\"canonical\"><strong>Ceftriaxone</strong></a><br><em>PLUS</em><br><a href=\"/content/metronidazole\" data-entity-type=\"node\" data-entity-uuid=\"5c19f39c-142d-4f57-8e5a-9ca60098c45d\" data-entity-substitution=\"canonical\"><strong>Metronidazole</strong></a></td><td><p><em>For </em><a href=\"/content/allergy-beta-lactam\"><em>severe cephalosporin allergy</em></a><em>:</em><br><a href=\"https://idmp.ucsf.edu/content/ertapenem\"><strong>Ertapenem</strong></a></p><p><em>For&nbsp;</em><a href=\"/content/allergy-beta-lactam\"><em>severe beta-lactam allergy</em></a><em>:</em><br><a href=\"https://idmp.ucsf.edu/content/vancomycin-iv\"><strong>Vancomycin</strong></a><br><em>PLUS</em><br><a href=\"https://idmp.ucsf.edu/content/gentamicin\"><strong>Gentamicin</strong></a><br><em>PLUS</em><br><a href=\"https://idmp.ucsf.edu/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td>If positive chlamydia testing, add&nbsp;<a href=\"/content/azithromycin\">azithromycin</a>&nbsp;or&nbsp;<a href=\"/content/doxycycline\">doxycycline</a>.</td><td><p>Continue antibiotics until patient is afebrile for 24-48 hours.</p><p>If still febrile &gt; 48 hours on antibiotic regimen postpartum, follow <a href=\"https://idmp.ucsf.edu/content/abdominal-infections\"><strong>healthcare-associated secondary peritonitis</strong></a> recommendations for which antibiotics to escalate to. Wait 48 hours on an antibiotic regimen before considering regimen failed.</p></td></tr></tbody></table>",
+   "value": "<table class=\"table table-style-align-center\"><thead><tr><th>Diagnosis</th><th>Common Pathogens</th><th>Drug(s) of First Choice</th><th>Alternative Drug(s)</th><th>Comments</th><th>Expected Duration</th></tr></thead><tbody><tr><td><strong>Chorioamnionitis</strong></td><td><em>Bacteroides</em><br><em>Prevotella bivia</em><br>Group B &amp; A streptococci<br>Enterobacterales<br><em>M. hominis</em></td><td><a href=\"/content/ceftriaxone\" data-entity-type=\"node\" data-entity-uuid=\"dce99779-a8c1-41a2-a10d-ed7cff21055e\" data-entity-substitution=\"canonical\"><strong>Ceftriaxone</strong></a><br><em>PLUS</em><br><a href=\"/content/metronidazole\" data-entity-type=\"node\" data-entity-uuid=\"5c19f39c-142d-4f57-8e5a-9ca60098c45d\" data-entity-substitution=\"canonical\"><strong>Metronidazole</strong></a></td><td><p><em>For </em><a href=\"/content/allergy-beta-lactam\"><em>severe cephalosporin allergy</em></a><em>:</em><br><a href=\"https://idmp.ucsf.edu/content/ertapenem\"><strong>Ertapenem</strong></a></p><p><em>For&nbsp;</em><a href=\"/content/allergy-beta-lactam\"><em>severe beta-lactam allergy</em></a><em>:</em><br><a href=\"https://idmp.ucsf.edu/content/vancomycin-iv\"><strong>Vancomycin</strong></a><br><em>PLUS</em><br><a href=\"https://idmp.ucsf.edu/content/gentamicin\"><strong>Gentamicin</strong></a><br><em>PLUS</em><br><a href=\"https://idmp.ucsf.edu/content/metronidazole\"><strong>Metronidazole&nbsp;</strong></a></p></td><td>Antibiotic coverage is consistent regardless of delivery method (vaginal vs. Cesarean).</td><td><p>After delivery, STOP antibiotics (if vaginal delivery) or continue antibiotics for one dose (if Cesarean) unless the patient is diagnosed with endometritis. If so, refer to Endometritis section.&nbsp;</p><p>Antibiotics should be continued at recommended dosing interval, even if periprocedural cephalosporins are administered (i.e. no need to postpone first ceftriaxone dose if cefazolin is given periprocedurally).</p><p>&nbsp;</p></td></tr><tr><td><strong>Endometritis</strong></td><td><em>Bacteroides</em><br><em>Prevotella bivia</em><br>Group B &amp; A streptococci<br>Enterobacterales<br><em>M. hominis</em></td><td><a href=\"/content/ceftriaxone\" data-entity-type=\"node\" data-entity-uuid=\"dce99779-a8c1-41a2-a10d-ed7cff21055e\" data-entity-substitution=\"canonical\"><strong>Ceftriaxone</strong></a><br><em>PLUS</em><br><a href=\"/content/metronidazole\" data-entity-type=\"node\" data-entity-uuid=\"5c19f39c-142d-4f57-8e5a-9ca60098c45d\" data-entity-substitution=\"canonical\"><strong>Metronidazole</strong></a></td><td><p><em>For </em><a href=\"/content/allergy-beta-lactam\"><em>severe cephalosporin allergy</em></a><em>:</em><br><a href=\"https://idmp.ucsf.edu/content/ertapenem\"><strong>Ertapenem</strong></a></p><p><em>For&nbsp;</em><a href=\"/content/allergy-beta-lactam\"><em>severe beta-lactam allergy</em></a><em>:</em><br><a href=\"https://idmp.ucsf.edu/content/vancomycin-iv\"><strong>Vancomycin</strong></a><br><em>PLUS</em><br><a href=\"https://idmp.ucsf.edu/content/gentamicin\"><strong>Gentamicin</strong></a><br><em>PLUS</em><br><a href=\"https://idmp.ucsf.edu/content/metronidazole\"><strong>Metronidazole</strong></a></p></td><td>If positive chlamydia testing, add&nbsp;<a href=\"/content/azithromycin\">azithromycin</a>&nbsp;or&nbsp;<a href=\"/content/doxycycline\">doxycycline</a>.</td><td><p>Continue antibiotics until patient is afebrile for 24-48 hours.</p><p>If still febrile &gt; 48 hours on antibiotic regimen postpartum, follow <a href=\"https://idmp.ucsf.edu/content/abdominal-infections\"><strong>healthcare-associated secondary peritonitis</strong></a> recommendations for which antibiotics to escalate to. Wait 48 hours on an antibiotic regimen before considering regimen failed.</p></td></tr></tbody></table>"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 141,
+   "target_type": "taxonomy_term",
+   "target_uuid": "617ec104-030b-4454-9ef4-5697429c4791",
+   "url": "/guidelines-empiric-therapy-categories/obstetric-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14721
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/chorioamnionitis-and-endometritis",
+   "langcode": "und",
+   "pid": 27321
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-22T21:11:53+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Chorioamnionitis and endometritis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "44007052-8164-43b7-8aa7-4babd00289a1"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24906
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-01T19:36:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1579217048,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-01-16T23:18:15+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">CrCl&nbsp;&gt; 50 mL/min</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">\n\t\t\t<p>25 - 50 mL/min</p>\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t<p style=\"text-align: center;\">10 - 25 mL/min</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">\n\t\t\t<p>&lt; 10 mL/min<b>&nbsp;</b></p>\n\t\t\t</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Non-CNS HSV Infections</td>\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV q8h</td>\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV q12h</td>\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV q24h</td>\n\t\t\t<td style=\"text-align: center;\">2.5 mg/kg IV q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>HSV encephalitis/ Disseminated VZV</td>\n\t\t\t<td style=\"text-align: center;\">10 mg/kg IV q8h</td>\n\t\t\t<td style=\"text-align: center;\">10 mg/kg IV q12h</td>\n\t\t\t<td style=\"text-align: center;\">10 mg/kg IV q24h</td>\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Prophylaxis for Heme-BMT patients</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>250 mg/m<sup>2</sup>/dose IV q12h</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">125 mg/m<sup>2</sup>/dose IV q12h</td>\n\t\t\t<td style=\"text-align: center;\">125 mg/m<sup>2</sup>/dose IV q24h</td>\n\t\t\t<td style=\"text-align: center;\">62.5 mg/m<sup>2</sup>/dose q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">CrCl&nbsp;&gt; 50 mL/min</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">\r\n\t\t\t<p>25 - 50 mL/min</p>\r\n\t\t\t</th>\r\n\t\t\t<th>\r\n\t\t\t<p style=\"text-align: center;\">10 - 25 mL/min</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">\r\n\t\t\t<p>&lt; 10 mL/min<b>&nbsp;</b></p>\r\n\t\t\t</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Non-CNS HSV Infections</td>\r\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV q8h</td>\r\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">2.5 mg/kg IV q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>HSV encephalitis/ Disseminated VZV</td>\r\n\t\t\t<td style=\"text-align: center;\">10 mg/kg IV q8h</td>\r\n\t\t\t<td style=\"text-align: center;\">10 mg/kg IV q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">10 mg/kg IV q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Prophylaxis for Heme-BMT patients</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>250 mg/m<sup>2</sup>/dose IV q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">125 mg/m<sup>2</sup>/dose IV q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">125 mg/m<sup>2</sup>/dose IV q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">62.5 mg/m<sup>2</sup>/dose q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Non-CNS HSV Infections</td>\n\t\t\t<td style=\"text-align: center;\">2.5 mg/kg IV x1 now, then qPM</td>\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>HSV encephalitis/ Disseminated VZV</td>\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV x1 now, then qPM</td>\n\t\t\t<td style=\"text-align: center;\">10 mg/kg IV q12h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Prophylaxis for Heme-BMT patients</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>62.5 mg/m<sup>2</sup>/dose IV q 24h</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">125 mg/m<sup>2</sup>/dose IV q12h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Non-CNS HSV Infections</td>\r\n\t\t\t<td style=\"text-align: center;\">2.5 mg/kg IV x1 now, then qPM</td>\r\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>HSV encephalitis/ Disseminated VZV</td>\r\n\t\t\t<td style=\"text-align: center;\">5 mg/kg IV x1 now, then qPM</td>\r\n\t\t\t<td style=\"text-align: center;\">10 mg/kg IV q12h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Prophylaxis for Heme-BMT patients</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>62.5 mg/m<sup>2</sup>/dose IV q 24h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">125 mg/m<sup>2</sup>/dose IV q12h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 66,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d2274533-3b4b-403d-b6bd-9026f83daea2",
+   "url": "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use"
+  }
+ ],
+ "field_drug_references": [
+  {
+   "format": "advanced",
+   "processed": "<p>Heintz BH, Matzke GR, Dager WE. Antimicrobial dosing concepts and recommendations for critically ill adult patients receiving continuous renal replacement therapy or intermittent hemodialysis. <a href=\"https://pubmed.ncbi.nlm.nih.gov/19397464/\">Pharmacotherapy. 2009 May;29(5):562-77. doi: 10.1592/phco.29.5.562. PMID: 19397464.</a></p>\n",
+   "value": "<p>Heintz BH, Matzke GR, Dager WE. Antimicrobial dosing concepts and recommendations for critically ill adult patients receiving continuous renal replacement therapy or intermittent hemodialysis. <a href=\"https://pubmed.ncbi.nlm.nih.gov/19397464/\">Pharmacotherapy. 2009 May;29(5):562-77. doi: 10.1592/phco.29.5.562. PMID: 19397464.</a></p>\r\n"
+  }
+ ],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Dosing weights for acyclovir are controversial. The original package insert recommends dosing on ideal body weight in obesity.&nbsp; Subsequent studies suggest adjusted body should be used to reduce risk of underdosing.&nbsp; We recommend initial use of adjusted body weight in obesity with careful monitoring of renal function and mental status with potential for dose reduction as needed.</p>\n\n<p>&nbsp;</p>\n",
+   "value": "<p>Dosing weights for acyclovir are controversial. The original package insert recommends dosing on ideal body weight in obesity.&nbsp; Subsequent studies suggest adjusted body should be used to reduce risk of underdosing.&nbsp; We recommend initial use of adjusted body weight in obesity with careful monitoring of renal function and mental status with potential for dose reduction as needed.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+  }
+ ],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "11/2024 - RJ made edits and added rows for prophylaxis for Heme-BMT \r\n04/2025 - RJ updated weight from TBW < 120% IBW to TBW"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8236
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/acyclovir-iv",
+   "langcode": "und",
+   "pid": 21171
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-01T19:36:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Acyclovir IV"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "514c3018-125d-49a2-8fae-b7cfee32cf81"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22636
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-01T20:38:01+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587414838,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-20T20:33:58+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p><strong>This dosing aligns with current practices at the SFDPH TB Clinic (as of 5/2025) for treatment of tuberculosis</strong>. For patients in&nbsp;other counties, contact the respective TB clinics for dosing recommendations.&nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">CrCl <u>&gt;</u> 30 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">&lt; 30 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Tuberculosis</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>20 - 24 mg/kg PO daily</p>\n\n\t\t\t<p>Max starting dose = 1600 mg. For patients &gt; 80 kg, contact ID pharmacy for dosing advice.&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">20 - 24 mg/kg PO three times weekly</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Non-tuberculous mycobacteria (MAC)</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">15 mg/kg PO daily</td>\n\t\t\t<td style=\"text-align: center;\">15 mg/kg PO three times weekly</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Therapeutic drug monitoring may be utilized under the guidance of SF TB Clinic, ID, and/or ID/ASP Pharmacy. Higher dosing may be required.</p>\n",
+   "value": "<p><strong>This dosing aligns with current practices at the SFDPH TB Clinic (as of 5/2025) for treatment of tuberculosis</strong>. For patients in&nbsp;other counties, contact the respective TB clinics for dosing recommendations.&nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">CrCl <u>&gt;</u> 30 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">&lt; 30 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Tuberculosis</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>20 - 24 mg/kg PO daily</p>\r\n\r\n\t\t\t<p>Max starting dose = 1600 mg. For patients &gt; 80 kg, contact ID pharmacy for dosing advice.&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">20 - 24 mg/kg PO three times weekly</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Non-tuberculous mycobacteria (MAC)</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">15 mg/kg PO daily</td>\r\n\t\t\t<td style=\"text-align: center;\">15 mg/kg PO three times weekly</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Therapeutic drug monitoring may be utilized under the guidance of SF TB Clinic, ID, and/or ID/ASP Pharmacy. Higher dosing may be required.</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Tuberculosis</td>\n\t\t\t<td style=\"text-align: center;\">20 - 24 mg/kg PO x 1 now and post-HD</td>\n\t\t\t<td style=\"text-align: center;\">15-20 mg/kg PO q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Non-tuberculous mycobacteria (MAC)</td>\n\t\t\t<td style=\"text-align: center;\">15 mg/kg PO x 1 now and post-HD</td>\n\t\t\t<td style=\"text-align: center;\">15 mg/kg PO q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Therapeutic drug monitoring may be utilized under the guidance of SF TB Clinic, ID, and/or ID/ASP Pharmacy. Higher dosing may be required.</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Tuberculosis</td>\r\n\t\t\t<td style=\"text-align: center;\">20 - 24 mg/kg PO x 1 now and post-HD</td>\r\n\t\t\t<td style=\"text-align: center;\">15-20 mg/kg PO q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Non-tuberculous mycobacteria (MAC)</td>\r\n\t\t\t<td style=\"text-align: center;\">15 mg/kg PO x 1 now and post-HD</td>\r\n\t\t\t<td style=\"text-align: center;\">15 mg/kg PO q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Therapeutic drug monitoring may be utilized under the guidance of SF TB Clinic, ID, and/or ID/ASP Pharmacy. Higher dosing may be required.</p>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 1966,
+   "target_type": "taxonomy_term",
+   "target_uuid": "395e68a2-cf2b-4818-bba7-f04492a377c6",
+   "url": "/dosing-weights/adjusted-body-weight-when-bmi-30"
+  },
+  {
+   "target_id": 1971,
+   "target_type": "taxonomy_term",
+   "target_uuid": "bcbbb870-0eae-49a2-b24d-c4d8e65d1164",
+   "url": "/dosing-weights/total-body-weight-when-bmi"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Drug is available in 400mg and 100mg tablets.</p>\n\n<p>This dosing aligns with current practices at the SFDPH TB Clinic (as of 5/2023) for treatment of tuberculosis. For patients in&nbsp;other counties, contact the respective TB clinics for dosing recommendations.&nbsp;</p>\n",
+   "value": "<p>Drug is available in 400mg and 100mg tablets.</p>\r\n\r\n<p>This dosing aligns with current practices at the SFDPH TB Clinic (as of 5/2023) for treatment of tuberculosis. For patients in&nbsp;other counties, contact the respective TB clinics for dosing recommendations.&nbsp;</p>\r\n"
+  }
+ ],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "- EMB wt. based dosing updated to align with SFDPH TB Clinic. Updates approved at IDMP Subcommittee Meeting 1/2023. Updated by AR."
+  },
+  {
+   "value": "6/2023: updated EMB yet again to align with TB clinic - TBW for most folks and AdjBW for obesity. Updated by AR."
+  },
+  {
+   "value": "9/2023: same as above except for clarified that cutoff for obesity is BMI >30 (not 120% IBW) with Rocio at SF TB clinic. Updated by EK."
+  },
+  {
+   "value": "6/2024: Added footnote, \"Therapeutic drug monitoring may be utilized under the guidance of SF TB Clinic, ID, and/or ID/ASP Pharmacy. Higher dosing may be required.\""
+  },
+  {
+   "value": "5/2025: added dosing for NTM/MAC AND updated EMB dosing based on updated SF TB clinic practices. Updated by AR"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8351
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ethambutol",
+   "langcode": "und",
+   "pid": 21256
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-01T20:38:01+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Ethambutol"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "598e5639-f563-4eff-85dc-32dcdac4da9e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22721
+  }
+ ]
+}

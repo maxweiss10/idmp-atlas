@@ -1,0 +1,152 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:43:19+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597341984,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T18:06:24+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_dialysis_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>\n",
+   "value": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>\r\n"
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dosing</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>All Indications</p>\n\n\t\t\t<p>PO: must fast for at least 4 hours before and 2 hours after dose</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>200 mg IV x1, then 100 mg IV q24h</p>\n\n\t\t\t<p>450 mg PO daily x2 doses, then 300 mg PO daily</p>\n\t\t\t</td>\n\t\t\t<td>No adjustment for renal dysfunction</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Loading doses may not be required when used for non-tuberculous mycobacterial infections</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dosing</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>All Indications</p>\r\n\r\n\t\t\t<p>PO: must fast for at least 4 hours before and 2 hours after dose</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>200 mg IV x1, then 100 mg IV q24h</p>\r\n\r\n\t\t\t<p>450 mg PO daily x2 doses, then 300 mg PO daily</p>\r\n\t\t\t</td>\r\n\t\t\t<td>No adjustment for renal dysfunction</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Loading doses may not be required when used for non-tuberculous mycobacterial infections</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dosing</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>All Indications</p>\n\n\t\t\t<p>PO: must fast for at least 4 hours before and 2 hours after dose</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>200 mg IV x1, then 100 mg IV q24h</p>\n\n\t\t\t<p>450 mg PO daily x2 doses, then 300 mg PO daily</p>\n\t\t\t</td>\n\t\t\t<td>No adjustment for hemodialysis</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dosing</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>All Indications</p>\r\n\r\n\t\t\t<p>PO: must fast for at least 4 hours before and 2 hours after dose</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>200 mg IV x1, then 100 mg IV q24h</p>\r\n\r\n\t\t\t<p>450 mg PO daily x2 doses, then 300 mg PO daily</p>\r\n\t\t\t</td>\r\n\t\t\t<td>No adjustment for hemodialysis</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Oral formulation&nbsp;</p>\n\n<p>Restricted&nbsp;to ID or Antimicrobial Stewardship except:</p>\n\n<p>1) Continuation of prior&nbsp;therapy</p>\n\n<p>ZSFG: Non-formulary</p>\n",
+   "value": "<p>Oral formulation&nbsp;</p>\r\n\r\n<p>Restricted&nbsp;to ID or Antimicrobial Stewardship except:</p>\r\n\r\n<p>1) Continuation of prior&nbsp;therapy</p>\r\n\r\n<p>ZSFG: Non-formulary</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11691
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/omadacycline",
+   "langcode": "und",
+   "pid": 24406
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:43:19+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Omadacycline"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "e86c5669-ab0c-4e68-abad-5da9a9ca99f9"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22121
+  }
+ ]
+}

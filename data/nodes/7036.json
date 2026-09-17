@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-16T21:37:23+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1646865627,
+   "last_comment_uid": 0,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-13T22:32:17+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<p><a href=\"https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/Pediatric%20Acute%20Liver%20Failure%20Infection%20Empiric%20Treatment.pdf\">Download a PDF</a> of the algorithm.</p>\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-default\" style=\"width:1280px;\" height=\"1759\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/Pediatric%20ALF%20Infection%20Algorithm%20%282022%29.png.webp?itok=N3kXLb0q\" width=\"349\" height=\"480\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n<p><a href=\"/pediatric-antimicrobial-dosing-benioff-childrens-hospital\">Pediatric Dosing Guideline</a></p><p><a href=\"/neonatal-antimicrobial-dosing-benioff-childrens-hospital-san-francisco\">Neonatal Dosing Guideline</a></p><p><a href=\"/guidelines-for-empiric-therapy-pediatrics\">Pediatric Empiric Antimicrobial Therapy Guidelines</a></p><p>Return to&nbsp;<a href=\"/content/empiric-antimicrobial-treatment-pediatric-patients-liver-failure-andor-early-post-liver-0\">Empiric Antimicrobial Treatment of Pediatric Patients with Liver Failure and/or Early Post-Liver Transplantation</a>&nbsp;full guideline</p>",
+   "value": "<p><a href=\"https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/Pediatric%20Acute%20Liver%20Failure%20Infection%20Empiric%20Treatment.pdf\">Download a PDF</a> of the algorithm.</p><drupal-media class=\"image_resized\" style=\"width:1280px;\" data-media-width=\"1280px\" alt=\"\" data-entity-type=\"media\" data-entity-uuid=\"1f98105b-1599-43e9-b744-0a3bd8b22ddb\" height=\"1759\">&nbsp;</drupal-media><p><a href=\"/pediatric-antimicrobial-dosing-benioff-childrens-hospital\">Pediatric Dosing Guideline</a></p><p><a href=\"/neonatal-antimicrobial-dosing-benioff-childrens-hospital-san-francisco\">Neonatal Dosing Guideline</a></p><p><a href=\"/guidelines-for-empiric-therapy-pediatrics\">Pediatric Empiric Antimicrobial Therapy Guidelines</a></p><p>Return to&nbsp;<a href=\"/content/empiric-antimicrobial-treatment-pediatric-patients-liver-failure-andor-early-post-liver-0\">Empiric Antimicrobial Treatment of Pediatric Patients with Liver Failure and/or Early Post-Liver Transplantation</a>&nbsp;full guideline</p>"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 7036
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/empiric-treatment-of-suspected-infection-in-a-previously-healthy-neonatal-pediatric-patient-with",
+   "langcode": "und",
+   "pid": 20116
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2022-03-09T22:40:27+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Empiric Treatment of Suspected Infection in a Previously Healthy Neonatal/Pediatric Patient with Acute Liver Failure"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "cb9cb114-d768-48e4-9f96-78b518136623"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24176
+  }
+ ]
+}

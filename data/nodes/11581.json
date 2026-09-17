@@ -1,0 +1,140 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597271353,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-12T22:29:13+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt; 60 mL/min</th>\n\t\t\t<th>40 - 59 mL/min</th>\n\t\t\t<th>25 - 39 mL/min</th>\n\t\t\t<th>10 - 24 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CMV Treatment</td>\n\t\t\t<td>900 mg PO q12h</td>\n\t\t\t<td>450 mg PO q12h</td>\n\t\t\t<td>450 mg PO q24h</td>\n\t\t\t<td>450 mg PO every other day</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CMV Prophylaxis</td>\n\t\t\t<td>900 mg PO q24h</td>\n\t\t\t<td>450 mg PO q24h</td>\n\t\t\t<td>450 mg PO q48h</td>\n\t\t\t<td>450 mg PO twice weekly</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt; 60 mL/min</th>\r\n\t\t\t<th>40 - 59 mL/min</th>\r\n\t\t\t<th>25 - 39 mL/min</th>\r\n\t\t\t<th>10 - 24 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>CMV Treatment</td>\r\n\t\t\t<td>900 mg PO q12h</td>\r\n\t\t\t<td>450 mg PO q12h</td>\r\n\t\t\t<td>450 mg PO q24h</td>\r\n\t\t\t<td>450 mg PO every other day</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>CMV Prophylaxis</td>\r\n\t\t\t<td>900 mg PO q24h</td>\r\n\t\t\t<td>450 mg PO q24h</td>\r\n\t\t\t<td>450 mg PO q48h</td>\r\n\t\t\t<td>450 mg PO twice weekly</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CMV Treatment</td>\n\t\t\t<td style=\"text-align: center;\">450 mg PO x1 now and post-HD</td>\n\t\t\t<td style=\"text-align: center;\">450 mg PO q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CMV Prophylaxis</td>\n\t\t\t<td style=\"text-align: center;\">450 mg PO twice weekly</td>\n\t\t\t<td style=\"text-align: center;\">450 mg PO q48h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>CMV Treatment</td>\r\n\t\t\t<td style=\"text-align: center;\">450 mg PO x1 now and post-HD</td>\r\n\t\t\t<td style=\"text-align: center;\">450 mg PO q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>CMV Prophylaxis</td>\r\n\t\t\t<td style=\"text-align: center;\">450 mg PO twice weekly</td>\r\n\t\t\t<td style=\"text-align: center;\">450 mg PO q48h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>*IV ganciclovir prefferred for initiation of therapy for unstable renal function or in dialysis</p>\n\n<p>Take with food</p>\n",
+   "value": "<p>*IV ganciclovir prefferred for initiation of therapy for unstable renal function or in dialysis</p>\r\n\r\n<p>Take with food</p>\r\n"
+  }
+ ],
+ "field_restriction_details": [],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11581
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/valganciclovir-valcyte",
+   "langcode": "und",
+   "pid": 24301
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Valganciclovir (Valcyte)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "897b0565-6ca6-4fef-8d36-9dc07e1347b4"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21816
+  }
+ ]
+}

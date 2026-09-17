@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-10-25T18:22:52+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1626369322,
+   "last_comment_uid": 201,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-07-21T16:24:11+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>Doses provided in this table are for patients with normal renal and hepatic function. Click on drug link to go to dosing guidelines.&nbsp;Some antimicrobials are restricted (ID-R).&nbsp;Click on link for guidelines on obtaining authorization.</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Non-vertebral osteomyelitis </strong><br>\n\t\t\tPresumed hematogenous source or contiguous without vascular insufficiency (no hardware in place)</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>S. aureus</em><br>\n\t\t\tStreptococci<br>\n\t\t\tGNRs (rarely)</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong>If patient is stable and has negative blood cultures, withhold antibiotics until bone biopsy and consult ID </strong></p>\n\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>N/A</td>\n\t\t\t<td>\n\t\t\t<p>If <em>S. aureus</em> is methicillin-susceptible then <a href=\"/content/cefazolin\">cefazolin </a>2g IV q8h or <a href=\"/content/nafcillin\">nafcillin</a> 2g IV q4h are the antibiotics of choice</p>\n\t\t\t</td>\n\t\t\t<td>ID consultation recommended</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Non-vertebral osteomyelitis</strong></p>\n\t\t\twith vascular insufficiency or Diabetes Mellitus (e.g. severe diabetic foot ulcer)</td>\n\t\t\t<td>\n\t\t\t<p><em>S. aureus </em>Enterobacteriaceae Anaerobes</p>\n\t\t\t<a href=\"/content/pseudomonas-aeruginosa\"><em>P. aeruginosa</em></a>&nbsp;(rare without risk factors, see comments)</td>\n\t\t\t<td>\n\t\t\t<p><strong>Obtain bone biopsy to determine microbiologic cause prior to initiation of antimicrobial therapy if patient clinically stable and has negative blood cultures</strong></p>\n\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/ceftriaxone\"><b>Ceftriaxone</b></a></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong>Obtain bone biopsy to determine microbiologic cause prior to initiation of antimicrobial therapy if patient clinically stable and has negative blood cultures</strong></p>\n\n\t\t\t<p><em>For</em><a href=\"/content/allergy-beta-lactam\"><em> severe PCN allergy</em>: </a><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\n\t\t\t<p><em>PLUS ONE OF</em>:</p>\n\n\t\t\t<p><a href=\"/content/ciprofloxacin\"><strong>Ciprofloxacin</strong></a></p>\n\n\t\t\t<p><em>OR</em></p>\n\n\t\t\t<p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a></p>\n\n\t\t\t<p><em>WITH </em></p>\n\n\t\t\t<p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a> (if patient critically ill)</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Consider Pseudomonal coverage with <a href=\"/content/piperacillin-tazobactam-zosyn\">Piperacillin-Tazobactam</a> or <a href=\"/content/cefepime\">Cefepime </a>in patients with&nbsp;the following risk factors:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Macerated ulcer or warm (tropical) climate</li>\n\t\t\t</ul>\n\n\t\t\t<p>Include anaerobic coverage with <a href=\"/content/piperacillin-tazobactam-zosyn\">piperacillin-tazobactam</a> in necrotic or gas forming infections (see <a href=\"/content/skin-and-skin-structure-infection\">SSTI guidance</a> for NSTI management)</p>\n\n\t\t\t<p>Other organisms are possible, esp. with hardware-microbiologic diagnosis and ID consultation recommended</p>\n\n\t\t\t<p>Once stable, switch to oral antibiotics based on susceptibility results</p>\n\t\t\t</td>\n\t\t\t<td>ID consultation recommended</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>Doses provided in this table are for patients with normal renal and hepatic function. Click on drug link to go to dosing guidelines.&nbsp;Some antimicrobials are restricted (ID-R).&nbsp;Click on link for guidelines on obtaining authorization.</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Non-vertebral osteomyelitis </strong><br />\r\n\t\t\tPresumed hematogenous source or contiguous without vascular insufficiency (no hardware in place)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>S. aureus</em><br />\r\n\t\t\tStreptococci<br />\r\n\t\t\tGNRs (rarely)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>If patient is stable and has negative blood cultures, withhold antibiotics until bone biopsy and consult ID </strong></p>\r\n\r\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>N/A</td>\r\n\t\t\t<td>\r\n\t\t\t<p>If <em>S. aureus</em> is methicillin-susceptible then <a href=\"/node/8286\">cefazolin </a>2g IV q8h or <a href=\"/node/8421\">nafcillin</a> 2g IV q4h are the antibiotics of choice</p>\r\n\t\t\t</td>\r\n\t\t\t<td>ID consultation recommended</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Non-vertebral osteomyelitis</strong></p>\r\n\t\t\twith vascular insufficiency or Diabetes Mellitus (e.g. severe diabetic foot ulcer)</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>S. aureus </em>Enterobacteriaceae Anaerobes</p>\r\n\t\t\t<a href=\"/node/9846\"><em>P. aeruginosa</em></a>&nbsp;(rare without risk factors, see comments)</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Obtain bone biopsy to determine microbiologic cause prior to initiation of antimicrobial therapy if patient clinically stable and has negative blood cultures</strong></p>\r\n\r\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/ceftriaxone\"><b>Ceftriaxone</b></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Obtain bone biopsy to determine microbiologic cause prior to initiation of antimicrobial therapy if patient clinically stable and has negative blood cultures</strong></p>\r\n\r\n\t\t\t<p><em>For</em><a href=\"/node/9856\"><em> severe PCN allergy</em>: </a><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS ONE OF</em>:</p>\r\n\r\n\t\t\t<p><a href=\"/node/8336\"><strong>Ciprofloxacin</strong></a></p>\r\n\r\n\t\t\t<p><em>OR</em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8271\"><strong>Aztreonam</strong></a></p>\r\n\r\n\t\t\t<p><em>WITH </em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8406\"><strong>Metronidazole</strong></a> (if patient critically ill)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Consider Pseudomonal coverage with <a href=\"/node/8436\">Piperacillin-Tazobactam</a> or <a href=\"/node/8321\">Cefepime </a>in patients with&nbsp;the following risk factors:</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Macerated ulcer or warm (tropical) climate</li>\r\n\t\t\t</ul>\r\n\r\n\t\t\t<p>Include anaerobic coverage with <a href=\"/node/8436\">piperacillin-tazobactam</a> in necrotic or gas forming infections (see <a href=\"/node/11906\">SSTI guidance</a> for NSTI management)</p>\r\n\r\n\t\t\t<p>Other organisms are possible, esp. with hardware-microbiologic diagnosis and ID consultation recommended</p>\r\n\r\n\t\t\t<p>Once stable, switch to oral antibiotics based on susceptibility results</p>\r\n\t\t\t</td>\r\n\t\t\t<td>ID consultation recommended</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 126,
+   "target_type": "taxonomy_term",
+   "target_uuid": "2dc18f2f-531d-44e4-b6b4-15004f29d271",
+   "url": "/guidelines-empiric-therapy-categories/bone-joint-infections-without-hardware"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p><a href=\"https://www.idsociety.org/practice-guideline/diabetic-foot-infections/\">Éric Senneville et al, IWGDF/IDSA Guidelines on the Diagnosis and Treatment of Diabetes-related Foot Infections (IWGDF/IDSA 2023), Clinical Infectious Diseases, 2023;&nbsp;https://doi.org/10.1093/cid/ciad527</a></p>\n",
+   "value": "<p><a href=\"https://www.idsociety.org/practice-guideline/diabetic-foot-infections/\">Éric Senneville et al, IWGDF/IDSA Guidelines on the Diagnosis and Treatment of Diabetes-related Foot Infections (IWGDF/IDSA 2023), Clinical Infectious Diseases, 2023;&nbsp;https://doi.org/10.1093/cid/ciad527</a></p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 9031
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/non-vertebral-osteomyelitis",
+   "langcode": "und",
+   "pid": 21796
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-10-25T18:22:52+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Non-Vertebral Osteomyelitis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "e031ad6c-5aa3-41c0-b7fc-eee9607590fa"
+  }
+ ],
+ "vid": [
+  {
+   "value": 18481
+  }
+ ]
+}

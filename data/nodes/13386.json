@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T23:26:43+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629847603,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T18:45:59+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{75}\" paraid=\"1497067192\">Need for drainage/source control of head and neck infections should be evaluated carefully in consultation with Pediatric Otolaryngology, Head and Neck Surgery. If initial non-operative management is chosen, a narrow spectrum regimen (i.e. without vancomycin) is encouraged to facilitate transition to oral therapy.&nbsp;</p>\n\n<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{83}\" paraid=\"2129327394\">ID consultation is recommended for head and neck infections occurring in immunocompromised patients, and for those with atypical features, chronic course, or lack of response to first line therapy.&nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Peritonsillar/ retropharyngeal abscess &nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{120}\" paraid=\"1440212178\">Group A streptococcus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{126}\" paraid=\"1450324855\"><em>Staphylococcus aureus&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{136}\" paraid=\"1619644315\">Oral anaerobes&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{141}\" paraid=\"569271641\"><strong>Inpatient</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{149}\" paraid=\"1352935845\">Ampicillin-sulbactam (Unasyn)<br>\n\t\t\t50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{157}\" paraid=\"695187566\"><strong>If patient has airway compromise, extensive abscess that will be drained, or history of documented MRSA infection or carriage within the last 6 months:&nbsp;&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{163}\" paraid=\"1040387707\">ADD&nbsp;<a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin</a> &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{173}\" paraid=\"374298933\">(follow link for dosing &amp; monitoring)  &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{181}\" paraid=\"23155674\">--------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{185}\" paraid=\"232424953\"><strong>Outpatient/step down therapy</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{193}\" paraid=\"1535455228\">Amoxicillin-clavulanate (Augmentin)<br>\n\t\t\t45 mg amoxicillin/kg/dose (max 1000 mg amoxicillin/dose)* enterally bid &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{198}\" paraid=\"529446124\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{206}\" paraid=\"227915791\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{212}\" paraid=\"570876479\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{218}\" paraid=\"699791823\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{223}\" paraid=\"1161637983\">Urgent OHNS consult recommended to evaluate need for source control &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{233}\" paraid=\"1418725061\">Consider ID consult (see details above)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{243}\" paraid=\"2003139896\"><strong>Duration</strong>:&nbsp;10-14 days based on severity and response to treatment&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{255}\" paraid=\"162862043\">If Vancomycin was started and MRSA not recovered from drained abscess, discontinue Vancomycin&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{6}\" paraid=\"46620819\">*See guidance on <a href=\"/content/maximum-dosing-for-amoxicillin-and-amoxicillin-clavulanate-0\">Amoxicillin-Clavulanate maximum dosing and formulations</a>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{75}\" paraid=\"1497067192\">Need for drainage/source control of head and neck infections should be evaluated carefully in consultation with Pediatric Otolaryngology, Head and Neck Surgery. If initial non-operative management is chosen, a narrow spectrum regimen (i.e. without vancomycin) is encouraged to facilitate transition to oral therapy.&nbsp;</p>\r\n\r\n<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{83}\" paraid=\"2129327394\">ID consultation is recommended for head and neck infections occurring in immunocompromised patients, and for those with atypical features, chronic course, or lack of response to first line therapy.&nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Peritonsillar/ retropharyngeal abscess &nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{120}\" paraid=\"1440212178\">Group A streptococcus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{126}\" paraid=\"1450324855\"><em>Staphylococcus aureus&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{136}\" paraid=\"1619644315\">Oral anaerobes&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{141}\" paraid=\"569271641\"><strong>Inpatient</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{149}\" paraid=\"1352935845\">Ampicillin-sulbactam (Unasyn)<br />\r\n\t\t\t50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{157}\" paraid=\"695187566\"><strong>If patient has airway compromise, extensive abscess that will be drained, or history of documented MRSA infection or carriage within the last 6 months:&nbsp;&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{163}\" paraid=\"1040387707\">ADD&nbsp;<a href=\"/node/13571\">Vancomycin</a> &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{173}\" paraid=\"374298933\">(follow link for dosing &amp; monitoring)  &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{181}\" paraid=\"23155674\">--------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{185}\" paraid=\"232424953\"><strong>Outpatient/step down therapy</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{193}\" paraid=\"1535455228\">Amoxicillin-clavulanate (Augmentin)<br />\r\n\t\t\t45 mg amoxicillin/kg/dose (max 1000 mg amoxicillin/dose)* enterally bid &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{198}\" paraid=\"529446124\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{206}\" paraid=\"227915791\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{212}\" paraid=\"570876479\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{218}\" paraid=\"699791823\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{223}\" paraid=\"1161637983\">Urgent OHNS consult recommended to evaluate need for source control &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{233}\" paraid=\"1418725061\">Consider ID consult (see details above)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{243}\" paraid=\"2003139896\"><strong>Duration</strong>:&nbsp;10-14 days based on severity and response to treatment&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{255}\" paraid=\"162862043\">If Vancomycin was started and MRSA not recovered from drained abscess, discontinue Vancomycin&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4507d6ac-e05e-4b84-96b2-bd60ac5038f4}{6}\" paraid=\"46620819\">*See guidance on <a href=\"/node/13576\">Amoxicillin-Clavulanate maximum dosing and formulations</a>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13386
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/peritonsillar-retropharyngeal-abscess",
+   "langcode": "und",
+   "pid": 26041
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T23:26:43+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Peritonsillar/Retropharyngeal Abscess"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "9771ad0f-a503-4529-af53-b3308e30e291"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15971
+  }
+ ]
+}

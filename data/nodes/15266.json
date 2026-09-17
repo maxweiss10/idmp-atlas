@@ -1,0 +1,240 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1756039884,
+   "last_comment_uid": 601,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-07-01T18:16:43+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": false
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 3
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "William Simmons"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [],
+ "field_person_first_name": [
+  {
+   "value": "William"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 556,
+   "target_type": "media",
+   "target_uuid": "243aad94-2d14-4e1e-9db3-c25a0ceba773",
+   "url": "/media/556"
+  }
+ ],
+ "field_person_headshot_photo": [
+  {
+   "target_id": 401,
+   "target_type": "media",
+   "target_uuid": "b60c82dd-ca8c-4d66-8f74-24f918f24dd3",
+   "url": "/media/401"
+  }
+ ],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Simmons"
+  }
+ ],
+ "field_person_middle_name": [],
+ "field_person_preferred_name": [
+  {
+   "value": "William"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1526,
+   "target_type": "taxonomy_term",
+   "target_uuid": "0e18702d-7dd5-4d27-9a7d-1d230ade71e1",
+   "url": "/departments-units-and-organizations/mmed-core-infd"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [
+  {
+   "target_id": 21601,
+   "target_type": "node",
+   "target_uuid": "51b07689-1b95-4d92-87c5-e36f30f9890c",
+   "url": "/content/antibiotic-prescribing-patterns-for-bacterial-superinfection-of-mpox-a-retrospective-cohort-study-in"
+  }
+ ],
+ "field_person_research_biography": [
+  {
+   "format": "plain_text",
+   "processed": "<p>Dr. William Simmons is an infectious disease specialist who cares for patients with complex conditions, including serious bacterial infections in the bloodstream and infections related to surgically implanted devices and hardware. He treats patients in both the clinic and the hospital.</p>\n<p>His research focuses on how to use antibiotics to both improve outcomes for patients and reduce the development of antibiotic-resistant bacteria. He is also the medical director of the adult antimicrobial stewardship program at UCSF.</p>\n<p>Simmons earned his medical degree at the Columbia University Vagelos College of Physicians and Surgeons. He completed a residency in internal medicine at Massachusetts General Hospital and a fellowship in infectious diseases at the University of Washington School of Medicine.</p>\n",
+   "value": "Dr. William Simmons is an infectious disease specialist who cares for patients with complex conditions, including serious bacterial infections in the bloodstream and infections related to surgically implanted devices and hardware. He treats patients in both the clinic and the hospital.\n\nHis research focuses on how to use antibiotics to both improve outcomes for patients and reduce the development of antibiotic-resistant bacteria. He is also the medical director of the adult antimicrobial stewardship program at UCSF.\n\nSimmons earned his medical degree at the Columbia University Vagelos College of Physicians and Surgeons. He completed a residency in internal medicine at Massachusetts General Hospital and a fellowship in infectious diseases at the University of Washington School of Medicine."
+  }
+ ],
+ "field_person_subtype": [
+  {
+   "target_id": 641,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8e527da1-8c6c-44a7-8bc9-d8a3451fb862",
+   "url": "/person-type/ucsf-medical-center"
+  }
+ ],
+ "field_person_title_override": [
+  {
+   "value": "Medical Director, Adult Antimicrobial Stewardship at UCSF Medical Center"
+  },
+  {
+   "value": "Chair, Antimicrobial Subcommittee, UCSF Medical Center"
+  },
+  {
+   "value": "Assistant Clinical Professor"
+  }
+ ],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 346,
+   "target_type": "taxonomy_term",
+   "target_uuid": "eb5cc219-543f-4415-a229-94d58e47d3a1",
+   "url": "/person-type/affiliate"
+  },
+  {
+   "target_id": 176,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee47c868-e940-4230-af11-2a747ae34b77",
+   "url": "/person-type/faculty"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_person_working_title": [
+  {
+   "value": "HS Asst Clinical Professor"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [],
+ "field_profiles_link": [
+  {
+   "options": [],
+   "title": "https://profiles.ucsf.edu/william.simmons",
+   "uri": "https://profiles.ucsf.edu/william.simmons"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15266
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/william-simmons-md",
+   "langcode": "und",
+   "pid": 27826
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-24T12:51:24+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "William Simmons, MD"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "b48b1761-7f42-473b-8888-1effa35c96a3"
+  }
+ ],
+ "vid": [
+  {
+   "value": 19661
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "comment_node_ucsf_publication": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1782696201,
+   "last_comment_uid": 0,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-29T07:00:00+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_publication_authorlist": [
+  {
+   "format": null,
+   "processed": "<p>Radakovich N, Prasad P, Escobar D, Jariwala R, Bond A, Oreper S, Lee J, Hu X, Doernberg S</p>\n",
+   "value": "Radakovich N, Prasad P, Escobar D, Jariwala R, Bond A, Oreper S, Lee J, Hu X, Doernberg S"
+  }
+ ],
+ "field_publication_id": [
+  {
+   "value": "https://researcherprofiles.org/profile/688545564"
+  }
+ ],
+ "field_publication_name": [
+  {
+   "target_id": 2026,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d3903813-6de2-49f2-97f6-921b56a5717c",
+   "url": "/publications/antimicrobial-stewardship-healthcare-epidemiology-ashe"
+  }
+ ],
+ "field_publication_pubmedid": [
+  {
+   "value": "41079949"
+  }
+ ],
+ "field_publication_title": [
+  {
+   "format": null,
+   "processed": "<p>Radakovich N, Prasad P, Escobar D, Jariwala R, Bond A, Oreper S, Lee J, Hu X, Doernberg S. A machine learning model to predict optimal antibiotic use in hospital medicine patients. Antimicrob Steward Healthc Epidemiol. 2025; 5(1):e238.</p>\n",
+   "value": "Radakovich N, Prasad P, Escobar D, Jariwala R, Bond A, Oreper S, Lee J, Hu X, Doernberg S. A machine learning model to predict optimal antibiotic use in hospital medicine patients. Antimicrob Steward Healthc Epidemiol. 2025; 5(1):e238."
+  }
+ ],
+ "field_publication_year": [
+  {
+   "value": "2025"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 16651
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/a-machine-learning-model-to-predict-optimal-antibiotic-use-in-hospital-medicine-patients",
+   "langcode": "und",
+   "pid": 29651
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "A machine learning model to predict optimal antibiotic use in hospital medicine patients."
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_publication",
+   "target_type": "node_type",
+   "target_uuid": "aab43f59-8b93-481f-9f49-a929dc92e1dd"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d8c0522b-8b2e-4c37-bf8c-4e9d6dbd5e06"
+  }
+ ],
+ "vid": [
+  {
+   "value": 25286
+  }
+ ]
+}

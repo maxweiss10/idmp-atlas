@@ -1,0 +1,149 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<p>UCSF Joint Hepatology/Transplant ID Guidelines For Anti-HBc+ Management In Organ Transplantation and Immunosuppression</p>\n",
+   "summary": "",
+   "value": "<p>UCSF Joint Hepatology/Transplant ID Guidelines For Anti-HBc+ Management In Organ Transplantation and Immunosuppression</p>\r\n"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-15T19:07:41+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1741724938,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-17T19:04:44+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2025-03-11"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 451,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a61a46a6-7dde-4da7-8b4b-d3c5cb579606",
+   "url": "/site/ucsf-medical-center-mission-bay-adult"
+  },
+  {
+   "target_id": 2101,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b959ef0d-a183-4591-96ee-d7183836e39d",
+   "url": "/site/ucsf-medical-center-mount-zion"
+  },
+  {
+   "target_id": 446,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ea4e1156-f1d7-40b6-8744-b15ee0218ccf",
+   "url": "/site/ucsf-medical-center-parnassus-heights"
+  },
+  {
+   "target_id": 2111,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b0f2c62e-1e16-47cf-ac4a-6f1bb99f5012",
+   "url": "/site/ucsf-stanyan-hyde"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1231,
+   "target_type": "media",
+   "target_uuid": "51a7813d-1093-4ab2-b1af-73de81ff4b96",
+   "url": "/document/hbv-reactivation-guidelines-3-2025-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11886
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/hbv-prophylaxis",
+   "langcode": "und",
+   "pid": 24586
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-03-11T20:28:58+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "HBV prophylaxis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "948b9d65-4fdd-49ac-a500-e080a49232cf"
+  }
+ ],
+ "vid": [
+  {
+   "value": 13791
+  }
+ ]
+}

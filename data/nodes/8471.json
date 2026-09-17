@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:53+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587573463,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T16:37:43+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>Refer to UCSF Adult Vancomycin Interim Guidance located on Sharepoint.</p>\n\n<p><mark><a href=\"/content/vancomycin-initial-dosing-nomogram\"><u><strong>ZSFG: Click here for initial dosing guidance.</strong></u></a></mark></p>\n\n<p>Use the <a href=\"https://ucsf.app.box.com/s/c0ojmqmqmpinp7snrn4ifce1h8cg5d0q/file/1625867051579\">Vancomycin Adult Dosing Calculator</a>&nbsp;for more precise dose calculation and level-based adjustment (UCSF login required)</p>\n",
+   "value": "<p>Refer to UCSF Adult Vancomycin Interim Guidance located on Sharepoint.</p>\r\n\r\n<p><mark><a href=\"/content/vancomycin-initial-dosing-nomogram\"><u><strong>ZSFG: Click here for initial dosing guidance.</strong></u></a></mark></p>\r\n\r\n<p>Use the <a href=\"https://ucsf.app.box.com/s/c0ojmqmqmpinp7snrn4ifce1h8cg5d0q/file/1625867051579\">Vancomycin Adult Dosing Calculator</a>&nbsp;for more precise dose calculation and level-based adjustment (UCSF login required)</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<p>Refer to UCSF Adult Vancomycin Interim Guidance located on Sharepoint.&nbsp;</p>\n\n<p><a href=\"/content/vancomycin-initial-dosing-nomogram\"><u><strong>ZSFG: Click here for initial dosing guidance.</strong></u></a></p>\n",
+   "value": "<p>Refer to UCSF Adult Vancomycin Interim Guidance located on Sharepoint.&nbsp;</p>\r\n\r\n<p><a href=\"/content/vancomycin-initial-dosing-nomogram\"><u><strong>ZSFG: Click here for initial dosing guidance.</strong></u></a></p>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "RJ updated on 12/20/23 \r\n12/25/23: Amanda added link to nomogram now housed under ZSFG guidelines\r\n8/20/24: EK swapped out new link for vanco dosing calculator"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8471
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/vancomycin-iv",
+   "langcode": "und",
+   "pid": 21356
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T23:32:38+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Vancomycin IV"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "b5c8a813-7a0f-452a-8468-84ca1362fac8"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23881
+  }
+ ]
+}

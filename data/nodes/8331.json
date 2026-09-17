@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-28T21:29:24+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587163828,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-17T22:50:28+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Standard dosing*</td><td>2 g IV q24h</td><td>No renal dose adjustment</td></tr><tr><td>Urinary tract infection</td><td>1 g IV q24h&nbsp;</td><td>No renal dose adjustment</td></tr><tr><td>Enterococcal endocarditis (in combination with ampicillin) &amp; meningitis</td><td>2 g IV q12h</td><td>No renal dose adjustment</td></tr></tbody></table><p>* In&nbsp;patients with obesity (defined as BMI &gt;30 kg/m2), higher dosing may be indicated based on patient-specific factors, contact ID/ASP pharmacy for assistance.</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Standard dosing*</td><td>2 g IV q24h</td><td>No renal dose adjustment</td></tr><tr><td>Urinary tract infection</td><td>1 g IV q24h&nbsp;</td><td>No renal dose adjustment</td></tr><tr><td>Enterococcal endocarditis (in combination with ampicillin) &amp; meningitis</td><td>2 g IV q12h</td><td>No renal dose adjustment</td></tr></tbody></table><p>* In&nbsp;patients with obesity (defined as BMI &gt;30 kg/m2), higher dosing may be indicated based on patient-specific factors, contact ID/ASP pharmacy for assistance.</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\" style=\"font-family:HelveticaNeueLTW04-55Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Standard dosing*</td><td>2 g IV q24h</td><td style=\"text-align:center;\" rowspan=\"3\"><p>&nbsp;</p><p>No dose adjustment for hemodialysis</p></td></tr><tr><td>Urinary tract infection</td><td>1 g IV q24h&nbsp;</td></tr><tr><td>Enterococcal endocarditis (in combination with ampicillin) &amp; meningitis</td><td>2 g IV q12h</td></tr></tbody></table><p>* In&nbsp;patients with obesity (defined as BMI &gt;30 kg/m2), higher dosing may be indicated based on patient-specific factors, contact ID/ASP pharmacy for assistance.</p><p>&nbsp;</p>",
+   "value": "<table class=\"table\" style=\"font-family:HelveticaNeueLTW04-55Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>Standard dosing*</td><td>2 g IV q24h</td><td style=\"text-align:center;\" rowspan=\"3\"><p>&nbsp;</p><p>No dose adjustment for hemodialysis</p></td></tr><tr><td>Urinary tract infection</td><td>1 g IV q24h&nbsp;</td></tr><tr><td>Enterococcal endocarditis (in combination with ampicillin) &amp; meningitis</td><td>2 g IV q12h</td></tr></tbody></table><p>* In&nbsp;patients with obesity (defined as BMI &gt;30 kg/m2), higher dosing may be indicated based on patient-specific factors, contact ID/ASP pharmacy for assistance.</p><p>&nbsp;</p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "1/11/24: Updated indications per discussion at dosing card meeting 1/2024 (added IAI/liver abscess, septic shock; removed BSI from the 2 g daily dosing) -EK\r\n05/2025 - RJ added language with BMI and may need higher dosing commentary\r\n4/2026 - Updated 2 g to be standard dose (cleaned up indications & to mirror practice), 1 g for UTI only, changed order of meningitis & enterococcal endocarditis bc ampicillin was throwing people off -EK"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8331
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ceftriaxone",
+   "langcode": "und",
+   "pid": 21236
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-28T21:29:24+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Ceftriaxone"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "dce99779-a8c1-41a2-a10d-ed7cff21055e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24871
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "body": [],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-09T20:07:05+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1765310825,
+   "last_comment_uid": 491,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-09T20:06:07+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 2056,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d33513ec-e983-4f6e-800a-d127381ae83b",
+   "url": "/guideline-categories/therapeutic-drug-monitoring"
+  }
+ ],
+ "field_guideline_modified_date": [],
+ "field_guideline_site": [
+  {
+   "target_id": 461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8d5e5d55-c79c-480c-8d58-ff9c4b488fcf",
+   "url": "/site/ucsf-benioff-childrens-hospital-oakland"
+  },
+  {
+   "target_id": 456,
+   "target_type": "taxonomy_term",
+   "target_uuid": "bd66daca-f848-4cc8-be1f-0ecfd8e9aad4",
+   "url": "/site/ucsf-benioff-childrens-hospital-san-francisco"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1401,
+   "target_type": "media",
+   "target_uuid": "5d6a2a5b-2dda-4638-8b3b-6cab3f0d8af8",
+   "url": "/document/antifungaldosingguidanceandtherapeuticdrugmonitoringtdmpediatricucsf-1-pdf-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 16071
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/antifungal-dosing-guidance-and-tdm-pediatrics-ucsf",
+   "langcode": "und",
+   "pid": 28661
+  }
+ ],
+ "promote": [
+  {
+   "value": true
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-09T20:06:34+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Antifungal Dosing Guidance and TDM Pediatrics UCSF"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "0746a0ef-b0b1-4d6b-8035-66b15f70e482"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24501
+  }
+ ]
+}

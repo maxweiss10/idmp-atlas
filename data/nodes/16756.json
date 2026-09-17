@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "comment_node_ucsf_publication": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1782696201,
+   "last_comment_uid": 0,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-12-06T08:00:00+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_publication_authorlist": [
+  {
+   "format": null,
+   "processed": "<p>Bystritsky R, Gruenberg K, Abdoler E, Hilts-Horeczko A, Doernberg SB</p>\n",
+   "value": "Bystritsky R, Gruenberg K, Abdoler E, Hilts-Horeczko A, Doernberg SB"
+  }
+ ],
+ "field_publication_id": [
+  {
+   "value": "https://researcherprofiles.org/profile/466479689"
+  }
+ ],
+ "field_publication_name": [
+  {
+   "target_id": 2026,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d3903813-6de2-49f2-97f6-921b56a5717c",
+   "url": "/publications/antimicrobial-stewardship-healthcare-epidemiology-ashe"
+  }
+ ],
+ "field_publication_pubmedid": [
+  {
+   "value": "38156222"
+  }
+ ],
+ "field_publication_title": [
+  {
+   "format": null,
+   "processed": "<p>Bystritsky R, Gruenberg K, Abdoler E, Hilts-Horeczko A, Doernberg SB. Inter-rater reliability assessment of antibiotic prescription quality by infectious diseases physicians, fellows, and pharmacists. Antimicrob Steward Healthc Epidemiol. 2023; 3(1):e227.</p>\n",
+   "value": "Bystritsky R, Gruenberg K, Abdoler E, Hilts-Horeczko A, Doernberg SB. Inter-rater reliability assessment of antibiotic prescription quality by infectious diseases physicians, fellows, and pharmacists. Antimicrob Steward Healthc Epidemiol. 2023; 3(1):e227."
+  }
+ ],
+ "field_publication_year": [
+  {
+   "value": "2023"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 16756
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/inter-rater-reliability-assessment-of-antibiotic-prescription-quality-by-infectious-diseases",
+   "langcode": "und",
+   "pid": 29756
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Inter-rater reliability assessment of antibiotic prescription quality by infectious diseases physicians, fellows, and pharmacists."
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_publication",
+   "target_type": "node_type",
+   "target_uuid": "aab43f59-8b93-481f-9f49-a929dc92e1dd"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "c35b4533-fde6-4262-bf4c-be705577445a"
+  }
+ ],
+ "vid": [
+  {
+   "value": 25391
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T15:55:53+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633708553,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T16:55:39+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Acute osteomyelitis in child &gt; 3 months old without medical comorbidities or&nbsp;other exception criteria defined below&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{feac3c2e-c30d-415a-820a-d5a2d4b72672}{217}\" paraid=\"1050267049\"><em>Staphylococcus aureus</em>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{feac3c2e-c30d-415a-820a-d5a2d4b72672}{227}\" paraid=\"1170620316\">Group A streptococcus&nbsp;</p>\n\n\t\t\t<p paraeid=\"{feac3c2e-c30d-415a-820a-d5a2d4b72672}{237}\" paraid=\"1025343\"><em>Kingella kingae</em>&nbsp;in children &lt; 3 years&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{feac3c2e-c30d-415a-820a-d5a2d4b72672}{250}\" paraid=\"1859382080\"><strong>Clinically stable&nbsp;(see note in Comments column about waiting for cultures if surgical debridement planned):&nbsp;&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{11}\" paraid=\"413133033\">Cefazolin 50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{21}\" paraid=\"173232555\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{31}\" paraid=\"897556587\"><strong>Severely ill (hemodynamic instability, multiple sites involved, or rapid local progression) or known positive blood culture for gram-positive organism (while awaiting initial ID and susceptibility):&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{41}\" paraid=\"1480897731\">Cefazolin 50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{53}\" paraid=\"228009054\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{63}\" paraid=\"148794587\"><a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin</a> &nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{69}\" paraid=\"1476575190\">(follow link for dosing &amp; monitoring)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{75}\" paraid=\"2089175554\">Consult ID for therapy selection if blood culture is positive for a gram-negative organism&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{80}\" paraid=\"1188176817\"><strong><a href=\"/content/assessment-of-antibiotic-allergies\">Penicillin or cephalosporin&nbsp;allergy with higher risk for allergic reaction</a>,&nbsp;or history of documented MRSA infection or carriage within the last 6 months &nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{94}\" paraid=\"112199068\"><em><strong>(Please confirm clindamycin susceptibility if prior cultures are available, tailor antibiotics to past susceptibility):&nbsp;</strong></em></p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{106}\" paraid=\"1118536121\">Clindamycin 13 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{116}\" paraid=\"920769215\"><strong><a href=\"/content/assessment-of-antibiotic-allergies\">Penicillin or cephalosporin&nbsp;allergy with higher risk for allergic reaction</a>, severely ill (hemodynamic instability or rapid local progression) or known positive blood culture for gram-positive organism (while awaiting initial ID and susceptibility):&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{126}\" paraid=\"274639163\">Consult ID&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{133}\" paraid=\"445572767\">ID and Orthopedic Surgery consults recommended&nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{143}\" paraid=\"1491707231\">At initial evaluation, send ESR, CRP and blood culture&nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{153}\" paraid=\"1699182857\">Discuss with Orthopedic Surgery before starting antibiotics if the patient is hemodynamically stable. If surgical debridement is planned, may prefer to hold antibiotics until after operative cultures are sent&nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{163}\" paraid=\"469893901\">Therapy should be tailored to the identified organism. Change from IV to PO and total duration of therapy should be determined in consultation with ID based on the patient's clinical course&nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{173}\" paraid=\"1455704304\">If cultures are positive, <a href=\"/content/rapid-dx\">use results of preliminary diagnostic tests to target therapy</a>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{183}\" paraid=\"2096589055\"><strong>Duration:&nbsp;</strong>Uncomplicated acute hematogenous osteomyelitis is&nbsp;usually treated for 4-6 weeks, guided by follow-up assessments&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Chronic osteomyelitis&nbsp;</td>\n\t\t\t<td>Variable based on risk factors&nbsp;</td>\n\t\t\t<td>Antibiotic therapy should generally be withheld pending operative cultures from the involved site, and is selected based on individual patient risk factors - consult ID for guidance&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>ID and Orthopedic Surgery consults recommended&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Bone or joint infection in patient with significant medical comorbidities, age 0-3 months, penetrating trauma, orthopedic hardware involved, contiguous infection or other modifying factors &nbsp;</td>\n\t\t\t<td>Variable based on risk factors&nbsp;</td>\n\t\t\t<td>Consult ID for guidance before initiating empiric therapy&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>ID and Orthopedic Surgery consults recommended&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Acute osteomyelitis in child &gt; 3 months old without medical comorbidities or&nbsp;other exception criteria defined below&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{feac3c2e-c30d-415a-820a-d5a2d4b72672}{217}\" paraid=\"1050267049\"><em>Staphylococcus aureus</em>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{feac3c2e-c30d-415a-820a-d5a2d4b72672}{227}\" paraid=\"1170620316\">Group A streptococcus&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{feac3c2e-c30d-415a-820a-d5a2d4b72672}{237}\" paraid=\"1025343\"><em>Kingella kingae</em>&nbsp;in children &lt; 3 years&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{feac3c2e-c30d-415a-820a-d5a2d4b72672}{250}\" paraid=\"1859382080\"><strong>Clinically stable&nbsp;(see note in Comments column about waiting for cultures if surgical debridement planned):&nbsp;&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{11}\" paraid=\"413133033\">Cefazolin 50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{21}\" paraid=\"173232555\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{31}\" paraid=\"897556587\"><strong>Severely ill (hemodynamic instability, multiple sites involved, or rapid local progression) or known positive blood culture for gram-positive organism (while awaiting initial ID and susceptibility):&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{41}\" paraid=\"1480897731\">Cefazolin 50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{53}\" paraid=\"228009054\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{63}\" paraid=\"148794587\"><a href=\"/node/13571\">Vancomycin</a> &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{69}\" paraid=\"1476575190\">(follow link for dosing &amp; monitoring)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{75}\" paraid=\"2089175554\">Consult ID for therapy selection if blood culture is positive for a gram-negative organism&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{80}\" paraid=\"1188176817\"><strong><a href=\"/node/13556\">Penicillin or cephalosporin&nbsp;allergy with higher risk for allergic reaction</a>,&nbsp;or history of documented MRSA infection or carriage within the last 6 months &nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{94}\" paraid=\"112199068\"><em><strong>(Please confirm clindamycin susceptibility if prior cultures are available, tailor antibiotics to past susceptibility):&nbsp;</strong></em></p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{106}\" paraid=\"1118536121\">Clindamycin 13 mg/kg/dose (max 900 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{116}\" paraid=\"920769215\"><strong><a href=\"/node/13556\">Penicillin or cephalosporin&nbsp;allergy with higher risk for allergic reaction</a>, severely ill (hemodynamic instability or rapid local progression) or known positive blood culture for gram-positive organism (while awaiting initial ID and susceptibility):&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{126}\" paraid=\"274639163\">Consult ID&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{133}\" paraid=\"445572767\">ID and Orthopedic Surgery consults recommended&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{143}\" paraid=\"1491707231\">At initial evaluation, send ESR, CRP and blood culture&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{153}\" paraid=\"1699182857\">Discuss with Orthopedic Surgery before starting antibiotics if the patient is hemodynamically stable. If surgical debridement is planned, may prefer to hold antibiotics until after operative cultures are sent&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{163}\" paraid=\"469893901\">Therapy should be tailored to the identified organism. Change from IV to PO and total duration of therapy should be determined in consultation with ID based on the patient's clinical course&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{173}\" paraid=\"1455704304\">If cultures are positive, <a href=\"/node/12816\">use results of preliminary diagnostic tests to target therapy</a>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{277d050a-1f32-4ef8-ba35-3412bfe0fda6}{183}\" paraid=\"2096589055\"><strong>Duration:&nbsp;</strong>Uncomplicated acute hematogenous osteomyelitis is&nbsp;usually treated for 4-6 weeks, guided by follow-up assessments&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Chronic osteomyelitis&nbsp;</td>\r\n\t\t\t<td>Variable based on risk factors&nbsp;</td>\r\n\t\t\t<td>Antibiotic therapy should generally be withheld pending operative cultures from the involved site, and is selected based on individual patient risk factors - consult ID for guidance&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>ID and Orthopedic Surgery consults recommended&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Bone or joint infection in patient with significant medical comorbidities, age 0-3 months, penetrating trauma, orthopedic hardware involved, contiguous infection or other modifying factors &nbsp;</td>\r\n\t\t\t<td>Variable based on risk factors&nbsp;</td>\r\n\t\t\t<td>Consult ID for guidance before initiating empiric therapy&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>ID and Orthopedic Surgery consults recommended&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 126,
+   "target_type": "taxonomy_term",
+   "target_uuid": "2dc18f2f-531d-44e4-b6b4-15004f29d271",
+   "url": "/guidelines-empiric-therapy-categories/bone-joint-infections-without-hardware"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{6a6d7953-e9eb-4b83-832e-015ac6b071c1}{18}\" paraid=\"925204698\">References:</h2>\n\n<p paraeid=\"{6a6d7953-e9eb-4b83-832e-015ac6b071c1}{18}\" paraid=\"925204698\">Woods CR, et al. <a href=\"https://academic.oup.com/jpids/advance-article/doi/10.1093/jpids/piab027/6338658\">Clinical practice guideline by the Pediatric Infectious Diseases Society and the Infectious Diseases Society of America: 2021 guideline on diagnosis and management of acute hematogenous osteomyelitis in pediatrics</a>. J Pediatr Infect Dis Soc 2021 (epub).</p>\n\n<p paraeid=\"{6a6d7953-e9eb-4b83-832e-015ac6b071c1}{18}\" paraid=\"925204698\">McBride S, et al. <a href=\"https://hosppeds.aappublications.org/content/8/5/280.long\">Comparison of empiric antibiotics for acute osteomyelitis in children</a>. Hosp Pediatr 2018;8:280-287.</p>\n\n<p paraeid=\"{6a6d7953-e9eb-4b83-832e-015ac6b071c1}{38}\" paraid=\"902926947\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{6a6d7953-e9eb-4b83-832e-015ac6b071c1}{18}\" paraid=\"925204698\">References:</h2>\r\n\r\n<p paraeid=\"{6a6d7953-e9eb-4b83-832e-015ac6b071c1}{18}\" paraid=\"925204698\">Woods CR, et al. <a href=\"https://academic.oup.com/jpids/advance-article/doi/10.1093/jpids/piab027/6338658\">Clinical practice guideline by the Pediatric Infectious Diseases Society and the Infectious Diseases Society of America: 2021 guideline on diagnosis and management of acute hematogenous osteomyelitis in pediatrics</a>. J Pediatr Infect Dis Soc 2021 (epub).</p>\r\n\r\n<p paraeid=\"{6a6d7953-e9eb-4b83-832e-015ac6b071c1}{18}\" paraid=\"925204698\">McBride S, et al. <a href=\"https://hosppeds.aappublications.org/content/8/5/280.long\">Comparison of empiric antibiotics for acute osteomyelitis in children</a>. Hosp Pediatr 2018;8:280-287.</p>\r\n\r\n<p paraeid=\"{6a6d7953-e9eb-4b83-832e-015ac6b071c1}{38}\" paraid=\"902926947\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13316
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/osteomyelitis",
+   "langcode": "und",
+   "pid": 25976
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T15:55:53+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Osteomyelitis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5151971f-9848-421b-9c39-46126d67fbd1"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15896
+  }
+ ]
+}

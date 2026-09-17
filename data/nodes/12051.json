@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:51+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1626369383,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-19T02:41:41+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><b>Brain abscess (community-acquired)</b></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Streptococci (anaerobic or aerobic)</p>\n\n\t\t\t<p><em>Bacteroides spp</em></p>\n\n\t\t\t<p><em>Prevotella spp</em></p>\n\n\t\t\t<p>Enterobacterales</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong> </a>2g IV q12h</p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe PCN allergy</a></em>:</p>\n\n\t\t\t<p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a></p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p>ID consultation recommended</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Brain abscess (post-neurological procedure)</strong></td>\n\t\t\t<td>\n\t\t\t<p>Streptococci (anaerobic or aerobic)</p>\n\n\t\t\t<p>Anaerobes</p>\n\n\t\t\t<p>Enterobacterales</p>\n\n\t\t\t<p><em>S. aureus</em> &amp; coagulase-negative <em>Staphylococcus&nbsp;</em>spp</p>\n\n\t\t\t<p><em>Pseudomonas aeruginosa</em></p>\n\n\t\t\t<p><em>Acinetobacter </em>spp.</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/cefepime\"><strong>Cefepime</strong></a></p>\n\n\t\t\t<p>PLUS</p>\n\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe PCN allergy</a></em>:</p>\n\n\t\t\t<p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a></p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/content/metronidazole\"><strong>Metronidazole</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>ID consultation recommended</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><b>Brain abscess (community-acquired)</b></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Streptococci (anaerobic or aerobic)</p>\r\n\r\n\t\t\t<p><em>Bacteroides spp</em></p>\r\n\r\n\t\t\t<p><em>Prevotella spp</em></p>\r\n\r\n\t\t\t<p>Enterobacterales</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8331\"><strong>Ceftriaxone</strong> </a>2g IV q12h</p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe PCN allergy</a></em>:</p>\r\n\r\n\t\t\t<p><a href=\"/node/8271\"><strong>Aztreonam</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p>ID consultation recommended</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>Brain abscess (post-neurological procedure)</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>Streptococci (anaerobic or aerobic)</p>\r\n\r\n\t\t\t<p>Anaerobes</p>\r\n\r\n\t\t\t<p>Enterobacterales</p>\r\n\r\n\t\t\t<p><em>S. aureus</em> &amp; coagulase-negative <em>Staphylococcus&nbsp;</em>spp</p>\r\n\r\n\t\t\t<p><em>Pseudomonas aeruginosa</em></p>\r\n\r\n\t\t\t<p><em>Acinetobacter </em>spp.</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/content/cefepime\"><strong>Cefepime</strong></a></p>\r\n\r\n\t\t\t<p>PLUS</p>\r\n\r\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p>\r\n\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe PCN allergy</a></em>:</p>\r\n\r\n\t\t\t<p><a href=\"/node/8271\"><strong>Aztreonam</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/node/8406\"><strong>Metronidazole</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>ID consultation recommended</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 131,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d7460e83-b3f1-47f2-a8bd-f3ffc14759da",
+   "url": "/guidelines-empiric-therapy-categories/central-nervous-system-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12051
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/brain-abscess",
+   "langcode": "und",
+   "pid": 24731
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-10-04T23:28:03+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Brain abscess"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "1770951e-c789-4c22-aa8b-c779dd7a1bda"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23796
+  }
+ ]
+}

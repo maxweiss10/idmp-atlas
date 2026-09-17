@@ -1,0 +1,169 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-04-17T22:19:26+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1693521234,
+   "last_comment_uid": 566,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-08-31T22:33:54+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dose&nbsp;</th>\n\t\t\t<th>Notes&nbsp;</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Amebic meningoencephalitis</td>\n\t\t\t<td>\n\t\t\t<p>&lt; 45 kg:&nbsp; 50 mg PO twice daily with food</p>\n\n\t\t\t<p>&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>No renal adjustment</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Leishmaniasis</td>\n\t\t\t<td>\n\t\t\t<p>30-44 kg:&nbsp; 50&nbsp;mg PO twice daily with food</p>\n\n\t\t\t<p>&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>No renal adjustment</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dose&nbsp;</th>\r\n\t\t\t<th>Notes&nbsp;</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Amebic meningoencephalitis</td>\r\n\t\t\t<td>\r\n\t\t\t<p>&lt; 45 kg:&nbsp; 50 mg PO twice daily with food</p>\r\n\r\n\t\t\t<p>&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>No renal adjustment</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Leishmaniasis</td>\r\n\t\t\t<td>\r\n\t\t\t<p>30-44 kg:&nbsp; 50&nbsp;mg PO twice daily with food</p>\r\n\r\n\t\t\t<p>&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>No renal adjustment</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Amebic meningoencephalitis</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p style=\"text-align: left;\">&lt; 45 kg:&nbsp; 50&nbsp;mg PO twice daily with food</p>\n\n\t\t\t<p style=\"text-align: left;\">&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\n\n\t\t\t<p style=\"text-align: left;\">(no adjustment for hemodialysis)</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p style=\"text-align: left;\">&lt; 45 kg:&nbsp; 50&nbsp;mg PO twice daily with food</p>\n\n\t\t\t<p style=\"text-align: left;\">&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\n\n\t\t\t<p style=\"text-align: left;\">(no adjustment for hemodialysis)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Leishmaniasis</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p style=\"text-align: left;\">30-44 kg:&nbsp; 50&nbsp;mg PO twice daily with food</p>\n\n\t\t\t<p style=\"text-align: left;\">&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\n\n\t\t\t<p style=\"text-align: left;\">(no adjustment for hemodialysis)</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: left;\">30-44 kg:&nbsp; 50&nbsp;mg PO twice daily with food</p>\n\n\t\t\t<p style=\"text-align: left;\">&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\n\n\t\t\t<p style=\"text-align: left;\">(no adjustment for hemodialysis)</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Amebic meningoencephalitis</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p style=\"text-align: left;\">&lt; 45 kg:&nbsp; 50&nbsp;mg PO twice daily with food</p>\r\n\r\n\t\t\t<p style=\"text-align: left;\">&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\r\n\r\n\t\t\t<p style=\"text-align: left;\">(no adjustment for hemodialysis)</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p style=\"text-align: left;\">&lt; 45 kg:&nbsp; 50&nbsp;mg PO twice daily with food</p>\r\n\r\n\t\t\t<p style=\"text-align: left;\">&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\r\n\r\n\t\t\t<p style=\"text-align: left;\">(no adjustment for hemodialysis)</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Leishmaniasis</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p style=\"text-align: left;\">30-44 kg:&nbsp; 50&nbsp;mg PO twice daily with food</p>\r\n\r\n\t\t\t<p style=\"text-align: left;\">&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\r\n\r\n\t\t\t<p style=\"text-align: left;\">(no adjustment for hemodialysis)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align: left;\">30-44 kg:&nbsp; 50&nbsp;mg PO twice daily with food</p>\r\n\r\n\t\t\t<p style=\"text-align: left;\">&gt;= 45 kg:&nbsp; 50 mg PO three times daily with food&nbsp;</p>\r\n\r\n\t\t\t<p style=\"text-align: left;\">(no adjustment for hemodialysis)</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 2071,
+   "target_type": "taxonomy_term",
+   "target_uuid": "113b1eea-344e-4c0f-8763-19af94a6e543",
+   "url": "/dosing-weights/total-body-weight"
+  }
+ ],
+ "field_drug_references": [
+  {
+   "format": "advanced",
+   "processed": "<p>https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/204684s000lbl.pdf</p>\n",
+   "value": "<p>https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/204684s000lbl.pdf</p>\r\n"
+  }
+ ],
+ "field_link": [],
+ "field_monitoring": [
+  {
+   "format": "advanced",
+   "processed": "<p>Do not use in pregnant individuals. Obtain a urine or serum pregnancy test prior to initiation of therapy. Advise use of effective contraception in females of reproductive potential</p>\n",
+   "value": "<p>Do not use in pregnant individuals. Obtain a urine or serum pregnancy test prior to initiation of therapy. Advise use of effective contraception in females of reproductive potential</p>\r\n"
+  }
+ ],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship with exceptions:</p>\n\n<p>1) Continuation of therapy&nbsp;</p>\n\n<p>ZSFG: Non-formulary</p>\n",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship with exceptions:</p>\r\n\r\n<p>1) Continuation of therapy&nbsp;</p>\r\n\r\n<p>ZSFG: Non-formulary</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "04/2025 - RJ updated weight from TBW < 120% IBW to TBW"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14741
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/miltefosine",
+   "langcode": "und",
+   "pid": 27326
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-04-17T22:19:26+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Miltefosine "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "e3f7c126-c2c9-4c44-b124-ff323e99a907"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22476
+  }
+ ]
+}

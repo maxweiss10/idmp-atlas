@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-23T21:42:07+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629754927,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T18:55:32+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>See&nbsp;<a href=\"/content/ophthalmia-neonatorum\">Ophthalmia Neonatorum</a>&nbsp;section for special considerations in neonates. &nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{109}\" paraid=\"2020181641\">Conjunctivitis&nbsp;</p>\n\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{119}\" paraid=\"1518371390\">This section does not address infectious keratitis associated with contact lens wear (patients with this condition should be managed in consultation with an optometrist or ophthalmologist)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{126}\" paraid=\"252796030\">Often viral&nbsp;</p>\n\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{136}\" paraid=\"1889858976\"><em>Streptococcus pneumoniae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{146}\" paraid=\"1994701688\"><em>Haemophilus influenzae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{152}\" paraid=\"1073280080\"><em>Moraxella catarrhalis&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{166}\" paraid=\"587583263\"><em>Staphylococcus aureus&nbsp;</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{173}\" paraid=\"820480900\">Supportive care without topical antibiotic therapy is recommended unless bacterial etiology is suspected based on clinical features&nbsp;</p>\n\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{179}\" paraid=\"1038091192\"><strong>If suspected bacterial etiology</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{193}\" paraid=\"819194085\">Trimethoprim-Polymyxin B (Polytrim) 0.1%-10,000 units/ml ophthalmic drops 1-2 drops 4 times daily &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Topical therapy is not necessary if patient is on concurrent systemic therapy with coverage against likely causative organisms&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{207}\" paraid=\"1475083581\">Commonly caused by viruses, consider supportive treatment such as warm compresses or cold saline drops&nbsp;</p>\n\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{213}\" paraid=\"324988965\"><strong>Duration</strong>:&nbsp;5-7 days&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>See&nbsp;<a href=\"/node/13351\">Ophthalmia Neonatorum</a>&nbsp;section for special considerations in neonates. &nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{109}\" paraid=\"2020181641\">Conjunctivitis&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{119}\" paraid=\"1518371390\">This section does not address infectious keratitis associated with contact lens wear (patients with this condition should be managed in consultation with an optometrist or ophthalmologist)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{126}\" paraid=\"252796030\">Often viral&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{136}\" paraid=\"1889858976\"><em>Streptococcus pneumoniae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{146}\" paraid=\"1994701688\"><em>Haemophilus influenzae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{152}\" paraid=\"1073280080\"><em>Moraxella catarrhalis&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{166}\" paraid=\"587583263\"><em>Staphylococcus aureus&nbsp;</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{173}\" paraid=\"820480900\">Supportive care without topical antibiotic therapy is recommended unless bacterial etiology is suspected based on clinical features&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{179}\" paraid=\"1038091192\"><strong>If suspected bacterial etiology</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{193}\" paraid=\"819194085\">Trimethoprim-Polymyxin B (Polytrim) 0.1%-10,000 units/ml ophthalmic drops 1-2 drops 4 times daily &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Topical therapy is not necessary if patient is on concurrent systemic therapy with coverage against likely causative organisms&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{207}\" paraid=\"1475083581\">Commonly caused by viruses, consider supportive treatment such as warm compresses or cold saline drops&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ed2837a0-c69d-4221-9d66-62be585519ca}{213}\" paraid=\"324988965\"><strong>Duration</strong>:&nbsp;5-7 days&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13401
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/conjunctivitis-infants-children-adolescents",
+   "langcode": "und",
+   "pid": 26056
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-23T21:42:07+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Conjunctivitis (Infants, Children, Adolescents)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "390140f9-f6ff-4fc7-a597-0c211cae4ada"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15986
+  }
+ ]
+}

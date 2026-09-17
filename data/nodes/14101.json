@@ -1,0 +1,127 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:53+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1655164329,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2022-06-13T23:52:09+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>&gt;50 mL/min</th>\n\t\t\t<th>50-30 mL/min</th>\n\t\t\t<th>15-29 mL/min</th>\n\t\t\t<th>&lt;15 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Most Indications</td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\">500 mg PO QID or 1000 mg PO TID</td>\n\t\t\t<td>250-500 mg PO TID</td>\n\t\t\t<td>250-500 mg PO BID</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Uncomplicated Cystitis or Streptococcal Pharyngitis</td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\">500 mg PO BID</td>\n\t\t\t<td>250 mg PO BID</td>\n\t\t\t<td>250 mg PO daily</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"/content/gram-negative-bloodstream-infection\">Gram-Negative Bloodstream Infection</a></td>\n\t\t\t<td>1,000 mg PO QID</td>\n\t\t\t<td>1,000 mg PO TID</td>\n\t\t\t<td>1,000 mg PO BID</td>\n\t\t\t<td>500 mg PO TID</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>&gt;50 mL/min</th>\r\n\t\t\t<th>50-30 mL/min</th>\r\n\t\t\t<th>15-29 mL/min</th>\r\n\t\t\t<th>&lt;15 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Most Indications</td>\r\n\t\t\t<td colspan=\"2\" rowspan=\"1\">500 mg PO QID or 1000 mg PO TID</td>\r\n\t\t\t<td>250-500 mg PO TID</td>\r\n\t\t\t<td>250-500 mg PO BID</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Uncomplicated Cystitis or Streptococcal Pharyngitis</td>\r\n\t\t\t<td colspan=\"2\" rowspan=\"1\">500 mg PO BID</td>\r\n\t\t\t<td>250 mg PO BID</td>\r\n\t\t\t<td>250 mg PO daily</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><a href=\"/content/gram-negative-bloodstream-infection\">Gram-Negative Bloodstream Infection</a></td>\r\n\t\t\t<td>1,000 mg PO QID</td>\r\n\t\t\t<td>1,000 mg PO TID</td>\r\n\t\t\t<td>1,000 mg PO BID</td>\r\n\t\t\t<td>500 mg PO TID</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Most Indications</td>\n\t\t\t<td style=\"text-align: center;\">250 mg PO BID</td>\n\t\t\t<td style=\"text-align: center;\">No data</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Uncomplicated Cystitis or Streptococcal Pharyngitis</td>\n\t\t\t<td style=\"text-align: center;\">250 mg PO daily</td>\n\t\t\t<td style=\"text-align: center;\">No data</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"/content/gram-negative-bloodstream-infection\">Gram-Negative Bloodstream Infection</a></td>\n\t\t\t<td style=\"text-align: center;\">500 mg PO BID</td>\n\t\t\t<td style=\"text-align: center;\">No data</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Most Indications</td>\r\n\t\t\t<td style=\"text-align: center;\">250 mg PO BID</td>\r\n\t\t\t<td style=\"text-align: center;\">No data</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Uncomplicated Cystitis or Streptococcal Pharyngitis</td>\r\n\t\t\t<td style=\"text-align: center;\">250 mg PO daily</td>\r\n\t\t\t<td style=\"text-align: center;\">No data</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><a href=\"/content/gram-negative-bloodstream-infection\">Gram-Negative Bloodstream Infection</a></td>\r\n\t\t\t<td style=\"text-align: center;\">500 mg PO BID</td>\r\n\t\t\t<td style=\"text-align: center;\">No data</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14101
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/cephalexin",
+   "langcode": "und",
+   "pid": 26751
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-06-06T19:34:12+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Cephalexin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "a69b1509-340b-457a-a831-d037d80a73e8"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23891
+  }
+ ]
+}

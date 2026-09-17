@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-15T17:59:36+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1639778676,
+   "last_comment_uid": 0,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2019-11-13T22:32:17+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<div class=\"field field-type-text-with-summary field-name-body\"><h2>San Francisco VA Antibiograms</h2><p>&nbsp;</p><p class=\"text-align-center\"><strong>CUMULATIVE ANTIMICROBIAL SUSCEPTIBILITY REPORT</strong></p><p class=\"text-align-center\">January 1, 2024&nbsp;– December 31, 2024</p><p><a href=\"https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/SFVA%20ANTIBIOGRAMS%202024_FINAL.pdf\">Click here for PDF version</a></p><p><u>Please note the following comments:</u></p><ul><li>All data is reported as percent fully susceptible</li><li>First isolate per patient per organism is counted in the antibiogram</li><li>30 organisms are required to report susceptibilities on an antibiogram per CLSI guidelines. Some organisms were included in despite less than 30 organisms isolated</li><li>When treating UTIs caused by <em>E. Coli</em>, <em>Klebsiella </em>spp., and <em>Proteus</em> spp., cefazolin can be used to predict results for the following oral agents: cephalexin (Keflex) and cefpodoxime (Vantin)</li><li>Gentamicin susceptibilities for <em>Enterococcus </em>spp. are for gram-positive synergy</li><li>Non-urine coagulase-negative Staphylococcus includes:<em> S. auricularis, S. capitis, S. haemolyticus, S. hominis, S. lugdunensis, S. simulans, S. &nbsp;ureilyticus, S. warneri</em></li><li>Urine coagulase-negative Staphylococcus includes: <em>S. epidermidis, S. haemolyticus, S. lugdunensis, and S. warneri</em></li><li>Key: ESBL: Extended-spectrum beta-lactamase; CR: Carbapenem resistant; VRE: Vancomycin resistant enterococci; MR: Methicillin resistant; NA: Not available; R: Intrinsically resistant</li></ul></div>\n<div class=\"media media--type-image media--view-mode-default\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/img/VA%20Antibiogram%201.JPG.webp?itok=hroWUleu\" width=\"480\" height=\"214\" alt=\"Antibiogram for urine isolates at SFVA\" class=\"image-style-large\">\n\n\n\n\n  </div>\n\n\n<div class=\"media media--type-image media--view-mode-default\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/img/VA%20Antibiogram%202.JPG.webp?itok=DxTy9PtA\" width=\"480\" height=\"189\" alt=\"Antibiogram for non-urine isolates at SFVA\" class=\"image-style-large\">\n\n\n\n\n  </div>\n\n",
+   "value": "<div class=\"field field-type-text-with-summary field-name-body\"><h2>San Francisco VA Antibiograms</h2><p>&nbsp;</p><p class=\"text-align-center\"><strong>CUMULATIVE ANTIMICROBIAL SUSCEPTIBILITY REPORT</strong></p><p class=\"text-align-center\">January 1, 2024&nbsp;– December 31, 2024</p><p><a href=\"https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/doc/SFVA%20ANTIBIOGRAMS%202024_FINAL.pdf\">Click here for PDF version</a></p><p><u>Please note the following comments:</u></p><ul><li>All data is reported as percent fully susceptible</li><li>First isolate per patient per organism is counted in the antibiogram</li><li>30 organisms are required to report susceptibilities on an antibiogram per CLSI guidelines. Some organisms were included in despite less than 30 organisms isolated</li><li>When treating UTIs caused by <em>E. Coli</em>, <em>Klebsiella </em>spp., and <em>Proteus</em> spp., cefazolin can be used to predict results for the following oral agents: cephalexin (Keflex) and cefpodoxime (Vantin)</li><li>Gentamicin susceptibilities for <em>Enterococcus </em>spp. are for gram-positive synergy</li><li>Non-urine coagulase-negative Staphylococcus includes:<em> S. auricularis, S. capitis, S. haemolyticus, S. hominis, S. lugdunensis, S. simulans, S. &nbsp;ureilyticus, S. warneri</em></li><li>Urine coagulase-negative Staphylococcus includes: <em>S. epidermidis, S. haemolyticus, S. lugdunensis, and S. warneri</em></li><li>Key: ESBL: Extended-spectrum beta-lactamase; CR: Carbapenem resistant; VRE: Vancomycin resistant enterococci; MR: Methicillin resistant; NA: Not available; R: Intrinsically resistant</li></ul></div><drupal-media data-entity-type=\"media\" data-entity-uuid=\"be01f706-2722-4ac8-803e-1d59eda1994f\">&nbsp;</drupal-media><drupal-media data-entity-type=\"media\" data-entity-uuid=\"732e52b3-4846-4d66-a010-570c3317f2cf\">&nbsp;</drupal-media>"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 7556
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/antimicrobial-susceptibility-at-san-francisco-veterans-affairs-va-medical-center",
+   "langcode": "und",
+   "pid": 20631
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-06-30T00:45:38+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Antimicrobial Susceptibility at San Francisco Veterans Affairs (VA) Medical Center"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "3f6b1d64-2d93-4e3b-99e4-8c42cdca9f36"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24226
+  }
+ ]
+}

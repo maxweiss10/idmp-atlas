@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1736278011,
+   "last_comment_uid": 566,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-01-07T19:26:51+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl ≥&nbsp;30&nbsp; mL/min&nbsp;</th>\n\t\t\t<th>CrCl &lt; 30 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Prophylaxis in neutropenic fever in patients who are intolerant of fluoroquinolones AND no history of ESBL/CRE organisms&nbsp;</td>\n\t\t\t<td>200 mg po q 12h</td>\n\t\t\t<td>200 mg po q 24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl ≥&nbsp;30&nbsp; mL/min&nbsp;</th>\r\n\t\t\t<th>CrCl &lt; 30 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Prophylaxis in neutropenic fever in patients who are intolerant of fluoroquinolones AND no history of ESBL/CRE organisms&nbsp;</td>\r\n\t\t\t<td>200 mg po q 12h</td>\r\n\t\t\t<td>200 mg po q 24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Prophylaxis in neutropenic fever in patients who are intolerant of fluoroquinolones AND no history of ESBL/CRE organisms&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\">200 mg x 1 then 200 mg po daily (on days of HD, administer after HD session)&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\">200 mg po q12h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Prophylaxis in neutropenic fever in patients who are intolerant of fluoroquinolones AND no history of ESBL/CRE organisms&nbsp;</td>\r\n\t\t\t<td style=\"text-align: center;\">200 mg x 1 then 200 mg po daily (on days of HD, administer after HD session)&nbsp;</td>\r\n\t\t\t<td style=\"text-align: center;\">200 mg po q12h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "01/2025 - RJ created for HBC"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15611
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/cefpodoxime",
+   "langcode": "und",
+   "pid": 28166
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Cefpodoxime"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "1a465261-298d-4cc9-8275-bd788738c106"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22096
+  }
+ ]
+}

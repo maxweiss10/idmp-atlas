@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-10-25T18:26:46+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1729880806,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-19T18:42:43+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><b>Outpatient treatment of low-risk neutropenic fever</b></td>\n\t\t\t<td>\n\t\t\t<p><em>Streptococci spp.</em></p>\n\n\t\t\t<p>Enteric gram-negative bacteria</p>\n\n\t\t\t<p><em>Pseudomonas aeruginosa</em></p>\n\n\t\t\t<p>Enterococci</p>\n\n\t\t\t<p>Staphylococci</p>\n\n\t\t\t<p>Viral infections</p>\n\t\t\tFungal infections</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/ciprofloxacin\"><strong>Ciprofloxacin</strong></a></p>\n\n\t\t\t<p><em>PLUS</em></p>\n\t\t\t<a href=\"/content/amoxicillin-clavulanate\"><strong>Amoxicillin/clavulanic acid</strong></a></td>\n\t\t\t<td><a href=\"/content/levofloxacin\"><b>Levofloxacin</b></a></td>\n\t\t\t<td>\n\t\t\t<p>Need to take into account how sick the patient is at presentation, underlying comorbidities, localizing signs/symptoms, and age. Risk calculators are available</p>\n\n\t\t\t<p>Patients already on levofloxacin prophylaxis should be treated with IV therapy</p>\n\n\t\t\t<p>Expected duration of neutropenia should be &lt; 7 days</p>\n\n\t\t\t<p>Ensure patient has easy access to medical care and is able to tolerate oral therapy</p>\n\n\t\t\t<p>Excludes patients on prior oral antibacterial prophylaxis</p>\n\t\t\tConsider supervised observation in clinic; schedule close outpatient follow-up</td>\n\t\t\t<td>\n\t\t\t<p>Until afebrile at least 72 hours</p>\n\t\t\tIf source identified, tailor for source of infection</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><b>Outpatient treatment of low-risk neutropenic fever</b></td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>Streptococci spp.</em></p>\r\n\r\n\t\t\t<p>Enteric gram-negative bacteria</p>\r\n\r\n\t\t\t<p><em>Pseudomonas aeruginosa</em></p>\r\n\r\n\t\t\t<p>Enterococci</p>\r\n\r\n\t\t\t<p>Staphylococci</p>\r\n\r\n\t\t\t<p>Viral infections</p>\r\n\t\t\tFungal infections</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8336\"><strong>Ciprofloxacin</strong></a></p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\t\t\t<a href=\"/node/8311\"><strong>Amoxicillin/clavulanic acid</strong></a></td>\r\n\t\t\t<td><a href=\"/node/8391\"><b>Levofloxacin</b></a></td>\r\n\t\t\t<td>\r\n\t\t\t<p>Need to take into account how sick the patient is at presentation, underlying comorbidities, localizing signs/symptoms, and age. Risk calculators are available</p>\r\n\r\n\t\t\t<p>Patients already on levofloxacin prophylaxis should be treated with IV therapy</p>\r\n\r\n\t\t\t<p>Expected duration of neutropenia should be &lt; 7 days</p>\r\n\r\n\t\t\t<p>Ensure patient has easy access to medical care and is able to tolerate oral therapy</p>\r\n\r\n\t\t\t<p>Excludes patients on prior oral antibacterial prophylaxis</p>\r\n\t\t\tConsider supervised observation in clinic; schedule close outpatient follow-up</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Until afebrile at least 72 hours</p>\r\n\t\t\tIf source identified, tailor for source of infection</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 161,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e9e098f9-0081-4408-b491-927824f0c523",
+   "url": "/guidelines-empiric-therapy-categories/sepsis-source-unknown-and-other-nonfocal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12091
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/outpatient-treatment-of-low-risk-neutropenic-fever",
+   "langcode": "und",
+   "pid": 24771
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-10-25T18:26:46+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Outpatient treatment of low-risk neutropenic fever"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "7f8a9dec-761c-474c-bd39-38d5f954a05c"
+  }
+ ],
+ "vid": [
+  {
+   "value": 14001
+  }
+ ]
+}

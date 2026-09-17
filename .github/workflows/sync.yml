@@ -1,0 +1,85 @@
+name: Sync from idmp.ucsf.edu
+
+on:
+  schedule:
+    - cron: "17 10 * * *"   # nightly, 10:17 UTC = 03:17 Pacific
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: idmp-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -q -r requirements.txt
+
+      - name: Fetch source and detect changes
+        id: sync
+        run: |
+          set +e
+          python3 scripts/sync.py
+          code=$?
+          set -e
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          echo "sync exit code: $code"
+          # 3 = fatal (source unreachable / API gone): keep the last good data, skip rebuild
+          [ "$code" -ne 3 ] || echo "fatal=1" >> "$GITHUB_OUTPUT"
+
+      - name: Build site
+        if: steps.sync.outputs.fatal != '1'
+        run: python3 scripts/build.py
+
+      - name: Publish status even on fatal sync
+        if: steps.sync.outputs.fatal == '1'
+        run: python3 scripts/report.py fatal-status
+
+      - name: Commit if changed
+        run: |
+          git config user.name "idmp-sync[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data docs
+          git diff --cached --quiet && echo "no changes" || {
+            git commit -m "$(python3 scripts/report.py commit-msg)"
+            git push
+          }
+
+      - name: Keepalive (GitHub disables scheduled workflows after 60 days without a commit)
+        run: |
+          idle_days=$(( ( $(date +%s) - $(git log -1 --format=%ct) ) / 86400 ))
+          echo "last commit was $idle_days day(s) ago"
+          [ "$idle_days" -ge 45 ] || exit 0
+          git commit --allow-empty -m "Keepalive: reset GitHub's 60-day scheduled-workflow timer"
+          git push
+
+      - name: Raise or update the drift issue
+        if: steps.sync.outputs.code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          body=$(python3 scripts/report.py issue-body)
+          existing=$(gh issue list --label drift --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh label create drift --color D93F0B --description "source site changed in a way the mirror did not expect" 2>/dev/null || true
+            gh issue create --title "Drift detected on idmp.ucsf.edu ($(date -u +%Y-%m-%d))" --label drift --body "$body"
+          fi
+
+      - name: Fail the job when the sync reported problems
+        if: steps.sync.outputs.code != '0'
+        run: |
+          echo "sync reported problems (exit ${{ steps.sync.outputs.code }}); see the drift issue"
+          exit 1

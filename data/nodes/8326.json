@@ -1,0 +1,144 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-30T21:05:08+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587146782,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-17T18:06:22+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>",
+   "value": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>"
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Short Infusion Dosing <strong>(PREFERRED)</strong></h2><table class=\"table\"><thead><tr><th>Indication</th><th>CrCl &gt; 50 mL/min</th><th>31 - 50 mL/min</th><th>15 - 30 mL/min</th><th>&lt; 15 mL/min</th></tr></thead><tbody><tr><td>All Indications</td><td>2 g IV q8h</td><td>2 g IV q12h</td><td>2 g IV q24h</td><td>1 g IV q24h</td></tr></tbody></table><h2>Extended Infusion Dosing (if recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>)</h2><table class=\"table\"><thead><tr><th>Indication</th><th>CrCl &gt; 50 mL/min</th><th>31 - 50 mL/min</th><th>&lt; 31 mL/min</th></tr></thead><tbody><tr><td>Loading Dose*</td><td>2 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>2 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>Use short infusion</td></tr><tr><td>Maintenance: All Indications</td><td>2 g IV q8h <strong>(over 4 hours)</strong></td><td>2 g IV q12h <strong>(over 4 hours)</strong></td><td>Use short infusion</td></tr></tbody></table><p>*A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving ceftazidime via short infusion. Recommended to start maintenance dose 4 hours after loading dose</p>",
+   "value": "<h2>Short Infusion Dosing <strong>(PREFERRED)</strong></h2><table class=\"table\"><thead><tr><th>Indication</th><th>CrCl &gt; 50 mL/min</th><th>31 - 50 mL/min</th><th>15 - 30 mL/min</th><th>&lt; 15 mL/min</th></tr></thead><tbody><tr><td>All Indications</td><td>2 g IV q8h</td><td>2 g IV q12h</td><td>2 g IV q24h</td><td>1 g IV q24h</td></tr></tbody></table><h2>Extended Infusion Dosing (if recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>)</h2><table class=\"table\"><thead><tr><th>Indication</th><th>CrCl &gt; 50 mL/min</th><th>31 - 50 mL/min</th><th>&lt; 31 mL/min</th></tr></thead><tbody><tr><td>Loading Dose*</td><td>2 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>2 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>Use short infusion</td></tr><tr><td>Maintenance: All Indications</td><td>2 g IV q8h <strong>(over 4 hours)</strong></td><td>2 g IV q12h <strong>(over 4 hours)</strong></td><td>Use short infusion</td></tr></tbody></table><p>*A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving ceftazidime via short infusion. Recommended to start maintenance dose 4 hours after loading dose</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\" style=\"font-family:HelveticaNeueLTW04-55Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;\"><thead><tr><th>Indication</th><th>Intermittent Hemodialysis</th><th>Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All Indications</td><td>1 g IV x1 now and post-HD</td><td>2 g IV q12h*</td></tr></tbody></table><p>*May infuse <strong>over 4 hours</strong> (extended infusion dosing) if&nbsp;recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>.&nbsp;A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving ceftazidime via short infusion. If a loading dose is given,&nbsp;start maintenance dose 4 hours after loading dose.</p>",
+   "value": "<table class=\"table\" style=\"font-family:HelveticaNeueLTW04-55Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;\"><thead><tr><th>Indication</th><th>Intermittent Hemodialysis</th><th>Continuous Hemodialysis</th></tr></thead><tbody><tr><td>All Indications</td><td>1 g IV x1 now and post-HD</td><td>2 g IV q12h*</td></tr></tbody></table><p>*May infuse <strong>over 4 hours</strong> (extended infusion dosing) if&nbsp;recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>.&nbsp;A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving ceftazidime via short infusion. If a loading dose is given,&nbsp;start maintenance dose 4 hours after loading dose.</p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "8/2023: Added extended infusion dosing\r\n7/2026: Updated loading dose verbiage for EI"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8326
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ceftazidime",
+   "langcode": "und",
+   "pid": 21231
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-30T21:05:08+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Ceftazidime"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "3ebabcaf-3b62-4d85-97eb-bf45338dd30c"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35436
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T18:51:43+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629831103,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T21:46:21+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines) or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations.  &nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Sexual assault&nbsp;</td>\n\t\t\t<td>Multiple possible exposures (including&nbsp;<em>Chlamydia trachomatis</em>, <em>Neisseria gonorrhoeae</em>, <em>Trichomonas vaginalis</em>, HIV,&nbsp;<em>Treponema pallidum</em>, HBV)&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{212}\" paraid=\"2095047647\"><strong>For postpubertal adolescents</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{222}\" paraid=\"292221641\">Ceftriaxone&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{232}\" paraid=\"45292128\">Weight&gt; 45 kg and &lt;150kg:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{240}\" paraid=\"738691834\">500 mg IM x 1 dose&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{254}\" paraid=\"636003521\">Weight&gt;=150kg:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{7}\" paraid=\"1761952901\">1000 mg IM x 1 dose&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{17}\" paraid=\"1825768632\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{31}\" paraid=\"989752440\">Doxycycline<br>\n\t\t\t100 mg enterally bid x 7 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{37}\" paraid=\"1301551245\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{51}\" paraid=\"1400835592\">Metronidazole&nbsp;<br>\n\t\t\t500&nbsp;mg enterally bid x 7 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{63}\" paraid=\"1279926112\">Consider HIV post-exposure prophylaxis&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{74}\" paraid=\"1020345026\"><strong>Pregnancy not ruled out</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{84}\" paraid=\"837790215\">Replace Doxycycline with Azithromycin 1000 mg enterally  x 1 dose&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{90}\" paraid=\"1381671178\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;<br>\n\t\t\tOmit Ceftriaxone from regimen, monitor, test &amp; treat for gonorrhea as clinically indicated&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{109}\" paraid=\"1661886903\">Refer to facility specific HIV post-exposure prophylaxis guidelines (BCH OAK) or to&nbsp;<a href=\"https://stacks.cdc.gov/view/cdc/38856\">national guidelines</a>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{123}\" paraid=\"984521931\">Assistance can be obtained by calling the&nbsp;<a href=\"https://aidsetc.org/aetc-program/national-clinician-consulation-center#:~:text=Post%2DExposure%20Prophylaxis%20Hotline%20(PEPline,(seven%20days%20a%20week).\">National Clinician’s PEP hotline</a>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{137}\" paraid=\"1123475546\">Perform pregnancy testing and provide emergency contraception when appropriate&nbsp;</p>\n\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{147}\" paraid=\"1359164951\">Review hepatitis B and HPV vaccination status and need for repeat vaccination or HBIG&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines) or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations.  &nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Sexual assault&nbsp;</td>\r\n\t\t\t<td>Multiple possible exposures (including&nbsp;<em>Chlamydia trachomatis</em>, <em>Neisseria gonorrhoeae</em>, <em>Trichomonas vaginalis</em>, HIV,&nbsp;<em>Treponema pallidum</em>, HBV)&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{212}\" paraid=\"2095047647\"><strong>For postpubertal adolescents</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{222}\" paraid=\"292221641\">Ceftriaxone&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{232}\" paraid=\"45292128\">Weight&gt; 45 kg and &lt;150kg:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{240}\" paraid=\"738691834\">500 mg IM x 1 dose&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{254}\" paraid=\"636003521\">Weight&gt;=150kg:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{7}\" paraid=\"1761952901\">1000 mg IM x 1 dose&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{17}\" paraid=\"1825768632\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{31}\" paraid=\"989752440\">Doxycycline<br />\r\n\t\t\t100 mg enterally bid x 7 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{37}\" paraid=\"1301551245\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{51}\" paraid=\"1400835592\">Metronidazole&nbsp;<br />\r\n\t\t\t500&nbsp;mg enterally bid x 7 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{63}\" paraid=\"1279926112\">Consider HIV post-exposure prophylaxis&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{74}\" paraid=\"1020345026\"><strong>Pregnancy not ruled out</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{84}\" paraid=\"837790215\">Replace Doxycycline with Azithromycin 1000 mg enterally  x 1 dose&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{90}\" paraid=\"1381671178\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;<br />\r\n\t\t\tOmit Ceftriaxone from regimen, monitor, test &amp; treat for gonorrhea as clinically indicated&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{109}\" paraid=\"1661886903\">Refer to facility specific HIV post-exposure prophylaxis guidelines (BCH OAK) or to&nbsp;<a href=\"https://stacks.cdc.gov/view/cdc/38856\">national guidelines</a>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{123}\" paraid=\"984521931\">Assistance can be obtained by calling the&nbsp;<a href=\"https://aidsetc.org/aetc-program/national-clinician-consulation-center#:~:text=Post%2DExposure%20Prophylaxis%20Hotline%20(PEPline,(seven%20days%20a%20week).\">National Clinician’s PEP hotline</a>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{137}\" paraid=\"1123475546\">Perform pregnancy testing and provide emergency contraception when appropriate&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{147}\" paraid=\"1359164951\">Review hepatitis B and HPV vaccination status and need for repeat vaccination or HBIG&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1c0d6bd7-8b96-483f-a5a7-d0a3a8ba07cf",
+   "url": "/guidelines-empiric-therapy-categories/sexually-transmitted-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{163}\" paraid=\"795611417\">References: &nbsp;</h2>\n\n<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{169}\" paraid=\"928786048\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n\n<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{201}\" paraid=\"1954435917\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\n\n<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{215}\" paraid=\"760125632\">St. Cyr S, et al.&nbsp;<a href=\"https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a6.htm\">Update to CDC’s treatment guidelines for gonococcal infection, 2020</a>. MMWR Morb Mortal Wkly Rep 2020;69:1911–1916.</p>\n",
+   "value": "<h2 paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{163}\" paraid=\"795611417\">References: &nbsp;</h2>\r\n\r\n<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{169}\" paraid=\"928786048\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n\r\n<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{201}\" paraid=\"1954435917\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\r\n\r\n<p paraeid=\"{945a2328-9abf-47aa-8ee2-00802dd2e1a3}{215}\" paraid=\"760125632\">St. Cyr S, et al.&nbsp;<a href=\"https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a6.htm\">Update to CDC’s treatment guidelines for gonococcal infection, 2020</a>. MMWR Morb Mortal Wkly Rep 2020;69:1911–1916.</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13521
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/prophylaxis-after-sexual-assault",
+   "langcode": "und",
+   "pid": 26176
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T18:51:43+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Prophylaxis After Sexual Assault "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "9d7b31d1-03f0-4f11-ba0e-d2f70356ed89"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16106
+  }
+ ]
+}

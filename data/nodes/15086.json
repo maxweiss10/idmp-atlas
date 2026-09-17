@@ -1,0 +1,149 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<p align=\"center\">&nbsp;</p>\n\n<h2 align=\"center\"><strong>Management of Vancomycin Infusion Reaction in Adult Patients</strong></h2>\n\n<p>&nbsp;</p>\n\n<h4><strong><u>Background</u></strong></h4>\n\n<p>At UCSF, a retrospective chart review of patients (n=197) with a documented vancomycin allergy listed in APeX was performed for patients admitted to UCSF between 10/1/2021 through 9/30/2022. Approximately 86% of patients in our review did not have a true vancomycin allergy, defined as immune-mediated or hypersensitivity reactions deemed to be unsafe for re-trial.&nbsp;</p>\n\n<p>In patients with true immune-mediated or hypersensitivity reactions, only 6 (3%) patients in our review were noted to have anaphylaxis and another 8 (4%) patients with drug reaction with eosinophilia and systemic symptoms (DRESS), Stevens-Johnson Syndrome (SJS), toxic epidermal necrolysis (TEN), or acute generalized exanthematous pustulosis (AGEP).&nbsp;</p>\n\n<p>Many patients with allergies had reactions consistent with varying degrees of vancomycin infusion reaction (VIR), which is a common adverse reaction to vancomycin and not an allergic reaction. It is characterized by flushing, erythema, pruritus, and/or maculopapular rash usually of the upper body (i.e. face, neck, trunk, and/or upper extremities). Chest or back pain and hypotension may also occur. It is a rate-related infusion reaction caused by direct activation of mast cells. Other agents that activate mast cells such as opioids, muscle relaxants, and radiocontrast media can predispose patients to developing VIR. VIR can usually be prevented by administering vancomycin at rates ≤10 mg/minute (or 1 g over more than 100 minutes). There is no need to empirically pre-medicate patients who have no history of previous VIR or have never received vancomycin before.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Table 1. Suggested Standard Vancomycin Infusion Times (may need to be prolonged in the setting of VIR).</strong></p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:720px;\" width=\"720\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:360px;height:17px;\">\n\t\t\t<p align=\"center\"><strong>Vancomycin Dose [Diluent Volume]&nbsp;</strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:360px;height:17px;\">\n\t\t\t<p align=\"center\"><strong>Default Infusion Time&nbsp;</strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:360px;height:17px;\">\n\t\t\t<p>≤ 500 mg [100 mL]&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:360px;height:17px;\">\n\t\t\t<p>60 minutes&nbsp;&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:360px;height:17px;\">\n\t\t\t<p>750-1000 mg [250 mL]&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:360px;height:17px;\">\n\t\t\t<p>60 minutes&nbsp;&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:360px;height:17px;\">\n\t\t\t<p>1250 mg [250 mL]&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:360px;height:17px;\">\n\t\t\t<p>90 minutes&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:360px;height:17px;\">\n\t\t\t<p>≥ 1500 [500 mL]&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:360px;height:17px;\">\n\t\t\t<p>120 minutes&nbsp;&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p><strong>Table 2. Medications that Activate Mast Cells.</strong></p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:720px;\" width=\"720\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:221px;height:16px;\">\n\t\t\t<p align=\"center\"><strong>Class</strong>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:499px;height:16px;\">\n\t\t\t<p align=\"center\"><strong>Example (if applicable)</strong>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:221px;height:16px;\">\n\t\t\t<p>Antibiotics&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:499px;height:16px;\">\n\t\t\t<p>Ciprofloxacin, vancomycin&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:221px;height:16px;\">\n\t\t\t<p>Barbiturates&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:499px;height:16px;\">\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:221px;height:16px;\">\n\t\t\t<p>Narcotic analgesics&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:499px;height:16px;\">\n\t\t\t<p>Morphine, meperidine, codeine, oxycodone&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:221px;height:16px;\">\n\t\t\t<p>Neuromuscular antagonists&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:499px;height:16px;\">\n\t\t\t<p>Succinylcholine, atracurium, cisatracurium, doxacurium, mivacurium, tubocurarine&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:221px;height:16px;\">\n\t\t\t<p>Plasma expanders&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:499px;height:16px;\">\n\t\t\t<p>Dextran, polygeline&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:221px;height:3px;\">\n\t\t\t<p>Radiocontrast agents&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:499px;height:3px;\">\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<h4><strong><u>Allergy Documentation</u></strong><strong>:</strong>&nbsp;</h4>\n\n<p><u>For Immune-Mediated / Hypersensitivity Reactions</u>:&nbsp;</p>\n\n<ul>\n\t<li>Document into APeX allergy field that the patient has linear IgA bullous dermatosis, DRESS, Stevens Johnson Syndrome (SJS), anaphylaxis with the date of occurrence. These patients should not be re-challenged with vancomycin.</li>\n\t<li>Anaphylaxis – symptoms include (but not limited to) angioedema, respiratory distress, hypotension (SBP &lt; 90 mmHg) ± tachycardia, and/or bronchospasm&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><u>For Intolerance</u>:</p>\n\n<ul>\n\t<li>For VIR, select “other comments” and document that the patient tolerates vancomycin at a certain rate, requires pre-medication, etc. (whatever is applicable to the patient)&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>For any additional questions regarding the allergy, please reach out to the primary provider and patient. If the decision is made to remove the allergy, it is imperative that the patient understands why and knows not to report this allergy in the future to avoid future confusion. Consider involving the allergy consult team if it is unclear if there is a true allergy. The following steps serve as guidance and are not a part of a pharmacy-driven protocol.</p>\n\n<h4><strong><u>Management of VIR</u></strong>:</h4>\n\n<p><u>Overall Management Principles</u><strong>:</strong>&nbsp;</p>\n\n<ol>\n\t<li>Stop the infusion&nbsp;</li>\n\t<li>Contact primary team to help assess the severity</li>\n\t<li>Determine if there are other predisposing medications that are contributing to VIR&nbsp;\n\t<ol style=\"list-style-type:lower-alpha;\">\n\t\t<li>Avoid simultaneous administration of vancomycin with pre-disposing agents (refer to table above) as this will enhance dose or rate related mast cell degranulation&nbsp;</li>\n\t\t<li>Schedule medications apart from vancomycin infusion, if feasible&nbsp;</li>\n\t</ol>\n\t</li>\n\t<li>If vancomycin therapy is to be restarted, then consider the following approaches (see Table 3 for more detailed guidance):&nbsp;\n\t<ol style=\"list-style-type:lower-alpha;\">\n\t\t<li>Reduce infusion rate</li>\n\t\t<li>Co-administer with the following drugs as directed:\n\t\t<ol style=\"list-style-type:lower-roman;\">\n\t\t\t<li><em><u>Disclaimer</u></em><em>: Drug shortages may affect the agents used to mitigate VIR. Please reach out to unit-based pharmacists as indicated.</em></li>\n\t\t\t<li>Diphenhydramine or cetirizine</li>\n\t\t</ol>\n\t\t</li>\n\t\t<li>Increase volume of the diluent\n\t\t<ol style=\"list-style-type:lower-roman;\">\n\t\t\t<li>Maximum concentration 5 mg/mL for peripheral administration&nbsp;</li>\n\t\t</ol>\n\t\t</li>\n\t</ol>\n\t</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><strong>Table 3. Management of VIR Based on Severity.</strong></p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:198px;\">\n\t\t\t<p align=\"center\"><strong>Type of Reaction</strong></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:486px;\">\n\t\t\t<p align=\"center\"><strong>Recommended Management</strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:198px;\">\n\t\t\t<p align=\"center\"><strong>Mild to Moderate</strong></p>\n\n\t\t\t<p align=\"center\">&nbsp;</p>\n\n\t\t\t<p align=\"center\"><em>Defined as f</em><em>lushing or pruritis BUT is hemodynamically stable and not experiencing chest pain or muscle spasms</em></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:486px;\">\n\t\t\t<ol>\n\t\t\t\t<li>Administer diphenhydramine 50 mg PO/IV OR cetirizine 10 mg PO 60 minutes before starting infusion.</li>\n\t\t\t\t<li>Prolong the infusion rate by reducing the rate to half of the previous rate (for example if running at 250 mL/hour, then adjust to 125 mL/hour).</li>\n\t\t\t</ol>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:198px;\">\n\t\t\t<p align=\"center\"><strong>Severe</strong></p>\n\n\t\t\t<p align=\"center\">&nbsp;</p>\n\n\t\t\t<p align=\"center\"><em>Defined as p</em><em>atient experiencing muscle spasms, chest pain or frank hypotension&nbsp;</em><em>(SBP &lt; 90 mmHg) ± tachycardia</em></p>\n\t\t\t</td>\n\t\t\t<td style=\"width:486px;\">\n\t\t\t<ol>\n\t\t\t\t<li>Administer diphenhydramine 50 mg PO/IV or cetirizine 10 mg PO 60 minutes before starting infusion.</li>\n\t\t\t\t<li>Administer IV fluids if patient experiencing hypotension if primary team/provider in agreement.</li>\n\t\t\t\t<li>Change the concentration of the vancomycin* by adjusting the volume of the diluent to be less than 5 mg/mL (consider targeting concentration closer to 3 mg/mL or less).</li>\n\t\t\t\t<li>If vancomycin is restarted, the infusion rate can be reduced to 50% of the original rate, or decreased further.</li>\n\t\t\t</ol>\n\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p>Additional Notes:</p>\n\n\t\t\t<ul>\n\t\t\t\t<li>Monitor the patient’s hemodynamics continuously.</li>\n\t\t\t\t<li>If infusion rate exceeds 4 hours, please contact team-based pharmacist for alternate recommendations.</li>\n\t\t\t\t<li>Epinephrine should be readily available for administration.</li>\n\t\t\t\t<li>Consider consulting Allergy team.</li>\n\t\t\t\t<li>Primary team to obtain a tryptase level. If elevated, consider referral to allergy for skin testing.</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><u>*Adjusting IV Bag Size in APeX (for pharmacists)</u>: See <a href=\"https://myapex.ucsf.edu/sites/myapex.ucsf.edu/files/2023-08/How%20to%20Change%20IV%20Medication%20Diluent%20-%20WIL.pdf\">tip sheet</a> on the APeX Knowledge Bank for guidance</p>\n\n<p>&nbsp;</p>\n\n<p><strong>References</strong>:&nbsp;</p>\n\n<ol>\n\t<li>Minhas JS, Wickner PG, Long AA, et al. Ann Allergy Asthma Immunol 2016: 116: 544-53.&nbsp;</li>\n\t<li>Drisyamol KA and NM Mahesh. Int J Pharm Res. 2016: 6(4).&nbsp;</li>\n\t<li>Martel TJ and RA Whitten. StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2018.&nbsp;</li>\n\t<li>Wallace MR, Mascola JR, Oldfield EC. J Infect Dis 1991: 164: 1180.&nbsp;</li>\n\t<li>Sivagnanam S and D Deleu. Crit Care 2002; 7: 119.&nbsp;</li>\n</ol>\n\n<p style=\"text-align: center;\">&nbsp;</p>\n\n<p style=\"text-align: center;\"><em>Reviewed and Approved by Adult ID/ASP Pharmacy &amp; Iris Otani MD (Allergy&amp;Immunology) (2023). This document has not been P&amp;T-approved.</em></p>\n",
+   "summary": "Guidance for management of vancomycin infusion reaction in adult patients",
+   "value": "<p align=\"center\">&nbsp;</p>\r\n\r\n<h2 align=\"center\"><strong>Management of Vancomycin Infusion Reaction in Adult Patients</strong></h2>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h4><strong><u>Background</u></strong></h4>\r\n\r\n<p>At UCSF, a retrospective chart review of patients (n=197) with a documented vancomycin allergy listed in APeX was performed for patients admitted to UCSF between 10/1/2021 through 9/30/2022. Approximately 86% of patients in our review did not have a true vancomycin allergy, defined as immune-mediated or hypersensitivity reactions deemed to be unsafe for re-trial.&nbsp;</p>\r\n\r\n<p>In patients with true immune-mediated or hypersensitivity reactions, only 6 (3%) patients in our review were noted to have anaphylaxis and another 8 (4%) patients with drug reaction with eosinophilia and systemic symptoms (DRESS), Stevens-Johnson Syndrome (SJS), toxic epidermal necrolysis (TEN), or acute generalized exanthematous pustulosis (AGEP).&nbsp;</p>\r\n\r\n<p>Many patients with allergies had reactions consistent with varying degrees of vancomycin infusion reaction (VIR), which is a common adverse reaction to vancomycin and not an allergic reaction. It is characterized by flushing, erythema, pruritus, and/or maculopapular rash usually of the upper body (i.e. face, neck, trunk, and/or upper extremities). Chest or back pain and hypotension may also occur. It is a rate-related infusion reaction caused by direct activation of mast cells. Other agents that activate mast cells such as opioids, muscle relaxants, and radiocontrast media can predispose patients to developing VIR. VIR can usually be prevented by administering vancomycin at rates ≤10 mg/minute (or 1 g over more than 100 minutes). There is no need to empirically pre-medicate patients who have no history of previous VIR or have never received vancomycin before.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Table 1. Suggested Standard Vancomycin Infusion Times (may need to be prolonged in the setting of VIR).</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:720px;\" width=\"720\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:360px;height:17px;\">\r\n\t\t\t<p align=\"center\"><strong>Vancomycin Dose [Diluent Volume]&nbsp;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:360px;height:17px;\">\r\n\t\t\t<p align=\"center\"><strong>Default Infusion Time&nbsp;</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:360px;height:17px;\">\r\n\t\t\t<p>≤ 500 mg [100 mL]&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:360px;height:17px;\">\r\n\t\t\t<p>60 minutes&nbsp;&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:360px;height:17px;\">\r\n\t\t\t<p>750-1000 mg [250 mL]&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:360px;height:17px;\">\r\n\t\t\t<p>60 minutes&nbsp;&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:360px;height:17px;\">\r\n\t\t\t<p>1250 mg [250 mL]&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:360px;height:17px;\">\r\n\t\t\t<p>90 minutes&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:360px;height:17px;\">\r\n\t\t\t<p>≥ 1500 [500 mL]&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:360px;height:17px;\">\r\n\t\t\t<p>120 minutes&nbsp;&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Table 2. Medications that Activate Mast Cells.</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:720px;\" width=\"720\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:221px;height:16px;\">\r\n\t\t\t<p align=\"center\"><strong>Class</strong>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:499px;height:16px;\">\r\n\t\t\t<p align=\"center\"><strong>Example (if applicable)</strong>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:221px;height:16px;\">\r\n\t\t\t<p>Antibiotics&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:499px;height:16px;\">\r\n\t\t\t<p>Ciprofloxacin, vancomycin&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:221px;height:16px;\">\r\n\t\t\t<p>Barbiturates&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:499px;height:16px;\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:221px;height:16px;\">\r\n\t\t\t<p>Narcotic analgesics&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:499px;height:16px;\">\r\n\t\t\t<p>Morphine, meperidine, codeine, oxycodone&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:221px;height:16px;\">\r\n\t\t\t<p>Neuromuscular antagonists&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:499px;height:16px;\">\r\n\t\t\t<p>Succinylcholine, atracurium, cisatracurium, doxacurium, mivacurium, tubocurarine&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:221px;height:16px;\">\r\n\t\t\t<p>Plasma expanders&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:499px;height:16px;\">\r\n\t\t\t<p>Dextran, polygeline&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:221px;height:3px;\">\r\n\t\t\t<p>Radiocontrast agents&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:499px;height:3px;\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h4><strong><u>Allergy Documentation</u></strong><strong>:</strong>&nbsp;</h4>\r\n\r\n<p><u>For Immune-Mediated / Hypersensitivity Reactions</u>:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Document into APeX allergy field that the patient has linear IgA bullous dermatosis, DRESS, Stevens Johnson Syndrome (SJS), anaphylaxis with the date of occurrence. These patients should not be re-challenged with vancomycin.</li>\r\n\t<li>Anaphylaxis – symptoms include (but not limited to) angioedema, respiratory distress, hypotension (SBP &lt; 90 mmHg) ± tachycardia, and/or bronchospasm&nbsp;</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><u>For Intolerance</u>:</p>\r\n\r\n<ul>\r\n\t<li>For VIR, select “other comments” and document that the patient tolerates vancomycin at a certain rate, requires pre-medication, etc. (whatever is applicable to the patient)&nbsp;</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>For any additional questions regarding the allergy, please reach out to the primary provider and patient. If the decision is made to remove the allergy, it is imperative that the patient understands why and knows not to report this allergy in the future to avoid future confusion. Consider involving the allergy consult team if it is unclear if there is a true allergy. The following steps serve as guidance and are not a part of a pharmacy-driven protocol.</p>\r\n\r\n<h4><strong><u>Management of VIR</u></strong>:</h4>\r\n\r\n<p><u>Overall Management Principles</u><strong>:</strong>&nbsp;</p>\r\n\r\n<ol>\r\n\t<li>Stop the infusion&nbsp;</li>\r\n\t<li>Contact primary team to help assess the severity</li>\r\n\t<li>Determine if there are other predisposing medications that are contributing to VIR&nbsp;\r\n\t<ol style=\"list-style-type:lower-alpha;\">\r\n\t\t<li>Avoid simultaneous administration of vancomycin with pre-disposing agents (refer to table above) as this will enhance dose or rate related mast cell degranulation&nbsp;</li>\r\n\t\t<li>Schedule medications apart from vancomycin infusion, if feasible&nbsp;</li>\r\n\t</ol>\r\n\t</li>\r\n\t<li>If vancomycin therapy is to be restarted, then consider the following approaches (see Table 3 for more detailed guidance):&nbsp;\r\n\t<ol style=\"list-style-type:lower-alpha;\">\r\n\t\t<li>Reduce infusion rate</li>\r\n\t\t<li>Co-administer with the following drugs as directed:\r\n\t\t<ol style=\"list-style-type:lower-roman;\">\r\n\t\t\t<li><em><u>Disclaimer</u></em><em>: Drug shortages may affect the agents used to mitigate VIR. Please reach out to unit-based pharmacists as indicated.</em></li>\r\n\t\t\t<li>Diphenhydramine or cetirizine</li>\r\n\t\t</ol>\r\n\t\t</li>\r\n\t\t<li>Increase volume of the diluent\r\n\t\t<ol style=\"list-style-type:lower-roman;\">\r\n\t\t\t<li>Maximum concentration 5 mg/mL for peripheral administration&nbsp;</li>\r\n\t\t</ol>\r\n\t\t</li>\r\n\t</ol>\r\n\t</li>\r\n</ol>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Table 3. Management of VIR Based on Severity.</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:198px;\">\r\n\t\t\t<p align=\"center\"><strong>Type of Reaction</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:486px;\">\r\n\t\t\t<p align=\"center\"><strong>Recommended Management</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:198px;\">\r\n\t\t\t<p align=\"center\"><strong>Mild to Moderate</strong></p>\r\n\r\n\t\t\t<p align=\"center\">&nbsp;</p>\r\n\r\n\t\t\t<p align=\"center\"><em>Defined as f</em><em>lushing or pruritis BUT is hemodynamically stable and not experiencing chest pain or muscle spasms</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:486px;\">\r\n\t\t\t<ol>\r\n\t\t\t\t<li>Administer diphenhydramine 50 mg PO/IV OR cetirizine 10 mg PO 60 minutes before starting infusion.</li>\r\n\t\t\t\t<li>Prolong the infusion rate by reducing the rate to half of the previous rate (for example if running at 250 mL/hour, then adjust to 125 mL/hour).</li>\r\n\t\t\t</ol>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:198px;\">\r\n\t\t\t<p align=\"center\"><strong>Severe</strong></p>\r\n\r\n\t\t\t<p align=\"center\">&nbsp;</p>\r\n\r\n\t\t\t<p align=\"center\"><em>Defined as p</em><em>atient experiencing muscle spasms, chest pain or frank hypotension&nbsp;</em><em>(SBP &lt; 90 mmHg) ± tachycardia</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:486px;\">\r\n\t\t\t<ol>\r\n\t\t\t\t<li>Administer diphenhydramine 50 mg PO/IV or cetirizine 10 mg PO 60 minutes before starting infusion.</li>\r\n\t\t\t\t<li>Administer IV fluids if patient experiencing hypotension if primary team/provider in agreement.</li>\r\n\t\t\t\t<li>Change the concentration of the vancomycin* by adjusting the volume of the diluent to be less than 5 mg/mL (consider targeting concentration closer to 3 mg/mL or less).</li>\r\n\t\t\t\t<li>If vancomycin is restarted, the infusion rate can be reduced to 50% of the original rate, or decreased further.</li>\r\n\t\t\t</ol>\r\n\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p>Additional Notes:</p>\r\n\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Monitor the patient’s hemodynamics continuously.</li>\r\n\t\t\t\t<li>If infusion rate exceeds 4 hours, please contact team-based pharmacist for alternate recommendations.</li>\r\n\t\t\t\t<li>Epinephrine should be readily available for administration.</li>\r\n\t\t\t\t<li>Consider consulting Allergy team.</li>\r\n\t\t\t\t<li>Primary team to obtain a tryptase level. If elevated, consider referral to allergy for skin testing.</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><u>*Adjusting IV Bag Size in APeX (for pharmacists)</u>: See <a href=\"https://myapex.ucsf.edu/sites/myapex.ucsf.edu/files/2023-08/How%20to%20Change%20IV%20Medication%20Diluent%20-%20WIL.pdf\">tip sheet</a> on the APeX Knowledge Bank for guidance</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>References</strong>:&nbsp;</p>\r\n\r\n<ol>\r\n\t<li>Minhas JS, Wickner PG, Long AA, et al. Ann Allergy Asthma Immunol 2016: 116: 544-53.&nbsp;</li>\r\n\t<li>Drisyamol KA and NM Mahesh. Int J Pharm Res. 2016: 6(4).&nbsp;</li>\r\n\t<li>Martel TJ and RA Whitten. StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2018.&nbsp;</li>\r\n\t<li>Wallace MR, Mascola JR, Oldfield EC. J Infect Dis 1991: 164: 1180.&nbsp;</li>\r\n\t<li>Sivagnanam S and D Deleu. Crit Care 2002; 7: 119.&nbsp;</li>\r\n</ol>\r\n\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n\r\n<p style=\"text-align: center;\"><em>Reviewed and Approved by Adult ID/ASP Pharmacy &amp; Iris Otani MD (Allergy&amp;Immunology) (2023). This document has not been P&amp;T-approved.</em></p>\r\n"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-15T19:05:50+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1727381756,
+   "last_comment_uid": 506,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-01-05T01:22:46+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2024-01-04"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 451,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a61a46a6-7dde-4da7-8b4b-d3c5cb579606",
+   "url": "/site/ucsf-medical-center-mission-bay-adult"
+  },
+  {
+   "target_id": 2101,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b959ef0d-a183-4591-96ee-d7183836e39d",
+   "url": "/site/ucsf-medical-center-mount-zion"
+  },
+  {
+   "target_id": 446,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ea4e1156-f1d7-40b6-8744-b15ee0218ccf",
+   "url": "/site/ucsf-medical-center-parnassus-heights"
+  },
+  {
+   "target_id": 2111,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b0f2c62e-1e16-47cf-ac4a-6f1bb99f5012",
+   "url": "/site/ucsf-stanyan-hyde"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1071,
+   "target_type": "media",
+   "target_uuid": "3bf25d18-e14e-4aaf-92c0-6db5498663a0",
+   "url": "/document/management-of-vancomycin-infusion-reaction-guideline-2024-final-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15086
+  }
+ ],
+ "path": [
+  {
+   "alias": "/VIRGuideline",
+   "langcode": "en",
+   "pid": 17246
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-09-26T20:15:56+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Vancomycin Infusion Reaction"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "13c3c6a5-ecf7-4ee0-aa81-e1a2cca0f9b4"
+  }
+ ],
+ "vid": [
+  {
+   "value": 19161
+  }
+ ]
+}

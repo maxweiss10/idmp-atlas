@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-03T22:08:41+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1626911528,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-06-24T22:51:42+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<p>These reports are aggregated from clinical isolates submitted to the UCSF Clinical Microbiology Laboratory from adult patients at the UCSF locations&nbsp;and are meant to guide clinicians in selecting empiric therapy.&nbsp;Patient characteristics must be incorporated in determining risks and therapy should be modified based on susceptibility testing results when available. Breakpoints for susceptibility are via <a href=\"http://em100.edaptivedocs.net/Login.aspx\">CLSI guidelines</a>. This page was last updated 3/2026.&nbsp;</p><div class=\"page-scrolling\" id=\"main-wrapper\"><div class=\"clearfix\" id=\"main\"><div class=\"column\" id=\"content\"><div class=\"inside\"><div class=\"region region-content\"><div class=\"block block-system\" id=\"block-system-main\"><div class=\"content\"><div class=\"view view-ucsf-antibiogram view-id-ucsf_antibiogram view-display-id-page_1 view-dom-id-2beb39d04b4171af7651edfbaa05a2ee\"><div class=\"view-header\"><p><a href=\"/antimicrobial-susceptibility-testing-methodology\">Methodology Notes</a></p><h2>Current Susceptibility Data</h2><h3><strong><u>UCSF Parnassus, Mission Bay, &amp; Mt. Zion</u></strong></h3><h3><strong>Inpatient and Intensive Care Unit</strong></h3><h4>Gram-Negative Organisms</h4><ul><li><a href=\"/ucsf-adult-antibiogram-GN-2022\">Report by Organism and Drug</a></li></ul><h4>Gram-Positive Organisms</h4><ul><li><a href=\"/ucsf-adult-antibiogram-GP-2022\">Report by Organism and Drug</a></li></ul><h3><strong>Outpatient</strong></h3><ul><li><a href=\"/ucsf-adult-antibiogram-outpatient-2022\"><em>Staphylococcus aureus</em> Susceptibilities</a></li><li><a href=\"/content/ucsf-adult-outpatient-susceptibility-data-e-coli-urine-isolates\">Urinary <em>E. coli</em></a><a href=\"/content/ucsf-adult-outpatient-susceptibility-data-e-coli-urine-isolates\" data-entity-type=\"node\" data-entity-uuid=\"08032228-9c6d-45fb-b48e-c260c88f7ca8\" data-entity-substitution=\"canonical\"> Susceptibilities</a></li></ul><h3><strong><u>UCSF Community Hospitals</u></strong></h3><ul><li><a href=\"https://idmp.ucsf.edu/document/hyde-antibiogram\">UCSF Hyde Antibiogram</a></li><li><a href=\"https://idmp.ucsf.edu/document/stanyan-antibiogram\">UCSF Stanyan Antibiogram</a></li></ul><p>&nbsp;</p></div></div></div></div></div></div></div></div></div>",
+   "value": "<p>These reports are aggregated from clinical isolates submitted to the UCSF Clinical Microbiology Laboratory from adult patients at the UCSF locations&nbsp;and are meant to guide clinicians in selecting empiric therapy.&nbsp;Patient characteristics must be incorporated in determining risks and therapy should be modified based on susceptibility testing results when available. Breakpoints for susceptibility are via <a href=\"http://em100.edaptivedocs.net/Login.aspx\">CLSI guidelines</a>. This page was last updated 3/2026.&nbsp;</p><div class=\"page-scrolling\" id=\"main-wrapper\"><div class=\"clearfix\" id=\"main\"><div class=\"column\" id=\"content\"><div class=\"inside\"><div class=\"region region-content\"><div class=\"block block-system\" id=\"block-system-main\"><div class=\"content\"><div class=\"view view-ucsf-antibiogram view-id-ucsf_antibiogram view-display-id-page_1 view-dom-id-2beb39d04b4171af7651edfbaa05a2ee\"><div class=\"view-header\"><p><a href=\"/antimicrobial-susceptibility-testing-methodology\">Methodology Notes</a></p><h2>Current Susceptibility Data</h2><h3><strong><u>UCSF Parnassus, Mission Bay, &amp; Mt. Zion</u></strong></h3><h3><strong>Inpatient and Intensive Care Unit</strong></h3><h4>Gram-Negative Organisms</h4><ul><li><a href=\"/ucsf-adult-antibiogram-GN-2022\">Report by Organism and Drug</a></li></ul><h4>Gram-Positive Organisms</h4><ul><li><a href=\"/ucsf-adult-antibiogram-GP-2022\">Report by Organism and Drug</a></li></ul><h3><strong>Outpatient</strong></h3><ul><li><a href=\"/ucsf-adult-antibiogram-outpatient-2022\"><em>Staphylococcus aureus</em> Susceptibilities</a></li><li><a href=\"/content/ucsf-adult-outpatient-susceptibility-data-e-coli-urine-isolates\">Urinary <em>E. coli</em></a><a href=\"/content/ucsf-adult-outpatient-susceptibility-data-e-coli-urine-isolates\" data-entity-type=\"node\" data-entity-uuid=\"08032228-9c6d-45fb-b48e-c260c88f7ca8\" data-entity-substitution=\"canonical\"> Susceptibilities</a></li></ul><h3><strong><u>UCSF Community Hospitals</u></strong></h3><ul><li><a href=\"https://idmp.ucsf.edu/document/hyde-antibiogram\">UCSF Hyde Antibiogram</a></li><li><a href=\"https://idmp.ucsf.edu/document/stanyan-antibiogram\">UCSF Stanyan Antibiogram</a></li></ul><p>&nbsp;</p></div></div></div></div></div></div></div></div></div>"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13201
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/antimicrobial-susceptibility-at-ucsf-adult-hospitals",
+   "langcode": "und",
+   "pid": 25866
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-12T22:30:24+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Antimicrobial Susceptibility at UCSF Adult Hospitals"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "e0bf24b4-935a-4c45-b4b4-98a09a171236"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24271
+  }
+ ]
+}

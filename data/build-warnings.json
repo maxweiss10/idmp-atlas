@@ -1,0 +1,18 @@
+[
+ {
+  "nid": 12071,
+  "title": "Pneumonia, Hospital-acquired or Ventilator-associated",
+  "route": "empiric/pneumonia-hospital-acquired-or-ventilator-associated.html",
+  "notes": [
+   "info: a table without a header row is shown in its original layout"
+  ]
+ },
+ {
+  "nid": 13561,
+  "title": "Antibiotic Stewardship and Spectrum Guide",
+  "route": "empiric/antibiotic-stewardship-and-spectrum-guide.html",
+  "notes": [
+   "info: a table without a header row is shown in its original layout"
+  ]
+ }
+]

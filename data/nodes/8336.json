@@ -1,0 +1,138 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:51+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587164768,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-17T23:06:08+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">CrCl &gt;&nbsp;50 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">30 - 50 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">&lt; 30 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Standard dosing</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">400 mg IV q12h</p>\n\n\t\t\t<p style=\"text-align: center;\">500 mg PO BID</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">400 mg IV q12h</p>\n\n\t\t\t<p style=\"text-align: center;\">500 mg PO BID</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">400 mg IV q24h</p>\n\n\t\t\t<p style=\"text-align: center;\">500 mg PO daily</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><em>P</em><i><em>seudomonas </em>infections, </i><a href=\"/content/gram-negative-bloodstream-infection\">Gram-Negative Bloodstream Infection</a><i>, &amp;&nbsp;induction therapy for</i><br>\n\t\t\t<em>Staphylococcus </em><i>hardware infections +/- rifampin</i></td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">400 mg IV q8h</p>\n\n\t\t\t<p style=\"text-align: center;\">750 mg PO q12h</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">400 mg IV q12h</p>\n\n\t\t\t<p style=\"text-align: center;\">500 mg PO q12h</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">400 mg IV q24h</p>\n\n\t\t\t<p style=\"text-align: center;\">500 mg PO daily</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">CrCl &gt;&nbsp;50 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">30 - 50 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">&lt; 30 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Standard dosing</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align: center;\">400 mg IV q12h</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">500 mg PO BID</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align: center;\">400 mg IV q12h</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">500 mg PO BID</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align: center;\">400 mg IV q24h</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">500 mg PO daily</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><em>P</em><i><em>seudomonas </em>infections, </i><a href=\"/content/gram-negative-bloodstream-infection\">Gram-Negative Bloodstream Infection</a><i>, &amp;&nbsp;induction therapy for</i><br />\r\n\t\t\t<em>Staphylococcus </em><i>hardware infections +/- rifampin</i></td>\r\n\t\t\t<td>\r\n\t\t\t<p align=\"center\">400 mg IV q8h</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">750 mg PO q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p align=\"center\">400 mg IV q12h</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">500 mg PO q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p align=\"center\">400 mg IV q24h</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">500 mg PO daily</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td style=\"text-align: center;\">400 mg IV qPM or 500 mg PO qPM</td>\n\t\t\t<td style=\"text-align: center;\">400 mg IV q8h or 500 mg PO q12h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td style=\"text-align: center;\">400 mg IV qPM or 500 mg PO qPM</td>\r\n\t\t\t<td style=\"text-align: center;\">400 mg IV q8h or 500 mg PO q12h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 76,
+   "target_type": "taxonomy_term",
+   "target_uuid": "4511a589-5232-4ab1-95de-bae41deb9968",
+   "url": "/notations/iv-po"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "Added staph and hardware infection (04/24 - RJ) - quarterly dosing meeting for adults \r\n02/18/25 - RJ added standard dosing for the indications box "
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8336
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ciprofloxacin",
+   "langcode": "und",
+   "pid": 21241
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-06-06T19:35:58+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Ciprofloxacin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "584eae59-52f2-4f90-b7b4-eed9eb5ce57e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23856
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T23:39:03+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587491423,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-21T17:50:23+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>",
+   "value": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>"
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dose</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>372 mg IV/PO Q8h x 6 doses (total of 48h), then 372 mg Q24h</td>\n\t\t\t<td>No renal dose adjustment</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dose</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>372 mg IV/PO Q8h x 6 doses (total of 48h), then 372 mg Q24h</td>\r\n\t\t\t<td>No renal dose adjustment</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>All Indications</td><td>372 mg IV/PO Q8h x 6 doses (48h), then 372 mg IV/PO Q24h</td><td>No dose adjustment in hemodialysis</td></tr></tbody></table>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td>All Indications</td><td>372 mg IV/PO Q8h x 6 doses (48h), then 372 mg IV/PO Q24h</td><td>No dose adjustment in hemodialysis</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  },
+  {
+   "target_id": 76,
+   "target_type": "taxonomy_term",
+   "target_uuid": "4511a589-5232-4ab1-95de-bae41deb9968",
+   "url": "/notations/iv-po"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<h2>General Considerations</h2><p>- For assistance with therapeutic drug monitoring (TDM), see <a href=\"/content/azole-therapeutic-drug-monitoring\">Azole TDM Reference&nbsp;Document</a>.<br>- Review medications for potential drug interactions.<br>-&nbsp;372 mg of isavuconazonium = 200 mg of isavuconazole.</p>",
+   "value": "<h2>General Considerations</h2><p>- For assistance with therapeutic drug monitoring (TDM), see <a href=\"/content/azole-therapeutic-drug-monitoring\">Azole TDM Reference&nbsp;Document</a>.<br>- Review medications for potential drug interactions.<br>-&nbsp;372 mg of isavuconazonium = 200 mg of isavuconazole.</p>"
+  }
+ ],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{23ebc3ac-4371-4358-921a-44c92e2ce694}{241}\" paraid=\"0\" xml:lang=\"EN-US\">UCSF: Restricted to ID or Antimicrobial Stewardship except:​</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{23ebc3ac-4371-4358-921a-44c92e2ce694}{241}\" paraid=\"0\" xml:lang=\"EN-US\">IV formulation: Inability to tolerate or absorb enteral medications AND one of the following:</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{23ebc3ac-4371-4358-921a-44c92e2ce694}{241}\" paraid=\"0\" xml:lang=\"EN-US\">PO capsule: One of the following:</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{23ebc3ac-4371-4358-921a-44c92e2ce694}{241}\" paraid=\"0\" xml:lang=\"EN-US\">1) Documented or suspected&nbsp;serious fungal infection&nbsp;in a&nbsp;patient&nbsp;with prolonged QTc interval​</p><p>2) Prophylaxis against fungal infections in patients on the HBC service or lung transplant service with prolonged QTc interval or concurrent QTc prolonging medications.</p><p>&nbsp;</p>",
+   "value": "<p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{23ebc3ac-4371-4358-921a-44c92e2ce694}{241}\" paraid=\"0\" xml:lang=\"EN-US\">UCSF: Restricted to ID or Antimicrobial Stewardship except:​</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{23ebc3ac-4371-4358-921a-44c92e2ce694}{241}\" paraid=\"0\" xml:lang=\"EN-US\">IV formulation: Inability to tolerate or absorb enteral medications AND one of the following:</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{23ebc3ac-4371-4358-921a-44c92e2ce694}{241}\" paraid=\"0\" xml:lang=\"EN-US\">PO capsule: One of the following:</p><p data-ccp-props=\"{&quot;335559683&quot;:0}\" lang=\"EN-US\" paraeid=\"{23ebc3ac-4371-4358-921a-44c92e2ce694}{241}\" paraid=\"0\" xml:lang=\"EN-US\">1) Documented or suspected&nbsp;serious fungal infection&nbsp;in a&nbsp;patient&nbsp;with prolonged QTc interval​</p><p>2) Prophylaxis against fungal infections in patients on the HBC service or lung transplant service with prolonged QTc interval or concurrent QTc prolonging medications.</p><p>&nbsp;</p>"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "7/31/24: Updated restriction language as discussed in 7/2024 dosing meeting (changed \"fungal PNA\" to \"serious fungal infection\") -EK\r\n2/21/25: Added general considerations section, including link to Azole TDM document -EK\r\n9/2026: modified restriction criteria verbiage for standardization"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8386
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/isavuconazole",
+   "langcode": "und",
+   "pid": 21281
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T23:39:03+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Isavuconazole"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "7fa267b3-afc9-4876-9fa6-620cc8c7e68b"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35581
+  }
+ ]
+}

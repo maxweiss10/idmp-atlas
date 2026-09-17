@@ -1,0 +1,236 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1738969851,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-12T16:47:13+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": true
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 2
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "Lisa Winston"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [],
+ "field_person_first_name": [
+  {
+   "value": "Lisa"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 616,
+   "target_type": "media",
+   "target_uuid": "b09a62a4-a362-42a4-bf32-81062ded893f",
+   "url": "/media/616"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Winston"
+  }
+ ],
+ "field_person_middle_name": [
+  {
+   "value": "Gail"
+  }
+ ],
+ "field_person_preferred_name": [
+  {
+   "value": "Lisa"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1556,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e30631d7-852e-4d46-99c1-2fed9a630c29",
+   "url": "/departments-units-and-organizations/mmed-zsfg-aids"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [
+  {
+   "target_id": 20606,
+   "target_type": "node",
+   "target_uuid": "b79104c3-07e9-4904-95b2-f8c10a1a1317",
+   "url": "/content/not-the-usual-suspect"
+  }
+ ],
+ "field_person_research_biography": [
+  {
+   "format": "plain_text",
+   "processed": "<p>Lisa Winston received her MD from Johns Hopkins University School of Medicine in 1994. She completed her residency in Internal Medicine at UCSF and was Chief Resident at San Francisco General Hospital. Dr. Winston then completed fellowships in Infectious Diseases and Clinical Pharmacology at UCSF. </p>\n<p>She is the Associate Chief Medical Officer for Medical Surgical Services and Hospital Epidemiologist at Zuckerberg San Francisco General Hospital and Trauma Center. Her research interests are infection control and prevention and antimicrobial resistant bacterial pathogens.</p>\n<p>Education:<br />\n• AB, Harvard University, 1990<br />\n• MD, Johns Hopkins University School of Medicine, 1994</p>\n<p>Training:<br />\n• Internal Medicine Residency, University of California, San Francisco, 1994-1997<br />\n• Chief Resident, University of California, San Francisco, 1997-1998<br />\n• Infectious Diseases Fellowship, University of California, San Francisco, 1998 – 2001<br />\n• Clinical Pharmacology Fellowship, University of California, San Francisco, 1999-2001</p>\n<p>Certification:<br />\n• American Board of Internal Medicine, certified 1997, recertified 2007 and 2017<br />\n• American Board of Internal Medicine, subspecialty Infectious Diseases, certified 2000, recertified 2010 and 2020</p>\n<p>Memberships &amp; Affiliations:<br />\n• Infectious Diseases Society of America, fellow<br />\n• Society for Healthcare Epidemiology of America</p>\n",
+   "value": "Lisa Winston received her MD from Johns Hopkins University School of Medicine in 1994. She completed her residency in Internal Medicine at UCSF and was Chief Resident at San Francisco General Hospital. Dr. Winston then completed fellowships in Infectious Diseases and Clinical Pharmacology at UCSF. \n\nShe is the Associate Chief Medical Officer for Medical Surgical Services and Hospital Epidemiologist at Zuckerberg San Francisco General Hospital and Trauma Center. Her research interests are infection control and prevention and antimicrobial resistant bacterial pathogens.\n\nEducation:\n• AB, Harvard University, 1990\n• MD, Johns Hopkins University School of Medicine, 1994\n\nTraining:\n• Internal Medicine Residency, University of California, San Francisco, 1994-1997\n• Chief Resident, University of California, San Francisco, 1997-1998\n• Infectious Diseases Fellowship, University of California, San Francisco, 1998 – 2001\n• Clinical Pharmacology Fellowship, University of California, San Francisco, 1999-2001\n\nCertification:\n• American Board of Internal Medicine, certified 1997, recertified 2007 and 2017\n• American Board of Internal Medicine, subspecialty Infectious Diseases, certified 2000, recertified 2010 and 2020\n\nMemberships & Affiliations:\n• Infectious Diseases Society of America, fellow\n• Society for Healthcare Epidemiology of America"
+  }
+ ],
+ "field_person_subtype": [
+  {
+   "target_id": 1231,
+   "target_type": "taxonomy_term",
+   "target_uuid": "6c622a9b-3476-45f3-9e1f-77f122d07acb",
+   "url": "/person-type/zuckerberg-san-francisco-general-hospital-trauma-center"
+  }
+ ],
+ "field_person_title_override": [
+  {
+   "value": "Medical Director, Antimicrobial Stewardship at Zuckerberg San Francisco General Hospital & Trauma Center"
+  },
+  {
+   "value": "Professor"
+  }
+ ],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 176,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee47c868-e940-4230-af11-2a747ae34b77",
+   "url": "/person-type/faculty"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 1511,
+   "target_type": "taxonomy_term",
+   "target_uuid": "26ba1f5b-b349-4dd8-9d44-a1c2597e55f1",
+   "url": "/person-type/rfs"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_person_working_title": [
+  {
+   "value": "Professor of Clinical Medicine"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [],
+ "field_profiles_link": [
+  {
+   "options": {
+    "attributes": []
+   },
+   "title": null,
+   "uri": "https://profiles.ucsf.edu/lisa.winston"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11561
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/lisa-winston-md",
+   "langcode": "und",
+   "pid": 24281
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-24T12:51:26+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Lisa Winston, MD"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "63eb31e9-4432-4b05-b45e-03a0068d4845"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22161
+  }
+ ]
+}

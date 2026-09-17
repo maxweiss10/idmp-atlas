@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-10-13T04:41:24+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633719346,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T18:09:50+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Condition</th><th>Major Pathogens&nbsp;</th><th>First-choice Therapy</th><th>Alternative Therapy</th><th>Comments</th></tr></thead><tbody><tr><td><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{184}\" paraid=\"913061657\"><em>Clostridioides difficile</em>&nbsp;infection - initial episode, non-severe&nbsp;</p><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{196}\" paraid=\"211187257\">Non-severe disease defined by&nbsp;<em>lack</em>&nbsp;of the following: &nbsp;</p><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{210}\" paraid=\"480341333\">WBC ≥ 15,000 cells/mL&nbsp;</p><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{220}\" paraid=\"913048194\">Creatinine &gt; 1.5x pre-disease baseline&nbsp;</p><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{230}\" paraid=\"945280253\">Hypotension or shock, ileus, or megacolon &nbsp;</p></td><td><em>Clostridioides difficile</em>&nbsp;</td><td><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{244}\" paraid=\"1119406194\">Metronidazole &nbsp;<br>7.5 mg/kg/dose (max 500 mg/dose) enterally  4 times daily &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{1}\" paraid=\"1790248636\">OR&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{15}\" paraid=\"627039382\">Vancomycin&nbsp;<br>10 mg/kg/dose (max 125 mg/dose) enterally 4 times daily &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{27}\" paraid=\"1979145083\">Note: IV Metronidazole is suboptimal for&nbsp;<em>C. difficile</em>&nbsp;treatment compared to enteral&nbsp;metronidazole&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{45}\" paraid=\"481805841\">If failure to respond to Metronidazole in 5-7 days, switch to above Vancomycin regimen&nbsp;</p></td><td>&nbsp;</td><td><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{57}\" paraid=\"669425998\">Discontinue inciting antimicrobials as soon as possible&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{67}\" paraid=\"1300394241\">Avoid re-testing unless symptoms of&nbsp;<em>C. difficile&nbsp;i</em>nfection recur&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{81}\" paraid=\"1444234498\">Oral vancomycin is usually preferred in pediatric oncology patients or stem cell transplant recipients&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{91}\" paraid=\"697317266\"><strong>Duration</strong>:&nbsp;10 days&nbsp;</p></td></tr><tr><td><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{101}\" paraid=\"1100075563\"><em>Clostridioides difficile&nbsp;</em>infection - initial episode, severe or fulminant &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{113}\" paraid=\"575194325\"><strong>Severe</strong>&nbsp;disease defined by:&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{125}\" paraid=\"2054939626\">WBC ≥ 15,000 cells/mL&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{135}\" paraid=\"509804686\">OR&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{145}\" paraid=\"1972705478\">Creatinine &gt; 1.5x pre-disease baseline &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{151}\" paraid=\"1944343768\"><strong>Fulminant</strong>&nbsp;disease defined by: &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{167}\" paraid=\"1969037481\">Hypotension or shock, ileus or  megacolon&nbsp;</p></td><td>Same</td><td><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{181}\" paraid=\"1793537780\">Vancomycin<br>10  mg/kg/dose (max 500 mg/dose) enterally 4 times daily&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{191}\" paraid=\"1097802596\">ADD&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{201}\" paraid=\"491600891\">Metronidazole<br>10 mg/kg/dose (max 500 mg/dose) IV q8h for fulminant disease (see 1st column for definition)&nbsp;</p></td><td><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{212}\" paraid=\"21156804\"><strong>Alternative administration for Vancomycin, consider when ileus is present</strong>: &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{222}\" paraid=\"2031038908\">Vancomycin rectal enema&nbsp;<br>500mg in 100mL normal saline with volume based on age:&nbsp;&nbsp;<br>1-3 years old: 50 ml&nbsp;<br>4-9 years old: 75 ml&nbsp;<br>&gt;10 years old: 100ml&nbsp;<br>Administer 4 times daily&nbsp;</p></td><td><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{247}\" paraid=\"1174201580\">Consider ID consult, particularly if not improving with initial therapy&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{2}\" paraid=\"1759808093\">Discontinue inciting antimicrobials as soon as possible&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{12}\" paraid=\"2088600310\">Avoid re-testing unless symptoms of&nbsp;<em>C. difficile</em>&nbsp;infection recur&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{26}\" paraid=\"1208177729\"><strong>Duration</strong>:&nbsp;10 days&nbsp;</p></td></tr><tr><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{40}\" paraid=\"2101474441\"><em>Clostridioides difficile&nbsp;</em>infection - first recurrence, non-severe&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{48}\" paraid=\"1716458878\">Definition: Re-appearance of symptoms and positive assay  within 2-8 weeks after completion of therapy for prior episode for which symptoms and signs had resolved&nbsp;</p></td><td>Same</td><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{66}\" paraid=\"723979399\">Metronidazole<br>7.5 mg/kg/dose (max 500 mg/dose) enterally 4 times daily&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{76}\" paraid=\"124612163\">OR&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{86}\" paraid=\"62581071\">Vancomycin<br>10 mg/kg/dose (max 125 mg/dose) enterally 4 times daily&nbsp;</p></td><td>Consider Fidaxomicin in consultation with ID for recurrence in pediatric oncology patients or stem cell transplant recipients&nbsp;</td><td><strong>Duration</strong>:&nbsp;10 days&nbsp;</td></tr><tr><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{110}\" paraid=\"1458275982\"><em>Clostridioides difficile</em>&nbsp;infection - second or subsequent recurrence&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{122}\" paraid=\"639643081\">Definition: Re-appearance of symptoms and positive assay  within 2-8 weeks after completion of therapy for prior episode for which symptoms and signs had resolved&nbsp;</p></td><td>Same</td><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{148}\" paraid=\"853602491\">Vancomycin taper and pulse per the following regimen: &nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{158}\" paraid=\"499986918\">10 mg/kg/dose (max 125 mg/dose) enterally 4 times daily x 10 days&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{168}\" paraid=\"1849104496\">THEN bid x 7 days&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{178}\" paraid=\"2081774161\">THEN daily x 7 days&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{188}\" paraid=\"66665296\">THEN every other day x 8 days (4 doses) &nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{194}\" paraid=\"191174189\">THEN every 3 days x 2 weeks&nbsp;</p></td><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{205}\" paraid=\"1377271268\">Consider Fidaxomicin in consultation with ID for recurrence in pediatric oncology patients or stem cell transplant recipients&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{215}\" paraid=\"122317630\">Consider evaluation for fecal microbiota transplantation in clinically appropriate situations&nbsp;</p></td><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{226}\" paraid=\"870541675\">ID and GI consults recommended for second recurrence&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{236}\" paraid=\"853398908\"><strong>Duration</strong>:&nbsp;per taper schedule&nbsp;</p></td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Condition</th><th>Major Pathogens&nbsp;</th><th>First-choice Therapy</th><th>Alternative Therapy</th><th>Comments</th></tr></thead><tbody><tr><td><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{184}\" paraid=\"913061657\"><em>Clostridioides difficile</em>&nbsp;infection - initial episode, non-severe&nbsp;</p><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{196}\" paraid=\"211187257\">Non-severe disease defined by&nbsp;<em>lack</em>&nbsp;of the following: &nbsp;</p><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{210}\" paraid=\"480341333\">WBC ≥ 15,000 cells/mL&nbsp;</p><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{220}\" paraid=\"913048194\">Creatinine &gt; 1.5x pre-disease baseline&nbsp;</p><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{230}\" paraid=\"945280253\">Hypotension or shock, ileus, or megacolon &nbsp;</p></td><td><em>Clostridioides difficile</em>&nbsp;</td><td><p paraeid=\"{58c71e01-3002-4b84-8a34-1e7b9c5d2af4}{244}\" paraid=\"1119406194\">Metronidazole &nbsp;<br>7.5 mg/kg/dose (max 500 mg/dose) enterally  4 times daily &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{1}\" paraid=\"1790248636\">OR&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{15}\" paraid=\"627039382\">Vancomycin&nbsp;<br>10 mg/kg/dose (max 125 mg/dose) enterally 4 times daily &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{27}\" paraid=\"1979145083\">Note: IV Metronidazole is suboptimal for&nbsp;<em>C. difficile</em>&nbsp;treatment compared to enteral&nbsp;metronidazole&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{45}\" paraid=\"481805841\">If failure to respond to Metronidazole in 5-7 days, switch to above Vancomycin regimen&nbsp;</p></td><td>&nbsp;</td><td><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{57}\" paraid=\"669425998\">Discontinue inciting antimicrobials as soon as possible&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{67}\" paraid=\"1300394241\">Avoid re-testing unless symptoms of&nbsp;<em>C. difficile&nbsp;i</em>nfection recur&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{81}\" paraid=\"1444234498\">Oral vancomycin is usually preferred in pediatric oncology patients or stem cell transplant recipients&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{91}\" paraid=\"697317266\"><strong>Duration</strong>:&nbsp;10 days&nbsp;</p></td></tr><tr><td><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{101}\" paraid=\"1100075563\"><em>Clostridioides difficile&nbsp;</em>infection - initial episode, severe or fulminant &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{113}\" paraid=\"575194325\"><strong>Severe</strong>&nbsp;disease defined by:&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{125}\" paraid=\"2054939626\">WBC ≥ 15,000 cells/mL&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{135}\" paraid=\"509804686\">OR&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{145}\" paraid=\"1972705478\">Creatinine &gt; 1.5x pre-disease baseline &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{151}\" paraid=\"1944343768\"><strong>Fulminant</strong>&nbsp;disease defined by: &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{167}\" paraid=\"1969037481\">Hypotension or shock, ileus or  megacolon&nbsp;</p></td><td>Same</td><td><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{181}\" paraid=\"1793537780\">Vancomycin<br>10  mg/kg/dose (max 500 mg/dose) enterally 4 times daily&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{191}\" paraid=\"1097802596\">ADD&nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{201}\" paraid=\"491600891\">Metronidazole<br>10 mg/kg/dose (max 500 mg/dose) IV q8h for fulminant disease (see 1st column for definition)&nbsp;</p></td><td><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{212}\" paraid=\"21156804\"><strong>Alternative administration for Vancomycin, consider when ileus is present</strong>: &nbsp;</p><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{222}\" paraid=\"2031038908\">Vancomycin rectal enema&nbsp;<br>500mg in 100mL normal saline with volume based on age:&nbsp;&nbsp;<br>1-3 years old: 50 ml&nbsp;<br>4-9 years old: 75 ml&nbsp;<br>&gt;10 years old: 100ml&nbsp;<br>Administer 4 times daily&nbsp;</p></td><td><p paraeid=\"{714147b0-702c-4da1-99da-6bf8c640ea04}{247}\" paraid=\"1174201580\">Consider ID consult, particularly if not improving with initial therapy&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{2}\" paraid=\"1759808093\">Discontinue inciting antimicrobials as soon as possible&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{12}\" paraid=\"2088600310\">Avoid re-testing unless symptoms of&nbsp;<em>C. difficile</em>&nbsp;infection recur&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{26}\" paraid=\"1208177729\"><strong>Duration</strong>:&nbsp;10 days&nbsp;</p></td></tr><tr><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{40}\" paraid=\"2101474441\"><em>Clostridioides difficile&nbsp;</em>infection - first recurrence, non-severe&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{48}\" paraid=\"1716458878\">Definition: Re-appearance of symptoms and positive assay  within 2-8 weeks after completion of therapy for prior episode for which symptoms and signs had resolved&nbsp;</p></td><td>Same</td><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{66}\" paraid=\"723979399\">Metronidazole<br>7.5 mg/kg/dose (max 500 mg/dose) enterally 4 times daily&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{76}\" paraid=\"124612163\">OR&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{86}\" paraid=\"62581071\">Vancomycin<br>10 mg/kg/dose (max 125 mg/dose) enterally 4 times daily&nbsp;</p></td><td>Consider Fidaxomicin in consultation with ID for recurrence in pediatric oncology patients or stem cell transplant recipients&nbsp;</td><td><strong>Duration</strong>:&nbsp;10 days&nbsp;</td></tr><tr><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{110}\" paraid=\"1458275982\"><em>Clostridioides difficile</em>&nbsp;infection - second or subsequent recurrence&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{122}\" paraid=\"639643081\">Definition: Re-appearance of symptoms and positive assay  within 2-8 weeks after completion of therapy for prior episode for which symptoms and signs had resolved&nbsp;</p></td><td>Same</td><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{148}\" paraid=\"853602491\">Vancomycin taper and pulse per the following regimen: &nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{158}\" paraid=\"499986918\">10 mg/kg/dose (max 125 mg/dose) enterally 4 times daily x 10 days&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{168}\" paraid=\"1849104496\">THEN bid x 7 days&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{178}\" paraid=\"2081774161\">THEN daily x 7 days&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{188}\" paraid=\"66665296\">THEN every other day x 8 days (4 doses) &nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{194}\" paraid=\"191174189\">THEN every 3 days x 2 weeks&nbsp;</p></td><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{205}\" paraid=\"1377271268\">Consider Fidaxomicin in consultation with ID for recurrence in pediatric oncology patients or stem cell transplant recipients&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{215}\" paraid=\"122317630\">Consider evaluation for fecal microbiota transplantation in clinically appropriate situations&nbsp;</p></td><td><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{226}\" paraid=\"870541675\">ID and GI consults recommended for second recurrence&nbsp;</p><p paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{236}\" paraid=\"853398908\"><strong>Duration</strong>:&nbsp;per taper schedule&nbsp;</p></td></tr></tbody></table>"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1661,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b4e45d9b-2786-4723-a916-dbc8aa7b9580",
+   "url": "/guidelines-empiric-therapy-categories/gastrointestinal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{254}\" paraid=\"1715145635\">References</h2><p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{5}\" paraid=\"37381166\">McDonald LC, et al. <a href=\"https://academic.oup.com/cid/article/66/7/e1/4855916?login=true\">Clinical practice guidelines for&nbsp;<em>Clostridium difficile</em>&nbsp;infection in adults and children: 2017 update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America</a>. Clin Infect Dis 2018;66:e1-e48.&nbsp;</p><p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{23}\" paraid=\"1347562474\">Diorio C, et al. <a href=\"https://ascopubs.org/doi/10.1200/JCO.18.00407\">Guideline for the management of&nbsp;<em>Clostridium difficile</em>&nbsp;infection in children and adolescents with cancer and pediatric hematopoietic stem-cell transplantation recipients</a>. J Clin Oncol 2018; 36:3162-71.&nbsp;</p><p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{41}\" paraid=\"1540218040\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p><p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{73}\" paraid=\"80686069\">Davidovics ZH, et al. <a href=\"https://journals.lww.com/jpgn/Fulltext/2019/01000/Fecal_Microbiota_Transplantation_for_Recurrent.25.aspx\">Fecal microbiota transplantation for recurrent&nbsp;<em>Clostridium difficile</em>&nbsp;infection and other conditions in children: a joint position paper from the North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition and the European Society for Pediatric Gastroenterology, Hepatology, and Nutrition</a>. J Pediatr Gastroenterol Nutr 2019;68:130-143.&nbsp;</p>",
+   "value": "<h2 paraeid=\"{913a27a9-bcf4-4acf-84d7-899757bce07d}{254}\" paraid=\"1715145635\">References</h2><p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{5}\" paraid=\"37381166\">McDonald LC, et al. <a href=\"https://academic.oup.com/cid/article/66/7/e1/4855916?login=true\">Clinical practice guidelines for&nbsp;<em>Clostridium difficile</em>&nbsp;infection in adults and children: 2017 update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America</a>. Clin Infect Dis 2018;66:e1-e48.&nbsp;</p><p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{23}\" paraid=\"1347562474\">Diorio C, et al. <a href=\"https://ascopubs.org/doi/10.1200/JCO.18.00407\">Guideline for the management of&nbsp;<em>Clostridium difficile</em>&nbsp;infection in children and adolescents with cancer and pediatric hematopoietic stem-cell transplantation recipients</a>. J Clin Oncol 2018; 36:3162-71.&nbsp;</p><p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{41}\" paraid=\"1540218040\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p><p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{73}\" paraid=\"80686069\">Davidovics ZH, et al. <a href=\"https://journals.lww.com/jpgn/Fulltext/2019/01000/Fecal_Microbiota_Transplantation_for_Recurrent.25.aspx\">Fecal microbiota transplantation for recurrent&nbsp;<em>Clostridium difficile</em>&nbsp;infection and other conditions in children: a joint position paper from the North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition and the European Society for Pediatric Gastroenterology, Hepatology, and Nutrition</a>. J Pediatr Gastroenterol Nutr 2019;68:130-143.&nbsp;</p>"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13361
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/clostridioides-difficile-infection",
+   "langcode": "und",
+   "pid": 26021
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:55:46+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Clostridioides difficile Infection"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "b4040aac-3901-4a2b-bfe7-6584d06bba9e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15946
+  }
+ ]
+}

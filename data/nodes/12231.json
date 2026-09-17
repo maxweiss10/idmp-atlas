@@ -1,0 +1,151 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-01T19:43:11+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1598929270,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-09-01T03:01:10+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>\n",
+   "value": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>\r\n"
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt;70 mL/min</th>\n\t\t\t<th>50-69 mL/min</th>\n\t\t\t<th>25-49 mL/min</th>\n\t\t\t<th>10-24 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CMV Treatment</td>\n\t\t\t<td>5 mg/kg IV q12h</td>\n\t\t\t<td>2.5 mg/kg IV q12h</td>\n\t\t\t<td>2.5 mg/kg IV q24h</td>\n\t\t\t<td>1.25 mg/kg IV q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CMV Prophylaxis</td>\n\t\t\t<td>5 mg/kg IV q24h</td>\n\t\t\t<td>2.5 mg/kg IV q24h</td>\n\t\t\t<td>1.25 mg/kg IV q24h</td>\n\t\t\t<td>0.625 mg/kg IV q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt;70 mL/min</th>\r\n\t\t\t<th>50-69 mL/min</th>\r\n\t\t\t<th>25-49 mL/min</th>\r\n\t\t\t<th>10-24 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>CMV Treatment</td>\r\n\t\t\t<td>5 mg/kg IV q12h</td>\r\n\t\t\t<td>2.5 mg/kg IV q12h</td>\r\n\t\t\t<td>2.5 mg/kg IV q24h</td>\r\n\t\t\t<td>1.25 mg/kg IV q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>CMV Prophylaxis</td>\r\n\t\t\t<td>5 mg/kg IV q24h</td>\r\n\t\t\t<td>2.5 mg/kg IV q24h</td>\r\n\t\t\t<td>1.25 mg/kg IV q24h</td>\r\n\t\t\t<td>0.625 mg/kg IV q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CMV Treatment</td>\n\t\t\t<td style=\"text-align: center;\">1.25 mg/kg IV x1 now and post-HD</td>\n\t\t\t<td style=\"text-align: center;\">2.5 mg/kg IV q12h*</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CMV Prophylaxis</td>\n\t\t\t<td style=\"text-align: center;\">0.625 mg/kg IV x1 now and post-HD</td>\n\t\t\t<td style=\"text-align: center;\">2.5 mg/kg IV q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*Higher or more frequent doses may be warranted for higher CVVHD flow rates.&nbsp;Lower frequency may be indicated for lower CVVHD flow rates.</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>CMV Treatment</td>\r\n\t\t\t<td style=\"text-align: center;\">1.25 mg/kg IV x1 now and post-HD</td>\r\n\t\t\t<td style=\"text-align: center;\">2.5 mg/kg IV q12h*</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>CMV Prophylaxis</td>\r\n\t\t\t<td style=\"text-align: center;\">0.625 mg/kg IV x1 now and post-HD</td>\r\n\t\t\t<td style=\"text-align: center;\">2.5 mg/kg IV q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*Higher or more frequent doses may be warranted for higher CVVHD flow rates.&nbsp;Lower frequency may be indicated for lower CVVHD flow rates.</p>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 66,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d2274533-3b4b-403d-b6bd-9026f83daea2",
+   "url": "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "1/11/24: Updated CRRT dosing to delete ranges (changed from 2.5-5 q12-24h to 2.5 q12h with a note)\r\n04/2025 - RJ updated weight from TBW < 120% IBW to TBW\r\n05/2025 - RJ updated ganciclovir prophy dosing per dosing meeting on 04/23/25"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12231
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ganciclovir",
+   "langcode": "und",
+   "pid": 24906
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-01T19:43:11+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Ganciclovir"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "491201a6-7061-48df-81bd-54953368354b"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22666
+  }
+ ]
+}

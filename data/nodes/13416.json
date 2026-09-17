@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:56:26+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633719386,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:07:27+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{138}\" paraid=\"1468713602\">Intra-abdominal infection, healthcare-associated, age &gt; 1 month, and excluding infants with necrotizing enterocolitis&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{148}\" paraid=\"743632811\">Includes patients with any of the following risk factors for resistant or opportunistic organisms: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{158}\" paraid=\"50752598\">Hospitalized for at least 48 hours before onset of signs/symptoms of intra-abdominal infection &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{168}\" paraid=\"1892447881\">Significant medical comorbidities and/or healthcare exposure prior to onset of infection&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{178}\" paraid=\"2042504465\">Infection developed post-operatively (signs/symptoms were not present prior to surgery)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{188}\" paraid=\"1333516064\">Refer to&nbsp;<a href=\"/content/necrotizing-enterocolitis-antibiotic-selection-duration-therapy\">BCH SF Necrotizing Enterocolitis Pathway</a>&nbsp;for NEC treatment recommendations&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{202}\" paraid=\"1314980448\">If the above criteria do not apply and the patient’s signs/symptoms&nbsp;started prior to hospitalization (community-onset), refer to&nbsp;<a href=\"/content/pediatric-appendicitis-clinical-algorithm-0\">Appendicitis Clinical Algorithm</a>&nbsp;(BCH OAK and BCH SF shared algorithm)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{217}\" paraid=\"2057633658\">Enteric gram- negative bacteria&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{223}\" paraid=\"652864774\"><em>Pseudomonas aeruginosa</em>, other resistant gram-negative bacteria&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{239}\" paraid=\"182291654\">Anaerobes&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Piperacillin-tazobactam (Zosyn) 100 mg piperacillin/kg/dose (max 4000 mg piperacillin/dose) IV q6h &nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{2}\" paraid=\"1394625917\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin allergy with lower risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{8}\" paraid=\"424251002\">Cefepime<br>\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{22}\" paraid=\"342094710\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{32}\" paraid=\"329150202\">Metronidazole<br>\n\t\t\t10 mg/kg/dose (max 500mg/dose) IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{42}\" paraid=\"1443462003\">-------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{48}\" paraid=\"1075064054\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or&nbsp;cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{66}\" paraid=\"963603995\">Ciprofloxacin<br>\n\t\t\t15 mg/kg/dose (max 400 mg/dose)  IV q12h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{76}\" paraid=\"1614203333\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{86}\" paraid=\"968032015\">Metronidazole<br>\n\t\t\t10 mg/kg/dose (max 500 mg/dose) IV q8h &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{97}\" paraid=\"1610837114\">Consider ID consult especially if additional patient risk factors for antibiotic resistant infection, immunocompromised patient, severe manifestations or inadequate response to initial empiric therapy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{107}\" paraid=\"382583689\">If a pathogen is isolated from a normally sterile site, therapy should be modified to treat the identified pathogen, but coverage of enteric gram-negatives and anaerobes should usually be maintained because intra-abdominal infections are usually polymicrobial. Consult ID for further recommendations if needed. &nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{117}\" paraid=\"905716657\"><strong>Duration</strong>:&nbsp;If adequate source control, 4 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{129}\" paraid=\"1991478949\">If source control procedure not performed, but favorable response to therapy, 5-7 days guided by clinical parameters (fever,&nbsp;leukocytosis, adequacy of gastrointestinal function) &nbsp;</p>\n\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{137}\" paraid=\"1635006851\"> &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{138}\" paraid=\"1468713602\">Intra-abdominal infection, healthcare-associated, age &gt; 1 month, and excluding infants with necrotizing enterocolitis&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{148}\" paraid=\"743632811\">Includes patients with any of the following risk factors for resistant or opportunistic organisms: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{158}\" paraid=\"50752598\">Hospitalized for at least 48 hours before onset of signs/symptoms of intra-abdominal infection &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{168}\" paraid=\"1892447881\">Significant medical comorbidities and/or healthcare exposure prior to onset of infection&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{178}\" paraid=\"2042504465\">Infection developed post-operatively (signs/symptoms were not present prior to surgery)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{188}\" paraid=\"1333516064\">Refer to&nbsp;<a href=\"/node/11951\">BCH SF Necrotizing Enterocolitis Pathway</a>&nbsp;for NEC treatment recommendations&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{202}\" paraid=\"1314980448\">If the above criteria do not apply and the patient’s signs/symptoms&nbsp;started prior to hospitalization (community-onset), refer to&nbsp;<a href=\"/node/11966\">Appendicitis Clinical Algorithm</a>&nbsp;(BCH OAK and BCH SF shared algorithm)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{217}\" paraid=\"2057633658\">Enteric gram- negative bacteria&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{223}\" paraid=\"652864774\"><em>Pseudomonas aeruginosa</em>, other resistant gram-negative bacteria&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5ec60cb2-665f-4662-8056-50720db3e836}{239}\" paraid=\"182291654\">Anaerobes&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Piperacillin-tazobactam (Zosyn) 100 mg piperacillin/kg/dose (max 4000 mg piperacillin/dose) IV q6h &nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{2}\" paraid=\"1394625917\"><a href=\"/node/13556\"><strong>Penicillin allergy with lower risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{8}\" paraid=\"424251002\">Cefepime<br />\r\n\t\t\t50 mg/kg/dose (max 2000 mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{22}\" paraid=\"342094710\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{32}\" paraid=\"329150202\">Metronidazole<br />\r\n\t\t\t10 mg/kg/dose (max 500mg/dose) IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{42}\" paraid=\"1443462003\">-------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{48}\" paraid=\"1075064054\"><a href=\"/node/13556\"><strong>Penicillin or&nbsp;cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{66}\" paraid=\"963603995\">Ciprofloxacin<br />\r\n\t\t\t15 mg/kg/dose (max 400 mg/dose)  IV q12h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{76}\" paraid=\"1614203333\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{86}\" paraid=\"968032015\">Metronidazole<br />\r\n\t\t\t10 mg/kg/dose (max 500 mg/dose) IV q8h &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{97}\" paraid=\"1610837114\">Consider ID consult especially if additional patient risk factors for antibiotic resistant infection, immunocompromised patient, severe manifestations or inadequate response to initial empiric therapy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{107}\" paraid=\"382583689\">If a pathogen is isolated from a normally sterile site, therapy should be modified to treat the identified pathogen, but coverage of enteric gram-negatives and anaerobes should usually be maintained because intra-abdominal infections are usually polymicrobial. Consult ID for further recommendations if needed. &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{117}\" paraid=\"905716657\"><strong>Duration</strong>:&nbsp;If adequate source control, 4 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{129}\" paraid=\"1991478949\">If source control procedure not performed, but favorable response to therapy, 5-7 days guided by clinical parameters (fever,&nbsp;leukocytosis, adequacy of gastrointestinal function) &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{ccb85c6b-f221-476b-8b0c-15293c50ce27}{137}\" paraid=\"1635006851\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1296,
+   "target_type": "taxonomy_term",
+   "target_uuid": "59973723-1e94-4b15-baf3-bec6f23310ae",
+   "url": "/guidelines-empiric-therapy-categories/abdominopelvic-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Reference</h2>\n\n<p>Mazuski JE, et al. <a href=\"https://www.liebertpub.com/doi/10.1089/sur.2016.261?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub++0pubmed&amp;\">The Surgical Infection Society revised guidelines on the management of intra-abdominal infection</a>. Surgical Infections 2017;18:1-76.&nbsp;</p>\n",
+   "value": "<h2>Reference</h2>\r\n\r\n<p>Mazuski JE, et al. <a href=\"https://www.liebertpub.com/doi/10.1089/sur.2016.261?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub++0pubmed&amp;\">The Surgical Infection Society revised guidelines on the management of intra-abdominal infection</a>. Surgical Infections 2017;18:1-76.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13416
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/healthcare-associated-intra-abdominal-infections",
+   "langcode": "und",
+   "pid": 26071
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:56:26+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Healthcare-associated Intra-abdominal Infections"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "ccc6a00f-7c75-49bc-98b7-9234ebdba3b4"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16001
+  }
+ ]
+}

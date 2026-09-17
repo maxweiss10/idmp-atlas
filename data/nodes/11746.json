@@ -1,0 +1,173 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<p>See above for general peri-operative prophylaxis guidelines, as well as specific guidance around giving cefazolin in patients with penicillin allergies</p>\n\n<p>More in depth information about management of allergies can be found here:&nbsp;<a href=\"/content/allergy-beta-lactam\">Allergy (Beta-lactam)</a></p>\n",
+   "summary": "Guidelines for pre- and peri-procedure surgical antimicrobial prophylaxis",
+   "value": "<p>See above for general peri-operative prophylaxis guidelines, as well as specific guidance around giving cefazolin in patients with penicillin allergies</p>\r\n\r\n<p>More in depth information about management of allergies can be found here:&nbsp;<a href=\"/node/9856\">Allergy (Beta-lactam)</a></p>\r\n"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-15T19:06:40+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1598546039,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-14T04:47:49+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2021-08-19"
+  },
+  {
+   "value": "2023-01-17"
+  },
+  {
+   "value": "2023-04-21"
+  },
+  {
+   "value": "2023-09-11"
+  },
+  {
+   "value": "2024-06-18"
+  },
+  {
+   "value": "2025-02-13"
+  },
+  {
+   "value": "2025-12-08"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 451,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a61a46a6-7dde-4da7-8b4b-d3c5cb579606",
+   "url": "/site/ucsf-medical-center-mission-bay-adult"
+  },
+  {
+   "target_id": 2101,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b959ef0d-a183-4591-96ee-d7183836e39d",
+   "url": "/site/ucsf-medical-center-mount-zion"
+  },
+  {
+   "target_id": 446,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ea4e1156-f1d7-40b6-8744-b15ee0218ccf",
+   "url": "/site/ucsf-medical-center-parnassus-heights"
+  },
+  {
+   "target_id": 2111,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b0f2c62e-1e16-47cf-ac4a-6f1bb99f5012",
+   "url": "/site/ucsf-stanyan-hyde"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1221,
+   "target_type": "media",
+   "target_uuid": "477bd6b5-5036-4273-86f0-490832549288",
+   "url": "/document/cefazolin-in-penicillin-allergic-patients-2-11-25-pdf"
+  },
+  {
+   "target_id": 1536,
+   "target_type": "media",
+   "target_uuid": "d3998ab0-c8be-4e63-8757-b108bad3c81b",
+   "url": "/document/surgical-ppx-guideline-v1-9-pdf-0-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11746
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/surgical-prophylaxis",
+   "langcode": "und",
+   "pid": 24461
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-13T22:59:45+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Surgical Prophylaxis "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "eb912e8e-240a-473c-8339-3142167db7db"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16221
+  }
+ ]
+}

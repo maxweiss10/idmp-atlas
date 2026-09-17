@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-07-15T17:19:46+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1626369586,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-04T16:58:26+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Acute bacterial exacerbation of chronic bronchitis</strong></p>\n\t\t\t(COPD)</td>\n\t\t\t<td>\n\t\t\t<p><em>S. pneumoniae</em></p>\n\n\t\t\t<p><em>H. influenzae </em></p>\n\n\t\t\t<p><em>Moraxella</em> <em>catarrhalis</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/doxycycline\">Doxycycline</a></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><a href=\"/content/azithromycin\">Azithromycin</a></p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>5 days</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Acute bacterial exacerbation of chronic bronchitis</strong></p>\r\n\t\t\t(COPD)</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>S. pneumoniae</em></p>\r\n\r\n\t\t\t<p><em>H. influenzae </em></p>\r\n\r\n\t\t\t<p><em>Moraxella</em> <em>catarrhalis</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8346\">Doxycycline</a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><a href=\"/node/8266\">Azithromycin</a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>5 days</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 9181
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/acute-bacterial-exacerbation-of-chronic-bronchitis-copd",
+   "langcode": "und",
+   "pid": 21941
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-07-15T17:19:46+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Acute Bacterial Exacerbation of Chronic Bronchitis (COPD)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "ba10df84-5f45-49d1-9bcd-09281d1b700a"
+  }
+ ],
+ "vid": [
+  {
+   "value": 9891
+  }
+ ]
+}

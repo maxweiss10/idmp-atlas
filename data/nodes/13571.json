@@ -1,0 +1,118 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T00:23:24+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1631579004,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-06T19:46:01+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p paraeid=\"{138a0de8-06e9-4b6d-9a0e-ff83b248d39b}{217}\" paraid=\"1295225236\">These recommendations are provided for initial vancomycin dosing as part of the Benioff Children’s Hospitals Empiric Antimicrobial Therapy Guidelines.&nbsp;</p>\n\n<p paraeid=\"{138a0de8-06e9-4b6d-9a0e-ff83b248d39b}{227}\" paraid=\"131856054\"><strong>Prior to choosing a dosing regimen the clinician should review the patient’s previous vancomycin regimen(s) to determine if information from prior courses of therapy can aid in selecting dosing for a new course of treatment.&nbsp;</strong>For patients with less common circumstances e.g. suboptimal baseline renal function, rapidly changing renal function, on dialysis, or congenital heart disease, additional clinical judgment should be exercised. Consult a clinical pharmacist for patient-specific recommendations. &nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Patient Age</th>\n\t\t\t<th colspan=\"3\" rowspan=\"1\">Recommended Initial Vancomycin Dose&nbsp;</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&lt; 1 mo&nbsp;</td>\n\t\t\t<td colspan=\"3\" rowspan=\"1\">Refer to&nbsp;<a href=\"/neonatal-antimicrobial-dosing-benioff-childrens-hospitals\">Neonatal Dosing Guidelines</a>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1-2 mo&nbsp;</td>\n\t\t\t<td colspan=\"3\" rowspan=\"1\">15 mg/kg/dose IV q6h&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3 mo-&lt;12yo&nbsp;</td>\n\t\t\t<td colspan=\"3\">17.5 mg/kg/dose (initial max 1000 mg/dose) IV q6h&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&gt;=12 yo&nbsp;</td>\n\t\t\t<td colspan=\"3\">15 mg/kg/dose (initial max 1000 mg/dose) IV q6h&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<h2 paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{71}\" paraid=\"34346578\">Monitoring During Vancomycin Therapy</h2>\n\n<h3 paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{81}\" paraid=\"616627434\">Goal Vancomycin Exposure</h3>\n\n<p paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{87}\" paraid=\"447966857\">The ideal target exposure is an Area-Under-The-[Concentration-Time]-Curve (AUC) 400 to 600 mg*hr/L. At both BCH campuses this can be calculated by a clinical pharmacist using software based on information about the patient, the current vancomycin dosing regimen, and a measured level of vancomycin. &nbsp;</p>\n\n<p>This is now preferred over previous trough-based targets because it is more closely associated with the antimicrobial activity of vancomycin against&nbsp;<em>Staphylococcus aureus</em>, and usually can be achieved with a lower dose of vancomycin which may decrease the risk for nephrotoxicity. &nbsp;</p>\n\n<h3 paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{111}\" paraid=\"1444106501\">Therapeutic Drug Monitoring (TDM)</h3>\n\n<p>TDM is essentially defined as checking medication levels, assessing the exposure and adjusting the medication dose if needed. &nbsp;</p>\n\n<p>Only perform TDM if the expected duration of vancomycin is &gt; 48 hours. Unless the patient has a documented MRSA or other resistant gram-positive infection, vancomycin should usually be stopped within 48 hours. If 48 hours or shorter duration is anticipated in a patient with relatively stable volume status and renal function, no levels are indicated.&nbsp;</p>\n\n<p>If using Bayesian&nbsp;software,&nbsp;no need to be at steady state when obtaining levels so can time levels to bundle with other lab draws as well as avoid overnight and evening lab draws when able.&nbsp;</p>\n\n<p>Wait at least 1 hour after the end of vancomycin infusion before obtaining any levels to allow for drug distribution.&nbsp;</p>\n\n<h3>Dose Adjustments</h3>\n\n<p>Consult a clinical pharmacist for recommendations. Use of Bayesian software to calculate AUC is the preferred approach. When considering the actual vancomycin level, it is important to avoid making a change based on the level alone without considering other information: &nbsp;</p>\n\n<p>Is the level a true trough (drawn within 30 minutes prior to administration of the next dose)? &nbsp;</p>\n\n<p>Is it drawn at steady state? &nbsp;</p>\n\n<p>Calculations based on Bayesian software are preferred for assessment of all levels and particularly for interpretation of levels that are not true steady state troughs based on the above criteria. &nbsp;</p>\n\n<p>Before determining whether dose adjustment is necessary, re-evaluate whether vancomycin should be continued at all. &nbsp;</p>\n\n<p>Re-evaluate kidney function.&nbsp;</p>\n\n<h3>Follow-up Monitoring</h3>\n\n<p>The frequency of rechecking vancomycin level and serum creatinine should be determined using clinical judgement based on: &nbsp;</p>\n\n<p paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{238}\" paraid=\"402139652\" style=\"margin-left: 40px;\">Changes in dose&nbsp;</p>\n\n<p paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{245}\" paraid=\"644913305\" style=\"margin-left: 40px;\">Suboptimal fitting Bayesian model&nbsp;</p>\n\n<p paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{252}\" paraid=\"1218109811\" style=\"margin-left: 40px;\">Significant change in renal function/urine output&nbsp;</p>\n\n<p paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{4}\" paraid=\"2026362786\" style=\"margin-left: 40px;\">Addition of potentially nephrotoxic medications e.g. NSAIDS, contrast, etc.&nbsp;</p>\n\n<p>At minimum, monitoring of vancomycin serum concentrations in stable patients should be repeated once per week.&nbsp;</p>\n",
+   "value": "<p paraeid=\"{138a0de8-06e9-4b6d-9a0e-ff83b248d39b}{217}\" paraid=\"1295225236\">These recommendations are provided for initial vancomycin dosing as part of the Benioff Children’s Hospitals Empiric Antimicrobial Therapy Guidelines.&nbsp;</p>\r\n\r\n<p paraeid=\"{138a0de8-06e9-4b6d-9a0e-ff83b248d39b}{227}\" paraid=\"131856054\"><strong>Prior to choosing a dosing regimen the clinician should review the patient’s previous vancomycin regimen(s) to determine if information from prior courses of therapy can aid in selecting dosing for a new course of treatment.&nbsp;</strong>For patients with less common circumstances e.g. suboptimal baseline renal function, rapidly changing renal function, on dialysis, or congenital heart disease, additional clinical judgment should be exercised. Consult a clinical pharmacist for patient-specific recommendations. &nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Patient Age</th>\r\n\t\t\t<th colspan=\"3\" rowspan=\"1\">Recommended Initial Vancomycin Dose&nbsp;</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&lt; 1 mo&nbsp;</td>\r\n\t\t\t<td colspan=\"3\" rowspan=\"1\">Refer to&nbsp;<a href=\"/node/7351\">Neonatal Dosing Guidelines</a>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>1-2 mo&nbsp;</td>\r\n\t\t\t<td colspan=\"3\" rowspan=\"1\">15 mg/kg/dose IV q6h&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>3 mo-&lt;12yo&nbsp;</td>\r\n\t\t\t<td colspan=\"3\">17.5 mg/kg/dose (initial max 1000 mg/dose) IV q6h&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&gt;=12 yo&nbsp;</td>\r\n\t\t\t<td colspan=\"3\">15 mg/kg/dose (initial max 1000 mg/dose) IV q6h&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<h2 paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{71}\" paraid=\"34346578\">Monitoring During Vancomycin Therapy</h2>\r\n\r\n<h3 paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{81}\" paraid=\"616627434\">Goal Vancomycin Exposure</h3>\r\n\r\n<p paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{87}\" paraid=\"447966857\">The ideal target exposure is an Area-Under-The-[Concentration-Time]-Curve (AUC) 400 to 600 mg*hr/L. At both BCH campuses this can be calculated by a clinical pharmacist using software based on information about the patient, the current vancomycin dosing regimen, and a measured level of vancomycin. &nbsp;</p>\r\n\r\n<p>This is now preferred over previous trough-based targets because it is more closely associated with the antimicrobial activity of vancomycin against&nbsp;<em>Staphylococcus aureus</em>, and usually can be achieved with a lower dose of vancomycin which may decrease the risk for nephrotoxicity. &nbsp;</p>\r\n\r\n<h3 paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{111}\" paraid=\"1444106501\">Therapeutic Drug Monitoring (TDM)</h3>\r\n\r\n<p>TDM is essentially defined as checking medication levels, assessing the exposure and adjusting the medication dose if needed. &nbsp;</p>\r\n\r\n<p>Only perform TDM if the expected duration of vancomycin is &gt; 48 hours. Unless the patient has a documented MRSA or other resistant gram-positive infection, vancomycin should usually be stopped within 48 hours. If 48 hours or shorter duration is anticipated in a patient with relatively stable volume status and renal function, no levels are indicated.&nbsp;</p>\r\n\r\n<p>If using Bayesian&nbsp;software,&nbsp;no need to be at steady state when obtaining levels so can time levels to bundle with other lab draws as well as avoid overnight and evening lab draws when able.&nbsp;</p>\r\n\r\n<p>Wait at least 1 hour after the end of vancomycin infusion before obtaining any levels to allow for drug distribution.&nbsp;</p>\r\n\r\n<h3>Dose Adjustments</h3>\r\n\r\n<p>Consult a clinical pharmacist for recommendations. Use of Bayesian software to calculate AUC is the preferred approach. When considering the actual vancomycin level, it is important to avoid making a change based on the level alone without considering other information: &nbsp;</p>\r\n\r\n<p>Is the level a true trough (drawn within 30 minutes prior to administration of the next dose)? &nbsp;</p>\r\n\r\n<p>Is it drawn at steady state? &nbsp;</p>\r\n\r\n<p>Calculations based on Bayesian software are preferred for assessment of all levels and particularly for interpretation of levels that are not true steady state troughs based on the above criteria. &nbsp;</p>\r\n\r\n<p>Before determining whether dose adjustment is necessary, re-evaluate whether vancomycin should be continued at all. &nbsp;</p>\r\n\r\n<p>Re-evaluate kidney function.&nbsp;</p>\r\n\r\n<h3>Follow-up Monitoring</h3>\r\n\r\n<p>The frequency of rechecking vancomycin level and serum creatinine should be determined using clinical judgement based on: &nbsp;</p>\r\n\r\n<p paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{238}\" paraid=\"402139652\" style=\"margin-left: 40px;\">Changes in dose&nbsp;</p>\r\n\r\n<p paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{245}\" paraid=\"644913305\" style=\"margin-left: 40px;\">Suboptimal fitting Bayesian model&nbsp;</p>\r\n\r\n<p paraeid=\"{03815970-41ea-47e0-aa8d-0ec71b0ac4e0}{252}\" paraid=\"1218109811\" style=\"margin-left: 40px;\">Significant change in renal function/urine output&nbsp;</p>\r\n\r\n<p paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{4}\" paraid=\"2026362786\" style=\"margin-left: 40px;\">Addition of potentially nephrotoxic medications e.g. NSAIDS, contrast, etc.&nbsp;</p>\r\n\r\n<p>At minimum, monitoring of vancomycin serum concentrations in stable patients should be repeated once per week.&nbsp;</p>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{27}\" paraid=\"735421989\">Reference: &nbsp;</h2>\n\n<p paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{33}\" paraid=\"1045666638\">Rybak MJ, et al. <a href=\"https://academic.oup.com/ajhp/article/77/11/835/5810200\">Therapeutic monitoring of vancomycin for serious methicillin-resistant <em>Staphylococcus aureus</em> infections: A revised consensus guideline and review by the American Society of Health-System Pharmacists, the Infectious Diseases Society of America, the Pediatric Infectious Diseases Society, and the Society of Infectious Diseases Pharmacists</a>. Am J Health Syst Pharm 2020;77:835-864.</p>\n\n<p paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{39}\" paraid=\"989866211\">&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{27}\" paraid=\"735421989\">Reference: &nbsp;</h2>\r\n\r\n<p paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{33}\" paraid=\"1045666638\">Rybak MJ, et al. <a href=\"https://academic.oup.com/ajhp/article/77/11/835/5810200\">Therapeutic monitoring of vancomycin for serious methicillin-resistant <em>Staphylococcus aureus</em> infections: A revised consensus guideline and review by the American Society of Health-System Pharmacists, the Infectious Diseases Society of America, the Pediatric Infectious Diseases Society, and the Society of Infectious Diseases Pharmacists</a>. Am J Health Syst Pharm 2020;77:835-864.</p>\r\n\r\n<p paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{39}\" paraid=\"989866211\">&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13571
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/pediatric-vancomycin-dosing-and-monitoring-recommendations",
+   "langcode": "und",
+   "pid": 26226
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T00:23:24+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Pediatric Vancomycin Dosing and Monitoring Recommendations "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "a672e42e-95e4-4676-a451-6b9f49c5cb1a"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16156
+  }
+ ]
+}

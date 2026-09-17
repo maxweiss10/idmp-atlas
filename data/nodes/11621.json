@@ -1,0 +1,159 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597335547,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T16:19:07+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dosing</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All IV Indications</td>\n\t\t\t<td>5 mg/kg IV x1 loading dose, then contact ID pharmacy for maintenance dose recommendations</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>ZSFG: Non-formulary</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dosing</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All IV Indications</td>\r\n\t\t\t<td>5 mg/kg IV x1 loading dose, then contact ID pharmacy for maintenance dose recommendations</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>ZSFG: Non-formulary</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All IV Indications</td>\n\t\t\t<td colspan=\"2\" style=\"text-align: center;\">5 mg/kg IV x1 loading dose, then contact ID pharmacy for dosing recommendations</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All IV Indications</td>\r\n\t\t\t<td colspan=\"2\" style=\"text-align: center;\">5 mg/kg IV x1 loading dose, then contact ID pharmacy for dosing recommendations</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 56,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e4cd81a9-6f15-4e7b-93c9-c38e87110afe",
+   "url": "/dosing-weights/ideal-body-weight"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Dosing for inhaled colistin per primary team protocols</p>\n\n<p>Other more effective, less-toxic agents are available for most serious Gram-negative rod infections.&nbsp; In cases where an IV polymyxin is necessary, polymyxin B should be used preferentially for non-urinary tract infections in adults.</p>\n",
+   "value": "<p>Dosing for inhaled colistin per primary team protocols</p>\r\n\r\n<p>Other more effective, less-toxic agents are available for most serious Gram-negative rod infections.&nbsp; In cases where an IV polymyxin is necessary, polymyxin B should be used preferentially for non-urinary tract infections in adults.</p>\r\n"
+  }
+ ],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship</p>\n\n<p><em>*Inhaled use of colistin is allowed for unrestricted use in prophylaxis in lung transplant.</em></p>\n",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship</p>\r\n\r\n<p><em>*Inhaled use of colistin is allowed for unrestricted use in prophylaxis in lung transplant.</em></p>\r\n"
+  }
+ ],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11621
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/colistin-iv",
+   "langcode": "und",
+   "pid": 24341
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Colistin IV"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "6f516249-ce03-4813-9d9b-7e360f08e29e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21856
+  }
+ ]
+}

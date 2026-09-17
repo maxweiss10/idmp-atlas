@@ -1,0 +1,143 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-09-03T11:22:51+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587522361,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T02:26:01+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Extended Infusion Dosing <strong>(PREFERRED for UCSF)</strong></h2>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt; 20 mL/min</th>\n\t\t\t<th>&lt;20 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>All Infections, including documented/suspected <em>Pseudomonas, </em>at UCSF&nbsp;</p>\n\n\t\t\t<p>UCSF exclusion criteria for EXTENDED INFUSION: resistant or intermediate susceptibility organism, cystic fibrosis, peri-procedural areas, insufficient IV access</p>\n\n\t\t\t<p>ZSFG: Use EXTENDED INFUSION when recommended by ID pharmacist, clinical pharmacist,&nbsp;or ID fellow</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Loading dose = 4.5 g IV over 30 min x1, then 4.5 g IV infused over 4h every 8h (starting <strong>immediately&nbsp;after</strong> loading dose)</p>\n\t\t\t</td>\n\t\t\t<td>Use SHORT INFUSION piperacillin/tazobactam</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>See <a href=\"/piptazoextendedinfusion\">Adult Extended Infusion Piperacillin-Tazobactam protocol</a> for additional details</p>\n\n<h2>Short Infusion Dosing <strong>(PREFERRED for ZSFG)</strong></h2>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>&nbsp;&gt; 50 mL/min</th>\n\t\t\t<th>10 – 50 mL/min</th>\n\t\t\t<th>&lt; 10 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"4\">\n\t\t\t<p>UCSF:&nbsp;Use SHORT INFUSION only for patients excluded from EXTENDED INFUSION dosing</p>\n\n\t\t\t<p>ZSFG: Use SHORT INFUSION unless EXTENDED infusion is recommended by ID or clinical pharmacy (ID, ICU, etc)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Non-<em>Pseudomonas</em> infections</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>3.375 g IV q6h</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>3.375 g IV q8h</p>\n\t\t\t</td>\n\t\t\t<td>2.25 g IV q8h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Documented/Suspected <em>Pseudomonas aeruginosa </em>infection</td>\n\t\t\t<td>\n\t\t\t<p><u>CrCl &gt;&nbsp;20 mL/min</u>:</p>\n\n\t\t\t<p>4.5 g IV q6h</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><u>CrCl &lt; 20 mL/min:</u></p>\n\n\t\t\t<p>3.375 g IV q8h</p>\n\t\t\t</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<h2>Extended Infusion Dosing <strong>(PREFERRED for UCSF)</strong></h2>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt; 20 mL/min</th>\r\n\t\t\t<th>&lt;20 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>All Infections, including documented/suspected <em>Pseudomonas, </em>at UCSF&nbsp;</p>\r\n\r\n\t\t\t<p>UCSF exclusion criteria for EXTENDED INFUSION: resistant or intermediate susceptibility organism, cystic fibrosis, peri-procedural areas, insufficient IV access</p>\r\n\r\n\t\t\t<p>ZSFG: Use EXTENDED INFUSION when recommended by ID pharmacist, clinical pharmacist,&nbsp;or ID fellow</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Loading dose = 4.5 g IV over 30 min x1, then 4.5 g IV infused over 4h every 8h (starting <strong>immediately&nbsp;after</strong> loading dose)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Use SHORT INFUSION piperacillin/tazobactam</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>See <a href=\"/piptazoextendedinfusion\">Adult Extended Infusion Piperacillin-Tazobactam protocol</a> for additional details</p>\r\n\r\n<h2>Short Infusion Dosing <strong>(PREFERRED for ZSFG)</strong></h2>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>&nbsp;&gt; 50 mL/min</th>\r\n\t\t\t<th>10 – 50 mL/min</th>\r\n\t\t\t<th>&lt; 10 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"4\">\r\n\t\t\t<p>UCSF:&nbsp;Use SHORT INFUSION only for patients excluded from EXTENDED INFUSION dosing</p>\r\n\r\n\t\t\t<p>ZSFG: Use SHORT INFUSION unless EXTENDED infusion is recommended by ID or clinical pharmacy (ID, ICU, etc)</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Non-<em>Pseudomonas</em> infections</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.375 g IV q6h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.375 g IV q8h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>2.25 g IV q8h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Documented/Suspected <em>Pseudomonas aeruginosa </em>infection</td>\r\n\t\t\t<td>\r\n\t\t\t<p><u>CrCl &gt;&nbsp;20 mL/min</u>:</p>\r\n\r\n\t\t\t<p>4.5 g IV q6h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><u>CrCl &lt; 20 mL/min:</u></p>\r\n\r\n\t\t\t<p>3.375 g IV q8h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>All Infections, including documented/suspected <em>Pseudomonas</em>&nbsp;</p>\n\n\t\t\t<p>UCSF: Exclusion criteria for EXTENDED INFUSION: resistant or intermediate susceptibility organism, cystic fibrosis, peri-procedural areas, insufficient IV access</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">2.25 g IV q8h (SHORT infusion over 30 minutes)</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>UCSF: Loading dose = 4.5 g IV over 30 min x1, then 4.5 g IV infused over 4h every 8h (starting&nbsp;<strong>immediately&nbsp;after</strong>&nbsp;loading dose)</p>\n\n\t\t\t<p>ZSFG: 4.5 g IV q8h (SHORT infusion over 30 minutes)</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>All Infections, including documented/suspected <em>Pseudomonas</em>&nbsp;</p>\r\n\r\n\t\t\t<p>UCSF: Exclusion criteria for EXTENDED INFUSION: resistant or intermediate susceptibility organism, cystic fibrosis, peri-procedural areas, insufficient IV access</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">2.25 g IV q8h (SHORT infusion over 30 minutes)</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>UCSF: Loading dose = 4.5 g IV over 30 min x1, then 4.5 g IV infused over 4h every 8h (starting&nbsp;<strong>immediately&nbsp;after</strong>&nbsp;loading dose)</p>\r\n\r\n\t\t\t<p>ZSFG: 4.5 g IV q8h (SHORT infusion over 30 minutes)</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p><strong>Extended-infusion</strong> piperacillin-tazobactam at various hospitals:</p>\n\n<p>UCSF: Extended infusion is the PREFERRED dosing strategy if no exclusions</p>\n\n<p>ZSFG: Short infusion is the PREFERRED dosing strategy. Extended infusion pip-tazo is available upon ID pharmacy, clinical pharmacy (ICU, medicine, etc), or ID fellow recommendation.</p>\n",
+   "value": "<p><strong>Extended-infusion</strong> piperacillin-tazobactam at various hospitals:</p>\r\n\r\n<p>UCSF: Extended infusion is the PREFERRED dosing strategy if no exclusions</p>\r\n\r\n<p>ZSFG: Short infusion is the PREFERRED dosing strategy. Extended infusion pip-tazo is available upon ID pharmacy, clinical pharmacy (ICU, medicine, etc), or ID fellow recommendation.</p>\r\n"
+  }
+ ],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "added pip-tazo CRRT dosing for ZSFG and added more context to extended infusion exclusions (making it clearer that this is applicable to UCSF only)"
+  },
+  {
+   "value": "9/24/24: Combined EI and SI pages to be consistent with cefepime, consolidated HD/CRRT dosing tables into one."
+  },
+  {
+   "value": "4/2025: added verbiage clarifying who can recommend EI antibiotics at ZSFG - AMR"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8436
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/piperacillin-tazobactam-zosyn",
+   "langcode": "und",
+   "pid": 21321
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-07-24T21:50:42+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Piperacillin/tazobactam (Zosyn)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "97d4caf7-352e-4277-a5e1-03e9709d35b0"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23871
+  }
+ ]
+}

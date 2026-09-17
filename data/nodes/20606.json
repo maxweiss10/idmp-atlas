@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "comment_node_ucsf_publication": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1782696201,
+   "last_comment_uid": 0,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-01T07:00:00+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_publication_authorlist": [
+  {
+   "format": null,
+   "processed": "<p>Gopalsamy SN, Phadke VK, Winston LG</p>\n",
+   "value": "Gopalsamy SN, Phadke VK, Winston LG"
+  }
+ ],
+ "field_publication_id": [
+  {
+   "value": "https://researcherprofiles.org/profile/613166818"
+  }
+ ],
+ "field_publication_name": [
+  {
+   "target_id": 221,
+   "target_type": "taxonomy_term",
+   "target_uuid": "40d6390b-745e-4665-bc4b-5032d51351e6",
+   "url": "/publications/clinical-infectious-diseases-official-publication-infectious-diseases-society-america"
+  }
+ ],
+ "field_publication_pubmedid": [
+  {
+   "value": "40146946"
+  }
+ ],
+ "field_publication_title": [
+  {
+   "format": null,
+   "processed": "<p>Gopalsamy SN, Phadke VK, Winston LG. Not the Usual Suspect. Clin Infect Dis. 2025 Aug 01; 81(1):1-4.</p>\n",
+   "value": "Gopalsamy SN, Phadke VK, Winston LG. Not the Usual Suspect. Clin Infect Dis. 2025 Aug 01; 81(1):1-4."
+  }
+ ],
+ "field_publication_year": [
+  {
+   "value": "2025"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 20606
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/not-the-usual-suspect",
+   "langcode": "und",
+   "pid": 33606
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Not the Usual Suspect."
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_publication",
+   "target_type": "node_type",
+   "target_uuid": "aab43f59-8b93-481f-9f49-a929dc92e1dd"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "b79104c3-07e9-4904-95b2-f8c10a1a1317"
+  }
+ ],
+ "vid": [
+  {
+   "value": 29241
+  }
+ ]
+}

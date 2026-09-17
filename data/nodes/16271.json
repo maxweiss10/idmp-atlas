@@ -1,0 +1,146 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-22T15:05:23+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1776863923,
+   "last_comment_uid": 646,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-22T13:02:50+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR &lt; 10 mL/min.&nbsp;</p>",
+   "value": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR &lt; 10 mL/min.&nbsp;</p>"
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th><strong>Indication</strong></th><th><strong>CrCl &gt;50 mL/min</strong></th><th><strong>31-50 mL/min</strong></th><th><strong>16-30 mL/min</strong></th><th><strong><u>&lt;</u> 15 mL/min</strong></th></tr></thead><tbody><tr><td>Loading Dose*</td><td>2.67 g IV x 1 (over 3 hours)</td><td>2.67 g IV x 1 (over 3 hours)</td><td>1.8 g IV x 1 (over 3 hours)</td><td>1.33 g IV x 1 (over 3 hours)</td></tr><tr><td>Maintenance Dose: All Indications</td><td>2 g IV every 6 hours (over 3 hours)</td><td>1 g IV every 6 hours (over 3 hours)</td><td>0.9 g IV every 8 hours (over 3 hours)</td><td>0.9 g IV every 12 hours (over 3 hours)</td></tr></tbody></table><p><span style=\"-webkit-text-stroke-width:0px;color:rgb(5, 32, 73);display:inline !important;float:none;font-family:HelveticaNeueLTW-Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">*Recommended to start maintenance dose beginning at the next dosing interval</span></p><p>&nbsp;</p>",
+   "value": "<table class=\"table\"><thead><tr><th><strong>Indication</strong></th><th><strong>CrCl &gt;50 mL/min</strong></th><th><strong>31-50 mL/min</strong></th><th><strong>16-30 mL/min</strong></th><th><strong><u>&lt;</u> 15 mL/min</strong></th></tr></thead><tbody><tr><td>Loading Dose*</td><td>2.67 g IV x 1 (over 3 hours)</td><td>2.67 g IV x 1 (over 3 hours)</td><td>1.8 g IV x 1 (over 3 hours)</td><td>1.33 g IV x 1 (over 3 hours)</td></tr><tr><td>Maintenance Dose: All Indications</td><td>2 g IV every 6 hours (over 3 hours)</td><td>1 g IV every 6 hours (over 3 hours)</td><td>0.9 g IV every 8 hours (over 3 hours)</td><td>0.9 g IV every 12 hours (over 3 hours)</td></tr></tbody></table><p><span style=\"-webkit-text-stroke-width:0px;color:rgb(5, 32, 73);display:inline !important;float:none;font-family:HelveticaNeueLTW-Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">*Recommended to start maintenance dose beginning at the next dosing interval</span></p><p>&nbsp;</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th><strong>Indication</strong></th><th style=\"vertical-align:middle;\"><strong>Intermittent Hemodialysis</strong></th><th style=\"text-align:center;\"><strong>Continuous Hemodialysis</strong></th></tr></thead><tbody><tr><td>Loading Dose*</td><td style=\"text-align:center;\">1.33 g IV x 1 (over 3 hours)</td><td style=\"text-align:center;\" rowspan=\"2\">Insufficient data; discuss with ID/ASP pharmacy</td></tr><tr><td>Maintenance Dose: All Indications</td><td style=\"text-align:center;\">0.9 g IV every 12 hours (over 3 hours)</td></tr></tbody></table><p>*<span style=\"-webkit-text-stroke-width:0px;color:rgb(5, 32, 73);display:inline !important;float:none;font-family:HelveticaNeueLTW-Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Recommended to start maintenance dose beginning at the next dosing interval</span></p>",
+   "value": "<table class=\"table\"><thead><tr><th><strong>Indication</strong></th><th style=\"vertical-align:middle;\"><strong>Intermittent Hemodialysis</strong></th><th style=\"text-align:center;\"><strong>Continuous Hemodialysis</strong></th></tr></thead><tbody><tr><td>Loading Dose*</td><td style=\"text-align:center;\">1.33 g IV x 1 (over 3 hours)</td><td style=\"text-align:center;\" rowspan=\"2\">Insufficient data; discuss with ID/ASP pharmacy</td></tr><tr><td>Maintenance Dose: All Indications</td><td style=\"text-align:center;\">0.9 g IV every 12 hours (over 3 hours)</td></tr></tbody></table><p>*<span style=\"-webkit-text-stroke-width:0px;color:rgb(5, 32, 73);display:inline !important;float:none;font-family:HelveticaNeueLTW-Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Recommended to start maintenance dose beginning at the next dosing interval</span></p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p><span style=\"-webkit-text-stroke-width:0px;color:rgb(5, 32, 73);display:inline !important;float:none;font-family:HelveticaNeueLTW-Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Restricted to ID or Antimicrobial Stewardship</span></p>",
+   "value": "<p><span style=\"-webkit-text-stroke-width:0px;color:rgb(5, 32, 73);display:inline !important;float:none;font-family:HelveticaNeueLTW-Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Restricted to ID or Antimicrobial Stewardship</span></p>"
+  }
+ ],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 16271
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/aztreonam-avibactam",
+   "langcode": "und",
+   "pid": 29221
+  }
+ ],
+ "promote": [
+  {
+   "value": true
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-22T15:05:23+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Aztreonam/avibactam"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "b7e23adb-67bf-4131-9530-2caf1316f806"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24846
+  }
+ ]
+}

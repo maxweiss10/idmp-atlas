@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:16:06+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629825366,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T21:13:12+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Abscess of skin/soft tissue &nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{115}\" paraid=\"965707044\"><em>Staphylococcus aureus&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{125}\" paraid=\"138287114\">Other pathogens depending on specific exposures/risk factors&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{138}\" paraid=\"1095588218\">Incision and drainage (I&amp;D) is recommended for source control, though previous recommendations suggested I&amp;D alone as an option for small abscesses without surrounding cellulitis, more recent studies have shown faster resolution when antibiotic therapy is given following I&amp;D  &nbsp;</p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{144}\" paraid=\"1332637438\"><strong>Outpatient/non-severe infection</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{158}\" paraid=\"1807380812\">Cephalexin &nbsp;<br>\n\t\t\t25 mg/kg/dose (max 500 mg/dose) enterally tid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{170}\" paraid=\"427162685\">-------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{180}\" paraid=\"1364222073\"><strong>Inpatient/need for IV therapy</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{186}\" paraid=\"328332212\">Cefazolin<br>\n\t\t\t25 mg/kg/dose (max 2000 mg/dose) IV&nbsp;q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{202}\" paraid=\"16373573\"><strong>Severe infection (hemodynamic instability, end-organ dysfunction, or extensive local progression)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{212}\" paraid=\"14917638\">ID consult &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{223}\" paraid=\"335339459\"><strong><a href=\"/content/assessment-of-antibiotic-allergies\">Penicillin or cephalosporin allergy with higher risk for allergic reaction</a>&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{233}\" paraid=\"2021320246\"><strong>OR&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{243}\" paraid=\"10896739\"><strong>History of documented MRSA infection or carriage within the last 6 months&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{253}\" paraid=\"1201005151\"><strong>OR</strong>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{4}\" paraid=\"1545222994\"><strong>MRSA identified and susceptible to trimethoprim- sulfamethoxazole</strong>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{18}\" paraid=\"135372581\"><strong>AND</strong>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{28}\" paraid=\"542767422\"><strong>Age &gt;=1 month</strong>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{40}\" paraid=\"1379918147\">Trimethoprim-sulfamethoxazole (Bactrim)<br>\n\t\t\t5 mg trimethoprim/kg/dose (max 160 mg trimethoprim/dose) enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{50}\" paraid=\"2007183180\"><strong>Severe infection (hemodynamic instability, end-organ dysfunction, or extensive local progression)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{60}\" paraid=\"195664389\">ID consult&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{67}\" paraid=\"75917560\">With abscess I&amp;D, send routine bacterial culture, follow-up result and modify therapy as indicated&nbsp;</p>\n\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{73}\" paraid=\"863345045\"><strong>Duration</strong>:&nbsp;5 days following source control for non-severe infection&nbsp;</p>\n\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{85}\" paraid=\"240920577\"> &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Abscess of skin/soft tissue &nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{115}\" paraid=\"965707044\"><em>Staphylococcus aureus&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{125}\" paraid=\"138287114\">Other pathogens depending on specific exposures/risk factors&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{138}\" paraid=\"1095588218\">Incision and drainage (I&amp;D) is recommended for source control, though previous recommendations suggested I&amp;D alone as an option for small abscesses without surrounding cellulitis, more recent studies have shown faster resolution when antibiotic therapy is given following I&amp;D  &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{144}\" paraid=\"1332637438\"><strong>Outpatient/non-severe infection</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{158}\" paraid=\"1807380812\">Cephalexin &nbsp;<br />\r\n\t\t\t25 mg/kg/dose (max 500 mg/dose) enterally tid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{170}\" paraid=\"427162685\">-------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{180}\" paraid=\"1364222073\"><strong>Inpatient/need for IV therapy</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{186}\" paraid=\"328332212\">Cefazolin<br />\r\n\t\t\t25 mg/kg/dose (max 2000 mg/dose) IV&nbsp;q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{202}\" paraid=\"16373573\"><strong>Severe infection (hemodynamic instability, end-organ dysfunction, or extensive local progression)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{212}\" paraid=\"14917638\">ID consult &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{223}\" paraid=\"335339459\"><strong><a href=\"/node/13556\">Penicillin or cephalosporin allergy with higher risk for allergic reaction</a>&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{233}\" paraid=\"2021320246\"><strong>OR&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{243}\" paraid=\"10896739\"><strong>History of documented MRSA infection or carriage within the last 6 months&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{6987cb81-37d3-4d3d-91b7-a87849e83f18}{253}\" paraid=\"1201005151\"><strong>OR</strong>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{4}\" paraid=\"1545222994\"><strong>MRSA identified and susceptible to trimethoprim- sulfamethoxazole</strong>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{18}\" paraid=\"135372581\"><strong>AND</strong>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{28}\" paraid=\"542767422\"><strong>Age &gt;=1 month</strong>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{40}\" paraid=\"1379918147\">Trimethoprim-sulfamethoxazole (Bactrim)<br />\r\n\t\t\t5 mg trimethoprim/kg/dose (max 160 mg trimethoprim/dose) enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{50}\" paraid=\"2007183180\"><strong>Severe infection (hemodynamic instability, end-organ dysfunction, or extensive local progression)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{60}\" paraid=\"195664389\">ID consult&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{67}\" paraid=\"75917560\">With abscess I&amp;D, send routine bacterial culture, follow-up result and modify therapy as indicated&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{73}\" paraid=\"863345045\"><strong>Duration</strong>:&nbsp;5 days following source control for non-severe infection&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{85}\" paraid=\"240920577\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 166,
+   "target_type": "taxonomy_term",
+   "target_uuid": "aea1cebe-dad3-4dfe-a589-7e3eea5a9345",
+   "url": "/guidelines-empiric-therapy-categories/skin-and-soft-tissue-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{105}\" paraid=\"1110418468\">References:&nbsp;</h2>\n\n<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{111}\" paraid=\"597518534\">Stevens DL,&nbsp;et al.&nbsp;<a href=\"http://cid.oxfordjournals.org/content/early/2014/06/14/cid.ciu296.full.pdf\">Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America</a>.&nbsp;Clin Infect Dis&nbsp;2014;59:e10-e52.&nbsp;</p>\n\n<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{129}\" paraid=\"1554540755\">Liu C,&nbsp;et al.&nbsp;<a href=\"https://academic.oup.com/cid/article/52/3/e18/306145\">Clinical practice guidelines by the Infectious Diseases Society of America for the treatment of methicillin-resistant&nbsp;<em>Staphylococcus aureus</em>&nbsp;infections in adults and children</a>. Clin Infect Dis 2011;52:e18-e55.&nbsp;</p>\n\n<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{147}\" paraid=\"137187361\">Chen AE, et al. <a href=\"https://pediatrics.aappublications.org/content/127/3/e573.long\">Randomized controlled trial of cephalexin versus clindamycin for uncomplicated pediatric skin infections</a>. Pediatrics. 2011 Mar;127(3):e573-80.&nbsp;</p>\n\n<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{153}\" paraid=\"1298642832\">Daum RS, et al. <a href=\"https://www.nejm.org/doi/10.1056/NEJMoa1607033?url_ver=Z39.88-2003&amp;rfr_id=ori:rid:crossref.org&amp;rfr_dat=cr_pub%20%200www.ncbi.nlm.nih.gov\">A placebo-controlled trial of antibiotics for smaller skin abscesses</a>. N Engl J Med 2017;376:2545-2555.</p>\n\n<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{159}\" paraid=\"1313645291\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{105}\" paraid=\"1110418468\">References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{111}\" paraid=\"597518534\">Stevens DL,&nbsp;et al.&nbsp;<a href=\"http://cid.oxfordjournals.org/content/early/2014/06/14/cid.ciu296.full.pdf\">Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America</a>.&nbsp;Clin Infect Dis&nbsp;2014;59:e10-e52.&nbsp;</p>\r\n\r\n<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{129}\" paraid=\"1554540755\">Liu C,&nbsp;et al.&nbsp;<a href=\"https://academic.oup.com/cid/article/52/3/e18/306145\">Clinical practice guidelines by the Infectious Diseases Society of America for the treatment of methicillin-resistant&nbsp;<em>Staphylococcus aureus</em>&nbsp;infections in adults and children</a>. Clin Infect Dis 2011;52:e18-e55.&nbsp;</p>\r\n\r\n<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{147}\" paraid=\"137187361\">Chen AE, et al. <a href=\"https://pediatrics.aappublications.org/content/127/3/e573.long\">Randomized controlled trial of cephalexin versus clindamycin for uncomplicated pediatric skin infections</a>. Pediatrics. 2011 Mar;127(3):e573-80.&nbsp;</p>\r\n\r\n<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{153}\" paraid=\"1298642832\">Daum RS, et al. <a href=\"https://www.nejm.org/doi/10.1056/NEJMoa1607033?url_ver=Z39.88-2003&amp;rfr_id=ori:rid:crossref.org&amp;rfr_dat=cr_pub%20%200www.ncbi.nlm.nih.gov\">A placebo-controlled trial of antibiotics for smaller skin abscesses</a>. N Engl J Med 2017;376:2545-2555.</p>\r\n\r\n<p paraeid=\"{76fe6325-9c37-43bd-be7e-f0cf58382c78}{159}\" paraid=\"1313645291\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13471
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/abscess",
+   "langcode": "und",
+   "pid": 26126
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:16:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Abscess "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d335e4ce-bfaa-41e1-9264-f00e5d07015b"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16056
+  }
+ ]
+}

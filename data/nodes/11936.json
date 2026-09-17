@@ -1,0 +1,151 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<h2 class=\"text-align-center\"><a href=\"/notations/id-r-ucsf\">Click here for a&nbsp;List of Restricted Antimicrobials</a></h2><h2 class=\"text-align-center\"><a href=\"https://ucsf.app.box.com/s/3c8ps6opgtwn0jgbmrinknkuytirr6un\">Click here to view the Pharmacy &amp; Provider Workflow</a> (UCSF login required)</h2><p class=\"text-align-center\">&nbsp;</p>\n<div class=\"image_resized media-embed-resized align-center media media--type-image media--view-mode-cke-media-resize-xl\" style=\"width:944px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_xl/public/img/ASP%20Restricted%20ABX%20Process%20-%202025%20Weekdays.jpeg.webp?itok=pta_SeWh\" width=\"1200\" height=\"926\" alt=\"Workflow for standard business hours\" class=\"image-style-cke-media-resize-xl\">\n\n\n\n\n  </div>\n\n<p class=\"text-align-center\">&nbsp;</p>\n<div class=\"image_resized media-embed-resized align-center media media--type-image media--view-mode-cke-media-resize-large\" style=\"width:536px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_large/public/img/ASP%20Restricted%20ABX%20Process%20-%202025%20After%20Hours.jpeg.webp?itok=EGkCHc5i\" width=\"800\" height=\"1158\" alt=\"Workflow for after hours/weekends/holidays\" class=\"image-style-cke-media-resize-large\">\n\n\n\n\n  </div>\n\n",
+   "summary": "Step-by-step procedure for ordering restricted antimicrobials",
+   "value": "<h2 class=\"text-align-center\"><a href=\"/notations/id-r-ucsf\">Click here for a&nbsp;List of Restricted Antimicrobials</a></h2><h2 class=\"text-align-center\"><a href=\"https://ucsf.app.box.com/s/3c8ps6opgtwn0jgbmrinknkuytirr6un\">Click here to view the Pharmacy &amp; Provider Workflow</a> (UCSF login required)</h2><p class=\"text-align-center\">&nbsp;</p><drupal-media class=\"image_resized\" style=\"width:944px;\" data-media-width=\"944px\" data-entity-type=\"media\" data-entity-uuid=\"0749ff21-8be5-48ee-8e61-9e2c7565c6ad\" data-align=\"center\">&nbsp;</drupal-media><p class=\"text-align-center\">&nbsp;</p><drupal-media class=\"image_resized\" style=\"width:536px;\" data-media-width=\"536px\" data-entity-type=\"media\" data-entity-uuid=\"0875c5fd-5943-4b5d-9fbe-c3bcf97fd5ad\" data-align=\"center\">&nbsp;</drupal-media>"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-15T19:03:12+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1739311644,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-17T19:46:09+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 431,
+   "target_type": "taxonomy_term",
+   "target_uuid": "f25f557e-a860-4aad-8722-978dcb5e1610",
+   "url": "/guideline-categories/policies-procedures-protocols"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2017-01-01"
+  },
+  {
+   "value": "2023-12-15"
+  },
+  {
+   "value": "2024-09-25"
+  },
+  {
+   "value": "2025-12-11"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 451,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a61a46a6-7dde-4da7-8b4b-d3c5cb579606",
+   "url": "/site/ucsf-medical-center-mission-bay-adult"
+  },
+  {
+   "target_id": 2101,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b959ef0d-a183-4591-96ee-d7183836e39d",
+   "url": "/site/ucsf-medical-center-mount-zion"
+  },
+  {
+   "target_id": 446,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ea4e1156-f1d7-40b6-8744-b15ee0218ccf",
+   "url": "/site/ucsf-medical-center-parnassus-heights"
+  },
+  {
+   "target_id": 2111,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b0f2c62e-1e16-47cf-ac4a-6f1bb99f5012",
+   "url": "/site/ucsf-stanyan-hyde"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11936
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/inpatient-process-for-ordering-restricted-antimicrobials-for-adults-at-ucsf",
+   "langcode": "und",
+   "pid": 24631
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-11T17:12:28+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Inpatient Process for Ordering Restricted Antimicrobials for Adults at UCSF"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "54a50c00-32f3-42bd-8990-18afdf9972bd"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24516
+  }
+ ]
+}

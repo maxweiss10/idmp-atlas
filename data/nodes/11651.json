@@ -1,0 +1,134 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-18T22:23:28+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597339323,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T17:22:03+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>CrCl &gt; 50 mL/min</th>\n\t\t\t<th>&lt; 50 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Uncomplicated cystitis</td>\n\t\t\t<td>3 g PO x 1 dose</td>\n\t\t\t<td>3 g PO x 1 dose</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Complicated cystitis</td>\n\t\t\t<td>3 g PO every 2 days x 3 doses</td>\n\t\t\t<td>3 g PO every 3 days x 3 doses</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>CrCl &gt; 50 mL/min</th>\r\n\t\t\t<th>&lt; 50 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Uncomplicated cystitis</td>\r\n\t\t\t<td>3 g PO x 1 dose</td>\r\n\t\t\t<td>3 g PO x 1 dose</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Complicated cystitis</td>\r\n\t\t\t<td>3 g PO every 2 days x 3 doses</td>\r\n\t\t\t<td>3 g PO every 3 days x 3 doses</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>Uncomplicated cystitis</td><td style=\"text-align:center;\">3 g PO x1 dose; administer after HD</td><td style=\"text-align:center;\">No data</td></tr><tr><td>Complicated cystitis</td><td style=\"text-align:center;\">3g PO every 3 days x3 doses; administer after HD</td><td style=\"text-align:center;\">No data</td></tr></tbody></table>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>Uncomplicated cystitis</td><td style=\"text-align:center;\">3 g PO x1 dose; administer after HD</td><td style=\"text-align:center;\">No data</td></tr><tr><td>Complicated cystitis</td><td style=\"text-align:center;\">3g PO every 3 days x3 doses; administer after HD</td><td style=\"text-align:center;\">No data</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11651
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/fosfomycin-po",
+   "langcode": "und",
+   "pid": 24366
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-08-18T22:23:28+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Fosfomycin PO"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "6db0fac7-7bb5-44ec-813e-0e2c62a14ec1"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35481
+  }
+ ]
+}

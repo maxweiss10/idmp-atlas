@@ -1,0 +1,145 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "<p>UCSF Neurology/ Infectious Diseases Diagnostic Testing Recommendations For Patients with Suspected CNS VZV Infection</p>\n\n<p>Clinical Indications for Testing:</p>\n\n<ol>\n\t<li>Meningitis of unknown etiology, especially with rash suspicious for VZV or with stroke of unknown etiology</li>\n\t<li>Encephalitis/ meningoencephalitis of unknown etiology</li>\n\t<li>Vasculopathy and strokes with CSF inflammation</li>\n\t<li>Myelitis of unknown etiology</li>\n\t<li>Lumbosacral or brachial plexopathy of unknown etiology</li>\n</ol>\n\n<p>For patients in whom CNS VZV infection is suspected:</p>\n\n<ol>\n\t<li>Send CSF VZV PCR and CSF VZV IgG\n\t<ol>\n\t\t<li>CSF VZV PCR can be an insensitive test for diagnosis of CNS VZV infection. CSF VZV IgG provides an additional diagnostic tool with a sensitivity of &gt; 90%.</li>\n\t</ol>\n\t</li>\n\t<li>Consider sending VZV IgM (within 7 to 21 days of symptom onset) in addition to CSF VZV IgG and VZV PCR in selected patients with acute presentation. This test may have increased sensitivity/specificity during this time period compared with IgG.</li>\n</ol>\n",
+   "summary": "Recommendations for testing for suspected CNS VZV infection",
+   "value": "<p>UCSF Neurology/ Infectious Diseases Diagnostic Testing Recommendations For Patients with Suspected CNS VZV Infection</p>\r\n\r\n<p>Clinical Indications for Testing:</p>\r\n\r\n<ol>\r\n\t<li>Meningitis of unknown etiology, especially with rash suspicious for VZV or with stroke of unknown etiology</li>\r\n\t<li>Encephalitis/ meningoencephalitis of unknown etiology</li>\r\n\t<li>Vasculopathy and strokes with CSF inflammation</li>\r\n\t<li>Myelitis of unknown etiology</li>\r\n\t<li>Lumbosacral or brachial plexopathy of unknown etiology</li>\r\n</ol>\r\n\r\n<p>For patients in whom CNS VZV infection is suspected:</p>\r\n\r\n<ol>\r\n\t<li>Send CSF VZV PCR and CSF VZV IgG\r\n\t<ol>\r\n\t\t<li>CSF VZV PCR can be an insensitive test for diagnosis of CNS VZV infection. CSF VZV IgG provides an additional diagnostic tool with a sensitivity of &gt; 90%.</li>\r\n\t</ol>\r\n\t</li>\r\n\t<li>Consider sending VZV IgM (within 7 to 21 days of symptom onset) in addition to CSF VZV IgG and VZV PCR in selected patients with acute presentation. This test may have increased sensitivity/specificity during this time period compared with IgG.</li>\r\n</ol>\r\n"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-01-15T19:03:55+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1727381819,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-14T02:53:50+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 436,
+   "target_type": "taxonomy_term",
+   "target_uuid": "24205d08-f391-499f-9229-572db9dd7f4b",
+   "url": "/guideline-categories/diagnostic-testing"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2020-08-13"
+  },
+  {
+   "value": "2023-08-07"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 451,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a61a46a6-7dde-4da7-8b4b-d3c5cb579606",
+   "url": "/site/ucsf-medical-center-mission-bay-adult"
+  },
+  {
+   "target_id": 2101,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b959ef0d-a183-4591-96ee-d7183836e39d",
+   "url": "/site/ucsf-medical-center-mount-zion"
+  },
+  {
+   "target_id": 446,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ea4e1156-f1d7-40b6-8744-b15ee0218ccf",
+   "url": "/site/ucsf-medical-center-parnassus-heights"
+  },
+  {
+   "target_id": 2111,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b0f2c62e-1e16-47cf-ac4a-6f1bb99f5012",
+   "url": "/site/ucsf-stanyan-hyde"
+  }
+ ],
+ "field_pdf": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11736
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/vzv-cns-infection-testing",
+   "langcode": "und",
+   "pid": 24451
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-09-26T20:16:59+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "VZV CNS Infection Testing"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "c2bcf561-27a8-408c-83a3-cf6c2d272f3c"
+  }
+ ],
+ "vid": [
+  {
+   "value": 13641
+  }
+ ]
+}

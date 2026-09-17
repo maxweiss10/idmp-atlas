@@ -1,0 +1,149 @@
+{
+ "body": [
+  {
+   "format": "advanced",
+   "processed": "\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-default\" style=\"width:1903px;\" height=\"827\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/Appy%201.JPG.webp?itok=JqwfS8Mq\" width=\"480\" height=\"209\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n<p><br>&nbsp;</p>\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-default\" style=\"width:1901px;\" height=\"785\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/Appy%202.JPG.webp?itok=46MsnBtV\" width=\"480\" height=\"198\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n<p><br>&nbsp;</p>\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-default\" style=\"width:1906px;\" height=\"357\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/Appy%203.JPG.webp?itok=7UOgMpJP\" width=\"480\" height=\"90\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n",
+   "summary": "Adult guideline on appendicitis management",
+   "value": "<drupal-media class=\"image_resized\" style=\"width:1903px;\" data-media-width=\"1903px\" alt=\"\" data-entity-type=\"media\" data-entity-uuid=\"8f003e60-3e22-4e29-9bd1-c1a0bd999db2\" height=\"827\">&nbsp;</drupal-media><p><br>&nbsp;</p><drupal-media class=\"image_resized\" style=\"width:1901px;\" data-media-width=\"1901px\" alt=\"\" data-entity-type=\"media\" data-entity-uuid=\"95cc8cef-e7c6-468c-bff1-7c67a536ef1d\" height=\"785\">&nbsp;</drupal-media><p><br>&nbsp;</p><drupal-media class=\"image_resized\" style=\"width:1906px;\" data-media-width=\"1906px\" alt=\"\" data-entity-type=\"media\" data-entity-uuid=\"54333f0f-e07d-4f2e-9b86-3cc1263762af\" height=\"357\">&nbsp;</drupal-media>"
+  }
+ ],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-04-30T16:31:49+00:00"
+  }
+ ],
+ "comment_node_guidelines": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1740004617,
+   "last_comment_uid": 566,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-19T20:08:35+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_guideline_category": [
+  {
+   "target_id": 441,
+   "target_type": "taxonomy_term",
+   "target_uuid": "556b290a-373b-48a0-b88f-c3d742b5091c",
+   "url": "/guideline-categories/syndrome-specific-guidelines"
+  }
+ ],
+ "field_guideline_modified_date": [
+  {
+   "value": "2025-02-19"
+  }
+ ],
+ "field_guideline_site": [
+  {
+   "target_id": 451,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a61a46a6-7dde-4da7-8b4b-d3c5cb579606",
+   "url": "/site/ucsf-medical-center-mission-bay-adult"
+  },
+  {
+   "target_id": 2101,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b959ef0d-a183-4591-96ee-d7183836e39d",
+   "url": "/site/ucsf-medical-center-mount-zion"
+  },
+  {
+   "target_id": 446,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ea4e1156-f1d7-40b6-8744-b15ee0218ccf",
+   "url": "/site/ucsf-medical-center-parnassus-heights"
+  },
+  {
+   "target_id": 2111,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b0f2c62e-1e16-47cf-ac4a-6f1bb99f5012",
+   "url": "/site/ucsf-stanyan-hyde"
+  }
+ ],
+ "field_pdf": [
+  {
+   "target_id": 1606,
+   "target_type": "media",
+   "target_uuid": "70a5e428-5f21-4fcb-9e57-9eefcba01769",
+   "url": "/document/adult-appy-pathway-v1-24-25-compliant-pdf-pdf"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15696
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/adult-appendicitis-pathway",
+   "langcode": "und",
+   "pid": 28246
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-19T22:36:57+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Adult Appendicitis Pathway"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "guidelines",
+   "target_type": "node_type",
+   "target_uuid": "433d800e-b032-4a7f-ba0e-f2d346b5a420"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5dde5e8c-0a68-4191-abe4-e5963004d930"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22241
+  }
+ ]
+}

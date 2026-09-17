@@ -1,0 +1,163 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-16T22:09:04+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1581541658,
+   "last_comment_uid": 176,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-02-12T21:07:38+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">CrCl <u>&gt;</u> 30 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">&lt; 30 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All indications</td>\n\t\t\t<td style=\"text-align: center;\">8 – 10* mg/kg IV q24h</td>\n\t\t\t<td style=\"text-align: center;\">8 – 10* mg/kg IV q48h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*Doses up to 12 mg/kg may be indicated in treatment of some VRE infections - confer with ID/ID pharmacy.</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">CrCl <u>&gt;</u> 30 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">&lt; 30 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All indications</td>\r\n\t\t\t<td style=\"text-align: center;\">8 – 10* mg/kg IV q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">8 – 10* mg/kg IV q48h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*Doses up to 12 mg/kg may be indicated in treatment of some VRE infections - confer with ID/ID pharmacy.</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis*</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>8-10 mg/kg IV x1 now and post-HD</p>\n\n\t\t\t<p><u>Alternate for patients not on stable dialysis schedule:</u>&nbsp;8-10 mg/kg IV q48h</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>6-8 mg/kg IV q 24h</p>\n\n\t\t\t<p>Flow rates exceeding 2.5 L/hour may require higher dosing</p>\n\n\t\t\t<p>Contact ID/ASP pharmacy for assistance</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>*These recommendations have not been evaluated for patients receiving continuous renal replacement therapy other than CVVHD (ex. CVVH).&nbsp;</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis*</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>8-10 mg/kg IV x1 now and post-HD</p>\r\n\r\n\t\t\t<p><u>Alternate for patients not on stable dialysis schedule:</u>&nbsp;8-10 mg/kg IV q48h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>6-8 mg/kg IV q 24h</p>\r\n\r\n\t\t\t<p>Flow rates exceeding 2.5 L/hour may require higher dosing</p>\r\n\r\n\t\t\t<p>Contact ID/ASP pharmacy for assistance</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*These recommendations have not been evaluated for patients receiving continuous renal replacement therapy other than CVVHD (ex. CVVH).&nbsp;</p>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 66,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d2274533-3b4b-403d-b6bd-9026f83daea2",
+   "url": "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p><u>Not effective in treatment of pneumonia.</u></p>\n",
+   "value": "<p><u>Not effective in treatment of pneumonia.</u></p>\r\n"
+  }
+ ],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship</p>\n",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship</p>\r\n"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "05/2025 - RJ modified CRRT dosing per Dosing meeting (04/2025) and modified CRRT language comment "
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8281
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/daptomycin",
+   "langcode": "und",
+   "pid": 21206
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-16T22:09:04+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Daptomycin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "bc28b06c-3b01-4445-abed-80ae8f81b04c"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22806
+  }
+ ]
+}

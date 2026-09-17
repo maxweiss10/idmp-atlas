@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-06T13:22:44+00:00"
+  }
+ ],
+ "comment_node_ucsf_publication": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1783344164,
+   "last_comment_uid": 0,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-21T08:00:00+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_publication_authorlist": [
+  {
+   "format": null,
+   "processed": "<p>Pierce L, Pak C, Stanley K, Wang L, Erickson C, Yokoe DS, Wick E</p>\n",
+   "value": "Pierce L, Pak C, Stanley K, Wang L, Erickson C, Yokoe DS, Wick E"
+  }
+ ],
+ "field_publication_id": [
+  {
+   "value": "https://researcherprofiles.org/profile/754171615"
+  }
+ ],
+ "field_publication_name": [
+  {
+   "target_id": 496,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d9ec6b97-07c5-4847-9d87-5327452c2d74",
+   "url": "/publications/bmj-quality-safety"
+  }
+ ],
+ "field_publication_pubmedid": [
+  {
+   "value": "41423338"
+  }
+ ],
+ "field_publication_title": [
+  {
+   "format": null,
+   "processed": "<p>Pierce L, Pak C, Stanley K, Wang L, Erickson C, Yokoe DS, Wick E. Retrospective validation study of a large language model approach to screening for intraabdominal surgical site infections for quality and safety reporting. BMJ Qual Saf. 2025 Dec 21.</p>\n",
+   "value": "Pierce L, Pak C, Stanley K, Wang L, Erickson C, Yokoe DS, Wick E. Retrospective validation study of a large language model approach to screening for intraabdominal surgical site infections for quality and safety reporting. BMJ Qual Saf. 2025 Dec 21."
+  }
+ ],
+ "field_publication_year": [
+  {
+   "value": "2025"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 22661
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/retrospective-validation-study-of-a-large-language-model-approach-to-screening-for-intraabdominal",
+   "langcode": "und",
+   "pid": 35676
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-06T13:22:44+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Retrospective validation study of a large language model approach to screening for intraabdominal surgical site infections for quality and safety reporting."
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_publication",
+   "target_type": "node_type",
+   "target_uuid": "aab43f59-8b93-481f-9f49-a929dc92e1dd"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "4225b816-ea5a-4167-a516-85af7d2fa1af"
+  }
+ ],
+ "vid": [
+  {
+   "value": 31296
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T21:10:53+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1579217304,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-01-16T23:28:24+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Dose</p></th><th>Notes</th></tr></thead><tbody><tr><td>Cryptococcal meningitis</td><td style=\"text-align:center;\"><p>4 mg/kg IV q24h</p><p>(in combination with <a href=\"/content/flucytosine\">flucytosine</a>)</p></td><td style=\"text-align:center;\" colspan=\"1\" rowspan=\"3\"><p>&nbsp;</p><p>No adjustment for renal dysfunction; monitor serum creatinine and electrolytes</p></td></tr><tr><td>Invasive fungal infections</td><td style=\"text-align:center;\">5 mg/kg IV q24h</td></tr><tr><td>Mold prophylaxis (Heme/BMT)</td><td style=\"text-align:center;\">3 mg/kg IV q24h</td></tr></tbody></table>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Dose</p></th><th>Notes</th></tr></thead><tbody><tr><td>Cryptococcal meningitis</td><td style=\"text-align:center;\"><p>4 mg/kg IV q24h</p><p>(in combination with <a href=\"/content/flucytosine\">flucytosine</a>)</p></td><td style=\"text-align:center;\" colspan=\"1\" rowspan=\"3\"><p>&nbsp;</p><p>No adjustment for renal dysfunction; monitor serum creatinine and electrolytes</p></td></tr><tr><td>Invasive fungal infections</td><td style=\"text-align:center;\">5 mg/kg IV q24h</td></tr><tr><td>Mold prophylaxis (Heme/BMT)</td><td style=\"text-align:center;\">3 mg/kg IV q24h</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>Cryptococcal meningitis&nbsp;</td><td style=\"text-align:center;\"><p>4 mg/kg IV q 24h</p><p>(in combination with <a href=\"/content/flucytosine\">flucytosine</a>)</p></td><td style=\"text-align:center;\"><p>4 mg/kg IV q 24h</p><p>(in combination with<a href=\"/content/flucytosine\"> flucytosine</a>)</p></td></tr><tr><td>Invasive fungal infections</td><td style=\"text-align:center;\">5 mg/kg IV q24h</td><td style=\"text-align:center;\">5 mg/kg IV q24h</td></tr><tr><td>Prophylaxis (heme/BMT)</td><td style=\"text-align:center;\">3 mg/kg IV q24h</td><td style=\"text-align:center;\">3 mg/kg IV q24h</td></tr></tbody></table>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>Cryptococcal meningitis&nbsp;</td><td style=\"text-align:center;\"><p>4 mg/kg IV q 24h</p><p>(in combination with <a href=\"/content/flucytosine\">flucytosine</a>)</p></td><td style=\"text-align:center;\"><p>4 mg/kg IV q 24h</p><p>(in combination with<a href=\"/content/flucytosine\"> flucytosine</a>)</p></td></tr><tr><td>Invasive fungal infections</td><td style=\"text-align:center;\">5 mg/kg IV q24h</td><td style=\"text-align:center;\">5 mg/kg IV q24h</td></tr><tr><td>Prophylaxis (heme/BMT)</td><td style=\"text-align:center;\">3 mg/kg IV q24h</td><td style=\"text-align:center;\">3 mg/kg IV q24h</td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 66,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d2274533-3b4b-403d-b6bd-9026f83daea2",
+   "url": "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>*Use Total Body Weight if Total Body Weight &lt; Ideal Body Weight.&nbsp; If Total Body Weight &gt;1.2 times Ideal Body Weight, use Adjusted Body Weight</p><p>IV Fluids: Give 500mL Normal Saline before and after AmBisome administration if able to tolerate</p>",
+   "value": "<p>*Use Total Body Weight if Total Body Weight &lt; Ideal Body Weight.&nbsp; If Total Body Weight &gt;1.2 times Ideal Body Weight, use Adjusted Body Weight</p><p>IV Fluids: Give 500mL Normal Saline before and after AmBisome administration if able to tolerate</p>"
+  }
+ ],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>IV route - Restricted to ID or Antimicrobial Stewardship&nbsp;except:</p><p>1) Prophylaxis against fungal infections in patients on the HBC (Hematology, Blood &amp; Marrow Transplant, and Cellular Therapy) service</p><p>&nbsp;</p>",
+   "value": "<p>IV route - Restricted to ID or Antimicrobial Stewardship&nbsp;except:</p><p>1) Prophylaxis against fungal infections in patients on the HBC (Hematology, Blood &amp; Marrow Transplant, and Cellular Therapy) service</p><p>&nbsp;</p>"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "7/31/24: Updated restriction language as discussed in 7/2024 dosing meeting (changed \"fungal PNA\" to \"serious fungal infection\") -EK\r\n1/30/25: Added \"IV formulation\" to restriction criteria per discussion at 1/2025 dosing meeting -EK\r\n04/2025 - RJ updated weight from TBW < 120% IBW to TBW\r\n05/2025 - RJ made dosing updates from dosing meeting in 04/2025\r\n2/2026 - Removed unrestricted indication of \"Documented or suspected serious fungal infection in a patient intolerant of or with contraindications to azoles\" as discussed in 1/2026 dosing meeting; to avoid inappropriate use\r\n9/2026: clarified restriction verbiage to indicate that inhaled Ambisome on lung txpt does not require approval (IV route does); renamed to HBC"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8241
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ambisome-liposomal-amphotericin-b",
+   "langcode": "und",
+   "pid": 21176
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T21:10:53+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "AmBisome (liposomal amphotericin B)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "7a09a95d-7bc3-449b-8a60-1620c417dfc4"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35551
+  }
+ ]
+}

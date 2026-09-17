@@ -1,0 +1,163 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T22:50:45+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1742950486,
+   "last_comment_uid": 636,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-03-25T23:06:28+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR &lt; 10 mL/min.&nbsp;</p>",
+   "value": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR &lt; 10 mL/min.&nbsp;</p>"
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-cke-media-resize-large\" style=\"width:636px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_large/public/img/download%20%282%29.png.webp?itok=G8ABQja1\" width=\"800\" height=\"44\" alt=\"d\" class=\"image-style-cke-media-resize-large\">\n\n\n\n\n  </div>\n\n<ul><li data-list-item-id=\"e8b783e4397c379a4baf9591b4835becf\">All dosing for foscarnet is done by the foscarnet CrCl, which is calculated using the modified Cockcroft-Gault equation above. Note that no weight is used in this calculation.&nbsp;</li><li class=\"ck-list-marker-bold\" data-list-item-id=\"ebc1d2681d652190d0615d0c8c8efee19\"><strong>Do NOT use the CrCl calculated by Cockcroft-Gault equation.</strong></li><li data-list-item-id=\"e565a2e7fc4c01e70336ad30fc7841dee\">Dose-related nephrotoxicity occurs commonly; monitor and evaluate SCr daily, and recalculate foscarnet CrCl for acute changes in SCr to evaluate need for renal-dose adjustments.</li></ul><table class=\"table\"><thead><tr><th colspan=\"1\" rowspan=\"2\"><p>&nbsp;</p><p>Indication</p></th><th style=\"text-align:center;\" colspan=\"7\" rowspan=\"1\"><strong>Foscarnet CrCl - use equation above</strong></th></tr><tr><th style=\"text-align:center;\"><meta charset=\"utf-8\"><p>&nbsp; &gt; 1.4&nbsp; &nbsp;mL/min/kg</p></th><th style=\"text-align:center;\">&gt; 1.0 - 1.4&nbsp; mL/min/kg&nbsp;</th><th style=\"text-align:center;\">&gt; 0.8 - 1.0&nbsp; mL/min/kg</th><th style=\"text-align:center;\">&gt; 0.6 - 0.8&nbsp; mL/min/kg</th><th><p class=\"text-align-center\">&gt; 0.5 - 0.6&nbsp; mL/min/kg</p></th><th style=\"text-align:center;\">≥ 0.4 - 0.5&nbsp; mL/min/kg</th><th><p class=\"text-align-center\">&lt; 0.4&nbsp; mL/min/kg</p></th></tr></thead><tbody><tr><td>CMV Treatment<br><em>duration depends on clinical response</em></td><td><p class=\"text-align-center\">90 mg/kg IV q12h</p></td><td style=\"text-align:center;\">70 mg/kg IV q12h</td><td style=\"text-align:center;\">50 mg/kg IV q12h</td><td style=\"text-align:center;\">80 mg/kg IV q24h<br>&nbsp;</td><td style=\"text-align:center;\">60 mg/kg IV q24h<br>&nbsp;</td><td style=\"text-align:center;\">50 mg/kg IV q24h<br>&nbsp;</td><td style=\"text-align:center;\">Not recommended</td></tr><tr><td>CMV Prophylaxis*</td><td><p class=\"text-align-center\">90 mg/kg IV q24h</p></td><td style=\"text-align:center;\">70 mg/kg IV q24h</td><td style=\"text-align:center;\">50 mg/kg IV q24h</td><td style=\"text-align:center;\">80 mg/kg IV q48h<br>&nbsp;</td><td style=\"text-align:center;\">60 mg/kg IV q48h<br>&nbsp;</td><td style=\"text-align:center;\">50 mg/kg IV q48h<br>&nbsp;</td><td style=\"text-align:center;\">Not recommended</td></tr><tr><td>Acyclovir-Resistant Mucocutaneous HSV*</td><td><p class=\"text-align-center\">40 mg/kg IV q8h</p></td><td style=\"text-align:center;\">30 mg/kg IV q8h<br>&nbsp;</td><td style=\"text-align:center;\">35 mg/kg IV q12h<br>&nbsp;</td><td style=\"text-align:center;\">25 mg/kg IV q12h<br>&nbsp;</td><td style=\"text-align:center;\">40 mg/kg IV q24h<br>&nbsp;</td><td style=\"text-align:center;\">35 mg/kg IV q24h<br>&nbsp;</td><td style=\"text-align:center;\">Not recommended</td></tr></tbody></table><p>&nbsp;*There may be alternative dosing strategies available or situations that may benefit from higher/lower dosing. Speak to ASP/ID pharmacy if needed.</p><p>At UCSF, there is an adult inpatient order panel available for use – Foscarnet (FOSCAVIR) IV Panel (adult)&nbsp;</p><p>IV Fluids: IV hydration lowers risk for nephrotoxicity and penile ulcerations. Give 750 - 1000 mL normal saline or 500 mL normal saline for doses ≤ 60 mg/kg before each dose.&nbsp;</p>",
+   "value": "<drupal-media class=\"image_resized\" style=\"width:636px;\" data-media-width=\"636px\" data-entity-type=\"media\" data-entity-uuid=\"4659e516-5b19-469d-8cde-438315ef983a\">&nbsp;</drupal-media><ul><li data-list-item-id=\"e8b783e4397c379a4baf9591b4835becf\">All dosing for foscarnet is done by the foscarnet CrCl, which is calculated using the modified Cockcroft-Gault equation above. Note that no weight is used in this calculation.&nbsp;</li><li class=\"ck-list-marker-bold\" data-list-item-id=\"ebc1d2681d652190d0615d0c8c8efee19\"><strong>Do NOT use the CrCl calculated by Cockcroft-Gault equation.</strong></li><li data-list-item-id=\"e565a2e7fc4c01e70336ad30fc7841dee\">Dose-related nephrotoxicity occurs commonly; monitor and evaluate SCr daily, and recalculate foscarnet CrCl for acute changes in SCr to evaluate need for renal-dose adjustments.</li></ul><table class=\"table\"><thead><tr><th colspan=\"1\" rowspan=\"2\"><p>&nbsp;</p><p>Indication</p></th><th style=\"text-align:center;\" colspan=\"7\" rowspan=\"1\"><strong>Foscarnet CrCl - use equation above</strong></th></tr><tr><th style=\"text-align:center;\"><meta charset=\"utf-8\"><p>&nbsp; &gt; 1.4&nbsp; &nbsp;mL/min/kg</p></th><th style=\"text-align:center;\">&gt; 1.0 - 1.4&nbsp; mL/min/kg&nbsp;</th><th style=\"text-align:center;\">&gt; 0.8 - 1.0&nbsp; mL/min/kg</th><th style=\"text-align:center;\">&gt; 0.6 - 0.8&nbsp; mL/min/kg</th><th><p class=\"text-align-center\">&gt; 0.5 - 0.6&nbsp; mL/min/kg</p></th><th style=\"text-align:center;\">≥ 0.4 - 0.5&nbsp; mL/min/kg</th><th><p class=\"text-align-center\">&lt; 0.4&nbsp; mL/min/kg</p></th></tr></thead><tbody><tr><td>CMV Treatment<br><em>duration depends on clinical response</em></td><td><p class=\"text-align-center\">90 mg/kg IV q12h</p></td><td style=\"text-align:center;\">70 mg/kg IV q12h</td><td style=\"text-align:center;\">50 mg/kg IV q12h</td><td style=\"text-align:center;\">80 mg/kg IV q24h<br>&nbsp;</td><td style=\"text-align:center;\">60 mg/kg IV q24h<br>&nbsp;</td><td style=\"text-align:center;\">50 mg/kg IV q24h<br>&nbsp;</td><td style=\"text-align:center;\">Not recommended</td></tr><tr><td>CMV Prophylaxis*</td><td><p class=\"text-align-center\">90 mg/kg IV q24h</p></td><td style=\"text-align:center;\">70 mg/kg IV q24h</td><td style=\"text-align:center;\">50 mg/kg IV q24h</td><td style=\"text-align:center;\">80 mg/kg IV q48h<br>&nbsp;</td><td style=\"text-align:center;\">60 mg/kg IV q48h<br>&nbsp;</td><td style=\"text-align:center;\">50 mg/kg IV q48h<br>&nbsp;</td><td style=\"text-align:center;\">Not recommended</td></tr><tr><td>Acyclovir-Resistant Mucocutaneous HSV*</td><td><p class=\"text-align-center\">40 mg/kg IV q8h</p></td><td style=\"text-align:center;\">30 mg/kg IV q8h<br>&nbsp;</td><td style=\"text-align:center;\">35 mg/kg IV q12h<br>&nbsp;</td><td style=\"text-align:center;\">25 mg/kg IV q12h<br>&nbsp;</td><td style=\"text-align:center;\">40 mg/kg IV q24h<br>&nbsp;</td><td style=\"text-align:center;\">35 mg/kg IV q24h<br>&nbsp;</td><td style=\"text-align:center;\">Not recommended</td></tr></tbody></table><p>&nbsp;*There may be alternative dosing strategies available or situations that may benefit from higher/lower dosing. Speak to ASP/ID pharmacy if needed.</p><p>At UCSF, there is an adult inpatient order panel available for use – Foscarnet (FOSCAVIR) IV Panel (adult)&nbsp;</p><p>IV Fluids: IV hydration lowers risk for nephrotoxicity and penile ulcerations. Give 750 - 1000 mL normal saline or 500 mL normal saline for doses ≤ 60 mg/kg before each dose.&nbsp;</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>CMV&nbsp;<br>(Treatment and Prophylaxis)*</td><td style=\"text-align:center;\">60 mg/kg IV post-HD</td><td style=\"text-align:center;\">Minimal data; consult ASP/ID pharmacy for assistance</td></tr><tr><td>Acyclovir-Resistant Mucocutaneous HSV*</td><td style=\"text-align:center;\">45 mg/kg IV post-HD</td><td style=\"text-align:center;\">Minimal data; consult ASP/ID pharmacy for assistance</td></tr></tbody></table><p>&nbsp;*There may be alternative dosing strategies available or situations that may benefit from higher/lower dosing. Speak to ASP/ID pharmacy if needed.</p><p>At UCSF, there is an adult inpatient order panel available for use – Foscarnet (FOSCAVIR) IV Panel (adult)&nbsp;</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>CMV&nbsp;<br>(Treatment and Prophylaxis)*</td><td style=\"text-align:center;\">60 mg/kg IV post-HD</td><td style=\"text-align:center;\">Minimal data; consult ASP/ID pharmacy for assistance</td></tr><tr><td>Acyclovir-Resistant Mucocutaneous HSV*</td><td style=\"text-align:center;\">45 mg/kg IV post-HD</td><td style=\"text-align:center;\">Minimal data; consult ASP/ID pharmacy for assistance</td></tr></tbody></table><p>&nbsp;*There may be alternative dosing strategies available or situations that may benefit from higher/lower dosing. Speak to ASP/ID pharmacy if needed.</p><p>At UCSF, there is an adult inpatient order panel available for use – Foscarnet (FOSCAVIR) IV Panel (adult)&nbsp;</p>"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 66,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d2274533-3b4b-403d-b6bd-9026f83daea2",
+   "url": "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 71,
+   "target_type": "taxonomy_term",
+   "target_uuid": "c1599761-33a0-49c5-9f32-634457a6fb3b",
+   "url": "/notations/id-r-ucsf"
+  },
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [
+  {
+   "format": "advanced",
+   "processed": "<p>Restricted to ID or Antimicrobial Stewardship except:&nbsp;</p><p>1) For treatment&nbsp;or&nbsp;prophylaxis against&nbsp;viral&nbsp;infection in HBC patients</p>",
+   "value": "<p>Restricted to ID or Antimicrobial Stewardship except:&nbsp;</p><p>1) For treatment&nbsp;or&nbsp;prophylaxis against&nbsp;viral&nbsp;infection in HBC patients</p>"
+  }
+ ],
+ "field_revision_notes": [
+  {
+   "value": "3/2025 : Deleted foscarnet dosing guidance PDF and re-formatted into IDMP dosing page, which included simplifying the supplemental information to focus on pre-hydration and emphasizing the use of the modified Cockcroft-Gault equation. Added ACV-resistant mucocutaneous HSV dosing recs -AL/EK/RJ\r\n04/16/25 (RJ):  Went live with this version that Aileen did\r\n04/2025 - RJ updated weight from TBW < 120% IBW to TBW, updated language around CMV to treatment/prophylaxis instead of induction/maintenance"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15736
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/foscarnet",
+   "langcode": "en",
+   "pid": 18051
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-16T22:50:45+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Foscarnet"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "0c9f4662-2c01-40e0-9f35-4928c7ab2ca6"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35561
+  }
+ ]
+}

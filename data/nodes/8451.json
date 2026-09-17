@@ -1,0 +1,147 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-01T20:37:19+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587523991,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T02:53:11+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th><b>CrCl &gt; 30 mL/min</b></th>\n\t\t\t<th><strong>&lt; 30 mL/min</strong></th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">20 mg/kg PO daily</p>\n\n\t\t\t<p style=\"text-align: center;\">For patients &gt;80 kg, contact ID pharmacy for dosing advice</p>\n\t\t\t</td>\n\t\t\t<td>20 mg/kg PO three times weekly</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Supplied as 500 mg tablets</p>\n\n<p>This dosing aligns with current practices at the SFDPH TB Clinic (as of 5/2025). For patients in&nbsp;other counties, contact the respective TB clinics for dosing recommendations.&nbsp;</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th><b>CrCl &gt; 30 mL/min</b></th>\r\n\t\t\t<th><strong>&lt; 30 mL/min</strong></th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align: center;\">20 mg/kg PO daily</p>\r\n\r\n\t\t\t<p style=\"text-align: center;\">For patients &gt;80 kg, contact ID pharmacy for dosing advice</p>\r\n\t\t\t</td>\r\n\t\t\t<td>20 mg/kg PO three times weekly</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Supplied as 500 mg tablets</p>\r\n\r\n<p>This dosing aligns with current practices at the SFDPH TB Clinic (as of 5/2025). For patients in&nbsp;other counties, contact the respective TB clinics for dosing recommendations.&nbsp;</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>20 mg/kg PO x 1 now and then post-HD</p>\n\n\t\t\t<p>For patients &gt;80 kg, contact ID pharmacy for dosing advice</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">20 mg/kg PO q24h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>20 mg/kg PO x 1 now and then post-HD</p>\r\n\r\n\t\t\t<p>For patients &gt;80 kg, contact ID pharmacy for dosing advice</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">20 mg/kg PO q24h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 1966,
+   "target_type": "taxonomy_term",
+   "target_uuid": "395e68a2-cf2b-4818-bba7-f04492a377c6",
+   "url": "/dosing-weights/adjusted-body-weight-when-bmi-30"
+  },
+  {
+   "target_id": 1971,
+   "target_type": "taxonomy_term",
+   "target_uuid": "bcbbb870-0eae-49a2-b24d-c4d8e65d1164",
+   "url": "/dosing-weights/total-body-weight-when-bmi"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "- For weight-based dosing, using BMI=30 as cutoff for obesity to be consistent with SFDPH TB clinic (9/2023). Updated by EK.\r\n- PZA dosing revised 5/2023 based on updated SFDPH TB clinic dosing. Updated by AR.\r\n- PZA wt. based dosing updated to align w/ SFDPH TB Clinic. Changes approved at IDMP Subcommittee Meeting 1/2023. Updated by AR."
+  },
+  {
+   "value": "5/2025: PZA dosing updated based on updated TB clinic dosing practices by AR."
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8451
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/pyrazinamide",
+   "langcode": "und",
+   "pid": 21336
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-01T20:37:19+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Pyrazinamide"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "264f63d9-0a25-48ea-af92-9ce68a677b6f"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22716
+  }
+ ]
+}

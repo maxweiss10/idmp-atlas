@@ -1,0 +1,112 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T00:24:19+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1631579059,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-06T19:48:17+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>Although the absolute maximum Amoxicillin dose is 4000 mg/day, we recommend the following for usual maximum dosing when targeting a high dose (80-90 mg/kg/day):&nbsp;</p>\n\n<ul>\n\t<li>Amoxicillin suspension - usual maximum 2000 mg/day = 1000 mg/dose bid&nbsp;</li>\n\t<li>Amoxicillin tablet - usual maximum 875 mg/dose or 1000 mg/dose (2 of the 500mg tablets)&nbsp;</li>\n\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{75}\" paraid=\"645193404\">Amoxicillin-clavulanate (Augmentin) suspension - usual maximum 2000 mg/day based on amoxicillin component.&nbsp;The recommended maximum dose of clavulanate component is 6.4 mg/kg/day. Different formulations are needed based on patient weight to keep within this recommended range.  &nbsp;\n\t<ul>\n\t\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{86}\" paraid=\"1821478039\">If patient weight &lt; 40kg, use Augmentin-ES 600 mg/5ml formulation &nbsp;</li>\n\t\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{93}\" paraid=\"650863318\">If patient weight &gt;= 40kg, use regular Augmentin 400 mg/ml formulation&nbsp;</li>\n\t</ul>\n\t</li>\n\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{100}\" paraid=\"1671128949\">Amoxicillin-clavulanate (Augmentin) tablet&nbsp;\n\t<ul>\n\t\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{107}\" paraid=\"1541204682\">Usual maximum 875 mg amoxicillin/dose bid&nbsp;</li>\n\t\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{114}\" paraid=\"1160259537\">For acute bacterial sinusitis with high-risk features such as systemic illness, fever 39C or higher, or immunocompromised host, use maximum dose of 2000 mg amoxicillin/dose bid (2 of the 1000 mg XR tablets)&nbsp;</li>\n\t</ul>\n\t</li>\n</ul>\n",
+   "value": "<p>Although the absolute maximum Amoxicillin dose is 4000 mg/day, we recommend the following for usual maximum dosing when targeting a high dose (80-90 mg/kg/day):&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Amoxicillin suspension - usual maximum 2000 mg/day = 1000 mg/dose bid&nbsp;</li>\r\n\t<li>Amoxicillin tablet - usual maximum 875 mg/dose or 1000 mg/dose (2 of the 500mg tablets)&nbsp;</li>\r\n\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{75}\" paraid=\"645193404\">Amoxicillin-clavulanate (Augmentin) suspension - usual maximum 2000 mg/day based on amoxicillin component.&nbsp;The recommended maximum dose of clavulanate component is 6.4 mg/kg/day. Different formulations are needed based on patient weight to keep within this recommended range.  &nbsp;\r\n\t<ul>\r\n\t\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{86}\" paraid=\"1821478039\">If patient weight &lt; 40kg, use Augmentin-ES 600 mg/5ml formulation &nbsp;</li>\r\n\t\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{93}\" paraid=\"650863318\">If patient weight &gt;= 40kg, use regular Augmentin 400 mg/ml formulation&nbsp;</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{100}\" paraid=\"1671128949\">Amoxicillin-clavulanate (Augmentin) tablet&nbsp;\r\n\t<ul>\r\n\t\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{107}\" paraid=\"1541204682\">Usual maximum 875 mg amoxicillin/dose bid&nbsp;</li>\r\n\t\t<li paraeid=\"{86abb96f-66e3-4223-9aec-d63d69e4142f}{114}\" paraid=\"1160259537\">For acute bacterial sinusitis with high-risk features such as systemic illness, fever 39C or higher, or immunocompromised host, use maximum dose of 2000 mg amoxicillin/dose bid (2 of the 1000 mg XR tablets)&nbsp;</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13576
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/maximum-dosing-for-amoxicillin-and-amoxicillin-clavulanate-0",
+   "langcode": "und",
+   "pid": 26231
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T00:24:19+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Maximum Dosing for Amoxicillin and Amoxicillin-Clavulanate "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "102f22d0-bd77-41b8-9e95-feef945d4a7d"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16161
+  }
+ ]
+}

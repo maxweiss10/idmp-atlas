@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T23:25:17+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629847517,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T18:43:14+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Dental infection</td>\n\t\t\t<td>Streptococci, oral anaerobes &nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{204}\" paraid=\"74653282\">Amoxicillin 22.5 mg/kg/dose (max 875 mg/dose) enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{214}\" paraid=\"1650259075\"><strong>Inpatient with severe infection (plan to transition to enteral therapy upon improvement)</strong>:&nbsp;&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{224}\" paraid=\"871283513\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{231}\" paraid=\"1754350869\"><strong>If insufficient response to first choice therapy</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{243}\" paraid=\"687582438\"><em>Change</em> to Amoxicillin-clavulanate (Augmentin) 22.5 mg amoxicillin/kg/ dose (max 875 mg amoxicillin/dose) enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{255}\" paraid=\"1339324871\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{12}\" paraid=\"587010844\">Clindamycin<br>\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{19}\" paraid=\"1641209275\">Consult Dentistry&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{29}\" paraid=\"1778260039\">*See&nbsp;guidance on <a href=\"/content/maximum-dosing-for-amoxicillin-and-amoxicillin-clavulanate-0\">Amoxicillin-Clavulanate maximum dosing and formulations</a>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{43}\" paraid=\"751230009\"><strong>Duration</strong>:&nbsp;3-7 days, individualized for more complicated infections &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Dental infection</td>\r\n\t\t\t<td>Streptococci, oral anaerobes &nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{204}\" paraid=\"74653282\">Amoxicillin 22.5 mg/kg/dose (max 875 mg/dose) enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{214}\" paraid=\"1650259075\"><strong>Inpatient with severe infection (plan to transition to enteral therapy upon improvement)</strong>:&nbsp;&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{224}\" paraid=\"871283513\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{231}\" paraid=\"1754350869\"><strong>If insufficient response to first choice therapy</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{243}\" paraid=\"687582438\"><em>Change</em> to Amoxicillin-clavulanate (Augmentin) 22.5 mg amoxicillin/kg/ dose (max 875 mg amoxicillin/dose) enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fda1c6da-4bc7-4c9f-b0e0-53533e4161fa}{255}\" paraid=\"1339324871\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{12}\" paraid=\"587010844\">Clindamycin<br />\r\n\t\t\t10 mg/kg/dose (max 600 mg/dose) enterally tid &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{19}\" paraid=\"1641209275\">Consult Dentistry&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{29}\" paraid=\"1778260039\">*See&nbsp;guidance on <a href=\"/node/13576\">Amoxicillin-Clavulanate maximum dosing and formulations</a>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{c9357191-5ae2-4357-a08f-6a88f18d6d7b}{43}\" paraid=\"751230009\"><strong>Duration</strong>:&nbsp;3-7 days, individualized for more complicated infections &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Reference:&nbsp;</h2>\n\n<p>Lockhart PB, et al. <a href=\"https://jada.ada.org/article/S0002-8177(19)30617-8/fulltext\">Evidence-based clinical practice guideline on antibiotic use for the urgent management of pulpal- and periapical-related dental pain and intraoral swelling: a report from the American Dental Association</a>. J Am Dental Assoc 2019;150:906-21. </p>\n",
+   "value": "<h2>Reference:&nbsp;</h2>\r\n\r\n<p>Lockhart PB, et al. <a href=\"https://jada.ada.org/article/S0002-8177(19)30617-8/fulltext\">Evidence-based clinical practice guideline on antibiotic use for the urgent management of pulpal- and periapical-related dental pain and intraoral swelling: a report from the American Dental Association</a>. J Am Dental Assoc 2019;150:906-21. </p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13381
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/dental-infection",
+   "langcode": "und",
+   "pid": 26036
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T23:25:17+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Dental Infection"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "f6117a50-2a97-4b64-8725-52f062b566a9"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15966
+  }
+ ]
+}

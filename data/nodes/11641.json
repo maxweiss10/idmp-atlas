@@ -1,0 +1,152 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-07T23:19:11+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1597338705,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-13T17:11:45+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th style=\"text-align: center;\">CrCl &gt;40 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">20-40 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">10-20 mL/min</th>\n\t\t\t<th style=\"text-align: center;\">&lt;10 mL/min</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td style=\"text-align: center;\">25 mg/kg PO q6h</td>\n\t\t\t<td style=\"text-align: center;\">25 mg/kg PO q12h</td>\n\t\t\t<td style=\"text-align: center;\">25 mg/kg PO q24h</td>\n\t\t\t<td style=\"text-align: center;\">25 mg/kg PO q48h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th style=\"text-align: center;\">CrCl &gt;40 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">20-40 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">10-20 mL/min</th>\r\n\t\t\t<th style=\"text-align: center;\">&lt;10 mL/min</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td style=\"text-align: center;\">25 mg/kg PO q6h</td>\r\n\t\t\t<td style=\"text-align: center;\">25 mg/kg PO q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">25 mg/kg PO q24h</td>\r\n\t\t\t<td style=\"text-align: center;\">25 mg/kg PO q48h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>All Indications</td>\n\t\t\t<td style=\"text-align: center;\">25 mg/kg PO x1 now and post-HD</td>\n\t\t\t<td style=\"text-align: center;\">No data; consult ID pharmacy</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>All Indications</td>\r\n\t\t\t<td style=\"text-align: center;\">25 mg/kg PO x1 now and post-HD</td>\r\n\t\t\t<td style=\"text-align: center;\">No data; consult ID pharmacy</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 2216,
+   "target_type": "taxonomy_term",
+   "target_uuid": "09ad452b-8a49-4b3b-a200-aebfdad460f9",
+   "url": "/dosing-weights/total-body-weight-when-less-ideal-body-weight"
+  },
+  {
+   "target_id": 61,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d09eed14-36aa-4e7c-9fb6-610433c3edc8",
+   "url": "/dosing-weights/adjusted-body-weight-when-patient-weight-120-ideal-body-weight"
+  },
+  {
+   "target_id": 56,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e4cd81a9-6f15-4e7b-93c9-c38e87110afe",
+   "url": "/dosing-weights/ideal-body-weight"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>If calculated dose exceeds 2000 mg, discuss with ID or ASP</p>\n",
+   "value": "<p>If calculated dose exceeds 2000 mg, discuss with ID or ASP</p>\r\n"
+  }
+ ],
+ "field_restriction_details": [],
+ "field_revision_notes": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 11641
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/flucytosine",
+   "langcode": "und",
+   "pid": 24361
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-07T23:19:11+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Flucytosine"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "8f428035-d2aa-403c-b796-366693b35a1b"
+  }
+ ],
+ "vid": [
+  {
+   "value": 23071
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-07-15T17:18:32+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1626369512,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-04T15:59:42+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Vertebral osteomyelitis<strong> without</strong> epidural abscess (no hardware in place)</td>\n\t\t\t<td>\n\t\t\t<p><em>S. aureus</em></p>\n\n\t\t\t<p>Streptococci (anaerobic or aerobic)</p>\n\n\t\t\t<p><em>E.coli</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong>If patient is stable, has negative blood cultures, and is without epidural abscess, withhold antibiotics until bone biopsy and consult ID </strong></p>\n\n\t\t\t<p><a href=\"/content/ceftriaxone\"><strong>Ceftriaxone</strong></a> 2g IV q24h</p>\n\n\t\t\t<p><em>PLUS</em></p>\n\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong>If patient is stable, has negative blood cultures, and is without epidural abscess, withhold antibiotics until bone biopsy and consult ID </strong></p>\n\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe PCN allergy</a></em>:</p>\n\n\t\t\t<p><a href=\"/content/aztreonam\"><strong>Aztreonam</strong></a> 2g IV q8h</p>\n\n\t\t\t<p><em>PLUS</em></p>\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>ID consultation recommended</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Vertebral osteomyelitis <strong>with </strong>epidural abscess (no hardware in place)<b> </b></td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>See <a href=\"/content/epidural-abscess\">Epidural Abscess</a></td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>ID consultation recommended</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Vertebral osteomyelitis<strong> without</strong> epidural abscess (no hardware in place)</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>S. aureus</em></p>\r\n\r\n\t\t\t<p>Streptococci (anaerobic or aerobic)</p>\r\n\r\n\t\t\t<p><em>E.coli</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>If patient is stable, has negative blood cultures, and is without epidural abscess, withhold antibiotics until bone biopsy and consult ID </strong></p>\r\n\r\n\t\t\t<p><a href=\"/node/8331\"><strong>Ceftriaxone</strong></a> 2g IV q24h</p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\r\n\t\t\t<p><a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>If patient is stable, has negative blood cultures, and is without epidural abscess, withhold antibiotics until bone biopsy and consult ID </strong></p>\r\n\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe PCN allergy</a></em>:</p>\r\n\r\n\t\t\t<p><a href=\"/node/8271\"><strong>Aztreonam</strong></a> 2g IV q8h</p>\r\n\r\n\t\t\t<p><em>PLUS</em></p>\r\n\t\t\t<a href=\"/content/vancomycin-iv\"><strong>Vancomycin</strong></a></td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>ID consultation recommended</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Vertebral osteomyelitis <strong>with </strong>epidural abscess (no hardware in place)<b> </b></td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>See <a href=\"/node/9006\">Epidural Abscess</a></td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>ID consultation recommended</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 126,
+   "target_type": "taxonomy_term",
+   "target_uuid": "2dc18f2f-531d-44e4-b6b4-15004f29d271",
+   "url": "/guidelines-empiric-therapy-categories/bone-joint-infections-without-hardware"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<p>2015 Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines for the Diagnosis and Treatment of Native Vertebral Osteomyelitis in Adults. Clinical Infectious Diseases, Volume 61, Issue 6, 15 September 2015, Pages e26–e46, <a data-feathr-click-track=\"true\" href=\"https://doi.org/10.1093/cid/civ482\" rel=\"noopener\" target=\"_blank\">https://doi.org/10.1093/cid/civ482</a></p>\n",
+   "value": "<p>2015 Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines for the Diagnosis and Treatment of Native Vertebral Osteomyelitis in Adults. Clinical Infectious Diseases, Volume 61, Issue 6, 15 September 2015, Pages e26–e46, <a data-feathr-click-track=\"true\" href=\"https://doi.org/10.1093/cid/civ482\" rel=\"noopener\" target=\"_blank\">https://doi.org/10.1093/cid/civ482</a></p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 9166
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/vertebral-osteomyelitis-no-hardware-in-place",
+   "langcode": "und",
+   "pid": 21931
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-07-15T17:18:32+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Vertebral Osteomyelitis (No Hardware in Place)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "fa5ef6cc-508f-48dc-9e42-bb88ec3c5230"
+  }
+ ],
+ "vid": [
+  {
+   "value": 9876
+  }
+ ]
+}

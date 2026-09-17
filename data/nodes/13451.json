@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:57:53+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633719473,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:45:13+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{244}\" paraid=\"1305638472\">Acute bacterial sinusitis&nbsp;</p>\n\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{254}\" paraid=\"2091387562\">Diagnosed based on acute upper respiratory illness with:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{9}\" paraid=\"312772462\">Persistent rhinorrhea or daytime cough lasting &gt;=10 days and not improving &nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{19}\" paraid=\"486396595\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{29}\" paraid=\"757499355\">Substantially worsening course after initial improvement&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{39}\" paraid=\"1535475782\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{49}\" paraid=\"1499033436\">Severe symptoms at onset: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{59}\" paraid=\"1776761361\">T &gt;= 39C&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{69}\" paraid=\"1573242110\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{79}\" paraid=\"1762308844\">Purulent nasal discharge for at least 3 consecutive days&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{86}\" paraid=\"1518267120\"><em>Streptococcus pneumoniae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{92}\" paraid=\"1376249320\"><em>Haemophilus influenzae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{106}\" paraid=\"253085142\"><em>Moraxella catarrhalis</em>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{112}\" paraid=\"1364420966\"> &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{119}\" paraid=\"134173417\">Recommend initial observation without antibiotic therapy if diagnosis is made only based on persistence of rhinorrhea or cough - many patients improve without antibiotic therapy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{129}\" paraid=\"77717147\"><strong>Non-severe symptoms</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{139}\" paraid=\"321310438\">Amoxicillin &nbsp;<br>\n\t\t\t45 mg/kg/dose (max 1000 mg/dose)* enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{155}\" paraid=\"43059684\">------------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{161}\" paraid=\"288696250\"><strong>Severe symptoms (see 1st&nbsp;&nbsp;column)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{177}\" paraid=\"924766306\">Amoxicillin-clavulanate (Augmentin)<br>\n\t\t\t45 mg amoxicillin/kg/dose (max 2000 mg amoxicillin/dose)*  enterally bid &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{184}\" paraid=\"875373205\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin allergy with lower risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{194}\" paraid=\"1457744450\"><a href=\"/content/oral-cephalosporin-options-for-respiratory-tract-infections\">Oral cephalosporin</a>&nbsp;(follow link for options)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{202}\" paraid=\"1836071819\">---------------------&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{212}\" paraid=\"1180000583\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{222}\" paraid=\"297530672\">Consult ID/ASP &nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{228}\" paraid=\"1924788231\">Azithromycin is not recommended for this indication.&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{239}\" paraid=\"1799334634\"><strong>Duration</strong>:&nbsp;Typical treatment duration is 10 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{251}\" paraid=\"619849074\">*See guidance on <a href=\"/content/maximum-dosing-for-amoxicillin-and-amoxicillin-clavulanate-0\">maximum dosing of Amoxicillin and Amoxicillin-Clavulanate</a>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{6}\" paraid=\"2022915893\">Refer to&nbsp;<a href=\"/content/intracranial-abscess\">Intracranial Abscess</a>&nbsp;section if intracranial complication or&nbsp;Orbital Cellulitis&nbsp;section if orbital extension&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{244}\" paraid=\"1305638472\">Acute bacterial sinusitis&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{7da3f295-f5b9-44c0-b763-f544601ed501}{254}\" paraid=\"2091387562\">Diagnosed based on acute upper respiratory illness with:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{9}\" paraid=\"312772462\">Persistent rhinorrhea or daytime cough lasting &gt;=10 days and not improving &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{19}\" paraid=\"486396595\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{29}\" paraid=\"757499355\">Substantially worsening course after initial improvement&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{39}\" paraid=\"1535475782\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{49}\" paraid=\"1499033436\">Severe symptoms at onset: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{59}\" paraid=\"1776761361\">T &gt;= 39C&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{69}\" paraid=\"1573242110\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{79}\" paraid=\"1762308844\">Purulent nasal discharge for at least 3 consecutive days&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{86}\" paraid=\"1518267120\"><em>Streptococcus pneumoniae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{92}\" paraid=\"1376249320\"><em>Haemophilus influenzae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{106}\" paraid=\"253085142\"><em>Moraxella catarrhalis</em>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{112}\" paraid=\"1364420966\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{119}\" paraid=\"134173417\">Recommend initial observation without antibiotic therapy if diagnosis is made only based on persistence of rhinorrhea or cough - many patients improve without antibiotic therapy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{129}\" paraid=\"77717147\"><strong>Non-severe symptoms</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{139}\" paraid=\"321310438\">Amoxicillin &nbsp;<br />\r\n\t\t\t45 mg/kg/dose (max 1000 mg/dose)* enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{155}\" paraid=\"43059684\">------------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{161}\" paraid=\"288696250\"><strong>Severe symptoms (see 1st&nbsp;&nbsp;column)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{177}\" paraid=\"924766306\">Amoxicillin-clavulanate (Augmentin)<br />\r\n\t\t\t45 mg amoxicillin/kg/dose (max 2000 mg amoxicillin/dose)*  enterally bid &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{184}\" paraid=\"875373205\"><a href=\"/node/13556\"><strong>Penicillin allergy with lower risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{194}\" paraid=\"1457744450\"><a href=\"/node/13691\">Oral cephalosporin</a>&nbsp;(follow link for options)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{202}\" paraid=\"1836071819\">---------------------&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{212}\" paraid=\"1180000583\"><a href=\"/node/13556\"><strong>Penicillin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{222}\" paraid=\"297530672\">Consult ID/ASP &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{228}\" paraid=\"1924788231\">Azithromycin is not recommended for this indication.&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{239}\" paraid=\"1799334634\"><strong>Duration</strong>:&nbsp;Typical treatment duration is 10 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{43c2ab77-5b5e-482f-b264-e289995ea989}{251}\" paraid=\"619849074\">*See guidance on <a href=\"/node/13576\">maximum dosing of Amoxicillin and Amoxicillin-Clavulanate</a>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{6}\" paraid=\"2022915893\">Refer to&nbsp;<a href=\"/node/13331\">Intracranial Abscess</a>&nbsp;section if intracranial complication or&nbsp;Orbital Cellulitis&nbsp;section if orbital extension&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{28}\" paraid=\"123771731\">References</h2>\n\n<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{34}\" paraid=\"540242670\">Wald, ER,&nbsp;et al.&nbsp;<a href=\"http://pediatrics.aappublications.org/content/pediatrics/early/2013/06/19/peds.2013-1071.full.pdf\">Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years</a>.&nbsp;Pediatrics&nbsp;2013;132:e262-e280.&nbsp;</p>\n\n<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{52}\" paraid=\"548113131\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n\n<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{80}\" paraid=\"2115178968\"><a href=\"https://www.choosingwisely.org/clinician-lists/american-academy-family-physicians-antibiotics-for-sinusitis/\">American Academy of Family Physicians Choosing Wisely Recommendation</a> (updated 2018).</p>\n\n<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{88}\" paraid=\"1017151906\"><a href=\"https://www.choosingwisely.org/clinician-lists/acep-antibiotics-in-the-ed-for-sinusitis/\">American College of Emergency Physicians Choosing Wisely Recommendation</a> (2014).</p>\n\n<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{96}\" paraid=\"1956243599\">&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{28}\" paraid=\"123771731\">References</h2>\r\n\r\n<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{34}\" paraid=\"540242670\">Wald, ER,&nbsp;et al.&nbsp;<a href=\"http://pediatrics.aappublications.org/content/pediatrics/early/2013/06/19/peds.2013-1071.full.pdf\">Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years</a>.&nbsp;Pediatrics&nbsp;2013;132:e262-e280.&nbsp;</p>\r\n\r\n<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{52}\" paraid=\"548113131\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n\r\n<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{80}\" paraid=\"2115178968\"><a href=\"https://www.choosingwisely.org/clinician-lists/american-academy-family-physicians-antibiotics-for-sinusitis/\">American Academy of Family Physicians Choosing Wisely Recommendation</a> (updated 2018).</p>\r\n\r\n<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{88}\" paraid=\"1017151906\"><a href=\"https://www.choosingwisely.org/clinician-lists/acep-antibiotics-in-the-ed-for-sinusitis/\">American College of Emergency Physicians Choosing Wisely Recommendation</a> (2014).</p>\r\n\r\n<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{96}\" paraid=\"1956243599\">&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13451
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/acute-bacterial-sinusitis-0",
+   "langcode": "und",
+   "pid": 26106
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T18:57:53+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Acute Bacterial Sinusitis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "51efc23c-a5af-41e2-990a-7128ed6c90dd"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16036
+  }
+ ]
+}

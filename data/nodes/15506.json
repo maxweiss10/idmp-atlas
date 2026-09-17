@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-08T18:25:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1732559692,
+   "last_comment_uid": 566,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-11-25T18:34:52+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": false
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td><p>&nbsp;<em>Pneumocystis&nbsp;</em>pneumonia (PROPHYLAXIS)</p><p><a href=\"https://idmp.ucsf.edu/content/pneumocystis-prophylaxis\">Pneumocystis Prophylaxis Guidelines</a></p></td><td>100 mg PO Q24H&nbsp;</td><td><p>Use in patients who are intolerant of sulfa</p><p>No renal adjustment&nbsp;</p><p>Rule out G6PD deficiency prior to treatment initiation</p><p>Dapsone monotherapy&nbsp;does not provide prophylaxis for <em>Toxoplasmosis</em></p></td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td><p>&nbsp;<em>Pneumocystis&nbsp;</em>pneumonia (PROPHYLAXIS)</p><p><a href=\"https://idmp.ucsf.edu/content/pneumocystis-prophylaxis\">Pneumocystis Prophylaxis Guidelines</a></p></td><td>100 mg PO Q24H&nbsp;</td><td><p>Use in patients who are intolerant of sulfa</p><p>No renal adjustment&nbsp;</p><p>Rule out G6PD deficiency prior to treatment initiation</p><p>Dapsone monotherapy&nbsp;does not provide prophylaxis for <em>Toxoplasmosis</em></p></td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td><p>&nbsp;<em>Pneumocystis&nbsp;</em>pneumonia (PROPHYLAXIS)</p><p><a href=\"https://idmp.ucsf.edu/content/pneumocystis-prophylaxis\">Pneumocystis Prophylaxis Guidelines</a></p></td><td>100 mg PO Q24H&nbsp;</td><td><p>Use in patients who are intolerant of sulfa</p><p>No renal adjustment&nbsp;</p><p>Rule out G6PD deficiency prior to treatment initiation</p><p>Dapsone monotherapy&nbsp;does not provide prophylaxis for <em>Toxoplasmosis</em></p></td></tr></tbody></table>",
+   "value": "<table><thead><tr><th>Indication</th><th>Dose</th><th>Notes</th></tr></thead><tbody><tr><td><p>&nbsp;<em>Pneumocystis&nbsp;</em>pneumonia (PROPHYLAXIS)</p><p><a href=\"https://idmp.ucsf.edu/content/pneumocystis-prophylaxis\">Pneumocystis Prophylaxis Guidelines</a></p></td><td>100 mg PO Q24H&nbsp;</td><td><p>Use in patients who are intolerant of sulfa</p><p>No renal adjustment&nbsp;</p><p>Rule out G6PD deficiency prior to treatment initiation</p><p>Dapsone monotherapy&nbsp;does not provide prophylaxis for <em>Toxoplasmosis</em></p></td></tr></tbody></table>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "RJ created on 11/25/2024 \r\nRJ modified on 02/13/2025 Rule out G6PD deficiency prior to treatment initiation language per Amanda Roy and Will Simmons approval "
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15506
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/dapsone",
+   "langcode": "und",
+   "pid": 28061
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-08T18:25:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Dapsone"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "12a1c8f6-0b20-4ed1-8ced-c877b1180744"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24466
+  }
+ ]
+}

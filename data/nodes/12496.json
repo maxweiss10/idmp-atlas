@@ -1,0 +1,235 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1756039886,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-09-05T22:19:20+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": true
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 1
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "Vivek Jain"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [
+  {
+   "value": "415-476-6953"
+  }
+ ],
+ "field_person_first_name": [
+  {
+   "value": "Vivek"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 591,
+   "target_type": "media",
+   "target_uuid": "d6e15b60-c37f-49fe-b39d-016c3bc54738",
+   "url": "/media/591"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Jain"
+  }
+ ],
+ "field_person_middle_name": [],
+ "field_person_preferred_name": [
+  {
+   "value": "Vivek"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1556,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e30631d7-852e-4d46-99c1-2fed9a630c29",
+   "url": "/departments-units-and-organizations/mmed-zsfg-aids"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [
+  {
+   "target_id": 21001,
+   "target_type": "node",
+   "target_uuid": "d002324b-bb09-4932-8db2-ad46235bf061",
+   "url": "/content/the-role-of-the-popliteal-angle-as-an-indicator-for-hamstring-lengthening-to-treat-a-flexed-knee"
+  }
+ ],
+ "field_person_research_biography": [
+  {
+   "format": "plain_text",
+   "processed": "<p>Vivek Jain, MD, MAS, FIDSA is a Professor of Medicine and Infectious Diseases in the Division of HIV, Infectious Diseases &amp; Global Medicine at San Francisco General Hospital (SFGH) at the University of California, San Francisco (UCSF). </p>\n<p>Dr. Jain is an infectious disease specialist focused on HIV, general infectious diseases, and internal medicine. He is the director of the SFGH Infectious Diseases Clinic, where he sees outpatients, and directs the clinic home-based antibiotics program. Dr. Jain also serves as an attending physician on the Infectious Diseases Consult Service and serves as an HIV-focused primary care doctor in the Positive Health Practice Clinic of SFGH.</p>\n<p>Dr. Jain is also co-director of the SFGH Infection Control and Prevention Team, and oversees clinical operations of the COVID-19 team. Dr. Jain also directs COVID-19 outpatient therapies, including a telemedicine program for COVID-19 patients to access rapid therapy, and an on-campus treatment program. He also conducts research on COVID-19 epidemiology, clinical presentations and outcomes, and implementation science models for optimal COVID-19 therapeutic strategies.</p>\n<p>Dr. Jain has also conducted implementation science research on HIV antiretroviral therapy (ART) delivery in resource limited settings, working with collaborators at Makerere University and the Infectious Diseases Research Collaboration (IDRC) in Kampala, Uganda and in Kenya. Research has included studies of early diagnosis and immediate/early treatment of HIV with antiretroviral therapy, and strategies for improving the use of HIV viral load tests and other infectious disease diagnostics for clinics and hospitals. Dr. Jain&#039;s research has included the EARLI Study (one of Africa&#039;s first studies of ART administration to individuals with high CD4+ T-cell counts), the SEARCH Study (a large cluster randomized trial of wide scale HIV testing and universal HIV ART in 32 communities in Uganda and Kenya), and the RAPID-VL Study (a cluster randomized trial of a novel combination intervention to optimize the way HIV viral load testing is performed in HIV clinics in Uganda).</p>\n<p>Dr. Jain is co-director of the Global Infectious Diseases course in the UCSF Global Health Sciences Master&#039;s Degree program, and lectures extensively on infectious diseases topics.</p>\n<p>Dr. Jain earned his undergraduate degree in Biochemistry from Harvard University, followed by his M.D. from Stanford University School of Medicine. He completed residency, chief residency, and infectious diseases fellowship at UCSF, and an M.A.S. degree in clinical research also at UCSF.</p>\n",
+   "value": "Vivek Jain, MD, MAS, FIDSA is a Professor of Medicine and Infectious Diseases in the Division of HIV, Infectious Diseases & Global Medicine at San Francisco General Hospital (SFGH) at the University of California, San Francisco (UCSF). \n\nDr. Jain is an infectious disease specialist focused on HIV, general infectious diseases, and internal medicine. He is the director of the SFGH Infectious Diseases Clinic, where he sees outpatients, and directs the clinic home-based antibiotics program. Dr. Jain also serves as an attending physician on the Infectious Diseases Consult Service and serves as an HIV-focused primary care doctor in the Positive Health Practice Clinic of SFGH.\n\nDr. Jain is also co-director of the SFGH Infection Control and Prevention Team, and oversees clinical operations of the COVID-19 team. Dr. Jain also directs COVID-19 outpatient therapies, including a telemedicine program for COVID-19 patients to access rapid therapy, and an on-campus treatment program. He also conducts research on COVID-19 epidemiology, clinical presentations and outcomes, and implementation science models for optimal COVID-19 therapeutic strategies.\n\nDr. Jain has also conducted implementation science research on HIV antiretroviral therapy (ART) delivery in resource limited settings, working with collaborators at Makerere University and the Infectious Diseases Research Collaboration (IDRC) in Kampala, Uganda and in Kenya. Research has included studies of early diagnosis and immediate/early treatment of HIV with antiretroviral therapy, and strategies for improving the use of HIV viral load tests and other infectious disease diagnostics for clinics and hospitals. Dr. Jain's research has included the EARLI Study (one of Africa's first studies of ART administration to individuals with high CD4+ T-cell counts), the SEARCH Study (a large cluster randomized trial of wide scale HIV testing and universal HIV ART in 32 communities in Uganda and Kenya), and the RAPID-VL Study (a cluster randomized trial of a novel combination intervention to optimize the way HIV viral load testing is performed in HIV clinics in Uganda).\n\nDr. Jain is co-director of the Global Infectious Diseases course in the UCSF Global Health Sciences Master's Degree program, and lectures extensively on infectious diseases topics.\n\nDr. Jain earned his undergraduate degree in Biochemistry from Harvard University, followed by his M.D. from Stanford University School of Medicine. He completed residency, chief residency, and infectious diseases fellowship at UCSF, and an M.A.S. degree in clinical research also at UCSF."
+  }
+ ],
+ "field_person_subtype": [
+  {
+   "target_id": 1231,
+   "target_type": "taxonomy_term",
+   "target_uuid": "6c622a9b-3476-45f3-9e1f-77f122d07acb",
+   "url": "/person-type/zuckerberg-san-francisco-general-hospital-trauma-center"
+  }
+ ],
+ "field_person_title_override": [],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 176,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee47c868-e940-4230-af11-2a747ae34b77",
+   "url": "/person-type/faculty"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 1511,
+   "target_type": "taxonomy_term",
+   "target_uuid": "26ba1f5b-b349-4dd8-9d44-a1c2597e55f1",
+   "url": "/person-type/rfs"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  },
+  {
+   "target_id": 1516,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8733d20e-3e92-4016-8d44-79f6911974d2",
+   "url": "/person-type/student"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_person_working_title": [
+  {
+   "value": "Professor of Clinical Medicine"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [],
+ "field_profiles_link": [
+  {
+   "options": {
+    "attributes": []
+   },
+   "title": "https://profiles.ucsf.edu/vivek.jain",
+   "uri": "https://profiles.ucsf.edu/vivek.jain"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 12496
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/vivek-jain-md-mas",
+   "langcode": "und",
+   "pid": 25166
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-24T12:51:26+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Vivek Jain, MD, MAS"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "9c0eaf60-df5e-45ac-bd29-8bfd6aa88905"
+  }
+ ],
+ "vid": [
+  {
+   "value": 14501
+  }
+ ]
+}

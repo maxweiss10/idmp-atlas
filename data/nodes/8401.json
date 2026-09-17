@@ -1,0 +1,138 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-30T22:12:43+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587519758,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T01:42:38+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{80e60109-ae40-4b61-98cf-027be1df061d}{244}\" paraid=\"322713853\">Short Infusion Dosing <strong>(PREFERRED)</strong></h2><table class=\"table\"><thead><tr><th>Indication</th><th>&gt; 50mL/min</th><th>26 - 50 mL/min</th><th>10 - 25 mL/min</th><th>&lt; 10mL/min</th></tr></thead><tbody><tr><td>Standard Dosing</td><td>1 g IV q8h</td><td>1 g IV q12h</td><td>500 mg IV q12h</td><td>500 mg IV q24h</td></tr><tr><td>Meningitis, Cystic Fibrosis</td><td>2 g IV q8h</td><td>2 g IV q12h</td><td>1 g IV Q12h</td><td>1 g IV q24h</td></tr></tbody></table><h2 paraeid=\"{80e60109-ae40-4b61-98cf-027be1df061d}{244}\" paraid=\"322713853\">Extended Infusion Dosing (if recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>)</h2><table class=\"table\"><thead><tr><th>Indication</th><th>&gt; 50mL/min</th><th>26 - 50 mL/min</th><th>&lt; 26 mL/min</th></tr></thead><tbody><tr><td>Loading Dose*</td><td>1 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>1 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>Use short infusion</td></tr><tr><td>Maintenance: Standard Dosing</td><td>1 g IV q8h<strong> (over 3 hours)</strong></td><td>1 g IV q12h&nbsp;<strong>(over 3 hours)</strong></td><td>Use short infusion</td></tr><tr><td>Maintenance: Meningitis**, Cystic Fibrosis</td><td>2 g IV q8h&nbsp;<strong>(over 3 hours)</strong></td><td>2 g IV q12h&nbsp;<strong>(over 3 hours)</strong></td><td>Use short infusion</td></tr></tbody></table><p paraeid=\"{2438cb60-eda2-49f3-9870-d22ea92d7f8c}{149}\" paraid=\"1294165342\">*A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving meropenem via short infusion. Recommended to start maintenance dose 4 hours after loading dose&nbsp;<br>**Extended infusion data in meningitis are limited and may require further discussion with ID/ASP providers&nbsp;</p>",
+   "value": "<h2 paraeid=\"{80e60109-ae40-4b61-98cf-027be1df061d}{244}\" paraid=\"322713853\">Short Infusion Dosing <strong>(PREFERRED)</strong></h2><table class=\"table\"><thead><tr><th>Indication</th><th>&gt; 50mL/min</th><th>26 - 50 mL/min</th><th>10 - 25 mL/min</th><th>&lt; 10mL/min</th></tr></thead><tbody><tr><td>Standard Dosing</td><td>1 g IV q8h</td><td>1 g IV q12h</td><td>500 mg IV q12h</td><td>500 mg IV q24h</td></tr><tr><td>Meningitis, Cystic Fibrosis</td><td>2 g IV q8h</td><td>2 g IV q12h</td><td>1 g IV Q12h</td><td>1 g IV q24h</td></tr></tbody></table><h2 paraeid=\"{80e60109-ae40-4b61-98cf-027be1df061d}{244}\" paraid=\"322713853\">Extended Infusion Dosing (if recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>)</h2><table class=\"table\"><thead><tr><th>Indication</th><th>&gt; 50mL/min</th><th>26 - 50 mL/min</th><th>&lt; 26 mL/min</th></tr></thead><tbody><tr><td>Loading Dose*</td><td>1 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>1 g x1&nbsp;<strong>(over 30 minutes)</strong></td><td>Use short infusion</td></tr><tr><td>Maintenance: Standard Dosing</td><td>1 g IV q8h<strong> (over 3 hours)</strong></td><td>1 g IV q12h&nbsp;<strong>(over 3 hours)</strong></td><td>Use short infusion</td></tr><tr><td>Maintenance: Meningitis**, Cystic Fibrosis</td><td>2 g IV q8h&nbsp;<strong>(over 3 hours)</strong></td><td>2 g IV q12h&nbsp;<strong>(over 3 hours)</strong></td><td>Use short infusion</td></tr></tbody></table><p paraeid=\"{2438cb60-eda2-49f3-9870-d22ea92d7f8c}{149}\" paraid=\"1294165342\">*A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving meropenem via short infusion. Recommended to start maintenance dose 4 hours after loading dose&nbsp;<br>**Extended infusion data in meningitis are limited and may require further discussion with ID/ASP providers&nbsp;</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\" style=\"font-family:HelveticaNeueLTW04-55Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;\"><thead><tr><th>Indication</th><th>Intermittent Hemodialysis</th><th>Continuous Hemodialysis (CVVHD)</th></tr></thead><tbody><tr><td>Standard Dosing</td><td>500 mg IV x1 now, then qPM</td><td>1 g IV q8h*</td></tr><tr><td>Cystic Fibrosis</td><td>1000 mg IV x1 now, then qPM</td><td>2 g IV q12h*^</td></tr><tr><td>Meningitis</td><td>1000 mg IV x1 now, then qPM</td><td>2 g IV q12h^</td></tr></tbody></table><p>*May infuse <strong>over 3&nbsp;hours</strong> (extended infusion dosing) if&nbsp;recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>. A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving meropenem via short infusion. If a loading dose is given,&nbsp;start maintenance dose 4 hours after loading dose.&nbsp;Note that extended infusion data in meningitis is limited and may require further discussion with ID/ASP providers.</p><p>^If CVVHD flow rate exceeds 2 L/hr, discuss with ID/ASP pharmacy.</p>",
+   "value": "<table class=\"table\" style=\"font-family:HelveticaNeueLTW04-55Roman, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;\"><thead><tr><th>Indication</th><th>Intermittent Hemodialysis</th><th>Continuous Hemodialysis (CVVHD)</th></tr></thead><tbody><tr><td>Standard Dosing</td><td>500 mg IV x1 now, then qPM</td><td>1 g IV q8h*</td></tr><tr><td>Cystic Fibrosis</td><td>1000 mg IV x1 now, then qPM</td><td>2 g IV q12h*^</td></tr><tr><td>Meningitis</td><td>1000 mg IV x1 now, then qPM</td><td>2 g IV q12h^</td></tr></tbody></table><p>*May infuse <strong>over 3&nbsp;hours</strong> (extended infusion dosing) if&nbsp;recommended by ID, ID pharmacy, or clinical pharmacy for <a href=\"/extendedinfusion\">select populations</a>. A loading dose (over 30 minutes) should be administered when initiating therapy, unless the patient is already receiving meropenem via short infusion. If a loading dose is given,&nbsp;start maintenance dose 4 hours after loading dose.&nbsp;Note that extended infusion data in meningitis is limited and may require further discussion with ID/ASP providers.</p><p>^If CVVHD flow rate exceeds 2 L/hr, discuss with ID/ASP pharmacy.</p>"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  }
+ ],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "8/19/22: changed meropenem HD dose for meningitis/CF to 1000mg x1 & qPM to align with Lexicomp\r\n8/2023: Added extended infusion dosing -EK\r\n5/2024: Changed CRRT dosing to 2 g, divided CNS infections & CF to avoid confusion re: EI -EK"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8401
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/meropenem",
+   "langcode": "und",
+   "pid": 21296
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-30T22:12:43+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Meropenem"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "8af41b2b-6ded-4533-baab-f6fee5d66948"
+  }
+ ],
+ "vid": [
+  {
+   "value": 35441
+  }
+ ]
+}

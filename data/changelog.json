@@ -1,0 +1,21 @@
+[
+ {
+  "run": "2026-09-17T08:06:29+00:00",
+  "events": [
+   {
+    "kind": "snapshot",
+    "count": 310,
+    "types": {
+     "page": 28,
+     "drug": 94,
+     "ucsf_person": 20,
+     "diagnosis": 84,
+     "guidelines": 67,
+     "other_person": 4,
+     "ucsf_publication": 13
+    }
+   }
+  ],
+  "problems": []
+ }
+]

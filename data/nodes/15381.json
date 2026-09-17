@@ -1,0 +1,133 @@
+{
+ "body": [],
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-09-04T23:29:59+00:00"
+  }
+ ],
+ "comment_node_other_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1725492599,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-09-04T23:25:35+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": false
+  }
+ ],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 97
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 396,
+   "target_type": "media",
+   "target_uuid": "b72db492-cc8c-4a00-b67f-e2f16f410c49",
+   "url": "/media/396"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_pub_override_list": [],
+ "field_person_subtype": [
+  {
+   "target_id": 716,
+   "target_type": "taxonomy_term",
+   "target_uuid": "35b504bb-b5f9-45f5-9122-be257c133c11",
+   "url": "/person-type/va-medical-center-san-francisco"
+  }
+ ],
+ "field_person_title_override": [
+  {
+   "value": "Antimicrobial Stewardship Program Manager"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_picture": [],
+ "field_role": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15381
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/clara-lee-pharmd-bcps",
+   "langcode": "und",
+   "pid": 27941
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-09-04T23:29:59+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Clara Lee, PharmD, BCPS"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "other_person",
+   "target_type": "node_type",
+   "target_uuid": "b9b538b1-c143-40c4-8e2f-aba53a4b44fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d7082060-6da1-4356-aebd-f66a5ec70300"
+  }
+ ],
+ "vid": [
+  {
+   "value": 19921
+  }
+ ]
+}

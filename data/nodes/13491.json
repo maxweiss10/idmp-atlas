@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:53:19+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629827599,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T21:26:32+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines) or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations. </p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Bacterial vaginosis, treatment in symptomatic patients&nbsp;</td>\n\t\t\t<td>Anaerobic bacteria&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{115}\" paraid=\"1157463615\">Metronidazole<br>\n\t\t\t500 mg enterally bid x 7 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{125}\" paraid=\"345390562\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{135}\" paraid=\"2108818560\">Metronidazole gel<br>\n\t\t\t0.75% one applicator (5 g) intravaginally at bedtime daily   &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Other treatment options exist for patients with contraindications to metronidazole; refer to CDC guidelines linked below, or SFDPH City Clinic protocol linked in comments&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{153}\" paraid=\"1529163339\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf\">SFDPH City Clinic STI&nbsp;protocols</a>&nbsp;section on bacterial vaginosis for recommended evaluation, additional STI testing, counseling (including to avoid alcohol consumption during treatment), and follow up&nbsp;</p>\n\n\t\t\t<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{175}\" paraid=\"1612243032\"><strong>Duration</strong>:&nbsp;7 days for systemic treatment (enteral), 5 days for intravaginal treatment&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines) or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations. </p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Bacterial vaginosis, treatment in symptomatic patients&nbsp;</td>\r\n\t\t\t<td>Anaerobic bacteria&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{115}\" paraid=\"1157463615\">Metronidazole<br />\r\n\t\t\t500 mg enterally bid x 7 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{125}\" paraid=\"345390562\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{135}\" paraid=\"2108818560\">Metronidazole gel<br />\r\n\t\t\t0.75% one applicator (5 g) intravaginally at bedtime daily   &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Other treatment options exist for patients with contraindications to metronidazole; refer to CDC guidelines linked below, or SFDPH City Clinic protocol linked in comments&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{153}\" paraid=\"1529163339\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf\">SFDPH City Clinic STI&nbsp;protocols</a>&nbsp;section on bacterial vaginosis for recommended evaluation, additional STI testing, counseling (including to avoid alcohol consumption during treatment), and follow up&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{76e2b6d5-945f-4711-9847-ec2fab96d660}{175}\" paraid=\"1612243032\"><strong>Duration</strong>:&nbsp;7 days for systemic treatment (enteral), 5 days for intravaginal treatment&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1c0d6bd7-8b96-483f-a5a7-d0a3a8ba07cf",
+   "url": "/guidelines-empiric-therapy-categories/sexually-transmitted-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2>Reference:&nbsp;</h2>\n\n<p>Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\n",
+   "value": "<h2>Reference:&nbsp;</h2>\r\n\r\n<p>Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13491
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/bacterial-vaginosis",
+   "langcode": "und",
+   "pid": 26146
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T17:53:19+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Bacterial Vaginosis "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "709cf06c-2f21-4441-9834-285d75537b34"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16076
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-26T22:30:19+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1630017019,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-26T22:28:59+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<p>This page provides links to metrics and other programmatic resources.&nbsp; Resources may require authentication to access.</p>\n\n<p><a href=\"/content/asp-adults-nhsn-au-dashboard\">UCSF Medical Center Antimicrobial Stewardship Program NHSN Antibiotic Use Dashboard</a></p>\n",
+   "value": "<p>This page provides links to metrics and other programmatic resources.&nbsp; Resources may require authentication to access.</p>\r\n\r\n<p><a href=\"/node/13636\">UCSF Medical Center Antimicrobial Stewardship Program NHSN Antibiotic Use Dashboard</a></p>\r\n"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13646
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/metrics",
+   "langcode": "und",
+   "pid": 26301
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-26T22:30:19+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Metrics"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "48dd4f04-9aff-4b32-a6bd-1944cbac9fb3"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16236
+  }
+ ]
+}

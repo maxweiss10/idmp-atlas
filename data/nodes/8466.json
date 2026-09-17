@@ -1,0 +1,151 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-20T21:44:40+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587573221,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T16:33:41+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th>CrCl &gt; 30 mL/min</th><th>15-30 mL/min</th><th>&lt; 15 mL/mi<strong>n</strong></th></tr></thead><tbody><tr><td>Skin &amp; soft tissue infection, urinary tract infection</td><td>1 DS tablet PO q12h​</td><td>1 DS tablet PO daily​</td><td>1 SS tablet PO daily</td></tr><tr><td>Bone and joint infections</td><td>8 mg TMP/kg/day divided q8-12h</td><td>4 mg TMP/kg/day divided q12-24h&nbsp;</td><td>2 mg TMP/kg q24h</td></tr><tr><td>Systemic GNR infections including <a href=\"/content/gram-negative-bloodstream-infection\">GNR Bloodstream Infection</a>,&nbsp;<em>Nocardia, Stenotrophomonas maltophilia*</em></td><td>10 mg TMP/kg/day divided q8-12h</td><td>5 mg TMP/kg/day divided q12-24h</td><td>2.5 mg TMP/kg q24h</td></tr><tr><td><em>Pneumocystis</em> pneumonia, CNS infections</td><td>15 mg TMP/kg/day divided q8 – 12h</td><td>7.5 mg TMP/kg/day&nbsp; divided q12-24h</td><td>5 mg TMP/kg q24h</td></tr><tr><td>Prophylaxis for<em> Pneumocystis</em> pneumonia (HIV/AIDS)&nbsp;</td><td>1 DS tablet PO daily</td><td>1 SS tablet PO daily</td><td>1 SS tablet PO thrice weekly</td></tr><tr><td>Prophylaxis for <em>Pneumocystis</em> pneumonia (Heme-BMT)</td><td>1 DS tablet PO thrice weekly</td><td style=\"text-align:center;\" colspan=\"2\" rowspan=\"1\">1 SS tablet PO thrice weekly&nbsp;</td></tr><tr><td>Prophylaxis for<em> Pneumocystis</em> pneumonia (SOT)</td><td style=\"text-align:center;\" colspan=\"3\" rowspan=\"1\">1 DS tablet PO thrice weekly</td></tr></tbody></table><p>*Certain clinical situations may require double coverage.&nbsp; If this is being considered, please contact adult ID or adult ASP.</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th>CrCl &gt; 30 mL/min</th><th>15-30 mL/min</th><th>&lt; 15 mL/mi<strong>n</strong></th></tr></thead><tbody><tr><td>Skin &amp; soft tissue infection, urinary tract infection</td><td>1 DS tablet PO q12h​</td><td>1 DS tablet PO daily​</td><td>1 SS tablet PO daily</td></tr><tr><td>Bone and joint infections</td><td>8 mg TMP/kg/day divided q8-12h</td><td>4 mg TMP/kg/day divided q12-24h&nbsp;</td><td>2 mg TMP/kg q24h</td></tr><tr><td>Systemic GNR infections including <a href=\"/content/gram-negative-bloodstream-infection\">GNR Bloodstream Infection</a>,&nbsp;<em>Nocardia, Stenotrophomonas maltophilia*</em></td><td>10 mg TMP/kg/day divided q8-12h</td><td>5 mg TMP/kg/day divided q12-24h</td><td>2.5 mg TMP/kg q24h</td></tr><tr><td><em>Pneumocystis</em> pneumonia, CNS infections</td><td>15 mg TMP/kg/day divided q8 – 12h</td><td>7.5 mg TMP/kg/day&nbsp; divided q12-24h</td><td>5 mg TMP/kg q24h</td></tr><tr><td>Prophylaxis for<em> Pneumocystis</em> pneumonia (HIV/AIDS)&nbsp;</td><td>1 DS tablet PO daily</td><td>1 SS tablet PO daily</td><td>1 SS tablet PO thrice weekly</td></tr><tr><td>Prophylaxis for <em>Pneumocystis</em> pneumonia (Heme-BMT)</td><td>1 DS tablet PO thrice weekly</td><td style=\"text-align:center;\" colspan=\"2\" rowspan=\"1\">1 SS tablet PO thrice weekly&nbsp;</td></tr><tr><td>Prophylaxis for<em> Pneumocystis</em> pneumonia (SOT)</td><td style=\"text-align:center;\" colspan=\"3\" rowspan=\"1\">1 DS tablet PO thrice weekly</td></tr></tbody></table><p>*Certain clinical situations may require double coverage.&nbsp; If this is being considered, please contact adult ID or adult ASP.</p>"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table class=\"table\"><thead><tr><th>Indication</th><th style=\"vertical-align:middle;\"><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>Skin &amp; soft tissue infection, urinary tract infection</td><td style=\"text-align:center;\">1 SS tablet PO x1 now then&nbsp;qPM</td><td style=\"text-align:center;\">1 DS tablet PO q12h</td></tr><tr><td>Bone and joint infections</td><td style=\"text-align:center;\">2 mg TMP/kg x1 now and qPM</td><td style=\"text-align:center;\">8 mg TMP/kg/day divided q8-12h</td></tr><tr><td>Systemic GNR Infections including<a href=\"/content/gram-negative-bloodstream-infection\">&nbsp;GNR Bloodstream Infection</a>,&nbsp;<em>Nocardia, Stenotrophomonas maltophilia*</em></td><td style=\"text-align:center;\">2.5 mg TMP/kg x1 now and qPM</td><td style=\"text-align:center;\">10 mg TMP/kg/day divided q8-12h</td></tr><tr><td><em>Pneumocystis</em> pneumonia, CNS infections</td><td style=\"text-align:center;\">5 TMP/kg IV x1 now and qPM</td><td style=\"text-align:center;\">15 mg TMP/kg/day IV divided q8h - q12h</td></tr><tr><td>Prophylaxis for<em> Pneumocystis</em> pneumonia (HIV/AIDS)</td><td style=\"text-align:center;\">1 SS tablet PO qPM</td><td style=\"text-align:center;\">1 DS tablet PO daily&nbsp;</td></tr><tr><td>Prophylaxis for <em>Pneumocystis </em>pneumonia (Heme-BMT)</td><td style=\"text-align:center;\">1 SS tablet PO thrice weekly&nbsp;</td><td style=\"text-align:center;\">1 DS tablet PO thrice weekly&nbsp;</td></tr><tr><td>Prophylaxis for&nbsp;<em>Pneumocystis </em>pneumonia (SOT)</td><td style=\"text-align:center;\" colspan=\"2\" rowspan=\"1\">1 DS tablet PO thrice weekly&nbsp;</td></tr></tbody></table><p>*Certain clinical situations may require double coverage.&nbsp; If this is being considered, please contact adult ID or adult ASP.</p>",
+   "value": "<table class=\"table\"><thead><tr><th>Indication</th><th style=\"vertical-align:middle;\"><p class=\"text-align-center\">Intermittent Hemodialysis</p></th><th style=\"text-align:center;\">Continuous Hemodialysis</th></tr></thead><tbody><tr><td>Skin &amp; soft tissue infection, urinary tract infection</td><td style=\"text-align:center;\">1 SS tablet PO x1 now then&nbsp;qPM</td><td style=\"text-align:center;\">1 DS tablet PO q12h</td></tr><tr><td>Bone and joint infections</td><td style=\"text-align:center;\">2 mg TMP/kg x1 now and qPM</td><td style=\"text-align:center;\">8 mg TMP/kg/day divided q8-12h</td></tr><tr><td>Systemic GNR Infections including<a href=\"/content/gram-negative-bloodstream-infection\">&nbsp;GNR Bloodstream Infection</a>,&nbsp;<em>Nocardia, Stenotrophomonas maltophilia*</em></td><td style=\"text-align:center;\">2.5 mg TMP/kg x1 now and qPM</td><td style=\"text-align:center;\">10 mg TMP/kg/day divided q8-12h</td></tr><tr><td><em>Pneumocystis</em> pneumonia, CNS infections</td><td style=\"text-align:center;\">5 TMP/kg IV x1 now and qPM</td><td style=\"text-align:center;\">15 mg TMP/kg/day IV divided q8h - q12h</td></tr><tr><td>Prophylaxis for<em> Pneumocystis</em> pneumonia (HIV/AIDS)</td><td style=\"text-align:center;\">1 SS tablet PO qPM</td><td style=\"text-align:center;\">1 DS tablet PO daily&nbsp;</td></tr><tr><td>Prophylaxis for <em>Pneumocystis </em>pneumonia (Heme-BMT)</td><td style=\"text-align:center;\">1 SS tablet PO thrice weekly&nbsp;</td><td style=\"text-align:center;\">1 DS tablet PO thrice weekly&nbsp;</td></tr><tr><td>Prophylaxis for&nbsp;<em>Pneumocystis </em>pneumonia (SOT)</td><td style=\"text-align:center;\" colspan=\"2\" rowspan=\"1\">1 DS tablet PO thrice weekly&nbsp;</td></tr></tbody></table><p>*Certain clinical situations may require double coverage.&nbsp; If this is being considered, please contact adult ID or adult ASP.</p>"
+  }
+ ],
+ "field_dosing_weights": [
+  {
+   "target_id": 66,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d2274533-3b4b-403d-b6bd-9026f83daea2",
+   "url": "/dosing-weights/use-total-body-weight-except-if-total-body-weight-120-ideal-body-weight-then-use"
+  }
+ ],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 76,
+   "target_type": "taxonomy_term",
+   "target_uuid": "4511a589-5232-4ab1-95de-bae41deb9968",
+   "url": "/notations/iv-po"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Single-strength (SS) tablet contains 80 mg trimethoprim (TMP)</p><p>Double-strength (DS) tablet contains 160 mg trimethoprim (TMP)</p><p>*May consider Total BW for serious infections</p><p><a href=\"https://idmp.ucsf.edu/content/pneumocystis-prophylaxis\">Pneumocystis Prophylaxis Guidelines</a></p>",
+   "value": "<p>Single-strength (SS) tablet contains 80 mg trimethoprim (TMP)</p><p>Double-strength (DS) tablet contains 160 mg trimethoprim (TMP)</p><p>*May consider Total BW for serious infections</p><p><a href=\"https://idmp.ucsf.edu/content/pneumocystis-prophylaxis\">Pneumocystis Prophylaxis Guidelines</a></p>"
+  }
+ ],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "Sarah Doernberg requested this in 07/2023\r\nUpdated the spelling of PJP and Nocardia \r\nRipal Jariwala completed on 08/2023\r\nEmily Kaip added \"CNS infections\" to HD dosing on 10/24/23\r\nRipal Jariwala updated on 04/24/24 - addition of Steno; removal of ranges; \r\n10/2024 - added commentary about the double coverage for Steno - per quarterly dosing meeting  - RJ \r\n11/2024 - RJ updated IDMP to add prophylaxis dosing for PJP for Heme-BMT/SOT per their current protocols\r\n05/2025 - RJ added TMP/SMX prophy for HIV per SFGH and Dosing Meeting on 04/2025\r\n6/6/26 AL - added dosing for Gram-negative Bloodstream Infection\r\n8/7/25 - Added SSTI & UTI dosing per 7/2025 dosing meeting discussion\r\n2/2026 - Added \"Kidney transplant recipients are to follow the KTU protocol, which includes an initial period of daily UTI prophylaxis before transitioning to standard, thrice-weekly PJP prophylaxis\", related to an IR -EK\r\n5/2026 - Removed above comment as KTU has changed their practices -EK"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8466
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/tmp-smx-trimethoprim-sulfamethoxazole",
+   "langcode": "und",
+   "pid": 21351
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-20T21:44:40+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "TMP/SMX (trimethoprim/sulfamethoxazole)"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5ebd2f94-ee27-449d-96de-3dffdc0354c3"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24891
+  }
+ ]
+}

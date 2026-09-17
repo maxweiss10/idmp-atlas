@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-04-11T19:01:08+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1712862068,
+   "last_comment_uid": 301,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-04-11T19:01:08+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<p>\n<div class=\"media-embed-resized media media--type-image media--view-mode-default\" height=\"3321\" style=\"width:2625px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/large/public/wysiwyg/IFD_Prolonged%20FN%20%282024%29.png.webp?itok=Ot_QseoY\" width=\"379\" height=\"480\" alt class=\"image-style-large\">\n\n\n\n\n  </div>\n\n</p>\n\n<p><a href=\"/pediatric-antimicrobial-dosing-benioff-childrens-hospitals\">Pediatric Antimicrobial Dosing Guidelines</a></p>\n\n<p><a href=\"/content/benioff-childrens-hospitals-guidelines-for-fever-in-patients-receiving-cancer-therapy-and-or\">UCSF Benioff Children's Hospitals Guidelines for Fever in Patients Receiving Cancer Therapy and/or Hematopoetic Transplantation</a></p>\n",
+   "value": "<p><drupal-media data-entity-type=\"media\" data-entity-uuid=\"98d4cf68-2fab-47b7-ba35-9c14fa12abac\" data-view-mode=\"default\" data-media-width=\"2625px\" alt height=\"3321\"></drupal-media></p>\n\n<p><a href=\"/node/7626\">Pediatric Antimicrobial Dosing Guidelines</a></p>\n\n<p><a href=\"/node/11941\">UCSF Benioff Children's Hospitals Guidelines for Fever in Patients Receiving Cancer Therapy and/or Hematopoetic Transplantation</a></p>\n"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15211
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/prolonged-fever-with-ongoing-neutropenia-algorithm-fever-in-pediatric-patients-receiving-cancer",
+   "langcode": "und",
+   "pid": 27776
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-04-11T19:01:08+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Prolonged Fever with Ongoing Neutropenia Algorithm: Fever in Pediatric Patients Receiving Cancer Therapy and/or Hematopoietic Transplantation"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "62571bf3-b245-415f-bda7-6667e6b956f2"
+  }
+ ],
+ "vid": [
+  {
+   "value": 19441
+  }
+ ]
+}

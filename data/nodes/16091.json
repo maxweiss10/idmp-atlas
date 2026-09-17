@@ -1,0 +1,118 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-07-30T01:12:49+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1766512574,
+   "last_comment_uid": 611,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-23T17:39:19+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-cke-media-resize-xl\" style=\"width:953px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_xl/public/img/1.1.png.webp?itok=drEjTms-\" width=\"1200\" height=\"700\" alt=\"Step 1: Initiate HAP/VAP antibiotics based on MRSA and pseudomonas risk factors\" class=\"image-style-cke-media-resize-xl\">\n\n\n\n\n  </div>\n\n\n<div class=\"image_resized media-embed-resized media media--type-image media--view-mode-cke-media-resize-xl\" style=\"width:875px;\">\n  \n          <img loading=\"lazy\" src=\"/sites/g/files/tkssra17776/files/styles/cke_media_resize_xl/public/img/3.png.webp?itok=ueC-s099\" width=\"1200\" height=\"1132\" alt=\"Step 2: Tailor HAP/VAP antibiotics based on additional data\" class=\"image-style-cke-media-resize-xl\">\n\n\n\n\n  </div>\n\n<p style=\"margin-bottom:0in;\">&nbsp;</p><p style=\"margin-bottom:0in;\"><span style=\"font-size:10.0pt;line-height:107%;\"><u>Antibiotic dosing for HAP/VAP</u> (refer to</span><a href=\"https://idmp.ucsf.edu/content/vasf-antimicrobial-guidebook\"><span style=\"font-size:10.0pt;line-height:107%;\">&nbsp;IV antimicrobial dosing section</span></a><span style=\"font-size:10.0pt;line-height:107%;\"> for renal dose adjustments and&nbsp;</span><a href=\"https://idmp.ucsf.edu/content/vasf-antimicrobial-guidebook\"><span style=\"font-size:10.0pt;line-height:107%;\">vancomycin dosing/monitoring </span></a><span style=\"font-size:10.0pt;line-height:107%;\">guidance in </span><a href=\"https://idmp.ucsf.edu/content/vasf-antimicrobial-guidebook\"><span style=\"font-size:10.0pt;line-height:107%;\">Antimicrobial guidebook</span></a><span style=\"font-size:10.0pt;line-height:107%;\">)</span></p><ul style=\"list-style-type:disc;\"><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"e35cffa76e99f09fc99c21934829af5ef\"><span style=\"font-size:10.0pt;line-height:107%;\">Piperacillin/tazobactam (pip/tazo) 4.5 gm IV q6h</span></li><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"eab44c43e2c563ad1f024f7caa6fd7aeb\"><span style=\"font-size:10.0pt;line-height:107%;\">Cefepime 2 gm IV q8h</span></li><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"eace2af0ff6e06576b2fd0f4611f22d4e\"><span style=\"font-size:10.0pt;line-height:107%;\">Ceftriaxone 2 gm IV q24h</span></li><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"e088c379a6c4cb729220921a76db169ed\"><span style=\"font-size:10.0pt;line-height:107%;\">Vancomycin 20 mg/kg&nbsp;</span><span style=\"font-size:10.0pt;line-height:107%;\" lang=\"PT-BR\">IV one-time loading dose + maintenance dose targeting AUC 500-600 mg*h/L </span><span style=\"font-size:10.0pt;line-height:107%;\"></span></li><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"ee9d6c5ad802850a19ecc821c5d1e17b8\"><span style=\"font-size:10.0pt;line-height:107%;\">Aztreonam 2 gm IV q8h</span></li><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"ec3aa7e3c79c578e86997ec5054ac282c\"><span style=\"font-size:10.0pt;line-height:107%;\">Levofloxacin 750 mg IV/PO q24h</span></li></ul><p>&nbsp;</p><p><span style=\"font-size:10.0pt;line-height:107%;\"><strong><u>VASF Respiratory Culture Considerations</u></strong></span></p><ul><li data-list-item-id=\"ecb23610f983b42b0770ac9a3f83339ed\"><span style=\"font-size:10.0pt;line-height:107%;\">Final results are available 2 days after collection (i.e., No further work up, or \"bacteriology final report\")</span></li><li data-list-item-id=\"ed7abf3f2132288621c1f2177cbc17cac\"><span style=\"font-size:10.0pt;line-height:107%;\">If additional work up is required, contact the micro lab to request organism ID and antibiotic susceptibilities</span></li><li data-list-item-id=\"e911eb412caa167664c41b1c25fc3232c\"><span style=\"font-size:10.0pt;line-height:107%;\">Micro lab will discard plates after 5 days</span></li></ul><p>&nbsp;</p><p style=\"margin-bottom:0in;\"><strong><u><span style=\"font-size:9.0pt;line-height:107%;text-decoration:none;\"></span></u></strong></p><p style=\"margin-bottom:0in;\"><strong><u><span style=\"font-size:9.0pt;line-height:107%;text-decoration:none;\"></span></u></strong></p><p style=\"margin-bottom:0in;\"><strong><u><span style=\"font-size:9.0pt;line-height:107%;text-decoration:none;\"></span></u></strong></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\"><strong><u>Role and Interpretation of Methicillin-Resistant S. aureus (MRSA) Nares Results in Context of Hospital-Acquired and Ventilator-Associated Pneumonia (HAP/VAP)</u></strong></span></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\">Collecting a MRSA nares culture/PCR is recommended for all patients initiating anti-MRSA therapy (e.g. vancomycin) for suspected HAP or VAP.</span></p><p style=\"margin-bottom:0in;\">&nbsp;</p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\"></span></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\"><strong>How to interpret a&nbsp;<u>negative</u>&nbsp;MRSA nares result in patient with possible HAP/VAP:</strong></span></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\">A negative MRSA nares culture or PCR indicates the patient is less likely to be colonized with MRSA. Multiple studies indicate that a negative MRSA nares culture or PCR carries a high negative predictive value for MRSA pneumonia (&gt; 95%),<sup>3-6&nbsp;</sup>even when collected prior to onset of pneumonia.<sup>3,5&nbsp;</sup>If a patient’s MRSA nares is negative, their likelihood of having MRSA pneumonia is exceedingly low and anti-MRSA therapy (e.g. vancomycin) can reasonably be discontinued or withheld.</span></p><p style=\"margin-bottom:0in;\">&nbsp;</p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\"></span></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\"><strong>How to interpret a&nbsp;<u>positive</u>&nbsp;MRSA nares result in patient with possible HAP/VAP:</strong></span></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\">A positive MRSA nares culture or PCR indicates that the patient is colonized with MRSA. Patients with a known positive MRSA nares culture/PCR who develop a HAP or VAP should be initiated on antibiotics including empiric anti-MRSA therapy (e.g. vancomycin). However, antibiotics should be tailored to respiratory gram stain &amp; culture results. Stop vancomycin at 48 hours if no MRSA isolated from clinical cultures. If a patient's MRSA nares culture or PCR results positive after the patient has been started on antibiotics to treat HAP/VAP, no change in therapy is recommended (in other words – no need to add empiric anti-MRSA therapy) provided the patient is stable and clinically improving.</span></p>",
+   "value": "<drupal-media class=\"image_resized\" style=\"width:953px;\" data-entity-type=\"media\" data-entity-uuid=\"7501e69e-b881-405a-b1c1-5f94c807e3b9\" data-media-width=\"953px\">&nbsp;</drupal-media><drupal-media class=\"image_resized\" style=\"width:875px;\" data-entity-type=\"media\" data-entity-uuid=\"a53e37c2-d7ec-4b02-8608-a703ab01b792\" data-media-width=\"875px\">&nbsp;</drupal-media><p style=\"margin-bottom:0in;\">&nbsp;</p><p style=\"margin-bottom:0in;\"><span style=\"font-size:10.0pt;line-height:107%;\"><u>Antibiotic dosing for HAP/VAP</u> (refer to</span><a href=\"https://idmp.ucsf.edu/content/vasf-antimicrobial-guidebook\"><span style=\"font-size:10.0pt;line-height:107%;\">&nbsp;IV antimicrobial dosing section</span></a><span style=\"font-size:10.0pt;line-height:107%;\"> for renal dose adjustments and&nbsp;</span><a href=\"https://idmp.ucsf.edu/content/vasf-antimicrobial-guidebook\"><span style=\"font-size:10.0pt;line-height:107%;\">vancomycin dosing/monitoring </span></a><span style=\"font-size:10.0pt;line-height:107%;\">guidance in </span><a href=\"https://idmp.ucsf.edu/content/vasf-antimicrobial-guidebook\"><span style=\"font-size:10.0pt;line-height:107%;\">Antimicrobial guidebook</span></a><span style=\"font-size:10.0pt;line-height:107%;\">)</span></p><ul style=\"list-style-type:disc;\"><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"e35cffa76e99f09fc99c21934829af5ef\"><span style=\"font-size:10.0pt;line-height:107%;\">Piperacillin/tazobactam (pip/tazo) 4.5 gm IV q6h</span></li><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"eab44c43e2c563ad1f024f7caa6fd7aeb\"><span style=\"font-size:10.0pt;line-height:107%;\">Cefepime 2 gm IV q8h</span></li><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"eace2af0ff6e06576b2fd0f4611f22d4e\"><span style=\"font-size:10.0pt;line-height:107%;\">Ceftriaxone 2 gm IV q24h</span></li><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"e088c379a6c4cb729220921a76db169ed\"><span style=\"font-size:10.0pt;line-height:107%;\">Vancomycin 20 mg/kg&nbsp;</span><span style=\"font-size:10.0pt;line-height:107%;\" lang=\"PT-BR\">IV one-time loading dose + maintenance dose targeting AUC 500-600 mg*h/L </span><span style=\"font-size:10.0pt;line-height:107%;\"></span></li><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"ee9d6c5ad802850a19ecc821c5d1e17b8\"><span style=\"font-size:10.0pt;line-height:107%;\">Aztreonam 2 gm IV q8h</span></li><li style=\"margin-bottom:0in;margin-top:0in;\" data-list-item-id=\"ec3aa7e3c79c578e86997ec5054ac282c\"><span style=\"font-size:10.0pt;line-height:107%;\">Levofloxacin 750 mg IV/PO q24h</span></li></ul><p>&nbsp;</p><p><span style=\"font-size:10.0pt;line-height:107%;\"><strong><u>VASF Respiratory Culture Considerations</u></strong></span></p><ul><li data-list-item-id=\"ecb23610f983b42b0770ac9a3f83339ed\"><span style=\"font-size:10.0pt;line-height:107%;\">Final results are available 2 days after collection (i.e., No further work up, or \"bacteriology final report\")</span></li><li data-list-item-id=\"ed7abf3f2132288621c1f2177cbc17cac\"><span style=\"font-size:10.0pt;line-height:107%;\">If additional work up is required, contact the micro lab to request organism ID and antibiotic susceptibilities</span></li><li data-list-item-id=\"e911eb412caa167664c41b1c25fc3232c\"><span style=\"font-size:10.0pt;line-height:107%;\">Micro lab will discard plates after 5 days</span></li></ul><p>&nbsp;</p><p style=\"margin-bottom:0in;\"><strong><u><span style=\"font-size:9.0pt;line-height:107%;text-decoration:none;\"></span></u></strong></p><p style=\"margin-bottom:0in;\"><strong><u><span style=\"font-size:9.0pt;line-height:107%;text-decoration:none;\"></span></u></strong></p><p style=\"margin-bottom:0in;\"><strong><u><span style=\"font-size:9.0pt;line-height:107%;text-decoration:none;\"></span></u></strong></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\"><strong><u>Role and Interpretation of Methicillin-Resistant S. aureus (MRSA) Nares Results in Context of Hospital-Acquired and Ventilator-Associated Pneumonia (HAP/VAP)</u></strong></span></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\">Collecting a MRSA nares culture/PCR is recommended for all patients initiating anti-MRSA therapy (e.g. vancomycin) for suspected HAP or VAP.</span></p><p style=\"margin-bottom:0in;\">&nbsp;</p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\"></span></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\"><strong>How to interpret a&nbsp;<u>negative</u>&nbsp;MRSA nares result in patient with possible HAP/VAP:</strong></span></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\">A negative MRSA nares culture or PCR indicates the patient is less likely to be colonized with MRSA. Multiple studies indicate that a negative MRSA nares culture or PCR carries a high negative predictive value for MRSA pneumonia (&gt; 95%),<sup>3-6&nbsp;</sup>even when collected prior to onset of pneumonia.<sup>3,5&nbsp;</sup>If a patient’s MRSA nares is negative, their likelihood of having MRSA pneumonia is exceedingly low and anti-MRSA therapy (e.g. vancomycin) can reasonably be discontinued or withheld.</span></p><p style=\"margin-bottom:0in;\">&nbsp;</p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\"></span></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\"><strong>How to interpret a&nbsp;<u>positive</u>&nbsp;MRSA nares result in patient with possible HAP/VAP:</strong></span></p><p style=\"margin-bottom:0in;\"><span style=\"font-size:9.0pt;line-height:107%;\">A positive MRSA nares culture or PCR indicates that the patient is colonized with MRSA. Patients with a known positive MRSA nares culture/PCR who develop a HAP or VAP should be initiated on antibiotics including empiric anti-MRSA therapy (e.g. vancomycin). However, antibiotics should be tailored to respiratory gram stain &amp; culture results. Stop vancomycin at 48 hours if no MRSA isolated from clinical cultures. If a patient's MRSA nares culture or PCR results positive after the patient has been started on antibiotics to treat HAP/VAP, no change in therapy is recommended (in other words – no need to add empiric anti-MRSA therapy) provided the patient is stable and clinically improving.</span></p>"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [
+  {
+   "target_id": 31,
+   "target_revision_id": 51,
+   "target_type": "paragraph",
+   "target_uuid": "931d46af-8a9b-4818-9da4-2708c1e57f34"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 16091
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/vasf-stepwise-hospital-acquired-and-ventilator-associated-pneumonia-hap-vap-treatment-algorithm",
+   "langcode": "und",
+   "pid": 28706
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-12-23T17:53:19+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "VASF Stepwise Hospital Acquired and Ventilator Associated Pneumonia (HAP/VAP) Treatment Algorithm"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "4fd15cd0-7d3e-46e9-9246-721e565c3b26"
+  }
+ ],
+ "vid": [
+  {
+   "value": 24556
+  }
+ ]
+}

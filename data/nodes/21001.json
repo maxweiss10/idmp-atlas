@@ -1,0 +1,131 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "comment_node_ucsf_publication": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1782696201,
+   "last_comment_uid": 0,
+   "status": 0
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-11-27T08:00:00+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_publication_authorlist": [
+  {
+   "format": null,
+   "processed": "<p>Beltrame G, Palandjian PL, Jain V, Selber P</p>\n",
+   "value": "Beltrame G, Palandjian PL, Jain V, Selber P"
+  }
+ ],
+ "field_publication_id": [
+  {
+   "value": "https://researcherprofiles.org/profile/778637728"
+  }
+ ],
+ "field_publication_name": [
+  {
+   "target_id": 2256,
+   "target_type": "taxonomy_term",
+   "target_uuid": "46fbfacc-8fda-489b-a51f-5be8281c24c6",
+   "url": "/publications/journal-of-childrens-orthopaedics"
+  }
+ ],
+ "field_publication_pubmedid": [
+  {
+   "value": "41323577"
+  }
+ ],
+ "field_publication_title": [
+  {
+   "format": null,
+   "processed": "<p>Beltrame G, Palandjian PL, Jain V, Selber P. The role of the popliteal angle as an indicator for hamstring lengthening to treat a flexed knee gait in children with cerebral palsy: A systematic review. J Child Orthop. 2025 Nov 27; 18632521251396657.</p>\n",
+   "value": "Beltrame G, Palandjian PL, Jain V, Selber P. The role of the popliteal angle as an indicator for hamstring lengthening to treat a flexed knee gait in children with cerebral palsy: A systematic review. J Child Orthop. 2025 Nov 27; 18632521251396657."
+  }
+ ],
+ "field_publication_year": [
+  {
+   "value": "2025"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 21001
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/the-role-of-the-popliteal-angle-as-an-indicator-for-hamstring-lengthening-to-treat-a-flexed-knee",
+   "langcode": "und",
+   "pid": 34001
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-06-29T01:23:21+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "The role of the popliteal angle as an indicator for hamstring lengthening to treat a flexed knee gait in children with cerebral palsy: A systematic review."
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_publication",
+   "target_type": "node_type",
+   "target_uuid": "aab43f59-8b93-481f-9f49-a929dc92e1dd"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "d002324b-bb09-4932-8db2-ad46235bf061"
+  }
+ ],
+ "vid": [
+  {
+   "value": 29636
+  }
+ ]
+}

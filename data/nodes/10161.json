@@ -1,0 +1,234 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1756039884,
+   "last_comment_uid": 186,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-08-12T16:38:25+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": true
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 0
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "Katherine Yang"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [
+  {
+   "value": "415-476-6632"
+  }
+ ],
+ "field_person_first_name": [
+  {
+   "value": "Katherine"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 561,
+   "target_type": "media",
+   "target_uuid": "a8fa3fc5-3840-49b1-bd9a-25b192aa4524",
+   "url": "/media/561"
+  }
+ ],
+ "field_person_headshot_photo": [],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Yang"
+  }
+ ],
+ "field_person_middle_name": [
+  {
+   "value": "Y"
+  }
+ ],
+ "field_person_preferred_name": [
+  {
+   "value": "Katherine"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1521,
+   "target_type": "taxonomy_term",
+   "target_uuid": "36e47d56-ef11-41ab-b9ed-549c3ffc4955",
+   "url": "/departments-units-and-organizations/pclinical-pharmacy"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [
+  {
+   "target_id": 18221,
+   "target_type": "node",
+   "target_uuid": "66aeb79b-f90c-40eb-8c0e-e56804943d3f",
+   "url": "/content/expanding-the-pipeline-for-multipurpose-prevention-technologies-compounds-with-potential-activity-to"
+  }
+ ],
+ "field_person_research_biography": [
+  {
+   "format": "plain_text",
+   "processed": "<p>Kathy Yang, Pharm.D., MPH is a Health Sciences Clinical Professor in the Department of Clinical Pharmacy at the University of California (UCSF) School of Pharmacy and an Infectious Diseases Clinical Pharmacist in the UCSF Medical Center. Dr. Yang specializes in the treatment of multi-drug resistant infections, particularly gram negative bacteria such as Pseudomonas aeruginosa.  Her area of research focuses on the pharmacodynamic optimization of antibiotics for the treatment of biofilm-mediated infections such as cystic fibrosis.  </p>\n<p>Within the School of Pharmacy, Dr. Yang is involved in multiple aspects of the curriculum related to infectious diseases.  Dr. Yang is also the co-director of Foundations, the first course of the Pharm.D. curriculum.</p>\n",
+   "value": "Kathy Yang, Pharm.D., MPH is a Health Sciences Clinical Professor in the Department of Clinical Pharmacy at the University of California (UCSF) School of Pharmacy and an Infectious Diseases Clinical Pharmacist in the UCSF Medical Center. Dr. Yang specializes in the treatment of multi-drug resistant infections, particularly gram negative bacteria such as Pseudomonas aeruginosa.  Her area of research focuses on the pharmacodynamic optimization of antibiotics for the treatment of biofilm-mediated infections such as cystic fibrosis.  \n\nWithin the School of Pharmacy, Dr. Yang is involved in multiple aspects of the curriculum related to infectious diseases.  Dr. Yang is also the co-director of Foundations, the first course of the Pharm.D. curriculum."
+  }
+ ],
+ "field_person_subtype": [
+  {
+   "target_id": 641,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8e527da1-8c6c-44a7-8bc9-d8a3451fb862",
+   "url": "/person-type/ucsf-medical-center"
+  }
+ ],
+ "field_person_title_override": [],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 176,
+   "target_type": "taxonomy_term",
+   "target_uuid": "ee47c868-e940-4230-af11-2a747ae34b77",
+   "url": "/person-type/faculty"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_person_working_title": [
+  {
+   "value": "Professor"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [
+  {
+   "value": "Fellow, California Society of Health-Systems Pharmacists, 2006"
+  },
+  {
+   "value": "Long Prize for Excellence in Teaching, UCSF School of Pharmacy, 2005"
+  }
+ ],
+ "field_profiles_link": [
+  {
+   "options": {
+    "attributes": []
+   },
+   "title": "https://profiles.ucsf.edu/katherine.yang",
+   "uri": "https://profiles.ucsf.edu/katherine.yang"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 10161
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/katherine-yang-pharmd-mph",
+   "langcode": "und",
+   "pid": 22891
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-08-24T12:51:24+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Katherine Yang, PharmD, MPH"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "5d881304-bf32-4ec1-9cc6-6929f48d62c0"
+  }
+ ],
+ "vid": [
+  {
+   "value": 10936
+  }
+ ]
+}

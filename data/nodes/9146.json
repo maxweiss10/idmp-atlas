@@ -1,0 +1,119 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-01-30T19:24:05+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1706642645,
+   "last_comment_uid": 201,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-07-21T16:33:15+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Diagnosis</th>\n\t\t\t<th>Common Pathogens</th>\n\t\t\t<th>Drug(s) of First Choice</th>\n\t\t\t<th>Alternative Drug(s)</th>\n\t\t\t<th>Comments</th>\n\t\t\t<th>Expected Duration</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Acute Bacterial Sinusitis</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>Viruses<br>\n\t\t\t<em>Strep. pneumoniae<br>\n\t\t\tH. influenzae<br>\n\t\t\tM. catarrhalis</em></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong>Watchful waiting is appropriate in most patients as long as there is follow-up within 7 days or ability to initiate therapy prn if clinical worsening</strong><br>\n\t\t\t<em>OR</em><br>\n\t\t\t<a href=\"/content/amoxicillin-clavulanate\"><strong>Amoxicillin</strong></a> 500mg PO q8h</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><em>For <a href=\"/content/allergy-beta-lactam\">severe beta-lactam allergy</a></em>:<br>\n\t\t\t<strong><a href=\"/content/doxycycline\">Doxycycline </a></strong>100mg PO BID</p>\n\t\t\t</td>\n\t\t\t<td>Consider sinusitis treatment only in presence of fever, purulence or bloody discharge following an upper respiratory infection if symptoms persist for 7-10 days suggesting bacterial etiology.</td>\n\t\t\t<td>5 days</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Diagnosis</th>\r\n\t\t\t<th>Common Pathogens</th>\r\n\t\t\t<th>Drug(s) of First Choice</th>\r\n\t\t\t<th>Alternative Drug(s)</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t\t<th>Expected Duration</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Acute Bacterial Sinusitis</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Viruses<br />\r\n\t\t\t<em>Strep. pneumoniae<br />\r\n\t\t\tH. influenzae<br />\r\n\t\t\tM. catarrhalis</em></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Watchful waiting is appropriate in most patients as long as there is follow-up within 7 days or ability to initiate therapy prn if clinical worsening</strong><br />\r\n\t\t\t<em>OR</em><br />\r\n\t\t\t<a href=\"/node/8311\"><strong>Amoxicillin</strong></a> 500mg PO q8h</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><em>For <a href=\"/node/9856\">severe beta-lactam allergy</a></em>:<br />\r\n\t\t\t<strong><a href=\"/node/8346\">Doxycycline </a></strong>100mg PO BID</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Consider sinusitis treatment only in presence of fever, purulence or bloody discharge following an upper respiratory infection if symptoms persist for 7-10 days suggesting bacterial etiology.</td>\r\n\t\t\t<td>5 days</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1616,
+   "target_type": "taxonomy_term",
+   "target_uuid": "a74f67b1-b837-4814-968f-6b2b8b0cae67",
+   "url": "/patient-population/adult"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 9146
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/acute-bacterial-sinusitis",
+   "langcode": "und",
+   "pid": 21911
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-01-30T19:24:05+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Acute Bacterial Sinusitis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "ed7d1fba-c7fb-4291-8538-cbacac6c50de"
+  }
+ ],
+ "vid": [
+  {
+   "value": 9856
+  }
+ ]
+}

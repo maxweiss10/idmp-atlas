@@ -1,0 +1,112 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T00:13:17+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1631578397,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T00:13:17+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Weight</th>\n\t\t\t<th>PPI Dose Equivalents&nbsp;</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>15 to 24 kg&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{225}\" paraid=\"1728986605\">Esomeprazole (Nexium) 20 mg enterally twice&nbsp;daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{231}\" paraid=\"678072705\"><strong>OR&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{237}\" paraid=\"459064481\">Lansoprazole (Prevacid) 15 mg enterally twice&nbsp;daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{243}\" paraid=\"1357906405\"><strong>OR &nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{249}\" paraid=\"579177185\">Omeprazole (Prilosec) 20 mg enterally twice&nbsp;daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{255}\" paraid=\"2016257961\"><strong>OR&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{6}\" paraid=\"176552705\">Pantoprazole (Protonix) 20 mg enterally twice&nbsp;daily&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>25 to 34 kg&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{21}\" paraid=\"231021760\">Esomeprazole (Nexium) 30 mg enterally twice&nbsp;daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{27}\" paraid=\"1575790361\"><strong>OR&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{33}\" paraid=\"1523798146\">Lansoprazole (Prevacid) 30 mg enterally twice&nbsp;daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{39}\" paraid=\"2009362605\"><strong>OR</strong>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{45}\" paraid=\"1176738509\">Omeprazole (Prilosec) 30 mg enterally twice&nbsp;daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{51}\" paraid=\"1593217369\"><strong>OR&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{57}\" paraid=\"875752508\">Pantoprazole (Protonix) 40 mg enterally twice&nbsp;daily&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&gt; 35 kg&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{72}\" paraid=\"170190392\">Esomeprazole (Nexium) 40 mg enterally twice&nbsp;daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{78}\" paraid=\"1151380682\"><strong>OR&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{84}\" paraid=\"1662095087\">Lansoprazole (Prevacid) 30 mg enterally 2 to 3 times daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{90}\" paraid=\"866467991\"><strong>OR&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{96}\" paraid=\"1705749391\">Omeprazole (Prilosec) 40 mg enterally twice&nbsp;daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{102}\" paraid=\"98658935\"><strong>OR</strong>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{108}\" paraid=\"868089528\">Pantoprazole (Protonix) 40 mg or 80 mg enterally twice&nbsp;daily&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Weight</th>\n\t\t\t<th>PPI Dose Equivalents&nbsp;</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>6 to &lt; 10 kg&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{225}\" paraid=\"1728986605\">Rabeprazole (Aciphex) 10 mg enterally twice&nbsp;daily&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>10 to &lt; 30 kg&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{21}\" paraid=\"231021760\">Rabeprazole (Aciphex) 15 mg enterally twice&nbsp;daily&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>≥ 30 kg&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{72}\" paraid=\"170190392\">Rabeprazole (Aciphex) 20 mg enterally twice&nbsp;daily&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{184}\" paraid=\"866666177\"><strong>Note</strong>:&nbsp;Esomeprazole (Nexium®) and rabeprazole (Aciphex®) are less susceptible to degradation by rapid metabolizers with CYP2C19 genetic polymorphism, and therefore, may be preferred when available.&nbsp;</p>\n\n<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{196}\" paraid=\"1424603175\">Rapid metabolizers are more frequent in white individuals (56%–81%) compared to individuals of Asian descent.&nbsp;</p>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Weight</th>\r\n\t\t\t<th>PPI Dose Equivalents&nbsp;</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>15 to 24 kg&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{225}\" paraid=\"1728986605\">Esomeprazole (Nexium) 20 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{231}\" paraid=\"678072705\"><strong>OR&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{237}\" paraid=\"459064481\">Lansoprazole (Prevacid) 15 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{243}\" paraid=\"1357906405\"><strong>OR &nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{249}\" paraid=\"579177185\">Omeprazole (Prilosec) 20 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{255}\" paraid=\"2016257961\"><strong>OR&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{6}\" paraid=\"176552705\">Pantoprazole (Protonix) 20 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>25 to 34 kg&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{21}\" paraid=\"231021760\">Esomeprazole (Nexium) 30 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{27}\" paraid=\"1575790361\"><strong>OR&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{33}\" paraid=\"1523798146\">Lansoprazole (Prevacid) 30 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{39}\" paraid=\"2009362605\"><strong>OR</strong>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{45}\" paraid=\"1176738509\">Omeprazole (Prilosec) 30 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{51}\" paraid=\"1593217369\"><strong>OR&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{57}\" paraid=\"875752508\">Pantoprazole (Protonix) 40 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&gt; 35 kg&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{72}\" paraid=\"170190392\">Esomeprazole (Nexium) 40 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{78}\" paraid=\"1151380682\"><strong>OR&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{84}\" paraid=\"1662095087\">Lansoprazole (Prevacid) 30 mg enterally 2 to 3 times daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{90}\" paraid=\"866467991\"><strong>OR&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{96}\" paraid=\"1705749391\">Omeprazole (Prilosec) 40 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{102}\" paraid=\"98658935\"><strong>OR</strong>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{108}\" paraid=\"868089528\">Pantoprazole (Protonix) 40 mg or 80 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Weight</th>\r\n\t\t\t<th>PPI Dose Equivalents&nbsp;</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>6 to &lt; 10 kg&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{32e089e0-afdf-4f57-9920-8ae4073e130b}{225}\" paraid=\"1728986605\">Rabeprazole (Aciphex) 10 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>10 to &lt; 30 kg&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{21}\" paraid=\"231021760\">Rabeprazole (Aciphex) 15 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>≥ 30 kg&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{72}\" paraid=\"170190392\">Rabeprazole (Aciphex) 20 mg enterally twice&nbsp;daily&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{184}\" paraid=\"866666177\"><strong>Note</strong>:&nbsp;Esomeprazole (Nexium®) and rabeprazole (Aciphex®) are less susceptible to degradation by rapid metabolizers with CYP2C19 genetic polymorphism, and therefore, may be preferred when available.&nbsp;</p>\r\n\r\n<p paraeid=\"{854826da-610d-4b17-8718-4e99eb47ddab}{196}\" paraid=\"1424603175\">Rapid metabolizers are more frequent in white individuals (56%–81%) compared to individuals of Asian descent.&nbsp;</p>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13696
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/proton-pump-inhibitor-options-for-h-pylori-therapy",
+   "langcode": "und",
+   "pid": 26351
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-09-14T00:13:17+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Proton Pump Inhibitor Options for H. pylori Therapy    "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "aa2d4ade-9bd6-4261-8f91-077bd8d2c9a1"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16286
+  }
+ ]
+}

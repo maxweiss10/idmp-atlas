@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T16:37:14+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629823034,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T20:48:37+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Latent tuberculosis infection (LTBI), positive tuberculosis skin test or interferon gamma release assay without evidence for active TB disease, without known exposure to individual with drug-resistant tuberculosis</td>\n\t\t\t<td><em>Mycobacterium tuberculosis&nbsp;</em></td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{168}\" paraid=\"2119261959\">Rifampin* &nbsp;<br>\n\t\t\t17.5 mg/kg (max 600 mg/dose) enterally daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{184}\" paraid=\"1973640257\">Drug-drug interactions should be evaluated prior to starting therapy (use Lexi-Comp drug-drug interaction checker)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{191}\" paraid=\"387391661\">Isoniazid and Rifapentine* weekly for 12 weeks is the shortest treatment option for children 2 years and older who meet criteria; refer to linked guidelines below and consider ID consultation or discussion with local public health department  &nbsp;</p>\n\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{197}\" paraid=\"1833785459\"><strong>Patient with contraindication to Rifampin (e.g. drug-drug interaction)</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{211}\" paraid=\"1633040003\">Isoniazid<br>\n\t\t\t12.5 mg/kg (max 300 mg/dose) enterally  daily&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{221}\" paraid=\"623356207\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{231}\" paraid=\"1852627897\">Pyridoxine supplementation if exclusively breastfeeding or other risk factors for peripheral neuropathy (refer to linked guidelines below) &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{238}\" paraid=\"1630943903\">A short course regimen is now preferred for all eligible patients due to higher likelihood of treatment completion and lower risk for adverse effects&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{244}\" paraid=\"2020855215\"><strong>Duration</strong>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{254}\" paraid=\"1321628258\">Rifampin: 4 months&nbsp;</p>\n\n\t\t\t<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{11}\" paraid=\"1943383699\">Isoniazid: 9 months&nbsp;</p>\n\n\t\t\t<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{23}\" paraid=\"776907280\">Refer to linked guidelines below for detailed recommendations including LTBI diagnosis and monitoring during therapy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{37}\" paraid=\"1561187864\">Initiation of LTBI therapy is not recommended during pregnancy unless at high risk for progression - discuss with ID or local public health department as needed &nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Latent tuberculosis infection, defined as above, with known exposure to individual with drug-resistant tuberculosis&nbsp;</td>\n\t\t\t<td><em>Mycobacterium tuberculosis</em>, drug-resistant&nbsp;</td>\n\t\t\t<td>Consult ID and/or local public health department&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>Consult ID and/or local public health department&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Active tuberculosis disease&nbsp;</td>\n\t\t\t<td><em>Mycobacterium tuberculosis</em>&nbsp;</td>\n\t\t\t<td>Consult ID</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>Consult ID</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Latent tuberculosis infection (LTBI), positive tuberculosis skin test or interferon gamma release assay without evidence for active TB disease, without known exposure to individual with drug-resistant tuberculosis</td>\r\n\t\t\t<td><em>Mycobacterium tuberculosis&nbsp;</em></td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{168}\" paraid=\"2119261959\">Rifampin* &nbsp;<br />\r\n\t\t\t17.5 mg/kg (max 600 mg/dose) enterally daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{184}\" paraid=\"1973640257\">Drug-drug interactions should be evaluated prior to starting therapy (use Lexi-Comp drug-drug interaction checker)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{191}\" paraid=\"387391661\">Isoniazid and Rifapentine* weekly for 12 weeks is the shortest treatment option for children 2 years and older who meet criteria; refer to linked guidelines below and consider ID consultation or discussion with local public health department  &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{197}\" paraid=\"1833785459\"><strong>Patient with contraindication to Rifampin (e.g. drug-drug interaction)</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{211}\" paraid=\"1633040003\">Isoniazid<br />\r\n\t\t\t12.5 mg/kg (max 300 mg/dose) enterally  daily&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{221}\" paraid=\"623356207\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{231}\" paraid=\"1852627897\">Pyridoxine supplementation if exclusively breastfeeding or other risk factors for peripheral neuropathy (refer to linked guidelines below) &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{238}\" paraid=\"1630943903\">A short course regimen is now preferred for all eligible patients due to higher likelihood of treatment completion and lower risk for adverse effects&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{244}\" paraid=\"2020855215\"><strong>Duration</strong>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{5d1a4568-6241-40bc-8d31-f07d6e339bbf}{254}\" paraid=\"1321628258\">Rifampin: 4 months&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{11}\" paraid=\"1943383699\">Isoniazid: 9 months&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{23}\" paraid=\"776907280\">Refer to linked guidelines below for detailed recommendations including LTBI diagnosis and monitoring during therapy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{37}\" paraid=\"1561187864\">Initiation of LTBI therapy is not recommended during pregnancy unless at high risk for progression - discuss with ID or local public health department as needed &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Latent tuberculosis infection, defined as above, with known exposure to individual with drug-resistant tuberculosis&nbsp;</td>\r\n\t\t\t<td><em>Mycobacterium tuberculosis</em>, drug-resistant&nbsp;</td>\r\n\t\t\t<td>Consult ID and/or local public health department&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Consult ID and/or local public health department&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Active tuberculosis disease&nbsp;</td>\r\n\t\t\t<td><em>Mycobacterium tuberculosis</em>&nbsp;</td>\r\n\t\t\t<td>Consult ID</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Consult ID</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{131}\" paraid=\"1859881808\">References:&nbsp;&nbsp;</h2>\n\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{141}\" paraid=\"2004639038\">Latent Tuberculosis Infection Guidance for Preventing Tuberculosis in California. <a href=\"https://ctca.org/guidelines/guidelines-latent-tuberculosis-infection-guideline/\">California Tuberculosis Controllers Association-California Department of Public Health Joint Guideline</a> (June 2019 revision).&nbsp;</p>\n\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{153}\" paraid=\"1127215994\">*&nbsp;Centers for Disease Control and Prevention. <a href=\"https://www.cdc.gov/tb/publications/letters/Rifamycin_Update.html\">Update on Rifamycin Issues</a> &nbsp;</p>\n\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{165}\" paraid=\"1787076387\">&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{131}\" paraid=\"1859881808\">References:&nbsp;&nbsp;</h2>\r\n\r\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{141}\" paraid=\"2004639038\">Latent Tuberculosis Infection Guidance for Preventing Tuberculosis in California. <a href=\"https://ctca.org/guidelines/guidelines-latent-tuberculosis-infection-guideline/\">California Tuberculosis Controllers Association-California Department of Public Health Joint Guideline</a> (June 2019 revision).&nbsp;</p>\r\n\r\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{153}\" paraid=\"1127215994\">*&nbsp;Centers for Disease Control and Prevention. <a href=\"https://www.cdc.gov/tb/publications/letters/Rifamycin_Update.html\">Update on Rifamycin Issues</a> &nbsp;</p>\r\n\r\n<p paraeid=\"{3a06398a-d9e0-4314-9ee0-5b3552d8ee66}{165}\" paraid=\"1787076387\">&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13456
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/tuberculosis",
+   "langcode": "und",
+   "pid": 26111
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T16:37:14+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Tuberculosis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "abd391d7-8ded-411f-8b7a-4925ec0650ef"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16041
+  }
+ ]
+}

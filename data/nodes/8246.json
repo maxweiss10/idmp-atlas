@@ -1,0 +1,137 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-07-02T23:23:50+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1580857026,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-01-16T23:33:59+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>\n",
+   "value": "<p>Intermittent HD assumes high-flux hemodialysis. CRRT assumes CVVHD with ultrafiltration rate 2L/h and residual native GFR.</p>\r\n"
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>&nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>\n\t\t\t<p style=\"text-align: center;\">CrCl&nbsp;<u>&gt;</u> 50 mL/min</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">30 - 49 mL/min</th>\n\t\t\t<th>\n\t\t\t<p style=\"text-align: center;\">15 - 29&nbsp;mL/min</p>\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t<p style=\"text-align: center;\">&lt; 15&nbsp;mL/min</p>\n\t\t\t</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>UTI, chorioamnionitis, latency antibiotics for PPROM</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q6h</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q8h</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q12h</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q24h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Other infections</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q4h</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q6h</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q8h</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q12h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>GBS prophylaxis&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>&nbsp;2 g IV x 1</p>\n\n\t\t\t<p>followed by&nbsp;</p>\n\n\t\t\t<p>1 gram IV q4h</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>&nbsp;2 g IV x 1</p>\n\n\t\t\t<p>followed by&nbsp;</p>\n\n\t\t\t<p>1 gram IV q6h</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>&nbsp;2 g IV x 1</p>\n\n\t\t\t<p>followed by&nbsp;</p>\n\n\t\t\t<p>1 gram IV q6h</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>&nbsp;2 g IV x 1</p>\n\n\t\t\t<p>followed by&nbsp;</p>\n\n\t\t\t<p>1 gram IV q8h</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "value": "<p>&nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>\r\n\t\t\t<p style=\"text-align: center;\">CrCl&nbsp;<u>&gt;</u> 50 mL/min</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">30 - 49 mL/min</th>\r\n\t\t\t<th>\r\n\t\t\t<p style=\"text-align: center;\">15 - 29&nbsp;mL/min</p>\r\n\t\t\t</th>\r\n\t\t\t<th>\r\n\t\t\t<p style=\"text-align: center;\">&lt; 15&nbsp;mL/min</p>\r\n\t\t\t</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>UTI, chorioamnionitis, latency antibiotics for PPROM</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q6h</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q8h</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q24h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Other infections</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q4h</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q6h</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q8h</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q12h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>GBS prophylaxis&nbsp;</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>&nbsp;2 g IV x 1</p>\r\n\r\n\t\t\t<p>followed by&nbsp;</p>\r\n\r\n\t\t\t<p>1 gram IV q4h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>&nbsp;2 g IV x 1</p>\r\n\r\n\t\t\t<p>followed by&nbsp;</p>\r\n\r\n\t\t\t<p>1 gram IV q6h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>&nbsp;2 g IV x 1</p>\r\n\r\n\t\t\t<p>followed by&nbsp;</p>\r\n\r\n\t\t\t<p>1 gram IV q6h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>&nbsp;2 g IV x 1</p>\r\n\r\n\t\t\t<p>followed by&nbsp;</p>\r\n\r\n\t\t\t<p>1 gram IV q8h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t<p>Indication</p>\n\t\t\t</th>\n\t\t\t<th style=\"vertical-align: middle;\">\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\n\t\t\t</th>\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">UTI, chorioamnionitis, latency antibiotics for PPROM</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV x1 now, then qPM</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q8h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Other infections</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q12h</td>\n\t\t\t<td style=\"text-align: center;\">2 g IV q6h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">GBS prophylaxis</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>&nbsp;2 g IV x 1</p>\n\n\t\t\t<p>followed by&nbsp;</p>\n\n\t\t\t<p>1 gram IV q12h</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t<p>&nbsp;2 g IV x 1</p>\n\n\t\t\t<p>followed by&nbsp;</p>\n\n\t\t\t<p>1 gram IV q6h</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>\r\n\t\t\t<p>Indication</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"vertical-align: middle;\">\r\n\t\t\t<p style=\"text-align: center;\">Intermittent Hemodialysis</p>\r\n\t\t\t</th>\r\n\t\t\t<th style=\"text-align: center;\">Continuous Hemodialysis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">UTI, chorioamnionitis, latency antibiotics for PPROM</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV x1 now, then qPM</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q8h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">Other infections</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q12h</td>\r\n\t\t\t<td style=\"text-align: center;\">2 g IV q6h</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">GBS prophylaxis</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>&nbsp;2 g IV x 1</p>\r\n\r\n\t\t\t<p>followed by&nbsp;</p>\r\n\r\n\t\t\t<p>1 gram IV q12h</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t<p>&nbsp;2 g IV x 1</p>\r\n\r\n\t\t\t<p>followed by&nbsp;</p>\r\n\r\n\t\t\t<p>1 gram IV q6h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [],
+ "field_notes": [],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "11/12/24 - RJ updated tables with updated indications to include chorio, PPROM, and GBS prophy - changes done b/c of email with OB/GYN and dosing meeting \r\n1/30/25: Updated renal dosing cutoffs per discussion at 1/2025 dosing meeting--changed cutoffs to <15, 15-29, 30-49, and >/=50; Doses for the lower three tiers were adjusted for UTI et al + other infection indication. No changes to GBS dosing or HD/CRRT dosing for any. This change was to align with Lexicomp -EK"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8246
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ampicillin-0",
+   "langcode": "und",
+   "pid": 21181
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-07-02T23:23:50+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Ampicillin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "a0ca2ff7-4295-4169-8c23-6b52271b3756"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22946
+  }
+ ]
+}

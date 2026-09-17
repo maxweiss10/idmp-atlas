@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T18:46:50+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629830810,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T21:42:30+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines) or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations. <em> &nbsp;</em></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Trichomoniasis&nbsp;</td>\n\t\t\t<td><em>Trichomonas vaginalis&nbsp;</em></td>\n\t\t\t<td>Metronidazole<br>\n\t\t\t500 mg enterally bid&nbsp;</td>\n\t\t\t<td>Tinidazole is another option for patients with contraindications to metronidazole; refer to CDC guidelines linked below, or SFDPH City Clinic protocol linked in comments&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{71}\" paraid=\"1826026826\">Current partners should be evaluated and presumptively treated&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{81}\" paraid=\"2011226692\"><strong>Duration</strong>:&nbsp;7 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{89}\" paraid=\"227343415\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf#%5B%7B%22num%22%3A131%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C720%2C0%5D\">SFDPH City Clinic STI protocols</a>&nbsp;section on trichomoniasis for recommended laboratory evaluation (including testing for other STIs), and further recommendations on partner treatment, counseling (including abstinence from sex for at least 7 days after patient and partner treatment, and avoid alcohol consumption during treatment), and follow up (including retesting in 3 months)&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines) or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations. <em> &nbsp;</em></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Trichomoniasis&nbsp;</td>\r\n\t\t\t<td><em>Trichomonas vaginalis&nbsp;</em></td>\r\n\t\t\t<td>Metronidazole<br />\r\n\t\t\t500 mg enterally bid&nbsp;</td>\r\n\t\t\t<td>Tinidazole is another option for patients with contraindications to metronidazole; refer to CDC guidelines linked below, or SFDPH City Clinic protocol linked in comments&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{71}\" paraid=\"1826026826\">Current partners should be evaluated and presumptively treated&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{81}\" paraid=\"2011226692\"><strong>Duration</strong>:&nbsp;7 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{89}\" paraid=\"227343415\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf#%5B%7B%22num%22%3A131%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C720%2C0%5D\">SFDPH City Clinic STI protocols</a>&nbsp;section on trichomoniasis for recommended laboratory evaluation (including testing for other STIs), and further recommendations on partner treatment, counseling (including abstinence from sex for at least 7 days after patient and partner treatment, and avoid alcohol consumption during treatment), and follow up (including retesting in 3 months)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1c0d6bd7-8b96-483f-a5a7-d0a3a8ba07cf",
+   "url": "/guidelines-empiric-therapy-categories/sexually-transmitted-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{111}\" paraid=\"1514390180\">Reference:&nbsp;</h2>\n\n<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{111}\" paraid=\"1514390180\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\n\n<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{127}\" paraid=\"1955523925\"> &nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{111}\" paraid=\"1514390180\">Reference:&nbsp;</h2>\r\n\r\n<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{111}\" paraid=\"1514390180\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\r\n\r\n<p paraeid=\"{fa2a9e9b-4c8e-40de-b357-44d71d6e8bf8}{127}\" paraid=\"1955523925\"> &nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13516
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/trichomoniasis",
+   "langcode": "und",
+   "pid": 26171
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T18:46:50+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Trichomoniasis"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "115e48d5-baf9-42e3-a2e8-b8a07b2e3d7e"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16101
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-09-10T13:19:00+00:00"
+  }
+ ],
+ "comment_node_ucsf_person": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1752972758,
+   "last_comment_uid": 506,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-01-12T00:35:55+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_publications": [
+  {
+   "value": true
+  }
+ ],
+ "field_campus_phone": [],
+ "field_campus_phone_override": [],
+ "field_department_override": [],
+ "field_people_sort_weight": [
+  {
+   "value": 0
+  }
+ ],
+ "field_person_display_name": [
+  {
+   "value": "Cynthia Huwe"
+  }
+ ],
+ "field_person_email": [],
+ "field_person_fax": [],
+ "field_person_first_name": [
+  {
+   "value": "Cynthia"
+  }
+ ],
+ "field_person_headshot_default": [
+  {
+   "target_id": 351,
+   "target_type": "media",
+   "target_uuid": "20a34cd1-2f49-4f14-b79b-64b2bed8d3c5",
+   "url": "/media/351"
+  }
+ ],
+ "field_person_headshot_photo": [
+  {
+   "target_id": 496,
+   "target_type": "media",
+   "target_uuid": "b9c9d0d0-3b1a-41f4-979e-29ca5572d083",
+   "url": "/media/496"
+  }
+ ],
+ "field_person_keywords_profiles": [],
+ "field_person_last_name": [
+  {
+   "value": "Huwe"
+  }
+ ],
+ "field_person_middle_name": [],
+ "field_person_preferred_name": [
+  {
+   "value": "Cynthia"
+  }
+ ],
+ "field_person_primary_dept": [
+  {
+   "target_id": 1866,
+   "target_type": "taxonomy_term",
+   "target_uuid": "fcb7fbb8-9e5c-4e61-9b48-eb81494b675d",
+   "url": "/departments-units-and-organizations/pharmacy-services"
+  }
+ ],
+ "field_person_pub_override_list": [],
+ "field_person_publications_list": [],
+ "field_person_research_biography": [],
+ "field_person_subtype": [
+  {
+   "target_id": 1311,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8e66bd73-dcdf-4739-a615-94498952e1ef",
+   "url": "/person-type/ucsf-benioff-childrens-hospital-oakland"
+  }
+ ],
+ "field_person_title_override": [
+  {
+   "value": "Antimicrobial Stewardship Pharmacist"
+  },
+  {
+   "value": "UCSF Benioff Children's Hospital Oakland"
+  }
+ ],
+ "field_person_type": [
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  }
+ ],
+ "field_person_type_full": [
+  {
+   "target_id": 346,
+   "target_type": "taxonomy_term",
+   "target_uuid": "eb5cc219-543f-4415-a229-94d58e47d3a1",
+   "url": "/person-type/affiliate"
+  },
+  {
+   "target_id": 186,
+   "target_type": "taxonomy_term",
+   "target_uuid": "d1c79c0e-20d4-4939-af00-4b8d21b4e3e9",
+   "url": "/person-type/member"
+  },
+  {
+   "target_id": 181,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1d40da21-dd5e-434d-88a8-d1f79f862c31",
+   "url": "/person-type/staff"
+  },
+  {
+   "target_id": 1516,
+   "target_type": "taxonomy_term",
+   "target_uuid": "8733d20e-3e92-4016-8d44-79f6911974d2",
+   "url": "/person-type/student"
+  }
+ ],
+ "field_person_what_i_do_text": [],
+ "field_person_working_title": [
+  {
+   "value": "Oakland Children's Hospital"
+  }
+ ],
+ "field_private_practice_address": [],
+ "field_private_practice_phone": [],
+ "field_profiles_honors_awards": [],
+ "field_profiles_link": [],
+ "langcode": [
+  {
+   "value": "und"
+  }
+ ],
+ "nid": [
+  {
+   "value": 14306
+  }
+ ],
+ "path": [
+  {
+   "alias": "/people/cynthia-huwe",
+   "langcode": "und",
+   "pid": 26956
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-07-20T00:52:38+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Cynthia Huwe"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "ucsf_person",
+   "target_type": "node_type",
+   "target_uuid": "e815d7b9-aa12-4852-947f-45e86a88df09"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "b8938b6d-73bd-442e-a5e6-e91f66086447"
+  }
+ ],
+ "vid": [
+  {
+   "value": 17186
+  }
+ ]
+}

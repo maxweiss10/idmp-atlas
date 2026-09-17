@@ -1,0 +1,150 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "comment_node_drug": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1587572159,
+   "last_comment_uid": 1,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2020-04-22T16:15:59+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_hemodialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_bool_nondialysis": [
+  {
+   "value": true
+  }
+ ],
+ "field_dialysis_notes": [],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dosing</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Mycobacterial infections (non-CNS)</td>\n\t\t\t<td>600 mg IV/PO q24h</td>\n\t\t\t<td rowspan=\"3\">\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p>No renal dose adjustment</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Prosthetic device infections</td>\n\t\t\t<td>\n\t\t\t<p>300 mg IV/PO q12h<u> </u></p>\n\n\t\t\t<p>OR</p>\n\n\t\t\t<p>600 mg IV/PO q24h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Endocarditis</td>\n\t\t\t<td>300 mg IV/PO q8h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dosing</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Mycobacterial infections (non-CNS)</td>\r\n\t\t\t<td>600 mg IV/PO q24h</td>\r\n\t\t\t<td rowspan=\"3\">\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p>No renal dose adjustment</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Prosthetic device infections</td>\r\n\t\t\t<td>\r\n\t\t\t<p>300 mg IV/PO q12h<u> </u></p>\r\n\r\n\t\t\t<p>OR</p>\r\n\r\n\t\t\t<p>600 mg IV/PO q24h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Endocarditis</td>\r\n\t\t\t<td>300 mg IV/PO q8h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_antimicrobial_dosin": [
+  {
+   "format": "advanced",
+   "processed": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Indication</th>\n\t\t\t<th>Dosing</th>\n\t\t\t<th>Notes</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Mycobacterial infections (non-CNS)</td>\n\t\t\t<td>600 mg IV/PO q24h</td>\n\t\t\t<td rowspan=\"3\">\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p>No adjustment in hemodialysis</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Prosthetic device infections</td>\n\t\t\t<td>\n\t\t\t<p>300 mg IV/PO q12h</p>\n\n\t\t\t<p>OR</p>\n\n\t\t\t<p>600 mg IV/PO q24h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Endocarditis</td>\n\t\t\t<td>300 mg IV/PO q8h</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Indication</th>\r\n\t\t\t<th>Dosing</th>\r\n\t\t\t<th>Notes</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Mycobacterial infections (non-CNS)</td>\r\n\t\t\t<td>600 mg IV/PO q24h</td>\r\n\t\t\t<td rowspan=\"3\">\r\n\t\t\t<p>&nbsp;</p>\r\n\r\n\t\t\t<p>No adjustment in hemodialysis</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Prosthetic device infections</td>\r\n\t\t\t<td>\r\n\t\t\t<p>300 mg IV/PO q12h</p>\r\n\r\n\t\t\t<p>OR</p>\r\n\r\n\t\t\t<p>600 mg IV/PO q24h</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Endocarditis</td>\r\n\t\t\t<td>300 mg IV/PO q8h</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_dosing_weights": [],
+ "field_drug_references": [],
+ "field_link": [],
+ "field_monitoring": [],
+ "field_notations": [
+  {
+   "target_id": 1651,
+   "target_type": "taxonomy_term",
+   "target_uuid": "e6ea4bce-c2c9-447e-92ad-0ff33b91ad81",
+   "url": "/notations/id-r-zsfg"
+  },
+  {
+   "target_id": 76,
+   "target_type": "taxonomy_term",
+   "target_uuid": "4511a589-5232-4ab1-95de-bae41deb9968",
+   "url": "/notations/iv-po"
+  }
+ ],
+ "field_notes": [
+  {
+   "format": "advanced",
+   "processed": "<p><u><strong>Review medications for potential drug interactions.</strong></u></p>\n",
+   "value": "<p><u><strong>Review medications for potential drug interactions.</strong></u></p>\r\n"
+  }
+ ],
+ "field_restriction_details": [],
+ "field_revision_notes": [
+  {
+   "value": "1/30/25 - added 600 mg daily dosing option for PJI, added \"non-CNS\" to mycobacterial infection indication per discussion at 1/2025 dosing meeting -EK"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 8456
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/rifampin",
+   "langcode": "und",
+   "pid": 21341
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-02-07T22:31:06+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Rifampin"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "drug",
+   "target_type": "node_type",
+   "target_uuid": "8310a278-7671-468d-8e7b-bd038d2a4f42"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "c5872d60-2c5e-4d08-9cfa-dc26bca88cb0"
+  }
+ ],
+ "vid": [
+  {
+   "value": 21786
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "run": "2026-09-17T08:06:29+00:00",
+ "ok": true,
+ "exit_code": 0,
+ "duration_s": 327.0,
+ "problems": [
+  {
+   "level": "soft",
+   "code": "file-unavailable",
+   "message": "/sites/g/files/tkssra17776/files/wysiwyg/BCH%20Oak%20Antibiogram%202023_0.pdf returned HTTP 404"
+  }
+ ],
+ "events": 0,
+ "source": "https://idmp.ucsf.edu",
+ "counts": {
+  "page": 28,
+  "drug": 94,
+  "ucsf_person": 20,
+  "diagnosis": 84,
+  "guidelines": 67,
+  "other_person": 4,
+  "ucsf_publication": 13
+ },
+ "pages_crawled": 401,
+ "files": 59,
+ "warnings": 1
+}

@@ -1,0 +1,111 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2026-05-19T21:38:09+00:00"
+  }
+ ],
+ "comment_node_page": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1747091681,
+   "last_comment_uid": 506,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2024-06-03T23:57:48+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_blockref_sidebar": [],
+ "field_body": [
+  {
+   "format": "advanced",
+   "processed": "<h1>UCSF Adult Outpatient Susceptibility Data: <em>E. coli</em> Urinary Isolates<sup>1</sup></h1><p><strong>AMP/SUL</strong>-ampicillin-sulbactam, <strong>CIP</strong>-ciprofloxacin, <strong>CTRX</strong>-ceftriaxone,&nbsp;<strong>CZLN</strong>-cefazolin, <strong>NTF</strong>-nitrofurantoin,&nbsp;<strong>T/S</strong>-trimethoprim-sulfamethoxazole<br><br>Reported as % susceptible, tested from urinary sites</p><table class=\"table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"888\"><thead><tr height=\"98\"><th height=\"98\" scope=\"col\" width=\"262\"><strong>Organism&nbsp;</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"100\"><strong>Total Isolates&nbsp;</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"107\"><strong>AMP/SUL<sup>2</sup></strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"84\"><strong>CIP</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"84\"><strong>CTRX</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"84\"><strong>CZLN<sup>3</sup>&nbsp;</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"84\"><strong>NTF</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"84\"><strong>T/S&nbsp;</strong></th></tr></thead><tbody><tr height=\"64\"><td height=\"64\" width=\"262\"><em>Escherichia coli</em>, urine</td><td style=\"text-align:center;\" width=\"100\">554</td><td style=\"text-align:center;\" width=\"107\">65</td><td style=\"text-align:center;\" width=\"84\">85</td><td style=\"text-align:center;\" width=\"84\">86</td><td style=\"text-align:center;\" width=\"84\">85</td><td style=\"text-align:center;\" width=\"84\">98</td><td style=\"text-align:center;\" width=\"84\">70</td></tr></tbody></table><p><sup>1</sup>Adult outpatient susceptibilities include data from 1/1/2025 - 12/31/2025; <sup>2</sup>Surrogate test to predict oral amoxicillin/clavulanate; <sup>3</sup>Surrogate test to predict oral agents cefdinir, cefpodoxime, cefprozil, cefuroxime, and cephalexin when used for&nbsp;uncomplicated UTIs</p>",
+   "value": "<h1>UCSF Adult Outpatient Susceptibility Data: <em>E. coli</em> Urinary Isolates<sup>1</sup></h1><p><strong>AMP/SUL</strong>-ampicillin-sulbactam, <strong>CIP</strong>-ciprofloxacin, <strong>CTRX</strong>-ceftriaxone,&nbsp;<strong>CZLN</strong>-cefazolin, <strong>NTF</strong>-nitrofurantoin,&nbsp;<strong>T/S</strong>-trimethoprim-sulfamethoxazole<br><br>Reported as % susceptible, tested from urinary sites</p><table class=\"table\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"888\"><thead><tr height=\"98\"><th height=\"98\" scope=\"col\" width=\"262\"><strong>Organism&nbsp;</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"100\"><strong>Total Isolates&nbsp;</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"107\"><strong>AMP/SUL<sup>2</sup></strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"84\"><strong>CIP</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"84\"><strong>CTRX</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"84\"><strong>CZLN<sup>3</sup>&nbsp;</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"84\"><strong>NTF</strong></th><th style=\"text-align:center;\" scope=\"col\" width=\"84\"><strong>T/S&nbsp;</strong></th></tr></thead><tbody><tr height=\"64\"><td height=\"64\" width=\"262\"><em>Escherichia coli</em>, urine</td><td style=\"text-align:center;\" width=\"100\">554</td><td style=\"text-align:center;\" width=\"107\">65</td><td style=\"text-align:center;\" width=\"84\">85</td><td style=\"text-align:center;\" width=\"84\">86</td><td style=\"text-align:center;\" width=\"84\">85</td><td style=\"text-align:center;\" width=\"84\">98</td><td style=\"text-align:center;\" width=\"84\">70</td></tr></tbody></table><p><sup>1</sup>Adult outpatient susceptibilities include data from 1/1/2025 - 12/31/2025; <sup>2</sup>Surrogate test to predict oral amoxicillin/clavulanate; <sup>3</sup>Surrogate test to predict oral agents cefdinir, cefpodoxime, cefprozil, cefuroxime, and cephalexin when used for&nbsp;uncomplicated UTIs</p>"
+  }
+ ],
+ "field_class_slider_type": [
+  {
+   "value": "slider_secondary"
+  }
+ ],
+ "field_image": [],
+ "field_link": [],
+ "field_paragraph_sections": [],
+ "field_paragraph_sliders": [],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 15241
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/ucsf-adult-outpatient-susceptibility-data-e-coli-urine-isolates",
+   "langcode": "und",
+   "pid": 27806
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2025-05-13T16:00:28+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "UCSF Adult Outpatient Susceptibility Data: E. coli Urine Isolates"
+  }
+ ],
+ "type": [
+  {
+   "target_id": "page",
+   "target_type": "node_type",
+   "target_uuid": "e71333e6-2b83-41b6-a8ca-78b558d7d082"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "08032228-9c6d-45fb-b48e-c260c88f7ca8"
+  }
+ ],
+ "vid": [
+  {
+   "value": 22761
+  }
+ ]
+}

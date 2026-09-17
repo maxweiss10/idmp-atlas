@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T17:04:07+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1633712647,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T18:57:46+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>Need for drainage/source control of head and neck infections should be evaluated carefully in consultation with Pediatric Otolaryngology, Head and Neck Surgery. If initial non-operative management is chosen, a narrow spectrum regimen (i.e. without vancomycin), is encouraged to facilitate transition to oral therapy.&nbsp;</p>\n\n<p>ID consultation is recommended for head and neck infections occcurring in immunocompromised patients, and for those with atypical features, chronic course, or lack of response to first line therapy.&nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Orbital cellulitis/abscess&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{43}\" paraid=\"1259404270\">Streptococci&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{53}\" paraid=\"1864324401\"><em>Staphylococcus aureus&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{63}\" paraid=\"1103984964\"><em>Haemophilus influenzae</em>&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{73}\" paraid=\"53417844\">Anaerobes&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{80}\" paraid=\"1084455689\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{90}\" paraid=\"1071409158\"><strong>If there is a large abscess (&gt;10mm), anticipated to undergo surgical drainage, toxic appearance, rapidly progressive proptosis or ophthalmoplegia, or patient with history of documented MRSA infection or carriage within the last 6 months:&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{90}\" paraid=\"1071409158\">ADD&nbsp;<a href=\"/content/pediatric-vancomycin-dosing-and-monitoring-recommendations\">Vancomycin</a> &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{104}\" paraid=\"1808398172\">(follow link for dosing and&nbsp;monitoring) &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{111}\" paraid=\"1042513167\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{121}\" paraid=\"1782564680\">Consult ID/ASP&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{132}\" paraid=\"1926847795\">Urgent OHNS and Ophthalmology consults recommended to evaluate need for source control  &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{142}\" paraid=\"140661393\">ID consult recommended (see details above)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{148}\" paraid=\"1057375287\">For intracranial extension, refer to <a href=\"/content/intracranial-abscess\">Intracranial Abscess</a> section for empiric therapy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{162}\" paraid=\"474889513\">Therapy may be tailored based on cultures from I&amp;D. If Vancomycin was started but MRSA not recovered, Vancomycin should be discontinued. &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{168}\" paraid=\"9243076\"><strong>Duration</strong>:&nbsp;Uncomplicated orbital cellulitis/abscess is typically treated first with IV therapy then converted to enteral therapy within days based on clinical improvement, with a total duration of&nbsp;14-21 days (combined IV and enteral). &nbsp;</p>\n\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{186}\" paraid=\"145792162\">A longer duration may be indicated if there is significant bone destruction or a large abscess that is not drained.&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>Need for drainage/source control of head and neck infections should be evaluated carefully in consultation with Pediatric Otolaryngology, Head and Neck Surgery. If initial non-operative management is chosen, a narrow spectrum regimen (i.e. without vancomycin), is encouraged to facilitate transition to oral therapy.&nbsp;</p>\r\n\r\n<p>ID consultation is recommended for head and neck infections occcurring in immunocompromised patients, and for those with atypical features, chronic course, or lack of response to first line therapy.&nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Orbital cellulitis/abscess&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{43}\" paraid=\"1259404270\">Streptococci&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{53}\" paraid=\"1864324401\"><em>Staphylococcus aureus&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{63}\" paraid=\"1103984964\"><em>Haemophilus influenzae</em>&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{73}\" paraid=\"53417844\">Anaerobes&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{80}\" paraid=\"1084455689\">Ampicillin-sulbactam (Unasyn) 50 mg ampicillin/kg/dose (max 2000 mg ampicillin/dose) IV q6h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{90}\" paraid=\"1071409158\"><strong>If there is a large abscess (&gt;10mm), anticipated to undergo surgical drainage, toxic appearance, rapidly progressive proptosis or ophthalmoplegia, or patient with history of documented MRSA infection or carriage within the last 6 months:&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{90}\" paraid=\"1071409158\">ADD&nbsp;<a href=\"/node/13571\">Vancomycin</a> &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{104}\" paraid=\"1808398172\">(follow link for dosing and&nbsp;monitoring) &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{111}\" paraid=\"1042513167\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{121}\" paraid=\"1782564680\">Consult ID/ASP&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{132}\" paraid=\"1926847795\">Urgent OHNS and Ophthalmology consults recommended to evaluate need for source control  &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{142}\" paraid=\"140661393\">ID consult recommended (see details above)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{148}\" paraid=\"1057375287\">For intracranial extension, refer to <a href=\"/node/13331\">Intracranial Abscess</a> section for empiric therapy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{162}\" paraid=\"474889513\">Therapy may be tailored based on cultures from I&amp;D. If Vancomycin was started but MRSA not recovered, Vancomycin should be discontinued. &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{168}\" paraid=\"9243076\"><strong>Duration</strong>:&nbsp;Uncomplicated orbital cellulitis/abscess is typically treated first with IV therapy then converted to enteral therapy within days based on clinical improvement, with a total duration of&nbsp;14-21 days (combined IV and enteral). &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{186}\" paraid=\"145792162\">A longer duration may be indicated if there is significant bone destruction or a large abscess that is not drained.&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 156,
+   "target_type": "taxonomy_term",
+   "target_uuid": "00d0acd9-23a5-4ad4-bedb-b2cce40df6ca",
+   "url": "/guidelines-empiric-therapy-categories/respiratory-head-and-neck-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{200}\" paraid=\"1963377852\">References:&nbsp;</h2>\n\n<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{200}\" paraid=\"1963377852\">Seltz&nbsp;LB, et al. <a href=\"https://pediatrics.aappublications.org/content/127/3/e566.long\">Microbiology and antibiotic management of orbital cellulitis</a>. Pediatrics 2011;127:e566-e572.&nbsp;</p>\n\n<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{218}\" paraid=\"1828281559\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{200}\" paraid=\"1963377852\">References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{200}\" paraid=\"1963377852\">Seltz&nbsp;LB, et al. <a href=\"https://pediatrics.aappublications.org/content/127/3/e566.long\">Microbiology and antibiotic management of orbital cellulitis</a>. Pediatrics 2011;127:e566-e572.&nbsp;</p>\r\n\r\n<p paraeid=\"{4814bba0-3a15-47b4-bb7b-0cb836474218}{218}\" paraid=\"1828281559\">American Academy of Pediatrics. In: Kimberlin DW,&nbsp;Barnett ED,&nbsp;Lynfield&nbsp;R, Sawyer MH, eds. Red Book: 2021&nbsp;Report of the Committee on Infectious Diseases. 32nd&nbsp;ed. Elk Grove Village, IL: American Academy of Pediatrics; 2021. &nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13406
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/orbital-cellulitis-abscess",
+   "langcode": "und",
+   "pid": 26061
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-10-08T17:04:07+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Orbital Cellulitis/Abscess "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "eafcf865-4299-49af-9b46-794d26d670f3"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15991
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T18:43:14+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1629830594,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T21:36:33+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<p>This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines) or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations. <em> &nbsp;</em></p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First Choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{50}\" paraid=\"395048838\">Pelvic inflammatory disease, inpatient therapy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{56}\" paraid=\"1872991446\">Need for inpatient therapy is based on clinical judgment and meeting any suggested criteria:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{70}\" paraid=\"1194179341\">Surgical emergencies (e.g., appendicitis) cannot be excluded&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{76}\" paraid=\"1080932631\">Severe PID (vomiting, severe pain, high fever, overt peritonitis)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{82}\" paraid=\"1281524919\">Tubo-ovarian abscess&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{88}\" paraid=\"2055882433\">Pregnancy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{94}\" paraid=\"633952255\">Inability to follow or tolerate outpatient regimen&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{100}\" paraid=\"943819548\">Treatment failure on appropriate outpatient regimen&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{107}\" paraid=\"1166176476\">Often polymicrobial&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{113}\" paraid=\"942706918\"><em>Chlamydia trachomatis&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{123}\" paraid=\"1724117988\"><em>Neisseria gonorrhoeae&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{137}\" paraid=\"1472861602\">Enteric&nbsp;gram-negative and anaerobic bacteria&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{154}\" paraid=\"2125251452\">Cefoxitin<br>\n\t\t\t2000 mg IV q6h&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{164}\" paraid=\"622934880\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{174}\" paraid=\"797813719\">Doxycycline<br>\n\t\t\t100 mg enterally or IV q12h (enteral route preferred if tolerated)&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{184}\" paraid=\"742028538\">24 hours after clinical improvement:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{190}\" paraid=\"1504078820\">Stop Cefoxitin, continue Doxycycline 100 mg enterally bid, and ADD Metronidazole 500 mg enterally bid to complete 14 day total course*&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{197}\" paraid=\"1619392562\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{207}\" paraid=\"855368494\">Clindamycin<br>\n\t\t\t900 mg IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{217}\" paraid=\"927169897\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{227}\" paraid=\"703454789\">Gentamicin<br>\n\t\t\t2 mg/kg/dose IV x 1 dose, followed by 1.5 mg/kg/dose IV q8h &nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{233}\" paraid=\"628405342\">24 hours after clinical improvement:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{243}\" paraid=\"1267065199\">Stop Clindamycin and Gentamicin, start Doxycycline 100 mg enterally  bid and Metronidazole 500 mg enterally bid to complete 14 day total course&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{250}\" paraid=\"1780891815\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf#%5B%7B%22num%22%3A131%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C720%2C0%5D\">SFDPH City Clinic STI protocols</a>&nbsp;section on PID for diagnostic criteria, recommended laboratory evaluation (including testing for other STIs), counseling (including abstinence from sex during treatment),  partner treatment, and follow up (including retesting in 3 months).&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{13}\" paraid=\"1910689258\">*Metronidazole likely improves outcomes in all patients with PID, and is especially indicated if bacterial vaginosis or tubo-ovarian abscess cannot be ruled out&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{21}\" paraid=\"1805451490\">Pelvic inflammatory disease, outpatient therapy&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{27}\" paraid=\"20437897\">Outpatient treatment is standard in those&nbsp;patients with mild to moderate symptoms and able to return for frequent reassessment. All patients who begin outpatient treatment should be clinically re-evaluated within 72 hours and if not improved should start parenteral therapy and consider additional diagnostics&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>Same</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{47}\" paraid=\"1187039966\">Ceftriaxone&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{57}\" paraid=\"1794053997\">Weight &gt; 45 kg and &lt;150kg: 500 mg IM x 1 dose&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{69}\" paraid=\"1875121570\">Weight &gt;=150kg:&nbsp;<br>\n\t\t\t1000 mg IM x 1 dose&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{83}\" paraid=\"793294453\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{97}\" paraid=\"163718657\">Doxycycline<br>\n\t\t\t100 mg enterally bid x 14 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{107}\" paraid=\"774524978\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{117}\" paraid=\"561041294\">Metronidazole<br>\n\t\t\t500 mg enterally bid x 14 days*&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{124}\" paraid=\"2144817095\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{134}\" paraid=\"411019837\">Consult ID/ASP</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{134}\" paraid=\"411019837\"><strong>If anticipate significant challenges to adherence: </strong></p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{134}\" paraid=\"411019837\">Consider replacing Doxycycline with:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{146}\" paraid=\"54789329\">Azithromycin<br>\n\t\t\t1000 mg enterally qweek x 2 doses&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{153}\" paraid=\"1668902403\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf\">SFDPH&nbsp;City&nbsp;Clinic STI protocols</a>&nbsp;section on PID for diagnostic criteria, evaluation, counseling, and&nbsp;follow up recommendations&nbsp;</p>\n\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{173}\" paraid=\"1004544350\">*Metronidazole likely improves outcomes in all patients with PID, and is especially indicated if bacterial vaginosis or tubo-ovarian abscess cannot be ruled out&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<p>This and other STI sections are not meant to be comprehensive references for all STI treatment but primarily focused on the most commonly used initial empiric antimicrobial therapy. Users should refer to linked resources (SFDPH City Clinic protocols, CDC guidelines) or other local resources to provide patients and their partners appropriate counseling and follow-up. For non-adolescent age patients, patients with STIs not addressed in these guidelines, or patients with contraindications to the listed therapies, we recommend referring to the linked resources, or Lexi-Comp for medication information, or consulting ID/ASP for individualized recommendations. <em> &nbsp;</em></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First Choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{50}\" paraid=\"395048838\">Pelvic inflammatory disease, inpatient therapy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{56}\" paraid=\"1872991446\">Need for inpatient therapy is based on clinical judgment and meeting any suggested criteria:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{70}\" paraid=\"1194179341\">Surgical emergencies (e.g., appendicitis) cannot be excluded&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{76}\" paraid=\"1080932631\">Severe PID (vomiting, severe pain, high fever, overt peritonitis)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{82}\" paraid=\"1281524919\">Tubo-ovarian abscess&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{88}\" paraid=\"2055882433\">Pregnancy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{94}\" paraid=\"633952255\">Inability to follow or tolerate outpatient regimen&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{100}\" paraid=\"943819548\">Treatment failure on appropriate outpatient regimen&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{107}\" paraid=\"1166176476\">Often polymicrobial&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{113}\" paraid=\"942706918\"><em>Chlamydia trachomatis&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{123}\" paraid=\"1724117988\"><em>Neisseria gonorrhoeae&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{137}\" paraid=\"1472861602\">Enteric&nbsp;gram-negative and anaerobic bacteria&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{154}\" paraid=\"2125251452\">Cefoxitin<br />\r\n\t\t\t2000 mg IV q6h&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{164}\" paraid=\"622934880\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{174}\" paraid=\"797813719\">Doxycycline<br />\r\n\t\t\t100 mg enterally or IV q12h (enteral route preferred if tolerated)&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{184}\" paraid=\"742028538\">24 hours after clinical improvement:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{190}\" paraid=\"1504078820\">Stop Cefoxitin, continue Doxycycline 100 mg enterally bid, and ADD Metronidazole 500 mg enterally bid to complete 14 day total course*&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{197}\" paraid=\"1619392562\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{207}\" paraid=\"855368494\">Clindamycin<br />\r\n\t\t\t900 mg IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{217}\" paraid=\"927169897\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{227}\" paraid=\"703454789\">Gentamicin<br />\r\n\t\t\t2 mg/kg/dose IV x 1 dose, followed by 1.5 mg/kg/dose IV q8h &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{233}\" paraid=\"628405342\">24 hours after clinical improvement:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{243}\" paraid=\"1267065199\">Stop Clindamycin and Gentamicin, start Doxycycline 100 mg enterally  bid and Metronidazole 500 mg enterally bid to complete 14 day total course&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{2f39a5df-8957-4e56-a3ea-2aca4b85456e}{250}\" paraid=\"1780891815\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf#%5B%7B%22num%22%3A131%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C720%2C0%5D\">SFDPH City Clinic STI protocols</a>&nbsp;section on PID for diagnostic criteria, recommended laboratory evaluation (including testing for other STIs), counseling (including abstinence from sex during treatment),  partner treatment, and follow up (including retesting in 3 months).&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{13}\" paraid=\"1910689258\">*Metronidazole likely improves outcomes in all patients with PID, and is especially indicated if bacterial vaginosis or tubo-ovarian abscess cannot be ruled out&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{21}\" paraid=\"1805451490\">Pelvic inflammatory disease, outpatient therapy&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{27}\" paraid=\"20437897\">Outpatient treatment is standard in those&nbsp;patients with mild to moderate symptoms and able to return for frequent reassessment. All patients who begin outpatient treatment should be clinically re-evaluated within 72 hours and if not improved should start parenteral therapy and consider additional diagnostics&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>Same</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{47}\" paraid=\"1187039966\">Ceftriaxone&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{57}\" paraid=\"1794053997\">Weight &gt; 45 kg and &lt;150kg: 500 mg IM x 1 dose&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{69}\" paraid=\"1875121570\">Weight &gt;=150kg:&nbsp;<br />\r\n\t\t\t1000 mg IM x 1 dose&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{83}\" paraid=\"793294453\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{97}\" paraid=\"163718657\">Doxycycline<br />\r\n\t\t\t100 mg enterally bid x 14 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{107}\" paraid=\"774524978\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{117}\" paraid=\"561041294\">Metronidazole<br />\r\n\t\t\t500 mg enterally bid x 14 days*&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{124}\" paraid=\"2144817095\"><a href=\"/node/13556\"><strong>Penicillin or cephalosporin allergy with higher risk for allergic reaction</strong></a>: &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{134}\" paraid=\"411019837\">Consult ID/ASP</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{134}\" paraid=\"411019837\"><strong>If anticipate significant challenges to adherence: </strong></p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{134}\" paraid=\"411019837\">Consider replacing Doxycycline with:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{146}\" paraid=\"54789329\">Azithromycin<br />\r\n\t\t\t1000 mg enterally qweek x 2 doses&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{153}\" paraid=\"1668902403\">Refer to&nbsp;<a href=\"https://www.sfcityclinic.org/sites/default/files/2019-05/STDProtocols2017.pdf\">SFDPH&nbsp;City&nbsp;Clinic STI protocols</a>&nbsp;section on PID for diagnostic criteria, evaluation, counseling, and&nbsp;follow up recommendations&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{173}\" paraid=\"1004544350\">*Metronidazole likely improves outcomes in all patients with PID, and is especially indicated if bacterial vaginosis or tubo-ovarian abscess cannot be ruled out&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1461,
+   "target_type": "taxonomy_term",
+   "target_uuid": "1c0d6bd7-8b96-483f-a5a7-d0a3a8ba07cf",
+   "url": "/guidelines-empiric-therapy-categories/sexually-transmitted-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{187}\" paraid=\"1288139220\">References:&nbsp;</h2>\n\n<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{187}\" paraid=\"1288139220\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\n\n<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{187}\" paraid=\"1288139220\">Wiesenfeld, HC, et al.. (2020). <a href=\"https://academic.oup.com/cid/article-abstract/72/7/1181/5735325\">A randomized controlled trial of ceftriaxone and doxycycline, with or without metronidazole, for the treatment of acute pelvic inflammatory disease</a>. Clin Infect Dis&nbsp;2020;72;1181-1189.&nbsp;</p>\n\n<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{239}\" paraid=\"195024084\">St. Cyr S, et al. <a href=\"https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a6.htm\">Update to CDC’s treatment guidelines for gonococcal infection, 2020</a>. MMWR Morb Mortal Wkly Rep 2020;69:1911–1916.</p>\n",
+   "value": "<h2 paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{187}\" paraid=\"1288139220\">References:&nbsp;</h2>\r\n\r\n<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{187}\" paraid=\"1288139220\">Workowski KA, et al.&nbsp;Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/std/treatment-guidelines/default.htm\">Sexually transmitted infections treatment guidelines, 2021</a>. MMWR&nbsp;Recomm Rep 2021;70:1-187.</p>\r\n\r\n<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{187}\" paraid=\"1288139220\">Wiesenfeld, HC, et al.. (2020). <a href=\"https://academic.oup.com/cid/article-abstract/72/7/1181/5735325\">A randomized controlled trial of ceftriaxone and doxycycline, with or without metronidazole, for the treatment of acute pelvic inflammatory disease</a>. Clin Infect Dis&nbsp;2020;72;1181-1189.&nbsp;</p>\r\n\r\n<p paraeid=\"{bfb7324c-2992-4178-9a7c-816f5ba50152}{239}\" paraid=\"195024084\">St. Cyr S, et al. <a href=\"https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a6.htm\">Update to CDC’s treatment guidelines for gonococcal infection, 2020</a>. MMWR Morb Mortal Wkly Rep 2020;69:1911–1916.</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13506
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/pelvic-inflammatory-disease",
+   "langcode": "und",
+   "pid": 26161
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-24T18:43:14+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Pelvic Inflammatory Disease "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "fa28a9cd-8f5e-4777-b506-f67cc14a33ee"
+  }
+ ],
+ "vid": [
+  {
+   "value": 16091
+  }
+ ]
+}

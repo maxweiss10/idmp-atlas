@@ -1,0 +1,125 @@
+{
+ "changed": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-11-15T21:35:13+00:00"
+  }
+ ],
+ "comment_node_diagnosis": [
+  {
+   "cid": 0,
+   "comment_count": 0,
+   "last_comment_name": null,
+   "last_comment_timestamp": 1700084113,
+   "last_comment_uid": 521,
+   "status": 1
+  }
+ ],
+ "created": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2021-08-02T18:32:47+00:00"
+  }
+ ],
+ "default_langcode": [
+  {
+   "value": true
+  }
+ ],
+ "field_dosing": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{105}\" paraid=\"987943832\">Diagnosis</h2>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{117}\" paraid=\"1623150046\"><em>H. pylori</em> testing should be limited to patients with a high likelihood of&nbsp;<em>H. pylori</em>-related disease.&nbsp;This includes patients with peptic ulcer disease or mucosa-associated lymphoid tissue (MALT) lymphoma, and&nbsp;selected&nbsp;patients with nodular gastropathy, chronic immune thrombocytopenia, refractory iron deficiency anemia, or family history of gastric cancer.&nbsp;</p>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{139}\" paraid=\"2081594760\">Current guidelines for <em>H. pylori</em> in children (ESPGHAN/NASPGHAN, linked below) recommend that the initial diagnosis be established based on:&nbsp;</p>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{149}\" paraid=\"875064295\">a) positive histopathology for&nbsp;<em>H. pylori&nbsp;</em>gastritis from gastric biopsy plus at least 1 other positive biopsy-based test OR &nbsp;</p>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{163}\" paraid=\"631386010\">b) a positive culture</p>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{163}\" paraid=\"631386010\">And not with a non-invasive test such as stool antigen. &nbsp;</p>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{173}\" paraid=\"563865678\">However, some experts would consider use of non-invasive tests (see below under follow-up) if endoscopy is not otherwise indicated for patient management. &nbsp;</p>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{183}\" paraid=\"678662231\">Pediatric testing criteria are narrower than corresponding adult criteria and the decision to utilize non-invasive testing in pediatric patients or to treat a patient with a positive non-invasive test is controversial. Individual risk factors (country of origin, family history, anticipated risk for complications and ability to complete treatment) should be taken into consideration. &nbsp;</p>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{193}\" paraid=\"1243916559\">Testing of patients with functional abdominal pain or gastroesophageal reflux disease is not recommended. &nbsp;</p>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{203}\" paraid=\"196423708\">Serology is not considered a reliable diagnostic test due to low sensitivity and specificity. &nbsp;</p>\n\n<h2 paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{213}\" paraid=\"966230107\">Follow up</h2>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{221}\" paraid=\"69462648\">Outcome of&nbsp;<em>H. pylori&nbsp;</em>therapy should be assessed at least 4 weeks after completion of therapy using one of the following tests:&nbsp;</p>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{239}\" paraid=\"380750410\">(a) urea breath test OR&nbsp;</p>\n\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{249}\" paraid=\"1186733271\">(b) stool antigen test&nbsp;</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Condition</th>\n\t\t\t<th>Major Pathogens&nbsp;</th>\n\t\t\t<th>First-choice Therapy</th>\n\t\t\t<th>Alternative Therapy</th>\n\t\t\t<th>Comments</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{44}\" paraid=\"1890511521\"><em>Helicobacter pylori&nbsp;</em>infection, initial treatment, susceptibilities unknown&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{56}\" paraid=\"690542676\">Refer to ESPGHAN/ NASPGHAN guidelines&nbsp;(linked below) for treatment based&nbsp;on susceptibilities if they are available &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{65}\" paraid=\"520087318\"><em>Helicobacter pylori&nbsp;</em></p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{71}\" paraid=\"1515252334\">------------------------</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{83}\" paraid=\"215746589\"><em><strong>Options for proton pump inhibitor (PPI)</strong></em>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{93}\" paraid=\"2068210185\">Omeprazole (Prilosec) &nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{103}\" paraid=\"1807639044\">OR &nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{113}\" paraid=\"933343581\">Esomeprazole (Nexium) &nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{119}\" paraid=\"1360925505\">Weight 15-24 kg: 20 mg enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{135}\" paraid=\"1029148681\">Weight 25-34 kg: 30 mg enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{147}\" paraid=\"1216146079\">Weight &gt; 35 kg: 40 mg enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{159}\" paraid=\"579105385\">OR&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{169}\" paraid=\"568902422\">Lansoprazole&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{179}\" paraid=\"1150405245\">Weight 15-24 kg: 15 mg enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{191}\" paraid=\"1447103785\">Weight 25-34 kg: 30 mg enterally bid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{203}\" paraid=\"904409994\">Weight &gt; 35 kg: 30 mg enterally bid or tid&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{211}\" paraid=\"672004837\"><a href=\"/content/proton-pump-inhibitor-options-for-h-pylori-therapy\">PPI dose equivalents</a>&nbsp;(follow link for options)&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{230}\" paraid=\"696064032\"><strong>PPI</strong>&nbsp;(from second column) &nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{242}\" paraid=\"1619960473\">AND&nbsp;</p>\n\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{252}\" paraid=\"1120745329\"><strong>Amoxicillin&nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{3}\" paraid=\"1440003380\">Weight 15-24 kg: 750 mg enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{15}\" paraid=\"2075434065\">Weight 25-34 kg: 1000 mg enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{27}\" paraid=\"154407813\">Weight &gt; 35 kg: 1500 mg enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{39}\" paraid=\"643058493\">AND &nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{49}\" paraid=\"2101765744\"><strong>Metronidazole &nbsp;</strong></p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{59}\" paraid=\"1323887180\">Weight 15-24 kg: 250 mg enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{67}\" paraid=\"1483820252\">Weight 25-34 kg: 500 mg AM and 250 mg enterally PM&nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{83}\" paraid=\"135947557\">Weight &gt; 35 kg: 500 mg enterally bid &nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{91}\" paraid=\"2007431074\"> &nbsp;</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{110}\" paraid=\"776447986\"><a href=\"/content/assessment-of-antibiotic-allergies\"><strong>Penicillin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{116}\" paraid=\"235064180\">Refer to guidelines below for alternative treatment based on susceptibilities or consult ID/ASP for guidance&nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{126}\" paraid=\"1931513208\">Bismuth-based or quadruple therapy are alternatives included in ESPGHAN/NASPGHAN guidelines (see below reference).&nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{140}\" paraid=\"65860689\">Treatment failure should be addressed with individualized rescue therapy considering antibiotic susceptibility, the age of the child, and available antimicrobial options; patients with treatment failure should be managed in consultation with GI </p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{147}\" paraid=\"879065256\">GI consult recommended for patients with positive&nbsp;<em>H. pylori</em>&nbsp;testing to consider next steps in diagnosis and treatment &nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{157}\" paraid=\"869434744\"><strong>Duration</strong>:&nbsp;14 days&nbsp;</p>\n\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{173}\" paraid=\"1831295287\">Patient and family should be counseled about the importance of adherence to the anti –&nbsp;<em>H. pylori</em>&nbsp;therapy to enhance successful eradication&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "value": "<h2 paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{105}\" paraid=\"987943832\">Diagnosis</h2>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{117}\" paraid=\"1623150046\"><em>H. pylori</em> testing should be limited to patients with a high likelihood of&nbsp;<em>H. pylori</em>-related disease.&nbsp;This includes patients with peptic ulcer disease or mucosa-associated lymphoid tissue (MALT) lymphoma, and&nbsp;selected&nbsp;patients with nodular gastropathy, chronic immune thrombocytopenia, refractory iron deficiency anemia, or family history of gastric cancer.&nbsp;</p>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{139}\" paraid=\"2081594760\">Current guidelines for <em>H. pylori</em> in children (ESPGHAN/NASPGHAN, linked below) recommend that the initial diagnosis be established based on:&nbsp;</p>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{149}\" paraid=\"875064295\">a) positive histopathology for&nbsp;<em>H. pylori&nbsp;</em>gastritis from gastric biopsy plus at least 1 other positive biopsy-based test OR &nbsp;</p>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{163}\" paraid=\"631386010\">b) a positive culture</p>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{163}\" paraid=\"631386010\">And not with a non-invasive test such as stool antigen. &nbsp;</p>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{173}\" paraid=\"563865678\">However, some experts would consider use of non-invasive tests (see below under follow-up) if endoscopy is not otherwise indicated for patient management. &nbsp;</p>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{183}\" paraid=\"678662231\">Pediatric testing criteria are narrower than corresponding adult criteria and the decision to utilize non-invasive testing in pediatric patients or to treat a patient with a positive non-invasive test is controversial. Individual risk factors (country of origin, family history, anticipated risk for complications and ability to complete treatment) should be taken into consideration. &nbsp;</p>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{193}\" paraid=\"1243916559\">Testing of patients with functional abdominal pain or gastroesophageal reflux disease is not recommended. &nbsp;</p>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{203}\" paraid=\"196423708\">Serology is not considered a reliable diagnostic test due to low sensitivity and specificity. &nbsp;</p>\r\n\r\n<h2 paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{213}\" paraid=\"966230107\">Follow up</h2>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{221}\" paraid=\"69462648\">Outcome of&nbsp;<em>H. pylori&nbsp;</em>therapy should be assessed at least 4 weeks after completion of therapy using one of the following tests:&nbsp;</p>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{239}\" paraid=\"380750410\">(a) urea breath test OR&nbsp;</p>\r\n\r\n<p paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{249}\" paraid=\"1186733271\">(b) stool antigen test&nbsp;</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>Condition</th>\r\n\t\t\t<th>Major Pathogens&nbsp;</th>\r\n\t\t\t<th>First-choice Therapy</th>\r\n\t\t\t<th>Alternative Therapy</th>\r\n\t\t\t<th>Comments</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{44}\" paraid=\"1890511521\"><em>Helicobacter pylori&nbsp;</em>infection, initial treatment, susceptibilities unknown&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{56}\" paraid=\"690542676\">Refer to ESPGHAN/ NASPGHAN guidelines&nbsp;(linked below) for treatment based&nbsp;on susceptibilities if they are available &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{65}\" paraid=\"520087318\"><em>Helicobacter pylori&nbsp;</em></p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{71}\" paraid=\"1515252334\">------------------------</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{83}\" paraid=\"215746589\"><em><strong>Options for proton pump inhibitor (PPI)</strong></em>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{93}\" paraid=\"2068210185\">Omeprazole (Prilosec) &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{103}\" paraid=\"1807639044\">OR &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{113}\" paraid=\"933343581\">Esomeprazole (Nexium) &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{119}\" paraid=\"1360925505\">Weight 15-24 kg: 20 mg enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{135}\" paraid=\"1029148681\">Weight 25-34 kg: 30 mg enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{147}\" paraid=\"1216146079\">Weight &gt; 35 kg: 40 mg enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{159}\" paraid=\"579105385\">OR&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{169}\" paraid=\"568902422\">Lansoprazole&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{179}\" paraid=\"1150405245\">Weight 15-24 kg: 15 mg enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{191}\" paraid=\"1447103785\">Weight 25-34 kg: 30 mg enterally bid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{203}\" paraid=\"904409994\">Weight &gt; 35 kg: 30 mg enterally bid or tid&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{211}\" paraid=\"672004837\"><a href=\"/node/13696\">PPI dose equivalents</a>&nbsp;(follow link for options)&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{230}\" paraid=\"696064032\"><strong>PPI</strong>&nbsp;(from second column) &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{242}\" paraid=\"1619960473\">AND&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{dba6724f-9196-4ef7-b799-c20fac6662f4}{252}\" paraid=\"1120745329\"><strong>Amoxicillin&nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{3}\" paraid=\"1440003380\">Weight 15-24 kg: 750 mg enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{15}\" paraid=\"2075434065\">Weight 25-34 kg: 1000 mg enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{27}\" paraid=\"154407813\">Weight &gt; 35 kg: 1500 mg enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{39}\" paraid=\"643058493\">AND &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{49}\" paraid=\"2101765744\"><strong>Metronidazole &nbsp;</strong></p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{59}\" paraid=\"1323887180\">Weight 15-24 kg: 250 mg enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{67}\" paraid=\"1483820252\">Weight 25-34 kg: 500 mg AM and 250 mg enterally PM&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{83}\" paraid=\"135947557\">Weight &gt; 35 kg: 500 mg enterally bid &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{91}\" paraid=\"2007431074\"> &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{110}\" paraid=\"776447986\"><a href=\"/node/13556\"><strong>Penicillin allergy with higher risk for allergic reaction</strong></a>:&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{116}\" paraid=\"235064180\">Refer to guidelines below for alternative treatment based on susceptibilities or consult ID/ASP for guidance&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{126}\" paraid=\"1931513208\">Bismuth-based or quadruple therapy are alternatives included in ESPGHAN/NASPGHAN guidelines (see below reference).&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{140}\" paraid=\"65860689\">Treatment failure should be addressed with individualized rescue therapy considering antibiotic susceptibility, the age of the child, and available antimicrobial options; patients with treatment failure should be managed in consultation with GI </p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{147}\" paraid=\"879065256\">GI consult recommended for patients with positive&nbsp;<em>H. pylori</em>&nbsp;testing to consider next steps in diagnosis and treatment &nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{157}\" paraid=\"869434744\"><strong>Duration</strong>:&nbsp;14 days&nbsp;</p>\r\n\r\n\t\t\t<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{173}\" paraid=\"1831295287\">Patient and family should be counseled about the importance of adherence to the anti –&nbsp;<em>H. pylori</em>&nbsp;therapy to enhance successful eradication&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+  }
+ ],
+ "field_guidelines_for_empiric_the": [
+  {
+   "target_id": 1661,
+   "target_type": "taxonomy_term",
+   "target_uuid": "b4e45d9b-2786-4723-a916-dbc8aa7b9580",
+   "url": "/guidelines-empiric-therapy-categories/gastrointestinal-infections"
+  }
+ ],
+ "field_notes": [],
+ "field_patient_population": [
+  {
+   "target_id": 1621,
+   "target_type": "taxonomy_term",
+   "target_uuid": "825a2957-e3c3-4dac-9314-6c5aef948b03",
+   "url": "/patient-population/pediatric"
+  }
+ ],
+ "field_references": [
+  {
+   "format": "advanced",
+   "processed": "<h2 paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{105}\" paraid=\"987943832\">Reference</h2>\n\n<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{197}\" paraid=\"890210613\">Jones NL, et al. <a href=\"https://www.naspghan.org/files/Joint_ESPGHAN_NASPGHAN_Guidelines_for_the.33.pdf\">Joint ESPGHAN/NASPGHAN guidelines for the management of&nbsp;<em>Helicobacter pylori&nbsp;</em>in children and adolescents (update 2016)</a>. J Pediatr Gastroenterol Nutr 2017;64:991-1003.&nbsp;</p>\n",
+   "value": "<h2 paraeid=\"{111ed92b-d644-46b9-b711-c35fb87923d8}{105}\" paraid=\"987943832\">Reference</h2>\r\n\r\n<p paraeid=\"{621cae0f-26f8-45cb-ad76-1e9f4cd0dbbb}{197}\" paraid=\"890210613\">Jones NL, et al. <a href=\"https://www.naspghan.org/files/Joint_ESPGHAN_NASPGHAN_Guidelines_for_the.33.pdf\">Joint ESPGHAN/NASPGHAN guidelines for the management of&nbsp;<em>Helicobacter pylori&nbsp;</em>in children and adolescents (update 2016)</a>. J Pediatr Gastroenterol Nutr 2017;64:991-1003.&nbsp;</p>\r\n"
+  }
+ ],
+ "langcode": [
+  {
+   "value": "en"
+  }
+ ],
+ "nid": [
+  {
+   "value": 13371
+  }
+ ],
+ "path": [
+  {
+   "alias": "/content/helicobacter-pylori-infection",
+   "langcode": "und",
+   "pid": 26026
+  }
+ ],
+ "promote": [
+  {
+   "value": false
+  }
+ ],
+ "revision_timestamp": [
+  {
+   "format": "Y-m-d\\TH:i:sP",
+   "value": "2023-11-15T21:35:13+00:00"
+  }
+ ],
+ "revision_translation_affected": [
+  {
+   "value": true
+  }
+ ],
+ "status": [
+  {
+   "value": true
+  }
+ ],
+ "sticky": [
+  {
+   "value": false
+  }
+ ],
+ "title": [
+  {
+   "value": "Helicobacter pylori Infection  "
+  }
+ ],
+ "type": [
+  {
+   "target_id": "diagnosis",
+   "target_type": "node_type",
+   "target_uuid": "d391480b-2639-4924-8a19-601ec9a9c8fa"
+  }
+ ],
+ "uuid": [
+  {
+   "value": "6a1b532a-66a4-4a0e-b437-042c2db88d94"
+  }
+ ],
+ "vid": [
+  {
+   "value": 15956
+  }
+ ]
+}
