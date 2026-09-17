@@ -1038,13 +1038,19 @@ def main():
     # changes
     route = "changes.html"; root = ""
     KIND = {"added": "New", "updated": "Updated", "removed": "Removed", "unlisted": "Unlisted", "relisted": "Relisted",
-            "structure-updated": "Index changed", "nav-updated": "Navigation changed", "file-updated": "PDF replaced", "file-unreferenced": "PDF unlinked"}
+            "structure-updated": "Index changed", "nav-updated": "Navigation changed", "file-updated": "PDF replaced", "file-unreferenced": "PDF unlinked", "snapshot": "Snapshot"}
     runs = []
     for run in reversed(changelog[-60:]):
         evs = []
         for e in run.get("events", []):
             kind = e.get("kind"); label = KIND.get(kind, kind)
-            if "nid" in e and e["nid"] in models:
+            if kind == "snapshot":
+                types = e.get("types") or {}
+                label = "First snapshot"
+                link = (f'{e.get("count", 0)} pages mirrored: {types.get("diagnosis", 0)} syndromes, {types.get("drug", 0)} drugs, '
+                        f'{types.get("guidelines", 0)} guidelines, {types.get("page", 0)} pages, '
+                        f'{types.get("ucsf_person", 0) + types.get("other_person", 0)} people, {types.get("ucsf_publication", 0)} publications')
+            elif "nid" in e and e["nid"] in models:
                 link = f'<a href="{models[e["nid"]]["route"]}">{esc(e.get("title"))}</a>'
             elif "title" in e:
                 link = esc(e.get("title"))

@@ -24,6 +24,8 @@ elif cmd == "issue-body":
               "", "_Opened automatically by the sync workflow._"]
     print("\n".join(lines))
 elif cmd == "commit-msg":
-    print(f"sync {st['run'][:10]}: {st.get('events', 0)} change(s), {len(st.get('problems', []))} problem(s)")
+    hard = sum(1 for p in st.get("problems", []) if p["level"] == "hard")
+    soft = sum(1 for p in st.get("problems", []) if p["level"] == "soft")
+    print(f"sync {st['run'][:10]}: {st.get('events', 0)} change(s), {hard} problem(s), {soft} warning(s)")
 else:
     print(__doc__); sys.exit(1)
