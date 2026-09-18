@@ -1,0 +1,424 @@
+{
+ "key": "ucsf-adult-antibiogram-gn-2024-0",
+ "title": "UCSF Adult Inpatient Susceptibility Data (Gram-Negatives)",
+ "page": "UCSF Adult Inpatient Susceptibility Data",
+ "route": "antibiograms/ucsf-adult-antibiogram-gn-2024.html",
+ "year": "2024",
+ "drugs": [
+  {
+   "abbr": "CFPM",
+   "name": "cefepime"
+  },
+  {
+   "abbr": "CIP",
+   "name": "ciprofloxacin"
+  },
+  {
+   "abbr": "CTAZ",
+   "name": "ceftazidime"
+  },
+  {
+   "abbr": "CTRX",
+   "name": "ceftriaxone"
+  },
+  {
+   "abbr": "ERTA",
+   "name": "ertapenem"
+  },
+  {
+   "abbr": "IMI/MER",
+   "name": "imipenem-cilastatin/meropenem"
+  },
+  {
+   "abbr": "P/T",
+   "name": "piperacillin-tazobactam"
+  },
+  {
+   "abbr": "TOB",
+   "name": "tobramycin"
+  }
+ ],
+ "rows": [
+  {
+   "organism": "Weighted average",
+   "n": 2081,
+   "v": {
+    "CFPM": {
+     "v": 85,
+     "raw": "85"
+    },
+    "CIP": {
+     "v": 73,
+     "raw": "73"
+    },
+    "CTAZ": {
+     "v": 82,
+     "raw": "82"
+    },
+    "CTRX": {
+     "v": 59,
+     "raw": "59 (75) 3"
+    },
+    "ERTA": {
+     "v": 77,
+     "raw": "77 (97) 3"
+    },
+    "IMI/MER": {
+     "v": 95,
+     "raw": "95 4"
+    },
+    "P/T": {
+     "v": 85,
+     "raw": "85"
+    },
+    "TOB": {
+     "v": 88,
+     "raw": "88"
+    }
+   }
+  },
+  {
+   "organism": "Citrobacter freundii",
+   "n": 47,
+   "v": {
+    "CFPM": {
+     "v": 95,
+     "raw": "95"
+    },
+    "CIP": {
+     "v": 89,
+     "raw": "89"
+    },
+    "CTAZ": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "ERTA": {
+     "v": 95,
+     "raw": "95"
+    },
+    "IMI/MER": {
+     "v": 100,
+     "raw": "100"
+    },
+    "P/T": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "TOB": {
+     "v": 94,
+     "raw": "94"
+    }
+   }
+  },
+  {
+   "organism": "Enterobacter cloacae",
+   "n": 122,
+   "v": {
+    "CFPM": {
+     "v": 89,
+     "raw": "89"
+    },
+    "CIP": {
+     "v": 91,
+     "raw": "91"
+    },
+    "CTAZ": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "ERTA": {
+     "v": 93,
+     "raw": "93"
+    },
+    "IMI/MER": {
+     "v": 100,
+     "raw": "100"
+    },
+    "P/T": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "TOB": {
+     "v": 96,
+     "raw": "96"
+    }
+   }
+  },
+  {
+   "organism": "Escherichia coli",
+   "n": 752,
+   "v": {
+    "CFPM": {
+     "v": 81,
+     "raw": "81"
+    },
+    "CIP": {
+     "v": 60,
+     "raw": "60"
+    },
+    "CTAZ": {
+     "v": 82,
+     "raw": "82"
+    },
+    "CTRX": {
+     "v": 74,
+     "raw": "74"
+    },
+    "ERTA": {
+     "v": 99,
+     "raw": "99"
+    },
+    "IMI/MER": {
+     "v": 99,
+     "raw": "99"
+    },
+    "P/T": {
+     "v": 91,
+     "raw": "91"
+    },
+    "TOB": {
+     "v": 83,
+     "raw": "83"
+    }
+   }
+  },
+  {
+   "organism": "Klebsiella aerogenes",
+   "n": 65,
+   "v": {
+    "CFPM": {
+     "v": 96,
+     "raw": "96"
+    },
+    "CIP": {
+     "v": 96,
+     "raw": "96"
+    },
+    "CTAZ": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "ERTA": {
+     "v": 96,
+     "raw": "96"
+    },
+    "IMI/MER": {
+     "v": 92,
+     "raw": "92"
+    },
+    "P/T": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "TOB": {
+     "v": 98,
+     "raw": "98"
+    }
+   }
+  },
+  {
+   "organism": "Klebsiella oxytoca",
+   "n": 87,
+   "v": {
+    "CFPM": {
+     "v": 88,
+     "raw": "88"
+    },
+    "CIP": {
+     "v": 83,
+     "raw": "83"
+    },
+    "CTAZ": {
+     "v": 87,
+     "raw": "87"
+    },
+    "CTRX": {
+     "v": 82,
+     "raw": "82"
+    },
+    "ERTA": {
+     "v": 97,
+     "raw": "97"
+    },
+    "IMI/MER": {
+     "v": 98,
+     "raw": "98"
+    },
+    "P/T": {
+     "v": 82,
+     "raw": "82"
+    },
+    "TOB": {
+     "v": 84,
+     "raw": "84"
+    }
+   }
+  },
+  {
+   "organism": "Klebsiella pneumoniae",
+   "n": 311,
+   "v": {
+    "CFPM": {
+     "v": 77,
+     "raw": "77"
+    },
+    "CIP": {
+     "v": 71,
+     "raw": "71"
+    },
+    "CTAZ": {
+     "v": 76,
+     "raw": "76"
+    },
+    "CTRX": {
+     "v": 73,
+     "raw": "73"
+    },
+    "ERTA": {
+     "v": 95,
+     "raw": "95"
+    },
+    "IMI/MER": {
+     "v": 97,
+     "raw": "97"
+    },
+    "P/T": {
+     "v": 79,
+     "raw": "79"
+    },
+    "TOB": {
+     "v": 82,
+     "raw": "82"
+    }
+   }
+  },
+  {
+   "organism": "Proteus mirabilis",
+   "n": 165,
+   "v": {
+    "CFPM": {
+     "v": 92,
+     "raw": "92"
+    },
+    "CIP": {
+     "v": 77,
+     "raw": "77"
+    },
+    "CTAZ": {
+     "v": 96,
+     "raw": "96"
+    },
+    "CTRX": {
+     "v": 89,
+     "raw": "89"
+    },
+    "ERTA": {
+     "v": 100,
+     "raw": "100"
+    },
+    "IMI/MER": {
+     "v": 99,
+     "raw": "99"
+    },
+    "P/T": {
+     "v": 100,
+     "raw": "100"
+    },
+    "TOB": {
+     "v": 84,
+     "raw": "84"
+    }
+   }
+  },
+  {
+   "organism": "Pseudomonas aeruginosa",
+   "n": 448,
+   "v": {
+    "CFPM": {
+     "v": 89,
+     "raw": "89"
+    },
+    "CIP": {
+     "v": 82,
+     "raw": "82"
+    },
+    "CTAZ": {
+     "v": 87,
+     "raw": "87"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "ERTA": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "IMI/MER": {
+     "v": 86,
+     "raw": "86"
+    },
+    "P/T": {
+     "v": 80,
+     "raw": "80"
+    },
+    "TOB": {
+     "v": 95,
+     "raw": "95"
+    }
+   }
+  },
+  {
+   "organism": "Serratia marcescens",
+   "n": 84,
+   "v": {
+    "CFPM": {
+     "v": 100,
+     "raw": "100"
+    },
+    "CIP": {
+     "v": 90,
+     "raw": "90"
+    },
+    "CTAZ": {
+     "v": 97,
+     "raw": "97"
+    },
+    "CTRX": {
+     "v": 94,
+     "raw": "94"
+    },
+    "ERTA": {
+     "v": 98,
+     "raw": "98"
+    },
+    "IMI/MER": {
+     "v": 98,
+     "raw": "98"
+    },
+    "P/T": {
+     "v": 96,
+     "raw": "96"
+    },
+    "TOB": {
+     "v": 95,
+     "raw": "95"
+    }
+   }
+  }
+ ],
+ "changed": "2026-05-19T21:35:37+00:00"
+}

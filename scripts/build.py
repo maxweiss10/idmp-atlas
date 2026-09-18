@@ -619,8 +619,8 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
 <title>{esc(title)} · {SITE_NAME}</title>
 <meta name="description" content="{esc(desc or TAGLINE)}">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#fcfcfd" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#08090a" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="{SITE_NAME}">
@@ -628,7 +628,7 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
 <link rel="icon" href="{root}assets/icon-192.png">
 <link rel="apple-touch-icon" href="{root}assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="{root}assets/site.css?v={ver}">
 <script>try{{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);var L=JSON.parse(localStorage.getItem('lens')||'{{}}');for(var k in L)if(L[k])document.documentElement.setAttribute('data-'+k,L[k]);}}catch(e){{}}</script>
 {extra_head}
@@ -803,8 +803,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     for sub in ("assets", "img", "empiric", "drugs", "guidelines", "antibiograms", "pages", "people", "thumbs"):
         os.makedirs(os.path.join(OUT, sub), exist_ok=True)
-    tokens = open(os.path.join(SITE, "assets", "tokens.css"), encoding="utf-8").read()
-    css = tokens + "\n" + open(os.path.join(SITE, "assets", "site.css"), encoding="utf-8").read()
+    css = open(os.path.join(SITE, "assets", "site.css"), encoding="utf-8").read()
     js = open(os.path.join(SITE, "assets", "site.js"), encoding="utf-8").read().replace("__REPO__", REPO)
     ctx.asset_ver = hashlib.sha1((css + js).encode()).hexdigest()[:8]
     open(os.path.join(OUT, "assets", "site.css"), "w", encoding="utf-8").write(css)
@@ -1725,7 +1724,7 @@ def main():
         json.dump([{k: v for k, v in e.items() if k in ("t", "n", "u", "k", "s")} for e in search], f, ensure_ascii=False, separators=(",", ":"))
     ver = ctx.asset_ver
     manifest_pwa = {"name": SITE_NAME, "short_name": "IDMP Atlas", "description": TAGLINE, "start_url": "./index.html", "scope": "./",
-                    "display": "standalone", "background_color": "#fcfcfd", "theme_color": "#1c2024",
+                    "display": "standalone", "background_color": "#ffffff", "theme_color": "#0a0c12",
                     "icons": [{"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png"},
                               {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png"},
                               {"src": "assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}

@@ -1,0 +1,126 @@
+{
+ "key": "ucsf-adult-antibiogram-outpatient-2024-0",
+ "title": "UCSF Adult Outpatient Susceptibility Data: S. aureus",
+ "page": "UCSF Adult Outpatient Susceptibility Data",
+ "route": "antibiograms/ucsf-adult-antibiogram-outpatient-2024.html",
+ "year": "2024",
+ "drugs": [
+  {
+   "abbr": "CLIN",
+   "name": "clindamycin"
+  },
+  {
+   "abbr": "DOX",
+   "name": "doxycycline"
+  },
+  {
+   "abbr": "LZD",
+   "name": "linezolid"
+  },
+  {
+   "abbr": "NAF",
+   "name": "nafcillin"
+  },
+  {
+   "abbr": "T/S",
+   "name": "trimethoprim/sulfamethoxazole"
+  },
+  {
+   "abbr": "VANC",
+   "name": "vancomycin"
+  }
+ ],
+ "rows": [
+  {
+   "organism": "Staphylococcus aureus",
+   "n": 249,
+   "v": {
+    "CLIN": {
+     "v": 74,
+     "raw": "74"
+    },
+    "DOX": {
+     "v": 86,
+     "raw": "86"
+    },
+    "LZD": {
+     "v": 100,
+     "raw": "100"
+    },
+    "NAF": {
+     "v": 83,
+     "raw": "83"
+    },
+    "T/S": {
+     "v": 96,
+     "raw": "96"
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  },
+  {
+   "organism": "MSSA",
+   "n": 210,
+   "v": {
+    "CLIN": {
+     "v": 77,
+     "raw": "77"
+    },
+    "DOX": {
+     "v": 91,
+     "raw": "91"
+    },
+    "LZD": {
+     "v": 100,
+     "raw": "100"
+    },
+    "NAF": {
+     "v": 100,
+     "raw": "100"
+    },
+    "T/S": {
+     "v": 97,
+     "raw": "97"
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  },
+  {
+   "organism": "MRSA",
+   "n": 40,
+   "v": {
+    "CLIN": {
+     "v": 60,
+     "raw": "60"
+    },
+    "DOX": {
+     "v": 60,
+     "raw": "60"
+    },
+    "LZD": {
+     "v": 100,
+     "raw": "100"
+    },
+    "NAF": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "T/S": {
+     "v": 90,
+     "raw": "90"
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  }
+ ],
+ "changed": "2026-05-19T21:36:57+00:00"
+}

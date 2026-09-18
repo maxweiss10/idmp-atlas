@@ -1,0 +1,66 @@
+{
+ "key": "ucsf-adult-outpatient-susceptibility-data-e-coli-urine-isolates-0",
+ "title": "UCSF Adult Outpatient Susceptibility Data: E. coli Urinary Isolates",
+ "page": "UCSF Adult Outpatient Susceptibility Data: E. coli Urine Isolates",
+ "route": "antibiograms/ucsf-adult-outpatient-susceptibility-data-e-coli-urine-isolates.html",
+ "year": null,
+ "drugs": [
+  {
+   "abbr": "AMP/SUL",
+   "name": "ampicillin-sulbactam"
+  },
+  {
+   "abbr": "CIP",
+   "name": "ciprofloxacin"
+  },
+  {
+   "abbr": "CTRX",
+   "name": "ceftriaxone"
+  },
+  {
+   "abbr": "CZLN",
+   "name": "cefazolin"
+  },
+  {
+   "abbr": "NTF",
+   "name": "nitrofurantoin"
+  },
+  {
+   "abbr": "T/S",
+   "name": "trimethoprim-sulfamethoxazole"
+  }
+ ],
+ "rows": [
+  {
+   "organism": "Escherichia coli , urine",
+   "n": 554,
+   "v": {
+    "AMP/SUL": {
+     "v": 65,
+     "raw": "65"
+    },
+    "CIP": {
+     "v": 85,
+     "raw": "85"
+    },
+    "CTRX": {
+     "v": 86,
+     "raw": "86"
+    },
+    "CZLN": {
+     "v": 85,
+     "raw": "85"
+    },
+    "NTF": {
+     "v": 98,
+     "raw": "98"
+    },
+    "T/S": {
+     "v": 70,
+     "raw": "70"
+    }
+   }
+  }
+ ],
+ "changed": "2026-05-19T21:38:09+00:00"
+}
