@@ -26,8 +26,8 @@
   function lensSummary() {
     var parts = [LABELS.where[lens.where || ''], LABELS.setting[lens.setting || ''], LABELS.patient[lens.patient || '']];
     if (lens.crcl) parts.push('CrCl ' + lens.crcl); else if (lens.renal) parts.push(lens.renal.toUpperCase());
-    if (lens.allergy) parts.push('BL allergy');
-    return parts.join(' · ');
+    if (lens.allergy) parts.push('beta-lactam allergy');
+    return parts.join(', ');
   }
   function applyLens(save) {
     LENS_KEYS.forEach(function (k) { if (lens[k]) html.setAttribute('data-' + k, lens[k]); else html.removeAttribute('data-' + k); });
@@ -47,7 +47,7 @@
       items.forEach(function (li) { ul.appendChild(li); });
     });
     $$('.site-sec[data-site], .restrict[data-site]').forEach(function (sec) { var s2 = sec.getAttribute('data-site'); sec.classList.toggle('on', !!lens.where && s2 === lens.where); sec.classList.toggle('off', !!lens.where && s2 !== lens.where && s2 !== ''); });
-    applyBands(document); applyDoseStrips(document); chooserAuto();
+    applyBands(document); applyDoseStrips(document); ctxAuto();
     document.dispatchEvent(new CustomEvent('lens-change'));
   }
   document.addEventListener('click', function (ev) {
@@ -85,63 +85,70 @@
     if (lens.crcl) { var v = parseInt(lens.crcl, 10); for (var i = 0; i < bands.length; i++) { var b = bands[i]; var okLo = b.lo == null || (b.loi ? v >= b.lo : v > b.lo), okHi = b.hi == null || (b.hii ? v <= b.hi : v < b.hi); if (okLo && okHi) return i; } }
     return 0;
   }
-  function stripHTML(dd, bi, ri, matched) {
-    if (ri >= dd.rows.length) ri = 0;
-    var r = dd.rows[ri], d = r.d[bi] || '';
-    if (!d) return 'see page';
-    var label = '';
-    if (matched && r.i) label = '<b>' + esc(r.i.slice(0, 38)) + '</b> ';
-    else if (r.i && !/^(standard|usual|general|all|normal)/i.test(r.i) && dd.rows.length > 1) label = '<b>' + esc(r.i.slice(0, 38)) + '</b> ';
-    return label + esc(d) + (dd.rows.length > 1 ? '<i class="more">+' + (dd.rows.length - 1) + ' more</i>' : '');
-  }
+  /* The server renders the dose line, its marks and the band table. A lens change only
+     moves the band, so update the number and the highlight in place and leave marks alone. */
   function applyDoseStrips(scope) {
     var dataEl = $('#dose-data', scope); if (!dataEl) return;
     var data; try { data = JSON.parse(dataEl.textContent); } catch (e) { return; }
     $$('.dose[data-dose]', scope).forEach(function (el) {
       var dd = data[el.getAttribute('data-dose')]; if (!dd) return;
-      var ri = +(el.getAttribute('data-row') || 0), matched = el.getAttribute('data-matched') === '1';
-      if (lens.renal) { el.innerHTML = '<b>' + esc(lens.renal.toUpperCase()) + '</b> see dosing table'; return; }
-      var bi = pickBand(dd.bands); el.innerHTML = stripHTML(dd, bi, ri, matched);
-      el.title = (lens.crcl ? 'Column "' + (dd.bands[bi] && dd.bands[bi].label) + '" for CrCl ' + lens.crcl + '. ' : 'Normal renal function column. ') + 'Doses come from the IDMP dosing table for this drug, not from the regimen cell.';
+      var ri = +(el.getAttribute('data-row') || 0);
+      if (ri >= dd.rows.length) ri = 0;
+      var bi = lens.renal ? 0 : pickBand(dd.bands);
+      var txt = dd.rows[ri].d[bi] || '';
+      var d = $('.dl-d', el); if (d && txt) d.textContent = txt;
+      var band = dd.bands[bi] || {};
+      var bl = $('.dl-band', el); if (bl && band.label) bl.textContent = band.label;
+      var wrap = el.parentNode, bt = wrap && wrap.querySelector('.bt');
+      if (bt) $$('.bt-c', bt).forEach(function (c, i) { c.classList.toggle('on', i === bi); });
     });
   }
 
-  /* ---------- chooser (one regimen card at a time) ---------- */
-  function chooserSelect(ch, id, scroll) {
-    var list = ch.nextElementSibling; if (!list || !list.classList.contains('rx-list')) return;
-    $$('button', ch).forEach(function (b) { var on = b.getAttribute('data-row') === id; b.classList.toggle('on', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); });
-    $$('.rx', list).forEach(function (card) { card.hidden = id !== 'all' && card.id !== id; });
-    if (scroll && id !== 'all') { var c = document.getElementById(id); if (c) c.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
-  }
+  /* ---------- context branch: pick the regimen, never hide it ---------- */
   var SITE_RX = { ucsf: /ucsf|parnassus|mission bay|mt\.? zion|mount zion|moffitt/i, zsfg: /zsfg|zuckerberg|sfgh|general hospital/i, va: /\bva\b|vasf|sfva|veteran/i, bch: /\bbch\b|benioff|children|oakland/i };
-  function chooserAuto() {
-    $$('.chooser').forEach(function (ch) {
-      if (ch.getAttribute('data-user')) return;
-      var buttons = $$('button[data-row]:not(.chooser-all)', ch), pick = null;
+  function ctxApply(nav, id, scroll) {
+    var cols = $$('.rgc[data-ctx]'), many = $$('.ctx-n', nav).length > 4;
+    $$('.ctx-n', nav).forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-ctx') === id); });
+    cols.forEach(function (c) {
+      var mine = c.getAttribute('data-ctx') === id;
+      c.classList.toggle('dim', many && !mine);
+      c.classList.toggle('lit', !many && mine);
+    });
+    $$('.dtl[data-ctx]').forEach(function (d) { d.classList.toggle('dim', many && d.getAttribute('data-ctx') !== id); });
+    $$('.rgx').forEach(function (g) {
+      var vis = $$('.rgc:not(.dim)', g).length;
+      g.setAttribute('data-cols', String(Math.min(vis || 1, 4)));
+    });
+    if (scroll) { var t = document.getElementById(id); if (t) t.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
+  }
+  function ctxAuto() {
+    $$('.ctx').forEach(function (nav) {
+      if (nav.getAttribute('data-user')) return;
+      var btns = $$('.ctx-n', nav), pick = null;
       var hash = location.hash.replace('#', '');
-      if (hash && buttons.some(function (b) { return b.getAttribute('data-row') === hash; })) pick = hash;
+      if (hash && btns.some(function (b) { return b.getAttribute('data-ctx') === hash; })) pick = hash;
       if (!pick) {
-        // Rank rows: a row naming your hospital wins, then one matching your setting, then both together.
-        var anySite = lens.where && buttons.some(function (b) { return Object.keys(SITE_RX).some(function (k) { return SITE_RX[k].test(b.textContent); }); });
+        var anySite = lens.where && btns.some(function (b) { return Object.keys(SITE_RX).some(function (k) { return SITE_RX[k].test(b.textContent); }); });
         var best = null, bestScore = 0;
-        buttons.forEach(function (b) {
+        btns.forEach(function (b) {
           var score = 0, tags = (b.getAttribute('data-tags') || '').split(/\s+/);
           if (anySite && SITE_RX[lens.where] && SITE_RX[lens.where].test(b.textContent)) score += 3;
           else if (anySite && lens.where) score -= 1;
           if (lens.setting && tags.indexOf(lens.setting) >= 0) score += 2;
           if (score > bestScore) { bestScore = score; best = b; }
         });
-        if (best) pick = best.getAttribute('data-row');
+        if (best) pick = best.getAttribute('data-ctx');
       }
-      if (!pick) pick = buttons.length ? buttons[0].getAttribute('data-row') : 'all';
-      chooserSelect(ch, pick, false);
+      if (!pick && btns.length) pick = btns[0].getAttribute('data-ctx');
+      if (pick) ctxApply(nav, pick, false);
     });
   }
   document.addEventListener('click', function (ev) {
-    var b = ev.target.closest('.chooser button[data-row]'); if (!b) return;
-    var ch = b.parentNode; ch.setAttribute('data-user', '1'); chooserSelect(ch, b.getAttribute('data-row'), false);
+    var b = ev.target.closest('.ctx-n'); if (!b) return;
+    var nav = b.closest('.ctx'); nav.setAttribute('data-user', '1');
+    ctxApply(nav, b.getAttribute('data-ctx'), true);
   });
-  window.addEventListener('hashchange', function () { $$('.chooser').forEach(function (ch) { ch.removeAttribute('data-user'); }); chooserAuto(); });
+  window.addEventListener('hashchange', function () { $$('.ctx').forEach(function (n) { n.removeAttribute('data-user'); }); ctxAuto(); });
   document.addEventListener('click', function (ev) { var li = ev.target.closest('ul.check > li'); if (li && !ev.target.closest('a')) li.classList.toggle('done'); });
 
   /* ---------- copy regimen ---------- */
@@ -476,7 +483,7 @@
     var body = $('.idx-body', sec);
     if (!body || body.getAttribute('data-filled') === '1') return;
     body.innerHTML = (groups || []).map(function (g) {
-      return '<div class="idx-grp">' + (g.label ? '<div class="idx-grp-h">' + esc(g.label) + '</div>' : '') +
+      return '<div class="idx-grp">' + (g.label ? '<div class="idx-grp-h">' + (g.pop ? '<span class="idx-pop">' + esc(g.pop) + '</span>' : '') + esc(g.label) + '</div>' : '') +
         '<ul>' + g.items.map(function (it) { return '<li><a href="' + root + esc(it.u) + '">' + esc(it.t) + '</a></li>'; }).join('') + '</ul></div>';
     }).join('');
     body.setAttribute('data-filled', '1');

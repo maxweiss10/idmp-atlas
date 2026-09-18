@@ -323,6 +323,50 @@ def render_plain_table(grid, heat=False, bands=False):
     parts.append("</table></div>")
     return "".join(parts)
 
+
+# ----------------------------------------------------------------------------- icons
+# Inline SVG, stroked with currentColor. No emoji: those render differently (or not at
+# all) outside macOS, and several of the ones that fit here have no cross-platform glyph.
+ICON_SPRITE = """<svg class="sprite" aria-hidden="true" focusable="false">
+<defs>
+<symbol id="i-iv" viewBox="0 0 24 24"><path d="M8.5 3h7v5.5l-3.5 4.5-3.5-4.5V3zM8.5 6h7"/><path d="M12 13v8"/></symbol>
+<symbol id="i-po" viewBox="0 0 24 24"><rect x="3" y="8.5" width="18" height="7" rx="3.5"/><path d="M12 8.8v6.4"/></symbol>
+<symbol id="i-renal" viewBox="0 0 24 24"><path d="M9.2 4C5.6 4 3.5 7.2 3.5 11.4c0 4.6 2.7 8.2 6 8.2 2.1 0 2.5-1.7 2.7-3.3.2-1.4.6-2.6 1.8-3.3"/><path d="M14.8 4c3.6 0 5.7 3.2 5.7 7.4 0 4.6-2.7 8.2-6 8.2"/></symbol>
+<symbol id="i-weight" viewBox="0 0 24 24"><path d="M12 4.5v15M5 8h14"/><path d="M8 8 5 14.5h6L8 8zM16 8l-3 6.5h6L16 8z"/></symbol>
+<symbol id="i-gap" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.6v5.2M12 16.2v.1"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10" rx="2"/><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"/></symbol>
+<symbol id="i-restrict" viewBox="0 0 24 24"><path d="M12 3.2 20 6v6.2c0 4.3-3.2 7.4-8 8.6-4.8-1.2-8-4.3-8-8.6V6l8-2.8z"/><path d="m9 15 6-6"/></symbol>
+<symbol id="i-branch" viewBox="0 0 24 24"><path d="M12 3v5"/><path d="M5 21v-5a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v5"/><path d="M12 13v8"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5.5v13M5.5 12h13"/></symbol>
+<symbol id="i-or" viewBox="0 0 24 24"><path d="M6 12h12"/><path d="m14 8 4 4-4 4"/></symbol>
+<symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-8.5 8.5"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+<symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></symbol>
+</defs></svg>"""
+
+def icon(name, cls=""):
+    return f'<svg class="ic {cls}" aria-hidden="true"><use href="#i-{name}"/></svg>'
+
+def dose_marks(dose_text, band_count=1, restricted=False):
+    """Marks that change a decision: route, renal band count, weight-based, restriction.
+    Nothing decorative. Read from the dose string itself, never assumed."""
+    t = (dose_text or "").upper()
+    out = []
+    iv = re.search(r"\bIV\b|INFUS", t)
+    po = re.search(r"\bPO\b|ORAL|\bNG\b", t)
+    if iv and po:
+        out.append(f'<span class="mk mk-both" title="Interchangeable IV and oral: a step-down candidate">{icon("iv")}{icon("po")}</span>')
+    elif iv:
+        out.append(f'<span class="mk" title="Intravenous">{icon("iv")}</span>')
+    elif po:
+        out.append(f'<span class="mk" title="Oral">{icon("po")}</span>')
+    if re.search(r"MG/KG|/KG\b|G/KG", t):
+        out.append(f'<span class="mk" title="Weight-based: the number shown is per kilogram">{icon("weight")}</span>')
+    if band_count > 1:
+        out.append(f'<span class="mk mk-renal" title="Renal-function dependent: {band_count} bands published">{icon("renal")}<b>{band_count}</b></span>')
+    if restricted:
+        out.append(f'<span class="mk mk-restrict" title="ID approval required at your selected hospital">{icon("restrict")}</span>')
+    return "".join(out)
+
 # ----------------------------------------------------------------------------- therapy rows
 def therapy_rows(fragment, ctx, root, page_slug):
     """Sanitize a diagnosis field and split it into a document of parts:
@@ -367,13 +411,14 @@ def therapy_rows(fragment, ctx, root, page_slug):
 
 DOSE_RX = re.compile(r"\d+(\.\d+)?\s*(mg|g|mcg|µg|units?|million|iu|ml)\b", re.I)
 
-def regimen_line(cell_html, dose_data, drug_titles, context=""):
-    """Read a first-choice cell and return (segments, html). Segments describe linked drugs and the
-    connector words between them; the html is the prescription-style line with dose strips."""
+def regimen_tree(cell_html):
+    """Turn a 'Drug(s) of first choice' cell into a small tree:
+       lead prose, then steps joined by PLUS, each step holding one or more OR alternatives.
+       'Vancomycin PLUS one of: Ceftriaxone OR Pip-tazo OR Ertapenem' -> two steps."""
     soup = BeautifulSoup(cell_html or "", "lxml")
     body = soup.body
     if body is None:
-        return [], ""
+        return {"lead": "", "steps": [], "tail": ""}
     tokens = []
     def walk(node):
         for ch in node.children:
@@ -388,60 +433,145 @@ def regimen_line(cell_html, dose_data, drug_titles, context=""):
             else:
                 walk(ch)
     walk(body)
-    drugs = [i for i, t in enumerate(tokens) if t[0] == "d"]
-    if not drugs:
-        return [], ""
-    segs = []
-    for k, i in enumerate(drugs):
-        nxt = drugs[k + 1] if k + 1 < len(drugs) else len(tokens)
-        after = "".join(t[1] for t in tokens[i + 1:nxt] if t[0] == "t")
-        before = "".join(t[1] for t in tokens[(drugs[k - 1] + 1 if k else 0):i] if t[0] == "t") if k == 0 else ""
-        slug, name, href = tokens[i][1], tokens[i][2], tokens[i][3]
-        conj = ""
-        a = re.sub(r"\s+", " ", after).strip()
-        if re.search(r"with or without|\+/-|±|\bmay add\b|\boptional\b", a, flags=re.I):
-            conj = "±"
-        elif re.search(r"\bplus\b|\band\b|\+|\bwith\b|\bfollowed by\b", a, flags=re.I):
-            conj = "+"
-        elif re.search(r"\bor\b|\beither\b", a, flags=re.I):
-            conj = "or"
-        segs.append({"slug": slug, "name": name, "href": href, "inline_dose": bool(DOSE_RX.search(a[:80])) or bool(DOSE_RX.search(name)),
-                     "conj": conj if k + 1 < len(drugs) else "", "note": ""})
-    # if every drug already carries a dose in the cell, a synthesized line adds nothing
-    out = ['<div class="rxline">']
-    for s in segs:
-        dd = dose_data.get(s["slug"])
-        out.append(f'<span class="rxdrug"><a data-drug="{esc(s["slug"])}" href="{esc(s["href"])}">{esc(drug_titles.get(s["slug"], s["name"]))}</a>')
-        if dd and not s["inline_dose"]:
-            ri, matched = pick_dose_row(dd, context)
-            title = ("Dose for this indication from the IDMP dosing table for this drug." if matched
-                     else "Standard dose from the IDMP dosing table for this drug.") + " Set a renal function to switch columns."
-            out.append(f'<span class="dose" data-dose="{esc(s["slug"])}" data-row="{ri}" data-matched="{int(matched)}" title="{esc(title)}">{dose_strip_html(dd, 0, ri, matched)}</span>')
-        elif not dd and not s["inline_dose"]:
-            out.append('<span class="dose muted">see page</span>')
-        out.append("</span>")
-        if s["conj"]:
-            out.append(f'<span class="conj">{esc(s["conj"])}</span>')
-    out.append("</div>")
-    return segs, "".join(out)
+    idxs = [i for i, t in enumerate(tokens) if t[0] == "d"]
+    if not idxs:
+        return {"lead": "", "steps": [], "tail": ""}
+    def between(a, b):
+        return re.sub(r"\s+", " ", "".join(t[1] for t in tokens[a:b] if t[0] == "t")).strip()
+    lead = between(0, idxs[0]).strip(" :;,-")
+    raw_tail = between(idxs[-1] + 1, len(tokens)).strip()
+    steps, cur = [], []
+    for k, i in enumerate(idxs):
+        nxt = idxs[k + 1] if k + 1 < len(idxs) else len(tokens)
+        after = between(i + 1, nxt)
+        # a trailing parenthetical or short clause belongs to this drug, not the next one
+        note = ""
+        m = re.match(r"^\s*(\([^)]{2,90}\)|(?:if|for|when|unless)\b[^.;]{2,90})", after, flags=re.I)
+        if m:
+            note = m.group(1).strip("() ")
+            after = after[m.end():]
+        cur.append({"slug": tokens[i][1], "name": tokens[i][2], "href": tokens[i][3], "note": note,
+                    "inline_dose": bool(DOSE_RX.search(tokens[i][2])) or bool(DOSE_RX.search(after[:70]))})
+        low = after.lower()
+        if k + 1 >= len(idxs):
+            steps.append({"drugs": cur, "optional": False})
+            cur = []
+            break
+        optional = bool(re.search(r"with or without|\+/-|±|may add|optional", low))
+        is_or = bool(re.search(r"\bor\b|\beither\b", low)) and not re.search(r"\bplus\b|\band\b(?! ?/ ?or)|\bfollowed by\b", low)
+        if is_or:
+            continue  # same step: these are alternatives to each other
+        steps.append({"drugs": cur, "optional": optional})
+        cur = []
+    if cur:
+        steps.append({"drugs": cur, "optional": False})
+    # a lead like "PLUS one of:" belongs to the join, not the prose
+    lead = re.sub(r"^(plus|and)\b\s*", "", lead, flags=re.I).strip(" :;,-")
+    if re.fullmatch(r"(one of|any one of|either)?", lead, flags=re.I):
+        lead = ""
+    last_note = steps[-1]["drugs"][-1]["note"] if steps and steps[-1]["drugs"] else ""
+    tail = raw_tail
+    if last_note and re.sub(r"\W+", "", last_note.lower()) in re.sub(r"\W+", "", raw_tail.lower()):
+        tail = ""
+    return {"lead": lead, "steps": steps, "tail": tail.strip(" ()")}
+
+def drug_dose_pointer(node, ctx, title=""):
+    """IDMP does not tabulate every drug. When it does not, say where the dose lives and
+    what you have to decide to pick the right one. Never a bare link, never 'see page'."""
+    v = (node.get("field_dosing") or [{}])[0].get("value") or ""
+    if not v.strip():
+        return None
+    soup = BeautifulSoup(v, "lxml")
+    if soup.find("table"):
+        return None
+    links = []
+    for a_ in soup.find_all("a"):
+        label = re.sub(r"\s+", " ", a_.get_text(" ", strip=True)).strip(" .:")
+        if not label:
+            continue
+        href, kind, _nid = rewrite_href(a_.get("href"), ctx, "")
+        where = "on this site" if kind == "internal" else ("Box or SharePoint, UCSF login" if kind == "login" else "external")
+        site = ""
+        m = re.match(r"^(ZSFG|UCSF|VASF|SFVA|BCH)\b[:\s-]*", label, flags=re.I)
+        if m:
+            site = m.group(1).upper()
+            label = label[m.end():].strip() or label
+        links.append({"t": label[:70], "u": href, "x": kind, "where": where, "site": site})
+    prose = []
+    for para in soup.find_all(["p", "li"]):
+        t = re.sub(r"\s+", " ", para.get_text(" ", strip=True))
+        if len(t) > 12:
+            prose.append(t)
+    sites = [l["site"] for l in links if l["site"]]
+    if sites:
+        decision = "Pick by hospital: " + ", ".join(dict.fromkeys(sites)) + "."
+    elif len(links) > 1:
+        decision = "More than one source is published. Pick the one your hospital uses."
+    elif links:
+        decision = "One source is published for this drug."
+    else:
+        decision = "No link is published. Ask ID or ASP pharmacy."
+    return {"note": (prose[0][:190] if prose else ""), "links": links[:4], "decision": decision,
+            "title": title}
 
 DOSE_STOP = {"the", "and", "or", "of", "in", "for", "with", "a", "an", "to", "at", "on", "infection", "infections",
              "including", "dosing", "dose", "standard", "usual", "all", "other", "adult", "adults", "therapy", "treatment",
              "acute", "severe", "non", "suspected", "documented"}
-def dose_tokens(s):
+def dose_tokens(x):
     out = set()
-    for w in re.findall(r"[a-z]{4,}", (s or "").lower()):
+    for w in re.findall(r"[a-z]{4,}", (x or "").lower()):
         if w in DOSE_STOP:
             continue
         out.add(w[:-1] if w.endswith("s") and len(w) > 5 else w)
     return out
 
+def dose_line(dd, row_index, band_index, matched, restricted=False):
+    """One line: dose, route, frequency, exactly as IDMP publishes it."""
+    if row_index >= len(dd["rows"]):
+        row_index = 0
+    r = dd["rows"][row_index]
+    txt = r["d"][band_index] if band_index < len(r["d"]) else ""
+    if not txt:
+        return "", ""
+    marks = dose_marks(txt, len(dd["bands"]), restricted)
+    label = ""
+    if matched and r["i"]:
+        label = f'<span class="dl-ind">for {esc(r["i"][:46].rsplit(" ", 1)[0] if len(r["i"]) > 46 else r["i"])}</span>'
+    elif r["i"] and not re.match(r"^(standard|usual|general|all|normal)", r["i"], flags=re.I) and len(dd["rows"]) > 1:
+        label = f'<span class="dl-ind">{esc(r["i"][:46])}</span>'
+    band = dd["bands"][band_index] if band_index < len(dd["bands"]) else None
+    bl = ""
+    if band and len(dd["bands"]) > 1:
+        bl = f'<span class="dl-band">{esc(band.get("label", ""))}</span>'
+    return f'<span class="dl"><span class="dl-d">{esc(txt)}</span>{marks}</span>{label}{bl}', txt
+
+def band_table(dd, row_index, band_index):
+    """All published renal bands for the row on show. Inline, never behind a hover."""
+    if len(dd["bands"]) < 2 or row_index >= len(dd["rows"]):
+        return ""
+    r = dd["rows"][row_index]
+    cells = ""
+    for i, b in enumerate(dd["bands"]):
+        v = r["d"][i] if i < len(r["d"]) else ""
+        on = " on" if i == band_index else ""
+        cells += f'<div class="bt-c{on}"><span class="bt-k">{esc(b.get("label", ""))}</span><span class="bt-v">{esc(v or "not published")}</span></div>'
+    return f'<div class="bt" aria-label="All published renal bands">{cells}</div>'
+
+def other_indications(dd, row_index):
+    names = [r["i"] for i, r in enumerate(dd["rows"]) if i != row_index and r["i"]]
+    if not names:
+        return ""
+    def clip(x, n=40):
+        x = x.strip()
+        return x if len(x) <= n else x[:n].rsplit(" ", 1)[0] + "…"
+    return f'<span class="dl-other">Also published for: {esc("; ".join(clip(n) for n in names[:3]))}</span>'
+
 def pick_dose_row(dd, context):
     """Choose the dosing row that matches the syndrome, else the standard/first row."""
-    ctx = dose_tokens(context)
+    ctxt = dose_tokens(context)
     best, best_score = 0, 0
     for i, r in enumerate(dd["rows"]):
-        score = len(ctx & dose_tokens(r["i"]))
+        score = len(ctxt & dose_tokens(r["i"]))
         if score > best_score:
             best, best_score = i, score
     if best_score:
@@ -553,9 +683,9 @@ def site_short(slug, name):
     return name or slug
 
 def short_notation(slug, label):
-    if "zsfg" in slug: return "ID-R · ZSFG"
-    if "ucsf" in slug: return "ID-R · UCSF"
-    if "iv-po" in slug: return "IV → PO"
+    if "zsfg" in slug: return "ID-R ZSFG"
+    if "ucsf" in slug: return "ID-R UCSF"
+    if "iv-po" in slug: return "IV to PO"
     return label
 
 CUT_RX = re.compile(r"\s+(?:If\b|This\b|These\b|Refer\b|See\b|Defined\b|Diagnosed\b|Characterized\b|Includes?\b|Need for\b|Usually\b|With known\b|Note:|\(e\.g|\(i\.e|Please\b|For full\b|Recommend)", re.I)
@@ -617,7 +747,8 @@ def nav_html(tree, section, current_route, root):
                 for g in groups:
                     out.append(f'<div class="idx-grp">')
                     if g.get("label"):
-                        out.append(f'<div class="idx-grp-h">{esc(g["label"])}</div>')
+                        pop = f'<span class="idx-pop">{esc(g["pop"])}</span>' if g.get("pop") else ""
+                        out.append(f'<div class="idx-grp-h">{pop}{esc(g["label"])}</div>')
                     out.append("<ul>")
                     for it in g["items"]:
                         cur = ' aria-current="page"' if it["u"] == current_route else ""
@@ -655,13 +786,16 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
                      'mirror expects, so it is shown in its original form. ' + esc("; ".join(fallback_notes)) + '.</div>')
     src_html = ""
     if node:
-        src_html = (f'<div class="prov"><a class="x-source" target="_blank" rel="noopener" href="{esc(node["source_url"])}">idmp.ucsf.edu</a>'
-                    f'<span class="prov-sep"></span><span>IDMP revised <time datetime="{esc(node["changed"])}">{esc(human_date(node["changed"]))}</time></span>'
+        src_html = (f'<div class="prov">'
+                    f'<span class="prov-i"><span class="prov-k">Source</span>'
+                    f'<a target="_blank" rel="noopener" href="{esc(node["source_url"])}">idmp.ucsf.edu</a></span>'
+                    f'<span class="prov-i"><span class="prov-k">Revised</span>'
+                    f'<time datetime="{esc(node["changed"])}">{esc(human_date(node["changed"]))}</time></span>'
                     f'<button class="pin" data-fav="{esc(node["route"])}" data-title="{esc(node["title"])}" data-kind="{esc(node["type"])}">Pin</button></div>')
     head_block = ""
     if h1:
         head_block = (f'<header class="doc-head">{crumb_html}'
-                      + (f'<p class="eyebrow">{kicker}</p>' if kicker else "")
+                      + (f'<p class="kicker-line">{kicker}</p>' if kicker else "")
                       + f'<h1>{esc(h1)}</h1>{meta_bar}{src_html}</header>')
     elif crumb_html:
         head_block = crumb_html
@@ -687,14 +821,15 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
 {extra_head}
 </head>
 <body class="{esc(page_class)}">
+{ICON_SPRITE}
 <a class="skip" href="#doc">Skip to content</a>
 <div class="app">
   <header class="bar">
     <button class="bar-menu" id="idx-open" type="button" aria-label="Contents" aria-expanded="false" aria-controls="idx-wrap"><span></span><span></span><span></span></button>
     <a class="mark" href="{root}index.html"><img src="{root}assets/icon-192.png" alt="" width="20" height="20"><span class="mark-n">IDMP Atlas</span><span class="mark-s">unofficial mirror</span></a>
-    <button class="ask" id="ask-open" type="button"><span class="ask-i">/</span><span class="ask-t">Ask: <i>cap icu</i> · <i>cefepime crcl 30</i> · <i>e coli cipro</i></span><kbd>⌘K</kbd></button>
+    <button class="ask" id="ask-open" type="button"><span class="ask-i">/</span><span class="ask-t">Ask<i>cap icu</i><i>cefepime crcl 30</i><i>e coli cipro</i></span><kbd>⌘K</kbd></button>
     <div class="bar-end">
-      <button class="lens-btn" id="lens-open" type="button" title="Where / Setting / Patient"><span id="lens-summary">All sites · Any setting · Adult</span></button>
+      <button class="lens-btn" id="lens-open" type="button" title="Where / Setting / Patient"><span id="lens-summary">All sites, any setting, adult</span></button>
       <a class="sync" id="status" href="{root}changes.html" title="Sync status">sync</a>
       <button class="icon-btn" id="theme" type="button" aria-label="Toggle dark mode">◐</button>
     </div>
@@ -706,7 +841,7 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
       {head_block}
       {content}
       {pager}
-      <footer class="doc-foot"><p><b>{SITE_NAME}</b> is an unofficial, read-only mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly. Not affiliated with UCSF or the IDMP. Content belongs to its authors; confirm against the source before acting. Last verified <time datetime="{esc(status.get('run',''))}">{esc(human_date(status.get('run')))}</time>. <a href="{root}about.html">About</a> · <a href="https://github.com/{REPO}" target="_blank" rel="noopener">Source</a> · <button class="linklike" id="offline-btn" type="button">Save offline</button></p></footer>
+      <footer class="doc-foot"><p><b>{SITE_NAME}</b> is an unofficial, read-only mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly. Not affiliated with UCSF or the IDMP. Content belongs to its authors; confirm against the source before acting. Last verified <time datetime="{esc(status.get('run',''))}">{esc(human_date(status.get('run')))}</time>. <span class="foot-l"><a href="{root}about.html">About</a><a href="https://github.com/{REPO}" target="_blank" rel="noopener">Source</a><button class="linklike" id="offline-btn" type="button">Save offline</button></span></p></footer>
     </div>
     {f'<aside class="meta">{rail}</aside>' if rail else ""}
   </main>
@@ -721,7 +856,7 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
 <div class="ovl" id="palette" hidden><div class="pal" role="dialog" aria-label="Search">
   <div class="pal-in"><span class="pal-i">/</span><input type="search" id="q" placeholder="Syndrome, drug + CrCl, organism + drug, guideline…" autocomplete="off" aria-label="Search"><button class="esc" data-close type="button">esc</button></div>
   <div class="pal-list" id="results"></div>
-  <div class="pal-foot"><span><kbd>↑</kbd><kbd>↓</kbd> move</span><span><kbd>↵</kbd> open</span><span class="grow"></span><span class="pal-try">Try <i>hap zsfg</i> · <i>vanc hd</i> · <i>pseudomonas cefepime</i></span></div>
+  <div class="pal-foot"><span><kbd>↑</kbd><kbd>↓</kbd> move</span><span><kbd>↵</kbd> open</span><span class="grow"></span><span class="pal-try">Try<i>hap zsfg</i><i>vanc hd</i><i>pseudomonas cefepime</i></span></div>
 </div></div>
 <div class="ovl" id="lens" hidden><div class="sheet" role="dialog" aria-label="Context">
   <div class="sheet-h"><b>Your context</b><span>Applied everywhere, remembered on this device.</span><button class="esc" data-close type="button">done</button></div>
@@ -836,6 +971,7 @@ def main():
     for m in models.values():
         by_type[m["type"]].append(m)
     drug_by_slug = {m["slug"]: m for m in by_type["drug"]}
+    dose_route = {m["slug"]: m["route"] for m in by_type["drug"]}
     drug_titles = {m["slug"]: m["title"] for m in by_type["drug"]}
     def is_peds(m):
         return "pediatric" in (fv(m["raw"], "field_patient_population", "url") or "")
@@ -881,6 +1017,9 @@ def main():
     dose_data_all = {k: v for k, v in dose_data_all.items() if v}
     dose_hd_all = {m["slug"]: drug_dose_data_hd(m["raw"]) for m in by_type["drug"]}
     dose_hd_all = {k: v for k, v in dose_hd_all.items() if v}
+    # drugs IDMP does not tabulate (vancomycin, for one): keep the pointer to where the dose lives
+    dose_ptr_all = {m["slug"]: drug_dose_pointer(m["raw"], ctx, m["title"]) for m in by_type["drug"] if m["slug"] not in dose_data_all}
+    dose_ptr_all = {k: v for k, v in dose_ptr_all.items() if v}
     drug_tags = {}
     for m in by_type["drug"]:
         drug_tags[m["slug"]] = [(i.get("url") or "").rsplit("/", 1)[-1] for i in (m["raw"].get("field_notations") or [])]
@@ -1007,8 +1146,8 @@ def main():
     abx_items = [{"t": models[n]["title"], "u": models[n]["route"]} for n in sorted(abx_nids) if n in models]
 
     tree = {
-        "empiric": [{"label": "Adult · " + g["label"], "items": g["items"]} for g in dx_groups(False)]
-                 + [{"label": "Pediatric · " + g["label"], "items": g["items"]} for g in dx_groups(True)],
+        "empiric": [{"label": g["label"], "pop": "Adult", "items": g["items"]} for g in dx_groups(False)]
+                 + [{"label": g["label"], "pop": "Pediatric", "items": g["items"]} for g in dx_groups(True)],
         "drugs": letter_groups(sorted(by_type["drug"], key=lambda x: x["title"].lower()))
                + ([{"label": "Pediatric & neonatal", "items": [{"t": m["title"], "u": m["route"]} for m in sorted(peds_pages_all, key=lambda x: x["title"])]}] if peds_pages_all else []),
         "antibiograms": [{"label": "Explore", "items": [{"t": "Bug-drug explorer", "u": "antibiograms/explore.html"}]},
@@ -1092,7 +1231,7 @@ def main():
         tags = set()
         if cur:
             if cur.get("n") is not None and cur["n"] != total:
-                ctx.warnings.append({"title": slug, "route": f"empiric/{slug}.html", "notes": [f"info: curated setting tags skipped, row count changed ({cur['n']} → {total})"]})
+                ctx.warnings.append({"title": slug, "route": f"empiric/{slug}.html", "notes": [f"info: curated setting tags skipped, row count changed ({cur["n"]} to {total})"]})
                 cur = {"default": cur.get("default", [])}
             tags |= set(cur.get("rows", {}).get(str(idx), []) or cur.get("default", []))
         if not tags:
@@ -1178,6 +1317,103 @@ def main():
             d["slug"] = drug_slug_for_name(d["name"]) if d["name"] else None
 
     # ---- per-node body rendering
+    def regimen_column(cell_html, context, root, tone, gaps, where, drop_lead=False):
+        """One regimen as a vertical stack of steps. PLUS and OR are drawn, not written."""
+        tree = regimen_tree(cell_html)
+        if not tree["steps"]:
+            return "", {}
+        used, out = {}, []
+        for si, step in enumerate(tree["steps"]):
+            if si:
+                out.append('<div class="jn">' + icon("plus")
+                           + ('<span>with or without</span>' if step["optional"] else "") + "</div>")
+            multi = len(step["drugs"]) > 1
+            out.append(f'<div class="stp{" stp-any" if multi else ""}">')
+            if multi:
+                out.append('<div class="stp-k">any one of</div>')
+            for di, d in enumerate(step["drugs"]):
+                if di:
+                    out.append(f'<div class="orx">{icon("or")}<span>or</span></div>')
+                slug = d["slug"]
+                title = drug_titles.get(slug, d["name"])
+                dd = dose_data_all.get(slug)
+                restricted = ("id-r-" + where) in drug_tags.get(slug, []) if where else False
+                body = ""
+                if dd:
+                    ri, matched = pick_dose_row(dd, context)
+                    used[slug] = dd
+                    line, raw = dose_line(dd, ri, 0, matched, restricted)
+                    body = (f'<div class="dose" data-dose="{esc(slug)}" data-row="{ri}" data-matched="{int(matched)}">{line}</div>'
+                            + band_table(dd, ri, 0) + other_indications(dd, ri))
+                elif d["inline_dose"]:
+                    body = '<div class="dose dose-inline">Dose is stated by IDMP in the row below</div>'
+                else:
+                    ptr = dose_ptr_all.get(slug)
+                    if ptr:
+                        bits = []
+                        for l in ptr["links"]:
+                            tgt = ' target="_blank" rel="noopener"' if l["x"] != "internal" else ""
+                            href = (root + l["u"]) if l["x"] == "internal" else l["u"]
+                            mark = icon("lock") if l["x"] == "login" else (icon("ext") if l["x"] != "internal" else "")
+                            pre = f'<b>{esc(l["site"])}</b> ' if l["site"] else ""
+                            bits.append(f'<li>{pre}<a href="{esc(href)}"{tgt}>{esc(l["t"])}</a>{mark}<span>{esc(l["where"])}</span></li>')
+                        body = (f'<div class="gap">{icon("gap")}<div><b>No dose table on IDMP.</b> '
+                                + (esc(ptr["note"]) + " " if ptr["note"] else "")
+                                + f'<i>{esc(ptr["decision"])}</i>'
+                                + (f'<ul class="gap-l">{"".join(bits)}</ul>' if bits else "") + "</div></div>")
+                    else:
+                        gaps.append({"drug": title, "slug": slug})
+                        body = (f'<div class="gap gap-bad">{icon("gap")}<div><b>No dose published on IDMP and no pointer.</b> '
+                                f'Ask ID or ASP pharmacy. <a href="{root}{esc(dose_route.get(slug, ""))}">Drug page</a></div></div>')
+                out.append(f'<div class="rgd"><a class="rgd-n" data-drug="{esc(slug)}" href="{esc(d["href"])}">{esc(title)}</a>'
+                           + (f'<span class="rgd-note">{esc(d["note"])}</span>' if d["note"] else "") + body + "</div>")
+            out.append("</div>")
+        lead = "" if drop_lead else (f'<p class="rgc-lead">{esc(tree["lead"])}</p>' if tree["lead"] else "")
+        tail = f'<p class="rgc-tail">{esc(tree["tail"])}</p>' if tree["tail"] and len(tree["tail"]) > 3 else ""
+        return lead + "".join(out) + tail, used
+
+    def coverage_grid(pathogen_html, slugs, root):
+        """Local susceptibility for this regimen, taken from the parsed UCSF antibiograms.
+        Not a spectrum of activity: IDMP publishes none, so nothing here is inferred."""
+        bugs = [re.sub(r"\s+", " ", x).strip(" .,;")
+                for x in re.split(r"<[^>]+>|\n", pathogen_html or "") if x.strip()]
+        bugs = [b for b in bugs if re.match(r"^[A-Z][a-z]+\.?\s", b) or re.match(r"^[A-Z]\.\s", b)][:8]
+        if not bugs or not slugs:
+            return ""
+        cols, seen = [], set()
+        for t in abx_tables:
+            for d in t["drugs"]:
+                if d.get("slug") in slugs and d["abbr"] not in seen:
+                    seen.add(d["abbr"]); cols.append((t, d))
+        if not cols:
+            return ""
+        def norm_bug(x):
+            return re.sub(r"[^a-z ]", "", x.lower()).strip()
+        rows, hits = [], 0
+        for b in bugs:
+            nb = norm_bug(b)
+            first, cells = nb.split(" ")[0], []
+            for t, d in cols:
+                val = None
+                for r in t["rows"]:
+                    ro = norm_bug(r["organism"])
+                    if ro.startswith(nb[:12]) or (len(first) > 3 and ro.startswith(first) and nb.split(" ")[-1][:4] in ro):
+                        val = r["v"].get(d["abbr"], {}).get("v"); break
+                if val is not None:
+                    hits += 1
+                cls = "" if val is None else ("s-hi" if val >= 90 else "s-ok" if val >= 80 else "s-mid" if val >= 60 else "s-lo")
+                cells.append(f'<td class="{cls}">{val if val is not None else "not reported"}</td>')
+            rows.append(f'<tr><td class="cv-b"><i>{esc(b)}</i></td>{"".join(cells)}</tr>')
+        if hits < 2:
+            return ""
+        head = "".join(f'<th title="{esc(d["name"])}">{esc(d["abbr"])}</th>' for _t, d in cols)
+        src = cols[0][0]
+        return (f'<section class="cv"><h3>Local susceptibility for these agents</h3>'
+                f'<p class="cv-s">Percent susceptible from {esc(src["title"])} {esc(src["year"] or "")}. '
+                f'Organisms the antibiogram does not report are marked as such, which is not the same as no coverage. '
+                f'<a href="{root}antibiograms/explore.html">Open the explorer</a></p>'
+                f'<table class="cv-t"><thead><tr><th>Organism</th>{head}</tr></thead><tbody>{"".join(rows)}</tbody></table></section>')
+
     people_view = {}
     for i, p in enumerate((structure.get("people") or {}).get("people") or []):
         if p.get("path"):
@@ -1207,103 +1443,128 @@ def main():
         if t == "diagnosis":
             popname = "Pediatric" if is_peds(m) else "Adult"
             doc = therapy_rows(fv(n, "field_dosing"), ctx, root, m["slug"])
-            all_rows = [r for kind, r in doc if kind == "rows"]
-            total = sum(len(r) for r in all_rows)
-            page_dose = {}
+            page_dose, gaps, row_index = {}, [], []
+            where = (curation.get("_default_site") or "")
             idx = 0
-            row_index = []
+            total = sum(len(r) for k, r in doc if k == "rows")
+            pre, post, ctx_blocks = [], [], []
             for kind, payload in doc:
                 if kind == "html":
-                    parts.append(payload)
+                    (ctx_blocks and post or pre).append(payload)
                 elif kind == "table":
-                    parts.append(payload)
+                    (ctx_blocks and post or pre).append(payload)
                 elif kind == "notes":
                     notes += payload
                 elif kind == "rows":
-                    chooser, cards = [], []
+                    cols = []
                     for cells in payload:
                         idx += 1
                         cond = cells.get("condition")
-                        label = text_only(cond["html"]) if cond else f"Row {idx}"
+                        label = text_only(cond["html"]) if cond else f"Option {idx}"
                         short = short_label(m["title"], label)
                         tags = row_tags(m["slug"], idx, label, total)
                         anchor = f"rx-{idx}"
                         row_index.append({"a": anchor, "l": short, "tags": tags})
-                        chooser.append(f'<button type="button" data-row="{anchor}" data-tags="{esc(" ".join(tags))}" title="{esc(re.sub(r"\s+", " ", label)[:160])}">{esc(short)}</button>')
                         first = cells.get("first"); alt = cells.get("alt")
-                        segs, rxl = regimen_line(first["html"] if first else "", dose_data_all, drug_titles, context=m["title"] + " " + label)
-                        for s in segs:
-                            if s["slug"] in dose_data_all:
-                                page_dose[s["slug"]] = dose_data_all[s["slug"]]
-                        ivpo = [drug_titles[s["slug"]] for s in segs if "iv-po" in drug_tags.get(s["slug"], [])]
-                        card = [f'<article class="rx" id="{anchor}" data-tags="{esc(" ".join(tags))}">']
-                        card.append('<header class="rx-head">')
-                        card.append(f'<div class="rx-title">{cond["html"] if cond else "<em>Any</em>"}</div>')
-                        card.append('<div class="rx-tools">')
-                        if cells.get("duration") and cells["duration"]["text"]:
-                            card.append(f'<div class="rx-dur"><span class="rx-dur-k">Duration</span>{cells["duration"]["html"]}</div>')
-                        card.append(f'<button type="button" class="copy" data-copy="{anchor}" title="Copy regimen as plain text for a note">Copy</button>')
-                        card.append('</div></header>')
-                        if rxl:
-                            card.append(rxl)
-                        panes = [k for k in ("first", "alt", "pathogens") if k in cells and cells[k]["text"]]
-                        if panes:
-                            card.append(f'<div class="rx-grid" data-panes="{len(panes)}">')
-                            for key in panes:
-                                card.append(f'<section class="rx-col rx-{key}"><h4>{LABELS[key]}</h4><div class="rx-body">{cells[key]["html"]}</div></section>')
-                            card.append("</div>")
-                        if cells.get("comments") and cells["comments"]["text"]:
-                            ch = cells["comments"]["html"]
-                            csoup = BeautifulSoup(ch, "lxml")
-                            for ul in csoup.find_all(["ul", "ol"]):
-                                prev = ul.find_previous_sibling(["p", "h3", "h4", "strong"])
-                                if prev is not None and re.search(r"if any|consider|criteria|risk factor|indication|following|when", prev.get_text(" "), flags=re.I):
-                                    ul["class"] = (ul.get("class") or []) + ["check"]
-                            ch = csoup.body.decode_contents() if csoup.body else ch
-                            card.append(f'<section class="rx-notes"><h4>Comments</h4><div class="rx-body">{ch}</div></section>')
-                        for key, cell in cells.items():
-                            if key.startswith("extra:") and cell["text"]:
-                                card.append(f'<section class="rx-notes"><h4>{esc(key[6:])}</h4><div class="rx-body">{cell["html"]}</div></section>')
-                        # then-what
-                        tw = []
-                        consult = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text_only(cells["comments"]["html"] if cells.get("comments") else "")) if re.search(r"\bID\b.*consult|infectious diseases? consult|consult(ation)? (is )?recommended", s, flags=re.I)][:2]
-                        if ivpo:
-                            r = route_for_alias(site_cur["ucsf"]["ivpo"]) or ""
-                            tw.append(f'<li><b>IV → PO candidates:</b> {esc(", ".join(dict.fromkeys(ivpo)))}' + (f' · <a href="{root}{r}">step-down guidance</a>' if r else "") + "</li>")
-                        for c in consult:
-                            tw.append(f'<li><b>Consult:</b> {esc(c)}</li>')
-                        if tw:
-                            card.append('<section class="then-what"><h4>Then what</h4><ul>' + "".join(tw) + "</ul></section>")
-                        card.append("</article>")
-                        cards.append("".join(card))
-                    if len(chooser) > 1:
-                        parts.append(f'<div class="chooser" role="group" aria-label="Choose the clinical situation">{"".join(chooser)}<button type="button" class="chooser-all" data-row="all">All rows</button></div>')
-                    parts.append(f'<div class="rx-list">{"".join(cards)}</div>')
+                        ctx_text = m["title"] + " " + label
+                        c_first, u1 = regimen_column(first["html"] if first else "", ctx_text, root, "first", gaps, where)
+                        alt_tree = regimen_tree(alt["html"]) if (alt and alt["text"]) else {"steps": [], "lead": ""}
+                        c_alt, u2 = (regimen_column(alt["html"], ctx_text, root, "alt", gaps, where, drop_lead=True)
+                                     if alt_tree["steps"] else ("", {}))
+                        page_dose.update(u1); page_dose.update(u2)
+                        slugs = [d["slug"] for st in regimen_tree(first["html"] if first else "")["steps"] for d in st["drugs"]]
+                        cols.append({"a": anchor, "short": short, "label": label, "tags": tags, "cells": cells,
+                                     "first": c_first, "alt": c_alt, "alt_cond": alt_tree.get("lead", ""), "slugs": slugs})
+                    ctx_blocks.append(cols)
+            body_parts = list(pre)
+            for cols in ctx_blocks:
+                nc = len(cols)
+                wide = nc <= 4
+                if nc > 1:
+                    nodes = "".join(
+                        f'<button type="button" class="ctx-n{" on" if i == 0 else ""}" data-ctx="{c["a"]}" '
+                        f'data-tags="{esc(" ".join(c["tags"]))}" title="{esc(c["label"][:150])}">{esc(c["short"])}</button>'
+                        for i, c in enumerate(cols))
+                    body_parts.append(f'<nav class="ctx" aria-label="Clinical context"><span class="ctx-q">{icon("branch")}Which patient</span>'
+                                      f'<span class="ctx-ns">{nodes}</span></nav>')
+                shown = "".join(
+                    f'<div class="rgc" data-ctx="{c["a"]}" id="{c["a"]}">'
+                    + (f'<div class="rgc-h">{esc(c["short"])}</div>' if nc > 1 else "")
+                    + f'<div class="rgc-b">{c["first"]}</div>'
+                    + (f'<div class="rgc-d"><span>Duration</span><b>{c["cells"]["duration"]["html"]}</b></div>'
+                       if c["cells"].get("duration") and c["cells"]["duration"]["text"] else '<div class="rgc-d rgc-d-none"><span>Duration</span><b>not stated</b></div>')
+                    + "</div>" for c in cols)
+                body_parts.append(f'<section class="money{"" if wide else " money-one"}"><h2 class="money-h">First choice</h2>'
+                                  f'<div class="rgx" data-cols="{min(nc, 4)}">{shown}</div></section>')
+                alts = "".join(
+                    f'<div class="rgc" data-ctx="{c["a"]}">'
+                    + (f'<div class="rgc-h">{esc(c["short"])}{(" — " + esc(c["alt_cond"])) if c["alt_cond"] else ""}</div>' if nc > 1 else
+                       (f'<div class="rgc-h">{esc(c["alt_cond"])}</div>' if c["alt_cond"] else ""))
+                    + f'<div class="rgc-b">{c["alt"]}</div></div>' for c in cols if c["alt"])
+                if alts:
+                    body_parts.append(f'<section class="alt-blk"><h2 class="alt-h">Alternative</h2>'
+                                      f'<div class="rgx" data-cols="{min(nc, 4)}">{alts}</div></section>')
+                cov = coverage_grid(cols[0]["cells"].get("pathogens", {}).get("html", ""), set(cols[0]["slugs"]), root)
+                if cov:
+                    body_parts.append(cov)
+                # everything read once, not at 3am, sits below in prose
+                below = []
+                for c in cols:
+                    cc = c["cells"]
+                    blocks = ""
+                    if cc.get("pathogens") and cc["pathogens"]["text"]:
+                        blocks += f'<div class="bl"><h4>Common pathogens</h4><div class="rx-body">{cc["pathogens"]["html"]}</div></div>'
+                    if cc.get("comments") and cc["comments"]["text"]:
+                        ch = cc["comments"]["html"]
+                        cs = BeautifulSoup(ch, "lxml")
+                        for ul in cs.find_all(["ul", "ol"]):
+                            prev = ul.find_previous_sibling(["p", "h3", "h4", "strong"])
+                            if prev is not None and re.search(r"if any|consider|criteria|risk factor|indication|following|when", prev.get_text(" "), flags=re.I):
+                                ul["class"] = (ul.get("class") or []) + ["check"]
+                        blocks += f'<div class="bl"><h4>Comments</h4><div class="rx-body">{cs.body.decode_contents() if cs.body else ch}</div></div>'
+                    for key, cell in cc.items():
+                        if key.startswith("extra:") and cell["text"]:
+                            blocks += f'<div class="bl"><h4>{esc(key[6:])}</h4><div class="rx-body">{cell["html"]}</div></div>'
+                    if blocks:
+                        below.append(f'<div class="dtl" data-ctx="{c["a"]}">'
+                                     + (f'<h3>{esc(c["short"])}</h3>' if nc > 1 else "") + blocks + "</div>")
+                if below:
+                    body_parts.append(f'<section class="detail">{"".join(below)}</section>')
+                raw = "".join(
+                    f'<div class="src-row"><h4>{esc(c["short"])}</h4>' + "".join(
+                        f'<div class="src-col"><h5>{LABELS.get(k, k)}</h5><div class="rx-body">{c["cells"][k]["html"]}</div></div>'
+                        for k in ("first", "alt", "pathogens", "comments", "duration") if c["cells"].get(k) and c["cells"][k]["text"]) + "</div>"
+                    for c in cols)
+                body_parts.append(f'<details class="src-raw"><summary>{icon("doc")}These rows exactly as IDMP publishes them</summary>{raw}</details>')
+            body_parts += post
             if page_dose:
-                parts.append(f'<script type="application/json" id="dose-data">{jdump(page_dose)}</script>')
+                body_parts.append(f'<script type="application/json" id="dose-data">{jdump(page_dose)}</script>')
+            if gaps:
+                ctx.warnings.append({"title": m["title"], "route": m["route"], "code": "dose-gap",
+                                     "notes": [f"no dose and no pointer for {g['drug']}" for g in gaps]})
             extra = fv(n, "field_notes")
             if extra and text_only(extra):
-                parts.append(f'<section class="block"><h2>Notes</h2>{sanitize(extra, ctx, root, m["slug"])}</section>')
+                body_parts.append(f'<section class="block"><h2>Notes</h2>{sanitize(extra, ctx, root, m["slug"])}</section>')
             refs = fv(n, "field_references")
             if refs and text_only(refs):
-                parts.append(f'<details class="block refs"><summary>References</summary>{sanitize(refs, ctx, root, m["slug"])}</details>')
-            # site-aware related links
+                body_parts.append(f'<details class="block refs"><summary>References</summary>{sanitize(refs, ctx, root, m["slug"])}</details>')
             rel = related_guidelines(m)
             site_items = site_link_list()
-            box = ['<aside class="block related" id="related"><h2>For your hospital</h2><p class="muted">Guidelines matched by title, plus each site\'s restriction and allergy policies. Your Where lens brings the matching hospital to the top.</p>']
-            for key, label, links in site_items:
-                gl = [g for g in rel if any(s["group"] == key for s in gmeta[g["nid"]]["sites"])]
+            box = ['<aside class="block related"><h2>For your hospital</h2><p>Guidelines matched by title, plus each site\'s restriction and allergy policies.</p>']
+            for key, lbl, links in site_items:
+                gl = [g for g in rel if any(x["group"] == key for x in gmeta[g["nid"]]["sites"])]
                 if not gl and not links:
                     continue
                 lis = "".join(f'<li><a href="{root}{g["route"]}">{esc(g["title"])}</a> {kind_badges(gmeta[g["nid"]]["kinds"])}</li>' for g in gl)
-                lis += "".join(f'<li class="policy"><a href="{root}{r}">{esc(lbl)}</a></li>' for r, lbl in links)
-                box.append(f'<section class="site-sec" data-site="{key}"><h3><span class="badge site s-{key}">{esc(label)}</span></h3><ul class="rel-list">{lis}</ul></section>')
+                lis += "".join(f'<li class="policy"><a href="{root}{r}">{esc(t2)}</a></li>' for r, t2 in links)
+                box.append(f'<section class="site-sec" data-site="{key}"><h3><span class="badge site s-{key}">{esc(lbl)}</span></h3><ul class="rel-list">{lis}</ul></section>')
             other = [g for g in rel if not gmeta[g["nid"]]["sites"]]
             if other:
-                box.append('<section class="site-sec" data-site=""><h3>General</h3><ul class="rel-list">' + "".join(f'<li><a href="{root}{g["route"]}">{esc(g["title"])}</a></li>' for g in other) + "</ul></section>")
+                box.append('<section class="site-sec" data-site=""><h3>General</h3><ul class="rel-list">'
+                           + "".join(f'<li><a href="{root}{g["route"]}">{esc(g["title"])}</a></li>' for g in other) + "</ul></section>")
             box.append("</aside>")
-            parts.append("".join(box))
-            return "\n".join(parts), notes, {"popname": popname, "rows": row_index}
+            body_parts.append("".join(box))
+            return "\n".join(body_parts), notes, {"popname": popname, "rows": row_index}
         if t == "drug":
             tags = drug_tags.get(m["slug"], [])
             badges = "".join(f'<span class="badge tag t-{"zsfg" if "zsfg" in s else "ucsf" if "ucsf" in s else "ivpo" if "iv-po" in s else "misc"}">{esc(short_notation(s, tax_name("/notations/" + s)))}</span>' for s in tags)
@@ -1400,7 +1661,7 @@ def main():
                 size_h = f"{int(size) // 1024} KB" if size and str(size).isdigit() else ""
                 pages_h = f'{fmeta["pages"]} page{"s" if fmeta.get("pages") != 1 else ""}' if fmeta.get("pages") else ""
                 thumb = f'<a class="thumb" target="_blank" rel="noopener" href="{esc(full)}"><img loading="lazy" src="{root}thumbs/{fmeta["thumb"]}.jpg" alt="First page of the PDF"></a>' if fmeta.get("thumb") else ""
-                parts.append(f'<div class="pdf-card">{thumb}<div><p class="cta"><a class="btn x-pdf" target="_blank" rel="noopener" href="{esc(full)}">Open guideline PDF</a></p><p class="muted">Hosted on idmp.ucsf.edu, no login. {esc(" · ".join(x for x in (pages_h, size_h) if x))}</p></div></div>')
+                parts.append(f'<div class="pdf-card">{thumb}<div><p class="cta"><a class="btn x-pdf" target="_blank" rel="noopener" href="{esc(full)}">Open guideline PDF</a></p><p class="muted">Hosted on idmp.ucsf.edu, no login. {esc(", ".join(x for x in (pages_h, size_h) if x))}</p></div></div>')
             body = fv(n, "body")
             outline = []
             if body and text_only(body):
@@ -1587,7 +1848,7 @@ def main():
                 tags = sorted({t for r in rows for t in r["tags"]})
                 sub = ""
                 if len(rows) > 1:
-                    sub = '<div class="sub">' + " · ".join(f'<a href="{root}{m["route"]}#{r["a"]}" data-tags="{esc(" ".join(r["tags"]))}">{esc(r["l"][:48])}</a>' for r in rows[:6]) + ("…" if len(rows) > 6 else "") + "</div>"
+                    sub = '<div class="sub">' + ", ".join(f'<a href="{root}{m["route"]}#{r["a"]}" data-tags="{esc(" ".join(r["tags"]))}">{esc(r["l"][:48])}</a>' for r in rows[:6]) + ("…" if len(rows) > 6 else "") + "</div>"
                 lis.append(f'<li data-tags="{esc(" ".join(tags))}"><a href="{root}{m["route"]}">{esc(m["title"])}</a>{sub}</li>')
             cards.append(f'<section class="group" id="g-{slugify(h or "other")}"><h2>{esc(h or "Other")}</h2><ul class="links">{"".join(lis)}</ul></section>')
         content = f"""<p class="lede">Initial regimens by syndrome from the {"UCSF Benioff Children's Hospitals" if popname == "Pediatric" else "UCSF Health"} antimicrobial stewardship programs. Pick the clinical situation on each page; drug names open their dosing without leaving the page. <a href="{root}{other_route}">Switch to {other_label}</a></p>
@@ -1666,7 +1927,7 @@ def main():
                     sub.append(f'<a href="{root}{models[nid]["route"]}">{esc(tt)}</a>')
                 elif path.startswith(("/document/", "/sites/g/files/")):
                     sub.append(f'<a class="x-pdf" target="_blank" rel="noopener" href="{esc(full)}">{esc(tt)} (PDF)</a>')
-            lis.append(f'<li><a class="big" href="{root}{m["route"]}">{esc(m["title"])}</a><div class="sub">{" · ".join(dict.fromkeys(sub))}</div></li>')
+            lis.append(f'<li><a class="big" href="{root}{m["route"]}">{esc(m["title"])}</a><div class="sub">{", ".join(dict.fromkeys(sub))}</div></li>')
     content = f"""<p class="lede">Aggregate susceptibility by hospital. Tables published as HTML feed the <a href="{root}antibiograms/explore.html">bug-drug explorer</a> and the Ask palette; try <i>e coli cipro</i>. Reports published only as PDF open on idmp.ucsf.edu.</p>
 <p class="cta"><a class="btn" href="{root}antibiograms/explore.html">Open the bug-drug explorer</a></p>
 <ul class="links abx">{"".join(lis)}</ul>"""
@@ -1737,7 +1998,7 @@ def main():
         prof = fv(n, "field_publication_id")
         if prof and prof.startswith("http"):
             links.append(f'<a class="x-external" target="_blank" rel="noopener" href="{esc(prof)}">Profile</a>')
-        items.append(f'<li id="p{m["nid"]}"><div class="cite">{sanitize(cite, ctx, root, m["slug"])}</div><div class="muted">{esc(fv(n, "field_publication_year") or "")} · {" · ".join(links)}</div></li>')
+        items.append(f'<li id="p{m["nid"]}"><div class="cite">{sanitize(cite, ctx, root, m["slug"])}</div><div class="muted">{esc(fv(n, "field_publication_year") or "")} {", ".join(links)}</div></li>')
         search.append({"t": "pub", "n": m["title"], "u": m["route"], "k": text_only(fv(n, "field_publication_authorlist", "processed") or "")[:300], "s": (fv(n, "field_publication_year") or "")})
     content = f'<p class="lede">Papers listed on IDMP team members\' pages, newest first.</p><ul class="pubs">{"".join(items) or "<li>None listed.</li>"}</ul>'
     write(route, layout(ctx, root, "Publications", content, section="reference",
@@ -1777,9 +2038,9 @@ def main():
                     its.append(f'<div class="fchg"><code>{esc(fchg["field"])}</code>' + (f'<pre class="diff">{esc(diff)}</pre>' if diff else "") + "</div>")
                 detail = f'<details><summary>{len(e["fields"])} field(s) changed</summary>{"".join(its)}</details>'
             elif kind == "touched":
-                detail = f'<span class="muted">IDMP moved the date {esc(human_date(e.get("changed_from")))} → {esc(human_date(e.get("changed")))}; nothing the mirror shows changed</span>'
+                detail = f'<span class="muted">IDMP moved the date {esc(human_date(e.get("changed_from")))} to {esc(human_date(e.get("changed")))}; nothing the mirror shows changed</span>'
             elif kind == "updated":
-                detail = f'<span class="muted">changed {esc(human_date(e.get("changed_from")))} → {esc(human_date(e.get("changed")))}</span>'
+                detail = f'<span class="muted">changed {esc(human_date(e.get("changed_from")))} to {esc(human_date(e.get("changed")))}</span>'
             evs.append(f'<li><span class="badge ev ev-{esc(kind)}">{esc(label)}</span> {link} <span class="muted">{esc(e.get("type") or "")}</span> {detail}</li>')
         probs = "".join(f'<li class="prob {esc(p["level"])}"><strong>{esc(p["level"])}</strong> {esc(p["code"])}: {esc(p["message"])}</li>' for p in run.get("problems", []))
         if evs or probs:
@@ -1815,7 +2076,7 @@ def main():
 <p>A scheduled job re-reads every source page nightly through the site's own content API, stores each page's <code>changed</code> timestamp and a content hash, and rebuilds only what moved. Structural surprises (a page type the mirror does not know, a missing field, a table whose columns cannot be recognised, a vanished index page) are recorded on the <a href="changes.html">What changed</a> page, flagged in the header sync indicator, and raised as an issue on the repository so drift is never silent. Documents on Box or SharePoint need a UCSF login and are linked, not copied.</p>
 <h2>Current snapshot</h2>
 <ul><li>{counts.get("diagnosis", 0)} empiric-therapy syndromes</li><li>{counts.get("drug", 0)} drug dosing pages</li><li>{counts.get("guidelines", 0)} guidelines</li><li>{counts.get("page", 0)} other pages, including antibiograms</li><li>{len(files)} PDFs tracked</li></ul>
-<p class="muted">Sync run {esc(status.get("run") or "")} · repository <a href="https://github.com/{REPO}" target="_blank" rel="noopener">{REPO}</a></p>
+<p class="muted">Sync run {esc(status.get("run") or "")}, repository <a href="https://github.com/{REPO}" target="_blank" rel="noopener">{REPO}</a></p>
 </section>
 {about_html}"""
     write(route, layout(ctx, root, "About", content, section="reference",
@@ -1858,7 +2119,7 @@ def main():
 <section class="hero">
   <h1>What do I give,<br>and how much?</h1>
   <p class="hero-sub">An unofficial mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly and reorganised for the wards. Ask in plain words, or use the index on the left.</p>
-  <button type="button" class="hero-ask" data-open="palette"><span class="ask-i">/</span><span class="ask-t">cap icu · cefepime crcl 30 · e coli cipro · hap zsfg</span><kbd>⌘K</kbd></button>
+  <button type="button" class="hero-ask" data-open="palette"><span class="ask-i">/</span><span class="ask-t"><i>cap icu</i><i>cefepime crcl 30</i><i>e coli cipro</i><i>hap zsfg</i></span><kbd>⌘K</kbd></button>
 </section>
 <section class="sections">{sec_rows}</section>
 <section class="cols">
