@@ -1114,11 +1114,12 @@ def main():
                         card.append('</div></header>')
                         if rxl:
                             card.append(rxl)
-                        card.append('<div class="rx-grid">')
-                        for key in ("first", "alt", "pathogens"):
-                            if key in cells and cells[key]["text"]:
+                        panes = [k for k in ("first", "alt", "pathogens") if k in cells and cells[k]["text"]]
+                        if panes:
+                            card.append(f'<div class="rx-grid" data-panes="{len(panes)}">')
+                            for key in panes:
                                 card.append(f'<section class="rx-col rx-{key}"><h4>{LABELS[key]}</h4><div class="rx-body">{cells[key]["html"]}</div></section>')
-                        card.append("</div>")
+                            card.append("</div>")
                         if cells.get("comments") and cells["comments"]["text"]:
                             ch = cells["comments"]["html"]
                             csoup = BeautifulSoup(ch, "lxml")
