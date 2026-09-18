@@ -590,27 +590,81 @@ def outline_of(html_fragment):
     return (body.decode_contents() if body else html_fragment), items
 
 # ----------------------------------------------------------------------------- layout
-NAV = [("empiric/index.html", "Empiric therapy"), ("drugs/index.html", "Dosing"), ("antibiograms/index.html", "Antibiograms"),
-       ("guidelines/index.html", "Guidelines"), ("peds.html", "Pediatrics"), ("changes.html", "What changed"), ("people.html", "People")]
+SECTIONS = [
+    ("empiric", "Empiric therapy", "empiric/index.html"),
+    ("drugs", "Dosing", "drugs/index.html"),
+    ("antibiograms", "Antibiograms", "antibiograms/index.html"),
+    ("guidelines", "Guidelines & policies", "guidelines/index.html"),
+    ("reference", "Reference", "about.html"),
+]
 
-def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_head="", crumbs=None, fallback_notes=None,
-           rail="", fresh=None, page_class=""):
+def nav_html(tree, section, current_route, root):
+    """The persistent index. The current section is expanded inline so it works without
+    JS; other sections are headers that expand from nav.json on click."""
+    out = ['<nav class="idx" aria-label="Contents">']
+    out.append('<div class="idx-filter"><input type="search" id="idx-q" placeholder="Filter this index" aria-label="Filter the index" autocomplete="off"></div>')
+    for key, label, href in SECTIONS:
+        on = key == section
+        groups = tree.get(key) or []
+        count = sum(len(g["items"]) for g in groups)
+        out.append(f'<div class="idx-sec{" on" if on else ""}" data-sec="{key}">')
+        out.append(f'<div class="idx-sec-head"><a href="{root}{href}">{esc(label)}</a>'
+                   + (f'<button type="button" class="idx-toggle" aria-expanded="{"true" if on else "false"}" aria-label="Show {esc(label)} contents">'
+                      f'<span class="idx-count">{count}</span></button>' if groups else "") + "</div>")
+        if groups:
+            out.append('<div class="idx-body"' + ("" if on else " hidden") + ">")
+            if on:
+                for g in groups:
+                    out.append(f'<div class="idx-grp">')
+                    if g.get("label"):
+                        out.append(f'<div class="idx-grp-h">{esc(g["label"])}</div>')
+                    out.append("<ul>")
+                    for it in g["items"]:
+                        cur = ' aria-current="page"' if it["u"] == current_route else ""
+                        out.append(f'<li><a href="{root}{it["u"]}"{cur}>{esc(it["t"])}</a></li>')
+                    out.append("</ul></div>")
+            out.append("</div>")
+        out.append("</div>")
+    out.append("</nav>")
+    return "".join(out)
+
+def pager_html(prev_item, next_item, root):
+    if not prev_item and not next_item:
+        return ""
+    bits = ['<nav class="pager" aria-label="Within this group">']
+    if prev_item:
+        bits.append(f'<a class="pg pg-prev" href="{root}{prev_item["u"]}"><span>Previous</span><b>{esc(prev_item["t"])}</b></a>')
+    else:
+        bits.append("<span></span>")
+    if next_item:
+        bits.append(f'<a class="pg pg-next" href="{root}{next_item["u"]}"><span>Next</span><b>{esc(next_item["t"])}</b></a>')
+    bits.append("</nav>")
+    return "".join(bits)
+
+def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_head="", crumbs=None,
+           fallback_notes=None, rail="", nav="", pager="", page_class="", kicker="", h1="", meta_bar=""):
     ver = ctx.asset_ver
+    status = ctx.status or {}
     crumb_html = ""
     if crumbs:
-        crumb_html = '<nav class="crumbs">' + " <span>/</span> ".join(
-            f'<a href="{root}{h}">{esc(t)}</a>' if h else f"<span>{esc(t)}</span>" for h, t in crumbs) + "</nav>"
-    src_html = ""
-    if node:
-        src_html = (f'<div class="src"><a class="x-source" target="_blank" rel="noopener" href="{esc(node["source_url"])}">View on idmp.ucsf.edu</a>'
-                    f'<span>IDMP last changed <time datetime="{esc(node["changed"])}">{esc(human_date(node["changed"]))}</time></span>'
-                    f'<button class="fav" data-fav="{esc(node["route"])}" data-title="{esc(node["title"])}" data-kind="{esc(node["type"])}" aria-label="Pin this page">☆ Pin</button></div>')
+        crumb_html = '<nav class="crumbs" aria-label="Breadcrumb">' + "".join(
+            (f'<a href="{root}{h}">{esc(t)}</a>' if h else f"<span>{esc(t)}</span>") for h, t in crumbs) + "</nav>"
     warn_html = ""
     if fallback_notes:
-        warn_html = ('<div class="notice warn"><strong>Layout note:</strong> part of this page did not match the layout the '
+        warn_html = ('<div class="note note-warn"><b>Layout note</b> Part of this page did not match the layout the '
                      'mirror expects, so it is shown in its original form. ' + esc("; ".join(fallback_notes)) + '.</div>')
-    status = ctx.status or {}
-    nav_html = "".join(f'<a href="{root}{h}"{" class=on" if section == h.split("/")[0].replace(".html", "") else ""}>{esc(t)}</a>' for h, t in NAV)
+    src_html = ""
+    if node:
+        src_html = (f'<div class="prov"><a class="x-source" target="_blank" rel="noopener" href="{esc(node["source_url"])}">idmp.ucsf.edu</a>'
+                    f'<span class="prov-sep"></span><span>IDMP revised <time datetime="{esc(node["changed"])}">{esc(human_date(node["changed"]))}</time></span>'
+                    f'<button class="pin" data-fav="{esc(node["route"])}" data-title="{esc(node["title"])}" data-kind="{esc(node["type"])}">Pin</button></div>')
+    head_block = ""
+    if h1:
+        head_block = (f'<header class="doc-head">{crumb_html}'
+                      + (f'<p class="eyebrow">{kicker}</p>' if kicker else "")
+                      + f'<h1>{esc(h1)}</h1>{meta_bar}{src_html}</header>')
+    elif crumb_html:
+        head_block = crumb_html
     return f"""<!doctype html>
 <html lang="en" data-root="{root}" data-section="{esc(section)}">
 <head>
@@ -619,10 +673,9 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
 <title>{esc(title)} · {SITE_NAME}</title>
 <meta name="description" content="{esc(desc or TAGLINE)}">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#08090a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#FFFCF0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#100F0F" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="{SITE_NAME}">
 <link rel="manifest" href="{root}manifest.webmanifest">
 <link rel="icon" href="{root}assets/icon-192.png">
@@ -630,62 +683,58 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="{root}assets/site.css?v={ver}">
-<script>try{{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);var L=JSON.parse(localStorage.getItem('lens')||'{{}}');for(var k in L)if(L[k])document.documentElement.setAttribute('data-'+k,L[k]);}}catch(e){{}}</script>
+<script>try{{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);var L=JSON.parse(localStorage.getItem('lens')||'{{}}');for(var k in L)if(L[k])document.documentElement.setAttribute('data-'+k,L[k]);if(localStorage.getItem('idx')==='0')document.documentElement.setAttribute('data-idx','0');}}catch(e){{}}</script>
 {extra_head}
 </head>
 <body class="{esc(page_class)}">
-<a class="skip" href="#main">Skip to content</a>
-<header class="top">
-  <div class="top-row">
-    <a class="brand" href="{root}index.html"><img src="{root}assets/icon-192.png" alt="" width="22" height="22"><span class="brand-name">{SITE_NAME}</span><span class="brand-sub">unofficial mirror</span></a>
-    <button class="ask" id="ask-open" type="button"><span class="ask-icon">⌕</span><span class="ask-text">Search or ask: cap icu, cefepime crcl 30, e coli cipro…</span><kbd>⌘K</kbd></button>
-    <div class="top-tools">
+<a class="skip" href="#doc">Skip to content</a>
+<div class="app">
+  <header class="bar">
+    <button class="bar-menu" id="idx-open" type="button" aria-label="Contents" aria-expanded="false" aria-controls="idx-wrap"><span></span><span></span><span></span></button>
+    <a class="mark" href="{root}index.html"><img src="{root}assets/icon-192.png" alt="" width="20" height="20"><span class="mark-n">IDMP Atlas</span><span class="mark-s">unofficial mirror</span></a>
+    <button class="ask" id="ask-open" type="button"><span class="ask-i">/</span><span class="ask-t">Ask: <i>cap icu</i> · <i>cefepime crcl 30</i> · <i>e coli cipro</i></span><kbd>⌘K</kbd></button>
+    <div class="bar-end">
       <button class="lens-btn" id="lens-open" type="button" title="Where / Setting / Patient"><span id="lens-summary">All sites · Any setting · Adult</span></button>
-      <button class="theme" id="theme" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
+      <a class="sync" id="status" href="{root}changes.html" title="Sync status">sync</a>
+      <button class="icon-btn" id="theme" type="button" aria-label="Toggle dark mode">◐</button>
     </div>
-  </div>
-  <nav class="nav" aria-label="Sections">{nav_html}<a class="status" id="status" href="{root}changes.html" title="Sync status">sync</a></nav>
-</header>
-<div class="page{" with-rail" if rail else ""}">
-<main id="main" class="wrap">
-{crumb_html}
-{warn_html}
-{content}
-{src_html}
-</main>
-{f'<aside class="rail">{rail}</aside>' if rail else ""}
+  </header>
+  <aside class="idx-wrap" id="idx-wrap">{nav}</aside>
+  <main class="doc{" has-rail" if rail else ""}" id="doc">
+    <div class="doc-in">
+      {warn_html}
+      {head_block}
+      {content}
+      {pager}
+      <footer class="doc-foot"><p><b>{SITE_NAME}</b> is an unofficial, read-only mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly. Not affiliated with UCSF or the IDMP. Content belongs to its authors; confirm against the source before acting. Last verified <time datetime="{esc(status.get('run',''))}">{esc(human_date(status.get('run')))}</time>. <a href="{root}about.html">About</a> · <a href="https://github.com/{REPO}" target="_blank" rel="noopener">Source</a> · <button class="linklike" id="offline-btn" type="button">Save offline</button></p></footer>
+    </div>
+    {f'<aside class="meta">{rail}</aside>' if rail else ""}
+  </main>
 </div>
-<footer class="foot">
-  <p><strong>{SITE_NAME}</strong> is an unofficial, read-only mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly. Not affiliated with UCSF or the IDMP. Content belongs to its authors; confirm against the source before acting.
-  Mirror last verified against the source <time datetime="{esc(status.get('run',''))}">{esc(human_date(status.get('run')))}</time>. <a href="{root}about.html">About</a> · <a href="{root}publications.html">Publications</a> · <a href="https://github.com/{REPO}" target="_blank" rel="noopener">Source code</a> · <button class="linklike" id="offline-btn" type="button">Save for offline</button></p>
-</footer>
-<nav class="tabbar" aria-label="Quick navigation">
-  <button type="button" data-open="palette"><span class="ti">⌕</span>Ask</button>
-  <a href="{root}empiric/index.html"><span class="ti">Rx</span>Empiric</a>
-  <a href="{root}drugs/index.html"><span class="ti">mg</span>Dosing</a>
-  <a href="{root}antibiograms/explore.html"><span class="ti">%</span>Bugs</a>
-  <button type="button" data-open="more"><span class="ti">⋯</span>More</button>
+<nav class="tabs" aria-label="Quick navigation">
+  <button type="button" data-open="palette"><i>/</i>Ask</button>
+  <button type="button" id="idx-open-2"><i>≡</i>Index</button>
+  <a href="{root}empiric/index.html"><i>Rx</i>Empiric</a>
+  <a href="{root}drugs/index.html"><i>mg</i>Dosing</a>
+  <a href="{root}antibiograms/explore.html"><i>%</i>Bugs</a>
 </nav>
-<div class="modal" id="palette" hidden><div class="modal-box palette-box" role="dialog" aria-label="Search">
-  <div class="palette-head"><span class="ask-icon">⌕</span><input type="search" id="q" placeholder="Syndrome, drug + CrCl, organism + drug, guideline…" autocomplete="off" aria-label="Search"><button class="modal-close" data-close type="button">Esc</button></div>
-  <div class="palette-body" id="results"></div>
-  <div class="palette-foot"><span><kbd>↑↓</kbd> move</span><span><kbd>↵</kbd> open</span><span><kbd>⌘K</kbd> anywhere</span><span class="grow"></span><span id="palette-hint">Try: <b>hap zsfg</b> · <b>vanc hd</b> · <b>pseudomonas cefepime</b></span></div>
+<div class="ovl" id="palette" hidden><div class="pal" role="dialog" aria-label="Search">
+  <div class="pal-in"><span class="pal-i">/</span><input type="search" id="q" placeholder="Syndrome, drug + CrCl, organism + drug, guideline…" autocomplete="off" aria-label="Search"><button class="esc" data-close type="button">esc</button></div>
+  <div class="pal-list" id="results"></div>
+  <div class="pal-foot"><span><kbd>↑</kbd><kbd>↓</kbd> move</span><span><kbd>↵</kbd> open</span><span class="grow"></span><span class="pal-try">Try <i>hap zsfg</i> · <i>vanc hd</i> · <i>pseudomonas cefepime</i></span></div>
 </div></div>
-<div class="modal" id="lens" hidden><div class="modal-box lens-box" role="dialog" aria-label="Context">
-  <div class="lens-head"><strong>Your context</strong><span class="muted">Applied everywhere, remembered on this device.</span><button class="modal-close" data-close type="button">Done</button></div>
-  <div class="lens-grid">
-    <div class="lens-row"><label>Where</label><div class="seg" data-lens="where"><button data-v="">All</button><button data-v="ucsf">UCSF Health</button><button data-v="zsfg">ZSFG</button><button data-v="va">VA</button><button data-v="bch">BCH</button></div></div>
-    <div class="lens-row"><label>Setting</label><div class="seg" data-lens="setting"><button data-v="">Any</button><button data-v="outpatient">Outpatient</button><button data-v="inpatient">Inpatient</button><button data-v="icu">ICU</button></div></div>
-    <div class="lens-row"><label>Patient</label><div class="seg" data-lens="patient"><button data-v="">Adult</button><button data-v="peds">Pediatric</button></div></div>
-    <div class="lens-row"><label>Renal</label><div class="renal"><input type="number" id="lens-crcl" inputmode="numeric" min="0" max="250" placeholder="CrCl"><span class="unit">mL/min</span><div class="seg" data-lens="renal"><button data-v="">Any</button><button data-v="hd">HD</button><button data-v="crrt">CRRT</button></div></div></div>
-    <div class="lens-row"><label>Allergy</label><div class="seg" data-lens="allergy"><button data-v="">None</button><button data-v="bl">Severe beta-lactam allergy</button></div></div>
+<div class="ovl" id="lens" hidden><div class="sheet" role="dialog" aria-label="Context">
+  <div class="sheet-h"><b>Your context</b><span>Applied everywhere, remembered on this device.</span><button class="esc" data-close type="button">done</button></div>
+  <div class="sheet-b">
+    <div class="fld"><label>Where</label><div class="seg" data-lens="where"><button data-v="">All</button><button data-v="ucsf">UCSF Health</button><button data-v="zsfg">ZSFG</button><button data-v="va">VA</button><button data-v="bch">BCH</button></div></div>
+    <div class="fld"><label>Setting</label><div class="seg" data-lens="setting"><button data-v="">Any</button><button data-v="outpatient">Outpatient</button><button data-v="inpatient">Inpatient</button><button data-v="icu">ICU</button></div></div>
+    <div class="fld"><label>Patient</label><div class="seg" data-lens="patient"><button data-v="">Adult</button><button data-v="peds">Pediatric</button></div></div>
+    <div class="fld"><label>Renal</label><div class="renal"><input type="number" id="lens-crcl" inputmode="numeric" min="0" max="250" placeholder="CrCl"><span class="u">mL/min</span><div class="seg" data-lens="renal"><button data-v="">Any</button><button data-v="hd">HD</button><button data-v="crrt">CRRT</button></div></div></div>
+    <div class="fld"><label>Allergy</label><div class="seg" data-lens="allergy"><button data-v="">None</button><button data-v="bl">Severe beta-lactam</button></div></div>
   </div>
-  <div class="lens-foot"><button type="button" id="lens-reset" class="linklike">Reset all</button><span class="muted">Lenses change what is shown first, never what the source says.</span></div>
+  <div class="sheet-f"><button type="button" id="lens-reset" class="linklike">Reset</button><span>Lenses change what is shown first, never what the source says.</span></div>
 </div></div>
-<div class="modal" id="more" hidden><div class="modal-box more-box" role="dialog" aria-label="More"><div class="lens-head"><strong>More</strong><button class="modal-close" data-close type="button">Close</button></div>
-  <ul class="more-list">{"".join(f'<li><a href="{root}{h}">{esc(t)}</a></li>' for h, t in NAV)}<li><a href="{root}antibiograms/explore.html">Bug-drug explorer</a></li><li><a href="{root}publications.html">Publications</a></li><li><a href="{root}about.html">About this mirror</a></li><li><button type="button" class="linklike" data-open="lens">Your context (Where / Setting / Patient)</button></li><li><button type="button" class="linklike" id="offline-btn-2">Save whole site for offline</button></li></ul>
-</div></div>
-<div class="drawer" id="drawer" hidden><div class="drawer-bar"><span class="handle"></span><button class="drawer-back" id="drawer-back" type="button" hidden>← Back</button><a class="drawer-open" id="drawer-open" href="#">Open full page</a><button class="drawer-close" id="drawer-close" type="button" aria-label="Close">✕</button></div><div class="drawer-body" id="drawer-body"></div></div>
+<div class="drawer" id="drawer" hidden><div class="drawer-bar"><span class="grip"></span><button class="drawer-back" id="drawer-back" type="button" hidden>Back</button><a class="drawer-open" id="drawer-open" href="#">Open full page</a><button class="esc" id="drawer-close" type="button" aria-label="Close">esc</button></div><div class="drawer-body" id="drawer-body"></div></div>
 <div class="scrim" id="scrim" hidden></div>
 <div class="toast" id="toast" hidden></div>
 <script src="{root}assets/site.js?v={ver}" defer></script>
@@ -803,7 +852,10 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     for sub in ("assets", "img", "empiric", "drugs", "guidelines", "antibiograms", "pages", "people", "thumbs"):
         os.makedirs(os.path.join(OUT, sub), exist_ok=True)
-    css = open(os.path.join(SITE, "assets", "site.css"), encoding="utf-8").read()
+    flexoki = open(os.path.join(SITE, "assets", "vendor", "flexoki.css"), encoding="utf-8").read()
+    css = ("/* Flexoki by kepano - MIT. Vendored verbatim from github.com/kepano/flexoki\n"
+           "   See assets/vendor/NOTICE.md and assets/vendor/LICENSE-flexoki. */\n"
+           + flexoki + "\n" + open(os.path.join(SITE, "assets", "site.css"), encoding="utf-8").read())
     js = open(os.path.join(SITE, "assets", "site.js"), encoding="utf-8").read().replace("__REPO__", REPO)
     ctx.asset_ver = hashlib.sha1((css + js).encode()).hexdigest()[:8]
     open(os.path.join(OUT, "assets", "site.css"), "w", encoding="utf-8").write(css)
@@ -903,6 +955,86 @@ def main():
         return "".join(f'<span class="badge site s-{s["group"]}" title="{esc(s["name"])}">{esc(s["short"])}</span>' for s in sites)
     def kind_badges(kinds):
         return "".join(f'<span class="badge kind k-{k}">{KIND_LABEL[k]}</span>' for k in kinds)
+
+    # ---- the index tree: one entry per section, grouped the way a manual's index would be
+    def is_peds_gl(m):
+        gs = gmeta[m["nid"]]["sites"]
+        return bool(gs) and all(x["group"] == "bch" for x in gs)
+
+    def dx_groups(peds):
+        key = "empiric_peds" if peds else "empiric_adult"
+        seen, groups = set(), []
+        for g in (structure.get(key) or {}).get("groups") or []:
+            items = []
+            for path, _ in g["links"]:
+                nid = ctx.nid_by_path.get(path)
+                if nid in models and nid not in seen:
+                    seen.add(nid)
+                    items.append({"t": models[nid]["title"], "u": models[nid]["route"]})
+            if items:
+                groups.append({"label": g["heading"] or "Other", "items": items})
+        rest = [m for m in by_type["diagnosis"] if m["nid"] not in seen and is_peds(m) == peds]
+        if rest:
+            groups.append({"label": "Other", "items": [{"t": m["title"], "u": m["route"]} for m in sorted(rest, key=lambda x: x["title"])]})
+        return groups
+
+    def letter_groups(items):
+        out, cur, letter = [], [], None
+        for m in items:
+            l = m["title"][:1].upper()
+            if l != letter:
+                if cur:
+                    out.append({"label": letter, "items": cur})
+                letter, cur = l, []
+            cur.append({"t": m["title"], "u": m["route"]})
+        if cur:
+            out.append({"label": letter, "items": cur})
+        return out
+
+    peds_pages_all = [m for m in models.values() if m["type"] == "page"
+                      and re.search(r"pediatric|neonatal|benioff|children|kocher|icn", m["title"] + m["alias"], flags=re.I)
+                      and m["nid"] not in abx_nids]
+    policy_items = []
+    for skey, sc in curation["sites"].items():
+        for k in ("restricted", "allergy", "ivpo"):
+            r = route_for_alias(sc[k]) if sc.get(k) else None
+            nid = ctx.nid_by_path.get((sc.get(k) or "").split("#")[0])
+            if r and nid in models and not any(x["u"] == r for x in policy_items):
+                policy_items.append({"t": models[nid]["title"], "u": r})
+    gl_by_cat = defaultdict(list)
+    for m in by_type["guidelines"]:
+        gl_by_cat[gmeta[m["nid"]]["category"]].append(m)
+    abx_items = [{"t": models[n]["title"], "u": models[n]["route"]} for n in sorted(abx_nids) if n in models]
+
+    tree = {
+        "empiric": [{"label": "Adult · " + g["label"], "items": g["items"]} for g in dx_groups(False)]
+                 + [{"label": "Pediatric · " + g["label"], "items": g["items"]} for g in dx_groups(True)],
+        "drugs": letter_groups(sorted(by_type["drug"], key=lambda x: x["title"].lower()))
+               + ([{"label": "Pediatric & neonatal", "items": [{"t": m["title"], "u": m["route"]} for m in sorted(peds_pages_all, key=lambda x: x["title"])]}] if peds_pages_all else []),
+        "antibiograms": [{"label": "Explore", "items": [{"t": "Bug-drug explorer", "u": "antibiograms/explore.html"}]},
+                         {"label": "Reports", "items": sorted(abx_items, key=lambda x: x["t"])}],
+        "guidelines": [{"label": cat, "items": [{"t": m["title"], "u": m["route"]} for m in sorted(ms, key=lambda x: x["title"].lower())]}
+                       for cat, ms in sorted(gl_by_cat.items())]
+                    + ([{"label": "Policies by hospital", "items": policy_items}] if policy_items else []),
+        "reference": [{"label": "", "items": [{"t": "What changed on IDMP", "u": "changes.html"},
+                                              {"t": "IDMP team", "u": "people.html"},
+                                              {"t": "Publications", "u": "publications.html"},
+                                              {"t": "About this mirror", "u": "about.html"}]}],
+    }
+    # flat order for previous/next inside a group
+    flat = {}
+    for skey, groups in tree.items():
+        for g in groups:
+            for i, it in enumerate(g["items"]):
+                flat.setdefault(it["u"], (g["items"], i))
+    def pager_for(route, root):
+        pair = flat.get(route)
+        if not pair:
+            return ""
+        items, i = pair
+        return pager_html(items[i - 1] if i > 0 else None, items[i + 1] if i + 1 < len(items) else None, root)
+    def nav_for(section, route, root):
+        return nav_html(tree, section, route, root)
 
     # ---- related guidelines (title-token overlap; transparent and conservative)
     STOP = {"the", "and", "or", "of", "in", "for", "with", "a", "an", "to", "at", "on", "guideline", "guidelines", "guidance",
@@ -1341,7 +1473,7 @@ def main():
         return "\n".join(parts), notes, {"outline": outline}
 
     # ---- write node pages
-    section_of = {"diagnosis": "empiric", "drug": "drugs", "guidelines": "guidelines", "ucsf_person": "people", "other_person": "people"}
+    section_of = {"diagnosis": "empiric", "drug": "drugs", "guidelines": "guidelines", "ucsf_person": "reference", "other_person": "reference"}
     fresh_days = 30
     dx_rows_index = {}
     for m in models.values():
@@ -1366,7 +1498,6 @@ def main():
             crumbs.append(("antibiograms/index.html", "Antibiograms"))
         elif m["type"] in ("ucsf_person", "other_person"):
             crumbs.append(("people.html", "People"))
-        crumbs.append((None, m["title"]))
         kicker = {"diagnosis": f"{popname} empiric therapy", "drug": "Antimicrobial dosing", "guidelines": "Guideline",
                   "ucsf_person": "IDMP team", "other_person": "IDMP team"}.get(m["type"], "Antibiogram" if m["nid"] in abx_nids else "Page")
         fresh = ""
@@ -1382,8 +1513,10 @@ def main():
             rail = '<nav class="outline"><p class="kicker">On this page</p>' + "".join(f'<a href="#{k}">{esc(lbl)}</a>' for k, lbl in meta["sections"]) + "</nav>"
         elif meta.get("rows") and len(meta["rows"]) > 1:
             rail = '<nav class="outline"><p class="kicker">Situations</p>' + "".join(f'<a href="#{r["a"]}">{esc(r["l"])}</a>' for r in meta["rows"]) + "</nav>"
-        content = f'<article class="node node-{m["type"]}" data-slug="{esc(m["slug"])}"><p class="kicker">{esc(kicker)} {fresh}</p><h1>{esc(m["title"])}</h1>{body}</article>'
+        content = f'<article class="node node-{m["type"]}" data-slug="{esc(m["slug"])}">{body}</article>'
         write(route, layout(ctx, root, m["title"], content, node=m, section=sec, crumbs=crumbs, fallback_notes=notes, rail=rail,
+                            nav=nav_for(sec, route, root), pager=pager_for(route, root),
+                            kicker=esc(kicker) + (" " + fresh if fresh else ""), h1=m["title"],
                             desc=f"{kicker}: {m['title']} (mirrored from idmp.ucsf.edu)"))
         # search entry
         n = m["raw"]
@@ -1457,13 +1590,13 @@ def main():
                     sub = '<div class="sub">' + " · ".join(f'<a href="{root}{m["route"]}#{r["a"]}" data-tags="{esc(" ".join(r["tags"]))}">{esc(r["l"][:48])}</a>' for r in rows[:6]) + ("…" if len(rows) > 6 else "") + "</div>"
                 lis.append(f'<li data-tags="{esc(" ".join(tags))}"><a href="{root}{m["route"]}">{esc(m["title"])}</a>{sub}</li>')
             cards.append(f'<section class="group" id="g-{slugify(h or "other")}"><h2>{esc(h or "Other")}</h2><ul class="links">{"".join(lis)}</ul></section>')
-        content = f"""<div class="page-head"><p class="kicker">Empiric therapy</p><h1>{popname} empiric antimicrobial therapy</h1>
-<p class="lede">Initial regimens by syndrome from the {"UCSF Benioff Children's Hospitals" if popname == "Pediatric" else "UCSF Health"} antimicrobial stewardship programs. Pick the clinical situation on each page; drug names open their dosing without leaving the page. <a href="{root}{other_route}">Switch to {other_label} →</a></p>
-<p class="muted">These recommendations assist clinical decision-making for common situations and cannot replace individualized evaluation, including history of multidrug-resistant organisms.</p></div>
-<div class="filter"><input type="search" id="filter" placeholder="Filter syndromes…" aria-label="Filter list"><div class="chips" id="chips"><button data-chip="outpatient">Outpatient</button><button data-chip="inpatient">Inpatient</button><button data-chip="icu">ICU</button></div></div>
+        content = f"""<p class="lede">Initial regimens by syndrome from the {"UCSF Benioff Children's Hospitals" if popname == "Pediatric" else "UCSF Health"} antimicrobial stewardship programs. Pick the clinical situation on each page; drug names open their dosing without leaving the page. <a href="{root}{other_route}">Switch to {other_label}</a></p>
+<p class="small">These recommendations assist clinical decision-making for common situations and cannot replace individualized evaluation, including history of multidrug-resistant organisms.</p>
+<div class="filter"><input type="search" id="filter" placeholder="Filter syndromes" aria-label="Filter list"><div class="chips" id="chips"><button data-chip="outpatient">Outpatient</button><button data-chip="inpatient">Inpatient</button><button data-chip="icu">ICU</button></div></div>
 <nav class="jump">{jump}</nav>
 <div class="groups" id="groups">{"".join(cards)}</div>"""
         write(route, layout(ctx, root, f"{popname} empiric therapy", content, section="empiric",
+                            nav=nav_for("empiric", route, root), kicker="Empiric therapy", h1=f"{popname} empiric antimicrobial therapy",
                             crumbs=[("index.html", "Home"), (None, f"{popname} empiric therapy")]))
     empiric_index("empiric_adult", "Adult", "empiric/index.html", "empiric/peds.html", "pediatrics")
     empiric_index("empiric_peds", "Pediatric", "empiric/peds.html", "empiric/index.html", "adults")
@@ -1479,17 +1612,19 @@ def main():
         low = m["title"].lower()
         syn = [a for key, alts in synonyms.items() if key in low for a in alts]
         dd = dose_data_all.get(m["slug"])
-        first_dose = ""
-        if dd and dd["rows"]:
-            first_dose = f'<span class="muted mono">{esc(dd["rows"][0]["d"][0][:40])}</span>'
-        rows.append(f'<li data-tags="{esc(" ".join(tags))}{" hd" if has_hd else ""}" data-syn="{esc(" ".join(syn))}"><a href="{root}{m["route"]}">{esc(m["title"])}</a>{first_dose}<span class="row-badges">{badges}{"<span class=badge>HD/CRRT</span>" if has_hd else ""}</span></li>')
-    content = f"""<div class="page-head"><p class="kicker">Dosing</p><h1>Adult antimicrobial dosing</h1>
-<p class="lede">Renal-function and dialysis dosing for {len(rows)} agents, one page per drug with a renal dial. Brand names and ward shorthand work here and in the Ask palette (Zosyn, pip-tazo, vanc, Bactrim…).</p>
-<p class="muted">Source guidance: dosing recommendations are based on available literature and do not replace clinical judgement. Pediatric and neonatal dosing live under <a href="{root}peds.html">Pediatrics</a>.</p></div>
-<div class="filter"><input type="search" id="filter" placeholder="Filter drugs… (brand names work)" aria-label="Filter list">
-<div class="chips" id="chips"><button data-chip="id-r-ucsf">ID-restricted at UCSF</button><button data-chip="id-r-zsfg">ID-restricted at ZSFG</button><button data-chip="iv-po">IV → PO candidates</button><button data-chip="hd">Has HD/CRRT table</button></div></div>
-<ul class="links az" id="list">{"".join(rows)}</ul>"""
-    write(route, layout(ctx, root, "Adult antimicrobial dosing", content, section="drugs", crumbs=[("index.html", "Home"), (None, "Dosing")]))
+        first_dose = esc(dd["rows"][0]["d"][0][:44]) if (dd and dd["rows"]) else ""
+        rows.append(f'<tr data-tags="{esc(" ".join(tags))}{" hd" if has_hd else ""}" data-syn="{esc(" ".join(syn))}">'
+                    f'<td><a href="{root}{m["route"]}">{esc(m["title"])}</a></td>'
+                    f'<td class="num">{first_dose}</td>'
+                    f'<td class="flags">{badges}{"<span class=tag>HD/CRRT</span>" if has_hd else ""}</td></tr>')
+    content = f"""<p class="lede">Renal-function and dialysis dosing for {len(rows)} agents, one page per drug with a renal dial. Brand names and ward shorthand work here and in the Ask palette: Zosyn, pip-tazo, vanc, Bactrim.</p>
+<p class="small">Source guidance: dosing recommendations are based on available literature and do not replace clinical judgement. Pediatric and neonatal dosing cards are in the index under this section.</p>
+<div class="filter"><input type="search" id="filter" placeholder="Filter drugs (brand names work)" aria-label="Filter list">
+<div class="chips" id="chips"><button data-chip="id-r-ucsf">ID-restricted at UCSF</button><button data-chip="id-r-zsfg">ID-restricted at ZSFG</button><button data-chip="iv-po">IV to PO</button><button data-chip="hd">Has HD/CRRT</button></div></div>
+<table class="idxtbl" id="list"><thead><tr><th>Drug</th><th>Usual dose</th><th>Flags</th></tr></thead><tbody>{"".join(rows)}</tbody></table>"""
+    write(route, layout(ctx, root, "Adult antimicrobial dosing", content, section="drugs",
+                        nav=nav_for("drugs", route, root), kicker="Dosing", h1="Adult antimicrobial dosing",
+                        crumbs=[("index.html", "Home"), (None, "Dosing")]))
 
     # guidelines index
     route = "guidelines/index.html"; root = root_for(route)
@@ -1507,12 +1642,13 @@ def main():
             thumb = f'<img class="mini-thumb" loading="lazy" src="{root}thumbs/{gm["thumb"]}.jpg" alt="">' if gm["thumb"] else '<span class="mini-thumb blank"></span>'
             lis.append(f'<li data-sites="{esc(" ".join(sorted({s["group"] for s in gm["sites"]})))}" data-cat="{esc(gm["cat_slug"])}">{thumb}<div class="gl-main"><a href="{root}{m["route"]}">{esc(m["title"])}</a>{("<p class=desc>" + esc(gm["desc"]) + "</p>") if gm["desc"] else ""}<span class="row-badges">{site_badges(gm["sites"])}{kind_badges(gm["kinds"])}{date}</span></div></li>')
         cards.append(f'<section class="group" data-cat="{slugify(h or "other")}"><h2>{esc(h or "Other")}</h2><ul class="links gl">{"".join(lis)}</ul></section>')
-    content = f"""<div class="page-head"><p class="kicker">Guidelines</p><h1>Institutional guidelines</h1>
-<p class="lede">{len(by_type["guidelines"])} guidelines across UCSF Health, ZSFG, the VA and the Benioff Children's Hospitals. Your Where lens brings your hospital's to the top; <span class="badge kind k-pdf">PDF</span> opens on idmp.ucsf.edu without login and <span class="badge kind k-login">UCSF login</span> means Box or SharePoint.</p></div>
-<div class="filter"><input type="search" id="filter" placeholder="Filter guidelines…" aria-label="Filter list">
+    content = f"""<p class="lede">{len(by_type["guidelines"])} guidelines across UCSF Health, ZSFG, the VA and the Benioff Children's Hospitals. Your Where lens brings your hospital's to the top. <span class="tag k-pdf">PDF</span> opens on idmp.ucsf.edu without login; <span class="tag k-login">UCSF login</span> means Box or SharePoint.</p>
+<div class="filter"><input type="search" id="filter" placeholder="Filter guidelines" aria-label="Filter list">
 <div class="chips" id="chips"><button data-chip="site:ucsf">UCSF Health</button><button data-chip="site:zsfg">ZSFG</button><button data-chip="site:va">VA</button><button data-chip="site:bch">BCH</button></div></div>
 <div class="groups" id="groups">{"".join(cards)}</div>"""
-    write(route, layout(ctx, root, "Guidelines", content, section="guidelines", crumbs=[("index.html", "Home"), (None, "Guidelines")]))
+    write(route, layout(ctx, root, "Guidelines", content, section="guidelines",
+                        nav=nav_for("guidelines", route, root), kicker="Guidelines & policies", h1="Institutional guidelines",
+                        crumbs=[("index.html", "Home"), (None, "Guidelines")]))
 
     # antibiograms index + explorer
     route = "antibiograms/index.html"; root = root_for(route)
@@ -1531,17 +1667,19 @@ def main():
                 elif path.startswith(("/document/", "/sites/g/files/")):
                     sub.append(f'<a class="x-pdf" target="_blank" rel="noopener" href="{esc(full)}">{esc(tt)} (PDF)</a>')
             lis.append(f'<li><a class="big" href="{root}{m["route"]}">{esc(m["title"])}</a><div class="sub">{" · ".join(dict.fromkeys(sub))}</div></li>')
-    content = f"""<div class="page-head"><p class="kicker">Antibiograms</p><h1>Antibiograms</h1>
-<p class="lede">Aggregate susceptibility by hospital. Tables published as HTML feed the <a href="{root}antibiograms/explore.html">bug-drug explorer</a> and the Ask palette (try <b>e coli cipro</b>); reports published only as PDF open on idmp.ucsf.edu.</p></div>
+    content = f"""<p class="lede">Aggregate susceptibility by hospital. Tables published as HTML feed the <a href="{root}antibiograms/explore.html">bug-drug explorer</a> and the Ask palette; try <i>e coli cipro</i>. Reports published only as PDF open on idmp.ucsf.edu.</p>
 <p class="cta"><a class="btn" href="{root}antibiograms/explore.html">Open the bug-drug explorer</a></p>
 <ul class="links abx">{"".join(lis)}</ul>"""
-    write(route, layout(ctx, root, "Antibiograms", content, section="antibiograms", crumbs=[("index.html", "Home"), (None, "Antibiograms")]))
+    write(route, layout(ctx, root, "Antibiograms", content, section="antibiograms",
+                        nav=nav_for("antibiograms", route, root), kicker="Antibiograms", h1="Antibiograms",
+                        crumbs=[("index.html", "Home"), (None, "Antibiograms")]))
     route = "antibiograms/explore.html"; root = root_for(route)
-    content = f"""<div class="page-head"><p class="kicker">Antibiograms</p><h1>Bug-drug explorer</h1>
-<p class="lede">Pick an organism to see every drug, or a drug to see every organism, across the UCSF adult tables the mirror could parse. Values are % susceptible as published; shading is added by the mirror.</p></div>
+    content = f"""<p class="lede">Pick an organism to see every drug, or a drug to see every organism, across the UCSF adult tables the mirror could parse. Values are % susceptible as published; shading is added by the mirror.</p>
 <div class="explore" id="explore"><div class="explore-controls"><label>Organism <input list="bug-list" id="bug" placeholder="Escherichia coli"><datalist id="bug-list"></datalist></label><span class="muted">or</span><label>Drug <input list="drug-list" id="abx-drug" placeholder="ciprofloxacin"><datalist id="drug-list"></datalist></label></div><div id="explore-out"><p class="muted">Loading tables…</p></div></div>
 <p class="legend"><span class="s-hi">≥ 90 %</span><span class="s-ok">80–89 %</span><span class="s-mid">60–79 %</span><span class="s-lo">&lt; 60 %</span><span class="s-r">R</span></p>"""
-    write(route, layout(ctx, root, "Bug-drug explorer", content, section="antibiograms", crumbs=[("index.html", "Home"), ("antibiograms/index.html", "Antibiograms"), (None, "Explorer")], page_class="explore-page"))
+    write(route, layout(ctx, root, "Bug-drug explorer", content, section="antibiograms",
+                        nav=nav_for("antibiograms", route, root), kicker="Antibiograms", h1="Bug-drug explorer",
+                        crumbs=[("index.html", "Home"), ("antibiograms/index.html", "Antibiograms"), (None, "Explorer")], page_class="explore-page"))
     with open(os.path.join(OUT, "antibiogram.json"), "w", encoding="utf-8") as f:
         json.dump({"tables": abx_tables, "built": build_time.isoformat()}, f, ensure_ascii=False, separators=(",", ":"))
 
@@ -1551,12 +1689,13 @@ def main():
     peds_gl = [m for m in by_type["guidelines"] if gmeta[m["nid"]]["sites"] and all(s["group"] == "bch" for s in gmeta[m["nid"]]["sites"])]
     def ul(items):
         return '<ul class="links">' + "".join(f'<li><a href="{root}{m["route"]}">{esc(m["title"])}</a></li>' for m in sorted(items, key=lambda x: x["title"].lower())) + "</ul>"
-    content = f"""<div class="page-head"><p class="kicker">Pediatrics</p><h1>Pediatrics and neonatal</h1>
-<p class="lede">Benioff Children's Hospitals content: empiric therapy by syndrome, the pediatric and neonatal dosing cards, and BCH-only guidelines. Set Patient to Pediatric in your context to make the home screen and search favour these.</p></div>
+    content = f"""<p class="lede">Benioff Children's Hospitals content in one place: empiric therapy by syndrome, the pediatric and neonatal dosing cards, and BCH-only guidelines. Set Patient to Pediatric in your context and the rest of the site favours these too.</p>
 <section class="group"><h2>Start here</h2><ul class="links"><li><a class="big" href="empiric/peds.html">Pediatric empiric therapy by syndrome</a></li></ul></section>
 <section class="group"><h2>Dosing cards and pediatric pages</h2>{ul(peds_pages)}</section>
 <section class="group"><h2>Guidelines for BCH sites only</h2>{ul(peds_gl)}</section>"""
-    write(route, layout(ctx, root, "Pediatrics", content, section="peds", crumbs=[("index.html", "Home"), (None, "Pediatrics")]))
+    write(route, layout(ctx, root, "Pediatrics", content, section="drugs",
+                        nav=nav_for("drugs", route, root), kicker="Pediatrics", h1="Pediatrics and neonatal",
+                        crumbs=[("index.html", "Home"), (None, "Pediatrics")]))
 
     # people
     route = "people.html"; root = ""
@@ -1578,9 +1717,11 @@ def main():
                       f'<div><a href="{m["route"]}"><strong>{esc(m["title"])}</strong></a><div class="muted">{esc(role)}</div></div></li>')
         secs.append(f'<section class="group"><h2>{esc(g)}</h2><ul class="people">{cards}</ul></section>')
     npubs = len(by_type["ucsf_publication"])
-    content = (f'<div class="page-head"><p class="kicker">People</p><h1>IDMP team</h1><p class="lede">As listed on <a class="x-source" target="_blank" rel="noopener" href="{BASE}/people">idmp.ucsf.edu/people</a>. '
-               + (f'See also <a href="publications.html">{npubs} publications</a> by the team.' if npubs else "") + '</p></div>' + "".join(secs))
-    write(route, layout(ctx, root, "People", content, section="people", crumbs=[("index.html", "Home"), (None, "People")]))
+    content = (f'<p class="lede">As listed on <a class="x-source" target="_blank" rel="noopener" href="{BASE}/people">idmp.ucsf.edu/people</a>. '
+               + (f'See also <a href="publications.html">{npubs} publications</a> by the team.' if npubs else "") + '</p>' + "".join(secs))
+    write(route, layout(ctx, root, "People", content, section="reference",
+                        nav=nav_for("reference", route, root), kicker="Reference", h1="IDMP team",
+                        crumbs=[("index.html", "Home"), (None, "People")]))
 
     # publications
     route = "publications.html"; root = ""
@@ -1598,8 +1739,10 @@ def main():
             links.append(f'<a class="x-external" target="_blank" rel="noopener" href="{esc(prof)}">Profile</a>')
         items.append(f'<li id="p{m["nid"]}"><div class="cite">{sanitize(cite, ctx, root, m["slug"])}</div><div class="muted">{esc(fv(n, "field_publication_year") or "")} · {" · ".join(links)}</div></li>')
         search.append({"t": "pub", "n": m["title"], "u": m["route"], "k": text_only(fv(n, "field_publication_authorlist", "processed") or "")[:300], "s": (fv(n, "field_publication_year") or "")})
-    content = f'<div class="page-head"><p class="kicker">Publications</p><h1>Publications</h1><p class="lede">Papers listed on IDMP team members\' pages, newest first.</p></div><ul class="pubs">{"".join(items) or "<li class=muted>None listed.</li>"}</ul>'
-    write(route, layout(ctx, root, "Publications", content, section="people", crumbs=[("index.html", "Home"), ("people.html", "People"), (None, "Publications")]))
+    content = f'<p class="lede">Papers listed on IDMP team members\' pages, newest first.</p><ul class="pubs">{"".join(items) or "<li>None listed.</li>"}</ul>'
+    write(route, layout(ctx, root, "Publications", content, section="reference",
+                        nav=nav_for("reference", route, root), kicker="Reference", h1="Publications",
+                        crumbs=[("index.html", "Home"), ("people.html", "People"), (None, "Publications")]))
 
     # changes
     route = "changes.html"; root = ""
@@ -1647,12 +1790,13 @@ def main():
     if ctx.warnings:
         its = "".join(f'<li>{esc(w.get("title") or w.get("path") or "")} <span class="muted">{esc("; ".join(w["notes"]))}</span>' + (f' <a href="{w["route"]}">open</a>' if w.get("route") else "") + "</li>" for w in ctx.warnings)
         warn_list = f'<details class="block"><summary>{len(ctx.warnings)} note(s) from this build</summary><ul>{its}</ul></details>'
-    content = f"""<div class="page-head"><p class="kicker">Sync log</p><h1>What changed on IDMP</h1>
-<p class="lede">Every night the mirror re-reads idmp.ucsf.edu, compares each page's content and <code>changed</code> timestamp with the last copy, and records the difference here. Last run {esc(human_date(status.get("run")))}: <span class="badge st-{st_badge}">{esc(st_msg)}</span>.</p></div>
+    content = f"""<p class="lede">Every night the mirror re-reads idmp.ucsf.edu, compares each page's content and <code>changed</code> timestamp with the last copy, and records the difference here. Last run {esc(human_date(status.get("run")))}: <span class="tag st-{st_badge}">{esc(st_msg)}</span>.</p>
 {("<ul class=probs>" + "".join(f'<li class="prob {esc(p["level"])}"><strong>{esc(p["level"])}</strong> {esc(p["code"])}: {esc(p["message"])}</li>' for p in status.get("problems", [])) + "</ul>") if status.get("problems") else ""}
 {warn_list}
 {"".join(runs) or "<p class=muted>No changes recorded yet: this is the first snapshot.</p>"}"""
-    write(route, layout(ctx, root, "What changed", content, section="changes", crumbs=[("index.html", "Home"), (None, "What changed")]))
+    write(route, layout(ctx, root, "What changed", content, section="reference",
+                        nav=nav_for("reference", route, root), kicker="Reference", h1="What changed on IDMP",
+                        crumbs=[("index.html", "Home"), (None, "What changed")]))
 
     # about
     route = "about.html"; root = ""
@@ -1661,7 +1805,7 @@ def main():
     if about_nid in models:
         about_html = f'<section class="block prose"><h2>About the IDMP (from idmp.ucsf.edu)</h2>{sanitize(fv(models[about_nid]["raw"], "field_body") or "", ctx, root, "about")}</section>'
     counts = manifest.get("counts") or {}
-    content = f"""<div class="page-head"><p class="kicker">About</p><h1>About this mirror</h1><p class="lede">{TAGLINE}</p></div>
+    content = f"""<p class="lede">{TAGLINE}</p>
 <section class="block prose">
 <h2>What it is</h2>
 <p>{SITE_NAME} re-publishes the public content of the UCSF Infectious Diseases Management Program site (<a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>) in a layout built for use on the wards: one Ask palette that returns answers, three lenses (hospital, setting, patient) that reorder every page, syndrome pages as a chooser plus one regimen card, one page per drug with a renal dial and the syndromes that recommend it, guidelines by hospital, and antibiograms in a bug-drug explorer. It is a personal project, not affiliated with, endorsed by, or maintained by UCSF or the IDMP.</p>
@@ -1674,49 +1818,67 @@ def main():
 <p class="muted">Sync run {esc(status.get("run") or "")} · repository <a href="https://github.com/{REPO}" target="_blank" rel="noopener">{REPO}</a></p>
 </section>
 {about_html}"""
-    write(route, layout(ctx, root, "About", content, section="about", crumbs=[("index.html", "Home"), (None, "About")]))
+    write(route, layout(ctx, root, "About", content, section="reference",
+                        nav=nav_for("reference", route, root), kicker="Reference", h1="About this mirror",
+                        crumbs=[("index.html", "Home"), (None, "About")]))
 
     # offline fallback
-    write("offline.html", layout(ctx, "", "Offline", '<div class="page-head"><p class="kicker">Offline</p><h1>This page is not saved yet</h1><p class="lede">You are offline and this page was never opened on this device. Pages you have visited are available; use "Save for offline" in the footer to keep the whole site.</p></div>', section="about"))
+    write("offline.html", layout(ctx, "", "Offline", '<p class="lede">You are offline and this page was never opened on this device. Pages you have already visited are available. Use "Save offline" in the footer to keep the whole site next time.</p>',
+                                 section="reference", kicker="Offline", h1="This page is not saved yet", nav=nav_for("reference", "offline.html", "")))
 
-    # home
+    # home: front matter of a manual - what is here, how much of it, and the fastest ways in
     route = "index.html"; root = ""
-    def tiles(key):
+    def links_col(key):
         out = []
         for alias, label in curation["home"].get(key, []):
-            r = route_for_alias(alias, f"curation.json home.{key}")
+            r = route_for_alias(alias)
             if r:
-                out.append(f'<a class="chip-link" href="{r}">{esc(label)}</a>')
+                out.append(f'<li><a href="{r}">{esc(label)}</a></li>')
         return "".join(out)
-    recent = sorted((m for m in models.values() if m.get("changed") and m["type"] in ("diagnosis", "drug", "guidelines", "page")), key=lambda m: m["changed"], reverse=True)[:8]
-    recent_html = "".join(f'<li><a href="{m["route"]}">{esc(m["title"])}</a> <span class="muted">{esc({"diagnosis": "empiric", "drug": "dosing", "guidelines": "guideline"}.get(m["type"], "page"))} · {esc(human_date(m["changed"]))}</span></li>' for m in recent)
+    recent = sorted((m for m in models.values() if m.get("changed") and m["type"] in ("diagnosis", "drug", "guidelines", "page")),
+                    key=lambda m: m["changed"], reverse=True)[:6]
+    recent_html = "".join(
+        f'<li><a href="{m["route"]}">{esc(m["title"])}</a><span class="when">{esc(human_date(m["changed"]))}</span></li>' for m in recent)
     n_adult = len([m for m in by_type["diagnosis"] if not is_peds(m)])
-    big_tiles = [("empiric/index.html", "Empiric therapy", f"{n_adult} adult syndromes as chooser + regimen cards"),
-                 ("drugs/index.html", "Dosing", f'{counts.get("drug", 0)} drugs · renal dial, HD and CRRT, restrictions'),
-                 ("antibiograms/explore.html", "Bug-drug explorer", "local susceptibility, organism by drug"),
-                 ("guidelines/index.html", "Guidelines by hospital", f'{counts.get("guidelines", 0)} guidelines · UCSF Health, ZSFG, VA, BCH'),
-                 ("peds.html", "Pediatrics", "empiric therapy, dosing cards, neonatal"),
-                 ("changes.html", "What changed", "nightly diff against idmp.ucsf.edu")]
-    tiles_html = "".join(f'<a class="tile" href="{h}"><strong>{esc(t)}</strong><span>{esc(d)}</span></a>' for h, t, d in big_tiles)
+    n_peds = len([m for m in by_type["diagnosis"] if is_peds(m)])
+    counts = manifest.get("counts") or {}
+    sections_tbl = [
+        ("empiric/index.html", "Empiric therapy", f"{n_adult} adult and {n_peds} pediatric syndromes", "Pathogens, first choice, alternative, duration. One card per clinical situation."),
+        ("drugs/index.html", "Dosing", f'{counts.get("drug", 0)} agents', "Renal bands, HD and CRRT, restriction status, and the syndromes that recommend each drug."),
+        ("antibiograms/explore.html", "Antibiograms", f"{len(abx_tables)} parsed tables", "Local susceptibility by organism or by drug, shaded, from the UCSF adult reports."),
+        ("guidelines/index.html", "Guidelines & policies", f'{counts.get("guidelines", 0)} documents', "UCSF Health, ZSFG, the VA and BCH, with restriction and allergy pathways."),
+    ]
+    sec_rows = "".join(
+        f'<a class="srow" href="{h}"><span class="srow-t">{esc(t)}</span><span class="srow-n">{esc(n)}</span><span class="srow-d">{esc(d)}</span></a>'
+        for h, t, n, d in sections_tbl)
     banner = ""
     if status and not status.get("ok"):
-        banner = f'<div class="notice warn"><strong>Heads up:</strong> the last sync ({esc(human_date(status.get("run")))}) reported problems, so some content may be stale or shown in fallback layout. <a href="changes.html">Details</a>.</div>'
+        banner = f'<div class="note note-warn"><b>Heads up</b> The last sync ({esc(human_date(status.get("run")))}) reported problems, so some content may be stale or shown in fallback layout. <a href="changes.html">Details</a>.</div>'
     content = f"""{banner}
-<section class="hero"><p class="kicker">Unofficial mirror of idmp.ucsf.edu</p><h1>What do I give, and how much?</h1>
-<p class="lede">Ask in plain words: a syndrome and a setting, a drug and a creatinine clearance, an organism and a drug. Set your hospital and patient once and every page reorders itself.</p>
-<button type="button" class="ask hero-ask" data-open="palette"><span class="ask-icon">⌕</span><span class="ask-text">cap icu pcn allergy · cefepime crcl 30 · e coli cipro · hap zsfg</span><kbd>⌘K</kbd></button>
-<div class="lens-chips" id="home-lens"><button type="button" data-open="lens"><span id="home-lens-summary">All sites · Any setting · Adult</span> · change</button></div></section>
-<section class="block" id="starts">
-  <div class="starts" data-for="inpatient_adult"><h2>Inpatient, adult</h2><div class="chip-links">{tiles("inpatient_adult")}</div></div>
-  <div class="starts" data-for="outpatient_adult"><h2>Outpatient, adult</h2><div class="chip-links">{tiles("outpatient_adult")}</div></div>
-  <div class="starts" data-for="inpatient_peds"><h2>Inpatient, pediatric</h2><div class="chip-links">{tiles("inpatient_peds")}</div></div>
-  <div class="starts" data-for="outpatient_peds"><h2>Outpatient, pediatric</h2><div class="chip-links">{tiles("outpatient_peds")}</div></div>
+<section class="hero">
+  <h1>What do I give,<br>and how much?</h1>
+  <p class="hero-sub">An unofficial mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly and reorganised for the wards. Ask in plain words, or use the index on the left.</p>
+  <button type="button" class="hero-ask" data-open="palette"><span class="ask-i">/</span><span class="ask-t">cap icu · cefepime crcl 30 · e coli cipro · hap zsfg</span><kbd>⌘K</kbd></button>
 </section>
-<section class="block" id="mine" hidden><h2>Pinned and recent</h2><div class="chip-links" id="mine-list"></div></section>
-<section class="tiles">{tiles_html}</section>
-<section class="block two"><div><h2>Most recently edited on IDMP</h2><ul class="rel-list">{recent_html}</ul></div>
-<div><h2>How to read this site</h2><ul class="rel-list"><li>Drug names open a dosing drawer; the page you came from stays put.</li><li>The prescription line above each regimen pulls doses from the drug's own IDMP dosing table and says so; the original cell is always underneath.</li><li><span class="badge tag t-ucsf">ID-R · UCSF</span> and <span class="badge tag t-zsfg">ID-R · ZSFG</span> mark ID-restricted agents; <span class="badge kind k-login">UCSF login</span> marks Box/SharePoint documents.</li><li>Press <kbd>⌘K</kbd> or <kbd>/</kbd> to ask from anywhere; ☆ pins a page to this list.</li></ul></div></section>"""
-    write(route, layout(ctx, root, "Home", content, section="home", page_class="home"))
+<section class="sections">{sec_rows}</section>
+<section class="cols">
+  <div class="col" data-for="inpatient_adult"><h2>Inpatient, adult</h2><ul class="tight">{links_col("inpatient_adult")}</ul></div>
+  <div class="col" data-for="outpatient_adult"><h2>Outpatient, adult</h2><ul class="tight">{links_col("outpatient_adult")}</ul></div>
+  <div class="col" data-for="inpatient_peds"><h2>Inpatient, pediatric</h2><ul class="tight">{links_col("inpatient_peds")}</ul></div>
+  <div class="col" data-for="outpatient_peds"><h2>Outpatient, pediatric</h2><ul class="tight">{links_col("outpatient_peds")}</ul></div>
+</section>
+<section class="cols" id="mine" hidden><div class="col"><h2>Pinned and recent</h2><ul class="tight" id="mine-list"></ul></div></section>
+<section class="cols">
+  <div class="col"><h2>Last edited on IDMP</h2><ul class="tight dated">{recent_html}</ul></div>
+  <div class="col"><h2>How to read this site</h2><ul class="tight notes">
+    <li>Drug names open dosing in a side panel; the page you came from stays put.</li>
+    <li>The prescription line above each regimen takes doses from that drug's own IDMP table and says so. The original cell is always underneath.</li>
+    <li><span class="tag t-ucsf">ID-R UCSF</span> and <span class="tag t-zsfg">ID-R ZSFG</span> mark restricted agents. <span class="tag k-login">UCSF login</span> marks Box or SharePoint documents.</li>
+    <li>Set your hospital and patient once in the context button; every page reorders itself.</li>
+    <li>Press <kbd>⌘K</kbd> or <kbd>/</kbd> to ask from anywhere.</li>
+  </ul></div>
+</section>"""
+    write(route, layout(ctx, root, "Home", content, section="", page_class="home", nav=nav_for("", "index.html", root)))
 
     # ---- search index, pages list, pwa, status, images
     with open(os.path.join(OUT, "index.json"), "w", encoding="utf-8") as f:
@@ -1748,9 +1910,11 @@ def main():
         for fn in os.listdir(d):
             if fn.endswith(".html") and f"{sub}/{fn}" not in written:
                 os.remove(os.path.join(d, fn))
-    pages_list = sorted(written) + ["index.json", "antibiogram.json", "status.json", f"assets/site.css?v={ver}", f"assets/site.js?v={ver}", "assets/icon-192.png", "manifest.webmanifest"]
+    pages_list = sorted(written) + ["index.json", "antibiogram.json", "status.json", "nav.json", f"assets/site.css?v={ver}", f"assets/site.js?v={ver}", "assets/icon-192.png", "manifest.webmanifest"]
     pages_list += ["thumbs/" + fn for fn in os.listdir(os.path.join(OUT, "thumbs")) if fn.endswith(".jpg")]
     pages_list += ["img/" + fn for fn in os.listdir(os.path.join(OUT, "img"))]
+    with open(os.path.join(OUT, "nav.json"), "w", encoding="utf-8") as f:
+        json.dump(tree, f, ensure_ascii=False, separators=(",", ":"))
     with open(os.path.join(OUT, "pages.json"), "w", encoding="utf-8") as f:
         json.dump({"ver": ver, "pages": pages_list}, f)
     with open(os.path.join(DATA, "build-warnings.json"), "w", encoding="utf-8") as f:
