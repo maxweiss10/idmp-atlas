@@ -1337,12 +1337,13 @@ def main():
                 slug = d["slug"]
                 title = drug_titles.get(slug, d["name"])
                 dd = dose_data_all.get(slug)
-                restricted = ("id-r-" + where) in drug_tags.get(slug, []) if where else False
+                rtags = [x for x in drug_tags.get(slug, []) if x.startswith("id-r-")]
+                restricted = bool(rtags)
                 body = ""
                 if dd:
                     ri, matched = pick_dose_row(dd, context)
                     used[slug] = dd
-                    line, raw = dose_line(dd, ri, 0, matched, restricted)
+                    line, _raw = dose_line(dd, ri, 0, matched, restricted)
                     body = (f'<div class="dose" data-dose="{esc(slug)}" data-row="{ri}" data-matched="{int(matched)}">{line}</div>'
                             + band_table(dd, ri, 0) + other_indications(dd, ri))
                 elif d["inline_dose"]:
@@ -1365,6 +1366,10 @@ def main():
                         gaps.append({"drug": title, "slug": slug})
                         body = (f'<div class="gap gap-bad">{icon("gap")}<div><b>No dose published on IDMP and no pointer.</b> '
                                 f'Ask ID or ASP pharmacy. <a href="{root}{esc(dose_route.get(slug, ""))}">Drug page</a></div></div>')
+                if rtags:
+                    sites = ", ".join(t.replace("id-r-", "").upper() for t in sorted(rtags))
+                    body += (f'<div class="restr" data-sites="{esc(" ".join(t.replace("id-r-", "") for t in rtags))}">'
+                             f'{icon("restrict")}<span>ID approval needed at {esc(sites)}</span></div>')
                 out.append(f'<div class="rgd"><a class="rgd-n" data-drug="{esc(slug)}" href="{esc(d["href"])}">{esc(title)}</a>'
                            + (f'<span class="rgd-note">{esc(d["note"])}</span>' if d["note"] else "") + body + "</div>")
             out.append("</div>")
@@ -1372,13 +1377,27 @@ def main():
         tail = f'<p class="rgc-tail">{esc(tree["tail"])}</p>' if tree["tail"] and len(tree["tail"]) > 3 else ""
         return lead + "".join(out) + tail, used
 
+    ORG_MAP = curation.get("organisms") or {}
     def coverage_grid(pathogen_html, slugs, root):
-        """Local susceptibility for this regimen, taken from the parsed UCSF antibiograms.
-        Not a spectrum of activity: IDMP publishes none, so nothing here is inferred."""
-        bugs = [re.sub(r"\s+", " ", x).strip(" .,;")
-                for x in re.split(r"<[^>]+>|\n", pathogen_html or "") if x.strip()]
-        bugs = [b for b in bugs if re.match(r"^[A-Z][a-z]+\.?\s", b) or re.match(r"^[A-Z]\.\s", b)][:8]
-        if not bugs or not slugs:
+        """Local susceptibility for the agents in this regimen, from the parsed UCSF
+        antibiograms. Syndromes often name a family, so curation.json carries a taxonomy
+        map from family to the species the antibiogram actually reports. That map is
+        naming, not pharmacology: nothing about coverage is inferred here."""
+        raw = [re.sub(r"\s+", " ", x).strip(" .,;()")
+               for x in re.split(r"<[^>]+>|\n", pathogen_html or "") if x.strip()]
+        def key(x):
+            return re.sub(r"[^a-z ]", " ", x.lower()).replace(" spp", " spp").strip()
+        wanted, seen_lbl = [], set()
+        for term in raw:
+            k = re.sub(r"\s+", " ", key(term)).strip()
+            k = re.sub(r"\bspp\b", "spp", k)
+            hits = ORG_MAP.get(k) or ORG_MAP.get(k.replace(" spp", "")) or []
+            if not hits and re.match(r"^[a-z]+ [a-z]+$", k):
+                hits = [term]
+            for h in hits:
+                if h not in seen_lbl:
+                    seen_lbl.add(h); wanted.append((term, h))
+        if not wanted or not slugs:
             return ""
         cols, seen = [], set()
         for t in abx_tables:
@@ -1387,32 +1406,33 @@ def main():
                     seen.add(d["abbr"]); cols.append((t, d))
         if not cols:
             return ""
-        def norm_bug(x):
-            return re.sub(r"[^a-z ]", "", x.lower()).strip()
-        rows, hits = [], 0
-        for b in bugs:
-            nb = norm_bug(b)
-            first, cells = nb.split(" ")[0], []
+        rows, hits_n = [], 0
+        for term, org in wanted[:10]:
+            cells, any_hit = [], False
             for t, d in cols:
                 val = None
                 for r in t["rows"]:
-                    ro = norm_bug(r["organism"])
-                    if ro.startswith(nb[:12]) or (len(first) > 3 and ro.startswith(first) and nb.split(" ")[-1][:4] in ro):
+                    if r["organism"].lower().strip() == org.lower():
                         val = r["v"].get(d["abbr"], {}).get("v"); break
                 if val is not None:
-                    hits += 1
+                    hits_n += 1; any_hit = True
                 cls = "" if val is None else ("s-hi" if val >= 90 else "s-ok" if val >= 80 else "s-mid" if val >= 60 else "s-lo")
-                cells.append(f'<td class="{cls}">{val if val is not None else "not reported"}</td>')
-            rows.append(f'<tr><td class="cv-b"><i>{esc(b)}</i></td>{"".join(cells)}</tr>')
-        if hits < 2:
+                cells.append(f'<td class="{cls}">{val if val is not None else "&mdash;"}</td>')
+            if not any_hit:
+                continue
+            via = f'<span class="cv-via">via {esc(term)}</span>' if key(term) != key(org) else ""
+            rows.append(f'<tr><td class="cv-b"><i>{esc(org)}</i>{via}</td>{"".join(cells)}</tr>')
+        if hits_n < 2 or not rows:
             return ""
         head = "".join(f'<th title="{esc(d["name"])}">{esc(d["abbr"])}</th>' for _t, d in cols)
         src = cols[0][0]
         return (f'<section class="cv"><h3>Local susceptibility for these agents</h3>'
                 f'<p class="cv-s">Percent susceptible from {esc(src["title"])} {esc(src["year"] or "")}. '
-                f'Organisms the antibiogram does not report are marked as such, which is not the same as no coverage. '
+                f'A dash means the antibiogram does not report that pair, which is not the same as no activity. '
+                f'This is local resistance, not spectrum of activity. '
                 f'<a href="{root}antibiograms/explore.html">Open the explorer</a></p>'
-                f'<table class="cv-t"><thead><tr><th>Organism</th>{head}</tr></thead><tbody>{"".join(rows)}</tbody></table></section>')
+                f'<div class="tbl-wrap"><table class="cv-t"><thead><tr><th>Organism</th>{head}</tr></thead>'
+                f'<tbody>{"".join(rows)}</tbody></table></div></section>')
 
     people_view = {}
     for i, p in enumerate((structure.get("people") or {}).get("people") or []):
@@ -1488,22 +1508,27 @@ def main():
                     body_parts.append(f'<nav class="ctx" aria-label="Clinical context"><span class="ctx-q">{icon("branch")}Which patient</span>'
                                       f'<span class="ctx-ns">{nodes}</span></nav>')
                 shown = "".join(
-                    f'<div class="rgc" data-ctx="{c["a"]}" id="{c["a"]}">'
-                    + (f'<div class="rgc-h">{esc(c["short"])}</div>' if nc > 1 else "")
+                    f'<div class="rgc{"" if (wide or i == 0) else " dim"}" data-ctx="{c["a"]}" id="{c["a"]}">'
+                    + (f'<div class="rgc-h">{esc(c["short"])}'
+                       f'<button type="button" class="copy" data-copy="{c["a"]}">Copy</button></div>' if nc > 1 else "")
                     + f'<div class="rgc-b">{c["first"]}</div>'
                     + (f'<div class="rgc-d"><span>Duration</span><b>{c["cells"]["duration"]["html"]}</b></div>'
                        if c["cells"].get("duration") and c["cells"]["duration"]["text"] else '<div class="rgc-d rgc-d-none"><span>Duration</span><b>not stated</b></div>')
-                    + "</div>" for c in cols)
-                body_parts.append(f'<section class="money{"" if wide else " money-one"}"><h2 class="money-h">First choice</h2>'
-                                  f'<div class="rgx" data-cols="{min(nc, 4)}">{shown}</div></section>')
+                    + "</div>" for i, c in enumerate(cols))
+                copy_one = ("" if nc > 1 else
+                            f'<button type="button" class="copy" data-copy="{cols[0]["a"]}">Copy for note</button>')
+                body_parts.append(f'<section class="money{"" if wide else " money-one"}">'
+                                  f'<div class="money-hd"><h2 class="money-h">First choice</h2>{copy_one}</div>'
+                                  f'<div class="rgx" data-cols="{min(nc, 4) if wide else 1}">{shown}</div></section>')
                 alts = "".join(
-                    f'<div class="rgc" data-ctx="{c["a"]}">'
+                    f'<div class="rgc{"" if (wide or i == 0) else " dim"}" data-ctx="{c["a"]}">'
                     + (f'<div class="rgc-h">{esc(c["short"])}{(" — " + esc(c["alt_cond"])) if c["alt_cond"] else ""}</div>' if nc > 1 else
                        (f'<div class="rgc-h">{esc(c["alt_cond"])}</div>' if c["alt_cond"] else ""))
-                    + f'<div class="rgc-b">{c["alt"]}</div></div>' for c in cols if c["alt"])
+                    + f'<div class="rgc-b">{c["alt"]}</div></div>' for i, c in enumerate(cols) if c["alt"])
                 if alts:
+                    n_alt = sum(1 for c in cols if c["alt"])
                     body_parts.append(f'<section class="alt-blk"><h2 class="alt-h">Alternative</h2>'
-                                      f'<div class="rgx" data-cols="{min(nc, 4)}">{alts}</div></section>')
+                                      f'<div class="rgx" data-cols="{min(n_alt, 4) if wide else 1}">{alts}</div></section>')
                 cov = coverage_grid(cols[0]["cells"].get("pathogens", {}).get("html", ""), set(cols[0]["slugs"]), root)
                 if cov:
                     body_parts.append(cov)
@@ -1525,8 +1550,20 @@ def main():
                     for key, cell in cc.items():
                         if key.startswith("extra:") and cell["text"]:
                             blocks += f'<div class="bl"><h4>{esc(key[6:])}</h4><div class="rx-body">{cell["html"]}</div></div>'
+                    tw = []
+                    ivpo = [drug_titles[d["slug"]] for st in regimen_tree(cc.get("first", {}).get("html", ""))["steps"]
+                            for d in st["drugs"] if "iv-po" in drug_tags.get(d["slug"], [])]
+                    if ivpo:
+                        rr = route_for_alias(site_cur["ucsf"]["ivpo"]) or ""
+                        tw.append(f'<li><b>IV to PO candidates:</b> {esc(", ".join(dict.fromkeys(ivpo)))}'
+                                  + (f' <a href="{root}{rr}">step-down guidance</a>' if rr else "") + "</li>")
+                    for sent in [x.strip() for x in re.split(r"(?<=[.!?])\s+", text_only(cc["comments"]["html"] if cc.get("comments") else ""))
+                                 if re.search(r"\bID\b.*consult|infectious diseases? consult|consult(ation)? (is )?recommended", x, flags=re.I)][:2]:
+                        tw.append(f'<li><b>Consult:</b> {esc(sent)}</li>')
+                    if tw:
+                        blocks += '<div class="bl then-what"><h4>Then what</h4><ul>' + "".join(tw) + "</ul></div>"
                     if blocks:
-                        below.append(f'<div class="dtl" data-ctx="{c["a"]}">'
+                        below.append(f'<div class="dtl{"" if (wide or c is cols[0]) else " dim"}" data-ctx="{c["a"]}">'
                                      + (f'<h3>{esc(c["short"])}</h3>' if nc > 1 else "") + blocks + "</div>")
                 if below:
                     body_parts.append(f'<section class="detail">{"".join(below)}</section>')

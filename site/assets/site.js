@@ -151,15 +151,51 @@
   window.addEventListener('hashchange', function () { $$('.ctx').forEach(function (n) { n.removeAttribute('data-user'); }); ctxAuto(); });
   document.addEventListener('click', function (ev) { var li = ev.target.closest('ul.check > li'); if (li && !ev.target.closest('a')) li.classList.toggle('done'); });
 
-  /* ---------- copy regimen ---------- */
+  /* ---------- copy the shown regimen as plain text for a note ---------- */
+  function serializeRegimen(col) {
+    if (!col) return '';
+    var body = $('.rgc-b', col); if (!body) return '';
+    var parts = [];
+    Array.prototype.forEach.call(body.children, function (node) {
+      if (node.classList.contains('jn')) { parts.push(node.textContent.trim() ? 'with or without' : 'PLUS'); return; }
+      if (node.classList.contains('rgc-lead') || node.classList.contains('rgc-tail')) { parts.push(node.textContent.trim()); return; }
+      var drugs = [];
+      $$('.rgd', node).length ? null : null;
+      var scope = node.classList.contains('rgd') ? [node] : $$('.rgd', node);
+      scope.forEach(function (d) {
+        var name = ($('.rgd-n', d) || {}).textContent || '';
+        var dose = ($('.dl-d', d) || {}).textContent || '';
+        var note = ($('.rgd-note', d) || {}).textContent || '';
+        var gapEl = $('.gap', d);
+        var line = name.trim() + (dose ? ' ' + dose.trim() : (gapEl ? ' [no dose published on IDMP]' : ''));
+        if (note) line += ' (' + note.trim() + ')';
+        drugs.push(line);
+      });
+      if (drugs.length) parts.push(drugs.join(node.classList.contains('stp-any') ? ' OR ' : ' '));
+    });
+    return parts.filter(Boolean).join(' ');
+  }
   document.addEventListener('click', function (ev) {
     var b = ev.target.closest('button.copy[data-copy]'); if (!b) return;
-    var card = document.getElementById(b.getAttribute('data-copy')); if (!card) return;
-    function txt(sel) { var el = $(sel, card); return el ? el.innerText.replace(/\s+\n/g, '\n').replace(/\n{2,}/g, '\n').trim() : ''; }
-    var title = ($('h1') || {}).textContent || '', cond = txt('.rx-title'), first = txt('.rx-first .rx-body'), alt = txt('.rx-alt .rx-body'), dur = txt('.rx-dur');
-    var out = title + ' - ' + cond + '\n' + (first ? 'First choice: ' + first.replace(/\n/g, ' ') + '\n' : '') + (alt ? 'Alternative: ' + alt.replace(/\n/g, ' ') + '\n' : '') + (dur ? dur.replace(/^Duration\s*/i, 'Duration: ') + '\n' : '');
-    var src = $('.src time'); out += 'Per UCSF IDMP' + (src ? ' (updated ' + src.textContent + ')' : '') + ': ' + location.href.split('#')[0];
-    (navigator.clipboard ? navigator.clipboard.writeText(out) : Promise.reject()).then(function () { toast('Regimen copied'); }, function () { window.prompt('Copy:', out); });
+    var id = b.getAttribute('data-copy');
+    var first = $('.money .rgc[data-ctx="' + id + '"]');
+    var alt = $('.alt-blk .rgc[data-ctx="' + id + '"]');
+    var head = first && $('.rgc-h', first);
+    var ctxName = head ? head.textContent.replace(/\s*Copy\s*$/, '').trim() : '';
+    var title = ($('h1') || {}).textContent || '';
+    var dur = first && $('.rgc-d b', first);
+    var altHead = alt && $('.rgc-h', alt);
+    var altCond = altHead ? altHead.textContent.replace(/\s*Copy\s*$/, '').replace(ctxName, '').replace(/^[\s—-]+/, '').trim() : '';
+    var out = title.trim() + (ctxName ? ', ' + ctxName : '') + '\n';
+    var f = serializeRegimen(first);
+    if (f) out += 'First choice: ' + f + '\n';
+    var a2 = serializeRegimen(alt);
+    if (a2) out += 'Alternative' + (altCond ? ' (' + altCond + ')' : '') + ': ' + a2 + '\n';
+    if (dur) out += 'Duration: ' + dur.textContent.trim() + '\n';
+    var rev = $('.prov time');
+    out += 'Per UCSF IDMP' + (rev ? ', revised ' + rev.textContent.trim() : '') + ': ' + location.href.split('#')[0];
+    (navigator.clipboard ? navigator.clipboard.writeText(out) : Promise.reject())
+      .then(function () { toast('Regimen copied'); }, function () { window.prompt('Copy:', out); });
   });
 
   /* ---------- favorites and recents ---------- */
