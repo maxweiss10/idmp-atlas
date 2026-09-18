@@ -411,8 +411,12 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: .78em; margi
 .conj { font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--fg-muted); padding: 3px 7px; border-radius: var(--r-xs); background: var(--surface); border: 1px solid var(--line); align-self: center; letter-spacing: 0; }
 html[data-allergy="bl"] .rxline { display: none; }
 
+/* The pane count varies by row: some regimens have no alternative, some no pathogen list. */
 .rx-grid { display: grid; grid-template-columns: 1.12fr 1fr .86fr; gap: 0; }
-@media (max-width: 800px) { .rx-grid { grid-template-columns: 1fr; } }
+.rx-grid:not(:has(.rx-alt)), .rx-grid:not(:has(.rx-pathogens)) { grid-template-columns: 1.15fr 1fr; }
+.rx-grid:not(:has(.rx-alt)):not(:has(.rx-pathogens)) { grid-template-columns: 1fr; }
+.rx-grid:not(:has(.rx-first)):not(:has(.rx-alt)) { grid-template-columns: 1fr; }
+@media (max-width: 800px) { .rx-grid, .rx-grid:not(:has(.rx-alt)), .rx-grid:not(:has(.rx-pathogens)) { grid-template-columns: 1fr; } }
 .rx-col { padding: 15px 18px; border-right: 1px solid var(--line-2); position: relative; font-size: 14px; line-height: 1.55; }
 .rx-col:last-child { border-right: 0; }
 @media (max-width: 800px) { .rx-col { border-right: 0; border-bottom: 1px solid var(--line-2); } }
