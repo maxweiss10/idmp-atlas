@@ -3805,6 +3805,7 @@
  "node_paths": {
   "10056": "/people/jennifer-mulliken-md",
   "10061": "/people/alexandra-horeczko",
+  "10161": "/people/katherine-yang-pharmd-mph",
   "10181": "/people/rachel-bystritsky-md",
   "10411": "/people/lynn-ramirez-md-ms",
   "10646": "/people/chaz-langelier-md-phd",
@@ -4033,7 +4034,9 @@
   "16286": "/content/vasf-outpatient-tuberculosis-evaluation",
   "16651": "/content/a-machine-learning-model-to-predict-optimal-antibiotic-use-in-hospital-medicine-patients",
   "16756": "/content/inter-rater-reliability-assessment-of-antibiotic-prescription-quality-by-infectious-diseases",
+  "17191": "/content/early-discontinuation-of-empiric-antibiotics-in-pediatric-haploidentical-hematopoietic-cell",
   "18191": "/content/infective-endocarditis",
+  "18221": "/content/expanding-the-pipeline-for-multipurpose-prevention-technologies-compounds-with-potential-activity-to",
   "19261": "/content/the-impact-of-clinical-metagenomic-testing-on-patient-management-facts-versus-fantasy",
   "20606": "/content/not-the-usual-suspect",
   "21001": "/content/the-role-of-the-popliteal-angle-as-an-indicator-for-hamstring-lengthening-to-treat-a-flexed-knee",
@@ -4100,6 +4103,7 @@
   "9021": "/content/bites-0",
   "9026": "/content/septic-arthritis-no-hardware-in-place",
   "9031": "/content/non-vertebral-osteomyelitis",
+  "9136": "/people/rachel-wattier-md-mhs",
   "9141": "/content/peritonsillar-abscess",
   "9146": "/content/acute-bacterial-sinusitis",
   "9161": "/content/any-bone-joint-infection-with-hardware-in-place",
@@ -4425,6 +4429,9 @@
   "/content/doxycycline": [
    "/content/doxycycline"
   ],
+  "/content/early-discontinuation-of-empiric-antibiotics-in-pediatric-haploidentical-hematopoietic-cell": [
+   "/content/early-discontinuation-of-empiric-antibiotics-in-pediatric-haploidentical-hematopoietic-cell"
+  ],
   "/content/emergency-department-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or": [
    "/content/emergency-department-algorithm-fever-in-pediatric-patients-receiving-cancer-therapy-and-or"
   ],
@@ -4445,6 +4452,9 @@
   ],
   "/content/ethambutol": [
    "/content/ethambutol"
+  ],
+  "/content/expanding-the-pipeline-for-multipurpose-prevention-technologies-compounds-with-potential-activity-to": [
+   "/content/expanding-the-pipeline-for-multipurpose-prevention-technologies-compounds-with-potential-activity-to"
   ],
   "/content/febrile-neutropenia": [
    "/content/febrile-neutropenia",
@@ -5005,6 +5015,9 @@
   "/people/jennifer-mulliken-md": [
    "/people/jennifer-mulliken-md"
   ],
+  "/people/katherine-yang-pharmd-mph": [
+   "/people/katherine-yang-pharmd-mph"
+  ],
   "/people/lisa-winston-md": [
    "/people/lisa-winston-md"
   ],
@@ -5016,6 +5029,9 @@
   ],
   "/people/rachel-bystritsky-md": [
    "/people/rachel-bystritsky-md"
+  ],
+  "/people/rachel-wattier-md-mhs": [
+   "/people/rachel-wattier-md-mhs"
   ],
   "/people/sarah-doernberg-md-mas": [
    "/people/sarah-doernberg-md-mas"
@@ -5385,24 +5401,8 @@
    403
   ],
   [
-   "/departments-units-and-organizations/mmed-vamc-infd",
-   503
-  ],
-  [
    "/node/11956",
    404
-  ],
-  [
-   "/people/katherine-yang-pharmd-mph",
-   503
-  ],
-  [
-   "/people/rachel-wattier-md-mhs",
-   503
-  ],
-  [
-   "/person-type/ucsf-medical-center",
-   503
   ]
  ]
 }

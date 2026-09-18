@@ -1,7 +1,10 @@
 {
+ "/departments-units-and-organizations/mlaboratory-medicine": "M_Laboratory Medicine",
+ "/departments-units-and-organizations/mmed-core-infd": "M_MED-CORE-INFD",
  "/departments-units-and-organizations/mmed-vamc-infd": "M_MED-VAMC-INFD",
  "/departments-units-and-organizations/mmed-zsfg-aids": "M_MED-ZSFG-AIDS",
  "/departments-units-and-organizations/mpeds-infectious-disease": "M_PEDS-INFECTIOUS DISEASE",
+ "/departments-units-and-organizations/pclinical-pharmacy": "P_Clinical Pharmacy",
  "/departments-units-and-organizations/pharmacy-services": "PHARMACY SERVICES",
  "/dosing-weights/adjusted-body-weight-when-bmi-30": "Adjusted body weight when BMI >30",
  "/dosing-weights/adjusted-body-weight-when-patient-weight-120-ideal-body-weight": "Adjusted body weight when patient weight >120% of ideal body weight",
@@ -48,6 +51,7 @@
  "/publications/medical-clinics-north-america": "The Medical clinics of North America",
  "/publications/medical-teacher": "Medical teacher",
  "/publications/nature": "Nature",
+ "/publications/sexually-transmitted-infections": "Sexually transmitted infections",
  "/site/ucsf-benioff-childrens-hospital-oakland": "UCSF Benioff Children's Hospital Oakland",
  "/site/ucsf-benioff-childrens-hospital-san-francisco": "UCSF Benioff Children's Hospital San Francisco",
  "/site/ucsf-medical-center-mission-bay-adult": "UCSF Medical Center Mission Bay (Adult)",

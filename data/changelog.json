@@ -230,5 +230,52 @@
    }
   ],
   "problems": []
+ },
+ {
+  "run": "2026-09-18T14:31:12+00:00",
+  "events": [
+   {
+    "kind": "touched",
+    "nid": 8986,
+    "type": "ucsf_person",
+    "title": "Sarah Doernberg, MD, MAS",
+    "alias": "/people/sarah-doernberg-md-mas",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 9136,
+    "type": "ucsf_person",
+    "title": "Rachel Wattier, MD, MHS",
+    "alias": "/people/rachel-wattier-md-mhs",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 10161,
+    "type": "ucsf_person",
+    "title": "Katherine Yang, PharmD, MPH",
+    "alias": "/people/katherine-yang-pharmd-mph",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "relisted",
+    "nid": 17191,
+    "type": "ucsf_publication",
+    "title": "Early Discontinuation of Empiric Antibiotics in Pediatric Haploidentical Hematopoietic Cell Transplant Recipients with Febrile Neutropenia.",
+    "alias": "/content/early-discontinuation-of-empiric-antibiotics-in-pediatric-haploidentical-hematopoietic-cell"
+   },
+   {
+    "kind": "relisted",
+    "nid": 18221,
+    "type": "ucsf_publication",
+    "title": "Expanding the pipeline for multipurpose prevention technologies: compounds with potential activity to prevent or treat HIV and other STIs.",
+    "alias": "/content/expanding-the-pipeline-for-multipurpose-prevention-technologies-compounds-with-potential-activity-to"
+   }
+  ],
+  "problems": []
  }
 ]

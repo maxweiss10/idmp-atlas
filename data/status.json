@@ -1,8 +1,8 @@
 {
- "run": "2026-09-18T02:40:04+00:00",
+ "run": "2026-09-18T14:31:12+00:00",
  "ok": true,
  "exit_code": 0,
- "duration_s": 444.0,
+ "duration_s": 479.6,
  "problems": [
   {
    "level": "soft",
@@ -11,17 +11,17 @@
   }
  ],
  "warnings": 1,
- "events": 21,
+ "events": 5,
  "source": "https://idmp.ucsf.edu",
  "counts": {
   "page": 28,
   "drug": 94,
-  "ucsf_person": 18,
+  "ucsf_person": 20,
   "diagnosis": 84,
   "guidelines": 67,
   "other_person": 4,
-  "ucsf_publication": 11
+  "ucsf_publication": 13
  },
- "pages_crawled": 395,
+ "pages_crawled": 401,
  "files": 59
 }
