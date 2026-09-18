@@ -427,12 +427,17 @@
   function showDrawer(url, push) {
     fetch(url).then(function (r) { return r.text(); }).then(function (t) {
       var doc = new DOMParser().parseFromString(t, 'text/html');
-      var art = doc.querySelector('main article.node') || doc.querySelector('main');
-      $$('a[href]', art).forEach(function (a) { a.setAttribute('href', new URL(a.getAttribute('href'), url).href); });
-      $$('img[src]', art).forEach(function (i) { i.setAttribute('src', new URL(i.getAttribute('src'), url).href); });
-      $$('.renal-dial', art).forEach(function (d) { d.remove(); });
-      var srcRow = doc.querySelector('main .src');
-      dbody.innerHTML = ''; dbody.appendChild(art); if (srcRow) { $$('.pin', srcRow).forEach(function (f) { f.remove(); }); dbody.appendChild(srcRow); }
+      var art = doc.querySelector('.doc-in article.node') || doc.querySelector('.doc-in') || doc.querySelector('main');
+      var head = doc.querySelector('.doc-head');
+      dbody.innerHTML = '';
+      if (head) {
+        $$('.crumbs, .pin', head).forEach(function (x) { x.remove(); });
+        dbody.appendChild(head);
+      }
+      dbody.appendChild(art);
+      $$('a[href]', dbody).forEach(function (a) { a.setAttribute('href', new URL(a.getAttribute('href'), url).href); });
+      $$('img[src]', dbody).forEach(function (i) { i.setAttribute('src', new URL(i.getAttribute('src'), url).href); });
+      $$('.renal-dial, .jump', dbody).forEach(function (d) { d.remove(); });
       applyBands(dbody); dbody.scrollTop = 0; openLink.href = url; drawer.hidden = false; scrim.hidden = false; document.body.style.overflow = 'hidden';
       backBtn.hidden = stack.length < 2;
       if (push) history.pushState({ drawer: url }, '', location.href);

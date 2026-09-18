@@ -492,7 +492,10 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: .76em; margi
 .ctx { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 2px 0 0; padding: 0 0 14px; }
 .ctx-q { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-4); }
 .ctx-q .ic { width: 14px; height: 14px; }
-.ctx-ns { display: flex; flex-wrap: wrap; gap: 6px; }
+.ctx-ns { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.ctx-g { font-size: 10.5px; color: var(--ink-4); padding: 0 2px 0 8px; border-left: 1px solid var(--rule); }
+.ctx-ns > .ctx-g:first-child { border-left: 0; padding-left: 0; }
+.rgc-g { display: block; font-size: 10px; font-weight: 500; color: var(--ink-4); }
 .ctx-n { background: 0; border: 1px solid var(--rule); border-radius: 4px; padding: 5px 11px; font-size: 13px; color: var(--ink-3); cursor: pointer; letter-spacing: -.012em; max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .ctx-n:hover { border-color: var(--rule-3); color: var(--ink); }
 .ctx-n.on { background: var(--ink); border-color: var(--ink); color: var(--paper); font-weight: 500; }
@@ -534,6 +537,15 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: .76em; margi
 .orx::before, .orx::after { content: ""; flex: 1; height: 1px; background: var(--rule-2); }
 .orx .ic { width: 13px; height: 13px; }
 .orx span { font-size: 11px; }
+.rg-prose { font-size: 14px; line-height: 1.55; color: var(--ink-2); }
+.rg-prose p { margin: 0 0 8px; } .rg-prose p:last-child { margin: 0; }
+.rg-prose ul, .rg-prose ol { margin: 6px 0; padding-left: 18px; }
+.rg-prose li { margin: 3px 0; }
+.rg-prose strong { font-weight: 600; color: var(--ink); }
+.rg-prose a[data-drug] { font-weight: 600; color: var(--ink); border-bottom: 1px solid var(--link); }
+.money .rg-prose a[data-drug]:hover { color: var(--first); text-decoration: none; }
+.rg-hint { display: flex; gap: 7px; align-items: flex-start; margin: 12px 0 0; padding-top: 10px; border-top: 1px solid var(--rule-2); font-size: 11.5px; color: var(--ink-4); }
+.rg-hint .ic { width: 13px; height: 13px; flex: 0 0 auto; margin-top: 1px; }
 .rgd-n { display: block; font-size: 1.22rem; font-weight: 600; letter-spacing: -.026em; color: var(--ink); line-height: 1.2; }
 .money .rgd-n:hover { color: var(--first); text-decoration: none; }
 .alt-blk .rgd-n:hover { color: var(--alt); text-decoration: none; }
@@ -704,7 +716,9 @@ ul.check li.done { color: var(--ink-4); }
 .drawer-open { margin-left: auto; font-size: 12px; }
 .grip { display: none; }
 .drawer-body { overflow: auto; padding: 18px 20px 44px; }
-.drawer-body h1 { font-size: 1.3rem; }
+.drawer-body h1 { font-size: 1.28rem; }
+.drawer-body .doc-head { margin-bottom: 16px; }
+.drawer-body .prov { gap: 20px; }
 .scrim { position: fixed; inset: 0; background: rgba(16, 15, 15, .3); z-index: 50; }
 .toast { position: fixed; left: 50%; bottom: 76px; transform: translateX(-50%); background: var(--ink); color: var(--paper); padding: 8px 14px; border-radius: 4px; font-size: 12.5px; z-index: 90; }
 .toast[hidden] { display: none; }

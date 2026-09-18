@@ -407,7 +407,7 @@
    "default": [
     "inpatient"
    ],
-   "n": 8,
+   "n": 5,
    "rows": {
     "1": [
      "outpatient"
@@ -415,17 +415,7 @@
     "2": [
      "outpatient"
     ],
-    "3": [
-     "outpatient"
-    ],
-    "4": [
-     "inpatient",
-     "ward"
-    ],
-    "7": [
-     "inpatient"
-    ],
-    "8": [
+    "5": [
      "inpatient",
      "icu"
     ]
@@ -572,7 +562,7 @@
     "outpatient",
     "inpatient"
    ],
-   "n": 9,
+   "n": 8,
    "rows": {
     "1": [
      "inpatient"
@@ -586,7 +576,7 @@
    "default": [
     "inpatient"
    ],
-   "n": 11
+   "n": 9
   },
   "coronavirus-disease-2019-covid-19": {
    "default": [
@@ -625,12 +615,9 @@
    "default": [
     "outpatient"
    ],
-   "n": 5,
+   "n": 3,
    "rows": {
-    "4": [
-     "inpatient"
-    ],
-    "5": [
+    "3": [
      "inpatient"
     ]
    }

@@ -392,6 +392,11 @@ def therapy_rows(fragment, ctx, root, page_slug):
                 if "first" in cols:
                     rows = []
                     for r in grid[1:]:
+                        real = [c for c in r if not c.get("dup")]
+                        if len(real) == 1 and len(cols) > 1 and real[0]["text"]:
+                            # one cell spanning the table: a heading for the rows beneath it
+                            rows.append({"__group__": real[0]["text"]})
+                            continue
                         cells = {}
                         for c_i, key in enumerate(cols):
                             if c_i < len(r) and not r[c_i].get("dup"):
@@ -563,7 +568,12 @@ def other_indications(dd, row_index):
         return ""
     def clip(x, n=40):
         x = x.strip()
-        return x if len(x) <= n else x[:n].rsplit(" ", 1)[0] + "…"
+        if len(x) <= n:
+            return x
+        cut = x[:n].rsplit(" ", 1)[0]
+        if cut.count("(") > cut.count(")"):        # never end on an open bracket
+            cut = cut[:cut.rfind("(")].rstrip(" ,;")
+        return cut + "…"
     return f'<span class="dl-other">Also published for: {esc("; ".join(clip(n) for n in names[:3]))}</span>'
 
 def pick_dose_row(dd, context):
@@ -1317,11 +1327,68 @@ def main():
             d["slug"] = drug_slug_for_name(d["name"]) if d["name"] else None
 
     # ---- per-node body rendering
+    # IDMP writes many regimens as prose with no link. Recognise drug names in that prose so
+    # the reader can still reach a dose. Names only: never inject a dose into prose, because
+    # the prose may already carry one or may modify the regimen.
+    name_index = []
+    for _m in by_type["drug"]:
+        head = _m["title"].split(" (")[0].strip()
+        cands = {head}
+        _par = re.search(r"\(([^)]+)\)", _m["title"])
+        if _par:
+            cands.add(_par.group(1).strip())
+        low = _m["title"].lower()
+        for _k, _alts in synonyms.items():
+            if _k in low:
+                cands.update(a for a in _alts if len(a) >= 6)
+        for c in cands:
+            if len(c) >= 5 and not re.search(r"\d", c):
+                name_index.append((c, _m["slug"], _m["route"]))
+    name_index.sort(key=lambda x: -len(x[0]))
+    NAME_RX = re.compile(r"(?<![\w-])(" + "|".join(re.escape(c) for c, _s, _r in name_index) + r")(?![\w-])", re.I) if name_index else None
+    NAME_TO = {c.lower(): (sl, rt) for c, sl, rt in name_index}
+
+    def linkify_drugs(html_str, root):
+        if not html_str or not NAME_RX:
+            return html_str, []
+        soup = BeautifulSoup(html_str, "lxml")
+        found = []
+        for node in list(soup.find_all(string=True)):
+            if node.find_parent("a") or not node.strip():
+                continue
+            out, last, parts = [], 0, NAME_RX.finditer(str(node))
+            txt = str(node)
+            for mt in parts:
+                sl, rt = NAME_TO.get(mt.group(1).lower(), (None, None))
+                if not sl:
+                    continue
+                out.append(txt[last:mt.start()])
+                out.append(f'<a data-drug="{esc(sl)}" href="{root}{esc(rt)}">{esc(mt.group(1))}</a>')
+                last = mt.end()
+                found.append(sl)
+            if not found or last == 0:
+                continue
+            out.append(txt[last:])
+            node.replace_with(BeautifulSoup("".join(out), "lxml").body or BeautifulSoup("", "lxml"))
+        body = soup.body
+        return (body.decode_contents() if body else html_str), found
+
     def regimen_column(cell_html, context, root, tone, gaps, where, drop_lead=False):
         """One regimen as a vertical stack of steps. PLUS and OR are drawn, not written."""
         tree = regimen_tree(cell_html)
         if not tree["steps"]:
-            return "", {}
+            # IDMP states this regimen as prose. Show it at regimen scale rather than a blank
+            # box, with any drug it names linked through to its dosing page.
+            if not text_only(cell_html):
+                return "", {}
+            linked, names = linkify_drugs(cell_html, root)
+            hint = ""
+            if names:
+                uniq = list(dict.fromkeys(names))
+                hint = (f'<p class="rg-hint">{icon("gap")}IDMP writes this one as prose. '
+                        f'{esc("Dosing for " + ", ".join(drug_titles.get(x, x) for x in uniq[:4]))} '
+                        f'is on {"its" if len(uniq) == 1 else "their"} own page, linked above.</p>')
+            return f'<div class="rg-prose">{linked}</div>{hint}', {}
         used, out = {}, []
         for si, step in enumerate(tree["steps"]):
             if si:
@@ -1466,7 +1533,7 @@ def main():
             page_dose, gaps, row_index = {}, [], []
             where = (curation.get("_default_site") or "")
             idx = 0
-            total = sum(len(r) for k, r in doc if k == "rows")
+            total = sum(len([x for x in r if "__group__" not in x]) for k, r in doc if k == "rows")
             pre, post, ctx_blocks = [], [], []
             for kind, payload in doc:
                 if kind == "html":
@@ -1477,7 +1544,11 @@ def main():
                     notes += payload
                 elif kind == "rows":
                     cols = []
+                    group_label = ""
                     for cells in payload:
+                        if "__group__" in cells:
+                            group_label = cells["__group__"]
+                            continue
                         idx += 1
                         cond = cells.get("condition")
                         label = text_only(cond["html"]) if cond else f"Option {idx}"
@@ -1494,22 +1565,29 @@ def main():
                         page_dose.update(u1); page_dose.update(u2)
                         slugs = [d["slug"] for st in regimen_tree(first["html"] if first else "")["steps"] for d in st["drugs"]]
                         cols.append({"a": anchor, "short": short, "label": label, "tags": tags, "cells": cells,
-                                     "first": c_first, "alt": c_alt, "alt_cond": alt_tree.get("lead", ""), "slugs": slugs})
+                                     "first": c_first, "alt": c_alt, "alt_cond": alt_tree.get("lead", ""),
+                                     "slugs": slugs, "group": group_label})
                     ctx_blocks.append(cols)
             body_parts = list(pre)
             for cols in ctx_blocks:
                 nc = len(cols)
                 wide = nc <= 4
                 if nc > 1:
-                    nodes = "".join(
-                        f'<button type="button" class="ctx-n{" on" if i == 0 else ""}" data-ctx="{c["a"]}" '
-                        f'data-tags="{esc(" ".join(c["tags"]))}" title="{esc(c["label"][:150])}">{esc(c["short"])}</button>'
-                        for i, c in enumerate(cols))
+                    bits, seen_g = [], None
+                    for i, c in enumerate(cols):
+                        if c.get("group") and c["group"] != seen_g:
+                            seen_g = c["group"]
+                            bits.append(f'<span class="ctx-g">{esc(seen_g)}</span>')
+                        bits.append(f'<button type="button" class="ctx-n{" on" if i == 0 else ""}" data-ctx="{c["a"]}" '
+                                    f'data-tags="{esc(" ".join(c["tags"]))}" title="{esc(c["label"][:150])}">{esc(c["short"])}</button>')
+                    nodes = "".join(bits)
                     body_parts.append(f'<nav class="ctx" aria-label="Clinical context"><span class="ctx-q">{icon("branch")}Which patient</span>'
                                       f'<span class="ctx-ns">{nodes}</span></nav>')
                 shown = "".join(
                     f'<div class="rgc{"" if (wide or i == 0) else " dim"}" data-ctx="{c["a"]}" id="{c["a"]}">'
-                    + (f'<div class="rgc-h">{esc(c["short"])}'
+                    + (f'<div class="rgc-h">'
+                       + (f'<span class="rgc-g">{esc(c["group"])}</span>' if c.get("group") else "")
+                       + f'{esc(c["short"])}'
                        f'<button type="button" class="copy" data-copy="{c["a"]}">Copy</button></div>' if nc > 1 else "")
                     + f'<div class="rgc-b">{c["first"]}</div>'
                     + (f'<div class="rgc-d"><span>Duration</span><b>{c["cells"]["duration"]["html"]}</b></div>'
