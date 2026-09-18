@@ -2,46 +2,82 @@
 <html lang="en" data-root="../" data-section="guidelines">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Surgical Prophylaxis · IDMP Atlas</title>
 <meta name="description" content="Guideline: Surgical Prophylaxis (mirrored from idmp.ucsf.edu)">
 <meta name="robots" content="noindex">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧫</text></svg>">
-<link rel="stylesheet" href="../assets/site.css?v=f6c691c5">
-<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);var s=localStorage.getItem('site');if(s)document.documentElement.setAttribute('data-site',s);}catch(e){}</script>
+<meta name="theme-color" content="#fcfcfd" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="IDMP Atlas">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../assets/icon-192.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/site.css?v=0555e000">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);var L=JSON.parse(localStorage.getItem('lens')||'{}');for(var k in L)if(L[k])document.documentElement.setAttribute('data-'+k,L[k]);}catch(e){}</script>
 
 </head>
-<body>
+<body class="">
 <a class="skip" href="#main">Skip to content</a>
 <header class="top">
   <div class="top-row">
-    <a class="brand" href="../index.html"><span class="brand-mark">🧫</span><span class="brand-name">IDMP Atlas</span><span class="brand-sub">unofficial mirror</span></a>
-    <div class="search" id="search"><input type="search" id="q" placeholder="Search syndromes, drugs, guidelines, organisms…  ( / )" autocomplete="off" aria-label="Search"><div class="results" id="results" hidden></div></div>
+    <a class="brand" href="../index.html"><img src="../assets/icon-192.png" alt="" width="22" height="22"><span class="brand-name">IDMP Atlas</span><span class="brand-sub">unofficial mirror</span></a>
+    <button class="ask" id="ask-open" type="button"><span class="ask-icon">⌕</span><span class="ask-text">Search or ask: cap icu, cefepime crcl 30, e coli cipro…</span><kbd>⌘K</kbd></button>
     <div class="top-tools">
-      <div class="site-switch" role="group" aria-label="Hospital site">
-        <button data-site="">All</button><button data-site="ucsf">UCSF</button><button data-site="zsfg">ZSFG</button><button data-site="va">VA</button><button data-site="bch">BCH</button>
-      </div>
-      <button class="theme" id="theme" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
+      <button class="lens-btn" id="lens-open" type="button" title="Where / Setting / Patient"><span id="lens-summary">All sites · Any setting · Adult</span></button>
+      <button class="theme" id="theme" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
     </div>
   </div>
-  <nav class="nav" aria-label="Sections"><a href="../empiric/index.html">Empiric therapy</a><a href="../drugs/index.html">Dosing</a><a href="../guidelines/index.html" class=on>Guidelines</a><a href="../antibiograms/index.html">Antibiograms</a><a href="../peds.html">Pediatrics</a><a href="../people.html">People</a><a href="../changes.html">What changed</a><a class="status" id="status" href="../changes.html" title="Sync status">sync</a></nav>
+  <nav class="nav" aria-label="Sections"><a href="../empiric/index.html">Empiric therapy</a><a href="../drugs/index.html">Dosing</a><a href="../antibiograms/index.html">Antibiograms</a><a href="../guidelines/index.html" class=on>Guidelines</a><a href="../peds.html">Pediatrics</a><a href="../changes.html">What changed</a><a href="../people.html">People</a><a class="status" id="status" href="../changes.html" title="Sync status">sync</a></nav>
 </header>
+<div class="page">
 <main id="main" class="wrap">
 <nav class="crumbs"><a href="../index.html">Home</a> <span>/</span> <a href="../guidelines/index.html">Guidelines</a> <span>/</span> <span>Surgical Prophylaxis</span></nav>
 
-<article class="node node-guidelines"><p class="kicker">Guideline</p><h1>Surgical Prophylaxis</h1><div class="drug-meta"><span class="badge site s-ucsf" title="UCSF Medical Center Mission Bay (Adult)">Mission Bay</span><span class="badge site s-ucsf" title="UCSF Medical Center Mount Zion">Mt Zion</span><span class="badge site s-ucsf" title="UCSF Medical Center Parnassus Heights">Parnassus</span><span class="badge site s-ucsf" title="UCSF Stanyan/Hyde">Stanyan/Hyde</span><span class="badge kind k-pdf">PDF</span><span class="badge cat">Syndrome Specific Guidelines</span><span class="gl-date" title="Modification history: Aug 19, 2021, Jan 17, 2023, Apr 21, 2023, Sep 11, 2023, Jun 18, 2024, Feb 13, 2025, Dec 8, 2025">Guideline dated Dec 8, 2025</span></div>
-<p class="cta"><a class="btn x-pdf" target="_blank" rel="noopener" href="https://idmp.ucsf.edu/document/cefazolin-in-penicillin-allergic-patients-2-11-25-pdf">Open guideline PDF ↗</a><span class="muted">hosted on idmp.ucsf.edu, no login · 104 KB</span></p>
-<p class="cta"><a class="btn x-pdf" target="_blank" rel="noopener" href="https://idmp.ucsf.edu/document/surgical-ppx-guideline-v1-9-pdf-0-pdf">Open guideline PDF ↗</a><span class="muted">hosted on idmp.ucsf.edu, no login · 594 KB</span></p>
-<section class="block prose"><p>See above for general peri-operative prophylaxis guidelines, as well as specific guidance around giving cefazolin in patients with penicillin allergies</p>
-<p>More in depth information about management of allergies can be found here: <a href="../guidelines/allergy-beta-lactam.html">Allergy (Beta-lactam)</a></p></section></article>
-<div class="src"><a class="x-source" target="_blank" rel="noopener" href="https://idmp.ucsf.edu/content/surgical-prophylaxis">View on idmp.ucsf.edu ↗</a><span>IDMP last changed <time datetime="2026-01-15T19:06:40+00:00">Jan 15, 2026</time></span></div>
+<article class="node node-guidelines" data-slug="surgical-prophylaxis"><p class="kicker">Guideline </p><h1>Surgical Prophylaxis</h1><div class="drug-meta"><span class="badge site s-ucsf" title="UCSF Medical Center Mission Bay (Adult)">Mission Bay</span><span class="badge site s-ucsf" title="UCSF Medical Center Mount Zion">Mt Zion</span><span class="badge site s-ucsf" title="UCSF Medical Center Parnassus Heights">Parnassus</span><span class="badge site s-ucsf" title="UCSF Stanyan/Hyde">Stanyan/Hyde</span><span class="badge kind k-pdf">PDF</span><span class="badge cat">Syndrome Specific Guidelines</span><span class="gl-date" title="Modification history: Aug 19, 2021, Jan 17, 2023, Apr 21, 2023, Sep 11, 2023, Jun 18, 2024, Feb 13, 2025, Dec 8, 2025">Guideline dated Dec 8, 2025</span></div>
+<div class="pdf-card"><a class="thumb" target="_blank" rel="noopener" href="https://idmp.ucsf.edu/document/cefazolin-in-penicillin-allergic-patients-2-11-25-pdf"><img loading="lazy" src="../thumbs/ca43390d4797.jpg" alt="First page of the PDF"></a><div><p class="cta"><a class="btn x-pdf" target="_blank" rel="noopener" href="https://idmp.ucsf.edu/document/cefazolin-in-penicillin-allergic-patients-2-11-25-pdf">Open guideline PDF</a></p><p class="muted">Hosted on idmp.ucsf.edu, no login. 1 page · 104 KB</p></div></div>
+<div class="pdf-card"><a class="thumb" target="_blank" rel="noopener" href="https://idmp.ucsf.edu/document/surgical-ppx-guideline-v1-9-pdf-0-pdf"><img loading="lazy" src="../thumbs/0587d17707e6.jpg" alt="First page of the PDF"></a><div><p class="cta"><a class="btn x-pdf" target="_blank" rel="noopener" href="https://idmp.ucsf.edu/document/surgical-ppx-guideline-v1-9-pdf-0-pdf">Open guideline PDF</a></p><p class="muted">Hosted on idmp.ucsf.edu, no login. 11 pages · 594 KB</p></div></div>
+<section class="block prose reader"><p>See above for general peri-operative prophylaxis guidelines, as well as specific guidance around giving cefazolin in patients with penicillin allergies</p><p>More in depth information about management of allergies can be found here: <a href="../guidelines/allergy-beta-lactam.html">Allergy (Beta-lactam)</a></p></section></article>
+<div class="src"><a class="x-source" target="_blank" rel="noopener" href="https://idmp.ucsf.edu/content/surgical-prophylaxis">View on idmp.ucsf.edu</a><span>IDMP last changed <time datetime="2026-01-15T19:06:40+00:00">Jan 15, 2026</time></span><button class="fav" data-fav="guidelines/surgical-prophylaxis.html" data-title="Surgical Prophylaxis" data-kind="guidelines" aria-label="Pin this page">☆ Pin</button></div>
 </main>
+
+</div>
 <footer class="foot">
-  <p><strong>IDMP Atlas</strong> is an unofficial, read-only mirror of <a href="https://idmp.ucsf.edu" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly. It is not affiliated with UCSF or the IDMP. Content belongs to its authors; always confirm against the source before acting.
-  Mirror last verified against the source <time datetime="2026-09-17T08:13:13+00:00">Sep 17, 2026</time>. <a href="../about.html">About this site</a> · <a href="https://github.com/maxweiss10/idmp-atlas" target="_blank" rel="noopener">Source code</a></p>
+  <p><strong>IDMP Atlas</strong> is an unofficial, read-only mirror of <a href="https://idmp.ucsf.edu" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly. Not affiliated with UCSF or the IDMP. Content belongs to its authors; confirm against the source before acting.
+  Mirror last verified against the source <time datetime="2026-09-18T02:40:04+00:00">Sep 18, 2026</time>. <a href="../about.html">About</a> · <a href="../publications.html">Publications</a> · <a href="https://github.com/maxweiss10/idmp-atlas" target="_blank" rel="noopener">Source code</a> · <button class="linklike" id="offline-btn" type="button">Save for offline</button></p>
 </footer>
-<div class="drawer" id="drawer" hidden><div class="drawer-bar"><button class="drawer-back" id="drawer-back" hidden>← Back</button><a class="drawer-open" id="drawer-open" href="#">Open full page</a><button class="drawer-close" id="drawer-close" aria-label="Close">✕</button></div><div class="drawer-body" id="drawer-body"></div></div>
+<nav class="tabbar" aria-label="Quick navigation">
+  <button type="button" data-open="palette"><span class="ti">⌕</span>Ask</button>
+  <a href="../empiric/index.html"><span class="ti">Rx</span>Empiric</a>
+  <a href="../drugs/index.html"><span class="ti">mg</span>Dosing</a>
+  <a href="../antibiograms/explore.html"><span class="ti">%</span>Bugs</a>
+  <button type="button" data-open="more"><span class="ti">⋯</span>More</button>
+</nav>
+<div class="modal" id="palette" hidden><div class="modal-box palette-box" role="dialog" aria-label="Search">
+  <div class="palette-head"><span class="ask-icon">⌕</span><input type="search" id="q" placeholder="Syndrome, drug + CrCl, organism + drug, guideline…" autocomplete="off" aria-label="Search"><button class="modal-close" data-close type="button">Esc</button></div>
+  <div class="palette-body" id="results"></div>
+  <div class="palette-foot"><span><kbd>↑↓</kbd> move</span><span><kbd>↵</kbd> open</span><span><kbd>⌘K</kbd> anywhere</span><span class="grow"></span><span id="palette-hint">Try: <b>hap zsfg</b> · <b>vanc hd</b> · <b>pseudomonas cefepime</b></span></div>
+</div></div>
+<div class="modal" id="lens" hidden><div class="modal-box lens-box" role="dialog" aria-label="Context">
+  <div class="lens-head"><strong>Your context</strong><span class="muted">Applied everywhere, remembered on this device.</span><button class="modal-close" data-close type="button">Done</button></div>
+  <div class="lens-grid">
+    <div class="lens-row"><label>Where</label><div class="seg" data-lens="where"><button data-v="">All</button><button data-v="ucsf">UCSF Health</button><button data-v="zsfg">ZSFG</button><button data-v="va">VA</button><button data-v="bch">BCH</button></div></div>
+    <div class="lens-row"><label>Setting</label><div class="seg" data-lens="setting"><button data-v="">Any</button><button data-v="outpatient">Outpatient</button><button data-v="inpatient">Inpatient</button><button data-v="icu">ICU</button></div></div>
+    <div class="lens-row"><label>Patient</label><div class="seg" data-lens="patient"><button data-v="">Adult</button><button data-v="peds">Pediatric</button></div></div>
+    <div class="lens-row"><label>Renal</label><div class="renal"><input type="number" id="lens-crcl" inputmode="numeric" min="0" max="250" placeholder="CrCl"><span class="unit">mL/min</span><div class="seg" data-lens="renal"><button data-v="">Any</button><button data-v="hd">HD</button><button data-v="crrt">CRRT</button></div></div></div>
+    <div class="lens-row"><label>Allergy</label><div class="seg" data-lens="allergy"><button data-v="">None</button><button data-v="bl">Severe beta-lactam allergy</button></div></div>
+  </div>
+  <div class="lens-foot"><button type="button" id="lens-reset" class="linklike">Reset all</button><span class="muted">Lenses change what is shown first, never what the source says.</span></div>
+</div></div>
+<div class="modal" id="more" hidden><div class="modal-box more-box" role="dialog" aria-label="More"><div class="lens-head"><strong>More</strong><button class="modal-close" data-close type="button">Close</button></div>
+  <ul class="more-list"><li><a href="../empiric/index.html">Empiric therapy</a></li><li><a href="../drugs/index.html">Dosing</a></li><li><a href="../antibiograms/index.html">Antibiograms</a></li><li><a href="../guidelines/index.html">Guidelines</a></li><li><a href="../peds.html">Pediatrics</a></li><li><a href="../changes.html">What changed</a></li><li><a href="../people.html">People</a></li><li><a href="../antibiograms/explore.html">Bug-drug explorer</a></li><li><a href="../publications.html">Publications</a></li><li><a href="../about.html">About this mirror</a></li><li><button type="button" class="linklike" data-open="lens">Your context (Where / Setting / Patient)</button></li><li><button type="button" class="linklike" id="offline-btn-2">Save whole site for offline</button></li></ul>
+</div></div>
+<div class="drawer" id="drawer" hidden><div class="drawer-bar"><span class="handle"></span><button class="drawer-back" id="drawer-back" type="button" hidden>← Back</button><a class="drawer-open" id="drawer-open" href="#">Open full page</a><button class="drawer-close" id="drawer-close" type="button" aria-label="Close">✕</button></div><div class="drawer-body" id="drawer-body"></div></div>
 <div class="scrim" id="scrim" hidden></div>
-<script src="../assets/site.js?v=f6c691c5" defer></script>
+<div class="toast" id="toast" hidden></div>
+<script src="../assets/site.js?v=0555e000" defer></script>
 </body>
 </html>

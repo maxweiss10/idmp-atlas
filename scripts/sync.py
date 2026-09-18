@@ -349,8 +349,37 @@ def main():
     if fetch_fail > 3:
         problem("hard", "node-fetch-many", f"{fetch_fail} nodes failed to fetch")
 
-    # ---- 3. files (HEAD) -------------------------------------------------------
+    # ---- 3. files (HEAD, plus first-page thumbnails for PDFs) --------------------
     log("== files")
+    THUMBS = os.path.join(ROOT, "docs", "thumbs")
+    os.makedirs(THUMBS, exist_ok=True)
+    def thumb_key(path):
+        return hashlib.sha1(path.encode()).hexdigest()[:12]
+    def make_thumb(path, meta):
+        """Render page 1 of a PDF to docs/thumbs/<key>.jpg. Skipped when the file is unchanged and the thumb exists."""
+        key = thumb_key(path)
+        out = os.path.join(THUMBS, key + ".jpg")
+        old = prev_manifest.get("files", {}).get(path) or {}
+        unchanged = old.get("etag") == meta.get("etag") and old.get("size") == meta.get("size")
+        if os.path.exists(out) and unchanged:
+            return key
+        try:
+            import pypdfium2 as pdfium
+        except Exception:
+            return key if os.path.exists(out) else None
+        status, _, _, body = fetch(BASE + path)
+        if status != 200 or body[:5] != b"%PDF-":
+            return key if os.path.exists(out) else None
+        try:
+            pdf = pdfium.PdfDocument(body)
+            img = pdf[0].render(scale=0.6).to_pil().convert("RGB")
+            img.thumbnail((480, 640))
+            img.save(out, "JPEG", quality=72, optimize=True)
+            meta["pages"] = len(pdf)
+            return key
+        except Exception as e:
+            problem("soft", "thumbnail", f"could not render {path}: {e}")
+            return None
     for nid, data in nodes.items():
         for item in data.get("field_pdf") or []:
             if isinstance(item, dict) and item.get("url"):
@@ -361,6 +390,9 @@ def main():
         h = {k.lower(): v for k, v in hdrs.items()} if isinstance(hdrs, dict) else {}
         files[path] = {"status": status, "final": final, "size": h.get("content-length"),
                        "last_modified": h.get("last-modified"), "etag": h.get("etag"), "type": h.get("content-type")}
+        if status == 200 and "pdf" in (h.get("content-type") or "").lower():
+            files[path]["thumb"] = make_thumb(path, files[path])
+            time.sleep(DELAY / 2)
 
     # ---- 4. compare with previous manifest ------------------------------------
     log("== compare")
@@ -403,10 +435,14 @@ def main():
                 f.write(new_text)
         if old is None:
             events.append({"kind": "added", "nid": nid, "type": ntype, "title": title, "alias": alias, "changed": changed})
-        elif old.get("hash") != content_hash or old.get("changed") != changed:
+        elif old.get("hash") != content_hash:
             fields = node_diff(old_data or {}, data) if old_data is not None else []
             events.append({"kind": "updated", "nid": nid, "type": ntype, "title": title, "alias": alias,
                            "changed_from": old.get("changed"), "changed": changed, "fields": fields})
+        elif old.get("changed") != changed:
+            # IDMP moved the timestamp (often a scheduled re-import) but nothing the mirror shows differs
+            events.append({"kind": "touched", "nid": nid, "type": ntype, "title": title, "alias": alias,
+                           "changed_from": old.get("changed"), "changed": changed})
         elif old.get("status") != "active":
             events.append({"kind": "relisted", "nid": nid, "type": ntype, "title": title, "alias": alias})
     # removed / unlisted nodes
@@ -449,6 +485,8 @@ def main():
     for path, meta in files.items():
         o = old_files.get(path)
         meta["first_seen"] = o["first_seen"] if o else run_ts
+        if o and "pages" in o and "pages" not in meta:
+            meta["pages"] = o["pages"]
         if o and (o.get("size") != meta.get("size") or o.get("etag") != meta.get("etag")):
             events.append({"kind": "file-updated", "path": path, "size_from": o.get("size"), "size": meta.get("size")})
         if meta.get("status") not in (200, 302, 301):

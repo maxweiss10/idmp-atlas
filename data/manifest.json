@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T08:13:13+00:00",
+ "generated": "2026-09-18T02:40:04+00:00",
  "source": "https://idmp.ucsf.edu",
  "nodes": {
   "6926": {
@@ -568,7 +568,7 @@
    "type": "ucsf_person",
    "title": "Conan MacDougall, PharmD, MAS",
    "alias": "/people/conan-macdougall-pharmd-mas",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 9051,
    "hash": "045a48187bb9617a",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -649,7 +649,8 @@
    "vid": 9846,
    "hash": "cceacfae18ac34aa",
    "first_seen": "2026-09-17T07:57:34+00:00",
-   "status": "active"
+   "status": "unlisted",
+   "gone_since": "2026-09-18T02:40:04+00:00"
   },
   "9141": {
    "nid": 9141,
@@ -733,7 +734,7 @@
    "type": "ucsf_person",
    "title": "Deborah Yokoe, MD, MPH",
    "alias": "/people/deborah-yokoe-md-mph",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 10551,
    "hash": "2c5ae0c553dc223e",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -755,7 +756,7 @@
    "type": "ucsf_person",
    "title": "Jennifer Mulliken, MD",
    "alias": "/people/jennifer-mulliken-md",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 10831,
    "hash": "957077f819b88219",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -766,7 +767,7 @@
    "type": "ucsf_person",
    "title": "Alexandra Horeczko",
    "alias": "/people/alexandra-horeczko",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 10836,
    "hash": "659c6dacf911d707",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -781,14 +782,15 @@
    "vid": 10936,
    "hash": "368a4fe3ef9c555d",
    "first_seen": "2026-09-17T07:57:34+00:00",
-   "status": "active"
+   "status": "unlisted",
+   "gone_since": "2026-09-18T02:40:04+00:00"
   },
   "10181": {
    "nid": 10181,
    "type": "ucsf_person",
    "title": "Rachel Bystritsky, MD",
    "alias": "/people/rachel-bystritsky-md",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 10956,
    "hash": "86018939584de910",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -799,9 +801,9 @@
    "type": "ucsf_person",
    "title": "Lynn Ramirez, MD, MS",
    "alias": "/people/lynn-ramirez-md-ms",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 11186,
-   "hash": "d353aa61c9207b4c",
+   "hash": "2820273063d2cc7f",
    "first_seen": "2026-09-17T07:57:34+00:00",
    "status": "active"
   },
@@ -810,7 +812,7 @@
    "type": "ucsf_person",
    "title": "Chaz Langelier, MD, PhD",
    "alias": "/people/chaz-langelier-md-phd",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 11421,
    "hash": "cb0df6e1d9367a44",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -821,7 +823,7 @@
    "type": "ucsf_person",
    "title": "Charles Chiu, MD, PhD",
    "alias": "/people/charles-chiu-md-phd",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 12076,
    "hash": "77d559f1bf4343fa",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -832,7 +834,7 @@
    "type": "ucsf_person",
    "title": "Lisa Winston, MD",
    "alias": "/people/lisa-winston-md",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 22161,
    "hash": "464699315a2515e4",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -1525,7 +1527,7 @@
    "type": "ucsf_person",
    "title": "Prachi Singh, DO",
    "alias": "/people/prachi-singh-do",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 14106,
    "hash": "112c7ef418ea0d22",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -1569,7 +1571,7 @@
    "type": "ucsf_person",
    "title": "Vivek Jain, MD, MAS",
    "alias": "/people/vivek-jain-md-mas",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 14501,
    "hash": "28b74387aa15e374",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -1591,9 +1593,9 @@
    "type": "ucsf_person",
    "title": "Jennifer Babik, MD, PhD",
    "alias": "/people/jennifer-babik-md-phd",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 14991,
-   "hash": "fbd11acf50ac1996",
+   "hash": "b328b6770eb85eb2",
    "first_seen": "2026-09-17T07:57:34+00:00",
    "status": "active"
   },
@@ -2449,7 +2451,7 @@
    "type": "ucsf_person",
    "title": "Emily Kaip, PharmD",
    "alias": "/people/emily-kaip-pharmd",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 17081,
    "hash": "b7f63e860c184022",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -2460,7 +2462,7 @@
    "type": "ucsf_person",
    "title": "Daniel Escobar, MD, MS",
    "alias": "/people/daniel-escobar-md-ms",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 17111,
    "hash": "b094a4cfd459e06f",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -2471,7 +2473,7 @@
    "type": "ucsf_person",
    "title": "Cynthia Huwe",
    "alias": "/people/cynthia-huwe",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 17186,
    "hash": "38df225fd1efbc26",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -2867,7 +2869,7 @@
    "type": "ucsf_person",
    "title": "William Simmons, MD",
    "alias": "/people/william-simmons-md",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 19661,
    "hash": "f53ca0c0c10d025e",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -3252,7 +3254,7 @@
    "type": "ucsf_person",
    "title": "Victoria Dudas, PharmD",
    "alias": "/people/victoria-dudas-pharmd",
-   "changed": "2026-09-10T13:19:00+00:00",
+   "changed": "2026-09-18T01:32:53+00:00",
    "vid": 24881,
    "hash": "6afc7f86caef27fe",
    "first_seen": "2026-09-17T07:57:34+00:00",
@@ -3300,7 +3302,8 @@
    "vid": 25826,
    "hash": "c90f9e3354009b7c",
    "first_seen": "2026-09-17T07:57:34+00:00",
-   "status": "active"
+   "status": "unlisted",
+   "gone_since": "2026-09-18T02:40:04+00:00"
   },
   "18191": {
    "nid": 18191,
@@ -3322,7 +3325,8 @@
    "vid": 26856,
    "hash": "9043d09902cdbc5c",
    "first_seen": "2026-09-17T07:57:34+00:00",
-   "status": "active"
+   "status": "unlisted",
+   "gone_since": "2026-09-18T02:40:04+00:00"
   },
   "19261": {
    "nid": 19261,
@@ -3463,6 +3467,8 @@
    "last_modified": "Fri, 08 May 2026 15:09:37 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "467951c8a23b",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/2026-bchsf-op-gngp-v1-without-delta-change-pdf-0": {
@@ -3472,6 +3478,8 @@
    "last_modified": "Fri, 08 May 2026 15:12:09 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "2b4863cc4ece",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/adult-appy-pathway-v1-24-25-compliant-pdf-pdf": {
@@ -3481,6 +3489,8 @@
    "last_modified": "Thu, 30 Apr 2026 16:31:31 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "b097c4d74ad6",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/aminoglycoside-guideline-peds-ucsf-v6-draft-2-pdf": {
@@ -3490,6 +3500,8 @@
    "last_modified": "Tue, 15 Sep 2026 19:36:51 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 11,
+   "thumb": "144bba384924",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/antibiotic-algorithm-for-neutropenic-patients-0-pdf": {
@@ -3499,6 +3511,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:32:33 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "88c88d754dd4",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/antifungaldosingguidanceandtherapeuticdrugmonitoringtdmpediatricucsf-1-pdf-pdf": {
@@ -3508,6 +3522,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:55:30 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 10,
+   "thumb": "d11b4217f239",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/antimicrobial-therapy-guidelines-for-pediatric-cardiac-surgery-patients-2026-pdf": {
@@ -3517,6 +3533,8 @@
    "last_modified": "Mon, 24 Aug 2026 15:53:18 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 9,
+   "thumb": "26b41c38f63b",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/bayesian-tdm-job-aid-aminoglycosides-vancomycin-pediatric-pdf-0-pdf": {
@@ -3526,6 +3544,8 @@
    "last_modified": "Mon, 13 Apr 2026 18:26:56 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 3,
+   "thumb": "73c49cca96a9",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/bch-2024-fever-in-patients-receiving-cancer-therapy-or-hct-web-pdf": {
@@ -3535,6 +3555,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:51:32 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 10,
+   "thumb": "17c02bdbd701",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/bch-antimicrobial-lock-therapy-policy-2026-pdf": {
@@ -3544,6 +3566,8 @@
    "last_modified": "Thu, 02 Jul 2026 23:47:26 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 8,
+   "thumb": "8947dd3ad98b",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/bch-appendicitis-pathway-pdf": {
@@ -3553,6 +3577,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:52:30 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 3,
+   "thumb": "1dfd698e6386",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/bcid-2-pdf": {
@@ -3562,6 +3588,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:17:19 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 13,
+   "thumb": "6602c1ef4370",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/blood-culture-guidelines-2-7-2025-pdf": {
@@ -3571,6 +3599,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:33:17 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "f794367b90ba",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/cefazolin-in-penicillin-allergic-patients-2-11-25-pdf": {
@@ -3580,6 +3610,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:34:18 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "ca43390d4797",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/compliant-idmp-flu-guidelines-2025-2026-season-pdf": {
@@ -3589,6 +3621,8 @@
    "last_modified": "Tue, 14 Apr 2026 21:20:39 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 4,
+   "thumb": "772d28c873ae",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/extended-infusion-zosyn-protocol-2024-pdf": {
@@ -3598,6 +3632,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:24:09 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 6,
+   "thumb": "bc2b0ec32c4d",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/hbv-reactivation-guidelines-3-2025-pdf": {
@@ -3607,6 +3643,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:35:22 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "07d8ac9f88e5",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/hospital-acquired-pneumonia-final-7-15-24-pdf": {
@@ -3616,6 +3654,8 @@
    "last_modified": "Mon, 13 Apr 2026 20:36:22 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 5,
+   "thumb": "415bd93fd244",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/hyde-antibiogram": {
@@ -3625,6 +3665,8 @@
    "last_modified": "Mon, 13 Apr 2026 16:58:45 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "bd642b8b48da",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/icn-sepsis-guidelines-final-pdf": {
@@ -3634,6 +3676,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:43:49 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 3,
+   "thumb": "bd177c11c315",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/ip-adult-antibiotic-lock-therapy-alt-adult-guideline-updated-2024-pdf-pdf": {
@@ -3643,6 +3687,8 @@
    "last_modified": "Mon, 13 Apr 2026 16:58:17 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 4,
+   "thumb": "010ddb1ee39c",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/joint-id-plastic-surgery-tissue-expander-infections-0-pdf": {
@@ -3652,6 +3698,8 @@
    "last_modified": "Mon, 13 Apr 2026 16:51:11 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "2ffbf6d0f621",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/ltu-high-meld-icu-2023-pdf": {
@@ -3661,6 +3709,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:12:45 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "10980faa71e9",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/ltu-mdr-risk-floor-and-icu-without-septic-shock-2023-pdf": {
@@ -3670,6 +3720,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:12:04 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "8d50a94866cf",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/ltuguidelineswithouthighriskformdr-pdf": {
@@ -3679,6 +3731,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:13:51 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "663c7c47c7ce",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/management-of-vancomycin-infusion-reaction-guideline-2024-final-pdf": {
@@ -3688,6 +3742,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:14:46 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "ae7345804b87",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/necrotizing-enterocolitis-icn-final-pdf": {
@@ -3697,6 +3753,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:42:39 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "0d308e0e520c",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/necrotizing-enterocolitis-pcicu-final-pdf": {
@@ -3706,13 +3764,15 @@
    "last_modified": "Mon, 13 Apr 2026 17:49:04 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "8440668597d6",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/necrotizing-soft-tissue-infection-guidelines-pdf": {
    "status": 200,
    "final": "https://idmp.ucsf.edu/document/necrotizing-soft-tissue-infection-guidelines-pdf",
    "size": null,
-   "last_modified": "Thu, 17 Sep 2026 02:50:54 GMT",
+   "last_modified": "Thu, 17 Sep 2026 04:40:43 GMT",
    "etag": null,
    "type": "text/html; charset=UTF-8",
    "first_seen": "2026-09-17T07:57:34+00:00"
@@ -3724,6 +3784,8 @@
    "last_modified": "Mon, 13 Apr 2026 18:28:47 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 5,
+   "thumb": "139c0f3ee0a4",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/or-specimen-collection-guide-rev-2-pdf": {
@@ -3733,6 +3795,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:16:03 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "e49ba0f25513",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/pedi-dosing-card-2025": {
@@ -3742,6 +3806,8 @@
    "last_modified": "Thu, 30 Apr 2026 16:44:17 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 3,
+   "thumb": "5de42b09cf98",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/pedi-esld-biliary-atresia": {
@@ -3751,6 +3817,8 @@
    "last_modified": "Thu, 30 Apr 2026 16:40:01 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "c6be415d70ea",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/pedi-liver-failure-transplant": {
@@ -3760,6 +3828,8 @@
    "last_modified": "Thu, 30 Apr 2026 16:40:25 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "d777bc115f6c",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/pediatric-liver-failure-transplant-empiric-antimicrobial-therapy-guidelines-v2022-web-pdf": {
@@ -3769,6 +3839,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:50:22 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 12,
+   "thumb": "2bc82c8e9809",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/pemivibart-ucsf-covid19-adult-monoclonal-antibody-use-process-for-prep-update-8-2024-v5-pdf": {
@@ -3778,6 +3850,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:21:17 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 5,
+   "thumb": "d87140832aa0",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/remdesivir-for-adult-outpatients-guidance-11-6-23-updated-aug142024-pdf": {
@@ -3787,6 +3861,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:22:31 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "c23f7b293c56",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/ssti-guidance-1-2026-pdf-pdf": {
@@ -3796,6 +3872,8 @@
    "last_modified": "Mon, 13 Apr 2026 16:56:38 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 10,
+   "thumb": "30dff6de03b2",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/stanyan-antibiogram": {
@@ -3805,6 +3883,8 @@
    "last_modified": "Mon, 13 Apr 2026 16:56:00 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "6a93b5fcce46",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/surgical-ppx-guideline-v1-9-pdf-0-pdf": {
@@ -3814,6 +3894,8 @@
    "last_modified": "Mon, 13 Apr 2026 16:54:42 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 11,
+   "thumb": "0587d17707e6",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/surgical-ppx-guidelines-2023-pdf": {
@@ -3823,6 +3905,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:53:47 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 16,
+   "thumb": "a7187ade2db3",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/ucsf-bl-pathway-2024-06-23-pdf": {
@@ -3832,6 +3916,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:26:21 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 12,
+   "thumb": "de4cbc8a6996",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/vaccines-post-emergent-splenectomy-rev-6-2022-cleaned-pdf": {
@@ -3841,6 +3927,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:03:34 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "b3fb806a71d8",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/vaccines-pre-splenectomy-rev-6-2022-cleaned-pdf": {
@@ -3850,6 +3938,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:02:52 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "9e9dd4585559",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/zsfg-cdi-guideline-2025-v1-2-1-pdf": {
@@ -3859,6 +3949,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:36:17 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 4,
+   "thumb": "7444b8d36986",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/zsfg-hap-vap-empiric-guideline-2023-final-pdf": {
@@ -3868,6 +3960,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:06:19 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 4,
+   "thumb": "13a8c3d2b7ee",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/zsfg-inpatient-beta-lactam-allergy-test-dose-guidance-0-pdf": {
@@ -3877,6 +3971,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:39:12 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 4,
+   "thumb": "be1344e21d9f",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/zsfg-oncology-anti-infective-prophylaxis-guidelines-9-2026-pdf": {
@@ -3886,6 +3982,8 @@
    "last_modified": "Tue, 15 Sep 2026 20:28:07 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 4,
+   "thumb": "4ed2b8bc9285",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/zsfg-open-fracture-antibiotic-protocol-update-9-13-24-cleaned-4-pdf": {
@@ -3895,6 +3993,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:23:20 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "15bed06c40c0",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/zsfg-penetrating-brain-injury-antibiotic-prophylaxis-guidance-2022-pdf": {
@@ -3904,6 +4004,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:04:35 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "adc5abcb798c",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/document/zsfg-surgical-ppx-abx-guidelines-rev-9-2023-pdf": {
@@ -3913,6 +4015,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:10:32 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 5,
+   "thumb": "6ed01391592a",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/media/41": {
@@ -3931,6 +4035,8 @@
    "last_modified": "Mon, 13 Apr 2026 17:00:00 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "1be1bb7b58c3",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/sites/g/files/tkssra17776/files/doc/PediDosingCard%20CF%202025.pdf": {
@@ -3940,6 +4046,8 @@
    "last_modified": "Mon, 13 Apr 2026 18:30:02 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "63816c7aa333",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/sites/g/files/tkssra17776/files/doc/Pediatric%20Acute%20Liver%20Failure%20Infection%20Empiric%20Treatment.pdf": {
@@ -3949,6 +4057,8 @@
    "last_modified": "Mon, 13 Apr 2026 18:29:32 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "cc8a1d7cd5d8",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/sites/g/files/tkssra17776/files/doc/SFVA%20ANTIBIOGRAMS%202024_FINAL.pdf": {
@@ -3958,6 +4068,8 @@
    "last_modified": "Wed, 15 Apr 2026 17:53:46 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 1,
+   "thumb": "05fc8c0004a1",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/sites/g/files/tkssra17776/files/doc/lhh-antibiogram-2024.pdf": {
@@ -3967,13 +4079,15 @@
    "last_modified": "Thu, 30 Apr 2026 16:33:57 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "e40977454d10",
    "first_seen": "2026-09-17T07:57:34+00:00"
   },
   "/sites/g/files/tkssra17776/files/wysiwyg/BCH%20Oak%20Antibiogram%202023_0.pdf": {
    "status": 404,
    "final": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/wysiwyg/BCH%20Oak%20Antibiogram%202023_0.pdf",
    "size": null,
-   "last_modified": "Thu, 17 Sep 2026 08:21:53 GMT",
+   "last_modified": "Fri, 18 Sep 2026 02:47:23 GMT",
    "etag": null,
    "type": "text/html; charset=UTF-8",
    "first_seen": "2026-09-17T07:57:34+00:00"
@@ -3985,6 +4099,8 @@
    "last_modified": "Wed, 14 May 2025 15:38:30 GMT",
    "etag": null,
    "type": "application/pdf",
+   "pages": 2,
+   "thumb": "98105b505b65",
    "first_seen": "2026-09-17T07:57:34+00:00"
   }
  },
@@ -4097,10 +4213,10 @@
  "counts": {
   "page": 28,
   "drug": 94,
-  "ucsf_person": 20,
+  "ucsf_person": 18,
   "diagnosis": 84,
   "guidelines": 67,
   "other_person": 4,
-  "ucsf_publication": 13
+  "ucsf_publication": 11
  }
 }

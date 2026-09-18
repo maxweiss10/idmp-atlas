@@ -17,5 +17,218 @@
    }
   ],
   "problems": []
+ },
+ {
+  "run": "2026-09-18T02:40:04+00:00",
+  "events": [
+   {
+    "kind": "touched",
+    "nid": 8786,
+    "type": "ucsf_person",
+    "title": "Conan MacDougall, PharmD, MAS",
+    "alias": "/people/conan-macdougall-pharmd-mas",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 9796,
+    "type": "ucsf_person",
+    "title": "Deborah Yokoe, MD, MPH",
+    "alias": "/people/deborah-yokoe-md-mph",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 10056,
+    "type": "ucsf_person",
+    "title": "Jennifer Mulliken, MD",
+    "alias": "/people/jennifer-mulliken-md",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 10061,
+    "type": "ucsf_person",
+    "title": "Alexandra Horeczko",
+    "alias": "/people/alexandra-horeczko",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 10181,
+    "type": "ucsf_person",
+    "title": "Rachel Bystritsky, MD",
+    "alias": "/people/rachel-bystritsky-md",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "updated",
+    "nid": 10411,
+    "type": "ucsf_person",
+    "title": "Lynn Ramirez, MD, MS",
+    "alias": "/people/lynn-ramirez-md-ms",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00",
+    "fields": [
+     {
+      "field": "field_person_email",
+      "diff": [
+       "@@ -1 +0,0 @@",
+       "-Lynn.Ramirez@ucsf.edu"
+      ],
+      "truncated": false
+     }
+    ]
+   },
+   {
+    "kind": "touched",
+    "nid": 10646,
+    "type": "ucsf_person",
+    "title": "Chaz Langelier, MD, PhD",
+    "alias": "/people/chaz-langelier-md-phd",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 11301,
+    "type": "ucsf_person",
+    "title": "Charles Chiu, MD, PhD",
+    "alias": "/people/charles-chiu-md-phd",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 11561,
+    "type": "ucsf_person",
+    "title": "Lisa Winston, MD",
+    "alias": "/people/lisa-winston-md",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 12161,
+    "type": "ucsf_person",
+    "title": "Prachi Singh, DO",
+    "alias": "/people/prachi-singh-do",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 12496,
+    "type": "ucsf_person",
+    "title": "Vivek Jain, MD, MAS",
+    "alias": "/people/vivek-jain-md-mas",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "updated",
+    "nid": 12741,
+    "type": "ucsf_person",
+    "title": "Jennifer Babik, MD, PhD",
+    "alias": "/people/jennifer-babik-md-phd",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00",
+    "fields": [
+     {
+      "field": "field_profiles_honors_awards",
+      "diff": [
+       "@@ -6,0 +7,3 @@",
+       "+Distinction in Teaching Award from the UCSF Academic Senate, UCSF, 2016",
+       "+Induction into the Haile T. Debas Academy of Medical Educators, UCSF, 2015",
+       "+Vincent G. Pons Award for Excellence in Clinical Infectious Diseases Teaching, UCSF, 2015"
+      ],
+      "truncated": false
+     }
+    ]
+   },
+   {
+    "kind": "touched",
+    "nid": 14221,
+    "type": "ucsf_person",
+    "title": "Emily Kaip, PharmD",
+    "alias": "/people/emily-kaip-pharmd",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 14251,
+    "type": "ucsf_person",
+    "title": "Daniel Escobar, MD, MS",
+    "alias": "/people/daniel-escobar-md-ms",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 14306,
+    "type": "ucsf_person",
+    "title": "Cynthia Huwe",
+    "alias": "/people/cynthia-huwe",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 15266,
+    "type": "ucsf_person",
+    "title": "William Simmons, MD",
+    "alias": "/people/william-simmons-md",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 16276,
+    "type": "ucsf_person",
+    "title": "Victoria Dudas, PharmD",
+    "alias": "/people/victoria-dudas-pharmd",
+    "changed_from": "2026-09-10T13:19:00+00:00",
+    "changed": "2026-09-18T01:32:53+00:00"
+   },
+   {
+    "kind": "unlisted",
+    "nid": 9136,
+    "type": "ucsf_person",
+    "title": "Rachel Wattier, MD, MHS",
+    "alias": "/people/rachel-wattier-md-mhs",
+    "http": 200
+   },
+   {
+    "kind": "unlisted",
+    "nid": 10161,
+    "type": "ucsf_person",
+    "title": "Katherine Yang, PharmD, MPH",
+    "alias": "/people/katherine-yang-pharmd-mph",
+    "http": 200
+   },
+   {
+    "kind": "unlisted",
+    "nid": 17191,
+    "type": "ucsf_publication",
+    "title": "Early Discontinuation of Empiric Antibiotics in Pediatric Haploidentical Hematopoietic Cell Transplant Recipients with Febrile Neutropenia.",
+    "alias": "/content/early-discontinuation-of-empiric-antibiotics-in-pediatric-haploidentical-hematopoietic-cell",
+    "http": 200
+   },
+   {
+    "kind": "unlisted",
+    "nid": 18221,
+    "type": "ucsf_publication",
+    "title": "Expanding the pipeline for multipurpose prevention technologies: compounds with potential activity to prevent or treat HIV and other STIs.",
+    "alias": "/content/expanding-the-pipeline-for-multipurpose-prevention-technologies-compounds-with-potential-activity-to",
+    "http": 200
+   }
+  ],
+  "problems": []
  }
 ]

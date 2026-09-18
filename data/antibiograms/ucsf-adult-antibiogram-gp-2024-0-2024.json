@@ -1,0 +1,468 @@
+{
+ "key": "ucsf-adult-antibiogram-gp-2024-0",
+ "title": "UCSF Adult Inpatient Susceptibility Data (Gram-Positives)",
+ "page": "UCSF Adult Inpatient Susceptibility Data",
+ "route": "antibiograms/ucsf-adult-antibiogram-gp-2024.html",
+ "year": "2024",
+ "drugs": [
+  {
+   "abbr": "AMP/PCN",
+   "name": "ampicillin/penicillin"
+  },
+  {
+   "abbr": "CLIN",
+   "name": "clindamycin"
+  },
+  {
+   "abbr": "CTRX",
+   "name": "ceftriaxone"
+  },
+  {
+   "abbr": "DAP",
+   "name": "daptomycin"
+  },
+  {
+   "abbr": "DOX",
+   "name": "doxycycline"
+  },
+  {
+   "abbr": "LZD",
+   "name": "linezolid"
+  },
+  {
+   "abbr": "NAF",
+   "name": "nafcillin"
+  },
+  {
+   "abbr": "T/S",
+   "name": "trimethoprim/sulfamethoxazole"
+  },
+  {
+   "abbr": "VANC",
+   "name": "vancomycin"
+  }
+ ],
+ "rows": [
+  {
+   "organism": "Staphylococcus aureus",
+   "n": 833,
+   "v": {
+    "AMP/PCN": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "CLIN": {
+     "v": 76,
+     "raw": "76"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "DAP": {
+     "v": 99,
+     "raw": "99"
+    },
+    "DOX": {
+     "v": 83,
+     "raw": "83"
+    },
+    "LZD": {
+     "v": 99,
+     "raw": "99"
+    },
+    "NAF": {
+     "v": 74,
+     "raw": "74"
+    },
+    "T/S": {
+     "v": 94,
+     "raw": "94"
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  },
+  {
+   "organism": "MSSA",
+   "n": 591,
+   "v": {
+    "AMP/PCN": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "CLIN": {
+     "v": 80,
+     "raw": "80"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "DAP": {
+     "v": 99,
+     "raw": "99"
+    },
+    "DOX": {
+     "v": 92,
+     "raw": "92"
+    },
+    "LZD": {
+     "v": 99,
+     "raw": "99"
+    },
+    "NAF": {
+     "v": 99,
+     "raw": "99"
+    },
+    "T/S": {
+     "v": 96,
+     "raw": "96"
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  },
+  {
+   "organism": "MRSA",
+   "n": 256,
+   "v": {
+    "AMP/PCN": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "CLIN": {
+     "v": 66,
+     "raw": "66"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "DAP": {
+     "v": 99,
+     "raw": "99"
+    },
+    "DOX": {
+     "v": 63,
+     "raw": "63"
+    },
+    "LZD": {
+     "v": 99,
+     "raw": "99"
+    },
+    "NAF": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "T/S": {
+     "v": 89,
+     "raw": "89"
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  },
+  {
+   "organism": "Staphylococcus epidermidis",
+   "n": 227,
+   "v": {
+    "AMP/PCN": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "CLIN": {
+     "v": 62,
+     "raw": "62"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "DAP": {
+     "v": 100,
+     "raw": "100"
+    },
+    "DOX": {
+     "v": 74,
+     "raw": "74"
+    },
+    "LZD": {
+     "v": 99,
+     "raw": "99"
+    },
+    "NAF": {
+     "v": 29,
+     "raw": "29"
+    },
+    "T/S": {
+     "v": 55,
+     "raw": "55"
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  },
+  {
+   "organism": "Staphylococcus lugdunesis",
+   "n": 40,
+   "v": {
+    "AMP/PCN": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "CLIN": {
+     "v": 92,
+     "raw": "92"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "DAP": {
+     "v": 100,
+     "raw": "100"
+    },
+    "DOX": {
+     "v": 92,
+     "raw": "92"
+    },
+    "LZD": {
+     "v": 100,
+     "raw": "100"
+    },
+    "NAF": {
+     "v": 93,
+     "raw": "93"
+    },
+    "T/S": {
+     "v": 100,
+     "raw": "100"
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  },
+  {
+   "organism": "Viridans group streptococci",
+   "n": 120,
+   "v": {
+    "AMP/PCN": {
+     "v": 75,
+     "raw": "75"
+    },
+    "CLIN": {
+     "v": 81,
+     "raw": "81"
+    },
+    "CTRX": {
+     "v": 96,
+     "raw": "96"
+    },
+    "DAP": {
+     "v": null,
+     "raw": ""
+    },
+    "DOX": {
+     "v": 71,
+     "raw": "71"
+    },
+    "LZD": {
+     "v": null,
+     "raw": ""
+    },
+    "NAF": {
+     "v": null,
+     "raw": ""
+    },
+    "T/S": {
+     "v": null,
+     "raw": ""
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  },
+  {
+   "organism": "Streptococcus anginosus group",
+   "n": 61,
+   "v": {
+    "AMP/PCN": {
+     "v": 100,
+     "raw": "100"
+    },
+    "CLIN": {
+     "v": 81,
+     "raw": "81"
+    },
+    "CTRX": {
+     "v": 100,
+     "raw": "100"
+    },
+    "DAP": {
+     "v": null,
+     "raw": ""
+    },
+    "DOX": {
+     "v": 62,
+     "raw": "62"
+    },
+    "LZD": {
+     "v": null,
+     "raw": ""
+    },
+    "NAF": {
+     "v": null,
+     "raw": ""
+    },
+    "T/S": {
+     "v": null,
+     "raw": ""
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  },
+  {
+   "organism": "Streptococcus mitis",
+   "n": 53,
+   "v": {
+    "AMP/PCN": {
+     "v": 60,
+     "raw": "60"
+    },
+    "CLIN": {
+     "v": 82,
+     "raw": "82"
+    },
+    "CTRX": {
+     "v": 96,
+     "raw": "96"
+    },
+    "DAP": {
+     "v": null,
+     "raw": ""
+    },
+    "DOX": {
+     "v": 83,
+     "raw": "83"
+    },
+    "LZD": {
+     "v": null,
+     "raw": ""
+    },
+    "NAF": {
+     "v": null,
+     "raw": ""
+    },
+    "T/S": {
+     "v": null,
+     "raw": ""
+    },
+    "VANC": {
+     "v": 100,
+     "raw": "100"
+    }
+   }
+  },
+  {
+   "organism": "Enterococcus faecalis",
+   "n": 350,
+   "v": {
+    "AMP/PCN": {
+     "v": 99,
+     "raw": "99"
+    },
+    "CLIN": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "DAP": {
+     "v": null,
+     "raw": ""
+    },
+    "DOX": {
+     "v": 28,
+     "raw": "28"
+    },
+    "LZD": {
+     "v": null,
+     "raw": ""
+    },
+    "NAF": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "T/S": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "VANC": {
+     "v": 97,
+     "raw": "97"
+    }
+   }
+  },
+  {
+   "organism": "Enterococcus faecium",
+   "n": 192,
+   "v": {
+    "AMP/PCN": {
+     "v": 14,
+     "raw": "14"
+    },
+    "CLIN": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "CTRX": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "DAP": {
+     "v": 97,
+     "raw": "97 4"
+    },
+    "DOX": {
+     "v": 16,
+     "raw": "16"
+    },
+    "LZD": {
+     "v": 96,
+     "raw": "96"
+    },
+    "NAF": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "T/S": {
+     "v": null,
+     "raw": "N/A"
+    },
+    "VANC": {
+     "v": 42,
+     "raw": "42"
+    }
+   }
+  }
+ ],
+ "changed": "2026-05-19T21:36:33+00:00"
+}

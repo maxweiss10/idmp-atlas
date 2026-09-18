@@ -1,2 +1,4 @@
 beautifulsoup4>=4.12
 lxml>=5.0
+pypdfium2>=4.30
+Pillow>=10
