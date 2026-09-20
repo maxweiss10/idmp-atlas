@@ -123,15 +123,26 @@
 
   /* ---------- context branch: pick the regimen, never hide it ---------- */
   var SITE_RX = { ucsf: /ucsf|parnassus|mission bay|mt\.? zion|mount zion|moffitt/i, zsfg: /zsfg|zuckerberg|sfgh|general hospital/i, va: /\bva\b|vasf|sfva|veteran/i, bch: /\bbch\b|benioff|children|oakland/i };
+  /* The chosen context is part of the address. Every regimen panel already carries a
+     unique id and the command palette already deep-links to it; the click handler just
+     never wrote it back. replaceState, not pushState: flipping between five tabs should
+     not bury the previous page under five history entries. */
+  function ctxWriteHash(id) {
+    if (!id || location.hash === '#' + id) return;
+    try { history.replaceState(null, '', '#' + id); } catch (e) {}
+  }
   function ctxApply(nav, id, scroll) {
-    var cols = $$('.rgc[data-ctx]'), many = $$('.ctx-n', nav).length > 4;
+    // a page can carry more than one context block; only touch the panels this nav owns
+    var ids = $$('.ctx-n', nav).map(function (b) { return b.getAttribute('data-ctx'); });
+    var owned = function (el) { return ids.indexOf(el.getAttribute('data-ctx')) >= 0; };
+    var many = ids.length > 4;
     $$('.ctx-n', nav).forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-ctx') === id); });
-    cols.forEach(function (c) {
+    $$('.rgc[data-ctx]').filter(owned).forEach(function (c) {
       var mine = c.getAttribute('data-ctx') === id;
       c.classList.toggle('dim', many && !mine);
       c.classList.toggle('lit', !many && mine);
     });
-    $$('.dtl[data-ctx]').forEach(function (d) { d.classList.toggle('dim', many && d.getAttribute('data-ctx') !== id); });
+    $$('.dtl[data-ctx]').filter(owned).forEach(function (d) { d.classList.toggle('dim', many && d.getAttribute('data-ctx') !== id); });
     $$('.rgx').forEach(function (g) {
       var vis = $$('.rgc:not(.dim)', g).length;
       g.setAttribute('data-cols', String(Math.min(vis || 1, 4)));
@@ -160,10 +171,15 @@
       if (pick) ctxApply(nav, pick, false);
     });
   }
+  function ctxPick(b, scroll) {
+    var nav = b.closest('.ctx'); nav.setAttribute('data-user', '1');
+    var id = b.getAttribute('data-ctx');
+    ctxApply(nav, id, scroll);
+    ctxWriteHash(id);
+  }
   document.addEventListener('click', function (ev) {
     var b = ev.target.closest('.ctx-n'); if (!b) return;
-    var nav = b.closest('.ctx'); nav.setAttribute('data-user', '1');
-    ctxApply(nav, b.getAttribute('data-ctx'), true);
+    ctxPick(b, true);
   });
   window.addEventListener('hashchange', function () { $$('.ctx').forEach(function (n) { n.removeAttribute('data-user'); }); ctxAuto(); });
   document.addEventListener('click', function (ev) { var li = ev.target.closest('ul.check > li'); if (li && !ev.target.closest('a')) li.classList.toggle('done'); });
@@ -624,4 +640,12 @@
 
   applyLens(false);
   centerCurrent();
+  // ctxAuto has already honoured location.hash by now, so the panel is on screen and
+  // scrollable; the browser could not reach it during parse while it was display:none.
+  (function () {
+    var h = location.hash.replace('#', '');
+    if (!h || !/^rx-\d+$/.test(h)) return;
+    var t = document.getElementById(h);
+    if (t) requestAnimationFrame(function () { t.scrollIntoView({ block: 'nearest', behavior: 'auto' }); });
+  })();
 })();
