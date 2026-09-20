@@ -343,6 +343,8 @@ html[data-allergy]:not([data-allergy=""]) .lens-btn::before { background: var(--
 .idx-grp li a:hover { color: var(--ink); background: var(--paper-3); text-decoration: none; }
 .idx-grp li a[aria-current="page"] { color: var(--ink); font-weight: 600; border-left-color: var(--link); background: var(--paper-3); }
 .idx-sec.hide, .idx-grp.hide, .idx-grp li.hide { display: none; }
+/* the lens hides index groups with the hidden attribute; make sure nothing outranks it */
+.idx-grp[hidden] { display: none; }
 
 /* -------------------------------------------------------------- document */
 .doc { min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr); }

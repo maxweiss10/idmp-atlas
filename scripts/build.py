@@ -747,15 +747,19 @@ def nav_html(tree, section, current_route, root):
         on = key == section
         groups = tree.get(key) or []
         count = sum(len(g["items"]) for g in groups)
+        # the lens hides the population the clinician excluded, so the badge has to count per population
+        n_adult = sum(len(g["items"]) for g in groups if g.get("pop") != "Pediatric")
+        n_peds = sum(len(g["items"]) for g in groups if g.get("pop") != "Adult")
         out.append(f'<div class="idx-sec{" on" if on else ""}" data-sec="{key}">')
         out.append(f'<div class="idx-sec-head"><a href="{root}{href}">{esc(label)}</a>'
                    + (f'<button type="button" class="idx-toggle" aria-expanded="{"true" if on else "false"}" aria-label="Show {esc(label)} contents">'
-                      f'<span class="idx-count">{count}</span></button>' if groups else "") + "</div>")
+                      f'<span class="idx-count" data-n-adult="{n_adult}" data-n-peds="{n_peds}">{count}</span></button>' if groups else "") + "</div>")
         if groups:
             out.append('<div class="idx-body"' + ("" if on else " hidden") + ">")
             if on:
                 for g in groups:
-                    out.append(f'<div class="idx-grp">')
+                    gp = f' data-pop="{g["pop"].lower()}"' if g.get("pop") else ""
+                    out.append(f'<div class="idx-grp"{gp}>')
                     if g.get("label"):
                         pop = f'<span class="idx-pop">{esc(g["pop"])}</span>' if g.get("pop") else ""
                         out.append(f'<div class="idx-grp-h">{pop}{esc(g["label"])}</div>')
@@ -1159,7 +1163,8 @@ def main():
         "empiric": [{"label": g["label"], "pop": "Adult", "items": g["items"]} for g in dx_groups(False)]
                  + [{"label": g["label"], "pop": "Pediatric", "items": g["items"]} for g in dx_groups(True)],
         "drugs": letter_groups(sorted(by_type["drug"], key=lambda x: x["title"].lower()))
-               + ([{"label": "Pediatric & neonatal", "items": [{"t": m["title"], "u": m["route"]} for m in sorted(peds_pages_all, key=lambda x: x["title"])]}] if peds_pages_all else []),
+               + ([{"label": "Pediatric & neonatal", "pop": "Pediatric",
+                    "items": [{"t": m["title"], "u": m["route"]} for m in sorted(peds_pages_all, key=lambda x: x["title"])]}] if peds_pages_all else []),
         "antibiograms": [{"label": "Explore", "items": [{"t": "Bug-drug explorer", "u": "antibiograms/explore.html"}]},
                          {"label": "Reports", "items": sorted(abx_items, key=lambda x: x["t"])}],
         "guidelines": [{"label": cat, "items": [{"t": m["title"], "u": m["route"]} for m in sorted(ms, key=lambda x: x["title"].lower())]}

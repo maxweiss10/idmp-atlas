@@ -29,6 +29,22 @@
     if (lens.allergy) parts.push('beta-lactam allergy');
     return parts.join(', ');
   }
+  /* The patient lens answers "adult or pediatric". The index has to answer with it:
+     an index group for the excluded population is hidden outright, not just de-emphasised,
+     so it leaves the tab order and the accessibility tree with it. The one exception is the
+     group holding the page you are on, which stays put so the nav never loses your place. */
+  function applyIdxPop() {
+    var want = lens.patient === 'peds' ? 'pediatric' : 'adult';
+    $$('.idx-grp[data-pop]').forEach(function (g) {
+      var mine = g.getAttribute('data-pop') === want || !!g.querySelector('a[aria-current="page"]');
+      g.hidden = !mine;
+    });
+    $$('.idx-count').forEach(function (c) {
+      var n = c.getAttribute(want === 'pediatric' ? 'data-n-peds' : 'data-n-adult');
+      if (n !== null) c.textContent = n;
+    });
+  }
+
   function applyLens(save) {
     LENS_KEYS.forEach(function (k) { if (lens[k]) html.setAttribute('data-' + k, lens[k]); else html.removeAttribute('data-' + k); });
     if (save) store('lens', lens);
@@ -47,6 +63,7 @@
       items.forEach(function (li) { ul.appendChild(li); });
     });
     $$('.site-sec[data-site], .restrict[data-site]').forEach(function (sec) { var s2 = sec.getAttribute('data-site'); sec.classList.toggle('on', !!lens.where && s2 === lens.where); sec.classList.toggle('off', !!lens.where && s2 !== lens.where && s2 !== ''); });
+    applyIdxPop();
     applyBands(document); applyDoseStrips(document); ctxAuto();
     document.dispatchEvent(new CustomEvent('lens-change'));
   }
@@ -524,10 +541,12 @@
     var body = $('.idx-body', sec);
     if (!body || body.getAttribute('data-filled') === '1') return;
     body.innerHTML = (groups || []).map(function (g) {
-      return '<div class="idx-grp">' + (g.label ? '<div class="idx-grp-h">' + (g.pop ? '<span class="idx-pop">' + esc(g.pop) + '</span>' : '') + esc(g.label) + '</div>' : '') +
+      return '<div class="idx-grp"' + (g.pop ? ' data-pop="' + esc(g.pop.toLowerCase()) + '"' : '') + '>' +
+        (g.label ? '<div class="idx-grp-h">' + (g.pop ? '<span class="idx-pop">' + esc(g.pop) + '</span>' : '') + esc(g.label) + '</div>' : '') +
         '<ul>' + g.items.map(function (it) { return '<li><a href="' + root + esc(it.u) + '">' + esc(it.t) + '</a></li>'; }).join('') + '</ul></div>';
     }).join('');
     body.setAttribute('data-filled', '1');
+    applyIdxPop();
   }
   document.addEventListener('click', function (ev) {
     var t = ev.target.closest('.idx-toggle'); if (!t) return;
@@ -546,6 +565,7 @@
     $$('.idx-sec').forEach(function (sec) {
       var any = false;
       $$('.idx-grp', sec).forEach(function (g) {
+        if (g.hidden) { g.classList.add('hide'); return; }
         var gAny = false;
         $$('li', g).forEach(function (li) {
           var ok = !terms.length || terms.every(function (t) { return norm(li.textContent).indexOf(t) >= 0; });
@@ -585,11 +605,12 @@
     b.addEventListener('click', function () { setIdxOpen(html.getAttribute('data-idxopen') !== '1'); });
   });
   if (idxWrap) idxWrap.addEventListener('click', function (ev) { if (ev.target.closest('a') && window.innerWidth <= 900) setIdxOpen(false); });
-  // keep the current item in view on load
-  (function () {
+  // keep the current item in view on load. Runs after applyLens, because the lens
+  // removes whole groups above the current item and moves it.
+  function centerCurrent() {
     var cur = $('.idx-grp a[aria-current="page"]');
     if (cur && idxWrap) { var top = cur.offsetTop - idxWrap.clientHeight / 2; $('.idx').scrollTop = Math.max(0, top); }
-  })();
+  }
 
   /* ---------- offline: service worker + whole-site download ---------- */
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {
@@ -602,4 +623,5 @@
   }); });
 
   applyLens(false);
+  centerCurrent();
 })();
