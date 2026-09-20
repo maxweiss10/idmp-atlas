@@ -148,7 +148,13 @@
     var ids = $$('.ctx-n', nav).map(function (b) { return b.getAttribute('data-ctx'); });
     var owned = function (el) { return ids.indexOf(el.getAttribute('data-ctx')) >= 0; };
     var many = ids.length > 4;
-    $$('.ctx-n', nav).forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-ctx') === id); });
+    var group = $('.ctx-ns', nav), listRole = group && group.getAttribute('role');
+    var selAttr = listRole === 'radiogroup' ? 'aria-checked' : 'aria-selected';
+    $$('.ctx-n', nav).forEach(function (b) {
+      var on = b.getAttribute('data-ctx') === id;
+      b.classList.toggle('on', on);
+      if (b.getAttribute('role')) { b.setAttribute(selAttr, on ? 'true' : 'false'); b.tabIndex = on ? 0 : -1; }
+    });
     $$('.rgc[data-ctx]').filter(owned).forEach(function (c) {
       var mine = c.getAttribute('data-ctx') === id;
       c.classList.toggle('dim', many && !mine);
@@ -182,18 +188,42 @@
       }
       // the opening context is the first in curated order (curation.json settings.<slug>.order)
       if (!pick && btns.length) pick = btns[0].getAttribute('data-ctx');
-      if (pick) ctxApply(nav, pick, false);
+      if (pick) { ctxApply(nav, pick, false); ctxAnnounce(nav, pick); }
     });
+  }
+  /* Selecting a context silently replaces the whole treatment section. The class on the
+     button was the only trace of it; a screen reader user heard nothing at all. The role
+     and aria-selected say which control is active, and this says what happened to the page. */
+  var ctxLive = $('#ctx-live'), ctxReady = false;
+  function ctxAnnounce(nav, id) {
+    if (!ctxLive || !ctxReady) return;
+    var b = $('.ctx-n[data-ctx="' + id + '"]', nav);
+    if (b) ctxLive.textContent = 'Showing ' + b.textContent.trim() + '.';
   }
   function ctxPick(b, scroll) {
     var nav = b.closest('.ctx'); nav.setAttribute('data-user', '1');
     var id = b.getAttribute('data-ctx');
     ctxApply(nav, id, scroll);
     ctxWriteHash(id);
+    ctxAnnounce(nav, id);
   }
   document.addEventListener('click', function (ev) {
     var b = ev.target.closest('.ctx-n'); if (!b) return;
     ctxPick(b, true);
+  });
+  // roving tabindex: arrows move between contexts and select as they go, Home/End jump
+  document.addEventListener('keydown', function (ev) {
+    if (ev.altKey || ev.ctrlKey || ev.metaKey) return;
+    var b = ev.target.closest && ev.target.closest('.ctx-n'); if (!b) return;
+    var list = $$('.ctx-n', b.closest('.ctx-ns')), i = list.indexOf(b), n = list.length, j = -1;
+    if (ev.key === 'ArrowRight' || ev.key === 'ArrowDown') j = (i + 1) % n;
+    else if (ev.key === 'ArrowLeft' || ev.key === 'ArrowUp') j = (i - 1 + n) % n;
+    else if (ev.key === 'Home') j = 0;
+    else if (ev.key === 'End') j = n - 1;
+    else return;
+    ev.preventDefault();
+    list[j].focus();
+    ctxPick(list[j], false);
   });
   window.addEventListener('hashchange', function () { $$('.ctx').forEach(function (n) { n.removeAttribute('data-user'); }); ctxAuto(); });
   document.addEventListener('click', function (ev) { var li = ev.target.closest('ul.check > li'); if (li && !ev.target.closest('a')) li.classList.toggle('done'); });
@@ -669,6 +699,7 @@
   }); });
 
   applyLens(false);
+  ctxReady = true;   // nothing to announce about the state the page loaded in
   syncIdxInert();
   centerCurrent();
   // ctxAuto has already honoured location.hash by now, so the panel is on screen and

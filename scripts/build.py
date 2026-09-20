@@ -909,6 +909,7 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
 <div class="drawer" id="drawer" hidden><div class="drawer-bar"><span class="grip"></span><button class="drawer-back" id="drawer-back" type="button" hidden>Back</button><a class="drawer-open" id="drawer-open" href="#">Open full page</a><button class="esc" id="drawer-close" type="button" aria-label="Close">esc</button></div><div class="drawer-body" id="drawer-body"></div></div>
 <div class="scrim" id="scrim" hidden></div>
 <div class="toast" id="toast" hidden></div>
+<div class="sr-only" id="ctx-live" role="status" aria-live="polite" aria-atomic="true"></div>
 <script src="{root}assets/site.js?v={ver}" defer></script>
 </body>
 </html>
@@ -1620,23 +1621,35 @@ def main():
                 cols = curated_order(m["slug"], cols, total)
                 nc = len(cols)
                 wide = nc <= 4
+                # Two different controls wear the same coat here. Above four contexts only the
+                # chosen panel is rendered, which is a tab set. At four or fewer every panel is
+                # on screen and the button just marks one, which is a radio group. Calling the
+                # second a tablist would promise a screen-reader user that the others are gone.
+                grp_role, itm_role, sel_attr = (("tablist", "tab", "aria-selected") if not wide
+                                                else ("radiogroup", "radio", "aria-checked"))
                 if nc > 1:
                     bits, seen_g = [], None
                     for i, c in enumerate(cols):
                         if c.get("group") and c["group"] != seen_g:
                             seen_g = c["group"]
-                            bits.append(f'<span class="ctx-g">{esc(seen_g)}</span>')
-                        bits.append(f'<button type="button" class="ctx-n{" on" if i == 0 else ""}" data-ctx="{c["a"]}" '
+                            bits.append(f'<span class="ctx-g" role="presentation">{esc(seen_g)}</span>')
+                        bits.append(f'<button type="button" class="ctx-n{" on" if i == 0 else ""}" id="tab-{c["a"]}" '
+                                    f'role="{itm_role}" {sel_attr}="{"true" if i == 0 else "false"}" '
+                                    f'aria-controls="{c["a"]}" tabindex="{0 if i == 0 else -1}" data-ctx="{c["a"]}" '
                                     f'data-tags="{esc(" ".join(c["tags"]))}" '
                                     f'title="{esc(c["label"][:150])}">{esc(c["short"])}</button>')
                     nodes = "".join(bits)
-                    body_parts.append(f'<nav class="ctx" aria-label="Clinical context"><span class="ctx-q">{icon("branch")}Which patient</span>'
-                                      f'<span class="ctx-ns">{nodes}</span></nav>')
+                    qid = f"ctx-q-{cols[0]['a']}"
+                    body_parts.append(f'<div class="ctx"><span class="ctx-q" id="{qid}">{icon("branch")}Which patient</span>'
+                                      f'<span class="ctx-ns" role="{grp_role}" aria-labelledby="{qid}">{nodes}</span></div>')
                 if bi == 0:
                     body_parts += folded
                     folded = []
+                # only a real tab set gets tabpanel semantics; a marked-but-visible column is
+                # just a column, and tabindex would add a focus stop for nothing
+                panel_a = (lambda c: f' role="tabpanel" aria-labelledby="tab-{c["a"]}" tabindex="0"') if (nc > 1 and not wide) else (lambda c: "")
                 shown = "".join(
-                    f'<div class="rgc{"" if (wide or i == 0) else " dim"}" data-ctx="{c["a"]}" id="{c["a"]}">'
+                    f'<div class="rgc{"" if (wide or i == 0) else " dim"}" data-ctx="{c["a"]}" id="{c["a"]}"{panel_a(c)}>'
                     + (f'<div class="rgc-h">'
                        + (f'<span class="rgc-g">{esc(c["group"])}</span>' if c.get("group") else "")
                        + f'{esc(c["short"])}'

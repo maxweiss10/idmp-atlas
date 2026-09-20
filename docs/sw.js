@@ -1,5 +1,5 @@
 /* IDMP Atlas service worker: shell precache, network-first pages with offline fallback, optional whole-site download. */
-var VER = '18e59ea0';
+var VER = 'fe5ac9fe';
 var SHELL = 'idmp-shell-' + VER, PAGES = 'idmp-pages-' + VER;
 var CORE = ['./', './index.html', './offline.html', './assets/site.css?v=' + VER, './assets/site.js?v=' + VER, './index.json', './manifest.webmanifest', './assets/icon-192.png'];
 
