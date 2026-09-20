@@ -1,5 +1,5 @@
 {
- "_comment": "Hand-checked layers that go beyond the source. 'settings' tags therapy rows (1-based index within the page's therapy tables) for the Setting lens and the home screens; 'n' is the expected row count, used to detect when IDMP changed a page so stale tags are dropped with a warning. 'sites' lists per-hospital policy pages the mirror pins on drug and syndrome pages. 'home' lists the tiles for each setting.",
+ "_comment": "Hand-checked layers that go beyond the source. 'settings' tags therapy rows (1-based index within the page's therapy tables) for the Setting lens and the home screens; 'n' is the expected row count, used to detect when IDMP changed a page so stale tags are dropped with a warning. 'order' lists therapy-row indices in the order a clinician actually reaches for them, which is not the order the source table happens to use; it is guarded by the same 'n' row count and the first entry becomes the page's opening context. 'sites' lists per-hospital policy pages the mirror pins on drug and syndrome pages. 'home' lists the tiles for each setting.",
  "settings": {
   "pharyngitis": {
    "default": [
@@ -50,6 +50,13 @@
     "outpatient"
    ],
    "n": 5,
+   "order": [
+    3,
+    4,
+    5,
+    1,
+    2
+   ],
    "rows": {
     "2": [
      "inpatient"

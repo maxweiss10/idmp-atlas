@@ -167,6 +167,7 @@
         });
         if (best) pick = best.getAttribute('data-ctx');
       }
+      // the opening context is the first in curated order (curation.json settings.<slug>.order)
       if (!pick && btns.length) pick = btns[0].getAttribute('data-ctx');
       if (pick) ctxApply(nav, pick, false);
     });

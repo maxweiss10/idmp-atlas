@@ -699,6 +699,29 @@ def short_notation(slug, label):
     return label
 
 CUT_RX = re.compile(r"\s+(?:If\b|This\b|These\b|Refer\b|See\b|Defined\b|Diagnosed\b|Characterized\b|Includes?\b|Need for\b|Usually\b|With known\b|Note:|\(e\.g|\(i\.e|Please\b|For full\b|Recommend)", re.I)
+def preamble_block(pre_parts):
+    """The definitions, the historiography of "complicated UTI", the discussion of when not
+    to treat: all of it belongs to the page, none of it belongs between the clinician and
+    the regimen. Long preambles fold into a summary that says what is inside; short ones
+    are not worth a click."""
+    html = "".join(pre_parts)
+    body = text_only(html)
+    words = len(body.split())
+    if words < 60:
+        return list(pre_parts)
+    soup = BeautifulSoup(html, "lxml")
+    heads = []
+    for h in soup.find_all(["h2", "h3"]):
+        t = text_only(str(h)).strip(" .:;")
+        if t and t.lower() not in [x.lower() for x in heads]:
+            heads.append(t)
+    label = "Definitions and background"
+    if heads:
+        label += ": " + ", ".join(heads[:3])
+    return [f'<details class="preamble"><summary><span class="pre-l">{esc(label)}</span>'
+            f'<span class="pre-n">{words} words</span></summary>'
+            f'<div class="preamble-b">{html}</div></details>']
+
 def short_label(page_title, label, limit=46):
     """One-line label for the chooser: drop the explanatory sentence and any repeat of the page title."""
     t = re.sub(r"\s+", " ", label or "").strip(" .;:,")
@@ -1241,6 +1264,22 @@ def main():
         return out[:6]
 
     # ---- settings curation
+    def curated_order(slug, cols, total):
+        """Source order is the order IDMP's table happens to use. Clinicians do not look
+        things up in that order. curation.json carries an explicit order per page; the same
+        row-count guard that drops stale setting tags drops a stale order."""
+        cur = curation["settings"].get(slug) or {}
+        want = cur.get("order")
+        if not want:
+            return cols
+        if cur.get("n") is not None and cur["n"] != total:
+            ctx.warnings.append({"title": slug, "route": f"empiric/{slug}.html",
+                                 "notes": [f"info: curated context order skipped, row count changed ({cur['n']} to {total})"]})
+            return cols
+        by_anchor = {c["a"]: c for c in cols}
+        picked = [by_anchor.pop(f"rx-{i}") for i in want if f"rx-{i}" in by_anchor]
+        return picked + [c for c in cols if c["a"] in by_anchor]
+
     def row_tags(slug, idx, label, total):
         cur = curation["settings"].get(slug)
         tags = set()
@@ -1573,8 +1612,12 @@ def main():
                                      "first": c_first, "alt": c_alt, "alt_cond": alt_tree.get("lead", ""),
                                      "slugs": slugs, "group": group_label})
                     ctx_blocks.append(cols)
-            body_parts = list(pre)
-            for cols in ctx_blocks:
+            # The chooser is the first thing the page asks and the regimen is the answer;
+            # neither belongs below 500 words of definitions. Chooser, folded prose, regimen.
+            folded = preamble_block(pre) if ctx_blocks else list(pre)
+            body_parts = [] if ctx_blocks else list(pre)
+            for bi, cols in enumerate(ctx_blocks):
+                cols = curated_order(m["slug"], cols, total)
                 nc = len(cols)
                 wide = nc <= 4
                 if nc > 1:
@@ -1584,10 +1627,14 @@ def main():
                             seen_g = c["group"]
                             bits.append(f'<span class="ctx-g">{esc(seen_g)}</span>')
                         bits.append(f'<button type="button" class="ctx-n{" on" if i == 0 else ""}" data-ctx="{c["a"]}" '
-                                    f'data-tags="{esc(" ".join(c["tags"]))}" title="{esc(c["label"][:150])}">{esc(c["short"])}</button>')
+                                    f'data-tags="{esc(" ".join(c["tags"]))}" '
+                                    f'title="{esc(c["label"][:150])}">{esc(c["short"])}</button>')
                     nodes = "".join(bits)
                     body_parts.append(f'<nav class="ctx" aria-label="Clinical context"><span class="ctx-q">{icon("branch")}Which patient</span>'
                                       f'<span class="ctx-ns">{nodes}</span></nav>')
+                if bi == 0:
+                    body_parts += folded
+                    folded = []
                 shown = "".join(
                     f'<div class="rgc{"" if (wide or i == 0) else " dim"}" data-ctx="{c["a"]}" id="{c["a"]}">'
                     + (f'<div class="rgc-h">'
