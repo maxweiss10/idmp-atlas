@@ -681,11 +681,24 @@
     b.addEventListener('click', function () { setIdxOpen(html.getAttribute('data-idxopen') !== '1'); });
   });
   if (idxWrap) idxWrap.addEventListener('click', function (ev) { if (ev.target.closest('a') && window.innerWidth <= 900) setIdxOpen(false); });
-  // keep the current item in view on load. Runs after applyLens, because the lens
-  // removes whole groups above the current item and moves it.
+  /* Keep the current item in view. This was computed once, from a deferred script, against
+     a 4233px list, before Inter arrived from Google Fonts with display=swap: on a cold load
+     the fallback metrics put the active row 1730px above the visible area, so the nav showed
+     pediatric sections while you were on an adult page. Warm loads landed correctly, which
+     is the worst possible failure mode. Recompute when the webfont lands and whenever the
+     list resizes. offsetTop is measured against the offsetParent, so read clientHeight and
+     set scrollTop on that same box rather than on two different ones. */
   function centerCurrent() {
+    var scroller = $('.idx');
     var cur = $('.idx-grp a[aria-current="page"]');
-    if (cur && idxWrap) { var top = cur.offsetTop - idxWrap.clientHeight / 2; $('.idx').scrollTop = Math.max(0, top); }
+    if (!cur || !scroller) return;
+    var top = cur.offsetTop - (scroller.clientHeight / 2) + (cur.offsetHeight / 2);
+    scroller.scrollTop = Math.max(0, Math.min(top, scroller.scrollHeight - scroller.clientHeight));
+  }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(centerCurrent);
+  if (window.ResizeObserver) {
+    var idxRO = new ResizeObserver(function () { centerCurrent(); });
+    var idxEl = $('.idx'); if (idxEl) idxRO.observe(idxEl);
   }
 
   /* ---------- offline: service worker + whole-site download ---------- */

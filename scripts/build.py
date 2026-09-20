@@ -60,8 +60,35 @@ def human_date(iso):
     except Exception:
         return iso[:10]
 
+# Tags that do not break a word. Everything else is a boundary and gets a space.
+# Inline tags do not break a word; everything else is a boundary.
+INLINE_TAGS = frozenset("a abbr b bdi bdo big cite code data dfn em i kbd mark q s samp small "
+                        "span strong sub sup time tt u var wbr".split())
+_B = "\x00"   # a boundary whose meaning depends on what sits either side of it
+
 def text_only(fragment):
-    return re.sub(r"\s+", " ", BeautifulSoup(fragment or "", "lxml").get_text(" ")).strip()
+    """Flatten markup to the text a reader actually sees.
+
+    get_text(" ") puts a space at every tag boundary, including boundaries inside a word.
+    IDMP's source splits words across intra-word markup - Pseudomonas arrives as
+    <em>P</em><i><em>seudomonas</em></i> - so a blanket separator produced "P seudomonas"
+    in body copy and in the search index. On a page whose whole value is being a faithful
+    mirror, a mangled organism name is the cheapest way to lose the reader.
+
+    The same source also hangs footnote markers off values in their own <span>, so the
+    antibiogram cell "95" followed by marker "4" would join into 954. An inline boundary
+    therefore closes only between two letters, which is what a split word looks like;
+    everywhere else, and against a digit in particular, it stays a space.
+    """
+    soup = BeautifulSoup(fragment or "", "lxml")
+    for t in soup.find_all(True):
+        sep = _B if t.name in INLINE_TAGS else " "
+        t.insert_before(sep)
+        t.insert_after(sep)
+    txt = soup.get_text("")
+    txt = re.sub(r"(?<=[^\W\d_])" + _B + r"+(?=[^\W\d_])", "", txt)   # letter|letter: one word
+    txt = txt.replace(_B, " ")
+    return re.sub(r"\s+", " ", txt).strip()
 
 def jdump(obj):
     return json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
@@ -203,7 +230,9 @@ def expand_grid(table):
                 row.append(pending.pop((r_i, c))); c += 1
             cs = int(cell.get("colspan") or 1) if str(cell.get("colspan") or "1").isdigit() else 1
             rs = int(cell.get("rowspan") or 1) if str(cell.get("rowspan") or "1").isdigit() else 1
-            entry = {"html": inner_html(cell), "text": cell.get_text(" ", strip=True).replace("\xa0", " "), "th": cell.name == "th"}
+            # text_only, not get_text(" "): table cells are where the source splits organism
+            # names across intra-word markup, and these strings become indication labels.
+            entry = {"html": inner_html(cell), "text": text_only(str(cell)).replace("\xa0", " "), "th": cell.name == "th"}
             for k in range(cs):
                 row.append(entry if k == 0 else dict(entry, dup=True))
                 for rr in range(1, rs):
@@ -341,6 +370,11 @@ ICON_SPRITE = """<svg class="sprite" aria-hidden="true" focusable="false">
 <symbol id="i-or" viewBox="0 0 24 24"><path d="M6 12h12"/><path d="m14 8 4 4-4 4"/></symbol>
 <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-8.5 8.5"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
 <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.2 15.2 4.8 4.8"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+<symbol id="i-rx" viewBox="0 0 24 24"><path d="M6 20V5h4.5a3.5 3.5 0 0 1 0 7H6"/><path d="m11 12 7 8M18 12l-7 8"/></symbol>
+<symbol id="i-vial" viewBox="0 0 24 24"><path d="M9 3h6M10 3v11.5a2 2 0 0 0 4 0V3"/><path d="M10 11.5h4"/><path d="M8.5 20.5h7"/></symbol>
+<symbol id="i-grid" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="2"/><path d="M3.5 9.5h17M3.5 15h17M9.5 3.5v17"/></symbol>
 </defs></svg>"""
 
 def icon(name, cls=""):
@@ -699,6 +733,39 @@ def short_notation(slug, label):
     return label
 
 CUT_RX = re.compile(r"\s+(?:If\b|This\b|These\b|Refer\b|See\b|Defined\b|Diagnosed\b|Characterized\b|Includes?\b|Need for\b|Usually\b|With known\b|Note:|\(e\.g|\(i\.e|Please\b|For full\b|Recommend)", re.I)
+def relevel_headings(html):
+    """Source documents arrive with whatever heading levels their author used, and the
+    page wraps them in its own structure, so the two interleave into skips and repeats.
+    Re-level the whole document against its own nesting: an outline with no gaps, one
+    level per depth. Also drops the trailing colons the source puts on section titles."""
+    if "<h" not in html:
+        return html
+    soup = BeautifulSoup(html, "lxml")
+    stack = []
+    for h in soup.find_all(re.compile(r"^h[1-6]$")):
+        lv = int(h.name[1])
+        while stack and stack[-1] >= lv:
+            stack.pop()
+        stack.append(lv)
+        h.name = f"h{min(6, 1 + len(stack))}"          # h1 is the page title, in the shell
+        last = h.find_all(string=True)
+        if last:
+            t = last[-1]
+            trimmed = re.sub(r"\s*:\s*$", "", str(t))
+            if trimmed != str(t):
+                t.replace_with(trimmed)
+    return soup.body.decode_contents() if soup.body else html
+
+def fresh_chip(ctx, root):
+    """One canonical answer to "is this current?", next to the regimen, where the question
+    gets asked. The header chip carries the same value in the same words; the document head
+    keeps the source's own revision date, labelled as the source's."""
+    run = (ctx.status or {}).get("run")
+    if not run:
+        return ""
+    return (f'<a class="fresh" href="{root}changes.html" title="What changed on IDMP">'
+            f'mirrored <time datetime="{esc(run)}">{esc(human_date(run))}</time></a>')
+
 def preamble_block(pre_parts):
     """The definitions, the historiography of "complicated UTI", the discussion of when not
     to treat: all of it belongs to the page, none of it belongs between the clinician and
@@ -729,11 +796,18 @@ def short_label(page_title, label, limit=46):
     m = CUT_RX.search(t)
     if m and m.start() > 12 and (len(t) > limit or not m.group(0).lstrip().startswith("(")):
         t = t[:m.start()].strip(" .;:,-")
+    # Cut the repeated page title off the front. This used to measure the prefix on a
+    # normalised copy and then slice the original by that length: normalising collapses
+    # punctuation, so the slice landed short by however many characters it had removed and
+    # ate the first letters of the real label. "COVID-19, mild-moderate" came out as
+    # "Oderate" and "Re-critical illness" as "Critical illness", on the control a clinician
+    # uses to choose a regimen. Match the title in the original string instead.
     pt = re.sub(r"[^a-z0-9]+", " ", (page_title or "").lower()).strip()
-    tl = re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
-    if pt and tl.startswith(pt) and len(tl) > len(pt) + 3:
-        t = t[len(t) - (len(tl) - len(pt)):].strip(" ,;:-–—")
-        t = t[0].upper() + t[1:] if t else t
+    if pt:
+        lead = re.match(r"\W*".join(re.escape(w) for w in pt.split()) + r"[\s,;:.\-–—)\]}]*", t, flags=re.I)
+        if lead and len(t) - lead.end() > 3:
+            t = t[lead.end():].strip(" ,;:-–—")
+            t = t[0].upper() + t[1:] if t else t
     if len(t) > limit:
         cut = t[:limit].rsplit(" ", 1)[0]
         t = (cut if len(cut) > limit * 0.6 else t[:limit]).rstrip(" ,;:-") + "…"
@@ -811,6 +885,7 @@ def pager_html(prev_item, next_item, root):
 
 def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_head="", crumbs=None,
            fallback_notes=None, rail="", nav="", pager="", page_class="", kicker="", h1="", meta_bar=""):
+    content = relevel_headings(content)
     ver = ctx.asset_ver
     status = ctx.status or {}
     crumb_html = ""
@@ -826,7 +901,7 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
         src_html = (f'<div class="prov">'
                     f'<span class="prov-i"><span class="prov-k">Source</span>'
                     f'<a target="_blank" rel="noopener" href="{esc(node["source_url"])}">idmp.ucsf.edu</a></span>'
-                    f'<span class="prov-i"><span class="prov-k">Revised</span>'
+                    f'<span class="prov-i"><span class="prov-k">Source revised</span>'
                     f'<time datetime="{esc(node["changed"])}">{esc(human_date(node["changed"]))}</time></span>'
                     f'<button class="pin" data-fav="{esc(node["route"])}" data-title="{esc(node["title"])}" data-kind="{esc(node["type"])}">Pin</button></div>')
     head_block = ""
@@ -864,7 +939,7 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
   <header class="bar">
     <button class="bar-menu" id="idx-open" type="button" aria-label="Contents" aria-expanded="false" aria-controls="idx-wrap"><span></span><span></span><span></span></button>
     <a class="mark" href="{root}index.html"><img src="{root}assets/icon-192.png" alt="" width="20" height="20"><span class="mark-n">IDMP Atlas</span><span class="mark-s">unofficial mirror</span></a>
-    <button class="ask" id="ask-open" type="button"><span class="ask-i">/</span><span class="ask-t">Ask<i>cap icu</i><i>cefepime crcl 30</i><i>e coli cipro</i></span><kbd>⌘K</kbd></button>
+    <button class="ask" id="ask-open" type="button" aria-label="Search">{icon("search", "ask-ic")}<span class="ask-i">/</span><span class="ask-t">Ask<i>cap icu</i><i>cefepime crcl 30</i><i>e coli cipro</i></span><kbd>⌘K</kbd></button>
     <div class="bar-end">
       <button class="lens-btn" id="lens-open" type="button" title="Where / Setting / Patient"><span id="lens-summary">All sites, any setting, adult</span></button>
       <a class="sync" id="status" href="{root}changes.html" title="Sync status">sync</a>
@@ -878,17 +953,17 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
       {head_block}
       {content}
       {pager}
-      <footer class="doc-foot"><p><b>{SITE_NAME}</b> is an unofficial, read-only mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly. Not affiliated with UCSF or the IDMP. Content belongs to its authors; confirm against the source before acting. Last verified <time datetime="{esc(status.get('run',''))}">{esc(human_date(status.get('run')))}</time>. <span class="foot-l"><a href="{root}about.html">About</a><a href="https://github.com/{REPO}" target="_blank" rel="noopener">Source</a><button class="linklike" id="offline-btn" type="button">Save offline</button></span></p></footer>
+      <footer class="doc-foot"><p><b>{SITE_NAME}</b> is an unofficial, read-only mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly. Not affiliated with UCSF or the IDMP. Content belongs to its authors; <b>confirm against the source before acting</b>. <a href="{root}changes.html">Mirror freshness and what changed</a>. <span class="foot-l"><a href="{root}about.html">About</a><a href="https://github.com/{REPO}" target="_blank" rel="noopener">Source</a><button class="linklike" id="offline-btn" type="button">Save offline</button></span></p></footer>
     </div>
     {f'<aside class="meta">{rail}</aside>' if rail else ""}
   </main>
 </div>
 <nav class="tabs" aria-label="Quick navigation">
-  <button type="button" data-open="palette"><i>/</i>Ask</button>
-  <button type="button" id="idx-open-2"><i>≡</i>Index</button>
-  <a href="{root}empiric/index.html"><i>Rx</i>Empiric</a>
-  <a href="{root}drugs/index.html"><i>mg</i>Dosing</a>
-  <a href="{root}antibiograms/explore.html"><i>%</i>Bugs</a>
+  <button type="button" data-open="palette">{icon("search")}Search</button>
+  <button type="button" id="idx-open-2">{icon("list")}Index</button>
+  <a href="{root}empiric/index.html">{icon("rx")}Empiric</a>
+  <a href="{root}drugs/index.html">{icon("vial")}Dosing</a>
+  <a href="{root}antibiograms/explore.html">{icon("grid")}Antibiogram</a>
 </nav>
 <div class="ovl" id="palette" hidden><div class="pal" role="dialog" aria-label="Search">
   <div class="pal-in"><span class="pal-i">/</span><input type="search" id="q" placeholder="Syndrome, drug + CrCl, organism + drug, guideline…" autocomplete="off" aria-label="Search"><button class="esc" data-close type="button">esc</button></div>
@@ -1199,6 +1274,26 @@ def main():
                                               {"t": "Publications", "u": "publications.html"},
                                               {"t": "About this mirror", "u": "about.html"}]}],
     }
+    # 13. Six of twenty-seven index groups held exactly one item, with the label restating
+    # the child nearly verbatim ("Adult / Urinary Tract Infections" over "Urinary Tract
+    # Infection (UTI)"). A heading over a list of one is not a category; promote the item.
+    def _words(t):
+        return {w.rstrip("s") for w in re.findall(r"[a-z0-9]+", (t or "").lower()) if len(w) > 1}
+
+    for _sk, _groups in tree.items():
+        for _g in _groups:
+            # the population is already on the badge and in the lens; saying it again in
+            # the label is what pushes these headings onto a second line
+            if _g.get("pop") and _g.get("label"):
+                _g["label"] = re.sub(r"^(Adult|Pediatric|Peds)\s+(?=[A-Za-z0-9])", "", _g["label"])
+            # A heading over a list of one is not a category when it restates the child:
+            # "Urinary Tract Infections" over "Urinary Tract Infection (UTI)". An A-Z
+            # letter is a different thing, so the test is word containment, not length.
+            if len(_g["items"]) == 1 and _g.get("label"):
+                lw, iw = _words(_g["label"]), _words(_g["items"][0]["t"])
+                if lw and lw <= iw:
+                    _g["label"] = ""
+
     # flat order for previous/next inside a group
     flat = {}
     for skey, groups in tree.items():
@@ -1637,7 +1732,9 @@ def main():
                                     f'role="{itm_role}" {sel_attr}="{"true" if i == 0 else "false"}" '
                                     f'aria-controls="{c["a"]}" tabindex="{0 if i == 0 else -1}" data-ctx="{c["a"]}" '
                                     f'data-tags="{esc(" ".join(c["tags"]))}" '
-                                    f'title="{esc(c["label"][:150])}">{esc(c["short"])}</button>')
+                                    # a visibly truncated tab still needs a complete accessible name
+                                    + (f'aria-label="{esc(c["label"][:150])}" ' if c["short"].endswith("\u2026") else "")
+                                    + f'title="{esc(c["label"][:150])}">{esc(c["short"])}</button>')
                     nodes = "".join(bits)
                     qid = f"ctx-q-{cols[0]['a']}"
                     body_parts.append(f'<div class="ctx"><span class="ctx-q" id="{qid}">{icon("branch")}Which patient</span>'
@@ -1661,7 +1758,7 @@ def main():
                 copy_one = ("" if nc > 1 else
                             f'<button type="button" class="copy" data-copy="{cols[0]["a"]}">Copy for note</button>')
                 body_parts.append(f'<section class="money{"" if wide else " money-one"}">'
-                                  f'<div class="money-hd"><h2 class="money-h">First choice</h2>{copy_one}</div>'
+                                  f'<div class="money-hd"><div class="money-h fld-h">First choice</div>{fresh_chip(ctx, root)}{copy_one}</div>'
                                   f'<div class="rgx" data-cols="{min(nc, 4) if wide else 1}">{shown}</div></section>')
                 # "Alternative" over an empty box reads as "there is no alternative". Every
                 # context gets a panel here: either the alternative, or a sentence saying the
@@ -1681,7 +1778,7 @@ def main():
                                           f'<div class="rgc-b rgc-empty">IDMP lists no alternative regimen for '
                                           f'{esc(c["short"].rstrip("…"))}.</div></div>')
                     n_alt = len(cols) if wide else 1
-                    body_parts.append(f'<section class="alt-blk"><h2 class="alt-h">Alternative</h2>'
+                    body_parts.append(f'<section class="alt-blk"><div class="alt-h fld-h">Alternative</div>'
                                       f'<div class="rgx" data-cols="{min(n_alt, 4)}">{"".join(panels)}</div></section>')
                 cov = coverage_grid(cols[0]["cells"].get("pathogens", {}).get("html", ""), set(cols[0]["slugs"]), root)
                 if cov:
@@ -1692,7 +1789,7 @@ def main():
                     cc = c["cells"]
                     blocks = ""
                     if cc.get("pathogens") and cc["pathogens"]["text"]:
-                        blocks += f'<div class="bl"><h4>Common pathogens</h4><div class="rx-body">{cc["pathogens"]["html"]}</div></div>'
+                        blocks += f'<div class="bl"><div class="fld-h">Common pathogens</div><div class="rx-body">{cc["pathogens"]["html"]}</div></div>'
                     if cc.get("comments") and cc["comments"]["text"]:
                         ch = cc["comments"]["html"]
                         cs = BeautifulSoup(ch, "lxml")
@@ -1700,10 +1797,10 @@ def main():
                             prev = ul.find_previous_sibling(["p", "h3", "h4", "strong"])
                             if prev is not None and re.search(r"if any|consider|criteria|risk factor|indication|following|when", prev.get_text(" "), flags=re.I):
                                 ul["class"] = (ul.get("class") or []) + ["check"]
-                        blocks += f'<div class="bl"><h4>Comments</h4><div class="rx-body">{cs.body.decode_contents() if cs.body else ch}</div></div>'
+                        blocks += f'<div class="bl"><div class="fld-h">Comments</div><div class="rx-body">{cs.body.decode_contents() if cs.body else ch}</div></div>'
                     for key, cell in cc.items():
                         if key.startswith("extra:") and cell["text"]:
-                            blocks += f'<div class="bl"><h4>{esc(key[6:])}</h4><div class="rx-body">{cell["html"]}</div></div>'
+                            blocks += f'<div class="bl"><div class="fld-h">{esc(key[6:])}</div><div class="rx-body">{cell["html"]}</div></div>'
                     tw = []
                     ivpo = [drug_titles[d["slug"]] for st in regimen_tree(cc.get("first", {}).get("html", ""))["steps"]
                             for d in st["drugs"] if "iv-po" in drug_tags.get(d["slug"], [])]
@@ -1715,15 +1812,15 @@ def main():
                                  if re.search(r"\bID\b.*consult|infectious diseases? consult|consult(ation)? (is )?recommended", x, flags=re.I)][:2]:
                         tw.append(f'<li><b>Consult:</b> {esc(sent)}</li>')
                     if tw:
-                        blocks += '<div class="bl then-what"><h4>Then what</h4><ul>' + "".join(tw) + "</ul></div>"
+                        blocks += '<div class="bl then-what"><div class="fld-h">Then what</div><ul>' + "".join(tw) + "</ul></div>"
                     if blocks:
                         below.append(f'<div class="dtl{"" if (wide or c is cols[0]) else " dim"}" data-ctx="{c["a"]}">'
-                                     + (f'<h3>{esc(c["short"])}</h3>' if nc > 1 else "") + blocks + "</div>")
+                                     + (f'<h2>{esc(c["short"])}</h2>' if nc > 1 else "") + blocks + "</div>")
                 if below:
                     body_parts.append(f'<section class="detail">{"".join(below)}</section>')
                 raw = "".join(
-                    f'<div class="src-row"><h4>{esc(c["short"])}</h4>' + "".join(
-                        f'<div class="src-col"><h5>{LABELS.get(k, k)}</h5><div class="rx-body">{c["cells"][k]["html"]}</div></div>'
+                    f'<div class="src-row"><div class="src-row-h">{esc(c["short"])}</div>' + "".join(
+                        f'<div class="src-col"><div class="fld-h">{LABELS.get(k, k)}</div><div class="rx-body">{c["cells"][k]["html"]}</div></div>'
                         for k in ("first", "alt", "pathogens", "comments", "duration") if c["cells"].get(k) and c["cells"][k]["text"]) + "</div>"
                     for c in cols)
                 body_parts.append(f'<details class="src-raw"><summary>{icon("doc")}These rows exactly as IDMP publishes them</summary>{raw}</details>')
