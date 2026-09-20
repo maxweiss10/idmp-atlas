@@ -611,11 +611,27 @@
       if (ev.key === 'Enter') { var first = $('.idx-grp li:not(.hide) a'); if (first) location.href = first.href; }
     });
   }
+  /* Below the drawer breakpoint the index is a closed off-canvas panel. transform alone
+     only moves it off screen: all of its links stay in the tab order, ahead of the
+     article, so a keyboard or switch-control user traverses an invisible index before
+     reaching the page. inert removes it from the tab order and the accessibility tree
+     together, and costs nothing above the breakpoint, where the drawer is a real sidebar. */
+  var idxMQ = window.matchMedia('(max-width: 900px)');
+  function syncIdxInert() {
+    if (!idxWrap) return;
+    var closed = idxMQ.matches && html.getAttribute('data-idxopen') !== '1';
+    if (!closed) { idxWrap.removeAttribute('inert'); return; }
+    // never strand the caret inside a panel that is about to stop existing
+    if (idxWrap.contains(document.activeElement)) { var mb = $('#idx-open'); (mb || document.body).focus(); }
+    idxWrap.setAttribute('inert', '');
+  }
+  (idxMQ.addEventListener ? idxMQ.addEventListener.bind(idxMQ, 'change') : idxMQ.addListener.bind(idxMQ))(syncIdxInert);
   function setIdxOpen(on) {
     if (on) html.setAttribute('data-idxopen', '1'); else html.removeAttribute('data-idxopen');
     var mb = $('#idx-open'); if (mb) mb.setAttribute('aria-expanded', on ? 'true' : 'false');
     if (scrim) scrim.hidden = !on || !drawer.hidden;
     document.body.style.overflow = on ? 'hidden' : '';
+    syncIdxInert();
   }
   $$('#idx-open, #idx-open-2').forEach(function (b) {
     b.addEventListener('click', function () { setIdxOpen(html.getAttribute('data-idxopen') !== '1'); });
@@ -639,6 +655,7 @@
   }); });
 
   applyLens(false);
+  syncIdxInert();
   centerCurrent();
   // ctxAuto has already honoured location.hash by now, so the panel is on screen and
   // scrollable; the browser could not reach it during parse while it was display:none.
