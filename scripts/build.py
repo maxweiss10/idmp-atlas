@@ -1650,15 +1650,26 @@ def main():
                 body_parts.append(f'<section class="money{"" if wide else " money-one"}">'
                                   f'<div class="money-hd"><h2 class="money-h">First choice</h2>{copy_one}</div>'
                                   f'<div class="rgx" data-cols="{min(nc, 4) if wide else 1}">{shown}</div></section>')
-                alts = "".join(
-                    f'<div class="rgc{"" if (wide or i == 0) else " dim"}" data-ctx="{c["a"]}">'
-                    + (f'<div class="rgc-h">{esc(c["short"])}{(" — " + esc(c["alt_cond"])) if c["alt_cond"] else ""}</div>' if nc > 1 else
-                       (f'<div class="rgc-h">{esc(c["alt_cond"])}</div>' if c["alt_cond"] else ""))
-                    + f'<div class="rgc-b">{c["alt"]}</div></div>' for i, c in enumerate(cols) if c["alt"])
-                if alts:
-                    n_alt = sum(1 for c in cols if c["alt"])
+                # "Alternative" over an empty box reads as "there is no alternative". Every
+                # context gets a panel here: either the alternative, or a sentence saying the
+                # source does not list one for that context.
+                if any(c["alt"] for c in cols):
+                    panels = []
+                    for i, c in enumerate(cols):
+                        cls = "" if (wide or i == 0) else " dim"
+                        if c["alt"]:
+                            head = (f'<div class="rgc-h">{esc(c["short"])}{(" — " + esc(c["alt_cond"])) if c["alt_cond"] else ""}</div>' if nc > 1 else
+                                    (f'<div class="rgc-h">{esc(c["alt_cond"])}</div>' if c["alt_cond"] else ""))
+                            panels.append(f'<div class="rgc{cls}" data-ctx="{c["a"]}">{head}'
+                                          f'<div class="rgc-b">{c["alt"]}</div></div>')
+                        else:
+                            head = f'<div class="rgc-h">{esc(c["short"])}</div>' if nc > 1 else ""
+                            panels.append(f'<div class="rgc rgc-none{cls}" data-ctx="{c["a"]}">{head}'
+                                          f'<div class="rgc-b rgc-empty">IDMP lists no alternative regimen for '
+                                          f'{esc(c["short"].rstrip("…"))}.</div></div>')
+                    n_alt = len(cols) if wide else 1
                     body_parts.append(f'<section class="alt-blk"><h2 class="alt-h">Alternative</h2>'
-                                      f'<div class="rgx" data-cols="{min(n_alt, 4) if wide else 1}">{alts}</div></section>')
+                                      f'<div class="rgx" data-cols="{min(n_alt, 4)}">{"".join(panels)}</div></section>')
                 cov = coverage_grid(cols[0]["cells"].get("pathogens", {}).get("html", ""), set(cols[0]["slugs"]), root)
                 if cov:
                     body_parts.append(cov)

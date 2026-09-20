@@ -127,6 +127,18 @@
      unique id and the command palette already deep-links to it; the click handler just
      never wrote it back. replaceState, not pushState: flipping between five tabs should
      not bury the previous page under five history entries. */
+  /* A heading standing over an empty box is read as an answer: "Alternative" followed by
+     whitespace says there is no alternative. Sections whose panels are all filtered out
+     for the active context are hidden outright. The build emits an explicit "IDMP lists
+     no alternative regimen for X" panel wherever it can; this catches the rest. */
+  function hideEmptySections() {
+    $$('section.money, section.alt-blk, section.detail, section.cv, section.block').forEach(function (sec) {
+      var kids = $$('[data-ctx]', sec);
+      if (!kids.length) return;
+      sec.hidden = !kids.some(function (k) { return !k.classList.contains('dim'); });
+    });
+  }
+
   function ctxWriteHash(id) {
     if (!id || location.hash === '#' + id) return;
     try { history.replaceState(null, '', '#' + id); } catch (e) {}
@@ -147,6 +159,7 @@
       var vis = $$('.rgc:not(.dim)', g).length;
       g.setAttribute('data-cols', String(Math.min(vis || 1, 4)));
     });
+    hideEmptySections();
     if (scroll) { var t = document.getElementById(id); if (t) t.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
   }
   function ctxAuto() {

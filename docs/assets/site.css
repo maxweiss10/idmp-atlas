@@ -523,6 +523,11 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: .76em; margi
 .rgc-h .copy { margin-left: auto; flex: 0 0 auto; font-weight: 400; }
 .rgc-b { flex: 1; padding: 18px 16px 16px; }
 .rgc.dim { display: none; }
+/* a context with no alternative says so, rather than leaving the heading over a gap */
+.rgc-none { background: 0 !important; border-right: 0; }
+.rgc-empty { color: var(--ink-4); font-size: 12.5px; font-style: italic; padding: 14px 16px; }
+/* sections whose every panel is filtered out are removed, headings and all */
+.money[hidden], .alt-blk[hidden], .detail[hidden], .cv[hidden], .block[hidden] { display: none; }
 .rgc-d { padding: 9px 16px; border-top: 1px solid var(--rule); font-size: 12.5px; display: flex; gap: 10px; align-items: baseline; }
 .rgc-d > span { font-size: 11px; color: var(--ink-4); }
 .rgc-d b { font-weight: 500; color: var(--ink); font-family: var(--mono); font-size: 12px; }
