@@ -159,6 +159,14 @@ def sanitize(fragment, ctx, root, page_slug="x"):
         el.decompose()
     for c in soup.find_all(string=lambda s: isinstance(s, Comment)):
         c.extract()
+    # The source marks footnote references as a styled <span>, not a <sup>. Styles are
+    # stripped here, so "95" followed by marker "4" was flattening to "954" - a 95%
+    # susceptibility that reads as 954. Promote the intent to a real tag before the style
+    # that carried it is discarded.
+    for el in soup.find_all("span", style=True):
+        style = (el.get("style") or "").lower()
+        if "vertical-align" in style and ("super" in style or "sub" in style):
+            el.name = "sup" if "super" in style else "sub"
     for el in list(soup.find_all(True)):
         if el.name in ("html", "body"):
             continue
@@ -926,8 +934,6 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
 <link rel="manifest" href="{root}manifest.webmanifest">
 <link rel="icon" href="{root}assets/icon-192.png">
 <link rel="apple-touch-icon" href="{root}assets/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="{root}assets/site.css?v={ver}">
 <script>try{{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);var L=JSON.parse(localStorage.getItem('lens')||'{{}}');for(var k in L)if(L[k])document.documentElement.setAttribute('data-'+k,L[k]);if(localStorage.getItem('idx')==='0')document.documentElement.setAttribute('data-idx','0');}}catch(e){{}}</script>
 {extra_head}
@@ -1101,10 +1107,10 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     for sub in ("assets", "img", "empiric", "drugs", "guidelines", "antibiograms", "pages", "people", "thumbs"):
         os.makedirs(os.path.join(OUT, sub), exist_ok=True)
-    flexoki = open(os.path.join(SITE, "assets", "vendor", "flexoki.css"), encoding="utf-8").read()
-    css = ("/* Flexoki by kepano - MIT. Vendored verbatim from github.com/kepano/flexoki\n"
-           "   See assets/vendor/NOTICE.md and assets/vendor/LICENSE-flexoki. */\n"
-           + flexoki + "\n" + open(os.path.join(SITE, "assets", "site.css"), encoding="utf-8").read())
+    # The palette is measured off the White Book itself now, so Flexoki is no longer
+    # referenced by a single rule and is not shipped. The vendored file and its licence
+    # stay in site/assets/vendor/ for provenance; see NOTICE.md.
+    css = open(os.path.join(SITE, "assets", "site.css"), encoding="utf-8").read()
     js = open(os.path.join(SITE, "assets", "site.js"), encoding="utf-8").read().replace("__REPO__", REPO)
     ctx.asset_ver = hashlib.sha1((css + js).encode()).hexdigest()[:8]
     open(os.path.join(OUT, "assets", "site.css"), "w", encoding="utf-8").write(css)
