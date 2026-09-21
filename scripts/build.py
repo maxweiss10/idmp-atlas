@@ -1529,7 +1529,7 @@ def main():
         used, out = {}, []
         for si, step in enumerate(tree["steps"]):
             if si:
-                out.append('<div class="jn">' + icon("plus")
+                out.append('<div class="jn"><b class="jn-t">+</b>'
                            + ('<span>with or without</span>' if step["optional"] else "") + "</div>")
             multi = len(step["drugs"]) > 1
             out.append(f'<div class="stp{" stp-any" if multi else ""}">')

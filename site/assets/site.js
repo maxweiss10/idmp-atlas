@@ -232,7 +232,7 @@
     var body = $('.rgc-b', col); if (!body) return '';
     var parts = [];
     Array.prototype.forEach.call(body.children, function (node) {
-      if (node.classList.contains('jn')) { parts.push(node.textContent.trim() ? 'with or without' : 'PLUS'); return; }
+      if (node.classList.contains('jn')) { parts.push(/with or without/i.test(node.textContent) ? 'with or without' : 'PLUS'); return; }
       if (node.classList.contains('rgc-lead') || node.classList.contains('rgc-tail')) { parts.push(node.textContent.trim()); return; }
       var drugs = [];
       $$('.rgd', node).length ? null : null;

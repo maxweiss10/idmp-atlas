@@ -71,12 +71,12 @@
      prose full of drug names, the content type a long line punishes hardest, because
      a skipped line means reading the wrong drug. Referenced in two places already
      but never defined, so both were silently inert. */
-  --prose-w: 52ch;
+  --prose-w: 96ch;
 
   --bar-h: 46px;
   --idx-w: 252px;
   --rail-w: 200px;
-  --doc-w: 1160px;
+  --doc-w: 1040px;
 
   /* Type scale. One ratio (1.125), six steps, every value in rem so that a reader
      who sets a 20px browser default gets 20px-based type instead of 8.5px labels.
@@ -256,7 +256,7 @@ html[data-allergy]:not([data-allergy=""]) .lens-btn::before { background: var(--
    condensed is how the book fits a whole syndrome on a sheet. It is set on the document
    column only. The shell around it stays in plain Arial, because the shell is the app,
    not the book. */
-.doc-in { min-width: 0; max-width: var(--doc-w); padding: 20px 34px 52px;
+.doc-in { min-width: 0; max-width: var(--doc-w); padding: 14px 28px 40px;
   font-family: var(--narrow); font-stretch: condensed; line-height: 1.3; color: var(--ink); }
 .doc-in p { margin: 3px 0 6px; }
 .doc-in ul { margin: 2px 0 3px; padding-left: 19px; list-style: disc; }
@@ -264,7 +264,10 @@ html[data-allergy]:not([data-allergy=""]) .lens-btn::before { background: var(--
 .doc-in ul ul ul { list-style: square; }
 .doc-in ol { margin: 2px 0 3px; padding-left: 21px; }
 .doc-in li { margin: 0 0 1px; line-height: 1.3; }
-.doc-in p, .doc-in li, .doc-in dd, .doc-in blockquote { max-width: var(--prose-w); }
+/* The measure is for running prose: the folded definitions and the Notes. Bullets, index
+   rows, captions and pointer blocks run the full column, as the manual's do. Capping every
+   <li> and <p> left a 500px strip under bands that spanned 1400px. */
+.preamble-b p, .block > p, .doc-in blockquote { max-width: var(--prose-w); }
 .doc-in table p, .doc-in table li, .doc-in .rgc-d p, .doc-in .bt p,
 .doc-in .rgd p, .doc-in .dl-d p { max-width: none; }
 .meta { border-left: 1px solid var(--rule-2); padding: 30px 16px; }
@@ -351,14 +354,14 @@ html[data-setting="inpatient"] body.home .col[data-for^="outpatient"], html[data
 .jump { display: flex; gap: 14px; overflow-x: auto; padding: 10px 0; margin-bottom: 4px; border-bottom: 1px solid var(--rule-2); scrollbar-width: none; }
 .jump::-webkit-scrollbar { display: none; }
 .jump a { white-space: nowrap; font-size: var(--fs-2); color: var(--ink-3); }
-.group { margin: 22px 0; }
+.group { margin: 10px 0; }
 .group h2 { font-size: var(--fs-1); font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-4); margin: 0 0 4px; padding-bottom: 5px; border-bottom: 1px solid var(--rule); }
 .links { list-style: none; margin: 0; padding: 0; }
-.links li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding: 7px 2px; border-bottom: 1px solid var(--rule-2); font-size: var(--fs-3); }
+.links li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; padding: 3px 2px; border-bottom: 1px solid var(--rule-2); font-size: var(--fs-3); }
 .links li:hover { background: var(--paper-3); }
 .links li > a:first-child, .links li .gl-main > a { color: var(--ink); font-weight: 500; letter-spacing: -.014em; }
 .links li a.big { font-size: var(--fs-4); font-weight: 600; }
-.links li .desc { flex-basis: 100%; margin: 2px 0 0; font-size: var(--fs-2); color: var(--ink-3); }
+.links li .desc { flex-basis: 100%; margin: 0; font-size: var(--fs-2); color: var(--ink-3); }
 .links li .sub { flex-basis: 100%; font-size: var(--fs-2); color: var(--ink-4); }
 .links li .sub a { color: var(--ink-3); }
 .links li.hide, .group.hide { display: none; }
@@ -435,7 +438,7 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
 .copy:hover { color: var(--ink); text-decoration: underline; }
 
 /* --- context branch: the decision that picks the regimen ---------------- */
-.ctx { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 2px 0 0; padding: 0 0 14px; }
+.ctx { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 0; padding: 0 0 6px; }
 .ctx-q { display: inline-flex; align-items: center; gap: 6px; font-size: var(--fs-2); color: var(--ink-4); }
 .ctx-q .ic { width: 14px; height: 14px; }
 .ctx-ns { display: flex; flex-wrap: wrap; gap: 2px 18px; align-items: center; }
@@ -463,7 +466,7 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
    value. Spending a warm hue on "Alternative" puts it in the same visual register as
    "ID approval needed at ZSFG", which is the one thing colour here should mean. */
 .money-h { color: var(--ink); font-weight: 700; }
-.alt-blk { margin: 16px 0 4px; padding-top: 10px; border-top: 1px solid var(--ink); }
+.alt-blk { margin: 8px 0 4px; padding-top: 0; border-top: 0; }   /* the band is the separator */
 .alt-h { color: var(--ink); font-weight: 400; }
 /* The manual boxes a decision panel once and never nests. The regimen columns are
    separated by a rule and framed by nothing. */
@@ -506,6 +509,7 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
 .jn::before, .jn::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
 .jn .ic { display: none; }
 .jn span { font-size: var(--fs-1); color: var(--ink-4); }
+.jn .jn-t { font-weight: 700; font-size: var(--fs-3); color: var(--ink); padding: 0 2px; }
 .orx { display: flex; align-items: center; gap: 7px; margin: 3px 0; color: var(--ink-4); }
 .orx::before, .orx::after { content: ""; flex: 1; height: 1px; background: var(--rule-2); }
 .orx .ic { display: none; }
@@ -564,7 +568,7 @@ html[data-where="ucsf"] .restr[data-sites~="ucsf"], html[data-where="zsfg"] .res
 /* --- local susceptibility, from the parsed antibiograms ----------------- */
 .cv { margin: 26px 0 6px; padding-top: 16px; border-top: 1px solid var(--rule); }
 .cv h3 { margin: 0 0 3px; font-size: var(--fs-3); }
-.cv-s { font-size: var(--fs-2); color: var(--ink-4); margin: 0 0 10px; max-width: var(--prose-w); }
+.cv-s { font-size: var(--fs-2); color: var(--ink-4); margin: 0 0 6px; }
 .cv-t { border-collapse: collapse; font-size: var(--fs-2); }
 .cv-t th { text-align: left; font-size: var(--fs-1); font-weight: 600; color: var(--ink-4); padding: 5px 10px 5px 0; border-bottom: 1px solid var(--rule); }
 .cv-t td { padding: 5px 10px 5px 0; border-bottom: 1px solid var(--rule-2); font-family: var(--mono); font-size: var(--fs-2); text-align: center; min-width: 76px; }
@@ -573,10 +577,10 @@ html[data-where="ucsf"] .restr[data-sites~="ucsf"], html[data-where="zsfg"] .res
 .cv-t td.s-mid { background: var(--h-mid); } .cv-t td.s-lo { background: var(--h-lo); }
 
 /* --- read once, below the fold, at a reading measure -------------------- */
-.detail { margin: 18px 0 0; padding-top: 12px; border-top: 1px solid var(--rule); display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 0 30px; }
+.detail { margin: 10px 0 0; padding-top: 6px; border-top: 1px solid var(--rule); display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 0 30px; }
 .detail .dtl h2 { font-size: var(--fs-2); margin: 0 0 6px; color: var(--ink-3); letter-spacing: -.006em; }
 .money-one ~ .detail .dtl > h2 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); margin: -1px; }
-.detail .bl { margin-bottom: 16px; max-width: var(--prose-w); }
+.detail .bl { margin-bottom: 10px; }
 .detail .bl .fld-h { color: var(--ink-3); }
 .detail .rx-body { font-size: var(--fs-3); line-height: 1.55; color: var(--ink-2); }
 .detail .rx-body p { margin: 0 0 6px; }
