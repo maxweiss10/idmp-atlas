@@ -395,17 +395,9 @@ def dose_marks(dose_text, band_count=1, restricted=False):
     out = []
     iv = re.search(r"\bIV\b|INFUS", t)
     po = re.search(r"\bPO\b|ORAL|\bNG\b", t)
-    # The book writes its qualifiers out; it has no pictograms. Same facts, same titles.
-    if iv and po:
-        out.append('<span class="mk mk-both" title="Interchangeable IV and oral: a step-down candidate">IV/PO</span>')
-    elif iv:
-        out.append('<span class="mk" title="Intravenous">IV</span>')
-    elif po:
-        out.append('<span class="mk" title="Oral">PO</span>')
-    if re.search(r"MG/KG|/KG\b|G/KG", t):
-        out.append('<span class="mk" title="Weight-based: the number shown is per kilogram">mg/kg</span>')
-    if band_count > 1:
-        out.append(f'<span class="mk mk-renal" title="Renal-function dependent: {band_count} bands published">CrCl&nbsp;{band_count}</span>')
+    # Route, weight basis and band count were all read off the dose text and then printed
+    # beside it, so the reader saw "100 mg PO q12h  PO" and a "CrCl 2" that the band table
+    # under the line already shows. Only restriction is not in the dose text.
     if restricted:
         out.append('<span class="mk mk-restrict" title="ID approval required at your selected hospital">restricted</span>')
     return "".join(out)
@@ -581,17 +573,13 @@ def dose_line(dd, row_index, band_index, matched, restricted=False):
     txt = r["d"][band_index] if band_index < len(r["d"]) else ""
     if not txt:
         return "", ""
-    marks = dose_marks(txt, len(dd["bands"]), restricted)
+    marks = dose_marks(txt, len(dd["bands"]), restricted)   # now only "restricted" 
     label = ""
     if matched and r["i"]:
         label = f'<span class="dl-ind">for {esc(r["i"][:46].rsplit(" ", 1)[0] if len(r["i"]) > 46 else r["i"])}</span>'
     elif r["i"] and not re.match(r"^(standard|usual|general|all|normal)", r["i"], flags=re.I) and len(dd["rows"]) > 1:
         label = f'<span class="dl-ind">{esc(r["i"][:46])}</span>'
-    band = dd["bands"][band_index] if band_index < len(dd["bands"]) else None
-    bl = ""
-    if band and len(dd["bands"]) > 1:
-        bl = f'<span class="dl-band">{esc(band.get("label", ""))}</span>'
-    return f'<span class="dl"><span class="dl-d">{esc(txt)}</span>{marks}</span>{label}{bl}', txt
+    return f'<span class="dl"><span class="dl-d">{esc(txt)}</span>{marks}</span>{label}', txt
 
 def band_table(dd, row_index, band_index):
     """All published renal bands for the row on show. Inline, never behind a hover."""
@@ -800,7 +788,7 @@ def preamble_block(pre_parts):
     if heads:
         label += ": " + ", ".join(heads[:3])
     return [f'<details class="preamble"><summary><span class="pre-l">{esc(label)}</span>'
-            f'<span class="pre-n">{words} words</span></summary>'
+            f'</summary>'
             f'<div class="preamble-b">{html}</div></details>']
 
 def short_label(page_title, label, limit=46):
@@ -864,7 +852,7 @@ def nav_html(tree, section, current_route, root):
         out.append(f'<div class="idx-sec{" on" if on else ""}" data-sec="{key}">')
         out.append(f'<div class="idx-sec-head"><a href="{root}{href}">{esc(label)}</a>'
                    + (f'<button type="button" class="idx-toggle" aria-expanded="{"true" if on else "false"}" aria-label="Show {esc(label)} contents">'
-                      f'<span class="idx-count" data-n-adult="{n_adult}" data-n-peds="{n_peds}">{count}</span></button>' if groups else "") + "</div>")
+                      f'</button>' if groups else "") + "</div>")
         if groups:
             out.append('<div class="idx-body"' + ("" if on else " hidden") + ">")
             if on:
@@ -902,6 +890,11 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
     content = relevel_headings(content)
     ver = ctx.asset_ver
     status = ctx.status or {}
+    foot_src = ""
+    if node:
+        foot_src = (f'<p class="foot-src">Source page: <a target="_blank" rel="noopener" href="{esc(node["source_url"])}">'
+                    f'{esc(node["source_url"].replace("https://", ""))}</a>, revised '
+                    f'<time datetime="{esc(node["changed"])}">{esc(human_date(node["changed"]))}</time>.</p>')
     crumb_html = ""
     if crumbs:
         crumb_html = '<nav class="crumbs" aria-label="Breadcrumb">' + "".join(
@@ -910,21 +903,16 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
     if fallback_notes:
         warn_html = ('<div class="note note-warn"><b>Layout note</b> Part of this page did not match the layout the '
                      'mirror expects, so it is shown in its original form. ' + esc("; ".join(fallback_notes)) + '.</div>')
-    src_html = ""
-    if node:
-        src_html = (f'<div class="prov">'
-                    f'<span class="prov-i"><span class="prov-k">Source</span>'
-                    f'<a target="_blank" rel="noopener" href="{esc(node["source_url"])}">idmp.ucsf.edu</a></span>'
-                    f'<span class="prov-i"><span class="prov-k">Source revised</span>'
-                    f'<time datetime="{esc(node["changed"])}">{esc(human_date(node["changed"]))}</time></span>'
-                    f'<button class="pin" data-fav="{esc(node["route"])}" data-title="{esc(node["title"])}" data-kind="{esc(node["type"])}">Pin</button></div>')
+    # The masthead is the chapter and the topic, nothing else. The breadcrumb said the same
+    # two things again above it; the provenance row (source link, revision date, Pin) sat
+    # between the title and the answer and now lives in the footer, minus Pin.
+    sec_href = next((h for h, _t in reversed(crumbs or []) if h), None)
     head_block = ""
     if h1:
-        head_block = (f'<header class="doc-head">{crumb_html}'
-                      + (f'<p class="kicker-line">{kicker}</p>' if kicker else "")
-                      + f'<h1>{esc(h1)}</h1>{meta_bar}{src_html}</header>')
-    elif crumb_html:
-        head_block = crumb_html
+        kick = f'<a href="{root}{sec_href}">{kicker}</a>' if (kicker and sec_href and sec_href != "index.html") else kicker
+        head_block = (f'<header class="doc-head">'
+                      + (f'<p class="kicker-line">{kick}</p>' if kicker else "")
+                      + f'<h1>{esc(h1)}</h1>{meta_bar}</header>')
     return f"""<!doctype html>
 <html lang="en" data-root="{root}" data-section="{esc(section)}">
 <head>
@@ -950,10 +938,9 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
   <header class="bar">
     <button class="bar-menu" id="idx-open" type="button" aria-label="Contents" aria-expanded="false" aria-controls="idx-wrap"><span></span><span></span><span></span></button>
     <a class="mark" href="{root}index.html"><img src="{root}assets/icon-192.png" alt="" width="20" height="20"><span class="mark-n">IDMP Atlas</span><span class="mark-s">unofficial mirror</span></a>
-    <button class="ask" id="ask-open" type="button" aria-label="Search">{icon("search", "ask-ic")}<span class="ask-i">/</span><span class="ask-t">Ask<i>cap icu</i><i>cefepime crcl 30</i><i>e coli cipro</i></span><kbd>⌘K</kbd></button>
+    <button class="ask" id="ask-open" type="button" aria-label="Search">{icon("search", "ask-ic")}<span class="ask-t">Search</span><kbd>⌘K</kbd></button>
     <div class="bar-end">
       <button class="lens-btn" id="lens-open" type="button" title="Where / Setting / Patient"><span id="lens-summary">All sites, any setting, adult</span></button>
-      <a class="sync" id="status" href="{root}changes.html" title="Sync status">sync</a>
     </div>
   </header>
   <aside class="idx-wrap" id="idx-wrap">{nav}</aside>
@@ -963,7 +950,7 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
       {head_block}
       {content}
       {pager}
-      <footer class="doc-foot"><p><b>{SITE_NAME}</b> is an unofficial, read-only mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly. Not affiliated with UCSF or the IDMP. Content belongs to its authors; <b>confirm against the source before acting</b>. <a href="{root}changes.html">Mirror freshness and what changed</a>. <span class="foot-l"><a href="{root}about.html">About</a><a href="https://github.com/{REPO}" target="_blank" rel="noopener">Source</a><button class="linklike" id="offline-btn" type="button">Save offline</button></span></p></footer>
+      <footer class="doc-foot">{foot_src}<p><b>{SITE_NAME}</b> is an unofficial, read-only mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly; not affiliated with UCSF or the IDMP. <b>Confirm against the source before acting.</b></p><p class="foot-l"><a class="sync" id="status" href="{root}changes.html" title="Sync status">mirrored {esc(human_date(status.get('run')))}</a><a href="{root}changes.html">What changed</a><a href="{root}about.html">About</a><a href="https://github.com/{REPO}" target="_blank" rel="noopener">Code</a><button class="linklike" id="offline-btn" type="button">Save offline</button></p></footer>
     </div>
     {f'<aside class="meta">{rail}</aside>' if rail else ""}
   </main>
@@ -1562,7 +1549,7 @@ def main():
                     used[slug] = dd
                     line, _raw = dose_line(dd, ri, 0, matched, restricted)
                     body = (f'<div class="dose" data-dose="{esc(slug)}" data-row="{ri}" data-matched="{int(matched)}">{line}</div>'
-                            + band_table(dd, ri, 0) + other_indications(dd, ri))
+                            + band_table(dd, ri, 0) + "")   # "also published for" is the drug page's business
                 elif d["inline_dose"]:
                     body = '<div class="dose dose-inline">Dose is stated by IDMP in the row below</div>'
                 else:
@@ -1747,7 +1734,7 @@ def main():
                                     + f'title="{esc(c["label"][:150])}">{esc(c["short"])}</button>')
                     nodes = "".join(bits)
                     qid = f"ctx-q-{cols[0]['a']}"
-                    body_parts.append(f'<div class="ctx"><span class="ctx-q" id="{qid}">Which patient</span>'
+                    body_parts.append(f'<div class="ctx"><span class="ctx-q sr-only" id="{qid}">Which patient</span>'
                                       f'<span class="ctx-ns" role="{grp_role}" aria-labelledby="{qid}">{nodes}</span></div>')
                 if bi == 0:
                     body_parts += folded
@@ -1755,20 +1742,22 @@ def main():
                 # only a real tab set gets tabpanel semantics; a marked-but-visible column is
                 # just a column, and tabindex would add a focus stop for nothing
                 panel_a = (lambda c: f' role="tabpanel" aria-labelledby="tab-{c["a"]}" tabindex="0"') if (nc > 1 and not wide) else (lambda c: "")
+                # Side-by-side columns need their own headers. A one-at-a-time panel does not:
+                # its name is the selected tab directly above it, so the header only said it again.
                 shown = "".join(
                     f'<div class="rgc{"" if (wide or i == 0) else " dim"}" data-ctx="{c["a"]}" id="{c["a"]}"{panel_a(c)}>'
                     + (f'<div class="rgc-h">'
                        + (f'<span class="rgc-g">{esc(c["group"])}</span>' if c.get("group") else "")
                        + f'{esc(c["short"])}'
-                       f'<button type="button" class="copy" data-copy="{c["a"]}">Copy</button></div>' if nc > 1 else "")
+                       f'<button type="button" class="copy" data-copy="{c["a"]}">Copy</button></div>' if (nc > 1 and wide) else "")
                     + f'<div class="rgc-b">{c["first"]}</div>'
                     + (f'<div class="rgc-d"><span>Duration</span><b>{c["cells"]["duration"]["html"]}</b></div>'
                        if c["cells"].get("duration") and c["cells"]["duration"]["text"] else '<div class="rgc-d rgc-d-none"><span>Duration</span><b>not stated</b></div>')
                     + "</div>" for i, c in enumerate(cols))
-                copy_one = ("" if nc > 1 else
+                copy_one = ("" if (nc > 1 and wide) else
                             f'<button type="button" class="copy" data-copy="{cols[0]["a"]}">Copy for note</button>')
                 body_parts.append(f'<section class="money{"" if wide else " money-one"}">'
-                                  f'<div class="money-hd"><div class="money-h fld-h">First choice</div>{fresh_chip(ctx, root)}{copy_one}</div>'
+                                  f'<div class="money-hd"><div class="money-h fld-h">First choice</div>{copy_one}</div>'
                                   f'<div class="rgx" data-cols="{min(nc, 4) if wide else 1}">{shown}</div></section>')
                 # "Alternative" over an empty box reads as "there is no alternative". Every
                 # context gets a panel here: either the alternative, or a sentence saying the
@@ -1778,12 +1767,12 @@ def main():
                     for i, c in enumerate(cols):
                         cls = "" if (wide or i == 0) else " dim"
                         if c["alt"]:
-                            head = (f'<div class="rgc-h">{esc(c["short"])}{(" — " + esc(c["alt_cond"])) if c["alt_cond"] else ""}</div>' if nc > 1 else
+                            head = (f'<div class="rgc-h">{esc(c["short"])}{(" — " + esc(c["alt_cond"])) if c["alt_cond"] else ""}</div>' if (nc > 1 and wide) else
                                     (f'<div class="rgc-h">{esc(c["alt_cond"])}</div>' if c["alt_cond"] else ""))
                             panels.append(f'<div class="rgc{cls}" data-ctx="{c["a"]}">{head}'
                                           f'<div class="rgc-b">{c["alt"]}</div></div>')
                         else:
-                            head = f'<div class="rgc-h">{esc(c["short"])}</div>' if nc > 1 else ""
+                            head = f'<div class="rgc-h">{esc(c["short"])}</div>' if (nc > 1 and wide) else ""
                             panels.append(f'<div class="rgc rgc-none{cls}" data-ctx="{c["a"]}">{head}'
                                           f'<div class="rgc-b rgc-empty">IDMP lists no alternative regimen for '
                                           f'{esc(c["short"].rstrip("…"))}.</div></div>')
@@ -1833,7 +1822,7 @@ def main():
                         f'<div class="src-col"><div class="fld-h">{LABELS.get(k, k)}</div><div class="rx-body">{c["cells"][k]["html"]}</div></div>'
                         for k in ("first", "alt", "pathogens", "comments", "duration") if c["cells"].get(k) and c["cells"][k]["text"]) + "</div>"
                     for c in cols)
-                body_parts.append(f'<details class="src-raw"><summary>These rows exactly as IDMP publishes them</summary>{raw}</details>')
+
             body_parts += post
             if page_dose:
                 body_parts.append(f'<script type="application/json" id="dose-data">{jdump(page_dose)}</script>')
@@ -2070,12 +2059,11 @@ def main():
             rail = '<nav class="outline"><p class="kicker">On this page</p>' + "".join(f'<a class="o-{tag}" href="#{hid}">{esc(t)}</a>' for tag, hid, t in meta["outline"]) + "</nav>"
         elif meta.get("sections"):
             rail = '<nav class="outline"><p class="kicker">On this page</p>' + "".join(f'<a href="#{k}">{esc(lbl)}</a>' for k, lbl in meta["sections"]) + "</nav>"
-        elif meta.get("rows") and len(meta["rows"]) > 1:
-            rail = '<nav class="outline"><p class="kicker">Situations</p>' + "".join(f'<a href="#{r["a"]}">{esc(r["l"])}</a>' for r in meta["rows"]) + "</nav>"
+        # (a "Situations" rail used to list the same contexts the chooser already shows)
         content = f'<article class="node node-{m["type"]}" data-slug="{esc(m["slug"])}">{body}</article>'
         write(route, layout(ctx, root, m["title"], content, node=m, section=sec, crumbs=crumbs, fallback_notes=notes, rail=rail,
                             nav=nav_for(sec, route, root), pager=pager_for(route, root),
-                            kicker=esc(kicker) + (" " + fresh if fresh else ""), h1=m["title"],
+                            kicker=esc(kicker), h1=m["title"],
                             desc=f"{kicker}: {m['title']} (mirrored from idmp.ucsf.edu)"))
         # search entry
         n = m["raw"]
@@ -2417,7 +2405,7 @@ def main():
 <section class="hero">
   <h1>What do I give,<br>and how much?</h1>
   <p class="hero-sub">An unofficial mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly and reorganised for the wards. Ask in plain words, or use the index on the left.</p>
-  <button type="button" class="hero-ask" data-open="palette"><span class="ask-i">/</span><span class="ask-t"><i>cap icu</i><i>cefepime crcl 30</i><i>e coli cipro</i><i>hap zsfg</i></span><kbd>⌘K</kbd></button>
+  <button type="button" class="hero-ask" data-open="palette" aria-label="Search">{icon("search", "ask-ic")}<span class="ask-t">Search a syndrome, a drug with a CrCl, an organism with a drug</span><kbd>⌘K</kbd></button>
 </section>
 <section class="sections">{sec_rows}</section>
 <section class="cols">
@@ -2426,7 +2414,7 @@ def main():
   <div class="col" data-for="inpatient_peds"><h2>Inpatient, pediatric</h2><ul class="tight">{links_col("inpatient_peds")}</ul></div>
   <div class="col" data-for="outpatient_peds"><h2>Outpatient, pediatric</h2><ul class="tight">{links_col("outpatient_peds")}</ul></div>
 </section>
-<section class="cols" id="mine" hidden><div class="col"><h2>Pinned and recent</h2><ul class="tight" id="mine-list"></ul></div></section>
+
 <section class="cols">
   <div class="col"><h2>Last edited on IDMP</h2><ul class="tight dated">{recent_html}</ul></div>
   <div class="col"><h2>How to read this site</h2><ul class="tight notes">

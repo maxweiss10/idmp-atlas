@@ -1,4 +1,4 @@
-/* IDMP Atlas client. No dependencies. Modules: lens, modals, palette (ask), chooser, bands, drawer, favorites, filters, explorer, offline. */
+/* IDMP Atlas client. No dependencies. Modules: lens, modals, palette (search), chooser, bands, drawer, recents, filters, explorer, offline. */
 (function () {
   'use strict';
   var html = document.documentElement, root = html.getAttribute('data-root') || '', REPO = 'maxweiss10/idmp-atlas';
@@ -154,6 +154,11 @@
       c.classList.toggle('lit', !many && mine);
     });
     $$('.dtl[data-ctx]').filter(owned).forEach(function (d) { d.classList.toggle('dim', many && d.getAttribute('data-ctx') !== id); });
+    // a one-at-a-time block has a single Copy in its band; point it at the panel on show
+    $$('.money').forEach(function (m) {
+      if (!m.querySelector('.rgc[data-ctx="' + id + '"]')) return;
+      var b = m.querySelector('.money-hd .copy'); if (b) b.setAttribute('data-copy', id);
+    });
     $$('.rgx').forEach(function (g) {
       var vis = $$('.rgc:not(.dim)', g).length;
       g.setAttribute('data-cols', String(Math.min(vis || 1, 4)));
@@ -268,30 +273,14 @@
       .then(function () { toast('Regimen copied'); }, function () { window.prompt('Copy:', out); });
   });
 
-  /* ---------- favorites and recents ---------- */
-  var favs = read('favs', true) || [], recents = read('recents', true) || [];
-  function paintFavs() { $$('.pin[data-fav]').forEach(function (b) { var on = favs.some(function (f) { return f.u === b.getAttribute('data-fav'); }); b.classList.toggle('on', on); b.textContent = on ? 'Pinned' : 'Pin'; }); }
-  document.addEventListener('click', function (ev) {
-    var b = ev.target.closest('.pin[data-fav]'); if (!b) return;
-    var u = b.getAttribute('data-fav'), i = favs.findIndex(function (f) { return f.u === u; });
-    if (i >= 0) favs.splice(i, 1); else favs.unshift({ u: u, n: b.getAttribute('data-title'), t: b.getAttribute('data-kind') });
-    favs = favs.slice(0, 30); store('favs', favs); paintFavs(); toast(i >= 0 ? 'Unpinned' : 'Pinned to your home screen');
-  });
-  paintFavs();
+  /* ---------- recents (feed the empty search box; no UI of their own) ---------- */
+  var recents = read('recents', true) || [];
   (function noteRecent() {
     var art = $('main article.node'); if (!art) return;
     var route = location.pathname.split('/').slice(-2).join('/').replace(/^\//, '');
-    var sec = html.getAttribute('data-section'); var u = (sec === 'home' ? '' : '') + route;
-    var entry = { u: u.replace(/^(empiric|drugs|guidelines|antibiograms|pages|people)\//, '$1/'), n: ($('h1') || {}).textContent || '', t: sec };
+    var entry = { u: route, n: ($('h1') || {}).textContent || '', t: html.getAttribute('data-section') };
     recents = [entry].concat(recents.filter(function (r) { return r.u !== entry.u; })).slice(0, 12); store('recents', recents);
   })();
-  var mine = $('#mine'), mineList = $('#mine-list');
-  if (mine && mineList && (favs.length || recents.length)) {
-    mine.hidden = false;
-    mineList.innerHTML = favs.map(function (f) { return '<li><a href="' + esc(f.u) + '">' + esc(f.n) + '</a><span class="when">pinned</span></li>'; }).join('')
-      + recents.filter(function (r) { return !favs.some(function (f) { return f.u === r.u; }); }).slice(0, 7)
-        .map(function (r) { return '<li><a href="' + esc(r.u) + '">' + esc(r.n) + '</a></li>'; }).join('');
-  }
 
   /* ---------- modals ---------- */
   function openModal(id) { var m = document.getElementById(id); if (!m) return; $$('.ovl').forEach(function (x) { x.hidden = true; }); m.hidden = false; document.body.style.overflow = 'hidden'; var inp = $('input', m); if (id === 'palette') { ensureIndex().then(renderPalette); } if (inp && id === 'palette') { inp.focus(); inp.select(); } }
@@ -385,10 +374,9 @@
     var raw = q.value, pq = parseQuery(raw), terms = pq.terms, phrase = terms.join(' ');
     sel = -1;
     if (!raw.trim()) {
-      var chips = favs.slice(0, 6).map(function (f) { return '<a class="res" href="' + root + esc(f.u) + '"><span class="rt">Pinned</span><span class="rn">' + esc(f.n) + '</span></a>'; }).join('') +
-        recents.slice(0, 6).map(function (r) { return '<a class="res" href="' + root + esc(r.u) + '"><span class="rt">Recent</span><span class="rn">' + esc(r.n) + '</span></a>'; }).join('');
+      var chips = recents.slice(0, 6).map(function (r) { return '<a class="res" href="' + root + esc(r.u) + '"><span class="rt">Recent</span><span class="rn">' + esc(r.n) + '</span></a>'; }).join('');
       results.innerHTML = '<div class="empty">Type a syndrome, a drug with a CrCl, an organism with a drug, or a guideline. Modifiers understood: <b>icu</b>, <b>ward</b>, <b>outpatient</b>, <b>zsfg</b>, <b>va</b>, <b>peds</b>, <b>hd</b>, <b>crrt</b>, <b>pcn allergy</b>, <b>crcl 30</b>.<div class="hints">' +
-        ['cap icu', 'cefepime crcl 30', 'e coli cipro', 'hap zsfg', 'vanc hd', 'uti outpatient', 'febrile neutropenia', 'zosyn'].map(function (h) { return '<button type="button" data-hint="' + h + '">' + h + '</button>'; }).join('') + '</div></div>' + (chips ? '<div class="res-group">Yours</div>' + chips : '');
+        ['cap icu', 'cefepime crcl 30', 'e coli cipro', 'hap zsfg', 'vanc hd', 'uti outpatient', 'febrile neutropenia', 'zosyn'].map(function (h) { return '<button type="button" data-hint="' + h + '">' + h + '</button>'; }).join('') + '</div></div>' + (chips ? '<div class="res-group">Recent</div>' + chips : '');
       return;
     }
     var answers = [];
