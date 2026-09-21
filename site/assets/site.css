@@ -119,7 +119,10 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; text-decoratio
   text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
 ::selection { background: var(--sel); }
 img { max-width: 100%; height: auto; }
-code, kbd, pre, .mono, .num, .dose { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+code, kbd, pre, .mono, .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+/* The dose line stays in the book's own face. Courier set it a third wider than the
+   surrounding text, which pushed it onto extra lines and made the column taller. */
+.dose { font-variant-numeric: tabular-nums; }
 /* Footnote references, the way the manual sets them: small, raised, never able to be
    read as part of the number they hang off. */
 sup, sub { font-size: .68em; line-height: 0; font-weight: 400; }
@@ -480,27 +483,31 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
 .alt-h { color: var(--ink); font-weight: 400; }
 /* The manual boxes a decision panel once and never nests. The regimen columns are
    separated by a rule and framed by nothing. */
-.rgx { display: grid; gap: 0; }
+.rgx { display: grid; gap: 10px 22px; }
+/* Columns get a floor and a gutter. Four fixed columns in a 772px measure came out at
+   176px each with nothing between them, which is about thirty characters of Arial Narrow
+   a side: the regimens were touching and every header wrapped to three lines. auto-fit
+   keeps four across when the measure allows it and folds to two when it does not. */
 .rgx[data-cols="1"] { grid-template-columns: 1fr; }
-.rgx[data-cols="2"] { grid-template-columns: repeat(2, 1fr); }
-.rgx[data-cols="3"] { grid-template-columns: repeat(3, 1fr); }
-.rgx[data-cols="4"] { grid-template-columns: repeat(4, 1fr); }
+.rgx[data-cols="2"], .rgx[data-cols="3"], .rgx[data-cols="4"] {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+}
 .rgc { display: flex; flex-direction: column; min-width: 0; border-top: 1px solid var(--ink); }
 .money .rgc { background: var(--first-bg); }
 .alt-blk .rgc { background: var(--alt-bg); }
 /* The band above already names the section; the column header is bold text under a rule,
    the way the manual heads the columns of a decision panel. */
-.rgc-h { padding: 3px 0 4px; border-bottom: 1px solid var(--ink); background: 0;
-  font-size: var(--fs-3); font-weight: 700; color: var(--ink); letter-spacing: 0; display: flex; align-items: center; gap: 10px; }
+.rgc-h { padding: 2px 0 2px; border-bottom: 1px solid var(--ink); background: 0;
+  font-size: var(--fs-3); font-weight: 700; color: var(--ink); letter-spacing: 0; display: flex; align-items: baseline; gap: 10px; }
 .rgc-h .copy { margin-left: auto; flex: 0 0 auto; font-weight: 400; }
-.rgc-b { flex: 1; padding: 10px 0 8px; }
+.rgc-b { flex: 1; padding: 5px 0 4px; }
 .rgc.dim { display: none; }
 /* a context with no alternative says so, rather than leaving the heading over a gap */
 .rgc-none { background: 0 !important; border-right: 0; }
 .rgc-empty { color: var(--ink-4); font-size: var(--fs-2); font-style: italic; padding: 14px 16px; }
 /* sections whose every panel is filtered out are removed, headings and all */
 .money[hidden], .alt-blk[hidden], .detail[hidden], .cv[hidden], .block[hidden] { display: none; }
-.rgc-d { padding: 5px 0 0; border-top: 1px solid var(--rule-2); font-size: var(--fs-2); display: flex; gap: 8px; align-items: baseline; }
+.rgc-d { padding: 3px 0 0; border-top: 1px solid var(--rule-2); font-size: var(--fs-2); display: flex; gap: 8px; align-items: baseline; }
 .rgc-d > span { font-size: var(--fs-1); color: var(--ink-4); }
 .rgc-d b { font-weight: 700; color: var(--ink); font-family: var(--narrow); font-size: var(--fs-3); }
 .rgc-d b p { margin: 0; } .rgc-d-none b { color: var(--ink-4); font-family: var(--sans); }
@@ -508,14 +515,16 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
 .rgc-tail { font-size: var(--fs-2); color: var(--ink-3); margin: 10px 0 0; }
 /* "any one of" was a dashed box inside a box. It is a lead-in, so it reads as one. */
 .stp-any { padding: 0; }
-.stp-k { font-size: var(--fs-2); font-style: italic; color: var(--ink-3); margin-bottom: 4px; }
-.jn { display: flex; align-items: center; gap: 8px; margin: 13px 0; color: var(--ink-3); }
+.stp-k { font-size: var(--fs-2); font-style: italic; color: var(--ink-3); margin-bottom: 1px; }
+/* Rhythm: 4px between blocks, 3px around a joiner, nothing asymmetric. The joiners were
+   at 13px top and bottom and there are seven of them in a single regimen column. */
+.jn { display: flex; align-items: center; gap: 8px; margin: 3px 0; color: var(--ink-3); }
 .jn::before, .jn::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
-.jn .ic { width: 15px; height: 15px; }
+.jn .ic { display: none; }
 .jn span { font-size: var(--fs-1); color: var(--ink-4); }
-.orx { display: flex; align-items: center; gap: 7px; margin: 10px 0; color: var(--ink-4); }
+.orx { display: flex; align-items: center; gap: 7px; margin: 3px 0; color: var(--ink-4); }
 .orx::before, .orx::after { content: ""; flex: 1; height: 1px; background: var(--rule-2); }
-.orx .ic { width: 13px; height: 13px; }
+.orx .ic { display: none; }
 .orx span { font-size: var(--fs-1); }
 .rg-prose { font-size: var(--fs-3); line-height: 1.55; color: var(--ink-2); }
 .rg-prose p { margin: 0 0 8px; } .rg-prose p:last-child { margin: 0; }
@@ -526,27 +535,29 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
 .money .rg-prose a[data-drug]:hover { color: var(--link); text-decoration: none; }
 .rg-hint { display: flex; gap: 7px; align-items: flex-start; margin: 12px 0 0; padding-top: 10px; border-top: 1px solid var(--rule-2); font-size: var(--fs-2); color: var(--ink-4); }
 .rg-hint .ic { width: 13px; height: 13px; flex: 0 0 auto; margin-top: 1px; }
-.rgd-n { display: block; font-size: var(--fs-6); font-weight: 600; letter-spacing: -.026em; color: var(--ink); line-height: 1.3; min-height: 24px; }
+/* The book bolds a drug name in the running text; it does not set it 40% larger than the
+   line it sits in. Name leads on weight, the dose follows it at body size. */
+.rgd-n { display: block; font-size: var(--fs-4); font-weight: 700; letter-spacing: -.01em; color: var(--ink); line-height: 1.25; min-height: 24px; }
 .money .rgd-n:hover { color: var(--link); text-decoration: none; }
 .alt-blk .rgd-n:hover { color: var(--link); text-decoration: none; }
-.rgd-note { display: block; font-size: var(--fs-2); color: var(--ink-3); font-style: italic; margin-top: 2px; }
-.dose { margin-top: 5px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.rgd-note { display: block; font-size: var(--fs-2); color: var(--ink-3); font-style: italic; margin-top: 0; }
+.dose { margin-top: 1px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; }
 .dl { display: inline-flex; align-items: baseline; gap: 7px; }
 /* The manual sets doses in the running Arial Narrow and bolds the number, rather than
    in a typewriter face. tabular-nums keeps the columns of the band tables aligned. */
-.dl-d { font-family: var(--narrow); font-variant-numeric: tabular-nums; font-size: var(--fs-4);
+.dl-d { font-family: var(--narrow); font-variant-numeric: tabular-nums; font-size: var(--fs-3);
   font-weight: 700; color: var(--ink); letter-spacing: 0; }
 .dl-ind, .dl-band, .dl-other { font-size: var(--fs-1); color: var(--ink-4); }
-.dl-band { font-family: var(--mono); }
-.dl-other { display: block; margin-top: 4px; }
+.dl-band { font-family: var(--narrow); }
+.dl-other { display: block; margin-top: 1px; }
 .dose-inline { font-size: var(--fs-2); color: var(--ink-4); }
 .mk { display: inline-flex; align-items: center; gap: 1px; color: var(--ink-4); }
 .mk .ic { width: 13px; height: 13px; }
 .mk-renal { gap: 2px; } .mk-renal b { font-family: var(--mono); font-size: var(--fs-1); font-weight: 600; }
 .mk-restrict { color: var(--warn); }
-.bt { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 0; margin: 7px 0 0;
+.bt { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 0; margin: 3px 0 0;
   border: 1px solid var(--ink); border-right: 0; border-bottom: 0; }
-.bt-c { background: 0; padding: 3px 6px; border-right: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+.bt-c { background: 0; padding: 1px 4px; border-right: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
 .bt-c.on { background: var(--paper-4); }
 /* A CrCl band decides whether the patient gets a full or a reduced dose. It was the
    smallest, faintest string on the page. */
@@ -558,12 +569,12 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
 html[data-where]:not([data-where=""]) .restr { opacity: .4; }
 html[data-where="ucsf"] .restr[data-sites~="ucsf"], html[data-where="zsfg"] .restr[data-sites~="zsfg"] { opacity: 1; font-weight: 600; }
 .cv-via { display: block; font-size: var(--fs-1); color: var(--ink-4); }
-.gap { display: flex; gap: 8px; margin-top: 6px; font-size: var(--fs-2); color: var(--ink-2); line-height: 1.5; }
+.gap { display: flex; gap: 6px; margin-top: 3px; font-size: var(--fs-2); color: var(--ink-2); line-height: 1.35; }
 .gap .ic { width: 14px; height: 14px; flex: 0 0 auto; margin-top: 2px; color: var(--warn); }
 .gap b { color: var(--ink); } .gap i { color: var(--ink-3); font-style: normal; display: block; margin-top: 2px; }
 .gap-bad .ic { color: var(--bad); }
-.gap-l { list-style: none; margin: 6px 0 0; padding: 0; }
-.gap-l li { padding: 3px 0; border-top: 1px solid var(--rule-2); display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
+.gap-l { list-style: none; margin: 3px 0 0; padding: 0; }
+.gap-l li { padding: 1px 0; border-top: 1px solid var(--rule-2); display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
 .gap-l li b { font-family: var(--mono); font-size: var(--fs-1); color: var(--ink-3); }
 .gap-l li span { font-size: var(--fs-1); color: var(--ink-4); }
 .gap-l .ic { width: 11px; height: 11px; color: var(--ink-4); margin: 0; }
@@ -606,7 +617,13 @@ html[data-where="ucsf"] .restr[data-sites~="ucsf"], html[data-where="zsfg"] .res
 .src-raw summary { display: flex; align-items: center; gap: 7px; min-height: 24px; cursor: pointer; color: var(--ink-3); list-style: none; font-size: var(--fs-2); }
 /* the remaining sub-24px controls: link lists that read as navigation, and disclosure
    summaries. Links inside a running sentence stay inline, as SC 2.5.8 allows. */
-.rel-list li a, .links li a, .jump a, .site-sec li a { display: inline-flex; align-items: center; min-height: 24px; }
+/* A link that is the whole of its block is a control, not a word in a sentence, so it
+   needs a real target. SC 2.5.8 exempts the inline case, and :only-child is exactly
+   the line between the two. */
+.rel-list li a, .links li a, .jump a, .site-sec li a,
+.doc-in p > a:only-child, .doc-in li > a:only-child, .gap-l li a, .rg-prose > a,
+.doc-in details > ul > li > a:first-child, .events li > a, .idxtbl td > a, .tight li > a
+  { display: inline-flex; align-items: center; min-height: 24px; }
 .block > summary, .refs > summary, details.block > summary { display: flex; align-items: center; min-height: 24px; cursor: pointer; }
 .src-raw summary::-webkit-details-marker { display: none; }
 .src-raw summary .ic { width: 13px; height: 13px; }
@@ -782,6 +799,7 @@ ul.check li.done { color: var(--ink-4); }
   .tabs a, .tabs button { min-height: 44px; justify-content: center; }
   .crumbs a, .crumbs span, .doc-foot a, .doc-foot .linklike, .prov a { min-height: 44px; }
   .pin, .ctx-n, .copy { min-height: 44px; }
+  .prov { gap: 0 12px; }
   .pager { grid-template-columns: 1fr; }
   .cols { gap: 0 20px; }
 }
@@ -824,7 +842,10 @@ ul.check li.done { color: var(--ink-4); }
 .ask-t i { font-style: normal; font-family: var(--mono); color: var(--ink-3); margin-left: 12px; }
 .pal-try i { font-style: normal; font-family: var(--mono); color: var(--ink-3); margin-left: 10px; }
 .foot-l { display: inline-flex; gap: 18px; }
-.prov { display: flex; align-items: baseline; gap: 26px; margin-top: 10px; padding: 7px 0; border-top: 1px solid var(--rule-2); border-bottom: 1px solid var(--rule-2); font-size: var(--fs-2); color: var(--ink-3); }
+.prov { display: flex; align-items: baseline; gap: 2px 18px; margin-top: 4px; padding: 2px 0;
+  border-top: 1px solid var(--rule-2); border-bottom: 1px solid var(--rule-2); font-size: var(--fs-2);
+  color: var(--ink-3); flex-wrap: wrap; }
+.prov-i { white-space: nowrap; }
 .prov-i { display: inline-flex; align-items: baseline; gap: 7px; }
 .prov-k { font-size: var(--fs-1); color: var(--ink-4); }
 .prov .pin { margin-left: auto; }

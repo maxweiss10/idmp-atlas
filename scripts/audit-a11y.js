@@ -87,9 +87,23 @@
     // ---- 2.5.8 target size
     var FOCUSABLE = 'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),summary,[tabindex]:not([tabindex="-1"])';
     var inter = [].slice.call(document.querySelectorAll(FOCUSABLE)).filter(painted);
+    // SC 2.5.8 exempts a target whose size is constrained by the line-height of the
+    // non-target text it sits in: a link inside a sentence. Test it rather than assume it,
+    // by asking whether the target is inline and its block carries text that is not the
+    // target itself. Padding those would only make the line spacing lumpy.
+    function inlineExempt(el) {
+      if (getComputedStyle(el).display !== 'inline') return false;
+      var block = el.parentElement;
+      while (block && getComputedStyle(block).display === 'inline') block = block.parentElement;
+      if (!block) return false;
+      return block.textContent.replace(el.textContent, '').trim().length > 0;
+    }
     inter.forEach(function (el) {
       var r = el.getBoundingClientRect();
-      if (r.width < 24 || r.height < 24) fail.targets.push({ el: label(el), w: Math.round(r.width), h: Math.round(r.height), text: (el.textContent || '').trim().slice(0, 28) });
+      if (r.width >= 24 && r.height >= 24) return;
+      var rec = { el: label(el), w: Math.round(r.width), h: Math.round(r.height), text: (el.textContent || '').trim().slice(0, 28) };
+      if (inlineExempt(el)) { rec.why = 'inline in text: SC 2.5.8 exception'; notes.push(rec); return; }
+      fail.targets.push(rec);
     });
 
     // ---- 2.4.3 nothing focusable parked off screen. A skip link is meant to sit off
