@@ -117,6 +117,9 @@
       if (i && h.lv - hs[i - 1].lv > 1) fail.headings.push({ kind: 'skipped level', from: hs[i - 1].lv, to: h.lv, t: h.t.slice(0, 44) });
       if (/:\s*$/.test(h.t)) fail.headings.push({ kind: 'trailing colon', t: h.t.slice(0, 44) });
     });
+    [].slice.call(document.querySelectorAll('td :is(h1,h2,h3,h4,h5,h6), th :is(h1,h2,h3,h4,h5,h6)')).forEach(function (h) {
+      fail.headings.push({ kind: 'heading inside a table cell', t: h.textContent.trim().slice(0, 44) });
+    });
     var byText = {};
     hs.forEach(function (h) { (byText[h.t.toLowerCase()] = byText[h.t.toLowerCase()] || {})[h.lv] = 1; });
     Object.keys(byText).forEach(function (t) {

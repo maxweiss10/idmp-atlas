@@ -31,16 +31,17 @@
   --paper:    #FFFFFF;
   --paper-2:  #FFFFFF;    /* the manual has no tinted panels; rules do the separating */
   --paper-3:  #EFEFEF;    /* hover, inline code */
-  --paper-4:  #D8D9D8;    /* the section band, measured */
+  --paper-4:  #D9D9D8;    /* the section band, measured */
+  --zebra:    #F2F2F2;    /* the book's alternating table row */
   --ink:      #000000;
   --ink-2:    #000000;    /* body copy is pure black in the manual, not a soft slate */
-  --ink-3:    #333333;    /* 12.63:1 */
+  --ink-3:    #1A1A1A;    /* the book has one ink; these exist only for app chrome */
   --ink-4:    #565656;    /* 7.29:1 */
   --rule:     #B4B4B4;
   --rule-2:   #DCDCDC;
   --rule-3:   #000000;    /* the manual rules its tables in hairline black */
 
-  --link:     #0431FF;    /* measured, 7.27:1 on white and 5.14:1 on the band */
+  --link:     #0432FF;    /* measured, 7.26:1 on white and 5.13:1 on the band */
   --link-2:   #0022B8;
   --sel:      #C9D6FF;
 
@@ -123,7 +124,7 @@ code, kbd, pre, .mono, .num, .dose { font-family: var(--mono); font-variant-nume
    read as part of the number they hang off. */
 sup, sub { font-size: .68em; line-height: 0; font-weight: 400; }
 sup { vertical-align: super; } sub { vertical-align: sub; }
-.tbl sup, .cv-t sup { color: var(--ink-3); padding-left: .12em; }
+.tbl sup, .cv-t sup { color: inherit; padding-left: .12em; }
 code { font-size: var(--fs-2); background: var(--paper-3); padding: .08em .34em; border-radius: 0; color: var(--ink); }
 pre { background: var(--paper-3); padding: 9px 11px; overflow-x: auto; white-space: pre-wrap; font-size: var(--fs-2); line-height: 1.5; border-left: 2px solid var(--rule-3); }
 kbd { font-size: var(--fs-1); line-height: 1; color: var(--ink-3); border: 1px solid var(--rule); border-radius: 0; padding: 3px 4px; min-width: 18px; display: inline-flex; align-items: center; justify-content: center; }
@@ -147,9 +148,9 @@ h1, h2, h3, h4 { color: var(--ink); font-weight: 600; }
 h1 { font-size: var(--fs-title); line-height: 1.12; margin: 0 0 6px; letter-spacing: -.012em; font-weight: 700; }
 /* Every section head in the manual sits in a #D8D9D8 band, full measure, in small caps.
    font-variant: small-caps is exactly what produces the large initial and the small rest. */
-h2 { font-size: var(--fs-3); line-height: 1.3; margin: 16px 0 6px; letter-spacing: .04em;
+h2 { font-size: var(--fs-3); line-height: 1.3; margin: 7px 0 3px; letter-spacing: .055em;
   font-weight: 700; font-variant: small-caps; background: var(--paper-4); color: var(--ink);
-  padding: 1px 6px; }
+  padding: 1px 4px; }
 h3 { font-size: var(--fs-3); margin: 16px 0 5px; letter-spacing: 0; font-weight: 700; }
 h4 { font-size: var(--fs-1); margin: 0 0 6px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
 /* "First choice", "Duration", "Common pathogens" are field labels, not document
@@ -241,7 +242,33 @@ html[data-allergy]:not([data-allergy=""]) .lens-btn::before { background: var(--
 /* -------------------------------------------------------------- document */
 .doc { min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr); }
 .doc.has-rail { grid-template-columns: minmax(0, 1fr) var(--rail-w); }
-.doc-in { min-width: 0; max-width: var(--doc-w); padding: 26px 40px 60px; }
+/* The book has no red and no glyphs: emphasis is weight. Colour survives in exactly two
+   places, because in both it is load-bearing rather than decorative: the hyperlink blue,
+   and the susceptibility shading, which encodes the number in the cell. Everything else
+   in the document column resolves to black and bold. */
+.doc-in .badge, .doc-in .tag, .doc-in .mk, .doc-in .mk-restrict, .doc-in .restr,
+.doc-in .gap .ic, .doc-in .gap-bad .ic, .doc-in .bt-k, .doc-in .stp-k { color: var(--ink); }
+.tbl th *, .tbl td.band * { color: inherit; }
+.doc-in .badge, .doc-in .tag { font-weight: 400; }
+.doc-in .restr, .doc-in .mk-restrict { font-weight: 700; }
+/* inherit, not var(--ink): a reversed-out table header is white on black, and forcing
+   black here painted the header's own label black on black, i.e. invisible */
+.doc-in b, .doc-in strong { font-weight: 700; color: inherit; }
+/* the marks are the book's own shorthand, written out rather than drawn */
+.doc-in .mk { margin-left: 6px; font-weight: 700; font-size: var(--fs-1); letter-spacing: .02em; }
+
+/* Arial Narrow at 14/1.3 is the single biggest reason a White Book page looks like one:
+   condensed is how the book fits a whole syndrome on a sheet. It is set on the document
+   column only. The shell around it stays in plain Arial, because the shell is the app,
+   not the book. */
+.doc-in { min-width: 0; max-width: var(--doc-w); padding: 20px 34px 52px;
+  font-family: var(--narrow); font-stretch: condensed; line-height: 1.3; color: var(--ink); }
+.doc-in p { margin: 3px 0 6px; }
+.doc-in ul { margin: 2px 0 3px; padding-left: 19px; list-style: disc; }
+.doc-in ul ul { margin: 1px 0; padding-left: 17px; list-style: circle; }
+.doc-in ul ul ul { list-style: square; }
+.doc-in ol { margin: 2px 0 3px; padding-left: 21px; }
+.doc-in li { margin: 0 0 1px; line-height: 1.3; }
 .doc-in p, .doc-in li, .doc-in dd, .doc-in blockquote { max-width: var(--prose-w); }
 .doc-in table p, .doc-in table li, .doc-in .rgc-d p, .doc-in .bt p,
 .doc-in .rgd p, .doc-in .dl-d p { max-width: none; }
@@ -257,9 +284,16 @@ html[data-allergy]:not([data-allergy=""]) .lens-btn::before { background: var(--
 /* The manual's masthead: the section name set bold on the left, the topic on the right,
    a rule under both. Same elements as before, arranged the way the page does it. */
 /* The manual's masthead: section label, topic, then a rule across the measure. */
-.doc-head { margin: 0 0 16px; border-bottom: 1px solid var(--ink); padding-bottom: 6px; }
-.doc-head h1 { font-weight: 700; }
-.doc-head .kicker-line { font-weight: 700; color: var(--ink); }
+/* The book's running header: bold chapter on the left, topic on the right, one size. */
+.doc-head { margin: 0 0 10px; border-bottom: 1px solid var(--ink); padding-bottom: 2px;
+  font-family: var(--sans); font-stretch: normal;
+  display: flex; justify-content: space-between; align-items: baseline; gap: 4px 16px; flex-wrap: wrap; }
+/* the breadcrumb and the provenance line each take their own row; only the chapter and
+   the topic share the masthead line */
+.doc-head > .crumbs, .doc-head > .prov, .doc-head > .note { flex: 1 0 100%; }
+.doc-head h1 { font-size: var(--fs-6); font-weight: 400; text-align: right; margin: 0; letter-spacing: -.01em; }
+.doc-head .kicker-line { font-size: var(--fs-6); font-weight: 700; color: var(--ink); margin: 0;
+  letter-spacing: -.01em; display: block; }
 .crumbs { display: flex; gap: 0; flex-wrap: wrap; font-size: var(--fs-2); color: var(--ink-4); margin: 0 0 10px; }
 .crumbs a, .crumbs span { color: var(--ink-3); display: inline-flex; align-items: center; min-height: 24px; }
 .crumbs a:not(:last-child)::after, .crumbs span:not(:last-child)::after { content: "/"; margin: 0 7px; color: var(--rule-3); }
@@ -269,7 +303,8 @@ html[data-allergy]:not([data-allergy=""]) .lens-btn::before { background: var(--
 .pin { margin-left: auto; background: 0; border: 0; padding: 2px 4px; min-height: 24px; font-size: var(--fs-2); color: var(--link); cursor: pointer; }
 .pin:hover { border-color: var(--rule-3); color: var(--ink); }
 .pin.on { color: var(--link); border-color: var(--link); }
-.doc-foot { margin-top: 40px; padding-top: 10px; border-top: 1px solid var(--ink); font-size: var(--fs-2); line-height: 1.55; color: var(--ink-3); }
+.doc-foot { margin-top: 24px; padding-top: 3px; border-top: 1px solid var(--ink); font-size: var(--fs-2);
+  line-height: 1.4; color: var(--ink); text-align: center; font-style: italic; }
 .doc-foot a, .doc-foot .linklike { color: var(--ink-3); display: inline-flex; align-items: center; min-height: 24px; }
 .note { padding: 9px 12px; margin: 0 0 14px; border-left: 3px solid var(--rule-3); background: var(--paper-3); font-size: var(--fs-3); }
 .note b { color: var(--ink); margin-right: 6px; }
@@ -350,11 +385,15 @@ html[data-where]:not([data-where=""]) li[data-sites]:not(.site-match) { opacity:
    row reversed out and sub-headers on the grey band. .tbl lost its styling in 6c6332d and
    the antibiogram tables have rendered unstyled since; this restores them in that idiom. */
 .tbl-wrap { overflow-x: auto; margin: 10px 0 14px; }
-.tbl { width: 100%; border-collapse: collapse; font-family: var(--narrow); font-size: var(--fs-3); }
-.tbl th, .tbl td { border: 1px solid var(--rule-3); padding: 3px 7px; vertical-align: top; text-align: left; }
-.tbl thead th { background: var(--ink); color: var(--paper); font-weight: 700; text-align: center;
-  letter-spacing: .02em; }
-.tbl tbody th { background: var(--paper-4); color: var(--ink); font-weight: 700; }
+.tbl { width: 100%; border-collapse: collapse; font-family: var(--narrow); font-stretch: condensed;
+  font-size: var(--fs-2); }
+.tbl th, .tbl td { border: 1px solid var(--ink); padding: 1px 4px; vertical-align: top;
+  text-align: left; line-height: 1.28; }
+/* the header reverses out, whether or not the source wrapped it in a thead */
+.tbl th, .tbl thead td { background: var(--ink); color: var(--paper); font-weight: 700;
+  text-align: center; white-space: nowrap; }
+.tbl tbody tr:nth-child(even) td { background: var(--zebra); }
+.tbl td.band { background: var(--ink); color: var(--paper); font-weight: 700; text-align: center; }
 .tbl td.num, .tbl td:has(> .num) { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: center; }
 .tbl caption { caption-side: bottom; padding-top: 5px; font-size: var(--fs-1); font-style: italic; color: var(--ink-3); text-align: left; }
 
@@ -422,10 +461,10 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
 .money { margin: 0 0 4px; }
 /* The band runs the full measure, as it does in the manual, and carries the label, the
    freshness chip and the copy button inside it rather than beside it. */
-.money-hd { display: flex; align-items: center; gap: 12px; margin: 0 0 6px;
-  background: var(--paper-4); padding: 1px 6px; }
-.money-h, .alt-h { font-size: var(--fs-3); letter-spacing: .04em; margin: 0 0 6px; text-transform: none;
-  font-variant: small-caps; background: var(--paper-4); padding: 1px 6px; }
+.money-hd { display: flex; align-items: center; gap: 12px; margin: 7px 0 3px;
+  background: var(--paper-4); padding: 1px 4px; }
+.money-h, .alt-h { font-size: var(--fs-3); letter-spacing: .055em; margin: 0 0 3px; text-transform: none;
+  font-variant: small-caps; background: var(--paper-4); padding: 1px 4px; }
 .money-hd .money-h { background: 0; padding: 0; flex: 1 1 auto; }
 .money-hd .money-h { margin: 0; }
 .money-hd .fresh { margin-left: auto; font-size: var(--fs-1); color: var(--ink-3); font-family: var(--mono);

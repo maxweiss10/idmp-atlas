@@ -395,18 +395,19 @@ def dose_marks(dose_text, band_count=1, restricted=False):
     out = []
     iv = re.search(r"\bIV\b|INFUS", t)
     po = re.search(r"\bPO\b|ORAL|\bNG\b", t)
+    # The book writes its qualifiers out; it has no pictograms. Same facts, same titles.
     if iv and po:
-        out.append(f'<span class="mk mk-both" title="Interchangeable IV and oral: a step-down candidate">{icon("iv")}{icon("po")}</span>')
+        out.append('<span class="mk mk-both" title="Interchangeable IV and oral: a step-down candidate">IV/PO</span>')
     elif iv:
-        out.append(f'<span class="mk" title="Intravenous">{icon("iv")}</span>')
+        out.append('<span class="mk" title="Intravenous">IV</span>')
     elif po:
-        out.append(f'<span class="mk" title="Oral">{icon("po")}</span>')
+        out.append('<span class="mk" title="Oral">PO</span>')
     if re.search(r"MG/KG|/KG\b|G/KG", t):
-        out.append(f'<span class="mk" title="Weight-based: the number shown is per kilogram">{icon("weight")}</span>')
+        out.append('<span class="mk" title="Weight-based: the number shown is per kilogram">mg/kg</span>')
     if band_count > 1:
-        out.append(f'<span class="mk mk-renal" title="Renal-function dependent: {band_count} bands published">{icon("renal")}<b>{band_count}</b></span>')
+        out.append(f'<span class="mk mk-renal" title="Renal-function dependent: {band_count} bands published">CrCl&nbsp;{band_count}</span>')
     if restricted:
-        out.append(f'<span class="mk mk-restrict" title="ID approval required at your selected hospital">{icon("restrict")}</span>')
+        out.append('<span class="mk mk-restrict" title="ID approval required at your selected hospital">restricted</span>')
     return "".join(out)
 
 # ----------------------------------------------------------------------------- therapy rows
@@ -749,6 +750,11 @@ def relevel_headings(html):
     if "<h" not in html:
         return html
     soup = BeautifulSoup(html, "lxml")
+    # A heading inside a table cell is a column label, not document structure. The source
+    # does this on two pages, and the band styling a section head carries then gets painted
+    # inside the cell. Keep the emphasis, drop the false structure.
+    for h in soup.select("td :is(h1,h2,h3,h4,h5,h6), th :is(h1,h2,h3,h4,h5,h6)"):
+        h.name = "b"
     stack = []
     for h in soup.find_all(re.compile(r"^h[1-6]$")):
         lv = int(h.name[1])
