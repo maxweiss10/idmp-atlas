@@ -147,9 +147,9 @@ h1, h2, h3, h4 { color: var(--ink); font-weight: 600; }
 h1 { font-size: var(--fs-title); line-height: 1.12; margin: 0 0 6px; letter-spacing: -.012em; font-weight: 700; }
 /* Every section head in the manual sits in a #D8D9D8 band, full measure, in small caps.
    font-variant: small-caps is exactly what produces the large initial and the small rest. */
-h2 { font-size: var(--fs-3); line-height: 1.3; margin: 22px 0 8px; letter-spacing: .04em;
+h2 { font-size: var(--fs-3); line-height: 1.3; margin: 16px 0 6px; letter-spacing: .04em;
   font-weight: 700; font-variant: small-caps; background: var(--paper-4); color: var(--ink);
-  padding: 2px 8px; }
+  padding: 1px 6px; }
 h3 { font-size: var(--fs-3); margin: 16px 0 5px; letter-spacing: 0; font-weight: 700; }
 h4 { font-size: var(--fs-1); margin: 0 0 6px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
 /* "First choice", "Duration", "Common pathogens" are field labels, not document
@@ -266,7 +266,7 @@ html[data-allergy]:not([data-allergy=""]) .lens-btn::before { background: var(--
 .crumbs a:hover { color: var(--ink-2); }
 .prov { display: flex; align-items: center; gap: 10px; margin-top: 12px; padding: 6px 0; border-top: 1px solid var(--rule-2); border-bottom: 1px solid var(--rule-2); font-size: var(--fs-2); color: var(--ink-4); }
 .prov a { color: var(--ink-3); font-family: var(--mono); font-size: var(--fs-1); display: inline-flex; align-items: center; min-height: 24px; }
-.pin { margin-left: auto; background: 0; border: 1px solid var(--rule); border-radius: 0; padding: 4px 9px; min-height: 24px; font-size: var(--fs-1); color: var(--ink-3); cursor: pointer; }
+.pin { margin-left: auto; background: 0; border: 0; padding: 2px 4px; min-height: 24px; font-size: var(--fs-2); color: var(--link); cursor: pointer; }
 .pin:hover { border-color: var(--rule-3); color: var(--ink); }
 .pin.on { color: var(--link); border-color: var(--link); }
 .doc-foot { margin-top: 40px; padding-top: 10px; border-top: 1px solid var(--ink); font-size: var(--fs-2); line-height: 1.55; color: var(--ink-3); }
@@ -368,7 +368,9 @@ html[data-where]:not([data-where=""]) li[data-sites]:not(.site-match) { opacity:
 .idxtbl tr.hide { display: none; }
 
 /* ----------------------------------------------------------------- tags */
-.tag, .badge { display: inline-block; font-size: var(--fs-1); font-weight: 500; letter-spacing: .02em; padding: 1px 5px; border: 1px solid var(--rule); border-radius: 0; color: var(--ink-3); line-height: 1.6; white-space: nowrap; }
+/* The manual has no pills. A qualifier is just words, set small. */
+.tag, .badge { display: inline-block; font-family: var(--narrow); font-size: var(--fs-2); font-weight: 400;
+  letter-spacing: 0; padding: 0; border: 0; color: var(--ink-3); line-height: 1.5; white-space: nowrap; }
 .badge.site.s-ucsf, .tag.t-ucsf { color: var(--ucsf); border-color: color-mix(in srgb, var(--ucsf) 34%, transparent); }
 .badge.site.s-zsfg, .tag.t-zsfg { color: var(--zsfg); border-color: color-mix(in srgb, var(--zsfg) 34%, transparent); }
 .badge.site.s-va, .tag.t-va { color: var(--va); border-color: color-mix(in srgb, var(--va) 34%, transparent); }
@@ -399,29 +401,31 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
 .btn.x-pdf::after, .prov a::after { content: ""; margin: 0; }
 
 /* ------------------------------------------------------- regimen blocks */
-.copy { background: 0; border: 1px solid var(--rule); border-radius: 0; padding: 4px 10px; font-size: var(--fs-2); color: var(--ink-3); cursor: pointer; }
-.copy:hover { border-color: var(--rule-3); color: var(--ink); }
+.copy { background: 0; border: 0; padding: 2px 4px; min-height: 24px; font-size: var(--fs-2); color: var(--link); cursor: pointer; }
+.copy:hover { color: var(--ink); text-decoration: underline; }
 
 /* --- context branch: the decision that picks the regimen ---------------- */
 .ctx { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 2px 0 0; padding: 0 0 14px; }
 .ctx-q { display: inline-flex; align-items: center; gap: 6px; font-size: var(--fs-2); color: var(--ink-4); }
 .ctx-q .ic { width: 14px; height: 14px; }
-.ctx-ns { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.ctx-ns { display: flex; flex-wrap: wrap; gap: 2px 18px; align-items: center; }
 .ctx-g { font-size: var(--fs-1); color: var(--ink-4); padding: 0 2px 0 8px; border-left: 1px solid var(--rule); }
 .ctx-ns > .ctx-g:first-child { border-left: 0; padding-left: 0; }
 .rgc-g { display: block; font-size: var(--fs-1); font-weight: 500; color: var(--ink-4); }
-.ctx-n { background: 0; border: 1px solid var(--rule); border-radius: 0; padding: 5px 11px; font-size: var(--fs-3); color: var(--ink-3); cursor: pointer; letter-spacing: -.012em; max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.ctx-n:hover { border-color: var(--rule-3); color: var(--ink); }
-.ctx-n.on { background: var(--ink); border-color: var(--ink); color: var(--paper); font-weight: 500; }
+.ctx-n { background: 0; border: 0; border-bottom: 2px solid transparent; border-radius: 0; padding: 3px 2px;
+  min-height: 24px; font-size: var(--fs-3); color: var(--link); cursor: pointer; letter-spacing: 0;
+  max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ctx-n:hover { color: var(--ink); border-bottom-color: var(--rule); }
+.ctx-n.on { background: 0; color: var(--ink); font-weight: 700; border-bottom-color: var(--ink); }
 
 /* --- the money shot ----------------------------------------------------- */
-.money { margin: 0 0 6px; }
+.money { margin: 0 0 4px; }
 /* The band runs the full measure, as it does in the manual, and carries the label, the
    freshness chip and the copy button inside it rather than beside it. */
-.money-hd { display: flex; align-items: center; gap: 12px; margin: 0 0 8px;
-  background: var(--paper-4); padding: 2px 8px; }
-.money-h, .alt-h { font-size: var(--fs-3); letter-spacing: .04em; margin: 0 0 7px; text-transform: none;
-  font-variant: small-caps; background: var(--paper-4); padding: 2px 8px; }
+.money-hd { display: flex; align-items: center; gap: 12px; margin: 0 0 6px;
+  background: var(--paper-4); padding: 1px 6px; }
+.money-h, .alt-h { font-size: var(--fs-3); letter-spacing: .04em; margin: 0 0 6px; text-transform: none;
+  font-variant: small-caps; background: var(--paper-4); padding: 1px 6px; }
 .money-hd .money-h { background: 0; padding: 0; flex: 1 1 auto; }
 .money-hd .money-h { margin: 0; }
 .money-hd .fresh { margin-left: auto; font-size: var(--fs-1); color: var(--ink-3); font-family: var(--mono);
@@ -433,34 +437,39 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
    value. Spending a warm hue on "Alternative" puts it in the same visual register as
    "ID approval needed at ZSFG", which is the one thing colour here should mean. */
 .money-h { color: var(--ink); font-weight: 700; }
-.alt-blk { margin: 20px 0 6px; padding-top: 14px; border-top: 1px solid var(--ink); }
+.alt-blk { margin: 16px 0 4px; padding-top: 10px; border-top: 1px solid var(--ink); }
 .alt-h { color: var(--ink); font-weight: 400; }
-.rgx { display: grid; gap: 0; border: 1px solid var(--rule-3); border-right: 0; }
+/* The manual boxes a decision panel once and never nests. The regimen columns are
+   separated by a rule and framed by nothing. */
+.rgx { display: grid; gap: 0; }
 .rgx[data-cols="1"] { grid-template-columns: 1fr; }
 .rgx[data-cols="2"] { grid-template-columns: repeat(2, 1fr); }
 .rgx[data-cols="3"] { grid-template-columns: repeat(3, 1fr); }
 .rgx[data-cols="4"] { grid-template-columns: repeat(4, 1fr); }
-.rgc { display: flex; flex-direction: column; border: 1px solid var(--rule-3); min-width: 0; }
+.rgc { display: flex; flex-direction: column; min-width: 0; border-top: 1px solid var(--ink); }
 .money .rgc { background: var(--first-bg); }
 .alt-blk .rgc { background: var(--alt-bg); }
-.rgc-h { padding: 5px 10px 5px 12px; border-bottom: 1px solid var(--rule-3); background: var(--paper-4);
-  font-size: var(--fs-2); font-weight: 700; color: var(--ink); letter-spacing: 0; display: flex; align-items: center; gap: 10px; }
+/* The band above already names the section; the column header is bold text under a rule,
+   the way the manual heads the columns of a decision panel. */
+.rgc-h { padding: 3px 0 4px; border-bottom: 1px solid var(--ink); background: 0;
+  font-size: var(--fs-3); font-weight: 700; color: var(--ink); letter-spacing: 0; display: flex; align-items: center; gap: 10px; }
 .rgc-h .copy { margin-left: auto; flex: 0 0 auto; font-weight: 400; }
-.rgc-b { flex: 1; padding: 18px 16px 16px; }
+.rgc-b { flex: 1; padding: 10px 0 8px; }
 .rgc.dim { display: none; }
 /* a context with no alternative says so, rather than leaving the heading over a gap */
 .rgc-none { background: 0 !important; border-right: 0; }
 .rgc-empty { color: var(--ink-4); font-size: var(--fs-2); font-style: italic; padding: 14px 16px; }
 /* sections whose every panel is filtered out are removed, headings and all */
 .money[hidden], .alt-blk[hidden], .detail[hidden], .cv[hidden], .block[hidden] { display: none; }
-.rgc-d { padding: 9px 16px; border-top: 1px solid var(--rule); font-size: var(--fs-2); display: flex; gap: 10px; align-items: baseline; }
+.rgc-d { padding: 5px 0 0; border-top: 1px solid var(--rule-2); font-size: var(--fs-2); display: flex; gap: 8px; align-items: baseline; }
 .rgc-d > span { font-size: var(--fs-1); color: var(--ink-4); }
-.rgc-d b { font-weight: 500; color: var(--ink); font-family: var(--mono); font-size: var(--fs-2); }
+.rgc-d b { font-weight: 700; color: var(--ink); font-family: var(--narrow); font-size: var(--fs-3); }
 .rgc-d b p { margin: 0; } .rgc-d-none b { color: var(--ink-4); font-family: var(--sans); }
 .rgc-lead { font-size: var(--fs-2); color: var(--ink-3); margin: 0 0 12px; }
 .rgc-tail { font-size: var(--fs-2); color: var(--ink-3); margin: 10px 0 0; }
-.stp-any { border: 1px dashed var(--rule-3); border-radius: 0; padding: 10px 12px; }
-.stp-k { font-size: var(--fs-1); color: var(--ink-4); margin-bottom: 8px; }
+/* "any one of" was a dashed box inside a box. It is a lead-in, so it reads as one. */
+.stp-any { padding: 0; }
+.stp-k { font-size: var(--fs-2); font-style: italic; color: var(--ink-3); margin-bottom: 4px; }
 .jn { display: flex; align-items: center; gap: 8px; margin: 13px 0; color: var(--ink-3); }
 .jn::before, .jn::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
 .jn .ic { width: 15px; height: 15px; }
@@ -496,9 +505,10 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-1);
 .mk .ic { width: 13px; height: 13px; }
 .mk-renal { gap: 2px; } .mk-renal b { font-family: var(--mono); font-size: var(--fs-1); font-weight: 600; }
 .mk-restrict { color: var(--warn); }
-.bt { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 1px; margin: 9px 0 0; background: var(--rule-2); border: 1px solid var(--rule-2); }
-.bt-c { background: color-mix(in srgb, var(--paper) 72%, transparent); padding: 5px 7px; }
-.bt-c.on { background: var(--paper); box-shadow: inset 2px 0 0 var(--link); }
+.bt { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 0; margin: 7px 0 0;
+  border: 1px solid var(--ink); border-right: 0; border-bottom: 0; }
+.bt-c { background: 0; padding: 3px 6px; border-right: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+.bt-c.on { background: var(--paper-4); }
 /* A CrCl band decides whether the patient gets a full or a reduced dose. It was the
    smallest, faintest string on the page. */
 .bt-k { display: block; font-size: var(--fs-3); font-weight: 500; color: var(--ink-2); }
@@ -531,7 +541,7 @@ html[data-where="ucsf"] .restr[data-sites~="ucsf"], html[data-where="zsfg"] .res
 .cv-t td.s-mid { background: var(--h-mid); } .cv-t td.s-lo { background: var(--h-lo); }
 
 /* --- read once, below the fold, at a reading measure -------------------- */
-.detail { margin: 26px 0 0; padding-top: 16px; border-top: 1px solid var(--rule); display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 0 34px; }
+.detail { margin: 18px 0 0; padding-top: 12px; border-top: 1px solid var(--rule); display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 0 30px; }
 .detail .dtl h2 { font-size: var(--fs-2); margin: 0 0 6px; color: var(--ink-3); letter-spacing: -.006em; }
 .detail .bl { margin-bottom: 16px; max-width: var(--prose-w); }
 .detail .bl .fld-h { color: var(--ink-3); }
@@ -540,18 +550,18 @@ html[data-where="ucsf"] .restr[data-sites~="ucsf"], html[data-where="zsfg"] .res
 .detail .rx-body ul, .detail .rx-body ol { margin: 4px 0 6px; padding-left: 18px; }
 /* The narrative is folded above the regimen, not deleted: one line that says what is
    inside and how much of it there is. */
-.preamble { margin: 0 0 18px; border: 1px solid var(--rule-2); border-radius: 0; background: var(--paper-2); }
+.preamble { margin: 0 0 14px; border: 0; border-bottom: 1px solid var(--rule-2); background: 0; }
 .preamble > summary {
   display: flex; align-items: center; justify-content: space-between; gap: 10px;
-  padding: 8px 12px; cursor: pointer; list-style: none; color: var(--ink-3); font-size: var(--fs-2);
+  padding: 5px 0; cursor: pointer; list-style: none; color: var(--ink-3); font-size: var(--fs-2);
 }
 .preamble > summary::-webkit-details-marker { display: none; }
 .preamble > summary:hover { color: var(--ink); }
 .preamble > summary .pre-l::before { content: "+ "; font-family: var(--mono); color: var(--ink-4); }
 .preamble[open] > summary .pre-l::before { content: "− "; }
 .preamble > summary .pre-n { flex: 0 0 auto; font: 400 var(--fs-1) var(--mono); color: var(--ink-4); }
-.preamble[open] > summary { border-bottom: 1px solid var(--rule-2); }
-.preamble-b { padding: 4px 12px 12px; }
+
+.preamble-b { padding: 2px 0 10px; }
 .preamble-b > :first-child { margin-top: 8px; }
 .src-raw { margin-top: 20px; border-top: 1px solid var(--rule-2); padding-top: 10px; font-size: var(--fs-2); }
 .src-raw summary { display: flex; align-items: center; gap: 7px; min-height: 24px; cursor: pointer; color: var(--ink-3); list-style: none; font-size: var(--fs-2); }
@@ -573,7 +583,7 @@ ul.check li:hover::before { border-color: var(--link); }
 ul.check li.done::before { background: var(--link); border-color: var(--link); }
 ul.check li.done::after { content: ""; position: absolute; left: 4px; top: .38em; width: 3px; height: 7px; border: solid var(--paper); border-width: 0 1.6px 1.6px 0; transform: rotate(45deg); }
 ul.check li.done { color: var(--ink-4); }
-.then-what { margin-top: 10px; padding: 10px 13px; background: var(--paper-3); font-size: var(--fs-2); border-left: 3px solid var(--rule-3); }
+.then-what { margin-top: 8px; padding: 0; background: 0; font-size: var(--fs-2); border: 0; }
 .then-what ul { margin: 0; padding-left: 15px; } .then-what li { margin: 3px 0; }
 .then-what b { color: var(--ink); font-weight: 600; }
 

@@ -1741,7 +1741,7 @@ def main():
                                     + f'title="{esc(c["label"][:150])}">{esc(c["short"])}</button>')
                     nodes = "".join(bits)
                     qid = f"ctx-q-{cols[0]['a']}"
-                    body_parts.append(f'<div class="ctx"><span class="ctx-q" id="{qid}">{icon("branch")}Which patient</span>'
+                    body_parts.append(f'<div class="ctx"><span class="ctx-q" id="{qid}">Which patient</span>'
                                       f'<span class="ctx-ns" role="{grp_role}" aria-labelledby="{qid}">{nodes}</span></div>')
                 if bi == 0:
                     body_parts += folded
@@ -1827,7 +1827,7 @@ def main():
                         f'<div class="src-col"><div class="fld-h">{LABELS.get(k, k)}</div><div class="rx-body">{c["cells"][k]["html"]}</div></div>'
                         for k in ("first", "alt", "pathogens", "comments", "duration") if c["cells"].get(k) and c["cells"][k]["text"]) + "</div>"
                     for c in cols)
-                body_parts.append(f'<details class="src-raw"><summary>{icon("doc")}These rows exactly as IDMP publishes them</summary>{raw}</details>')
+                body_parts.append(f'<details class="src-raw"><summary>These rows exactly as IDMP publishes them</summary>{raw}</details>')
             body_parts += post
             if page_dose:
                 body_parts.append(f'<script type="application/json" id="dose-data">{jdump(page_dose)}</script>')
