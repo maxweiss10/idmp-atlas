@@ -927,15 +927,14 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
 <title>{esc(title)} · {SITE_NAME}</title>
 <meta name="description" content="{esc(desc or TAGLINE)}">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#FFFCF0" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#100F0F" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#FFFFFF">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="{SITE_NAME}">
 <link rel="manifest" href="{root}manifest.webmanifest">
 <link rel="icon" href="{root}assets/icon-192.png">
 <link rel="apple-touch-icon" href="{root}assets/apple-touch-icon.png">
 <link rel="stylesheet" href="{root}assets/site.css?v={ver}">
-<script>try{{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);var L=JSON.parse(localStorage.getItem('lens')||'{{}}');for(var k in L)if(L[k])document.documentElement.setAttribute('data-'+k,L[k]);if(localStorage.getItem('idx')==='0')document.documentElement.setAttribute('data-idx','0');}}catch(e){{}}</script>
+<script>try{{var L=JSON.parse(localStorage.getItem('lens')||'{{}}');for(var k in L)if(L[k])document.documentElement.setAttribute('data-'+k,L[k]);if(localStorage.getItem('idx')==='0')document.documentElement.setAttribute('data-idx','0');}}catch(e){{}}</script>
 {extra_head}
 </head>
 <body class="{esc(page_class)}">
@@ -949,7 +948,6 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
     <div class="bar-end">
       <button class="lens-btn" id="lens-open" type="button" title="Where / Setting / Patient"><span id="lens-summary">All sites, any setting, adult</span></button>
       <a class="sync" id="status" href="{root}changes.html" title="Sync status">sync</a>
-      <button class="icon-btn" id="theme" type="button" aria-label="Toggle dark mode">◐</button>
     </div>
   </header>
   <aside class="idx-wrap" id="idx-wrap">{nav}</aside>
@@ -2442,7 +2440,7 @@ def main():
         json.dump([{k: v for k, v in e.items() if k in ("t", "n", "u", "k", "s")} for e in search], f, ensure_ascii=False, separators=(",", ":"))
     ver = ctx.asset_ver
     manifest_pwa = {"name": SITE_NAME, "short_name": "IDMP Atlas", "description": TAGLINE, "start_url": "./index.html", "scope": "./",
-                    "display": "standalone", "background_color": "#ffffff", "theme_color": "#0a0c12",
+                    "display": "standalone", "background_color": "#ffffff", "theme_color": "#ffffff",
                     "icons": [{"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png"},
                               {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png"},
                               {"src": "assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}

@@ -1,4 +1,4 @@
-/* IDMP Atlas client. No dependencies. Modules: theme, lens, modals, palette (ask), chooser, bands, drawer, favorites, filters, explorer, offline. */
+/* IDMP Atlas client. No dependencies. Modules: lens, modals, palette (ask), chooser, bands, drawer, favorites, filters, explorer, offline. */
 (function () {
   'use strict';
   var html = document.documentElement, root = html.getAttribute('data-root') || '', REPO = '__REPO__';
@@ -11,13 +11,6 @@
   var toastEl = $('#toast'), toastT;
   function toast(msg, ms) { if (!toastEl) return; toastEl.textContent = msg; toastEl.hidden = false; clearTimeout(toastT); toastT = setTimeout(function () { toastEl.hidden = true; }, ms || 1800); }
   function fetchJSON(u) { return fetch(u, { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
-
-  /* ---------- theme ---------- */
-  var themeBtn = $('#theme');
-  function isDark() { var t = html.getAttribute('data-theme'); return t === 'dark' || (!t && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches); }
-  function paintTheme() { if (themeBtn) themeBtn.textContent = isDark() ? '☀' : '☾'; }
-  if (themeBtn) themeBtn.addEventListener('click', function () { var next = isDark() ? 'light' : 'dark'; html.setAttribute('data-theme', next); store('theme', next); paintTheme(); });
-  paintTheme();
 
   /* ---------- lens (Where / Setting / Patient) ---------- */
   var LENS_KEYS = ['where', 'setting', 'patient', 'renal', 'allergy'];
@@ -572,18 +565,18 @@
     }).catch(function () { out.innerHTML = '<p class="muted">Could not load antibiogram data.</p>'; });
     function cell(v, raw) { var c = heatClass(v); return '<td class="' + (v == null && /^r$/i.test(raw || '') ? 's-r' : c) + '">' + esc(raw || '—') + '</td>'; }
     function renderOverview() {
-      out.innerHTML = tables.map(function (t) { return '<h3>' + esc(t.title) + ' <span class="muted">' + esc(t.year || '') + '</span></h3><div class="tbl-wrap"><table class="tbl heat"><tr><th>Organism</th><th>n</th>' + t.drugs.map(function (d) { return '<th title="' + esc(d.name) + '">' + esc(d.abbr) + '</th>'; }).join('') + '</tr>' + t.rows.map(function (r) { return '<tr><td>' + esc(r.organism) + '</td><td>' + (r.n == null ? '' : r.n) + '</td>' + t.drugs.map(function (d) { var v = r.v[d.abbr] || {}; return cell(v.v, v.raw); }).join('') + '</tr>'; }).join('') + '</table></div><p class="muted">Source: <a href="' + root + esc(t.route) + '">' + esc(t.page) + '</a></p>'; }).join('');
+      out.innerHTML = tables.map(function (t) { return '<h2>' + esc(t.title) + ' <span class="muted">' + esc(t.year || '') + '</span></h2><div class="tbl-wrap"><table class="tbl heat"><tr><th>Organism</th><th>n</th>' + t.drugs.map(function (d) { return '<th title="' + esc(d.name) + '">' + esc(d.abbr) + '</th>'; }).join('') + '</tr>' + t.rows.map(function (r) { return '<tr><td>' + esc(r.organism) + '</td><td>' + (r.n == null ? '' : r.n) + '</td>' + t.drugs.map(function (d) { var v = r.v[d.abbr] || {}; return cell(v.v, v.raw); }).join('') + '</tr>'; }).join('') + '</table></div><p class="muted">Source: <a href="' + root + esc(t.route) + '">' + esc(t.page) + '</a></p>'; }).join('');
     }
     function renderBug(name) {
       var n = norm(name), blocks = [];
       tables.forEach(function (t) { t.rows.forEach(function (r) { if (norm(r.organism).indexOf(n) < 0 && n.indexOf(norm(r.organism)) < 0) return;
-        blocks.push('<h3><i>' + esc(r.organism) + '</i> <span class="muted">' + esc(t.title) + ' ' + esc(t.year || '') + (r.n != null ? ' · n=' + r.n : '') + '</span></h3><div class="tbl-wrap"><table class="tbl heat"><tr><th>Drug</th><th>% susceptible</th></tr>' + t.drugs.map(function (d) { var v = r.v[d.abbr] || {}; return '<tr><td>' + (d.slug ? '<a data-drug="' + esc(d.slug) + '" href="' + root + 'drugs/' + esc(d.slug) + '.html">' + esc(d.name || d.abbr) + '</a>' : esc(d.name || d.abbr)) + ' <span class="muted">' + esc(d.abbr) + '</span></td>' + cell(v.v, v.raw) + '</tr>'; }).join('') + '</table></div>'); }); });
+        blocks.push('<h2><i>' + esc(r.organism) + '</i> <span class="muted">' + esc(t.title) + ' ' + esc(t.year || '') + (r.n != null ? ' · n=' + r.n : '') + '</span></h2><div class="tbl-wrap"><table class="tbl heat"><tr><th>Drug</th><th>% susceptible</th></tr>' + t.drugs.map(function (d) { var v = r.v[d.abbr] || {}; return '<tr><td>' + (d.slug ? '<a data-drug="' + esc(d.slug) + '" href="' + root + 'drugs/' + esc(d.slug) + '.html">' + esc(d.name || d.abbr) + '</a>' : esc(d.name || d.abbr)) + ' <span class="muted">' + esc(d.abbr) + '</span></td>' + cell(v.v, v.raw) + '</tr>'; }).join('') + '</table></div>'); }); });
       out.innerHTML = blocks.join('') || '<p class="muted">No organism matches “' + esc(name) + '” in the parsed tables.</p>';
     }
     function renderDrug(name) {
       var n = norm(name), blocks = [];
       tables.forEach(function (t) { t.drugs.forEach(function (d) { if (norm(d.name || '').indexOf(n) < 0 && norm(d.abbr).indexOf(n) < 0) return;
-        blocks.push('<h3>' + esc(d.name || d.abbr) + ' <span class="muted">' + esc(t.title) + ' ' + esc(t.year || '') + '</span></h3><div class="tbl-wrap"><table class="tbl heat"><tr><th>Organism</th><th>n</th><th>% susceptible</th></tr>' + t.rows.map(function (r) { var v = r.v[d.abbr] || {}; return '<tr><td><i>' + esc(r.organism) + '</i></td><td>' + (r.n == null ? '' : r.n) + '</td>' + cell(v.v, v.raw) + '</tr>'; }).join('') + '</table></div>'); }); });
+        blocks.push('<h2>' + esc(d.name || d.abbr) + ' <span class="muted">' + esc(t.title) + ' ' + esc(t.year || '') + '</span></h2><div class="tbl-wrap"><table class="tbl heat"><tr><th>Organism</th><th>n</th><th>% susceptible</th></tr>' + t.rows.map(function (r) { var v = r.v[d.abbr] || {}; return '<tr><td><i>' + esc(r.organism) + '</i></td><td>' + (r.n == null ? '' : r.n) + '</td>' + cell(v.v, v.raw) + '</tr>'; }).join('') + '</table></div>'); }); });
       out.innerHTML = blocks.join('') || '<p class="muted">No drug matches “' + esc(name) + '” in the parsed tables.</p>';
     }
     bugIn.addEventListener('input', function () { if (bugIn.value.length > 1) { drugIn.value = ''; renderBug(bugIn.value); } else if (!bugIn.value) renderOverview(); });

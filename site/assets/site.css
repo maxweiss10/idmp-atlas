@@ -99,50 +99,6 @@
   --ease: cubic-bezier(.22, .68, .28, 1);
   color-scheme: light;
 }
-:root[data-theme="dark"], :root:not([data-theme="light"]) { }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --paper: #101010; --paper-2: #141414; --paper-3: #1E1E1E; --paper-4: #2B2B2B;
-    --ink: #FFFFFF; --ink-2: #F2F2F2;
-    --ink-3: #C6C6C6;   /* 12.3:1 */
-    --ink-4: #9C9C9C;   /* 6.9:1 */
-    --rule: #3C3C3C; --rule-2: #262626; --rule-3: #8A8A8A;
-    --link: #7D9BFF; --link-2: #A9BEFF; --sel: #1E2A55;
-    --first: #FFFFFF; --first-bg: #101010;
-    --alt: #FFFFFF; --alt-bg: #101010;
-    --bug: #5FC8CF;
-    --bad: #FF8A80; --bad-bg: #2A1414;
-    --warn: #E3B341; --warn-bg: #241D0C;
-    --ok: #7FC787; --ok-bg: #12200F;
-    --ucsf: #7D9BFF; --ucsf-bg: #141A2E;
-    --zsfg: #7FC787; --zsfg-bg: #12200F;
-    --va: #E0A265; --va-bg: #251A10;
-    --bch: #BBA6EA; --bch-bg: #1D1728;
-    --h-hi: #1E2A1E; --h-ok: #1A211A; --h-mid: #2A2314; --h-lo: #2C1A1A; --h-r: #232323;
-  }
-}
-:root[data-theme="dark"] {
-    color-scheme: dark;
-  --paper: #101010; --paper-2: #141414; --paper-3: #1E1E1E; --paper-4: #2B2B2B;
-  --ink: #FFFFFF; --ink-2: #F2F2F2;
-  --ink-3: #C6C6C6;   /* 12.3:1 */
-  --ink-4: #9C9C9C;   /* 6.9:1 */
-  --rule: #3C3C3C; --rule-2: #262626; --rule-3: #8A8A8A;
-  --link: #7D9BFF; --link-2: #A9BEFF; --sel: #1E2A55;
-  --first: #FFFFFF; --first-bg: #101010;
-  --alt: #FFFFFF; --alt-bg: #101010;
-  --bug: #5FC8CF;
-  --bad: #FF8A80; --bad-bg: #2A1414;
-  --warn: #E3B341; --warn-bg: #241D0C;
-  --ok: #7FC787; --ok-bg: #12200F;
-  --ucsf: #7D9BFF; --ucsf-bg: #141A2E;
-  --zsfg: #7FC787; --zsfg-bg: #12200F;
-  --va: #E0A265; --va-bg: #251A10;
-  --bch: #BBA6EA; --bch-bg: #1D1728;
-  --h-hi: #1E2A1E; --h-ok: #1A211A; --h-mid: #2A2314; --h-lo: #2C1A1A; --h-r: #232323;
-}
-
 /* Target size, WCAG 2.2 SC 2.5.8 (AA): every control at least 24x24 CSS px, and 44px
    under a thumb. Links sitting inside a sentence are exempt by the spec and are left
    alone; the rules below cover everything that behaves like a control.
@@ -626,8 +582,8 @@ ul.check li.done { color: var(--ink-4); }
 .explore-controls label { display: flex; flex-direction: column; gap: 4px; font-size: var(--fs-1); font-weight: 600; letter-spacing: .01em; text-transform: uppercase; color: var(--ink-4); }
 .explore-controls input { width: 230px; max-width: 72vw; height: 30px; padding: 0 9px; font: 400 var(--fs-3) var(--sans); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 0; }
 .explore-controls input:focus { outline: 0; border-color: var(--link); }
-.explore h3 { margin: 22px 0 4px; font-size: var(--fs-4); }
-.explore h3 .muted { font-weight: 400; color: var(--ink-4); font-size: var(--fs-2); }
+.explore h2 { margin: 22px 0 4px; font-size: var(--fs-4); background: 0; padding: 0; font-variant: normal; letter-spacing: 0; }
+.explore h2 .muted { font-weight: 400; color: var(--ink-4); font-size: var(--fs-2); }
 
 /* ------------------------------------------------- people, pubs, changes */
 .people { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0 24px; }
