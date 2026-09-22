@@ -1860,10 +1860,11 @@ def main():
             total = sum(len([x for x in r if "__group__" not in x]) for k, r in doc if k == "rows")
             pre, post, ctx_blocks = [], [], []
             for kind, payload in doc:
-                if kind == "html":
-                    (ctx_blocks and post or pre).append(payload)
-                elif kind == "table":
-                    (ctx_blocks and post or pre).append(payload)
+                # not "ctx_blocks and post or pre": while post is still empty that expression
+                # evaluates to pre, so everything after the therapy table was folded into
+                # "Definitions and background" along with what came before it
+                if kind in ("html", "table"):
+                    (post if ctx_blocks else pre).append(payload)
                 elif kind == "notes":
                     notes += payload
                 elif kind == "rows":
