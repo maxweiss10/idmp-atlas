@@ -15,12 +15,17 @@
   /* ---------- lens (Where / Setting / Patient) ---------- */
   var LENS_KEYS = ['where', 'setting', 'patient', 'renal', 'allergy'];
   var lens = read('lens', true) || {};
-  var LABELS = { where: { '': 'All sites', ucsf: 'UCSF Health', zsfg: 'ZSFG', va: 'VA', bch: 'BCH' }, setting: { '': 'Any setting', outpatient: 'Outpatient', inpatient: 'Inpatient', icu: 'ICU' }, patient: { '': 'Adult', peds: 'Pediatric' } };
-  function lensSummary() {
-    var parts = [LABELS.where[lens.where || ''], LABELS.setting[lens.setting || ''], LABELS.patient[lens.patient || '']];
-    if (lens.crcl) parts.push('CrCl ' + lens.crcl); else if (lens.renal) parts.push(lens.renal.toUpperCase());
-    if (lens.allergy) parts.push('beta-lactam allergy');
-    return parts.join(', ');
+  /* The control reads "Set hospital and patient" until something is set, then shows only
+     what is set, as chips: "ZSFG / Inpatient / CrCl 30". The defaults are not information. */
+  var SHORT = { where: { ucsf: 'UCSF', zsfg: 'ZSFG', va: 'VA', bch: 'BCH' }, setting: { outpatient: 'Outpatient', inpatient: 'Inpatient', icu: 'ICU' } };
+  function lensChips() {
+    var out = [];
+    if (lens.where && SHORT.where[lens.where]) out.push(SHORT.where[lens.where]);
+    if (lens.setting && SHORT.setting[lens.setting]) out.push(SHORT.setting[lens.setting]);
+    if (lens.patient === 'peds') out.push('Pediatric');
+    if (lens.crcl) out.push('CrCl ' + lens.crcl); else if (lens.renal) out.push(lens.renal.toUpperCase());
+    if (lens.allergy) out.push('BL allergy');
+    return out;
   }
   /* The patient lens answers "adult or pediatric". The index has to answer with it:
      an index group for the excluded population is hidden outright, not just de-emphasised,
@@ -41,8 +46,13 @@
   function applyLens(save) {
     LENS_KEYS.forEach(function (k) { if (lens[k]) html.setAttribute('data-' + k, lens[k]); else html.removeAttribute('data-' + k); });
     if (save) store('lens', lens);
-    var s = lensSummary();
-    $$('#lens-summary').forEach(function (el) { el.textContent = s; });
+    var chips = lensChips();
+    $$('#lens-summary').forEach(function (el) {
+      // a space between chips: without it a screen reader hears "ZSFGICUCrCl 30"
+      el.innerHTML = chips.length ? chips.map(function (c) { return '<span class="lc">' + esc(c) + '</span>'; }).join(' ') : 'Set hospital and patient';
+      var btn = el.closest('.lens-btn');
+      if (btn) { btn.classList.toggle('set', chips.length > 0); btn.setAttribute('aria-label', chips.length ? 'Context: ' + chips.join(', ') + '. Change hospital and patient' : 'Set hospital and patient'); }
+    });
     $$('.seg[data-lens]').forEach(function (seg) {
       var k = seg.getAttribute('data-lens');
       $$('button', seg).forEach(function (b) { b.classList.toggle('on', (b.getAttribute('data-v') || '') === (lens[k] || '')); });
@@ -120,18 +130,6 @@
      unique id and the command palette already deep-links to it; the click handler just
      never wrote it back. replaceState, not pushState: flipping between five tabs should
      not bury the previous page under five history entries. */
-  /* A heading standing over an empty box is read as an answer: "Alternative" followed by
-     whitespace says there is no alternative. Sections whose panels are all filtered out
-     for the active context are hidden outright. The build emits an explicit "IDMP lists
-     no alternative regimen for X" panel wherever it can; this catches the rest. */
-  function hideEmptySections() {
-    $$('section.money, section.alt-blk, section.detail, section.cv, section.block').forEach(function (sec) {
-      var kids = $$('[data-ctx]', sec);
-      if (!kids.length) return;
-      sec.hidden = !kids.some(function (k) { return !k.classList.contains('dim'); });
-    });
-  }
-
   function ctxWriteHash(id) {
     if (!id || location.hash === '#' + id) return;
     try { history.replaceState(null, '', '#' + id); } catch (e) {}
@@ -140,30 +138,13 @@
     // a page can carry more than one context block; only touch the panels this nav owns
     var ids = $$('.ctx-n', nav).map(function (b) { return b.getAttribute('data-ctx'); });
     var owned = function (el) { return ids.indexOf(el.getAttribute('data-ctx')) >= 0; };
-    var many = ids.length > 4;
-    var group = $('.ctx-ns', nav), listRole = group && group.getAttribute('role');
-    var selAttr = listRole === 'radiogroup' ? 'aria-checked' : 'aria-selected';
     $$('.ctx-n', nav).forEach(function (b) {
       var on = b.getAttribute('data-ctx') === id;
       b.classList.toggle('on', on);
-      if (b.getAttribute('role')) { b.setAttribute(selAttr, on ? 'true' : 'false'); b.tabIndex = on ? 0 : -1; }
+      b.setAttribute('aria-selected', on ? 'true' : 'false'); b.tabIndex = on ? 0 : -1;
     });
-    $$('.rgc[data-ctx]').filter(owned).forEach(function (c) {
-      var mine = c.getAttribute('data-ctx') === id;
-      c.classList.toggle('dim', many && !mine);
-      c.classList.toggle('lit', !many && mine);
-    });
-    $$('.dtl[data-ctx]').filter(owned).forEach(function (d) { d.classList.toggle('dim', many && d.getAttribute('data-ctx') !== id); });
-    // a one-at-a-time block has a single Copy in its band; point it at the panel on show
-    $$('.money').forEach(function (m) {
-      if (!m.querySelector('.rgc[data-ctx="' + id + '"]')) return;
-      var b = m.querySelector('.money-hd .copy'); if (b) b.setAttribute('data-copy', id);
-    });
-    $$('.rgx').forEach(function (g) {
-      var vis = $$('.rgc:not(.dim)', g).length;
-      g.setAttribute('data-cols', String(Math.min(vis || 1, 4)));
-    });
-    hideEmptySections();
+    // one situation at a time: the panel is self-contained, so nothing else needs hiding
+    $$('.rgc[data-ctx]').filter(owned).forEach(function (c) { c.classList.toggle('dim', c.getAttribute('data-ctx') !== id); });
     if (scroll) { var t = document.getElementById(id); if (t) t.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
   }
   function ctxAuto() {
@@ -224,26 +205,25 @@
     ctxPick(list[j], false);
   });
   window.addEventListener('hashchange', function () { $$('.ctx').forEach(function (n) { n.removeAttribute('data-user'); }); ctxAuto(); });
-  document.addEventListener('click', function (ev) { var li = ev.target.closest('ul.check > li'); if (li && !ev.target.closest('a')) li.classList.toggle('done'); });
 
   /* ---------- copy the shown regimen as plain text for a note ---------- */
-  function serializeRegimen(col) {
-    if (!col) return '';
-    var body = $('.rgc-b', col); if (!body) return '';
+  function clean(s) { return String(s || '').replace(/\s+/g, ' ').trim(); }
+  function serializeRegimen(body) {
+    if (!body) return '';
     var parts = [];
     Array.prototype.forEach.call(body.children, function (node) {
       if (node.classList.contains('jn')) { parts.push(/with or without/i.test(node.textContent) ? 'with or without' : 'PLUS'); return; }
-      if (node.classList.contains('rgc-lead') || node.classList.contains('rgc-tail')) { parts.push(node.textContent.trim()); return; }
+      if (node.classList.contains('rgc-lead') || node.classList.contains('rgc-tail') || node.classList.contains('rg-prose')) { parts.push(clean(node.textContent)); return; }
+      if (node.classList.contains('rg-hint')) return;
       var drugs = [];
-      $$('.rgd', node).length ? null : null;
       var scope = node.classList.contains('rgd') ? [node] : $$('.rgd', node);
       scope.forEach(function (d) {
-        var name = ($('.rgd-n', d) || {}).textContent || '';
-        var dose = ($('.dl-d', d) || {}).textContent || '';
-        var note = ($('.rgd-note', d) || {}).textContent || '';
-        var gapEl = $('.gap', d);
-        var line = name.trim() + (dose ? ' ' + dose.trim() : (gapEl ? ' [no dose published on IDMP]' : ''));
-        if (note) line += ' (' + note.trim() + ')';
+        var name = clean(($('.rgd-n', d) || {}).textContent);
+        var dose = clean(($('.dl-d', d) || {}).textContent);
+        var note = clean(($('.rgd-note', d) || {}).textContent);
+        var ptr = $('.dose-ptr', d);
+        var line = name + (dose ? ' ' + dose : (ptr ? ' [' + clean(ptr.textContent) + ']' : ''));
+        if (note) line += ' (' + note + ')';
         drugs.push(line);
       });
       if (drugs.length) parts.push(drugs.join(node.classList.contains('stp-any') ? ' OR ' : ' '));
@@ -253,22 +233,23 @@
   document.addEventListener('click', function (ev) {
     var b = ev.target.closest('button.copy[data-copy]'); if (!b) return;
     var id = b.getAttribute('data-copy');
-    var first = $('.money .rgc[data-ctx="' + id + '"]');
-    var alt = $('.alt-blk .rgc[data-ctx="' + id + '"]');
-    var head = first && $('.rgc-h', first);
-    var ctxName = head ? head.textContent.replace(/\s*Copy\s*$/, '').trim() : '';
-    var title = ($('h1') || {}).textContent || '';
-    var dur = first && $('.rgc-d b', first);
-    var altHead = alt && $('.rgc-h', alt);
-    var altCond = altHead ? altHead.textContent.replace(/\s*Copy\s*$/, '').replace(ctxName, '').replace(/^[\s—-]+/, '').trim() : '';
-    var out = title.trim() + (ctxName ? ', ' + ctxName : '') + '\n';
-    var f = serializeRegimen(first);
+    var panel = document.getElementById(id) || b.closest('.rgc'); if (!panel) return;
+    var tab = $('.ctx-n[data-ctx="' + id + '"]');
+    var ctxName = tab ? clean(tab.getAttribute('title') || tab.textContent) : '';
+    var out = clean(($('h1') || {}).textContent) + (ctxName ? ', ' + ctxName : '') + '\n';
+    var f = serializeRegimen($('.rg-first', panel));
     if (f) out += 'First choice: ' + f + '\n';
-    var a2 = serializeRegimen(alt);
-    if (a2) out += 'Alternative' + (altCond ? ' (' + altCond + ')' : '') + ': ' + a2 + '\n';
-    if (dur) out += 'Duration: ' + dur.textContent.trim() + '\n';
-    var rev = $('.prov time');
-    out += 'Per UCSF IDMP' + (rev ? ', revised ' + rev.textContent.trim() : '') + ': ' + location.href.split('#')[0];
+    var dur = $('.rgc-d:not(.rgc-d-none) b', panel);
+    if (dur) out += 'Duration: ' + clean(dur.textContent) + '\n';
+    $$('.rg-foot', panel).forEach(function (x) { out += clean(x.textContent) + '\n'; });
+    $$('.mod', panel).forEach(function (m) {
+      out += clean(($('.mod-l', m) || {}).textContent) + ' ' + $$('li', m).map(function (li) { return clean(li.textContent); }).join('; ') + '\n';
+      var after = $('.mod-a', m); if (after) out += clean(after.textContent) + '\n';
+    });
+    var altBand = $('.band-alt .band-t', panel), a2 = serializeRegimen($('.rg-alt', panel));
+    if (a2) out += (altBand ? clean(altBand.textContent) : 'Alternative') + ': ' + a2 + '\n';
+    var rev = $('.foot-src time');
+    out += 'Per UCSF IDMP' + (rev ? ', revised ' + clean(rev.textContent) : '') + ': ' + location.href.split('#')[0] + (tab ? '#' + id : '');
     (navigator.clipboard ? navigator.clipboard.writeText(out) : Promise.reject())
       .then(function () { toast('Regimen copied'); }, function () { window.prompt('Copy:', out); });
   });
@@ -583,12 +564,18 @@
     if (!body || body.getAttribute('data-filled') === '1') return;
     body.innerHTML = (groups || []).map(function (g) {
       return '<div class="idx-grp"' + (g.pop ? ' data-pop="' + esc(g.pop.toLowerCase()) + '"' : '') + '>' +
-        (g.label ? '<div class="idx-grp-h">' + (g.pop ? '<span class="idx-pop">' + esc(g.pop) + '</span>' : '') + esc(g.label) + '</div>' : '') +
-        '<ul>' + g.items.map(function (it) { return '<li><a href="' + root + esc(it.u) + '">' + esc(it.t) + '</a></li>'; }).join('') + '</ul></div>';
+        (g.label ? '<button type="button" class="idx-grp-h" aria-expanded="false">' + (g.pop ? '<span class="idx-pop">' + esc(g.pop) + '</span>' : '') + esc(g.label) + '</button>' : '') +
+        '<ul' + (g.label ? ' hidden' : '') + '>' + g.items.map(function (it) { return '<li><a href="' + root + esc(it.u) + '">' + esc(it.t) + '</a></li>'; }).join('') + '</ul></div>';
     }).join('');
     body.setAttribute('data-filled', '1');
     applyIdxPop();
   }
+  document.addEventListener('click', function (ev) {
+    var h = ev.target.closest('.idx-grp-h'); if (!h) return;
+    var ul = h.nextElementSibling; if (!ul) return;
+    var open = h.getAttribute('aria-expanded') === 'true';
+    ul.hidden = open; h.setAttribute('aria-expanded', open ? 'false' : 'true');
+  });
   document.addEventListener('click', function (ev) {
     var t = ev.target.closest('.idx-toggle'); if (!t) return;
     var sec = t.closest('.idx-sec'), body = $('.idx-body', sec);
@@ -607,15 +594,21 @@
       var any = false;
       $$('.idx-grp', sec).forEach(function (g) {
         if (g.hidden) { g.classList.add('hide'); return; }
-        var gAny = false;
+        var gAny = false, ul = $('ul', g), h = $('.idx-grp-h', g);
         $$('li', g).forEach(function (li) {
           var ok = !terms.length || terms.every(function (t) { return norm(li.textContent).indexOf(t) >= 0; });
           li.classList.toggle('hide', !ok); if (ok) gAny = true;
         });
         g.classList.toggle('hide', !gAny); if (gAny) any = true;
+        // a matching group opens while a filter is typed; clearing it restores siblings-only
+        if (ul && h) { var open = terms.length ? gAny : g.classList.contains('here'); ul.hidden = !open; h.setAttribute('aria-expanded', open ? 'true' : 'false'); }
       });
       var head = norm(sec.textContent.slice(0, 40));
       sec.classList.toggle('hide', !!terms.length && !any && !terms.every(function (t) { return head.indexOf(t) >= 0; }));
+      if (!terms.length && !sec.classList.contains('on')) {
+        var body = $('.idx-body', sec), tg = $('.idx-toggle', sec);
+        if (body) body.hidden = true; if (tg) tg.setAttribute('aria-expanded', 'false');
+      }
     });
   }
   if (idxQ) {

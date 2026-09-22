@@ -382,6 +382,7 @@ ICON_SPRITE = """<svg class="sprite" aria-hidden="true" focusable="false">
 <symbol id="i-list" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
 <symbol id="i-rx" viewBox="0 0 24 24"><path d="M6 20V5h4.5a3.5 3.5 0 0 1 0 7H6"/><path d="m11 12 7 8M18 12l-7 8"/></symbol>
 <symbol id="i-vial" viewBox="0 0 24 24"><path d="M9 3h6M10 3v11.5a2 2 0 0 0 4 0V3"/><path d="M10 11.5h4"/><path d="M8.5 20.5h7"/></symbol>
+<symbol id="i-set" viewBox="0 0 24 24"><path d="M4 7h9M18 7h2M4 17h4M13 17h7"/><circle cx="15.5" cy="7" r="2.5"/><circle cx="10.5" cy="17" r="2.5"/></symbol>
 <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="2"/><path d="M3.5 9.5h17M3.5 15h17M9.5 3.5v17"/></symbol>
 </defs></svg>"""
 
@@ -398,9 +399,7 @@ def dose_marks(dose_text, band_count=1, restricted=False):
     # Route, weight basis and band count were all read off the dose text and then printed
     # beside it, so the reader saw "100 mg PO q12h  PO" and a "CrCl 2" that the band table
     # under the line already shows. Only restriction is not in the dose text.
-    if restricted:
-        out.append('<span class="mk mk-restrict" title="ID approval required at your selected hospital">restricted</span>')
-    return "".join(out)
+    return ""   # restriction is the chip beside the name; nothing else is read off the dose text
 
 # ----------------------------------------------------------------------------- therapy rows
 def therapy_rows(fragment, ctx, root, page_slug):
@@ -490,7 +489,11 @@ def regimen_tree(cell_html):
         if m:
             note = m.group(1).strip("() ")
             after = after[m.end():]
+        # the dose the source writes straight after the name ("Azithromycin 500mg IV daily"),
+        # up to the next joiner; shown only when the drug has no dosing table of its own
+        inline = re.split(r"\b(?:plus|or|and|with or without|followed by|either)\b|\+/-|±", after, maxsplit=1, flags=re.I)[0].strip(" :;,*")
         cur.append({"slug": tokens[i][1], "name": tokens[i][2], "href": tokens[i][3], "note": note,
+                    "inline": inline if DOSE_RX.search(inline) else "",
                     "inline_dose": bool(DOSE_RX.search(tokens[i][2])) or bool(DOSE_RX.search(after[:70]))})
         low = after.lower()
         if k + 1 >= len(idxs):
@@ -554,16 +557,169 @@ def drug_dose_pointer(node, ctx, title=""):
     return {"note": (prose[0][:190] if prose else ""), "links": links[:4], "decision": decision,
             "title": title}
 
+def _norm_inline(h):
+    h = re.sub(r"&nbsp;|\xa0", " ", h or "")
+    return re.sub(r"\s+", " ", h).strip()
+
+def pathogen_line(cell_html):
+    """The pathogens cell arrives as one <p> per organism: eight rows of rules for what is
+    a comma list. Join it the way the manual writes it, commas within a group, semicolons
+    between groups, a colon after a lead-in. A bare qualifier that follows an item
+    ("(alcoholics)" under Klebsiella) belongs to the item before it."""
+    soup = BeautifulSoup(cell_html or "", "lxml")
+    body = soup.body
+    if body is None:
+        return ""
+    groups, cur, lead = [], [], [""]
+    def flush():
+        if cur or lead[0]:
+            groups.append((lead[0], list(cur)))
+        del cur[:]
+        lead[0] = ""
+    def add(h):
+        for piece in re.split(r"<br\s*/?>", h):
+            piece = _norm_inline(piece).strip(" ,;")
+            if not piece:
+                continue
+            t = text_only(piece)
+            if t.endswith(":"):
+                flush()
+                lead[0] = piece.rstrip(" :")
+                continue
+            if cur and (t.startswith("(") or t[:1].islower()):
+                cur[-1] = cur[-1] + " " + piece
+            else:
+                cur.append(piece)
+    def walk(node):
+        for ch in node.children:
+            if isinstance(ch, Comment):
+                continue
+            if isinstance(ch, NavigableString):
+                add(str(ch))
+            elif ch.name in ("ul", "ol", "table", "tbody", "tr"):
+                walk(ch)
+            elif ch.name in ("p", "li", "div", "td", "th", "h2", "h3", "h4", "h5"):
+                if ch.find(["p", "li", "ul", "ol"]):
+                    walk(ch)
+                else:
+                    add(inner_html(ch))
+            elif ch.name == "br":
+                continue
+            else:
+                add(str(ch))
+    walk(body)
+    flush()
+    parts = []
+    for l, items in groups:
+        s = ", ".join(items)
+        parts.append(f"{l}: {s}" if (l and s) else (s or l))
+    return "; ".join(x for x in parts if x)
+
+CONSULT_RX = re.compile(r"\bID\b.*consult|infectious diseases? consult|consult(ation)?\s+(is |are |be |should be |strongly )*recommended|\bconsult\s+(ID|ASP|infectious)", re.I)
+
+def comments_parts(cell_html):
+    """Split a Comments cell into what changes the regimen and what does not. A lead-in
+    ending in a colon followed by a list is a modifier ("Consider MRSA coverage if any of
+    the following:"); a conditional sentence right after the list is its consequence. A
+    paragraph opening with an asterisk is the footnote to a starred condition in the
+    regimen cell. A paragraph recommending a consult is a next step. Everything else is
+    the remainder, shown as published. Nothing is dropped and nothing is shown twice."""
+    out = {"mods": [], "foot": [], "consult": [], "rest": []}
+    soup = BeautifulSoup(cell_html or "", "lxml")
+    body = soup.body
+    if body is None:
+        return out
+    kids = [k for k in body.children if not isinstance(k, Comment) and (not isinstance(k, NavigableString) or str(k).strip())]
+    i = 0
+    while i < len(kids):
+        k = kids[i]
+        if isinstance(k, NavigableString):
+            out["rest"].append(f"<p>{esc(str(k).strip())}</p>"); i += 1; continue
+        nxt = kids[i + 1] if i + 1 < len(kids) else None
+        txt = text_only(str(k))
+        if (k.name == "p" and nxt is not None and getattr(nxt, "name", None) in ("ul", "ol")
+                and (txt.endswith(":") or re.search(r"\b(if|when|for|with|following)\b", txt, re.I))):
+            items = [_norm_inline(inner_html(li)) for li in nxt.find_all("li", recursive=False)]
+            mod = {"lead": _norm_inline(inner_html(k)), "items": items, "after": ""}
+            i += 2
+            if i < len(kids) and getattr(kids[i], "name", None) == "p":
+                t2 = text_only(str(kids[i]))
+                nxt2 = kids[i + 1] if i + 1 < len(kids) else None
+                if re.match(r"^\*?\s*(if|when|once)\b", t2, re.I) and getattr(nxt2, "name", None) not in ("ul", "ol"):
+                    mod["after"] = _norm_inline(inner_html(kids[i])); i += 1
+            out["mods"].append(mod)
+            continue
+        if k.name == "p" and txt.startswith("*"):
+            out["foot"].append(_norm_inline(inner_html(k))); i += 1; continue
+        if k.name == "p" and CONSULT_RX.search(txt):
+            out["consult"].append(_norm_inline(inner_html(k))); i += 1; continue
+        out["rest"].append(str(k)); i += 1
+    return out
+
+def alt_band_label(lead):
+    """The alternative column's own condition becomes the band over it: "If severe
+    beta-lactam allergy" says more than "Alternative"."""
+    t = re.sub(r"\s+", " ", lead or "").strip(" :;,.")
+    if not t:
+        return "Alternative"
+    if re.match(r"^(if|when|unless)\b", t, re.I):
+        return t[0].upper() + t[1:]
+    m = re.match(r"^(for|in|with)\s+", t, re.I)
+    cond = re.search(r"allerg|intoleran|contraindic|unable|cannot|failure|pregnan|resistan|risk|precluding", t, re.I)
+    if cond:
+        rest = t[m.end():] if m else t
+        return "If " + rest[0].lower() + rest[1:] if rest[:1].isupper() and not rest[:2].isupper() else "If " + rest
+    return "Alternative: " + t
+
+def pointer_line(ptr, root):
+    """A drug IDMP does not tabulate gets one line, not a panel: what decides the dose and
+    where it lives, one link per hospital. The SharePoint caveat and the login note stay on
+    the drug page, where they belong."""
+    links = []
+    for l in ptr["links"]:
+        site = (l["site"] or ("UCSF" if l["x"] == "login" else "")).upper()
+        label = l["t"] or ""
+        if re.search(r"calculator", label, re.I):
+            kind = "calculator"
+        elif re.search(r"nomogram", label, re.I):
+            kind = "nomogram"
+        else:
+            kind = "guidance"
+        text = " ".join(x for x in (site, kind) if x) + (" (login)" if l["x"] == "login" else "")
+        href = (root + l["u"]) if l["x"] == "internal" else l["u"]
+        tgt = "" if l["x"] == "internal" else ' target="_blank" rel="noopener"'
+        links.append(f'<a class="ptr-l" data-site="{esc(site.lower())}" href="{esc(href)}"{tgt}>{esc(text)}</a>')
+    what = "nomogram" if re.search(r"vancomycin|nomogram", (ptr.get("title") or "") + " " + (ptr.get("note") or ""), re.I) else "hospital guidance"
+    if links:
+        # the separator travels with the link after it, so a hospital lens that hides the
+        # other link does not leave a dangling comma
+        joined = "".join((f'<span class="ptr-sep">, </span>' if i else "") + l for i, l in enumerate(links))
+        return f'<div class="dose dose-ptr">Dose per {what}: {joined}</div>'
+    return f'<div class="dose dose-ptr">Dose per {what}. {esc(ptr["decision"])}</div>'
+
 DOSE_STOP = {"the", "and", "or", "of", "in", "for", "with", "a", "an", "to", "at", "on", "infection", "infections",
              "including", "dosing", "dose", "standard", "usual", "all", "other", "adult", "adults", "therapy", "treatment",
              "acute", "severe", "non", "suspected", "documented"}
+SHORT_OK = {"icu", "uti", "cap", "hap", "vap", "bsi", "cns", "bmt", "hiv", "pid", "sti"}
 def dose_tokens(x):
+    """Words that decide a dosing row. Three-letter tokens are dropped except the ones that
+    are the whole decision (ICU, UTI), and "non-ICU" is its own token so an ICU context
+    cannot match it."""
     out = set()
-    for w in re.findall(r"[a-z]{4,}", (x or "").lower()):
-        if w in DOSE_STOP:
+    low = re.sub(r"\bnon[- ]?icu\b", " nonicu ", (x or "").lower())
+    for w in re.findall(r"[a-z]{3,}", low):
+        if w in DOSE_STOP or (len(w) == 3 and w not in SHORT_OK):
             continue
         out.add(w[:-1] if w.endswith("s") and len(w) > 5 else w)
     return out
+
+GENERAL_RX = re.compile(r"^(standard|usual|general|all|normal|other|most)\b", re.I)
+def clip_words(x, n):
+    x = (x or "").strip()
+    if len(x) <= n:
+        return x
+    cut = x[:n].rsplit(" ", 1)[0].rstrip(" ,;:(")
+    return cut + "\u2026"
 
 def dose_line(dd, row_index, band_index, matched, restricted=False):
     """One line: dose, route, frequency, exactly as IDMP publishes it."""
@@ -576,9 +732,9 @@ def dose_line(dd, row_index, band_index, matched, restricted=False):
     marks = dose_marks(txt, len(dd["bands"]), restricted)   # now only "restricted" 
     label = ""
     if matched and r["i"]:
-        label = f'<span class="dl-ind">for {esc(r["i"][:46].rsplit(" ", 1)[0] if len(r["i"]) > 46 else r["i"])}</span>'
-    elif r["i"] and not re.match(r"^(standard|usual|general|all|normal)", r["i"], flags=re.I) and len(dd["rows"]) > 1:
-        label = f'<span class="dl-ind">{esc(r["i"][:46])}</span>'
+        label = f'<span class="dl-ind">for {esc(clip_words(r["i"], 46))}</span>'
+    elif r["i"] and not GENERAL_RX.match(r["i"]) and len(dd["rows"]) > 1:
+        label = f'<span class="dl-ind">{esc(clip_words(r["i"], 46))}</span>'
     return f'<span class="dl"><span class="dl-d">{esc(txt)}</span>{marks}</span>{label}', txt
 
 def band_table(dd, row_index, band_index):
@@ -612,13 +768,19 @@ def pick_dose_row(dd, context):
     ctxt = dose_tokens(context)
     best, best_score = 0, 0
     for i, r in enumerate(dd["rows"]):
-        score = len(ctxt & dose_tokens(r["i"]))
+        rt = dose_tokens(r["i"])
+        score = len(ctxt & rt)
+        if "icu" in rt and "icu" not in ctxt:
+            score -= 0.5          # an ICU row is not the answer for a ward question
         if score > best_score:
             best, best_score = i, score
-    if best_score:
+    if best_score > 0:
         return best, True
+    # No row names this syndrome: take the row IDMP wrote as the general one. Levofloxacin
+    # tabulates "Urinary tract infections" first and "Other indications" second, and the
+    # old fallback handed a pneumonia page the 500 mg UTI dose.
     for i, r in enumerate(dd["rows"]):
-        if not r["i"] or re.match(r"^(standard|usual|general|all|normal)", r["i"], flags=re.I):
+        if not r["i"] or GENERAL_RX.match(r["i"]):
             return i, False
     return 0, False
 
@@ -632,10 +794,15 @@ def dose_strip_html(dd, band_index, row_index=0, matched=False):
     label = ""
     if matched and r["i"]:
         label = f'<b>{esc(r["i"][:38])}</b> '
-    elif r["i"] and not re.match(r"^(standard|usual|general|all|normal)", r["i"], flags=re.I) and len(dd["rows"]) > 1:
-        label = f'<b>{esc(r["i"][:38])}</b> '
+    elif r["i"] and not GENERAL_RX.match(r["i"]) and len(dd["rows"]) > 1:
+        label = f'<b>{esc(clip_words(r["i"], 38))}</b> '
     more = f'<i class="more">+{len(dd["rows"]) - 1} more</i>' if len(dd["rows"]) > 1 else ""
     return label + esc(d) + more
+
+def tidy_dose(t):
+    t = re.sub(r"\s+", " ", t or "").strip()
+    t = re.sub(r"\s+([)\],.;:])", r"\1", t)
+    return re.sub(r"([(\[])\s+", r"\1", t)
 
 def drug_dose_data_hd(node):
     """HD / CRRT dosing rows, so the palette can answer 'vanc hd' with numbers."""
@@ -661,7 +828,7 @@ def drug_dose_data_hd(node):
         rows = []
         for r in grid[1:]:
             ind = re.sub(r"\*+$", "", r[0]["text"]).strip() if r else ""
-            doses = [re.sub(r"\s+", " ", r[b["col"]]["text"]).strip() if b["col"] < len(r) else "" for b in bands]
+            doses = [tidy_dose(r[b["col"]]["text"]) if b["col"] < len(r) else "" for b in bands]
             if any(doses):
                 rows.append({"i": ind, "d": doses})
         if rows:
@@ -695,7 +862,7 @@ def drug_dose_data(node):
         rows = []
         for r in grid[1:]:
             ind = re.sub(r"\*+$", "", r[0]["text"]).strip() if r else ""
-            doses = [re.sub(r"\s+", " ", r[c]["text"]).strip() if c < len(r) else "" for c in cols]
+            doses = [tidy_dose(r[c]["text"]) if c < len(r) else "" for c in cols]
             if any(doses):
                 rows.append({"i": ind, "d": doses})
         if rows:
@@ -837,18 +1004,35 @@ SECTIONS = [
     ("reference", "Reference", "about.html"),
 ]
 
+def idx_groups_html(groups, current_route, root):
+    """Groups inside a section. Only the group holding the current page is open; the
+    others are headers that open on click. The JS renders lazily loaded sections with
+    the same markup, so keep the two in step."""
+    out = []
+    for g in groups:
+        here = any(it["u"] == current_route for it in g["items"])
+        gp = f' data-pop="{g["pop"].lower()}"' if g.get("pop") else ""
+        out.append(f'<div class="idx-grp{" here" if here else ""}"{gp}>')
+        if g.get("label"):
+            pop = f'<span class="idx-pop">{esc(g["pop"])}</span>' if g.get("pop") else ""
+            out.append(f'<button type="button" class="idx-grp-h" aria-expanded="{"true" if here else "false"}">{pop}{esc(g["label"])}</button>')
+        out.append("<ul" + ("" if (here or not g.get("label")) else " hidden") + ">")
+        for it in g["items"]:
+            cur = ' aria-current="page"' if it["u"] == current_route else ""
+            out.append(f'<li><a href="{root}{it["u"]}"{cur}>{esc(it["t"])}</a></li>')
+        out.append("</ul></div>")
+    return "".join(out)
+
 def nav_html(tree, section, current_route, root):
-    """The persistent index. The current section is expanded inline so it works without
-    JS; other sections are headers that expand from nav.json on click."""
+    """The persistent index, with one behaviour everywhere: five section heads, the
+    current section open, and inside it only the group that holds this page. Ninety-four
+    links in a column is the index of the book, not navigation. Other sections fill from
+    nav.json on click; the filter box opens whatever matches."""
     out = ['<nav class="idx" aria-label="Contents">']
     out.append('<div class="idx-filter"><input type="search" id="idx-q" placeholder="Filter this index" aria-label="Filter the index" autocomplete="off"></div>')
     for key, label, href in SECTIONS:
         on = key == section
         groups = tree.get(key) or []
-        count = sum(len(g["items"]) for g in groups)
-        # the lens hides the population the clinician excluded, so the badge has to count per population
-        n_adult = sum(len(g["items"]) for g in groups if g.get("pop") != "Pediatric")
-        n_peds = sum(len(g["items"]) for g in groups if g.get("pop") != "Adult")
         out.append(f'<div class="idx-sec{" on" if on else ""}" data-sec="{key}">')
         out.append(f'<div class="idx-sec-head"><a href="{root}{href}">{esc(label)}</a>'
                    + (f'<button type="button" class="idx-toggle" aria-expanded="{"true" if on else "false"}" aria-label="Show {esc(label)} contents">'
@@ -856,17 +1040,7 @@ def nav_html(tree, section, current_route, root):
         if groups:
             out.append('<div class="idx-body"' + ("" if on else " hidden") + ">")
             if on:
-                for g in groups:
-                    gp = f' data-pop="{g["pop"].lower()}"' if g.get("pop") else ""
-                    out.append(f'<div class="idx-grp"{gp}>')
-                    if g.get("label"):
-                        pop = f'<span class="idx-pop">{esc(g["pop"])}</span>' if g.get("pop") else ""
-                        out.append(f'<div class="idx-grp-h">{pop}{esc(g["label"])}</div>')
-                    out.append("<ul>")
-                    for it in g["items"]:
-                        cur = ' aria-current="page"' if it["u"] == current_route else ""
-                        out.append(f'<li><a href="{root}{it["u"]}"{cur}>{esc(it["t"])}</a></li>')
-                    out.append("</ul></div>")
+                out.append(idx_groups_html(groups, current_route, root))
             out.append("</div>")
         out.append("</div>")
     out.append("</nav>")
@@ -907,7 +1081,9 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
     # two things again above it; the provenance row (source link, revision date, Pin) sat
     # between the title and the answer and now lives in the footer, minus Pin.
     sec_href = next((h for h, _t in reversed(crumbs or []) if h), None)
-    head_block = ""
+    # every page names itself once; a page with no masthead (home, offline) keeps an
+    # invisible h1 so the heading tree still starts at one
+    head_block = f'<h1 class="sr-only">{esc(title)}</h1>'
     if h1:
         kick = f'<a href="{root}{sec_href}">{kicker}</a>' if (kicker and sec_href and sec_href != "index.html") else kicker
         head_block = (f'<header class="doc-head">'
@@ -940,7 +1116,7 @@ def layout(ctx, root, title, content, *, desc="", node=None, section="", extra_h
     <a class="mark" href="{root}index.html"><img src="{root}assets/icon-192.png" alt="" width="20" height="20"><span class="mark-n">IDMP Atlas</span><span class="mark-s">unofficial mirror</span></a>
     <button class="ask" id="ask-open" type="button" aria-label="Search">{icon("search", "ask-ic")}<span class="ask-t">Search</span><kbd>⌘K</kbd></button>
     <div class="bar-end">
-      <button class="lens-btn" id="lens-open" type="button" title="Where / Setting / Patient"><span id="lens-summary">All sites, any setting, adult</span></button>
+      <button class="lens-btn" id="lens-open" type="button" aria-label="Set hospital and patient">{icon("set", "lens-ic")}<span id="lens-summary">Set hospital and patient</span></button>
     </div>
   </header>
   <aside class="idx-wrap" id="idx-wrap">{nav}</aside>
@@ -1511,7 +1687,8 @@ def main():
         return (body.decode_contents() if body else html_str), found
 
     def regimen_column(cell_html, context, root, tone, gaps, where, drop_lead=False):
-        """One regimen as a vertical stack of steps. PLUS and OR are drawn, not written."""
+        """One regimen as a vertical stack of steps. PLUS and OR are words, the way the
+        manual writes them; drawn as rules they read as a phantom column under every dose."""
         tree = regimen_tree(cell_html)
         if not tree["steps"]:
             # IDMP states this regimen as prose. Show it at regimen scale rather than a blank
@@ -1522,22 +1699,21 @@ def main():
             hint = ""
             if names:
                 uniq = list(dict.fromkeys(names))
-                hint = (f'<p class="rg-hint">{icon("gap")}IDMP writes this one as prose. '
+                hint = (f'<p class="rg-hint">IDMP writes this one as prose. '
                         f'{esc("Dosing for " + ", ".join(drug_titles.get(x, x) for x in uniq[:4]))} '
                         f'is on {"its" if len(uniq) == 1 else "their"} own page, linked above.</p>')
             return f'<div class="rg-prose">{linked}</div>{hint}', {}
         used, out = {}, []
         for si, step in enumerate(tree["steps"]):
             if si:
-                out.append('<div class="jn"><b class="jn-t">+</b>'
-                           + ('<span>with or without</span>' if step["optional"] else "") + "</div>")
+                out.append('<div class="jn">' + ("with or without" if step["optional"] else "plus") + "</div>")
             multi = len(step["drugs"]) > 1
             out.append(f'<div class="stp{" stp-any" if multi else ""}">')
             if multi:
                 out.append('<div class="stp-k">any one of</div>')
             for di, d in enumerate(step["drugs"]):
                 if di:
-                    out.append(f'<div class="orx">{icon("or")}<span>or</span></div>')
+                    out.append('<div class="orx">or</div>')
                 slug = d["slug"]
                 title = drug_titles.get(slug, d["name"])
                 dd = dose_data_all.get(slug)
@@ -1549,36 +1725,28 @@ def main():
                     used[slug] = dd
                     line, _raw = dose_line(dd, ri, 0, matched, restricted)
                     body = (f'<div class="dose" data-dose="{esc(slug)}" data-row="{ri}" data-matched="{int(matched)}">{line}</div>'
-                            + band_table(dd, ri, 0) + "")   # "also published for" is the drug page's business
-                elif d["inline_dose"]:
-                    body = '<div class="dose dose-inline">Dose is stated by IDMP in the row below</div>'
+                            + band_table(dd, ri, 0))
+                elif d.get("inline"):
+                    # no table for this drug: the dose is the one the row itself states
+                    body = f'<div class="dose"><span class="dl"><span class="dl-d">{esc(d["inline"])}</span></span><span class="dl-ind">as written in this row</span></div>'
                 else:
                     ptr = dose_ptr_all.get(slug)
                     if ptr:
-                        bits = []
-                        for l in ptr["links"]:
-                            tgt = ' target="_blank" rel="noopener"' if l["x"] != "internal" else ""
-                            href = (root + l["u"]) if l["x"] == "internal" else l["u"]
-                            mark = icon("lock") if l["x"] == "login" else (icon("ext") if l["x"] != "internal" else "")
-                            pre = f'<b>{esc(l["site"])}</b> ' if l["site"] else ""
-                            bits.append(f'<li>{pre}<a href="{esc(href)}"{tgt}>{esc(l["t"])}</a>{mark}<span>{esc(l["where"])}</span></li>')
-                        body = (f'<div class="gap">{icon("gap")}<div><b>No dose table on IDMP.</b> '
-                                + (esc(ptr["note"]) + " " if ptr["note"] else "")
-                                + f'<i>{esc(ptr["decision"])}</i>'
-                                + (f'<ul class="gap-l">{"".join(bits)}</ul>' if bits else "") + "</div></div>")
+                        body = pointer_line(ptr, root)
                     else:
                         gaps.append({"drug": title, "slug": slug})
-                        body = (f'<div class="gap gap-bad">{icon("gap")}<div><b>No dose published on IDMP and no pointer.</b> '
-                                f'Ask ID or ASP pharmacy. <a href="{root}{esc(dose_route.get(slug, ""))}">Drug page</a></div></div>')
-                if rtags:
-                    sites = ", ".join(t.replace("id-r-", "").upper() for t in sorted(rtags))
-                    body += (f'<div class="restr" data-sites="{esc(" ".join(t.replace("id-r-", "") for t in rtags))}">'
-                             f'{icon("restrict")}<span>ID approval needed at {esc(sites)}</span></div>')
-                out.append(f'<div class="rgd"><a class="rgd-n" data-drug="{esc(slug)}" href="{esc(d["href"])}">{esc(title)}</a>'
+                        body = (f'<div class="dose dose-ptr">No dose published on IDMP. Ask ID or ASP pharmacy. '
+                                f'<a href="{root}{esc(dose_route.get(slug, ""))}">Drug page</a></div>')
+                # the chip names the hospital; with a hospital set, the others are hidden, not dimmed
+                chips = "".join(f'<span class="restr" data-site="{t.replace("id-r-", "")}">Restricted at {t.replace("id-r-", "").upper()}</span>'
+                                for t in sorted(rtags))
+                out.append(f'<div class="rgd"><span class="rgd-l"><a class="rgd-n" data-drug="{esc(slug)}" href="{esc(d["href"])}">{esc(title)}</a>{chips}</span>'
                            + (f'<span class="rgd-note">{esc(d["note"])}</span>' if d["note"] else "") + body + "</div>")
             out.append("</div>")
-        lead = "" if drop_lead else (f'<p class="rgc-lead">{esc(tree["lead"])}</p>' if tree["lead"] else "")
-        tail = f'<p class="rgc-tail">{esc(tree["tail"])}</p>' if tree["tail"] and len(tree["tail"]) > 3 else ""
+        lead_h, _ = linkify_drugs(esc(tree["lead"]), root) if tree["lead"] else ("", [])
+        tail_h, _ = linkify_drugs(esc(tree["tail"]), root) if (tree["tail"] and len(tree["tail"]) > 3) else ("", [])
+        lead = "" if drop_lead else (f'<p class="rgc-lead">{lead_h}</p>' if lead_h else "")
+        tail = f'<p class="rgc-tail">{tail_h}</p>' if tail_h else ""
         return lead + "".join(out) + tail, used
 
     ORG_MAP = curation.get("organisms") or {}
@@ -1697,28 +1865,30 @@ def main():
                         ctx_text = m["title"] + " " + label
                         c_first, u1 = regimen_column(first["html"] if first else "", ctx_text, root, "first", gaps, where)
                         alt_tree = regimen_tree(alt["html"]) if (alt and alt["text"]) else {"steps": [], "lead": ""}
+                        # a prose alternative ("Clindamycin 300 mg PO TID", "No drug therapy required")
+                        # is still the alternative; it used to be dropped for "IDMP lists no alternative"
+                        alt_text = alt["text"].strip() if (alt and alt["text"]) else ""
                         c_alt, u2 = (regimen_column(alt["html"], ctx_text, root, "alt", gaps, where, drop_lead=True)
-                                     if alt_tree["steps"] else ("", {}))
+                                     if (alt_text and not re.fullmatch(r"(n/?a|none|-+)\.?", alt_text, flags=re.I)) else ("", {}))
                         page_dose.update(u1); page_dose.update(u2)
                         slugs = [d["slug"] for st in regimen_tree(first["html"] if first else "")["steps"] for d in st["drugs"]]
                         cols.append({"a": anchor, "short": short, "label": label, "tags": tags, "cells": cells,
                                      "first": c_first, "alt": c_alt, "alt_cond": alt_tree.get("lead", ""),
                                      "slugs": slugs, "group": group_label})
                     ctx_blocks.append(cols)
-            # The chooser is the first thing the page asks and the regimen is the answer;
-            # neither belongs below 500 words of definitions. Chooser, folded prose, regimen.
+            # The chooser is the first thing the page asks and the regimen is the answer.
+            # One situation at a time: the tabs are real tabs, the opening one comes from
+            # the lens (hospital, then setting, then curated order), and everything a
+            # situation needs sits inside its own panel in the order it is used at the
+            # bedside: the regimen, its duration, the modifiers that change it, the
+            # alternative under its own condition, then pathogens, next steps and the rest
+            # of the comments. The definitions fold below the answer, not above it.
             folded = preamble_block(pre) if ctx_blocks else list(pre)
             body_parts = [] if ctx_blocks else list(pre)
+            any_alt_page = any(c["alt"] for cols in ctx_blocks for c in cols)
             for bi, cols in enumerate(ctx_blocks):
                 cols = curated_order(m["slug"], cols, total)
                 nc = len(cols)
-                wide = nc <= 4
-                # Two different controls wear the same coat here. Above four contexts only the
-                # chosen panel is rendered, which is a tab set. At four or fewer every panel is
-                # on screen and the button just marks one, which is a radio group. Calling the
-                # second a tablist would promise a screen-reader user that the others are gone.
-                grp_role, itm_role, sel_attr = (("tablist", "tab", "aria-selected") if not wide
-                                                else ("radiogroup", "radio", "aria-checked"))
                 if nc > 1:
                     bits, seen_g = [], None
                     for i, c in enumerate(cols):
@@ -1726,103 +1896,78 @@ def main():
                             seen_g = c["group"]
                             bits.append(f'<span class="ctx-g" role="presentation">{esc(seen_g)}</span>')
                         bits.append(f'<button type="button" class="ctx-n{" on" if i == 0 else ""}" id="tab-{c["a"]}" '
-                                    f'role="{itm_role}" {sel_attr}="{"true" if i == 0 else "false"}" '
+                                    f'role="tab" aria-selected="{"true" if i == 0 else "false"}" '
                                     f'aria-controls="{c["a"]}" tabindex="{0 if i == 0 else -1}" data-ctx="{c["a"]}" '
                                     f'data-tags="{esc(" ".join(c["tags"]))}" '
                                     # a visibly truncated tab still needs a complete accessible name
                                     + (f'aria-label="{esc(c["label"][:150])}" ' if c["short"].endswith("\u2026") else "")
                                     + f'title="{esc(c["label"][:150])}">{esc(c["short"])}</button>')
-                    nodes = "".join(bits)
                     qid = f"ctx-q-{cols[0]['a']}"
                     body_parts.append(f'<div class="ctx"><span class="ctx-q sr-only" id="{qid}">Which patient</span>'
-                                      f'<span class="ctx-ns" role="{grp_role}" aria-labelledby="{qid}">{nodes}</span></div>')
-                if bi == 0:
-                    body_parts += folded
-                    folded = []
-                # only a real tab set gets tabpanel semantics; a marked-but-visible column is
-                # just a column, and tabindex would add a focus stop for nothing
-                panel_a = (lambda c: f' role="tabpanel" aria-labelledby="tab-{c["a"]}" tabindex="0"') if (nc > 1 and not wide) else (lambda c: "")
-                # Side-by-side columns need their own headers. A one-at-a-time panel does not:
-                # its name is the selected tab directly above it, so the header only said it again.
-                shown = "".join(
-                    f'<div class="rgc{"" if (wide or i == 0) else " dim"}" data-ctx="{c["a"]}" id="{c["a"]}"{panel_a(c)}>'
-                    + (f'<div class="rgc-h">'
-                       + (f'<span class="rgc-g">{esc(c["group"])}</span>' if c.get("group") else "")
-                       + f'{esc(c["short"])}'
-                       f'<button type="button" class="copy" data-copy="{c["a"]}">Copy</button></div>' if (nc > 1 and wide) else "")
-                    + f'<div class="rgc-b">{c["first"]}</div>'
-                    + (f'<div class="rgc-d"><span>Duration</span><b>{c["cells"]["duration"]["html"]}</b></div>'
-                       if c["cells"].get("duration") and c["cells"]["duration"]["text"] else '<div class="rgc-d rgc-d-none"><span>Duration</span><b>not stated</b></div>')
-                    + "</div>" for i, c in enumerate(cols))
-                copy_one = ("" if (nc > 1 and wide) else
-                            f'<button type="button" class="copy" data-copy="{cols[0]["a"]}">Copy for note</button>')
-                body_parts.append(f'<section class="money{"" if wide else " money-one"}">'
-                                  f'<div class="money-hd"><div class="money-h fld-h">First choice</div>{copy_one}</div>'
-                                  f'<div class="rgx" data-cols="{min(nc, 4) if wide else 1}">{shown}</div></section>')
-                # "Alternative" over an empty box reads as "there is no alternative". Every
-                # context gets a panel here: either the alternative, or a sentence saying the
-                # source does not list one for that context.
-                if any(c["alt"] for c in cols):
-                    panels = []
-                    for i, c in enumerate(cols):
-                        cls = "" if (wide or i == 0) else " dim"
-                        if c["alt"]:
-                            head = (f'<div class="rgc-h">{esc(c["short"])}{(" — " + esc(c["alt_cond"])) if c["alt_cond"] else ""}</div>' if (nc > 1 and wide) else
-                                    (f'<div class="rgc-h">{esc(c["alt_cond"])}</div>' if c["alt_cond"] else ""))
-                            panels.append(f'<div class="rgc{cls}" data-ctx="{c["a"]}">{head}'
-                                          f'<div class="rgc-b">{c["alt"]}</div></div>')
-                        else:
-                            head = f'<div class="rgc-h">{esc(c["short"])}</div>' if (nc > 1 and wide) else ""
-                            panels.append(f'<div class="rgc rgc-none{cls}" data-ctx="{c["a"]}">{head}'
-                                          f'<div class="rgc-b rgc-empty">IDMP lists no alternative regimen for '
-                                          f'{esc(c["short"].rstrip("…"))}.</div></div>')
-                    n_alt = len(cols) if wide else 1
-                    body_parts.append(f'<section class="alt-blk"><div class="alt-h fld-h">Alternative</div>'
-                                      f'<div class="rgx" data-cols="{min(n_alt, 4)}">{"".join(panels)}</div></section>')
-                cov = coverage_grid(cols[0]["cells"].get("pathogens", {}).get("html", ""), set(cols[0]["slugs"]), root)
-                if cov:
-                    body_parts.append(cov)
-                # everything read once, not at 3am, sits below in prose
-                below = []
-                for c in cols:
+                                      f'<div class="ctx-ns" role="tablist" aria-labelledby="{qid}">{"".join(bits)}</div></div>')
+                panels = []
+                for i, c in enumerate(cols):
                     cc = c["cells"]
-                    blocks = ""
+                    a = c["a"]
+                    pp = []
+                    # 1. first choice, with this situation's own Copy in its band
+                    pp.append(f'<div class="band band-first"><span class="band-t">First choice</span>'
+                              f'<button type="button" class="copy" data-copy="{a}">Copy for note</button></div>')
+                    pp.append(f'<div class="rgc-b rg-first">{c["first"] or "<p class=rgc-empty>IDMP lists no first-choice regimen here.</p>"}</div>')
+                    # 2. duration at dose size, straight after the last drug
+                    if cc.get("duration") and cc["duration"]["text"]:
+                        pp.append(f'<div class="rgc-d"><span>Duration:</span> <b>{cc["duration"]["html"]}</b></div>')
+                    else:
+                        pp.append('<div class="rgc-d rgc-d-none"><span>Duration:</span> <b>not stated</b></div>')
+                    # 3. what changes the regimen, pulled out of Comments and set under it
+                    cp = (comments_parts(cc["comments"]["html"]) if (cc.get("comments") and cc["comments"]["text"])
+                          else {"mods": [], "foot": [], "consult": [], "rest": []})
+                    for f_ in cp["foot"]:
+                        pp.append(f'<p class="rg-foot">{f_}</p>')
+                    if cp["mods"]:
+                        mh = []
+                        for mod in cp["mods"]:
+                            mh.append(f'<div class="mod"><p class="mod-l">{mod["lead"]}</p><ul>'
+                                      + "".join(f"<li>{it}</li>" for it in mod["items"]) + "</ul>"
+                                      + (f'<p class="mod-a">{mod["after"]}</p>' if mod["after"] else "") + "</div>")
+                        pp.append(f'<div class="mods">{"".join(mh)}</div>')
+                    # 4. the alternative under its own condition
+                    if c["alt"]:
+                        pp.append(f'<div class="band band-alt"><span class="band-t">{esc(alt_band_label(c["alt_cond"]))}</span></div>')
+                        pp.append(f'<div class="rgc-b rg-alt">{c["alt"]}</div>')
+                    elif any_alt_page:
+                        pp.append(f'<p class="rgc-empty">IDMP lists no alternative regimen for {esc(c["short"].rstrip("\u2026"))}.</p>')
+                    # 5. pathogens on one line
                     if cc.get("pathogens") and cc["pathogens"]["text"]:
-                        blocks += f'<div class="bl"><div class="fld-h">Common pathogens</div><div class="rx-body">{cc["pathogens"]["html"]}</div></div>'
-                    if cc.get("comments") and cc["comments"]["text"]:
-                        ch = cc["comments"]["html"]
-                        cs = BeautifulSoup(ch, "lxml")
-                        for ul in cs.find_all(["ul", "ol"]):
-                            prev = ul.find_previous_sibling(["p", "h3", "h4", "strong"])
-                            if prev is not None and re.search(r"if any|consider|criteria|risk factor|indication|following|when", prev.get_text(" "), flags=re.I):
-                                ul["class"] = (ul.get("class") or []) + ["check"]
-                        blocks += f'<div class="bl"><div class="fld-h">Comments</div><div class="rx-body">{cs.body.decode_contents() if cs.body else ch}</div></div>'
-                    for key, cell in cc.items():
-                        if key.startswith("extra:") and cell["text"]:
-                            blocks += f'<div class="bl"><div class="fld-h">{esc(key[6:])}</div><div class="rx-body">{cell["html"]}</div></div>'
-                    tw = []
+                        pp.append(f'<p class="rg-line"><b>Common pathogens:</b> {pathogen_line(cc["pathogens"]["html"])}</p>')
+                    # 6. next steps
+                    for s_ in cp["consult"]:
+                        pp.append(f'<p class="rg-line"><b>Consult:</b> {s_}</p>')
                     ivpo = [drug_titles[d["slug"]] for st in regimen_tree(cc.get("first", {}).get("html", ""))["steps"]
                             for d in st["drugs"] if "iv-po" in drug_tags.get(d["slug"], [])]
                     if ivpo:
                         rr = route_for_alias(site_cur["ucsf"]["ivpo"]) or ""
-                        tw.append(f'<li><b>IV to PO candidates:</b> {esc(", ".join(dict.fromkeys(ivpo)))}'
-                                  + (f' <a href="{root}{rr}">step-down guidance</a>' if rr else "") + "</li>")
-                    for sent in [x.strip() for x in re.split(r"(?<=[.!?])\s+", text_only(cc["comments"]["html"] if cc.get("comments") else ""))
-                                 if re.search(r"\bID\b.*consult|infectious diseases? consult|consult(ation)? (is )?recommended", x, flags=re.I)][:2]:
-                        tw.append(f'<li><b>Consult:</b> {esc(sent)}</li>')
-                    if tw:
-                        blocks += '<div class="bl then-what"><div class="fld-h">Then what</div><ul>' + "".join(tw) + "</ul></div>"
-                    if blocks:
-                        below.append(f'<div class="dtl{"" if (wide or c is cols[0]) else " dim"}" data-ctx="{c["a"]}">'
-                                     + (f'<h2>{esc(c["short"])}</h2>' if nc > 1 else "") + blocks + "</div>")
-                if below:
-                    body_parts.append(f'<section class="detail">{"".join(below)}</section>')
-                raw = "".join(
-                    f'<div class="src-row"><div class="src-row-h">{esc(c["short"])}</div>' + "".join(
-                        f'<div class="src-col"><div class="fld-h">{LABELS.get(k, k)}</div><div class="rx-body">{c["cells"][k]["html"]}</div></div>'
-                        for k in ("first", "alt", "pathogens", "comments", "duration") if c["cells"].get(k) and c["cells"][k]["text"]) + "</div>"
-                    for c in cols)
-
+                        pp.append(f'<p class="rg-line"><b>IV to PO candidates:</b> {esc(", ".join(dict.fromkeys(ivpo)))}'
+                                  + (f' (<a href="{root}{rr}">step-down guidance</a>)' if rr else "") + "</p>")
+                    # 7. the rest of the comments as published: inline when short, folded when long
+                    rest = "".join(cp["rest"])
+                    if text_only(rest):
+                        if len(text_only(rest).split()) <= 45:
+                            pp.append(f'<div class="rg-rest"><div class="fld-h">Comments</div><div class="rx-body">{rest}</div></div>')
+                        else:
+                            pp.append(f'<details class="more"><summary>Comments as published</summary><div class="rx-body">{rest}</div></details>')
+                    for key, cell in cc.items():
+                        if key.startswith("extra:") and cell["text"]:
+                            pp.append(f'<details class="more"><summary>{esc(key[6:])}</summary><div class="rx-body">{cell["html"]}</div></details>')
+                    cov = coverage_grid(cc.get("pathogens", {}).get("html", ""), set(c["slugs"]), root)
+                    if cov:
+                        pp.append(cov)
+                    role = f' role="tabpanel" aria-labelledby="tab-{a}" tabindex="0"' if nc > 1 else ""
+                    panels.append(f'<section class="rgc{"" if i == 0 else " dim"}" id="{a}" data-ctx="{a}"{role}>{"".join(pp)}</section>')
+                body_parts.append(f'<div class="rgx">{"".join(panels)}</div>')
+                if bi == 0:
+                    body_parts += folded
+                    folded = []
             body_parts += post
             if page_dose:
                 body_parts.append(f'<script type="application/json" id="dose-data">{jdump(page_dose)}</script>')
@@ -2159,16 +2304,25 @@ def main():
         low = m["title"].lower()
         syn = [a for key, alts in synonyms.items() if key in low for a in alts]
         dd = dose_data_all.get(m["slug"])
-        first_dose = esc(dd["rows"][0]["d"][0][:44]) if (dd and dd["rows"]) else ""
+        # the whole first dose, never cut mid-word: "in combination with flucyto" is not a dose
+        # the first row IDMP publishes, or the first row that carries a dose at all
+        first_dose = next((esc(x) for r in (dd["rows"] if dd else []) for x in r["d"] if x), "")
+        if not first_dose and dose_ptr_all.get(m["slug"]):
+            first_dose = '<i>per nomogram, see page</i>' if re.search(r"vancomycin", m["title"], re.I) else '<i>per guidance, see page</i>'
+        elif not first_dose and text_only(fv(n, "field_dosing") or ""):
+            first_dose = '<i>table on the drug page</i>'   # a layout the mirror does not summarise (Cidofovir, Foscarnet)
+        flags = [f'<span class="badge tag t-{"zsfg" if "zsfg" in s_ else "ucsf" if "ucsf" in s_ else "ivpo" if "iv-po" in s_ else "misc"}">{esc(short_notation(s_, tax_name("/notations/" + s_)))}</span>' for s_ in tags]
+        if has_hd:
+            flags.append('<span class="tag">HD/CRRT</span>')
         rows.append(f'<tr data-tags="{esc(" ".join(tags))}{" hd" if has_hd else ""}" data-syn="{esc(" ".join(syn))}">'
                     f'<td><a href="{root}{m["route"]}">{esc(m["title"])}</a></td>'
-                    f'<td class="num">{first_dose}</td>'
-                    f'<td class="flags">{badges}{"<span class=tag>HD/CRRT</span>" if has_hd else ""}</td></tr>')
+                    f'<td class="dose-c">{first_dose}</td>'
+                    f'<td class="flags">{" ".join(flags)}</td></tr>')
     content = f"""<p class="lede">Renal-function and dialysis dosing for {len(rows)} agents, one page per drug with a renal dial. Brand names and ward shorthand work here and in the Ask palette: Zosyn, pip-tazo, vanc, Bactrim.</p>
 <p class="small">Source guidance: dosing recommendations are based on available literature and do not replace clinical judgement. Pediatric and neonatal dosing cards are in the index under this section.</p>
 <div class="filter"><input type="search" id="filter" placeholder="Filter drugs (brand names work)" aria-label="Filter list">
 <div class="chips" id="chips"><button data-chip="id-r-ucsf">ID-restricted at UCSF</button><button data-chip="id-r-zsfg">ID-restricted at ZSFG</button><button data-chip="iv-po">IV to PO</button><button data-chip="hd">Has HD/CRRT</button></div></div>
-<table class="idxtbl" id="list"><thead><tr><th>Drug</th><th>Usual dose</th><th>Flags</th></tr></thead><tbody>{"".join(rows)}</tbody></table>"""
+<table class="idxtbl" id="list"><thead><tr><th>Drug</th><th>Usual dose (first published row)</th><th>Flags</th></tr></thead><tbody>{"".join(rows)}</tbody></table>"""
     write(route, layout(ctx, root, "Adult antimicrobial dosing", content, section="drugs",
                         nav=nav_for("drugs", route, root), kicker="Dosing", h1="Adult antimicrobial dosing",
                         crumbs=[("index.html", "Home"), (None, "Dosing")]))
@@ -2382,49 +2536,35 @@ def main():
             if r:
                 out.append(f'<li><a href="{r}">{esc(label)}</a></li>')
         return "".join(out)
-    recent = sorted((m for m in models.values() if m.get("changed") and m["type"] in ("diagnosis", "drug", "guidelines", "page")),
-                    key=lambda m: m["changed"], reverse=True)[:6]
-    recent_html = "".join(
-        f'<li><a href="{m["route"]}">{esc(m["title"])}</a><span class="when">{esc(human_date(m["changed"]))}</span></li>' for m in recent)
     n_adult = len([m for m in by_type["diagnosis"] if not is_peds(m)])
     n_peds = len([m for m in by_type["diagnosis"] if is_peds(m)])
     counts = manifest.get("counts") or {}
     sections_tbl = [
-        ("empiric/index.html", "Empiric therapy", f"{n_adult} adult and {n_peds} pediatric syndromes", "Pathogens, first choice, alternative, duration. One card per clinical situation."),
-        ("drugs/index.html", "Dosing", f'{counts.get("drug", 0)} agents', "Renal bands, HD and CRRT, restriction status, and the syndromes that recommend each drug."),
-        ("antibiograms/explore.html", "Antibiograms", f"{len(abx_tables)} parsed tables", "Local susceptibility by organism or by drug, shaded, from the UCSF adult reports."),
-        ("guidelines/index.html", "Guidelines & policies", f'{counts.get("guidelines", 0)} documents', "UCSF Health, ZSFG, the VA and BCH, with restriction and allergy pathways."),
+        ("empiric/index.html", "Empiric therapy", f"{n_adult} adult and {n_peds} pediatric syndromes"),
+        ("drugs/index.html", "Dosing", f'{counts.get("drug", 0)} agents, renal and dialysis bands'),
+        ("antibiograms/explore.html", "Antibiograms", f"{len(abx_tables)} parsed tables, by organism or by drug"),
+        ("guidelines/index.html", "Guidelines & policies", f'{counts.get("guidelines", 0)} documents across UCSF Health, ZSFG, the VA and BCH'),
     ]
     sec_rows = "".join(
-        f'<a class="srow" href="{h}"><span class="srow-t">{esc(t)}</span><span class="srow-n">{esc(n)}</span><span class="srow-d">{esc(d)}</span></a>'
-        for h, t, n, d in sections_tbl)
+        f'<a class="srow" href="{h}"><span class="srow-t">{esc(t)}</span><span class="srow-d">{esc(d)}</span></a>'
+        for h, t, d in sections_tbl)
     banner = ""
     if status and not status.get("ok"):
         banner = f'<div class="note note-warn"><b>Heads up</b> The last sync ({esc(human_date(status.get("run")))}) reported problems, so some content may be stale or shown in fallback layout. <a href="changes.html">Details</a>.</div>'
+    # The front page is a search box and the two lists a clinician reaches for. The
+    # question in a band, the paragraph about the site, the changelog and the reading
+    # instructions all went: a reference that ships its own manual has already lost.
     content = f"""{banner}
-<section class="hero">
-  <h1>What do I give,<br>and how much?</h1>
-  <p class="hero-sub">An unofficial mirror of <a href="{BASE}" target="_blank" rel="noopener">idmp.ucsf.edu</a>, rebuilt nightly and reorganised for the wards. Ask in plain words, or use the index on the left.</p>
+<section class="home-ask">
   <button type="button" class="hero-ask" data-open="palette" aria-label="Search">{icon("search", "ask-ic")}<span class="ask-t">Search a syndrome, a drug with a CrCl, an organism with a drug</span><kbd>⌘K</kbd></button>
 </section>
-<section class="sections">{sec_rows}</section>
 <section class="cols">
   <div class="col" data-for="inpatient_adult"><h2>Inpatient, adult</h2><ul class="tight">{links_col("inpatient_adult")}</ul></div>
   <div class="col" data-for="outpatient_adult"><h2>Outpatient, adult</h2><ul class="tight">{links_col("outpatient_adult")}</ul></div>
   <div class="col" data-for="inpatient_peds"><h2>Inpatient, pediatric</h2><ul class="tight">{links_col("inpatient_peds")}</ul></div>
   <div class="col" data-for="outpatient_peds"><h2>Outpatient, pediatric</h2><ul class="tight">{links_col("outpatient_peds")}</ul></div>
 </section>
-
-<section class="cols">
-  <div class="col"><h2>Last edited on IDMP</h2><ul class="tight dated">{recent_html}</ul></div>
-  <div class="col"><h2>How to read this site</h2><ul class="tight notes">
-    <li>Drug names open dosing in a side panel; the page you came from stays put.</li>
-    <li>The prescription line above each regimen takes doses from that drug's own IDMP table and says so. The original cell is always underneath.</li>
-    <li><span class="tag t-ucsf">ID-R UCSF</span> and <span class="tag t-zsfg">ID-R ZSFG</span> mark restricted agents. <span class="tag k-login">UCSF login</span> marks Box or SharePoint documents.</li>
-    <li>Set your hospital and patient once in the context button; every page reorders itself.</li>
-    <li>Press <kbd>⌘K</kbd> or <kbd>/</kbd> to ask from anywhere.</li>
-  </ul></div>
-</section>"""
+<section class="sections"><h2>Sections</h2>{sec_rows}</section>"""
     write(route, layout(ctx, root, "Home", content, section="", page_class="home", nav=nav_for("", "index.html", root)))
 
     # ---- search index, pages list, pwa, status, images
