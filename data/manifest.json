@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T16:28:24+00:00",
+ "generated": "2026-09-22T14:52:36+00:00",
  "source": "https://idmp.ucsf.edu",
  "nodes": {
   "6926": {
@@ -4083,7 +4083,7 @@
    "status": 404,
    "final": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/wysiwyg/BCH%20Oak%20Antibiogram%202023_0.pdf",
    "size": null,
-   "last_modified": "Mon, 21 Sep 2026 16:37:48 GMT",
+   "last_modified": "Tue, 22 Sep 2026 15:01:03 GMT",
    "etag": null,
    "type": "text/html; charset=UTF-8",
    "first_seen": "2026-09-17T07:57:34+00:00"
