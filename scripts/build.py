@@ -624,7 +624,7 @@ def comments_parts(cell_html):
     paragraph opening with an asterisk is the footnote to a starred condition in the
     regimen cell. A paragraph recommending a consult is a next step. Everything else is
     the remainder, shown as published. Nothing is dropped and nothing is shown twice."""
-    out = {"mods": [], "foot": [], "consult": [], "rest": []}
+    out = {"mods": [], "foot": [], "consult": [], "rest": [], "duration": ""}
     soup = BeautifulSoup(cell_html or "", "lxml")
     body = soup.body
     if body is None:
@@ -649,6 +649,10 @@ def comments_parts(cell_html):
                     mod["after"] = _norm_inline(inner_html(kids[i])); i += 1
             out["mods"].append(mod)
             continue
+        if k.name == "p" and not out["duration"] and re.match(r"^\**\s*duration\s*:", txt, re.I):
+            # the pediatric tables carry the duration inside Comments, not in a column
+            h = re.sub(r"^\s*(<(?:strong|b|em|i)>\s*)*\**\s*Duration\s*:?\s*(</(?:strong|b|em|i)>\s*)*:?\s*", "", _norm_inline(inner_html(k)), flags=re.I)
+            out["duration"] = h.strip(" :"); i += 1; continue
         if k.name == "p" and txt.startswith("*"):
             out["foot"].append(_norm_inline(inner_html(k))); i += 1; continue
         if k.name == "p" and CONSULT_RX.search(txt):
@@ -658,18 +662,24 @@ def comments_parts(cell_html):
 
 def alt_band_label(lead):
     """The alternative column's own condition becomes the band over it: "If severe
-    beta-lactam allergy" says more than "Alternative"."""
+    beta-lactam allergy" says more than "Alternative". Returns (label, remainder): a lead
+    that is a sentence rather than a condition ("Obtain bone biopsy prior to...") keeps the
+    plain label and is printed under it instead."""
     t = re.sub(r"\s+", " ", lead or "").strip(" :;,.")
     if not t:
-        return "Alternative"
+        return "Alternative", ""
+    if len(t) > 64 or len(t.split()) > 9:
+        return "Alternative", t
     if re.match(r"^(if|when|unless)\b", t, re.I):
-        return t[0].upper() + t[1:]
+        return t[0].upper() + t[1:], ""
     m = re.match(r"^(for|in|with)\s+", t, re.I)
-    cond = re.search(r"allerg|intoleran|contraindic|unable|cannot|failure|pregnan|resistan|risk|precluding", t, re.I)
+    cond = re.search(r"allerg|intoleran|contraindic|unable|cannot|failure|pregnan|resistan|precluding", t, re.I)
     if cond:
         rest = t[m.end():] if m else t
-        return "If " + rest[0].lower() + rest[1:] if rest[:1].isupper() and not rest[:2].isupper() else "If " + rest
-    return "Alternative: " + t
+        if rest[:1].isupper() and not rest[:2].isupper():
+            rest = rest[0].lower() + rest[1:]
+        return "If " + rest, ""
+    return "Alternative", t
 
 def pointer_line(ptr, root):
     """A drug IDMP does not tabulate gets one line, not a panel: what decides the dose and
@@ -1850,13 +1860,19 @@ def main():
                 elif kind == "rows":
                     cols = []
                     group_label = ""
+                    cols_keys = sorted({k for cells_ in payload for k in cells_ if k != "__group__"})
                     for cells in payload:
                         if "__group__" in cells:
                             group_label = cells["__group__"]
                             continue
                         idx += 1
                         cond = cells.get("condition")
-                        label = text_only(cond["html"]) if cond else f"Option {idx}"
+                        if cond and cond["text"]:
+                            label = text_only(cond["html"])
+                        else:
+                            # no condition column: the row's own first cell names it ("1st Tier")
+                            first_txt = next((v["text"] for v in cells.values() if v["text"]), "")
+                            label = first_txt if 0 < len(first_txt) <= 40 else f"Option {idx}"
                         short = short_label(m["title"], label)
                         tags = row_tags(m["slug"], idx, label, total)
                         anchor = f"rx-{idx}"
@@ -1874,7 +1890,8 @@ def main():
                         slugs = [d["slug"] for st in regimen_tree(first["html"] if first else "")["steps"] for d in st["drugs"]]
                         cols.append({"a": anchor, "short": short, "label": label, "tags": tags, "cells": cells,
                                      "first": c_first, "alt": c_alt, "alt_cond": alt_tree.get("lead", ""),
-                                     "slugs": slugs, "group": group_label})
+                                     "slugs": slugs, "group": group_label,
+                                     "table_cols": cols_keys})
                     ctx_blocks.append(cols)
             # The chooser is the first thing the page asks and the regimen is the answer.
             # One situation at a time: the tabs are real tabs, the opening one comes from
@@ -1885,10 +1902,11 @@ def main():
             # of the comments. The definitions fold below the answer, not above it.
             folded = preamble_block(pre) if ctx_blocks else list(pre)
             body_parts = [] if ctx_blocks else list(pre)
-            any_alt_page = any(c["alt"] for cols in ctx_blocks for c in cols)
             for bi, cols in enumerate(ctx_blocks):
                 cols = curated_order(m["slug"], cols, total)
                 nc = len(cols)
+                any_alt = any(c["alt"] for c in cols)          # this table, not the whole page
+                has_dur_col = any("duration" in c["table_cols"] for c in cols)
                 if nc > 1:
                     bits, seen_g = [], None
                     for i, c in enumerate(cols):
@@ -1914,14 +1932,16 @@ def main():
                     pp.append(f'<div class="band band-first"><span class="band-t">First choice</span>'
                               f'<button type="button" class="copy" data-copy="{a}">Copy for note</button></div>')
                     pp.append(f'<div class="rgc-b rg-first">{c["first"] or "<p class=rgc-empty>IDMP lists no first-choice regimen here.</p>"}</div>')
-                    # 2. duration at dose size, straight after the last drug
-                    if cc.get("duration") and cc["duration"]["text"]:
-                        pp.append(f'<div class="rgc-d"><span>Duration:</span> <b>{cc["duration"]["html"]}</b></div>')
-                    else:
+                    cp = (comments_parts(cc["comments"]["html"]) if (cc.get("comments") and cc["comments"]["text"])
+                          else {"mods": [], "foot": [], "consult": [], "rest": [], "duration": ""})
+                    # 2. duration at dose size, straight after the last drug; "not stated" only
+                    #    where the table has a Duration column and this row left it blank
+                    dur_html = cc["duration"]["html"] if (cc.get("duration") and cc["duration"]["text"]) else cp["duration"]
+                    if dur_html:
+                        pp.append(f'<div class="rgc-d"><span>Duration:</span> <b>{dur_html}</b></div>')
+                    elif has_dur_col:
                         pp.append('<div class="rgc-d rgc-d-none"><span>Duration:</span> <b>not stated</b></div>')
                     # 3. what changes the regimen, pulled out of Comments and set under it
-                    cp = (comments_parts(cc["comments"]["html"]) if (cc.get("comments") and cc["comments"]["text"])
-                          else {"mods": [], "foot": [], "consult": [], "rest": []})
                     for f_ in cp["foot"]:
                         pp.append(f'<p class="rg-foot">{f_}</p>')
                     if cp["mods"]:
@@ -1933,9 +1953,11 @@ def main():
                         pp.append(f'<div class="mods">{"".join(mh)}</div>')
                     # 4. the alternative under its own condition
                     if c["alt"]:
-                        pp.append(f'<div class="band band-alt"><span class="band-t">{esc(alt_band_label(c["alt_cond"]))}</span></div>')
-                        pp.append(f'<div class="rgc-b rg-alt">{c["alt"]}</div>')
-                    elif any_alt_page:
+                        alt_label, alt_lead = alt_band_label(c["alt_cond"])
+                        lead_p = f'<p class="rgc-lead">{linkify_drugs(esc(alt_lead), root)[0]}</p>' if alt_lead else ""
+                        pp.append(f'<div class="band band-alt"><span class="band-t">{esc(alt_label)}</span></div>')
+                        pp.append(f'<div class="rgc-b rg-alt">{lead_p}{c["alt"]}</div>')
+                    elif any_alt:
                         pp.append(f'<p class="rgc-empty">IDMP lists no alternative regimen for {esc(c["short"].rstrip("\u2026"))}.</p>')
                     # 5. pathogens on one line
                     if cc.get("pathogens") and cc["pathogens"]["text"]:

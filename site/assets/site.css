@@ -130,7 +130,7 @@ kbd { font-size: var(--fs-s); line-height: 1; color: var(--ink-3); border: 1px s
 button { font: inherit; color: inherit; letter-spacing: inherit; }
 hr { border: 0; border-top: 1px solid var(--rule); margin: 18px 0; }
 :focus-visible { outline: 2px solid var(--link); outline-offset: 1px; }
-.skip { position: absolute; left: -999px; }
+.skip { position: absolute; left: -999px; padding: 8px 12px; }
 .skip:focus { left: 8px; top: 8px; background: var(--paper); border: 1px solid var(--rule-3); padding: 8px 12px; z-index: 99; }
 .linklike { background: 0; border: 0; padding: 0; color: var(--link); cursor: pointer; font: inherit; }
 .linklike:hover { text-decoration: underline; }
@@ -483,7 +483,9 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-s);
 .rgc-d { margin: 6px 0 8px; font-size: var(--fs-b); display: flex; gap: 6px; align-items: baseline; }
 .rgc-d > span { color: var(--ink); }
 .rgc-d b { font-weight: 700; color: var(--ink); }
-.rgc-d b p { margin: 0; display: inline; } .rgc-d-none b { font-weight: 400; color: var(--ink-4); }
+/* a first paragraph continues the "Duration:" line; any further block starts its own */
+.rgc-d b p { margin: 0 0 2px; } .rgc-d b p:first-child { display: inline; }
+.rgc-d-none b { font-weight: 400; color: var(--ink-4); }
 .rgc-lead { margin: 0 0 4px; }
 .rgc-tail { margin: 4px 0 0; }
 .stp-any { padding: 0; }
@@ -504,7 +506,7 @@ a.x-external::after, a.x-source::after { content: "↗"; font-size: var(--fs-s);
    regular weight: proximity to a bold 19px name is all the emphasis it needs. */
 .rgd { margin: 0 0 4px; }
 .rgd-l { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
-.rgd-n { font-size: var(--fs-l); font-weight: 700; letter-spacing: 0; color: var(--ink); line-height: 1.2; }
+.rgd-n { display: inline-block; min-height: 24px; font-size: var(--fs-l); font-weight: 700; letter-spacing: 0; color: var(--ink); line-height: 1.25; }
 .rgd-n:hover { color: var(--link); text-decoration: none; }
 .rgd-note { display: block; font-style: italic; }
 .dose { margin-top: 1px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; }
@@ -573,7 +575,10 @@ details.more > .rx-body { padding: 2px 0 4px; }
 .doc-in p > a:only-child, .doc-in li > a:only-child, .rg-prose > a,
 .doc-in details > ul > li > a:first-child, .events li > a, .idxtbl td > a, .tight li > a
   { display: inline-flex; align-items: center; min-height: 24px; }
-.block > summary, .refs > summary, details.block > summary { display: flex; align-items: center; min-height: 24px; cursor: pointer; }
+.block > summary, .refs > summary, details.block > summary { display: flex; align-items: center; min-height: 24px; cursor: pointer; color: var(--link); list-style: none; }
+details.block > summary::-webkit-details-marker { display: none; }
+details.block > summary::before { content: "+ "; color: var(--ink-4); margin-right: 3px; }
+details.block[open] > summary::before { content: "− "; }
 
 /* -------------------------------------------------------------- explorer */
 .explore-controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; margin: 12px 0 18px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); }
