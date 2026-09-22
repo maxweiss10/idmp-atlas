@@ -420,6 +420,14 @@ def therapy_rows(fragment, ctx, root, page_slug):
             continue
         if child.name == "table":
             grid = expand_grid(child)
+            # A header row that is one cell spanning the table is a caption ("Table 2:
+            # Preferred enteral antibiotics for definitive therapy"), not column labels.
+            # Read as labels it matched "antibiotics" and the tier rows under it became
+            # tabbed regimens named "Option 5".
+            caption = ""
+            if grid and len(grid[0]) > 1 and grid[0][0]["th"] and all(c.get("dup") for c in grid[0][1:]):
+                caption = grid[0][0]["text"]
+                grid = grid[1:]
             hdr = header_row_index(grid)
             if hdr == 0 and len(grid) > 1:
                 cols = map_columns([c["text"] for c in grid[0]])
@@ -439,9 +447,10 @@ def therapy_rows(fragment, ctx, root, page_slug):
                             rows.append(cells)
                     parts.append(("rows", rows))
                     continue
-            if hdr is None and len(grid) > 1 and len(grid[0]) >= 4:
+            if hdr is None and len(grid) > 1 and len(grid[0]) >= 4 and not caption:
                 notes.append("info: a table without a header row is shown in its original layout")
-            parts.append(("table", render_plain_table(grid)))
+            cap = f'<h3 class="tbl-cap">{esc(caption)}</h3>' if caption else ""
+            parts.append(("table", cap + render_plain_table(grid)))
         else:
             parts.append(("html", str(child)))
     if notes:

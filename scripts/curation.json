@@ -569,7 +569,7 @@
     "outpatient",
     "inpatient"
    ],
-   "n": 8,
+   "n": 4,
    "rows": {
     "1": [
      "inpatient"
@@ -583,7 +583,8 @@
    "default": [
     "inpatient"
    ],
-   "n": 9
+   "n": 1,
+   "rows": {}
   },
   "coronavirus-disease-2019-covid-19": {
    "default": [
