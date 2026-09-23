@@ -1,8 +1,8 @@
 {
- "run": "2026-09-22T14:52:36+00:00",
+ "run": "2026-09-23T15:00:54+00:00",
  "ok": true,
  "exit_code": 0,
- "duration_s": 507.8,
+ "duration_s": 414.1,
  "problems": [
   {
    "level": "soft",
