@@ -277,5 +277,215 @@
    }
   ],
   "problems": []
+ },
+ {
+  "run": "2026-09-26T14:29:09+00:00",
+  "events": [
+   {
+    "kind": "updated",
+    "nid": 8786,
+    "type": "ucsf_person",
+    "title": "Conan MacDougall, PharmD, MAS",
+    "alias": "/people/conan-macdougall-pharmd-mas",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00",
+    "fields": [
+     {
+      "field": "field_person_research_biography",
+      "diff": [
+       "@@ -5 +5 @@",
+       "-Dr. MacDougall's original research and reviews have been published in Clinical Infectious Diseases, Antimicrobial Agents and Chemotherapy, Clinical Microbiology Reviews, Emerging Infectious Diseases, Archives of Internal Medicine, American Journal of Pharmaceutical Education, and Pharmacotherapy. He currently serves as Chair of the Specialty Council on Infectious Diseases for the Board of Pharmaceutical Specialties and is an active member of the Medical Education Community of Practice of the Infectious Diseases Society of America.",
+       "+Dr. MacDougall's original research and reviews have been published in Clinical Infectious Diseases, Antimicrobial Agents and Chemotherapy, Clinical Microbiology Reviews, Emerging Infectious Diseases, Archives of Internal Medicine, American Journal of Pharmaceutical Education, and Pharmacotherapy. He has served as Chair and Vice-Chair of the Specialty Council on Infectious Diseases for the Board of Pharmaceutical Specialties and is an active member of the Medical Education Community of Practice of the Infectious Diseases Society of America."
+      ],
+      "truncated": false
+     }
+    ]
+   },
+   {
+    "kind": "touched",
+    "nid": 9136,
+    "type": "ucsf_person",
+    "title": "Rachel Wattier, MD, MHS",
+    "alias": "/people/rachel-wattier-md-mhs",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 9796,
+    "type": "ucsf_person",
+    "title": "Deborah Yokoe, MD, MPH",
+    "alias": "/people/deborah-yokoe-md-mph",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 10056,
+    "type": "ucsf_person",
+    "title": "Jennifer Mulliken, MD",
+    "alias": "/people/jennifer-mulliken-md",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "updated",
+    "nid": 10061,
+    "type": "ucsf_person",
+    "title": "Alexandra Horeczko",
+    "alias": "/people/alexandra-horeczko",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00",
+    "fields": [
+     {
+      "field": "field_person_email",
+      "diff": [
+       "@@ -1 +0,0 @@",
+       "-alexandra.hilts-horeczko@ucsf.edu"
+      ],
+      "truncated": false
+     }
+    ]
+   },
+   {
+    "kind": "touched",
+    "nid": 10161,
+    "type": "ucsf_person",
+    "title": "Katherine Yang, PharmD, MPH",
+    "alias": "/people/katherine-yang-pharmd-mph",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 10181,
+    "type": "ucsf_person",
+    "title": "Rachel Bystritsky, MD",
+    "alias": "/people/rachel-bystritsky-md",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 10411,
+    "type": "ucsf_person",
+    "title": "Lynn Ramirez, MD, MS",
+    "alias": "/people/lynn-ramirez-md-ms",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 10646,
+    "type": "ucsf_person",
+    "title": "Chaz Langelier, MD, PhD",
+    "alias": "/people/chaz-langelier-md-phd",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 11301,
+    "type": "ucsf_person",
+    "title": "Charles Chiu, MD, PhD",
+    "alias": "/people/charles-chiu-md-phd",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 11561,
+    "type": "ucsf_person",
+    "title": "Lisa Winston, MD",
+    "alias": "/people/lisa-winston-md",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 12161,
+    "type": "ucsf_person",
+    "title": "Prachi Singh, DO",
+    "alias": "/people/prachi-singh-do",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 12496,
+    "type": "ucsf_person",
+    "title": "Vivek Jain, MD, MAS",
+    "alias": "/people/vivek-jain-md-mas",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "updated",
+    "nid": 12741,
+    "type": "ucsf_person",
+    "title": "Jennifer Babik, MD, PhD",
+    "alias": "/people/jennifer-babik-md-phd",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00",
+    "fields": [
+     {
+      "field": "field_profiles_honors_awards",
+      "diff": [
+       "@@ -7,3 +6,0 @@",
+       "-Distinction in Teaching Award from the UCSF Academic Senate, UCSF, 2016",
+       "-Induction into the Haile T. Debas Academy of Medical Educators, UCSF, 2015",
+       "-Vincent G. Pons Award for Excellence in Clinical Infectious Diseases Teaching, UCSF, 2015"
+      ],
+      "truncated": false
+     }
+    ]
+   },
+   {
+    "kind": "touched",
+    "nid": 14221,
+    "type": "ucsf_person",
+    "title": "Emily Kaip, PharmD",
+    "alias": "/people/emily-kaip-pharmd",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 14251,
+    "type": "ucsf_person",
+    "title": "Daniel Escobar, MD, MS",
+    "alias": "/people/daniel-escobar-md-ms",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 14306,
+    "type": "ucsf_person",
+    "title": "Cynthia Huwe",
+    "alias": "/people/cynthia-huwe",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 15266,
+    "type": "ucsf_person",
+    "title": "William Simmons, MD",
+    "alias": "/people/william-simmons-md",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   },
+   {
+    "kind": "touched",
+    "nid": 16276,
+    "type": "ucsf_person",
+    "title": "Victoria Dudas, PharmD",
+    "alias": "/people/victoria-dudas-pharmd",
+    "changed_from": "2026-09-18T01:32:53+00:00",
+    "changed": "2026-09-25T16:42:05+00:00"
+   }
+  ],
+  "problems": []
  }
 ]
