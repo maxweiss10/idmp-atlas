@@ -1,8 +1,8 @@
 {
- "run": "2026-09-28T18:09:48+00:00",
+ "run": "2026-09-29T16:30:33+00:00",
  "ok": true,
  "exit_code": 0,
- "duration_s": 599.8,
+ "duration_s": 626.9,
  "problems": [
   {
    "level": "soft",
@@ -24,7 +24,7 @@
  },
  "pages_crawled": 401,
  "files": 59,
- "built": "2026-09-28T18:19:48+00:00",
+ "built": "2026-09-29T16:41:00+00:00",
  "build_warnings": 2,
  "ver": "b7d0f7b6"
 }
