@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T16:30:33+00:00",
+ "generated": "2026-09-30T16:24:27+00:00",
  "source": "https://idmp.ucsf.edu",
  "nodes": {
   "6926": {
@@ -3768,7 +3768,7 @@
    "status": 200,
    "final": "https://idmp.ucsf.edu/document/necrotizing-soft-tissue-infection-guidelines-pdf",
    "size": null,
-   "last_modified": "Tue, 29 Sep 2026 16:40:40 GMT",
+   "last_modified": "Wed, 30 Sep 2026 16:33:30 GMT",
    "etag": null,
    "type": "text/html; charset=UTF-8",
    "first_seen": "2026-09-17T07:57:34+00:00"
@@ -4083,7 +4083,7 @@
    "status": 404,
    "final": "https://idmp.ucsf.edu/sites/g/files/tkssra17776/files/wysiwyg/BCH%20Oak%20Antibiogram%202023_0.pdf",
    "size": null,
-   "last_modified": "Tue, 29 Sep 2026 16:40:59 GMT",
+   "last_modified": "Wed, 30 Sep 2026 16:33:46 GMT",
    "etag": null,
    "type": "text/html; charset=UTF-8",
    "first_seen": "2026-09-17T07:57:34+00:00"
