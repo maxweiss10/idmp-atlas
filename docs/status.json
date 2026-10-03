@@ -1,17 +1,17 @@
 {
- "run": "2026-10-02T16:16:07+00:00",
- "ok": false,
- "exit_code": 3,
- "duration_s": 556.2,
+ "run": "2026-10-03T14:43:29+00:00",
+ "ok": true,
+ "exit_code": 0,
+ "duration_s": 369.1,
  "problems": [
   {
-   "level": "hard",
-   "code": "home-unreachable",
-   "message": "GET https://idmp.ucsf.edu/ returned 403"
+   "level": "soft",
+   "code": "file-unavailable",
+   "message": "/sites/g/files/tkssra17776/files/wysiwyg/BCH%20Oak%20Antibiogram%202023_0.pdf returned HTTP 404"
   }
  ],
  "warnings": 1,
- "events": 0,
+ "events": 18,
  "source": "https://idmp.ucsf.edu",
  "counts": {
   "page": 28,
@@ -24,7 +24,7 @@
  },
  "pages_crawled": 401,
  "files": 59,
- "built": "2026-10-01T17:10:45+00:00",
+ "built": "2026-10-03T14:49:38+00:00",
  "build_warnings": 2,
  "ver": "b7d0f7b6"
 }
